@@ -7,16 +7,16 @@ class SWIFT_StaffTest extends \SWIFT_TestCase
 	{
 		return [
 			[
-				['FirstName', 'LastName', 'test@kayako.com', '', '', 'Greeting', 'UTC', true],
-				['FirstName', 'LastName', 'FirstName LastName', 'test@kayako.com', '', 'Greeting', 'UTC', true],
+				['FirstName', 'LastName', 'test@opencart.com.vn', '', '', 'Greeting', 'UTC', true],
+				['FirstName', 'LastName', 'FirstName LastName', 'test@opencart.com.vn', '', 'Greeting', 'UTC', true],
 			],
 			[
-				['<a href="http://www.kayako.com">FirstName</a>', '<a href="http://www.kayako.com">LastName</a>', 'test@kayako.com', '', '', '<a href="http://www.kayako.com">Greeting</a>', 'UTC', true],
-				['FirstName', 'LastName', 'FirstName LastName', 'test@kayako.com', '', 'Greeting', 'UTC', true],
+				['<a href="http://www.opencart.com.vn">FirstName</a>', '<a href="http://www.opencart.com.vn">LastName</a>', 'test@opencart.com.vn', '', '', '<a href="http://www.opencart.com.vn">Greeting</a>', 'UTC', true],
+				['FirstName', 'LastName', 'FirstName LastName', 'test@opencart.com.vn', '', 'Greeting', 'UTC', true],
 			],
 			[
-				['<a href="http://www.kayako.com">FirstName', '<a href="http://www.kayako.com">LastName', 'test@kayako.com', '', '', '<a href="http://www.kayako.com">Greeting', 'UTC', true],
-				['FirstName', 'LastName', 'FirstName LastName', 'test@kayako.com', '', 'Greeting', 'UTC', true],
+				['<a href="http://www.opencart.com.vn">FirstName', '<a href="http://www.opencart.com.vn">LastName', 'test@opencart.com.vn', '', '', '<a href="http://www.opencart.com.vn">Greeting', 'UTC', true],
+				['FirstName', 'LastName', 'FirstName LastName', 'test@opencart.com.vn', '', 'Greeting', 'UTC', true],
 			],
 		];
 	}

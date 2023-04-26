@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -131,7 +131,7 @@ class View_Escalation extends SWIFT_View
 
         // ======= RENDER SLA PLANS =======
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4444: "Disabled SLA plan gets applied on the ticket if set in the triggered Escalation rule."
          *

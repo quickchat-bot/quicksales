@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -308,7 +308,7 @@ class SWIFT_TicketAjaxManager extends SWIFT_Library
 
 
         /**
-         * BUG FIX - Madhur Tandon <madhur.tandon@kayako.com>
+         * BUG FIX - Madhur Tandon <madhur.tandon@opencart.com.vn>
          *
          * SWIFT-3039 Disabled staff is shown under 'Owner' field in tickets, if department is changed from drop-down
          *

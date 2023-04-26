@@ -5,7 +5,7 @@
 //
 // Source Copyright 2001QuickSupport Singapore Pte. Ltd.h Ltd.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//                          www.kayako.com
+//                          www.opencart.com.vn
 //###################################
 //=======================================
 

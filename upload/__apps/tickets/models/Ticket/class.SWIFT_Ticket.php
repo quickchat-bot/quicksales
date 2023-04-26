@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -1263,7 +1263,7 @@ class SWIFT_Ticket extends SWIFT_Model
         $_newUserNotificationStatusTitle = $_newNotificationStatusTitle;
 
         /**
-         * BUG FIX - Ravi sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3202 Undefined offset: 0 (D:/xampp/htdocs/kayako/__apps/tickets/models/Ticket/class.SWIFT_Ticket.php:2420)
          */
@@ -1289,7 +1289,7 @@ class SWIFT_Ticket extends SWIFT_Model
             $this->UpdatePool('reopendateline', DATENOW);
         }
         /**
-         * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4424 SLA plan is not applied if clear Reply Due time option is enabled for a status.
          * SWIFT-5128 SLA timers getting reset to previous values while replying the tickets
@@ -1341,7 +1341,7 @@ class SWIFT_Ticket extends SWIFT_Model
         // Load and Process Workflow Rules
         self::AddToWorkflowQueue($this);
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-3020 Survey Email arrives first followed by ticket reply.
          *
@@ -2417,7 +2417,7 @@ class SWIFT_Ticket extends SWIFT_Model
 
         $_historyContainer = array();
 
-        /** BUG FIX : Parminder Singh <parminder.singh@kayako.com>
+        /** BUG FIX : Parminder Singh <parminder.singh@opencart.com.vn>
          *
          * SWIFT-2041 : Wrong count under History tab, when ticket is created from Staff CP using 'Send Mail' option
          */
@@ -2513,7 +2513,7 @@ class SWIFT_Ticket extends SWIFT_Model
         if (!empty($_noteContents)) {
             if ($_isOrganizationNote) {
                 /**
-                 * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+                 * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
                  *
                  * SWIFT-2103 - Adding User Note via Ticket Followup results [User Error] : Invalid data provided
                  */
@@ -2566,7 +2566,7 @@ class SWIFT_Ticket extends SWIFT_Model
 	                0, '', 0, '', ['al_ticketnote']);
             }
             /**
-             * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+             * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
              *
              * SWIFT-4391 'Clear reply due deadline when adding a ticket note' option is not working.
              *
@@ -2794,8 +2794,8 @@ class SWIFT_Ticket extends SWIFT_Model
             $_whereExtended = ' AND isresolved = "1"';
         }
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4462 Wrong ticket count at client support center.
          * SWIFT-5150 Incorrect tickets count on help center for shared organization.
@@ -2881,7 +2881,7 @@ class SWIFT_Ticket extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-5283: "Incorrect contents sent in the new ticket note added notification"
          **/
@@ -2982,7 +2982,7 @@ class SWIFT_Ticket extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4086: "Incorrect contents sent in the new ticket note added notification"
          **/
@@ -3244,7 +3244,7 @@ class SWIFT_Ticket extends SWIFT_Model
             }
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4911 Extra parameter added in the MarkAsAutoClosed(...) function
              */

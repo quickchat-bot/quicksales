@@ -9,8 +9,8 @@
  *
  * @package       swift
  * @copyright     Copyright (c) 2001-2018, Trilogy
- * @license       http://kayako.com/license
- * @link          http://kayako.com
+ * @license       http://opencart.com.vn/license
+ * @link          http://opencart.com.vn
  *
  * ###############################################
  */
@@ -139,7 +139,7 @@ class Controller_UserTest extends SWIFT_TestCase
             'csrfhash' => 'csrfhash',
             'fullname' => 'Fake Name',
             'usergroupid' => 1,
-            'taginput_emails' => 'fake@kayako.com',
+            'taginput_emails' => 'fake@opencart.com.vn',
             'taginput_organization' => 'fakeorg'
         ];
 

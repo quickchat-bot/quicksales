@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -173,7 +173,7 @@ class SWIFT_HTML extends SWIFT_Library
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3688 HTML tags are not being rendered, even if defined under ticket settings
          *
@@ -187,7 +187,7 @@ class SWIFT_HTML extends SWIFT_Library
     /**
      * Removing new line spaces from attributes
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @param string $_content
      *
@@ -203,7 +203,7 @@ class SWIFT_HTML extends SWIFT_Library
     /**
      * Detect body and br tags from content
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @param string $_content
      *

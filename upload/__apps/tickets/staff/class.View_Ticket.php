@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -115,7 +115,7 @@ class View_Ticket extends SWIFT_View
          * ###############################################
         */
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4941 Check Custom Tweaks compatibility with SWIFT
          */
@@ -141,7 +141,7 @@ class View_Ticket extends SWIFT_View
                         $_fileExtension = mb_strtolower(mb_substr($_attachmentContainer['filename'], (mb_strrpos($_attachmentContainer['filename'], '.') + 1)));
 
                         /**
-                         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                          *
                          * SWIFT-4995 Unable to quote posts with inline attachments older than 3 days
                          */
@@ -491,7 +491,7 @@ class View_Ticket extends SWIFT_View
             $_optionsContainer[$_index]['value'] = $_slaPlanID;
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4430 Disabled SLA plan can be implemented over a ticket manually from 'Edit' tab.
              */
@@ -819,7 +819,7 @@ class View_Ticket extends SWIFT_View
         $_User = $_Ticket->GetUserObject();
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4343: Security Issue
          * SWIFT-5060 Unicode characters like emojis not working in the subject

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -85,7 +85,7 @@ class Controller_TicketPost extends Controller_api implements SWIFT_REST_Interfa
     /**
      * Get a list of Ticket Posts for the given ticket
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+Ticket
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+Ticket
      *
      * @author Varun Shoor
      * @param int $_ticketID The Ticket ID
@@ -155,7 +155,7 @@ class Controller_TicketPost extends Controller_api implements SWIFT_REST_Interfa
                 $this->XML->AddTag('contents', $_ticketPost['contents']);
                 $this->XML->AddTag('isprivate', $_ticketPost['isprivate']);
             /**
-             * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+             * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
              *
              * SWIFT-2632 There should be an option of retrieving attachments for the specific ticket post via REST API
              *
@@ -207,7 +207,7 @@ class Controller_TicketPost extends Controller_api implements SWIFT_REST_Interfa
     /**
      * Retrieve the Ticket Post
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+Ticket
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+Ticket
      *
      * @author Varun Shoor
      * @param int $_ticketID The Ticket ID
@@ -251,7 +251,7 @@ class Controller_TicketPost extends Controller_api implements SWIFT_REST_Interfa
     /**
      * Create a new Ticket Post
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+Ticket
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+Ticket
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise
@@ -305,7 +305,7 @@ class Controller_TicketPost extends Controller_api implements SWIFT_REST_Interfa
         }
 
         /*
-         * BUG FIX - Pankaj Garg <pankaj.garg@kayako.com>
+         * BUG FIX - Pankaj Garg <pankaj.garg@opencart.com.vn>
          *
          * SWIFT-3104 There should be an option to send attachments with staff's update (using 'Send Mail' option) when ticket is updated via REST API
          *

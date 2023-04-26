@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -1141,7 +1141,7 @@ class Controller_User extends Controller_staff
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4364 Security Issue.
          *
@@ -2201,7 +2201,7 @@ class Controller_User extends Controller_staff
     /**
      * Import the user data from CSV
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @return bool "true" on Success, "false" otherwise
      * @throws SWIFT_Exception If the Class is not Loaded
@@ -2232,7 +2232,7 @@ class Controller_User extends Controller_staff
     /**
      * Import CSV Submission Processor
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @return bool "true" on Success, "false" otherwise
      * @throws SWIFT_Exception If the Class is not Loaded

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -157,8 +157,8 @@ class Controller_User extends Controller_api implements SWIFT_REST_Interface
      *        <salutation>Mr.</salutation>
      *        <userexpiry>0</userexpiry>
      *        <fullname>John Doe</fullname>
-     *        <email>john.doe@kayako.com</email>
-     *        <email>john@kayako.com</email>
+     *        <email>john.doe@opencart.com.vn</email>
+     *        <email>john@opencart.com.vn</email>
      *        <designation>CEO</designation>
      *        <phone>123456789</phone>
      *        <dateline><![CDATA[1296540309]]></dateline>
@@ -204,8 +204,8 @@ class Controller_User extends Controller_api implements SWIFT_REST_Interface
      *        <salutation>Mr.</salutation>
      *        <userexpiry>0</userexpiry>
      *        <fullname>John Doe</fullname>
-     *        <email>john.doe@kayako.com</email>
-     *        <email>john@kayako.com</email>
+     *        <email>john.doe@opencart.com.vn</email>
+     *        <email>john@opencart.com.vn</email>
      *        <designation>CEO</designation>
      *        <phone>123456789</phone>
      *        <dateline>1296540309</dateline>
@@ -251,8 +251,8 @@ class Controller_User extends Controller_api implements SWIFT_REST_Interface
      *        <salutation>Mr.</salutation>
      *        <userexpiry>0</userexpiry>
      *        <fullname>John Doe</fullname>
-     *        <email>john.doe@kayako.com</email>
-     *        <email>john@kayako.com</email>
+     *        <email>john.doe@opencart.com.vn</email>
+     *        <email>john@opencart.com.vn</email>
      *        <designation>CEO</designation>
      *        <phone>123456789</phone>
      *        <dateline><![CDATA[1296540309]]></dateline>
@@ -303,8 +303,8 @@ class Controller_User extends Controller_api implements SWIFT_REST_Interface
      *        <salutation>Mr.</salutation>
      *        <userexpiry>0</userexpiry>
      *        <fullname>John Doe</fullname>
-     *        <email>john.doe@kayako.com</email>
-     *        <email>john@kayako.com</email>
+     *        <email>john.doe@opencart.com.vn</email>
+     *        <email>john@opencart.com.vn</email>
      *        <designation>CEO</designation>
      *        <phone>123456789</phone>
      *        <dateline><![CDATA[1296540309]]></dateline>
@@ -388,7 +388,7 @@ class Controller_User extends Controller_api implements SWIFT_REST_Interface
             $_userRole = SWIFT_User::ROLE_MANAGER;
         }
         /**
-         * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-5195 : Better handling of email address for a user account
          *
@@ -592,7 +592,7 @@ class Controller_User extends Controller_api implements SWIFT_REST_Interface
             $_userRole = SWIFT_User::ROLE_USER;
         }
         /**
-         * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-5195 : Better handling of email address for a user account
          *

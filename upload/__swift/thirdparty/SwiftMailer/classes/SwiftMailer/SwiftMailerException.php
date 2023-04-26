@@ -25,7 +25,7 @@ class SwiftMailer_SwiftMailerException extends Exception
     public function __construct($message, $code = 0, Exception $previous = null)
     {
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4831 SMTP errors should be logged under error logs for notification emails when there is issue with SMTP server.
          */

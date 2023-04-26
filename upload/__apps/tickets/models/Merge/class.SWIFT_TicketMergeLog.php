@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -281,7 +281,7 @@ class SWIFT_TicketMergeLog extends SWIFT_Model {
             throw new SWIFT_Exception(SWIFT_INVALIDDATA);
         }
         /**
-         * BUG FIX : Ashish Kataria <ashish.kataria@kayako.com>
+         * BUG FIX : Ashish Kataria <ashish.kataria@opencart.com.vn>
          *
          * SWIFT-2677 : Staff reply not updated on merged ticket
          */

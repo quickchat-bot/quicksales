@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -243,7 +243,7 @@ class Controller_VisitorUpdate extends Controller_visitor
         }
 
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-5012 Error: gethostbyaddr(): Address is not a valid IPv4 or IPv6 address
          *

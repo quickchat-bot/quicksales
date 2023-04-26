@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -381,7 +381,7 @@ class SWIFT_NotificationManager extends SWIFT_Library
                 // Ticket
                 if ($this->GetRuleType() == SWIFT_NotificationRule::TYPE_TICKET) {
                     /**
-                     * BUG FIX - Mansi Wason<mansi.wason@kayako.com>
+                     * BUG FIX - Mansi Wason<mansi.wason@opencart.com.vn>
                      *
                      * SWIFT-4233 Private replies are sent to users, if 'User' is selected in 'New reply from staff' notifications.
                      *

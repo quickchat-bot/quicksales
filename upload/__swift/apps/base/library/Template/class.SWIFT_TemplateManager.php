@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -659,7 +659,7 @@ class SWIFT_TemplateManager extends SWIFT_Library
                     $_templateContents = $_finalTemplates['category'][$_ii]['children']['template'][$_kk]['values'][0];
 
                     /**
-                     * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+                     * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                      *
                      * SWIFT-4762 While upgrading product restore notification should come only for modified template, phrases.
                      *

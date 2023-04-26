@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -1317,7 +1317,7 @@ class SWIFT_Attachment extends SWIFT_Model
     /**
      * Retrieve the Attachments as Base64 encoded
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @return string|bool The Base 64 encoded string
      * @throws SWIFT_Exception If Invalid Data is Provided

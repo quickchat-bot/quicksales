@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -1470,7 +1470,7 @@ class SWIFT_UserInterfaceTab extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-5067 SMTP server password does not accept %12 in the password
          */
@@ -1583,7 +1583,7 @@ class SWIFT_UserInterfaceTab extends SWIFT_Model
             $_finalIcon = $_icon;
         }
         /**
-         * Feature : Mansi Wason <mansi.wason@kayako.com>
+         * Feature : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT: 4759 Add a toggle button to deselect/select all CC recipeints on ticket replies
          *
@@ -1655,7 +1655,7 @@ class SWIFT_UserInterfaceTab extends SWIFT_Model
      *        'checked'    =>    checked or not
      *    ));
      *
-     * @author Abhinav Kumar <abhinav.kumar@kayako.com>
+     * @author Abhinav Kumar <abhinav.kumar@opencart.com.vn>
      * @param string $_name The Field Name
      * @param string $_title The Field Title
      * @param string $_description (OPTIONAL) The Field Description
@@ -1753,7 +1753,7 @@ class SWIFT_UserInterfaceTab extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4767 Auto-sugesstion is not working for CC option under the Forward tab.
          *
@@ -2023,7 +2023,7 @@ class SWIFT_UserInterfaceTab extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-5066 Need to use the same image upload option on KB's / News as the new staff reply editor
          */
@@ -2297,7 +2297,7 @@ class SWIFT_UserInterfaceTab extends SWIFT_Model
             }
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4430 Disabled SLA plan can be implemented over a ticket manually from 'Edit' tab.
              */

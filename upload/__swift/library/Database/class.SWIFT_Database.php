@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -614,8 +614,8 @@ class SWIFT_Database extends SWIFT_Base
     /**
      * Used for batch/bulk insert, i.e will insert multiple rows in using one query
      *
-     * @author Bishwanath Jha <bishwanath.jha@kayako.com>
-     * @author Nidhi Gupta <nidhi.gupta@kayako.com>
+     * @author Bishwanath Jha <bishwanath.jha@opencart.com.vn>
+     * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>
      *
      * @param string $_tableName
      * @param array  $_fieldValueContainer

@@ -8,8 +8,8 @@
  * @package    SWIFT
  * @author    QuickSupport Singapore Pte. Ltd.
  * @copyright    Copyright (c) 2001-2009, QuickSupport Singapore Pte. Ltd.
- * @license    http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license    http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  * @filesource
  * ###################################
  * =======================================
@@ -191,7 +191,7 @@ class Controller_Article extends Controller_api implements SWIFT_REST_Interface
      * List all Articles
      *
      * @author Simaranjit Singh
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
      *
      * @param int     $_knowledgebaseCategoryID
      * @param int     $_rowsPerPage              (OPTIONAL)

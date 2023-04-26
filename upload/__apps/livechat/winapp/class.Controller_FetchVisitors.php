@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -1101,7 +1101,7 @@ class Controller_FetchVisitors extends Controller_winapp
                     }
 
                     /**
-                     * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                     * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                      *
                      * SWIFT-3702 In Open Queue mode, chats cannot be transferred to staff if live chat department is not assigned.
                      *
@@ -1408,7 +1408,7 @@ class Controller_FetchVisitors extends Controller_winapp
         }
 
         /**
-         * BUG FIX - Abhishek Mittal <abhishek.mittal@kayako.com>
+         * BUG FIX - Abhishek Mittal <abhishek.mittal@opencart.com.vn>
          *
          * SWIFT-949 Custom Field values are not displayed correctly in KD for Radio custom fileds
          *
@@ -1427,7 +1427,7 @@ class Controller_FetchVisitors extends Controller_winapp
             }
 
             /**
-             * BUG FIX - Abhishek Mittal <abhishek.mittal@kayako.com>
+             * BUG FIX - Abhishek Mittal <abhishek.mittal@opencart.com.vn>
              *
              * SWIFT-949 Custom Field values are not displayed correctly in KD for Radio custom fileds
              *

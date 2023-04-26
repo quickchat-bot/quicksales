@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -560,8 +560,8 @@ abstract class SWIFT_ReportBase extends SWIFT_Library
 
             case SWIFT_KQL2::DATA_DATE:
                 /**
-                 * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
-                 * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+                 * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
+                 * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
                  *
                  * SWIFT-4504 Difference in date & time of 'Date' type Custom Field
                  * SWIFT-5050 Incorrect date calculations with all 'US' based time zones in reports
@@ -1631,7 +1631,7 @@ abstract class SWIFT_ReportBase extends SWIFT_Library
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4036: Incorrect ticket URL in scheduled report
          *
@@ -1665,7 +1665,7 @@ abstract class SWIFT_ReportBase extends SWIFT_Library
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4036: Incorrect ticket URL in scheduled report
          *
@@ -1695,7 +1695,7 @@ abstract class SWIFT_ReportBase extends SWIFT_Library
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4036: Incorrect ticket URL in scheduled report
          *
@@ -1729,7 +1729,7 @@ abstract class SWIFT_ReportBase extends SWIFT_Library
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4036: Incorrect ticket URL in scheduled report
          *
@@ -1759,7 +1759,7 @@ abstract class SWIFT_ReportBase extends SWIFT_Library
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4036: Incorrect ticket URL in scheduled report
          *
@@ -1794,7 +1794,7 @@ abstract class SWIFT_ReportBase extends SWIFT_Library
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4036: Incorrect ticket URL in scheduled report
          *

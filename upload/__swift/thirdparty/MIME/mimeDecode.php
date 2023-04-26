@@ -316,7 +316,7 @@ class Mail_mimeDecode
                                                           'decode_bodies'  => $this->_decode_bodies,
                                                           'decode_headers' => $this->_decode_headers));
                     /**
-                     * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
+                     * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                      *
                      * SWIFT-4784 Add an option to parse eml attachments as attachments
                      *
@@ -427,7 +427,7 @@ class Mail_mimeDecode
                 $hdr_value = substr($value, $pos+1);
 
                 /**
-                 * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                 * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                  *
                  * SWIFT-5129 Russian characters are rendering as '?' in email subject.
                  *

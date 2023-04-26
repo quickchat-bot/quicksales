@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -103,7 +103,7 @@ class SWIFT_NewsSubscriberDispatch extends SWIFT_Library
         if ($this->NewsItem->GetProperty('newstype') == SWIFT_NewsItem::TYPE_GLOBAL || $this->NewsItem->GetProperty('newstype') == SWIFT_NewsItem::TYPE_PUBLIC) {
             if ($_userVisibilityCustom == true) {
 
-                /** BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+                /** BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
                  *
                  * SWIFT-3239 : News is not dispatched to 'Subscriber' list if concerned news article is restricted on basis of user group
                  *

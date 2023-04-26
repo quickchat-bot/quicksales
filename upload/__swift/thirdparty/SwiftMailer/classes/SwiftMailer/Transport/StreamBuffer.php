@@ -257,7 +257,7 @@ class SwiftMailer_Transport_StreamBuffer extends SwiftMailer_ByteStream_Abstract
         }
         
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-5224 Swiftmailer throwing error when send mails on PHP 5.6 without correct OpenSSL certificate
          */

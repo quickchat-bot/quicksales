@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -183,7 +183,7 @@ class SWIFT_MailParser extends SWIFT_Library
         $this->LogDebug('MIME Classes Initialized');
 
         /*
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4873 Helpdesk should parse emails containing no recipient details.
          */
@@ -227,7 +227,7 @@ class SWIFT_MailParser extends SWIFT_Library
                         sprintf("%.02f", $_messageSize) . $this->Language->Get('kb')), $this->GetRawEmailData(), 0, array(), $this->MailParserEmail->GetMessageID());
 
                 /**
-                 * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                 * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                  *
                  * SWIFT-4619 Warn users when their email is rejected due to size limit.
                  */
@@ -295,7 +295,7 @@ class SWIFT_MailParser extends SWIFT_Library
             $this->LogDebug('From Email is Banned: ' . $this->MailParserEmail->GetFromEmail());
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-5126 Admin receiving email parser alerts for banned email address as well.
              */
@@ -308,7 +308,7 @@ class SWIFT_MailParser extends SWIFT_Library
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4506 Duplicate users accounts are created for same email address.
          *
@@ -511,7 +511,7 @@ class SWIFT_MailParser extends SWIFT_Library
     /**
      * Multiple pipe check
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @param  array $_recipientList
      *
@@ -577,7 +577,7 @@ class SWIFT_MailParser extends SWIFT_Library
         foreach ($_recipientMap as $_emailAddress => $_emailQueueID) {
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4255 - In case of PIPE email queue, Catch-all rule is triggered just after checking 'to' address (skips checking 'cc' and 'bcc') of the email headers.
              *

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -588,7 +588,7 @@ class SWIFT_FileManager extends SWIFT_Model
         header("Content-Disposition: attachment; filename=\"" . $this->GetProperty('originalfilename') . "\"");
         header("Content-Transfer-Encoding: binary");
 
-        /** BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+        /** BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
          *
          * SWIFT-3164 : Custom field attachments are not visible if they have moved to cloud
          *

@@ -1,11 +1,11 @@
 <?php
 /**
- * @author         Ravi Sharma <ravi.sharma@kayako.com>
+ * @author         Ravi Sharma <ravi.sharma@opencart.com.vn>
  *
  * @package        SWIFT
  * @copyright      2001-2015 QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  */
 
 namespace Emoji;
@@ -13,7 +13,7 @@ namespace Emoji;
 /**
  * The Emoji class
  *
- * @author Ravi Sharma <ravi.sharma@kayako.com>
+ * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
  */
 class Emoji
 {
@@ -49,7 +49,7 @@ class Emoji
         $unifiedToVariables = $this->getUnifiedToVariables();
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4992 \X strips off everything which follows it.
          */

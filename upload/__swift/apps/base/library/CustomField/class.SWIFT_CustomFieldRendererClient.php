@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -347,7 +347,7 @@ class SWIFT_CustomFieldRendererClient extends SWIFT_CustomFieldRenderer
                     if (!empty($_customFieldValue)) {
                         try {
                             $_SWIFT_FileManagerObject = new SWIFT_FileManager($_customFieldValue);
-                            /** BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+                            /** BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
                              *
                              * SWIFT-3164 : Custom field attachments are not visible if they have moved to cloud
                              */

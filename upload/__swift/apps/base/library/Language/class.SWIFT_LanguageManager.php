@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -312,7 +312,7 @@ class SWIFT_LanguageManager extends SWIFT_Library
             }
 
             /**
-             * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+             * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
              *
              * SWIFT-4762 While upgrading product restore notification should come only for modified template, phrases.
              *
@@ -497,14 +497,14 @@ class SWIFT_LanguageManager extends SWIFT_Library
 
             $_isMaster = $_isDefault = false;
             /**
-             * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>, Mansi Wason <mansi.wason@kayako.com>
+             * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>, Mansi Wason <mansi.wason@opencart.com.vn>
              *
              * SWIFT-4303 : Languages support within product
              *
              * Comments: Changes to support multiple language files placed at same location.
              */
             /**
-             * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+             * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
              *
              * SWIFT-5063 : "Warning array_merge(): Argument #2 is not an array" error in case of "open_basedir" is enabled
              *

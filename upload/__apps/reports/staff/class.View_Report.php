@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -359,10 +359,10 @@ class View_Report extends SWIFT_View
                 <p class='text'>KQL is the syntax used to define a report. KQL is used to specify the information to include in your report and how the report should be displayed and formatted.</p>
                 <p class='text'>The following KQL statement:</p>
                 <p><span class='code'>SELECT 'Tickets.Ticket Mask ID', 'Tickets.Subject', 'Users.Fullname' FROM 'Tickets', 'Users' WHERE 'Tickets.Department' = 'Sales' AND 'Tickets.Status' = 'Open'</span><p>
-                <p class='text'>would produce a table of all the Open tickets in the Sales department. In this example, we are <strong>SELECT</strong>ing specific pieces of information <strong>FROM</strong> two sources, <strong>WHERE</strong> various conditions are met. For more information on the QuickSupport Query Language, see <a href='https://classic.kayako.com/article/1413-introduction-to-kayako-query-language-kql' target='_blank' rel='noopener noreferrer'><u>the KQL guide</u></a>.</p>
+                <p class='text'>would produce a table of all the Open tickets in the Sales department. In this example, we are <strong>SELECT</strong>ing specific pieces of information <strong>FROM</strong> two sources, <strong>WHERE</strong> various conditions are met. For more information on the QuickSupport Query Language, see <a href='https://classic.opencart.com.vn/article/1413-introduction-to-kayako-query-language-kql' target='_blank' rel='noopener noreferrer'><u>the KQL guide</u></a>.</p>
 
                 <span class='title'>Report Types</span><br />
-                <p class='text'>Reports is capable of producing various report layouts, such as <strong>tabular</strong>, <strong>summary</strong> and <strong>matrix</strong> reports. The way a report is displayed depends on how you structure your KQL statement. For more information on report types and the syntax required for specific report layouts, see the <a href='https://classic.kayako.com/article/1411-report-types-in-kayako-classic' target='_blank' rel='noopener noreferrer'><u>guide to report types</u></a>.</p>
+                <p class='text'>Reports is capable of producing various report layouts, such as <strong>tabular</strong>, <strong>summary</strong> and <strong>matrix</strong> reports. The way a report is displayed depends on how you structure your KQL statement. For more information on report types and the syntax required for specific report layouts, see the <a href='https://classic.opencart.com.vn/article/1411-report-types-in-kayako-classic' target='_blank' rel='noopener noreferrer'><u>guide to report types</u></a>.</p>
 
         ";
 

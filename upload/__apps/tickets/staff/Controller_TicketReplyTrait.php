@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -177,7 +177,7 @@ trait Controller_TicketReplyTrait
         {
             $GLOBALS['_POST'] = $GLOBALS['_REQUEST'] = $GLOBALS['_GET'] = array();
             /**
-             * BUG FIX: Simaranjit Singh <simaranjit.singh@kayako.com>
+             * BUG FIX: Simaranjit Singh <simaranjit.singh@opencart.com.vn>
              *
              * SWIFT-3087: In Internet Explorer, Tickets View page gets garbled when ticket is move to Resolved status.
              *
@@ -194,7 +194,7 @@ trait Controller_TicketReplyTrait
             $this->Load->Controller('Manage')->Redirect($_listType, $_departmentID, $_ticketStatusID, $_ticketTypeID);
         } else {
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4708 - Resolution due is set incorrect after staff reply.
              */
@@ -541,7 +541,7 @@ trait Controller_TicketReplyTrait
         }
 
         /*
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4815 Survey email should be sent after a ticket reply when closing a ticket
          * SWIFT-4937 Closing a ticket along with a reply doesn't dispatch survey email
@@ -829,7 +829,7 @@ trait Controller_TicketReplyTrait
                         $_creatorType = $_TicketPost->Get('creator');
 
                         /**
-                         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                          *
                          * SWIFT-4852 Private Staff replies are sent in emails as well as visible at Client Panel when ticket is duplicated.
                          */
@@ -956,7 +956,7 @@ trait Controller_TicketReplyTrait
             }
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4501 Custom Fields are not duplicated on splitting or duplicating a ticket.
              */

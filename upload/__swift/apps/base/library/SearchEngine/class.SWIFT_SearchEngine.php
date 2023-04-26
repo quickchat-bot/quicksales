@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -38,7 +38,7 @@ define('SEARCH_COL_FULLTEXT', "ft");
 define('SEARCH_IDENTIFIER_TYPE', '__SWIFTSEARCHENGINETYPE');
 
 /**
- * @author    Ryan Lederman    <ryan.lederman@kayako.com>    (Feb 2011)
+ * @author    Ryan Lederman    <ryan.lederman@opencart.com.vn>    (Feb 2011)
  * @author    John Haugeland (original)
  */
 class SWIFT_SearchEngine extends SWIFT_Library
@@ -89,7 +89,7 @@ class SWIFT_SearchEngine extends SWIFT_Library
     /**
      * Ensure a text type is valid
      *
-     * @author Varun Shoor <varun.shoor@kayako.com>
+     * @author Varun Shoor <varun.shoor@opencart.com.vn>
      *
      * @param mixed $_textType The type to verify
      * @return bool
@@ -356,7 +356,7 @@ class SWIFT_SearchEngine extends SWIFT_Library
     /*
      * Used to filter indexable data; strips common words.
      *
-     * @author Ryan Lederman <ryan.lederman@kayako.com>
+     * @author Ryan Lederman <ryan.lederman@opencart.com.vn>
      *
      * @param $text string The data to strip words from
      * @return string The data, after all stop words have been removed
@@ -451,7 +451,7 @@ class SWIFT_SearchEngine extends SWIFT_Library
     /*
      * Strips unneccessary data from database input
      *
-     * @author Ryan Lederman <ryan.lederman@kayako.com>
+     * @author Ryan Lederman <ryan.lederman@opencart.com.vn>
      *
      * @param string $text The text to strip HTML and JS from.
      * @return Text after HTML and JavaScript has been removed.
@@ -498,7 +498,7 @@ class SWIFT_SearchEngine extends SWIFT_Library
     }
 
     /**
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @param string $content
      * @param int $minimumLength

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -478,7 +478,7 @@ class SWIFT_TicketViewRenderer extends SWIFT_Library
         }
 
         /**
-         * BUG FIX: Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX: Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-3297: Pagination is not stable when searching tickets in staff control panel.
          *

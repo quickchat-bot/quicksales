@@ -8,7 +8,7 @@
 // $Author$ ($Date$)
 // $RCSfile$ : $Revision$
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//                   www.kayako.com
+//                   www.opencart.com.vn
 //###################################
 //=======================================
 
@@ -202,7 +202,7 @@ function EscapeHTML(_string) {
 }
 
 /*
- * Improvement - Mansi Wason <mansi.wason@kayako.com>
+ * Improvement - Mansi Wason <mansi.wason@opencart.com.vn>
  *
  * SWIFT-1360 "Auto Refresh Grid' setting should work for filter as well."
  *

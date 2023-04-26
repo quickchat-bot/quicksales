@@ -8,8 +8,8 @@
  * @package    SWIFT
  * @author    QuickSupport Singapore Pte. Ltd.
  * @copyright    Copyright (c) 2001-2009, QuickSupport Singapore Pte. Ltd.
- * @license    http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license    http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  * @filesource
  * ###################################
  * =======================================
@@ -102,7 +102,7 @@ class Controller_Subscriber extends Controller_api implements SWIFT_REST_Interfa
      *         <id>1</id>
      *         <tgroupid>1</tgroupid>
      *         <userid>0</userid>
-     *         <email>john.doe@kayako.com</email>
+     *         <email>john.doe@opencart.com.vn</email>
      *         <isvalidated>0</isvalidated>
      *         <usergroupid>1</usergroupid>
      * </newssubscriber>
@@ -135,7 +135,7 @@ class Controller_Subscriber extends Controller_api implements SWIFT_REST_Interfa
      *         <id>1</id>
      *         <tgroupid>1</tgroupid>
      *         <userid>0</userid>
-     *         <email>john.doe@kayako.com</email>
+     *         <email>john.doe@opencart.com.vn</email>
      *         <isvalidated>0</isvalidated>
      *         <usergroupid>1</usergroupid>
      * </newssubscriber>
@@ -172,7 +172,7 @@ class Controller_Subscriber extends Controller_api implements SWIFT_REST_Interfa
      *         <id>1</id>
      *         <tgroupid>1</tgroupid>
      *         <userid>0</userid>
-     *         <email>john.doe@kayako.com</email>
+     *         <email>john.doe@opencart.com.vn</email>
      *         <isvalidated>0</isvalidated>
      *         <sendemails>1</sendemails>
      *         <usergroupid>1</usergroupid>
@@ -241,7 +241,7 @@ class Controller_Subscriber extends Controller_api implements SWIFT_REST_Interfa
      *         <id>1</id>
      *         <tgroupid>1</tgroupid>
      *         <userid>0</userid>
-     *         <email>john.doe@kayako.com</email>
+     *         <email>john.doe@opencart.com.vn</email>
      *         <isvalidated>0</isvalidated>
      *         <usergroupid>1</usergroupid>
      * </subscriber>

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -72,9 +72,9 @@ class Controller_Chat extends Controller_visitor
     {
         parent::__construct();
         /**
-         * Bug Fix : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * Bug Fix : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
-         * SWIFT-4900 : UTM parameters for links to kayako.com
+         * SWIFT-4900 : UTM parameters for links to opencart.com.vn
          */
         $_requestURL = $_SERVER['SERVER_NAME'];
 
@@ -254,7 +254,7 @@ class Controller_Chat extends Controller_visitor
 
         $_departmentStatus = SWIFT_Chat::GetDepartmentStatus($_chatArguments['_filterDepartmentIDList'], $_isPhone, SWIFT::Get('usergroupid'));
 
-        /* Bug Fix : Nidhi Gupta <nidhi.gupta@kayako.com
+        /* Bug Fix : Nidhi Gupta <nidhi.gupta@opencart.com.vn
          *
          * SWIFT-4543 : LiveChat window goes blank
          *
@@ -277,7 +277,7 @@ class Controller_Chat extends Controller_visitor
         $this->Template->Assign('_promptType', $_promptType);
 
         // Process Proactive Data
-        /** Bug FIX : Saloni Dhall <saloni.dhall@kayako.com>
+        /** Bug FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
          *
          * SWIFT-3400 : 'Default Department' setting for live chat under Template groups does not work
          */
@@ -288,7 +288,7 @@ class Controller_Chat extends Controller_visitor
             if ($_SWIFT_SessionManagerObject instanceof SWIFT_SessionManager && $_SWIFT_SessionManagerObject->GetIsClassLoaded()) {
                 $_SWIFT_SessionManagerObject->ProcessVisitorUpdateSession();
                 if (isset($_SWIFT->Session) && $_SWIFT->Session->GetIsClassLoaded() && ($_chatArguments['_proactive'] == SWIFT_Visitor::PROACTIVE_ENGAGE || $_chatArguments['_proactive'] == SWIFT_Visitor::PROACTIVE_INLINE)) {
-                    /** BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+                    /** BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
                      *
                      * SWIFT-918 : Custom Fields are being shown for the live chat department to which they are not linked
                      *
@@ -329,7 +329,7 @@ class Controller_Chat extends Controller_visitor
         }
 
         if ($_setDefaultDepartment == true) {
-            /** BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+            /** BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
              *
              * SWIFT-918 : Custom Fields are being shown for the live chat department to which they are not linked
              *
@@ -750,7 +750,7 @@ class Controller_Chat extends Controller_visitor
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3170,SWIFT-4304 - Chat gets initiated while selecting Offline departments.
          *
@@ -834,7 +834,7 @@ class Controller_Chat extends Controller_visitor
                                 $_fieldValue = '';
                                 if (_is_array($_POST[$_customField['fieldname']])) {
                                     /**
-                                     * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+                                     * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
                                      *
                                      * SWIFT-1918 Error when using Linked Select custom field with "Group Type" = Live Chat - "Pre Chat"
                                      */
@@ -1336,7 +1336,7 @@ class Controller_Chat extends Controller_visitor
         $this->Template->Assign('_isInline', false);
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4304 Chat gets initiated while selecting Offline departments.
          *
@@ -1770,7 +1770,7 @@ class Controller_Chat extends Controller_visitor
 
             $_SWIFT_RatingResult = SWIFT_RatingResult::CreateOrUpdateIfExists($_SWIFT_RatingObject, $_ChatObject->GetChatObjectID(), $_POST['rating'][$_ratingID], SWIFT_RatingResult::CREATOR_USER, $_SWIFT_UserObject->GetUserID());
             /**
-             * BUG FIX: Nidhi Gupta <nidhi.gupta@kayako.com>
+             * BUG FIX: Nidhi Gupta <nidhi.gupta@opencart.com.vn>
              *
              * SWIFT-3052: Rating scale for ticket only displays 5 points even if added more than this.
              *

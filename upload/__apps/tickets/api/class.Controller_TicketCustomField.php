@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -83,7 +83,7 @@ class Controller_TicketCustomField extends Controller_api implements SWIFT_REST_
     /**
      * Get a list of custom fields for the given ticket
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketCustomField
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketCustomField
      *
      * @author Varun Shoor
      * @param int $_ticketID The Ticket ID
@@ -192,7 +192,7 @@ class Controller_TicketCustomField extends Controller_api implements SWIFT_REST_
                     $_fieldValueInterim = $_customFieldOptionCache[$_fieldValue[0]];
 
                     /**
-                     * BUG FIX - Saloni Dhall, Ravi Sharma <ravi.sharma@kayako.com>
+                     * BUG FIX - Saloni Dhall, Ravi Sharma <ravi.sharma@opencart.com.vn>
                      *
                      * SWIFT-2238: Linked Select fields are returning incorrect sub-values while fetching the custom fields via APIs
                      *

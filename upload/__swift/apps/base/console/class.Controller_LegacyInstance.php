@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2016, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -22,14 +22,14 @@ use SWIFT_CacheManager;
 use SWIFT_Exception;
 
 /**
- * @author Mansi Wason <mansi.wason@kayako.com>
+ * @author Mansi Wason <mansi.wason@opencart.com.vn>
  */
 class Controller_LegacyInstance extends Controller_console
 {
     /**
      * Constructor
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      */
     public function __construct()
     {
@@ -37,7 +37,7 @@ class Controller_LegacyInstance extends Controller_console
     }
 
     /**
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * @param string $_productURL
      *

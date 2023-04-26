@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -197,8 +197,8 @@ class SWIFT_UserOrganizationEmail extends SWIFT_UserEmailManager {
                 continue;
             }
 
-            $_finalDomainList[] = substr($_val, $_symbolPosition); // @kayako.com
-            $_finalDomainList[] = substr($_val, $_symbolPosition + 1); // kayako.com
+            $_finalDomainList[] = substr($_val, $_symbolPosition); // @opencart.com.vn
+            $_finalDomainList[] = substr($_val, $_symbolPosition + 1); // opencart.com.vn
         }
 
         if (!count($_finalDomainList))

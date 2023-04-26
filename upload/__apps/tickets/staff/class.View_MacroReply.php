@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -166,7 +166,7 @@ class View_MacroReply extends SWIFT_View
         $_GeneralTabObject->Title($this->Language->Get('macroreplycontents'), 'icon_doublearrows.gif');
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4986 If WYSIWYG editor is disabled, <br> tags are added in Macros and KB articles.
          */

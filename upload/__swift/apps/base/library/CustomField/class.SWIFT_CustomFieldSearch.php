@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -140,7 +140,7 @@ class SWIFT_CustomFieldSearch extends SWIFT_Library
                  *
                  */
                 /**
-                 * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                 * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                  *
                  * SWIFT-2230 Filter results does not show all the ticket IDs if search limit is set as default.
                  *

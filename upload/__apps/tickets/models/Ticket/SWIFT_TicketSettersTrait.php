@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -535,7 +535,7 @@ trait SWIFT_TicketSettersTrait
         $_newUserNotificationStatusTitle = $_newNotificationStatusTitle;
 
         /**
-         * BUG FIX - Ravi sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3202 Undefined offset: 0 (D:/xampp/htdocs/kayako/__apps/tickets/models/Ticket/class.SWIFT_Ticket.php:2420)
          */
@@ -561,7 +561,7 @@ trait SWIFT_TicketSettersTrait
             $this->UpdatePool('reopendateline', DATENOW);
         }
         /**
-         * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4424 SLA plan is not applied if clear Reply Due time option is enabled for a status.
          * SWIFT-5128 SLA timers getting reset to previous values while replying the tickets
@@ -614,7 +614,7 @@ trait SWIFT_TicketSettersTrait
         // Load and Process Workflow Rules
         self::AddToWorkflowQueue($this);
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-3020 Survey Email arrives first followed by ticket reply.
          *
@@ -1079,7 +1079,7 @@ trait SWIFT_TicketSettersTrait
     }
 
     /**
-     * @author Nidhi Gupta <nidhi.gupta@kayako.com>
+     * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>
      *
      * @param int $_slaResponseTime
      *

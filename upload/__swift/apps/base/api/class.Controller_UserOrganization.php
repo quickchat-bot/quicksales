@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -123,7 +123,7 @@ class Controller_UserOrganization extends Controller_api implements SWIFT_REST_I
      *        <country>India</country>
      *        <phone />
      *        <fax />
-     *        <website>http://www.kayako.com</website>
+     *        <website>http://www.opencart.com.vn</website>
      *
      *        <!-- Timeline Properties -->
      *        <dateline><![CDATA[1296540309]]></dateline>
@@ -171,7 +171,7 @@ class Controller_UserOrganization extends Controller_api implements SWIFT_REST_I
      *        <country>India</country>
      *        <phone />
      *        <fax />
-     *        <website>http://www.kayako.com</website>
+     *        <website>http://www.opencart.com.vn</website>
      *
      *        <!-- Timeline Properties -->
      *        <dateline><![CDATA[1296540309]]></dateline>
@@ -224,7 +224,7 @@ class Controller_UserOrganization extends Controller_api implements SWIFT_REST_I
      *        <country>India</country>
      *        <phone />
      *        <fax />
-     *        <website>http://www.kayako.com</website>
+     *        <website>http://www.opencart.com.vn</website>
      *
      *        <!-- Timeline Properties -->
      *        <dateline><![CDATA[1296540309]]></dateline>
@@ -350,7 +350,7 @@ class Controller_UserOrganization extends Controller_api implements SWIFT_REST_I
      *        <country>India</country>
      *        <phone />
      *        <fax />
-     *        <website>http://www.kayako.com</website>
+     *        <website>http://www.opencart.com.vn</website>
      *
      *        <!-- Timeline Properties -->
      *        <dateline><![CDATA[1296540309]]></dateline>

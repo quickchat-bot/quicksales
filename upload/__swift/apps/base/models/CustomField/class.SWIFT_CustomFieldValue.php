@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -359,7 +359,7 @@ class SWIFT_CustomFieldValue extends SWIFT_Model
     /**
      * Sync the custom field values on type
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * @param SWIFT_Ticket $_SWIFT_TicketObject_New
      * @param SWIFT_Ticket $_SWIFT_TicketObject
@@ -418,7 +418,7 @@ class SWIFT_CustomFieldValue extends SWIFT_Model
     /**
      * Duplicate Custom Fields
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @param int $_fromTypeID The from type ID
      * @param int $_toTypeID The to type ID

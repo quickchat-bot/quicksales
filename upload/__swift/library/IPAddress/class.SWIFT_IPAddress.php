@@ -7,7 +7,7 @@
 // Unauthorized reproduction is not allowed
 // License Number: $%LICENSE%$
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//                   www.kayako.com
+//                   www.opencart.com.vn
 //###################################
 //=======================================
 

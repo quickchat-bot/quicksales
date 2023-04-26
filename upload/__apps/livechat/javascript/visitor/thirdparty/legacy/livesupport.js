@@ -423,7 +423,7 @@ function DisplayStaffMessage(_staffName, _message) {
 	_timeStampText = RetrieveTimestamp();
 
 	/**
-	 * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+	 * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
 	 *
 	 * SWIFT-896 Canned response formatting (i.e. line breaks) should be maintained.
 	 */

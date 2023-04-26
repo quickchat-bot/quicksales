@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -217,7 +217,7 @@ class SWIFT_MailMIME extends SWIFT_Library
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4626 Errors are being generated when 'TO' field is empty in headers.
          * SWIFT-4763 Error "explode() expects parameter 2 to be string" logged while running email parser script.
@@ -332,7 +332,7 @@ class SWIFT_MailMIME extends SWIFT_Library
         }
 
         /*
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4873 Helpdesk should parse emails containing no recipient details.
          */
@@ -346,7 +346,7 @@ class SWIFT_MailMIME extends SWIFT_Library
         if (isset($this->Output->headers['subject']))
         {
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4494 mb_detect_encoding() error upon the execution of the mail parser script.
              *
@@ -355,7 +355,7 @@ class SWIFT_MailMIME extends SWIFT_Library
             $this->Output->headers['subject'] = is_array($this->Output->headers['subject']) ? $this->Output->headers['subject'][0] : $this->Output->headers['subject'];
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4227 Non ASCII character in the Subject of emails send by Jmail client, omit the proceeding content in Subject.
              *
@@ -439,7 +439,7 @@ class SWIFT_MailMIME extends SWIFT_Library
                     // 2. Save the entire original message/rfc822 as an attachment.
                     // 3. Recursively parse the structure looking for attachments and add them when found.
                     /**
-                     * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
+                     * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                      *
                      * SWIFT-4784 Add an option to parse eml attachments as attachments
                      *

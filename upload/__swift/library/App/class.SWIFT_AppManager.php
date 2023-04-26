@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -101,7 +101,7 @@ class SWIFT_AppManager extends SWIFT_Library
     }
 
     /**
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @param string $_appName The App Name
      *
@@ -132,7 +132,7 @@ class SWIFT_AppManager extends SWIFT_Library
     }
 
     /**
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @param string $_appName The App Name
      *
@@ -167,7 +167,7 @@ class SWIFT_AppManager extends SWIFT_Library
     }
 
     /**
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @param string $_appName
      *
@@ -194,7 +194,7 @@ class SWIFT_AppManager extends SWIFT_Library
     }
 
     /**
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @return bool
      *

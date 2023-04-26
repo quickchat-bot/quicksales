@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -549,8 +549,8 @@ class Controller_ChatHistory extends Controller_staff
         }
 
         /**
-         * BUG Fix: Nidhi Gupta <nidhi.gupta@kayako.com>
-         * BUG FIX: Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG Fix: Nidhi Gupta <nidhi.gupta@opencart.com.vn>
+         * BUG FIX: Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3290 'Live Chat - Pre Chat' type custom fields cannot be edited by staff
          * SWIFT-4857 Custom fields linked to Live chat (after chat) group are not updating [Customer Reported]

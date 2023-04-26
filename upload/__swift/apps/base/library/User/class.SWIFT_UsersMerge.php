@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  *  */
 
@@ -66,7 +66,7 @@ class SWIFT_UsersMerge extends SWIFT_Library
     /**
      * Update User tables for processing Merge
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * @param int $_primaryUserID
      * @param array $_secondaryUserIDList

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -228,7 +228,7 @@ class SWIFT_SetupDatabase_reports extends SWIFT_SetupDatabase
     /**
      * Upgrade from 4.65.0.5460
      *
-     * @author Andriy Lesyuk <andriy.lesyuk@kayako.com>
+     * @author Andriy Lesyuk <andriy.lesyuk@opencart.com.vn>
      *
      * @return bool
      * @throws SWIFT_Exception If the Class is not Loaded
@@ -254,7 +254,7 @@ class SWIFT_SetupDatabase_reports extends SWIFT_SetupDatabase
     /**
      * Upgrade from 4.70.2
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * @return bool
      * @throws SWIFT_Exception If the Class is not Loaded

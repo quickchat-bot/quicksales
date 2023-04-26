@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -871,7 +871,7 @@ class Controller_Step extends Controller_Staff
             }
 
             /**
-             * BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+             * BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
              *
              * SWIFT-3987 : Security issue (medium)
              *

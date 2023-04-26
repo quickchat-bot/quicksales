@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -435,7 +435,7 @@ trait SWIFT_TicketGettersTrait
             $_userID = (int) ($this->GetProperty('userid'));
         }
 
-        /** BUG FIX : Parminder Singh <parminder.singh@kayako.com>
+        /** BUG FIX : Parminder Singh <parminder.singh@opencart.com.vn>
          *
          * SWIFT-2041 : Wrong count under History tab, when ticket is created from Staff CP using 'Send Mail' option
          */

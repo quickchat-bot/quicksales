@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -365,7 +365,7 @@ class View_ChatHistory extends SWIFT_View
         }
 
         /**
-         * BUG Fix: Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG Fix: Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-3290 'Live Chat - Pre Chat' type custom fields cannot be edited by staff
          *

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -249,8 +249,8 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
     }
 
     /**
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @param SWIFT_Staff $_Staff
      * @param int $_userGroupID_registered
@@ -396,7 +396,7 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
             return false;
         }
 
-        // Cleanup old templatedata entries: http://dev.kayako.com/browse/SWIFT-1132
+        // Cleanup old templatedata entries: http://dev.opencart.com.vn/browse/SWIFT-1132
         $this->Database->Query("DELETE FROM " . TABLE_PREFIX . "templatedata WHERE templateid <> ALL (SELECT templateid from " . TABLE_PREFIX . "templates)");
 
         return true;
@@ -590,7 +590,7 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
     }
 
     /**
-     * @author Nidhi Gupta <nidhi.gupta@kayako.com>, Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>, Ravi Sharma <ravi.sharma@opencart.com.vn>
      * @return bool
      * @throws SWIFT_Exception
      */
@@ -617,7 +617,7 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
     /**
      * Upgrade database engine for searchindex
      *
-     * @author Nidhi Gupta <nidhi.gupta@kayako.com>
+     * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>
      *
      * @return bool
      * @throws SWIFT_Exception
@@ -643,7 +643,7 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
     /**
      * Upgrade from 4.73.3
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      * @return bool
      * @throws SWIFT_Exception
      */
@@ -661,7 +661,7 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
     /**
      * Upgrade from 4.74.0
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      * @return bool
      * @throws SWIFT_Exception
      */
@@ -685,7 +685,7 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
     /**
      * Upgrade for 4.79
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      * @return bool
      * @throws SWIFT_Exception
      */
@@ -730,7 +730,7 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
     /**
      * Upgrade for 4.91
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      * @return bool
      * @throws SWIFT_Exception
      */
@@ -760,7 +760,7 @@ class SWIFT_SetupDatabase_base extends SWIFT_SetupDatabase
 
         //Get Default Master Language_ID (en-us)
         $_languageID = SWIFT_Language::GetMasterLanguageIDList()[0];
-        SWIFT_PolicyLink::Create($_languageID, 'https://www.kayako.com/about/privacy', 1);
+        SWIFT_PolicyLink::Create($_languageID, 'https://www.opencart.com.vn/about/privacy', 1);
         return true;
     }
 

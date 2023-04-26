@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -64,7 +64,7 @@ class Controller_Ticket extends Controller_api implements SWIFT_REST_Interface
     }
 
     /**
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @param string $_sortField
      *
@@ -104,7 +104,7 @@ class Controller_Ticket extends Controller_api implements SWIFT_REST_Interface
     /**
      * Get a list of tickets
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+Ticket
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+Ticket
      *
      * @author Varun Shoor
      *
@@ -174,7 +174,7 @@ class Controller_Ticket extends Controller_api implements SWIFT_REST_Interface
     /**
      * Retrieve the Ticket
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+Ticket
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+Ticket
      *
      * @author Varun Shoor
      * @param int $_ticketID The Ticket ID
@@ -204,7 +204,7 @@ class Controller_Ticket extends Controller_api implements SWIFT_REST_Interface
      *
      * Get a list of tickets
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+Ticket
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+Ticket
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise
@@ -382,7 +382,7 @@ class Controller_Ticket extends Controller_api implements SWIFT_REST_Interface
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4387 When ticket is created via RestAPI, a new option to set email queue id need to implement.
          *
@@ -464,7 +464,7 @@ class Controller_Ticket extends Controller_api implements SWIFT_REST_Interface
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4268 Exception with ticket recurrence when 'Create ticket as user' is enabled.
          *
@@ -509,7 +509,7 @@ class Controller_Ticket extends Controller_api implements SWIFT_REST_Interface
     /**
      * Update a Ticket
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+Ticket
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+Ticket
      *
      * @author Varun Shoor
      * @param int $_ticketID The Ticket ID
@@ -610,7 +610,7 @@ class Controller_Ticket extends Controller_api implements SWIFT_REST_Interface
             }
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4268 Exception with ticket recurrence when 'Create ticket as user' is enabled.
              *

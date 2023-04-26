@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -413,7 +413,7 @@ class Controller_Article extends Controller_StaffBase
         $this->UserInterface->Header($this->Language->Get('knowledgebase') . ' > ' . htmlspecialchars($_SWIFT_KnowledgebaseArticleObject->GetProperty('subject')), self::MENU_ID, self::NAVIGATION_ID);
 
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-1326 "Knowledgebase category restrictions to staff teams do not take effect".
          *
@@ -611,7 +611,7 @@ class Controller_Article extends Controller_StaffBase
                 if (!empty($_extendedSQL))
                 {
                     /**
-                     * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+                     * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
                      *
                      * SWIFT-1326 "Knowledgebase category restrictions to staff teams do not take effect".
                      *

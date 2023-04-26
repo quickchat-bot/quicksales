@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -571,7 +571,7 @@ class SWIFT_User extends SWIFT_Model
         }
 
         /**
-         * BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+         * BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
          *
          * SWIFT-3239 : News is not dispatched to 'Subscriber' list if concerned news article is restricted on basis of user group
          *
@@ -679,7 +679,7 @@ class SWIFT_User extends SWIFT_Model
         }
 
         /**
-         * BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+         * BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
          *
          * SWIFT-3239 : News is not dispatched to 'Subscriber' list if concerned news article is restricted on basis of user group
          *
@@ -1800,7 +1800,7 @@ class SWIFT_User extends SWIFT_Model
         $_emailList = SWIFT_UserEmail::RetrieveList($this->GetUserID());
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-1425 "Generate & Email" password reset on user accounts always sends in English.
          */

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -110,7 +110,7 @@ class SWIFT_Date extends SWIFT_Library
             $_colorDay    = 'textred';
         }
         /**
-         * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4764 Negative first response time should be correct and in human readable format in reports
          *
@@ -287,7 +287,7 @@ class SWIFT_Date extends SWIFT_Library
 
         // Get the date adjusted to default timezone that is GMT as set above.
         /**
-         * Bug Fix : Saloni Dhall <saloni.dhall@kayako.com>
+         * Bug Fix : Saloni Dhall <saloni.dhall@opencart.com.vn>
          *
          * SWIFT-4327 : Security issue (medium)
          *

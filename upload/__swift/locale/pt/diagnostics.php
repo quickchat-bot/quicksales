@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2014, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -151,7 +151,7 @@ $__LANG = array(
     'submitbug'                                    => 'Submit Bug',
     'dmysqlversion'                                => 'MySQL Version: %s',
     'specifyvalidemail'                            => 'ERROR: Please specify a valid email address',
-    'bugreportdispatched'                          => 'Bug report dispatched to bugs@kayako.com',
+    'bugreportdispatched'                          => 'Bug report dispatched to bugs@opencart.com.vn',
     'desc_licenseinfo'                             => '',
     'liccreated'                                   => 'Created On: ',
     'licnever'                                     => '-- Never --',

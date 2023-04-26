@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -537,7 +537,7 @@ class SWIFT_SLAHoliday extends SWIFT_Model
         $_slaHolidayCache = $_SWIFT->Cache->Get('slaholidaycache');
 
         /**
-         * BUG FIX: Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX: Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4636: Holidays are not considered while calculating the reply due time
          *

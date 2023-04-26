@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -224,8 +224,8 @@ class SWIFT_SetupDatabase_parser extends SWIFT_SetupDatabase
     }
 
     /**
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @return bool
      */
@@ -236,7 +236,7 @@ class SWIFT_SetupDatabase_parser extends SWIFT_SetupDatabase
         }
 
         // Create an Email Queue
-        if (preg_match('/(.*?)\.kayako.com/', parse_url($_POST['producturl'], PHP_URL_HOST), $_matches)) {
+        if (preg_match('/(.*?)\.opencart.com.vn/', parse_url($_POST['producturl'], PHP_URL_HOST), $_matches)) {
             SWIFT_EmailQueuePipe::Create(
                 sprintf($this->Language->Get('sample_emailqueueaddress'), strtolower(array_pop($_matches))),
                 new SWIFT_EmailQueueType_Tickets(1, 1, 1, 1, 1, 0),

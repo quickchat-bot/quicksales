@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -35,7 +35,7 @@
  * $structure = $class_rfc822->parseAddressList($address_string, 'example.com', TRUE)
  * print_r($structure);
  *
- * @author  Utsav Handa <utsav.handa@kayako.com>
+ * @author  Utsav Handa <utsav.handa@opencart.com.vn>
  *
  * @changes
  * - Overrided "validateMailbox" method to consume and support RFC822 weakly-compliant
@@ -59,7 +59,7 @@ class Mail_RFC822Extended extends Mail_RFC822
     public function parseAddressList($address = null, $default_domain = null, $nest_groups = null, $validate = null, $limit = null)
     {
         /**
-         * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4782: Irrelevant email address gets added to CC field.
          *

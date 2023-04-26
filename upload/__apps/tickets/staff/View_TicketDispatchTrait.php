@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -193,7 +193,7 @@ trait View_TicketDispatchTrait {
         }
 
         /**
-         * BUG Fix : Abhinav Kumar <abhinav.kumar@kayako.com>
+         * BUG Fix : Abhinav Kumar <abhinav.kumar@opencart.com.vn>
          *
          * SWIFT-2375: While forwarding a ticket to a third party, 'CC' users should not be selected by default.
          *
@@ -245,7 +245,7 @@ trait View_TicketDispatchTrait {
             foreach ($emailCacheList as $_emailQueueID => $_emailQueueContainer) {
                 if ($_emailQueueContainer['departmentid'] == $_departmentID && $_emailQueueContainer['isenabled'] == '1') {
                     /*
-                     * BUG FIX - Ashish Kataria <ashish.kataria@kayako.com>, Nidhi Gupta <nidhi.gupta@kayako.com>
+                     * BUG FIX - Ashish Kataria <ashish.kataria@opencart.com.vn>, Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                      *
                      * SWIFT-2520 Ticket Reply FROM does not use mail queue FROM NAME
                      *
@@ -282,7 +282,7 @@ trait View_TicketDispatchTrait {
             foreach ($emailCacheList as $_emailQueueID => $_emailQueueContainer) {
                 if ($_emailQueueContainer['departmentid'] == $_parentDepartmentID && $_emailQueueContainer['isenabled'] == '1') {
                     /*
-                     * BUG FIX - Ashish Kataria <ashish.kataria@kayako.com>, Nidhi Gupta <nidhi.gupta@kayako.com>
+                     * BUG FIX - Ashish Kataria <ashish.kataria@opencart.com.vn>, Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                      *
                      * SWIFT-2520 Ticket Reply FROM does not use mail queue FROM NAME
                      *
@@ -320,7 +320,7 @@ trait View_TicketDispatchTrait {
             foreach ($emailCacheList as $_emailQueueID => $_emailQueueContainer) {
                 if ($_ticketTemplateGroupID == $_emailQueueContainer['tgroupid'] && $_emailQueueContainer['isenabled'] == '1' && $_emailQueueContainer['departmentid'] == $_departmentID) {
                     /*
-                     * BUG FIX - Ashish Kataria <ashish.kataria@kayako.com>, Nidhi Gupta <nidhi.gupta@kayako.com>
+                     * BUG FIX - Ashish Kataria <ashish.kataria@opencart.com.vn>, Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                      *
                      * SWIFT-2520 Ticket Reply FROM does not use mail queue FROM NAME
                      *
@@ -353,7 +353,7 @@ trait View_TicketDispatchTrait {
 
                 if (mb_strstr($_ticketEmailQueueAddress, '@') == mb_strstr($_emailQueueAddress, '@') && $_emailQueueContainer['isenabled'] == '1' && $_emailQueueContainer['departmentid'] == $_departmentID) {
                     /*
-                     * BUG FIX - Ashish Kataria <ashish.kataria@kayako.com>, Nidhi Gupta <nidhi.gupta@kayako.com>
+                     * BUG FIX - Ashish Kataria <ashish.kataria@opencart.com.vn>, Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                      *
                      * SWIFT-2520 Ticket Reply FROM does not use mail queue FROM NAME
                      *
@@ -418,7 +418,7 @@ trait View_TicketDispatchTrait {
         }
 
         /**
-         * BUG Fix : Abhinav Kumar <abhinav.kumar@kayako.com>
+         * BUG Fix : Abhinav Kumar <abhinav.kumar@opencart.com.vn>
          *
          * SWIFT-2375: While forwarding a ticket to a third party, 'CC' users should not be selected by default.
          *
@@ -644,7 +644,7 @@ trait View_TicketDispatchTrait {
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4614 Incorrect Reply Due time is calculated, if same ticket is replied by multiple staff members in different timezones.
          */

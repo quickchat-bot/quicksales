@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -88,7 +88,7 @@ class SWIFT_Visitor extends SWIFT_Model
     const INDEX_2 = 'lastactivity';
 
     /**
-     * BUG FIX: Bishwanath Jha <bishwanath.jha@kayako.com>
+     * BUG FIX: Bishwanath Jha <bishwanath.jha@opencart.com.vn>
      *
      * SWIFT-1619: To make mysql REPLACE command working creating UNIQUE KEY here, because unless the table has a PRIMARY KEY or UNIQUE index,
      * using a REPLACE statement makes no sense

@@ -5,7 +5,7 @@
 //
 // Source Copyright 2001-2009 QuickSupport Singapore Pte. Ltd.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//                          www.kayako.com
+//                          www.opencart.com.vn
 //###################################
 //=======================================
 namespace LiveChat\Models\Visitor;

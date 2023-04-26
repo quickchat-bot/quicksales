@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -77,7 +77,7 @@ class Controller_TicketTimeTrack extends Controller_api implements SWIFT_REST_In
     /**
      * Get a list of ticket time tracking entries for the given ticket
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketTimeTrack
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketTimeTrack
      *
      * @author Varun Shoor
      * @param int $_ticketID The Ticket ID
@@ -130,7 +130,7 @@ class Controller_TicketTimeTrack extends Controller_api implements SWIFT_REST_In
     /**
      * Retrieve the Ticket Time Track
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketTimeTrack
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketTimeTrack
      *
      * @author Varun Shoor
      * @param int $_ticketID The Ticket ID
@@ -176,7 +176,7 @@ class Controller_TicketTimeTrack extends Controller_api implements SWIFT_REST_In
     /**
      * Create a new Ticket Time Tracking Entry
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketTimeTrack
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketTimeTrack
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise

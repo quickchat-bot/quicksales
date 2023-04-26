@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -421,7 +421,7 @@ class SWIFT_Session extends SWIFT_Model
         }
 
         /**
-         * IMPROVEMENT- Mansi Wason <mansi.wason@kayako.com>
+         * IMPROVEMENT- Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4979 Improve random function of SWIFT
          */

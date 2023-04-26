@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -413,9 +413,9 @@ class SWIFT_TemplateEngine extends SWIFT_Library
             }
         }
         /**
-         * Bug Fix : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * Bug Fix : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
-         * SWIFT-4900 : UTM parameters for links to kayako.com
+         * SWIFT-4900 : UTM parameters for links to opencart.com.vn
          */
         $this->Assign('_poweredByNotice', sprintf($_SWIFT->Language->Get('poweredby'),$_baseName, SWIFT_PRODUCT));
         $this->Assign('_currentYear', strftime('%Y'));

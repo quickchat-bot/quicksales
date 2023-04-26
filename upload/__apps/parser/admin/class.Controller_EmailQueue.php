@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -309,7 +309,7 @@ class Controller_EmailQueue extends Controller_admin
             $_POST['port'] = (int)($_POST['port']);
         }
         /**
-         * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-5195 : Better handling of email address for a user account
          *

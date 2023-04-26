@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -389,13 +389,13 @@ class SWIFT_TicketEmailParser extends SWIFT_Library
         $_dispatchStaffEmailContainer = false;
         $_isPrivate = false;
 
-        /** BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+        /** BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4775 : Tickets should use the arrival time of email messages, rather than relying on the timestamp in the header
          */
         $_parserEmailCreationDate = DATENOW;
 
-        /** BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
+        /** BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
          *
          * SWIFT-4123 : Tickets created from outlook or thunderbird can have creation date greater than the present date
          *
@@ -464,7 +464,7 @@ class SWIFT_TicketEmailParser extends SWIFT_Library
         );
 
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-5180: Column 'hasattachments' is not being populated for tickets parsed via email parser.
          *
@@ -850,7 +850,7 @@ class SWIFT_TicketEmailParser extends SWIFT_Library
             $_ticketIDContainer['isthirdparty'] == false
         ) {
             /**
-             * Bug Fix    : Saloni Dhall <saloni.dhall@kayako.com>
+             * Bug Fix    : Saloni Dhall <saloni.dhall@opencart.com.vn>
              * SWIFT-3022 : Allow Staff to reply by Email' is not taking effect in some cases
              * Comments : Added clause to check settings and show appropriate message.
              */
@@ -903,7 +903,7 @@ class SWIFT_TicketEmailParser extends SWIFT_Library
         $_parserEmailCreationDate
     ) {
         /**
-         * BUG FIX - Saloni Dhall, Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Saloni Dhall, Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3032 : Disabled users are still able to create a ticket via email
          */
@@ -1030,7 +1030,7 @@ class SWIFT_TicketEmailParser extends SWIFT_Library
         $_SWIFT_TicketObject->ResetSLA();
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3197 Resolution time is reset when user/client reply is made by email parser
          */
@@ -1150,7 +1150,7 @@ class SWIFT_TicketEmailParser extends SWIFT_Library
     protected function doCreateUser($_SWIFT_UserObject)
     {
         /**
-         * BUG FIX - Saloni Dhall, Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Saloni Dhall, Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3032 : Disabled users are still able to create a ticket via email.
          *

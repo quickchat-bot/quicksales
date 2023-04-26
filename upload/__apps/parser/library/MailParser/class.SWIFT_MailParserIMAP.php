@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -51,7 +51,7 @@ class SWIFT_MailParserIMAP extends SWIFT_Library
         parent::__construct();
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4288 Result: description is not being shown in email parser logs in case of POP/IMAP.
          *
@@ -335,7 +335,7 @@ class SWIFT_MailParserIMAP extends SWIFT_Library
                     ];
 
                     /**
-                     * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                     * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                      *
                      * SWIFT-4619 Warn users when their email is rejected due to size limit.
                      */

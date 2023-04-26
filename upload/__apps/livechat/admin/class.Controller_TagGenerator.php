@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -382,9 +382,9 @@ class Controller_TagGenerator extends Controller_admin
         }
 
         /**
-         * Bug Fix : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * Bug Fix : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
-         * SWIFT-4900 : UTM parameters for links to kayako.com
+         * SWIFT-4900 : UTM parameters for links to opencart.com.vn
          */
         $_requestURL = $_SERVER['SERVER_NAME'];
 

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -293,7 +293,7 @@ class SWIFT_TicketEmailDispatch extends SWIFT_Library
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3877 Language translation is not working for staff replies.
          */
@@ -544,7 +544,7 @@ class SWIFT_TicketEmailDispatch extends SWIFT_Library
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-1337 Include ticket contents (opening ticket reply) to autoresponder emails
          *
@@ -1041,7 +1041,7 @@ class SWIFT_TicketEmailDispatch extends SWIFT_Library
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4548 Survey email is always dispatched in English, even if other language is linked to template group being used.
          */
@@ -1151,7 +1151,7 @@ class SWIFT_TicketEmailDispatch extends SWIFT_Library
         }
 
         /**
-         * FEATURE - Mansi Wason <mansi.wason@kayako.com>
+         * FEATURE - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-3186 Custom field data in autoresponders, ticket notifications.
          */
@@ -1295,7 +1295,7 @@ class SWIFT_TicketEmailDispatch extends SWIFT_Library
         $_toEmail = mb_strtolower(trim($_toEmail));
 
         /**
-         * Feature : Mansi Wason<mansi.wason@kayako.com>
+         * Feature : Mansi Wason<mansi.wason@opencart.com.vn>
          *
          * SWIFT-3949 : Email conversation thread breaks in Gmail
          */

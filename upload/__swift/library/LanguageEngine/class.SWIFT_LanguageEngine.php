@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -696,7 +696,7 @@ class SWIFT_LanguageEngine extends SWIFT_Library
                 $_languageCode = $_languageCache[$_REQUEST['languageid']]['languagecode'];
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4365 Automatic emails are sent in the language stored in cookies of the browser.
              *
@@ -740,7 +740,7 @@ class SWIFT_LanguageEngine extends SWIFT_Library
                 }
             }
             /**
-             * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+             * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
              *
              * SWIFT-4735 - The console interface is not setting language while running setup.
              */
@@ -755,7 +755,7 @@ class SWIFT_LanguageEngine extends SWIFT_Library
             }
         }
         /**
-         * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4303 : Languages support within product
          *

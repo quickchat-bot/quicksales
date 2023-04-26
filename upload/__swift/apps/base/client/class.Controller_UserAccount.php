@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -408,7 +408,7 @@ class Controller_UserAccount extends Controller_client
         $_finalNewEmailList = array();
         if (isset($_POST['newemaillist']) && _is_array($_POST['newemaillist'])) {
             /**
-             * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+             * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
              *
              * SWIFT-5195 : Better handling of email address for a user account
              *

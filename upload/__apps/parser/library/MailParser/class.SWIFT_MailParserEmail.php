@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -197,7 +197,7 @@ class SWIFT_MailParserEmail extends SWIFT_Library
 
         if (isset($_mailStructure->headers['message-id']) && $_mailStructure->headers['message-id'] != '') {
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4783 Error " trim() expects parameter 1 to be string, array given (./__apps/parser/library/MailParser/class.Parser\Library\MailParser\SWIFT_MailParserEmail.php:194)" while executing Email Parser script
              */
@@ -209,7 +209,7 @@ class SWIFT_MailParserEmail extends SWIFT_Library
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3281 'Destination Email Address' criteria in mail parser rule doesn't works if email queue address is specified as second recipient or greater in 'To:' field
          *
@@ -311,7 +311,7 @@ class SWIFT_MailParserEmail extends SWIFT_Library
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4599 Parsing an email with only BCC in case of PIPE email queue.
          *
@@ -648,7 +648,7 @@ class SWIFT_MailParserEmail extends SWIFT_Library
     }
 
     /**
-     * Retrieve the Destination Email Address Suffix. The data that appears after + in varun.shoor+abc1234@kayako.com
+     * Retrieve the Destination Email Address Suffix. The data that appears after + in varun.shoor+abc1234@opencart.com.vn
      *
      * @author Varun Shoor
      * @return string The Destination Email Address Suffix
@@ -1113,7 +1113,7 @@ class SWIFT_MailParserEmail extends SWIFT_Library
     /**
      * Retrieve the Email TO list
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      * @return string the comma separated
      * @throws SWIFT_Exception If the Class is not Loaded
      */
@@ -1129,7 +1129,7 @@ class SWIFT_MailParserEmail extends SWIFT_Library
     /**
      * Retrieve the Message ID
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      * @return string the message id
      * @throws SWIFT_Exception If the Class is not Loaded
      */

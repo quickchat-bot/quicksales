@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -101,7 +101,7 @@ class Controller_api extends SWIFT_Controller
     }
 
     /**
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
      *
      * @param string $_sortOrder
      *

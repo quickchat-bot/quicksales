@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -234,7 +234,7 @@ class SWIFT_ParserRuleManager extends SWIFT_Library
                     $this->Mail->SetSubjectField($this->MailParserEmail->GetSubject());
 
                     /**
-                     * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
+                     * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                      *
                      * SWIFT-2899 If the HTML email settings is set to HTML then when forwarding the email, outgoing doesn't fall back to Plain text if HTML is missing in the email
                      *
@@ -304,7 +304,7 @@ class SWIFT_ParserRuleManager extends SWIFT_Library
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4484 'Stop processing other rules' setting gets violated in Email Parser Rules
          *

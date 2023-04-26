@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -764,7 +764,7 @@ class SWIFT_TicketRecurrence extends SWIFT_Model
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4643 Avoid multiple tickets creation in monthly recurring scheduled task exeuction
          *
@@ -775,7 +775,7 @@ class SWIFT_TicketRecurrence extends SWIFT_Model
 
         $_currentDate = SWIFT_Date::FloorDate(DATENOW);
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4685 'Every weekday' option under 'Daily' recurrence should not create ticket on Saturdays
          *
@@ -834,7 +834,7 @@ class SWIFT_TicketRecurrence extends SWIFT_Model
                     $_nextMonthDate = strtotime('+' . ($this->GetProperty('intervalstep')) . ' month', $_currentDate);
                 }
                 /**
-                 * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+                 * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                  *
                  * SWIFT-4206: Issue with monthly ticket recurrence.
                  *
@@ -881,7 +881,7 @@ class SWIFT_TicketRecurrence extends SWIFT_Model
             {
                 $_nextYear = strtotime('+1 year', $_currentDate);
                 /**
-                 * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+                 * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
                  *
                  * SWIFT-4643 Multiple tickets get created with every cron while setting Monthly recurrence
                  *
@@ -889,7 +889,7 @@ class SWIFT_TicketRecurrence extends SWIFT_Model
                  */
                 $_nextRecurrence = mktime(0, 0, 0, $this->GetProperty('yearly_month'), $this->GetProperty('yearly_monthday'), date('Y', $_nextYear));
                 /**
-                 * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+                 * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
                  *
                  * SWIFT-5034 Adjust to support current year within yearly ticket recurrence
                  *
@@ -1030,13 +1030,13 @@ class SWIFT_TicketRecurrence extends SWIFT_Model
                                                         $_userID, $this->GetProperty('staffid'), $_ticketPhoneType, $_ticketCreator, SWIFT_Ticket::CREATIONMODE_STAFFCP,
                                                         $_phoneNumber, $_emailQueueID, false, $_destinationEmail);
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-3818 Custom Field values missing on recurring tickets.
          */
         SWIFT_CustomFieldValue::CustomfieldvalueOnType($_SWIFT_TicketObject_New, $_SWIFT_TicketObject);
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4268 Issue with ticket recurrence, if ticket is created using 'As a user' option.
          */
@@ -1081,7 +1081,7 @@ class SWIFT_TicketRecurrence extends SWIFT_Model
             $_fromEmailAddress = $_SWIFT->Settings->Get('general_returnemail');
         }
         /**
-         * FEATURE - Mansi Wason <mansi.wason@kayako.com>
+         * FEATURE - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4687 'CC' recipients should be maintained in recurred tickets.
          **/
@@ -1162,7 +1162,7 @@ class SWIFT_TicketRecurrence extends SWIFT_Model
             $_SWIFT_TicketRecurrenceObject->UpdateNextRecurrence();
 
             /**
-             * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+             * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
              *
              * SWIFT-4512 Recurrence tab is removed after one occurrence and no further tickets are re-created
              *

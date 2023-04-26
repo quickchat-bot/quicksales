@@ -173,7 +173,7 @@ class Mail_RFC822 {
     function parseAddressList($address = null, $default_domain = null, $nest_groups = null, $validate = null, $limit = null)
     {
         /*
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4763 Error "explode() expects parameter 2 to be string" logged while running email parser script
          */

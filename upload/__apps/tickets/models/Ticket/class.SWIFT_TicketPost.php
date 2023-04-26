@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -503,7 +503,7 @@ class SWIFT_TicketPost extends SWIFT_Model
          * Comments: Added has status changed property to make sure that this does not override the status set by parser rule
          */
         /*
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3945 Linking status with Department throws error at Client Support center while replying.
          *
@@ -791,7 +791,7 @@ class SWIFT_TicketPost extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4941 Check Custom Tweaks compatibility with SWIFT
          */
@@ -810,7 +810,7 @@ class SWIFT_TicketPost extends SWIFT_Model
          */
 
         /*
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4317 SLA plans that get deleted but are linked to user profiles triggers an error when updating tickets started by that user
          *
@@ -828,7 +828,7 @@ class SWIFT_TicketPost extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Ashish Kataria <ashish.kataria@kayako.com>, Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX - Ashish Kataria <ashish.kataria@opencart.com.vn>, Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-2210 Response times in reports are not calculated in accordance with SLA-defined working hours
          *
@@ -946,7 +946,7 @@ class SWIFT_TicketPost extends SWIFT_Model
     /**
      * Get Timeline for consecutive posts by user
      *
-     * @author Nidhi Gupta <nidhi.gupta@kayako.com>
+     * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>
      * @param int $_ticketID
      * @return int
      */
@@ -985,7 +985,7 @@ class SWIFT_TicketPost extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4941 Check Custom Tweaks compatibility with SWIFT
          */
@@ -1022,7 +1022,7 @@ class SWIFT_TicketPost extends SWIFT_Model
         $_SWIFT = SWIFT::GetInstance();
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-5036 Outlook Conditional CSS causes blank ticket posts
          * SWIFT-5069 Iphone emails getting parsed as blank
@@ -1051,9 +1051,9 @@ class SWIFT_TicketPost extends SWIFT_Model
 
                 $_previousErrorState = libxml_use_internal_errors(true);
                 /**
-                 * BUG FIX : Saloni Dhall <saloni.dhall@kayako.com>
-                 * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
-                 * BUG FIX : Ravi Sharma <ravi.sharma@kayako.com>
+                 * BUG FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
+                 * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
+                 * BUG FIX : Ravi Sharma <ravi.sharma@opencart.com.vn>
                  *
                  * SWIFT-4988 Use of undefined constant LIBXML_HTML_NOIMPLIED - assumed 'LIBXML_HTML_NOIMPLIED'
                  * SWIFT-4333 : An extra space is added to the contents of ticket created from Outlook
@@ -1377,7 +1377,7 @@ class SWIFT_TicketPost extends SWIFT_Model
                     $_fileExtension = mb_strtolower(substr($_attachmentContainer['filename'], (strrpos($_attachmentContainer['filename'], '.') + 1)));
 
                     /**
-                     * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                     * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                      *
                      * SWIFT-4995 Unable to quote posts with inline attachments older than 3 days
                      */
@@ -1391,7 +1391,7 @@ class SWIFT_TicketPost extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4985 Extra <br/> tags are added in the ticketposts while WYSIWYG editor is disabled
          * SWIFT-4998 Missing " > " while using quote button in case tinymce is disabled.
@@ -1554,7 +1554,7 @@ class SWIFT_TicketPost extends SWIFT_Model
     /**
      * Smart Reply
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @param SWIFT_Ticket $_SWIFT_TicketObject
      * @param string $_ticketPostContents
@@ -1586,7 +1586,7 @@ class SWIFT_TicketPost extends SWIFT_Model
             $_SWIFT_UserOrganizationObject = '';
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-5058 Placeholder used for 'username' for 'Send Email' tickets shall pick user name, instead of staff name
              *
@@ -1840,7 +1840,7 @@ class SWIFT_TicketPost extends SWIFT_Model
     /**
      * Multi implode
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      * @param array $array
      * @param String $glue
      * @return array

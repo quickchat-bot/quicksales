@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -335,7 +335,7 @@ class SWIFT_TicketSearch extends SWIFT_Rules
         $_criteriaPointer[self::TICKETSEARCH_USERGROUP]['fieldcontents'] = $_field;
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-1061 Ability to filter and search according to ticket tag
          */
@@ -764,7 +764,7 @@ class SWIFT_TicketSearch extends SWIFT_Rules
         $_criteriaPointer[self::TICKETSEARCH_CHARSET]['field'] = 'text';
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-1061 Ability to filter and search according to ticket tag
          */

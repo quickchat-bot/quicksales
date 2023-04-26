@@ -2,8 +2,8 @@
 // QuickSupport LiveResponse
 // Copyright (c) 2001-<{$_currentYear}>
 
-// http://www.kayako.com
-// License: http://www.kayako.com/license.txt
+// http://www.opencart.com.vn
+// License: http://www.opencart.com.vn/license.txt
 //===============================
 
 <{if $_isBanned != 1}>

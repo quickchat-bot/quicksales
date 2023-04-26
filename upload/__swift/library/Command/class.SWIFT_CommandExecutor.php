@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2013, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -20,7 +20,7 @@
  *
  * This execute a chain of commands.
  *
- * @author Atul Atri <atul.atri@kayako.com>
+ * @author Atul Atri <atul.atri@opencart.com.vn>
  */
 class SWIFT_CommandExecutor extends SWIFT_Library
 {
@@ -41,7 +41,7 @@ class SWIFT_CommandExecutor extends SWIFT_Library
      *
      * This list is parsed using method Parse in this class. See self::Parse for an example
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @param array $_commands list of commands
      */
@@ -57,7 +57,7 @@ class SWIFT_CommandExecutor extends SWIFT_Library
     /**
      * Add a command in command chain
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @param SWIFT_Command $_Command
      * @param bool          $_breakOnFailure Stop executing command chain if this command fails to execute
@@ -109,7 +109,7 @@ class SWIFT_CommandExecutor extends SWIFT_Library
      *        )
      * </pre>
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @param array $_commandMap
      *
@@ -176,7 +176,7 @@ class SWIFT_CommandExecutor extends SWIFT_Library
     /**
      * Return command list (command-chain).
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      * @return array
      */
     public function  GetCommands()
@@ -187,7 +187,7 @@ class SWIFT_CommandExecutor extends SWIFT_Library
     /**
      * Execute chain of commands
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      * @return bool false if command-chain failed to execute.
      */
     public function Execute()

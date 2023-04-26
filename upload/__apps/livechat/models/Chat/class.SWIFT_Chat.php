@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -761,7 +761,7 @@ class SWIFT_Chat extends SWIFT_Model
         $_sessionsContainer = self::GetSessionsForStaffList($_staffIDList, $_staffIDIgnoreList, $_isPhone);
 
         /**
-         * IMPROVEMENT: Mansi Wason <mansi.wason@kayako.com>
+         * IMPROVEMENT: Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4918: There should be a defined process for routing chat requests using Round-Robin mode
          *
@@ -2400,7 +2400,7 @@ class SWIFT_Chat extends SWIFT_Model
     }
 
     /**
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @param int $_departmentID
      *

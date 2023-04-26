@@ -8,8 +8,8 @@
  * @author        Werner Garcia <werner.garcia@crossover.com>
  *
  * @copyright     Copyright (c) 2001-2018, Trilogy
- * @license       http://kayako.com/license
- * @link          http://kayako.com
+ * @license       http://opencart.com.vn/license
+ * @link          http://opencart.com.vn
  *
  * ###############################################
  */
@@ -55,12 +55,12 @@ class SWIFT_MailMimeTest extends SWIFT_TestCase
     public function providerAddress()
     {
         return [
-            ['user@kayako.com', ['dest@kayako.com', 'user@kayako.com']],
-            ['user@kayako.com, user2@kayako.com', ['dest@kayako.com', 'user@kayako.com', 'user2@kayako.com']],
-            ['"user1" <user@kayako.com>, user2@kayako.com', ['dest@kayako.com', 'user@kayako.com', 'user2@kayako.com']],
+            ['user@opencart.com.vn', ['dest@opencart.com.vn', 'user@opencart.com.vn']],
+            ['user@opencart.com.vn, user2@opencart.com.vn', ['dest@opencart.com.vn', 'user@opencart.com.vn', 'user2@opencart.com.vn']],
+            ['"user1" <user@opencart.com.vn>, user2@opencart.com.vn', ['dest@opencart.com.vn', 'user@opencart.com.vn', 'user2@opencart.com.vn']],
             [
                 '"abc_hsggsttwueiiwehj.fdfwrt@kjsywe7.com" <abc_hsggsttwueiiwehj.fdfwrt@kjsywe7.com>, "xyz_hsggsttwueiiwehj.fdfwrt@kjsywe7.com" <xyz_hsggsttwueiiwehj.fdfwrt@kjsywe7.com>, "ooo_hsggsttwueiiwehj.fdfwrt@kjsywe7.com" <ooo_hsggsttwueiiwehj.fdfwrt@kjsywe7.com>, "uyt_hsggsttwueiiwehj.fdfwrt@kjsywe7.com" <uyt_hsggsttwueiiwehj.fdfwrt@kjsywe7.com>',
-                ['dest@kayako.com', 'abc_hsggsttwueiiwehj.fdfwrt@kjsywe7.com', 'xyz_hsggsttwueiiwehj.fdfwrt@kjsywe7.com', 'ooo_hsggsttwueiiwehj.fdfwrt@kjsywe7.com', 'uyt_hsggsttwueiiwehj.fdfwrt@kjsywe7.com']
+                ['dest@opencart.com.vn', 'abc_hsggsttwueiiwehj.fdfwrt@kjsywe7.com', 'xyz_hsggsttwueiiwehj.fdfwrt@kjsywe7.com', 'ooo_hsggsttwueiiwehj.fdfwrt@kjsywe7.com', 'uyt_hsggsttwueiiwehj.fdfwrt@kjsywe7.com']
             ]
         ];
     }
@@ -74,8 +74,8 @@ class SWIFT_MailMimeTest extends SWIFT_TestCase
     {
         $simpleEmail = <<<EMAIL
 MIME-Version: 1.0
-From: test@kayako.com
-To: dest@kayako.com
+From: test@opencart.com.vn
+To: dest@opencart.com.vn
 Cc: {$input}
 Subject: UT Sample
 Content-Type: text/plain; charset="UTF-8"
@@ -138,14 +138,14 @@ EMAIL;
 
     public function testDecodeDonotThrowCountErrorOnDecode()
     {
-        $expected = ['dest@kayako.com'];
+        $expected = ['dest@opencart.com.vn'];
         //the to param is set for undisclosed-recipients which is a valid case for mailboxes but invalid email address
         $simpleEmail = <<<EMAIL
         MIME-Version: 1.0
-        From: test@kayako.com
+        From: test@opencart.com.vn
         Subject: UT Sample
         Content-Type: text/plain; charset="UTF-8"
-        Bcc: dest@kayako.com
+        Bcc: dest@opencart.com.vn
         To: undisclosed-recipients:;
         Simple test
         EMAIL;

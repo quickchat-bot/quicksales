@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -720,7 +720,7 @@ abstract class SWIFT_ReportExport extends SWIFT_ReportBase
 
                 case SWIFT_KQL2::DATA_INTEGER:
                     /**
-                     * Bug Fix - Ravi Sharma <ravi.sharma@kayako.com>
+                     * Bug Fix - Ravi Sharma <ravi.sharma@opencart.com.vn>
                      *
                      * SWIFT-4553 Ticket ID is not visible when reports are exported in .xls and .xlsx format.
                      *
@@ -1062,7 +1062,7 @@ abstract class SWIFT_ReportExport extends SWIFT_ReportBase
         foreach (self::$_exportFormatContainer as $_key => $_val) {
 
             /**
-             * IMPROVEMENT - Ankit Saini <ankit.saini@kayako.com>
+             * IMPROVEMENT - Ankit Saini <ankit.saini@opencart.com.vn>
              *
              * SWIFT-5220 Performance adjustments for scalable desks
              */

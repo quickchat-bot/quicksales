@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -172,7 +172,7 @@ class Controller_UserRegistration extends Controller_client
             throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
         }
         /**
-         * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-5195 : Better handling of email address for a user account
          *
@@ -323,7 +323,7 @@ class Controller_UserRegistration extends Controller_client
         $_fullName = text_to_html_entities($_POST['fullname'], 1);
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-2863 Registration email is not sent if "User Email Verification" option is disabled.
          */

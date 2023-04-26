@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -77,7 +77,7 @@ class SWIFT_MailMIMEDecodePolicy extends SWIFT_Library
             {
                 if (in_array(USE_ICONV, [true]) && extension_loaded('iconv')) {
                     /*
-                     * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                     * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                      *
                      * SWIFT-4734 Support for charset encoding iso-8859-8-i by parser
                      *

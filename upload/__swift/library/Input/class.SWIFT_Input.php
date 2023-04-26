@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -268,9 +268,9 @@ class SWIFT_Input extends SWIFT_Library
         $_str = preg_replace_callback('/(ftp|https?):\/\/(\w+:?\w*@)?(\S+)(:[0-9]+)?(\/([\w#!:.?+=&%@!\/-])?)?/', function($_match) use (&$_links) { $_links[] = $_match[0]; return md5($_match[0]); }, $_str);
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4165 URL Encoding characters rendering issue in ticket posts.
          * SWIFT-4987 Random characters in URLs showing in KD
@@ -342,7 +342,7 @@ class SWIFT_Input extends SWIFT_Library
 
             if (preg_match("/<a/i", $_str)) {
                 /**
-                 * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>, Mansi Wason <mansi.wason@kayako.com>
+                 * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>, Mansi Wason <mansi.wason@opencart.com.vn>
                  *
                  * SWIFT-4500 Incomplete email addresses listed in the From field while replying to offline chat messages.
                  */

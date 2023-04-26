@@ -29,7 +29,7 @@ class SWIFT_ArchiverHelp extends SWIFT_Help
      */
     public static function RetrieveHelpLink($_linkName)
     {
-        parent::$_linkContainer['archive_manager'] = 'https://classic.kayako.com/article/1501-guide-to-setting-up-archiver-custom-app-in-kayako';
+        parent::$_linkContainer['archive_manager'] = 'https://classic.opencart.com.vn/article/1501-guide-to-setting-up-archiver-custom-app-in-kayako';
 
         return parent::RetrieveHelpLink($_linkName);
     }

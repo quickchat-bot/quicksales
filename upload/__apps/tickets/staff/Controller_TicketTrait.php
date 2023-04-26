@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -542,7 +542,7 @@ trait Controller_TicketTrait
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-1121 - Macros do not assign ownership
          */
@@ -805,7 +805,7 @@ trait Controller_TicketTrait
             $_userTemplateGroupID = $_SWIFT_UserObject->GetTemplateGroupID();
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4268 Issue with ticket recurrence, if ticket is created using 'As a user' option.
              *
@@ -823,7 +823,7 @@ trait Controller_TicketTrait
         }
 
         /**
-         * FEATURE - Mansi Wason <mansi.wason@kayako.com>
+         * FEATURE - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-3186 Custom field data in autoresponders, ticket notifications.
          *
@@ -851,7 +851,7 @@ trait Controller_TicketTrait
 
         if ($_ticketContents != '' && $_dontSendEmail == false) {
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4998 Missing " > " while using quote button in case tinymce is disabled
              */
@@ -1107,7 +1107,7 @@ trait Controller_TicketTrait
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-5097 Infinite loop with several custom fields.
          *

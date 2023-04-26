@@ -7,8 +7,8 @@
  * @author        Werner Garcia <werner.garcia@crossover.com>
  *
  * @copyright     Copyright (c) 2001-2018, Trilogy
- * @license       http://kayako.com/license
- * @link          http://kayako.com
+ * @license       http://opencart.com.vn/license
+ * @link          http://opencart.com.vn
  *
  *  */
 
@@ -72,7 +72,7 @@ trait Controller_TicketViewTrait {
         // Check permission
         /*
          * Improvement - Bishwanath Jha
-         * Improvement - Mansi Wason <mansi.wason@kayako.com>
+         * Improvement - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-1339 Restrict staff to be able to view assigned tickets ONLY
          * SWIFT-5157 Improving error message when creating ticket from Staff CP in a department not assigned to staff

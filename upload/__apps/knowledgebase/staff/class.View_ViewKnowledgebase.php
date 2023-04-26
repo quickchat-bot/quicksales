@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -172,7 +172,7 @@ class View_ViewKnowledgebase extends SWIFT_View
             $_renderHTML .= '<div class="dashboardmsg">' . $this->Language->Get('noinfoinview') . '</div>';
         } else {
             /*
-            * BUG FIX - Bishwanath Jha <bishwanath.jha@kayako.com>
+            * BUG FIX - Bishwanath Jha <bishwanath.jha@opencart.com.vn>
             *
             * SWIFT-3576: KB Listing - Top Margin.
             *

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -344,7 +344,7 @@ class View_Article extends SWIFT_View
                 SWIFT_UserInterfaceGridField::ALIGN_LEFT, SWIFT_UserInterfaceGridField::SORT_DESC), true);
 
         /**
-         * IMPROVEMENT - Mansi Wason <mansi.wason@kayako.com>
+         * IMPROVEMENT - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-1116 Manage Knowledgebase page should have 'Last Update' as a field available for sorting
          */

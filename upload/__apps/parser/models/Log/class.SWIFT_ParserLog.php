@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -256,7 +256,7 @@ class SWIFT_ParserLog extends SWIFT_Model
 
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-1175 Admin notification if an email cannot be fetched from an email queue
          */
@@ -448,7 +448,7 @@ class SWIFT_ParserLog extends SWIFT_Model
     /**
      * Check if Message ID Exist
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      * @return bool "true" on Success, "false" otherwise
      */
     public static function IsMessageIDExist($_messageID)
@@ -467,7 +467,7 @@ class SWIFT_ParserLog extends SWIFT_Model
     }
 
     /**
-     * @author Mansi Wason<mansi.wason@kayako.com>
+     * @author Mansi Wason<mansi.wason@opencart.com.vn>
      *
      * @return array
      */
@@ -490,7 +490,7 @@ class SWIFT_ParserLog extends SWIFT_Model
     /**
      * Dispatch failure notifications to admin
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @param array $_fieldsContainer the log data
      *

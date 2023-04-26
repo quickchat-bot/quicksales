@@ -15,8 +15,8 @@ use Base\Library\HTML\SWIFT_HTMLPurifier;
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -59,7 +59,7 @@ function VariableArray($arr, $string)
 
     if (count($arr_matches) > 1) {
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-5111 Ticket subject containing symbols [], # aren't supported in KQL.
          */
@@ -419,7 +419,7 @@ function GetCalendarDateline($_calendarDate)
     }
 
     /**
-     * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+     * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * SWIFT-4931 The Resolution Due time gets reset on Staff reply.
      */
@@ -1096,7 +1096,7 @@ function CleanTag($_string, $_extraChars = '')
 function CleanEmail($_string)
 {
     /**
-     * BUG FIX - Ravi Sharma <ravi.shamra@kayako.com>
+     * BUG FIX - Ravi Sharma <ravi.shamra@opencart.com.vn>
      *
      * SWIFT-832 Tags do not accept accented characters.
      *
@@ -1193,7 +1193,7 @@ function StripName($_string, $_length)
     $_SWIFT = SWIFT::GetInstance();
 
     /**
-     * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+     * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * SWIFT-3498 "Setting the value '0' for 'Article Preview Character Limit' under Admin CP > Knowledgebase > Settings, displays three eclipses under Article preview".
      */
@@ -1344,7 +1344,7 @@ function BuildSQLSearch($_fieldName, $_searchQuery, $_noParity = false, $_useOR 
 }
 
 /**
- * @author Mansi Wason <mansi.wason@kayako.com>
+ * @author Mansi Wason <mansi.wason@opencart.com.vn>
  * @return string
  */
 function GenerateID()
@@ -1355,7 +1355,7 @@ function GenerateID()
 /**
  * Generate a more truly "random" alpha-numeric string.
  *
- * @author Mansi Wason <mansi.wason@kayako.com>
+ * @author Mansi Wason <mansi.wason@opencart.com.vn>
  * @param  int $_length
  * @return string
  * @throws Exception
@@ -1379,7 +1379,7 @@ function Random($_length = 16)
  *
  * Should not be considered sufficient for cryptography, etc.
  *
- * @author Mansi Wason <mansi.wason@kayako.com>
+ * @author Mansi Wason <mansi.wason@opencart.com.vn>
  * @param  int $_length
  * @return string
  */
@@ -1391,7 +1391,7 @@ function QuickRandom($_length = 16)
 }
 
 /**
- * @author Mansi Wason <mansi.wason@kayako.com>
+ * @author Mansi Wason <mansi.wason@opencart.com.vn>
  * @return string
  */
 function RandomID()
@@ -1548,7 +1548,7 @@ function IsQuickSupportIP($_ip, $_useCache = true)
         return $_ipCache[$_ip];
     }
 
-    $_validationURL = 'https://my.kayako.com/Backend/Verify/IsQuickSupportIP';
+    $_validationURL = 'https://my.opencart.com.vn/Backend/Verify/IsQuickSupportIP';
 
     $_curlHandle = curl_init();
     curl_setopt($_curlHandle, CURLOPT_URL, $_validationURL);
@@ -1656,7 +1656,7 @@ if (!function_exists('cal_days_in_month')) {
 /**
  * Replace last occurrence of a string
  *
- * Ravi Sharma <ravi.sharma@kayako.com>
+ * Ravi Sharma <ravi.sharma@opencart.com.vn>
  *
  * @param String $search
  * @param String $replace
@@ -1677,7 +1677,7 @@ function str_replace_last($search, $replace, $str)
 /**
  * Return the bytes
  *
- * Ravi Sharma <ravi.sharma@kayako.com>
+ * Ravi Sharma <ravi.sharma@opencart.com.vn>
  *
  * @param string $val
  *

@@ -9,29 +9,29 @@ class SWIFT_UserTest extends SWIFT_TestCase
     public function createProvider()
     {
         return [
-            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test1@kayako.com'], 'password', 0, 'GMT', 1, 0, time(), time(), 1, 1, 0],
-            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test2@kayako.com'], 'password', 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
-            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test3@kayako.com'], 'password', 1, 'GMT', 1, 1, time(), time(), 1, 1, 1],
-            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test4@kayako.com'], 'password', 0, '', 1, 0, time(), time(), 0, 1, 0],
-            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test5@kayako.com'], null, 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
-            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test6@kayako.com'], 'password', 0, 'GMT', 1, 0, '', time(), 0, 1, 0],
-            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test8@kayako.com'], 'password', 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
-            [1, 1, 0, 'Test 1', '', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test9@kayako.com'], 'password', 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
-            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test10@kayako.com'], 'password', 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
-            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test11@kayako.com'], 'password', 0, '', 1, 0, time(), time(), 0, 1, 0],
-            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test12@kayako.com'], 'password', 0, '', 1, 0, null, time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test1@opencart.com.vn'], 'password', 0, 'GMT', 1, 0, time(), time(), 1, 1, 0],
+            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test2@opencart.com.vn'], 'password', 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test3@opencart.com.vn'], 'password', 1, 'GMT', 1, 1, time(), time(), 1, 1, 1],
+            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test4@opencart.com.vn'], 'password', 0, '', 1, 0, time(), time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test5@opencart.com.vn'], null, 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test6@opencart.com.vn'], 'password', 0, 'GMT', 1, 0, '', time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test8@opencart.com.vn'], 'password', 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test9@opencart.com.vn'], 'password', 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test10@opencart.com.vn'], 'password', 0, 'GMT', 1, 0, time(), time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test11@opencart.com.vn'], 'password', 0, '', 1, 0, time(), time(), 0, 1, 0],
+            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test12@opencart.com.vn'], 'password', 0, '', 1, 0, null, time(), 0, 1, 0],
         ];
     }
 
     public function createExceptionProvider()
     {
         return [
-            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test7@kayako.com'], 'password', 0, 'GMT', 1, 0, time(), '', 0, 1, 0],
-            [0, 1, '', 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test100@kayako.com'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
-            [0, 0, '', 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test101@kayako.com'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
-            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test13@kayako.com'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
-            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_MANAGER, ['ut-test14@kayako.com'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
-            [1, 1, 0, 'Test 1', '', '', 1, 0, ['ut-test14@kayako.com'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
+            [1, 1, 0, 'Test 1', '1st', '1234567890', 1, SWIFT_User::ROLE_USER, ['ut-test7@opencart.com.vn'], 'password', 0, 'GMT', 1, 0, time(), '', 0, 1, 0],
+            [0, 1, '', 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test100@opencart.com.vn'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
+            [0, 0, '', 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test101@opencart.com.vn'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
+            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_USER, ['ut-test13@opencart.com.vn'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
+            [1, 1, 0, 'Test 1', '', '', 1, SWIFT_User::ROLE_MANAGER, ['ut-test14@opencart.com.vn'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
+            [1, 1, 0, 'Test 1', '', '', 1, 0, ['ut-test14@opencart.com.vn'], 'password', 0, '', 1, 0, null, null, 0, 1, 0],
         ];
     }
 

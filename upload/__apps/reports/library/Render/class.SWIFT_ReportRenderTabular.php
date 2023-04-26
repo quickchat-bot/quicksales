@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -122,7 +122,7 @@ class SWIFT_ReportRenderTabular extends SWIFT_ReportRender
                 }
 
                 /**
-                 * Bug Fix - Mansi Wason <mansi.wason@kayako.com>
+                 * Bug Fix - Mansi Wason <mansi.wason@opencart.com.vn>
                  *
                  * SWIFT-4118 'Time to Resolve' is shown in seconds when report is exported
                  *

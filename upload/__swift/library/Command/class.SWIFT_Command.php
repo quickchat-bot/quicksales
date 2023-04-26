@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2013, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -19,7 +19,7 @@
  * We can use an instance of Command class to execute system commands and or call a callable
  * callable should return true to indicate success
  *
- * @author Atul Atri <atul.atri@kayako.com>
+ * @author Atul Atri <atul.atri@opencart.com.vn>
  */
 class SWIFT_Command extends SWIFT_Library
 {
@@ -55,7 +55,7 @@ class SWIFT_Command extends SWIFT_Library
 
 
     /**
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @param string $_commandName
      */
@@ -69,7 +69,7 @@ class SWIFT_Command extends SWIFT_Library
     /**
      * Either you can set command or callback
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @param string $_command
      *
@@ -92,7 +92,7 @@ class SWIFT_Command extends SWIFT_Library
     }
 
     /**
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @return string|null
      */
@@ -144,7 +144,7 @@ class SWIFT_Command extends SWIFT_Library
      * String command is executed on system shell.
      * callable is called using call_user_func_array.
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      */
     public function Execute()
     {
@@ -166,7 +166,7 @@ class SWIFT_Command extends SWIFT_Library
     /**
      * Output of command execution
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @return mixed
      */
@@ -178,7 +178,7 @@ class SWIFT_Command extends SWIFT_Library
     /**
      * Status code returned by command execution
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      * @return int
      */
     public function GetStatusCode()
@@ -189,7 +189,7 @@ class SWIFT_Command extends SWIFT_Library
     /**
      * Was command execution successful
      *
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      * @return int|bool
      */
     public function IsSuccess()
@@ -204,7 +204,7 @@ class SWIFT_Command extends SWIFT_Library
     }
 
     /**
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @param string $_name
      *
@@ -223,7 +223,7 @@ class SWIFT_Command extends SWIFT_Library
     }
 
     /**
-     * @author Atul Atri <atul.atri@kayako.com>
+     * @author Atul Atri <atul.atri@opencart.com.vn>
      *
      * @return string
      */

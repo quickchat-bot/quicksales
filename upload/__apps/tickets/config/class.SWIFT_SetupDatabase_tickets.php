@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -181,7 +181,7 @@ class SWIFT_SetupDatabase_tickets extends SWIFT_SetupDatabase
         $this->AddIndex('autoclosecriteria', new SWIFT_SetupDatabaseIndex("autoclosecriteria1", TABLE_PREFIX . "autoclosecriteria", "autocloseruleid"));
 
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT- 4951 New fulltext indexes are not being added on a new database installation.
          *
@@ -406,8 +406,8 @@ class SWIFT_SetupDatabase_tickets extends SWIFT_SetupDatabase
     }
 
     /**
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @param array $_staffIDContainer
      * @param SWIFT_Department $_Department

@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -119,7 +119,7 @@ class SWIFT_Mail extends SWIFT_Model
     /**
      * Embed a File
      *
-     * @author   Ravi Sharma <ravi.sharma@kayako.com>
+     * @author   Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @param string $_content  The file content
      * @param string $_mimeType The file mime type
@@ -166,7 +166,7 @@ class SWIFT_Mail extends SWIFT_Model
     }
 
     /**
-     * @author Mansi Wason<mansi.wason@kayako.com>
+     * @author Mansi Wason<mansi.wason@opencart.com.vn>
      *
      * @param array $referencesMessageID
      *

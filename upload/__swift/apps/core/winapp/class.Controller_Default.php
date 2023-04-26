@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -107,7 +107,7 @@ class Controller_Default extends Controller_winapp
             SWIFT_StaffLoginLog::Success($_SWIFT_StaffObject, SWIFT_StaffLoginLog::INTERFACE_WINAPP);
 
             /**
-             * Improvement FIX: Nidhi Gupta <nidhi.gupta@kayako.com>
+             * Improvement FIX: Nidhi Gupta <nidhi.gupta@opencart.com.vn>
              *
              * SWIFT-4899: Call Home report version 2 - SWIFT to send ping to backend
              */

@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -96,7 +96,7 @@ class SWIFT_XML extends SWIFT_Model
     }
 
     /**
-     * @author Simaranjit Singh <simaranjit.singh@kayako.com>
+     * @author Simaranjit Singh <simaranjit.singh@opencart.com.vn>
      *
      * @param string $_string
      * @return string The Processed String

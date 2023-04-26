@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -103,8 +103,8 @@ class SWIFT_SetupDatabase_news extends SWIFT_SetupDatabase
     }
 
     /**
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @return bool
      * @throws SWIFT_Exception

@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -129,7 +129,7 @@ class SWIFT_KnowledgebaseArticle extends SWIFT_Model
     }
 
     /**
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @param string $_sortField
      *
@@ -276,7 +276,7 @@ class SWIFT_KnowledgebaseArticle extends SWIFT_Model
     }
 
     /**
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
      *
      * @param mixed $_sortOrder
      *
@@ -610,7 +610,7 @@ class SWIFT_KnowledgebaseArticle extends SWIFT_Model
      * Retrieve the Knowledgebase Articles based on the category id
      *
      * @author Varun Shoor
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
      *
      * @param array $_knowledgebaseCategoryIDList
      * @param int $_recordLimit (OPTIONAL)
@@ -805,7 +805,7 @@ class SWIFT_KnowledgebaseArticle extends SWIFT_Model
         }
 
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4279 Pinned knowledgebase articles are not listed at the top
          */

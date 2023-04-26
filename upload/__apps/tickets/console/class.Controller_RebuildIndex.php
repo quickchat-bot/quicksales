@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -223,8 +223,8 @@ class Controller_RebuildIndex extends Controller_console
     /**
      * Rebuild Work Flow Links
      *
-     * @author Mahesh Salaria <mahesh.salaria@kayako.com>
-     * @author Nidhi Gupta <nidhi.gupta@kayako.com>
+     * @author Mahesh Salaria <mahesh.salaria@opencart.com.vn>
+     * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>
      *
      * @param int $_startAt
      *
@@ -409,7 +409,7 @@ class Controller_RebuildIndex extends Controller_console
     /**
      * Calculate SLA Response(Average)time
      *
-     * @author     Nidhi Gupta <nidhi.gupta@kayako.com>
+     * @author     Nidhi Gupta <nidhi.gupta@opencart.com.vn>
      *
      * @param int $startAt
      *

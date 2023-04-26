@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -596,7 +596,7 @@ class SWIFT_CustomFieldManager extends SWIFT_Library
                          */
 
                         /**
-                         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                          *
                          * SWIFT-4282 Undefined Offset error occurs while updating the ticket under the Edit tab if there is no child under the parent link select node
                          */
@@ -640,7 +640,7 @@ class SWIFT_CustomFieldManager extends SWIFT_Library
                 $_isIncluded = isset($_baseContainer[$incIdx])? $_baseContainer[$incIdx] : 0;
 
                 /**
-                 * Bug : Mansi Wason <mansi.wason@kayako.com>
+                 * Bug : Mansi Wason <mansi.wason@opencart.com.vn>
                  *
                  * SWIFT: 4020 Adjust for custom fields API (API/UpdateTicketCustomFields) to update only when data is provided
                  * SWIFT: 4870 File Type Custom field do not retain uploaded files
@@ -846,7 +846,7 @@ class SWIFT_CustomFieldManager extends SWIFT_Library
         $_finalCustomFieldGroupContainer = $_linkedCustomFieldGroupIDList = array();
         if ($_filterByLinks == true && !empty($_typeID)) {
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-5097 Infinite loop with several custom fields.
              *
@@ -968,17 +968,17 @@ class SWIFT_CustomFieldManager extends SWIFT_Library
     }
 
     /**
-     * FEATURE - Mansi Wason <mansi.wason@kayako.com>
+     * FEATURE - Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * SWIFT-3186 Custom field data in autoresponders, ticket notifications.
      */
     /**
-     * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+     * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * SWIFT-5018: Issue with Custom Fields rendering in Notification emails
      */
     /**
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * @param int $_ticketID
      *
@@ -1137,7 +1137,7 @@ class SWIFT_CustomFieldManager extends SWIFT_Library
     /**
      * Remove redundant IDs from linked select values
      *
-     * @author Andriy Lesyuk <andriy.lesyuk@kayako.com>
+     * @author Andriy Lesyuk <andriy.lesyuk@opencart.com.vn>
      *
      * @return int The count of fixed values
      */

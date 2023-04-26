@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -68,7 +68,7 @@ class Controller_User extends Controller_client
         }
 
         /*
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-3743 A Cross Site Request Forgery error on accessing /?/Base/User/Login if user is already logged in.
          */
@@ -97,7 +97,7 @@ class Controller_User extends Controller_client
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4248 Security issue (medium)
          *
@@ -143,7 +143,7 @@ class Controller_User extends Controller_client
         }
 
         /**
-         * Feature FIX : Saloni Dhall <saloni.dhall@kayako.com>
+         * Feature FIX : Saloni Dhall <saloni.dhall@opencart.com.vn>
          *
          * SWIFT-4561 : Login failure lockout attempts lockout in the support center for end-users
          *
@@ -325,7 +325,7 @@ class Controller_User extends Controller_client
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4465 Language selected under user's profile should be indicated at the support center language drop down option after login.
          *
@@ -449,7 +449,7 @@ class Controller_User extends Controller_client
         }
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4364 Security Issue.
          *

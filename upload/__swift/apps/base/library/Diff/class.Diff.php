@@ -10,8 +10,8 @@
  *
  * @package       swift
  * @copyright     Copyright (c) 2001-2018, Trilogy
- * @license       http://kayako.com/license
- * @link          http://kayako.com
+ * @license       http://opencart.com.vn/license
+ * @link          http://opencart.com.vn
  *
  * ###############################################
  */

@@ -1,11 +1,11 @@
 <?php
 /**
- * @author         Varun Shoor <varun.shoor@kayako.com>
+ * @author         Varun Shoor <varun.shoor@opencart.com.vn>
  *
  * @package        SWIFT
  * @copyright      2001-2014 QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  */
 
 
@@ -14,14 +14,14 @@
  *
  * This library is intended to eventually replace SWIFT_XML.
  *
- * @author Varun Shoor <varun.shoor@kayako.com>
+ * @author Varun Shoor <varun.shoor@opencart.com.vn>
  */
 class SWIFT_SimpleXML extends SimpleXMLElement
 {
     /**
      * Add an attribute and return the element to support chaining of calls
      *
-     * @author Varun Shoor <varun.shoor@kayako.com>
+     * @author Varun Shoor <varun.shoor@opencart.com.vn>
      *
      * @param string $name      The name of the attribute to add.
      * @param string $value     (OPTIONAL) The value of the attribute.
@@ -55,7 +55,7 @@ class SWIFT_SimpleXML extends SimpleXMLElement
     /**
      * Adds a child element to the XML node..
      *
-     * @author Varun Shoor <varun.shoor@kayako.com>
+     * @author Varun Shoor <varun.shoor@opencart.com.vn>
      *
      * @param string $name      The name of the child element to add.
      * @param string $value     (OPTIONAL) If specified, the value of the child element.

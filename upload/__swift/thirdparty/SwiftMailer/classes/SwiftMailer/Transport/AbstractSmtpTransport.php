@@ -465,7 +465,7 @@ abstract class SwiftMailer_Transport_AbstractSmtpTransport implements SwiftMaile
             $this->_domain = $_SERVER['SERVER_NAME'];
         } elseif (!empty($_SERVER['SERVER_ADDR'])) {
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4810 Limitation of IPv6 network and dispatch process during SMTP handshake.
              *

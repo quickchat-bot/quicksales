@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -61,7 +61,7 @@ class Controller_TicketSearch extends Controller_api implements SWIFT_REST_Inter
     /**
      * Initiate the Ticket Search
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketSearch
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise
@@ -201,7 +201,7 @@ class Controller_TicketSearch extends Controller_api implements SWIFT_REST_Inter
     /**
      * Not Implemented
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketSearch
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise
@@ -222,7 +222,7 @@ class Controller_TicketSearch extends Controller_api implements SWIFT_REST_Inter
     /**
      * Not Implemented
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketSearch
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise
@@ -243,7 +243,7 @@ class Controller_TicketSearch extends Controller_api implements SWIFT_REST_Inter
     /**
      * Not Implemented
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketSearch
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise
@@ -264,7 +264,7 @@ class Controller_TicketSearch extends Controller_api implements SWIFT_REST_Inter
     /**
      * Not Implemented
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+TicketSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+TicketSearch
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise

@@ -9,8 +9,8 @@
 *
 * @package       swift
 * @copyright     Copyright (c) 2001-2018, Trilogy
-* @license       http://kayako.com/license
-* @link          http://kayako.com
+* @license       http://opencart.com.vn/license
+* @link          http://opencart.com.vn
 *
 * ###############################################
 */
@@ -219,7 +219,7 @@ text'],
             ->will($this->returnValueMap([
                 ['signature', $signature],
                 ['fullname', 'Unit Testing'],
-                ['email', 'ut@kayako.com']
+                ['email', 'ut@opencart.com.vn']
             ]));
 
         $actual = SWIFT_TicketPost::CreateStaff($ticket, $staff, SWIFT_Ticket::CREATIONMODE_STAFFAPI, $contents,

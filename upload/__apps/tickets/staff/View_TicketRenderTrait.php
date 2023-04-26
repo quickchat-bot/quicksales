@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -923,7 +923,7 @@ trait View_TicketRenderTrait {
         // End Hook
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-4994 Notice Undefined variable: _ReplyTabObject (./__apps/tickets/staff/class.View_Ticket.php:1102)
          * SWIFT-4941 Check Custom Tweaks compatibility with SWIFT
@@ -931,7 +931,7 @@ trait View_TicketRenderTrait {
         if ($_SWIFT->Settings->Get('t_tinymceeditor') != '0' && $_SWIFT->Staff->GetPermission('staff_tcanreply') != '0' && $_SWIFT->Staff->GetDepartmentPermission($_SWIFT_TicketObject->GetProperty('departmentid'), 'd_t_canreply') != '0' && $_SWIFT->Staff->GetPermission('staff_tcanreply') != '0')
         {
             /**
-             * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
+             * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
              *
              * SWIFT-4982 WYSIWYG editor fails to load
              */
@@ -946,7 +946,7 @@ trait View_TicketRenderTrait {
             $_SWIFT = SWIFT::GetInstance();
 
             /**
-             * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
+             * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
              *
              * SWIFT-4982 WYSIWYG editor fails to load
              */

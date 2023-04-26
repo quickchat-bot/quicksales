@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -1317,7 +1317,7 @@ class SWIFT_App extends SWIFT_Base
     /**
      * Default apps are not rendered in admin -> apps section to prevent install/uninstall options.
      *
-     * @author Pankaj Garg <pankaj.garg@kayako.com>
+     * @author Pankaj Garg <pankaj.garg@opencart.com.vn>
      *
      * @param string $appName
      *

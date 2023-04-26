@@ -10,8 +10,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -222,7 +222,7 @@ class Controller_Push extends Controller_staffapi
         $_extendedTicketMapper
     ) {
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-2599 Staff is able to delete the ticket from Android phone even if he does not have the permission
          */
@@ -792,7 +792,7 @@ class Controller_Push extends Controller_staffapi
                                 $_ignoreEmail = $_ModifyObject->reply->ignoreemail == 1;
                             }
                             /**
-                             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                              *
                              * SWIFT-4806 Add option to the staff API to not send automatic emails when creating a ticket reply.
                              */
@@ -950,7 +950,7 @@ class Controller_Push extends Controller_staffapi
                         $_SWIFT_TicketObject->ProcessUpdatePool();
 
                         /**
-                         * Bug Fix: Saloni Dhall, Ravi Sharma <ravi.sharma@kayako.com>
+                         * Bug Fix: Saloni Dhall, Ravi Sharma <ravi.sharma@opencart.com.vn>
                          *
                          * SWIFT-4133: Attachment is not sent in staff reply emails, for the tickets updated using Staff API.
                          *
@@ -1247,7 +1247,7 @@ class Controller_Push extends Controller_staffapi
             }
         }
         /*
-        * BUG FIX - Mansi wason <mansi.wason@kayako.com>
+        * BUG FIX - Mansi wason <mansi.wason@opencart.com.vn>
         *
         * SWIFT-5108 Attachment is not sent in the reply email sent to customer for the tickets created using Staff API
         *

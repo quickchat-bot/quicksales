@@ -8,8 +8,8 @@
  * @package    SWIFT
  * @author    QuickSupport Singapore Pte. Ltd.
  * @copyright    Copyright (c) 2001-2009, QuickSupport Singapore Pte. Ltd.
- * @license    http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license    http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  * @filesource
  * ###################################
  * =======================================
@@ -50,7 +50,7 @@ class Controller_Category extends Controller_api implements SWIFT_REST_Interface
     }
 
     /**
-     * @author Utsav Handa <utsav.handa@kayako.com>
+     * @author Utsav Handa <utsav.handa@opencart.com.vn>
      *
      * @param string $_sortField
      *
@@ -66,7 +66,7 @@ class Controller_Category extends Controller_api implements SWIFT_REST_Interface
      * Retrieve & Dispatch the Categories
      *
      * @author Simaranjit Singh
-     * @author Saloni Dhall <saloni.dhall@kayako.com>
+     * @author Saloni Dhall <saloni.dhall@opencart.com.vn>
      *
      * @param int|bool  $_knowledgebaseCategoryID (OPTIONAL)
      * @param int       $_rowsPerPage             (OPTIONAL)

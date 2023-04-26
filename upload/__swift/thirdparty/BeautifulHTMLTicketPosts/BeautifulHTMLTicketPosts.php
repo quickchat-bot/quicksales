@@ -4,7 +4,7 @@
  * Beautiful HTML Ticket Posts
  *
  * @author         Marvin Herbold <mherbold@ainterpreting.com>
- * @link           http://forge.kayako.com/projects/beautiful-html-ticket-posts
+ * @link           http://forge.opencart.com.vn/projects/beautiful-html-ticket-posts
  */
 
 /**
@@ -21,7 +21,7 @@ class BeautifulHTMLTicketPosts {
             $_contents = preg_replace('/^<!DOCTYPE.+?>/i', '', $_contents);
 
             /**
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-4778 New line break is not working even after allowing HTML rendering in tickets.
              *
@@ -113,7 +113,7 @@ class BeautifulHTMLTicketPosts {
             //self::TrimTrailingWhitespace($_firstTag);
 
             /**
-             * Bug Fix : Saloni Dhall <saloni.dhall@kayako.com>
+             * Bug Fix : Saloni Dhall <saloni.dhall@opencart.com.vn>
              * SWIFT-4333 : An extra space is added to the contents of ticket created from Outlook
              * Comments : $_firstTag fetches data from <body> tag, style and other tags cant be skipped from contents.
              */
@@ -235,7 +235,7 @@ class BeautifulHTMLTicketPosts {
                 }
 
                 /**
-                 * IMPROVEMENT - Ankit Saini <ankit.saini@kayako.com>
+                 * IMPROVEMENT - Ankit Saini <ankit.saini@opencart.com.vn>
                  *
                  * SWIFT-5169 QuickSupport should allow the rendering of mathematical representations including "<" or ">" symbols.
                  */
@@ -298,7 +298,7 @@ class BeautifulHTMLTicketPosts {
                 if (!preg_match('#(.*)<#U', $_contents, $_matches, 0, $_offset))
                 {
                     /**
-                     * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                     * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                      *
                      * SWIFT-4963 User receives blank emails when staff replies from mobile apps
                      */

@@ -10,8 +10,8 @@
  *
  * @package       swift
  * @copyright     Copyright (c) 2001-2018, Trilogy
- * @license       http://kayako.com/license
- * @link          http://kayako.com
+ * @license       http://opencart.com.vn/license
+ * @link          http://opencart.com.vn
  *
  * ###############################################
  */
@@ -119,7 +119,7 @@ class SetupDatabase_parserTest extends \SWIFT_TestCase
         }
 
         define('INSTALL_SAMPLE_DATA', true);
-        $_POST['producturl'] = 'http://test.kayako.com';
+        $_POST['producturl'] = 'http://test.opencart.com.vn';
 
         \SWIFT::GetInstance()->Database->method('QueryFetch')->willReturn(['emailqueueid' => 1, 'queuesignatureid' => 1, 'type' => APP_NEWS]);
 

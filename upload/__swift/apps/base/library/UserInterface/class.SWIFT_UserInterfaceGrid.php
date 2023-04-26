@@ -5,7 +5,7 @@
 //
 // Source Copyright 2001QuickSupport Singapore Pte. Ltd.h Ltd.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//                          www.kayako.com
+//                          www.opencart.com.vn
 //###################################
 //=======================================
 namespace Base\Library\UserInterface;
@@ -2476,7 +2476,7 @@ class SWIFT_UserInterfaceGrid extends SWIFT_Model
     /**
      * Build the SQL for searching on a field using Full Text search
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * @param string $_fieldName
      *
@@ -2487,7 +2487,7 @@ class SWIFT_UserInterfaceGrid extends SWIFT_Model
 
         $_SWIFT = SWIFT::GetInstance();
         /**
-         * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4895: Introduce "In Boolean Mode" for staff cp's full text search
          */

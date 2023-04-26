@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -162,7 +162,7 @@ class SWIFT_TicketNotification extends SWIFT_Library {
             throw new SWIFT_Exception(SWIFT_INVALIDDATA);
         }
         /**
-         * BUG FIX : Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX : Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-4980 : Third party replies are sent to ticket creator if 'User' is selected in 'New reply from end user' notification.
          */
@@ -299,7 +299,7 @@ class SWIFT_TicketNotification extends SWIFT_Library {
         $_baseContentsText = $_baseContentsHTML = '';
 
         /**
-         * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+         * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
          *
          * SWIFT-5060 Unicode characters like emojis not working in the subject
          */
@@ -328,7 +328,7 @@ class SWIFT_TicketNotification extends SWIFT_Library {
             $_originalBaseName = '/' . $_originalBaseName;
         }
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4630 : Sample ticket email contains Invalid Ticket Url and three language errors
          *
@@ -740,7 +740,7 @@ class SWIFT_TicketNotification extends SWIFT_Library {
         }
 
         /**
-         * FEATURE - Mansi Wason <mansi.wason@kayako.com>
+         * FEATURE - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT-3186 Custom field data in autoresponders, ticket notifications.
          */
@@ -763,7 +763,7 @@ class SWIFT_TicketNotification extends SWIFT_Library {
         $this->Template->Assign('_notificationContentsHTML', $_notificationContentHTML);
         $this->Template->Assign('_ticketNotification', $_templateVariableList['_ticketnotification']);
         /**
-         * BUG FIX : Nidhi Gupta <nidhi.gupta@kayako.com>
+         * BUG FIX : Nidhi Gupta <nidhi.gupta@opencart.com.vn>
          *
          * SWIFT-4630: Sample ticket email contains Invalid Ticket Url and three language errors
          */
@@ -879,7 +879,7 @@ class SWIFT_TicketNotification extends SWIFT_Library {
             if (_is_array($_attachmentContainer)) {
                 foreach ($_attachmentContainer as $_ticketAttachment) {
                     /**
-                     * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+                     * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
                      *
                      * SWIFT-4191 Inline images do not render in staff notification emails, in MS Outlook client
                      *

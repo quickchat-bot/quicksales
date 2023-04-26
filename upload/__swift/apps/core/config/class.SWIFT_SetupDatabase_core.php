@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -190,7 +190,7 @@ class SWIFT_SetupDatabase_core extends SWIFT_SetupDatabase
      * - Removes tables from old search engine app
      * - Removes old search engine cron task
      *
-     * @author Ryan Lederman <rml@kayako.com>
+     * @author Ryan Lederman <rml@opencart.com.vn>
      * @return bool
      */
     public function Upgrade_4_01_161()
@@ -213,7 +213,7 @@ class SWIFT_SetupDatabase_core extends SWIFT_SetupDatabase
      *
      * - Forces searchindex table to use the MyISAM engine
      *
-     * @author Ryan Lederman <rml@kayako.com>
+     * @author Ryan Lederman <rml@opencart.com.vn>
      * @return bool
      */
     public function Upgrade_4_01_180()
@@ -285,7 +285,7 @@ class SWIFT_SetupDatabase_core extends SWIFT_SetupDatabase
     /**
      * Upgrade for 4.70
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      * @throws SWIFT_Exception
      * @return bool
      */
@@ -304,7 +304,7 @@ class SWIFT_SetupDatabase_core extends SWIFT_SetupDatabase
     /**
      * Upgrade from 4.70.2
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * @return bool
      * @throws SWIFT_Exception
@@ -324,7 +324,7 @@ class SWIFT_SetupDatabase_core extends SWIFT_SetupDatabase
     /**
      * Upgrade from 4.71.0
      *
-     * @author Mansi Wason <mansi.wason@kayako.com>
+     * @author Mansi Wason <mansi.wason@opencart.com.vn>
      *
      * @return bool
      * @throws SWIFT_Exception
@@ -338,7 +338,7 @@ class SWIFT_SetupDatabase_core extends SWIFT_SetupDatabase
         }
 
         /**
-         * BUG FIX - Mansi Wason <mansi.wason@kayako.com>
+         * BUG FIX - Mansi Wason <mansi.wason@opencart.com.vn>
          *
          * SWIFT- 4951 New fulltext indexes are not being added on a new database installation.
          *
@@ -369,7 +369,7 @@ class SWIFT_SetupDatabase_core extends SWIFT_SetupDatabase
     /**
      * Upgrade from 4.72.0
      *
-     * @author Ravi Sharma <ravi.sharma@kayako.com>
+     * @author Ravi Sharma <ravi.sharma@opencart.com.vn>
      *
      * @return bool
      * @throws SWIFT_Exception

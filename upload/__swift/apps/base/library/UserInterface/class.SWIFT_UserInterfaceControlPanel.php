@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -394,9 +394,9 @@ class SWIFT_UserInterfaceControlPanel extends SWIFT_UserInterface
             }
 
             /**
-             * BUG FIX - Nidhi Gupta <nidhi.gupta@kayako.com>
-             * Feature  - Nidhi Gupta <nidhi.gupta@kayako.com>
-             * Improvement  - Nidhi Gupta <nidhi.gupta@kayako.com>
+             * BUG FIX - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
+             * Feature  - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
+             * Improvement  - Nidhi Gupta <nidhi.gupta@opencart.com.vn>
              *
              * SWIFT-4925 undefined index __executesegment and __staffemail at staffcp on ticket loading from history tab
              * SWIFT-4948 Introduce Google Tag Manager and config.php parameter in disabled state
@@ -596,7 +596,7 @@ class SWIFT_UserInterfaceControlPanel extends SWIFT_UserInterface
 
             /*
              * BUG FIX - Varun Shoor
-             * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
+             * BUG FIX - Ravi Sharma <ravi.sharma@opencart.com.vn>
              *
              * SWIFT-1806 Using 'enter' in "Your Question" field while initiating a chat, help desk throws an error when viewing chat history
              * SWIFT-4917 Cross site scripting flaw in QuickSupport Case.

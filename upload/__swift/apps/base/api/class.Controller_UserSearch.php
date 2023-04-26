@@ -9,8 +9,8 @@
  *
  * @package        SWIFT
  * @copyright    Copyright (c) 2001-2012, QuickSupport
- * @license        http://www.kayako.com/license
- * @link        http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link        http://www.opencart.com.vn
  *
  * ###############################################
  */
@@ -49,7 +49,7 @@ class Controller_UserSearch extends Controller_api implements SWIFT_REST_Interfa
     /**
      * Initiate the User Search
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+UserSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+UserSearch
      *
      * @author Mahesh Salaria
      * @return bool "true" on Success, "false" otherwise
@@ -151,7 +151,7 @@ class Controller_UserSearch extends Controller_api implements SWIFT_REST_Interfa
     /**
      * Not Implemented
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+UserSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+UserSearch
      *
      * @author Mahesh Salaria
      * @return bool "true" on Success, "false" otherwise
@@ -171,7 +171,7 @@ class Controller_UserSearch extends Controller_api implements SWIFT_REST_Interfa
     /**
      * Not Implemented
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+UserSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+UserSearch
      *
      * @author Mahesh Salaria
      * @return bool "true" on Success, "false" otherwise
@@ -191,7 +191,7 @@ class Controller_UserSearch extends Controller_api implements SWIFT_REST_Interfa
     /**
      * Not Implemented
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+UserSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+UserSearch
      *
      * @author Mahesh Salaria
      * @return bool "true" on Success, "false" otherwise
@@ -211,7 +211,7 @@ class Controller_UserSearch extends Controller_api implements SWIFT_REST_Interfa
     /**
      * Not Implemented
      *
-     * Example Output: http://wiki.kayako.com/display/DEV/REST+-+UserSearch
+     * Example Output: http://wiki.opencart.com.vn/display/DEV/REST+-+UserSearch
      *
      * @author Mahesh Salaria
      * @return bool "true" on Success, "false" otherwise

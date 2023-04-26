@@ -8,8 +8,8 @@
  *
  * @package        SWIFT
  * @copyright      Copyright (c) 2001-2016, QuickSupport
- * @license        http://www.kayako.com/license
- * @link           http://www.kayako.com
+ * @license        http://www.opencart.com.vn/license
+ * @link           http://www.opencart.com.vn
  *
  *
  */
@@ -24,14 +24,14 @@ use SWIFT_Library;
 /**
  * The Call home Data object
  *
- * @author Nidhi Gupta <nidhi.gupta@kayako.com>
+ * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>
  */
 class SWIFT_CallHomeData extends SWIFT_Library
 {
     /**
      * Constructor
      *
-     * @author Nidhi Gupta <nidhi.gupta@kayako.com>
+     * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>
      *
      * @return bool
      */
@@ -43,7 +43,7 @@ class SWIFT_CallHomeData extends SWIFT_Library
     /**
      * Call home method
      *
-     * @author Nidhi Gupta <nidhi.gupta@kayako.com>
+     * @author Nidhi Gupta <nidhi.gupta@opencart.com.vn>
      * @return bool
      * @throws SWIFT_Exception
      */
