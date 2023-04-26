@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2012, Kayako
+ * @copyright      Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -132,7 +132,7 @@ class SWIFT_MailParserEmail extends SWIFT_Library
          * BUG FIX - Varun Shoor
          *
          * SWIFT-1675 [Warning]: strtotime() expects parameter 1 to be string, array given (Parser/class.Parser\Library\MailParser\SWIFT_MailParserEmail.php:113)
-         * SWIFT-2220 Kayako shows e-mails with "UT" timezone as 1970-01-01
+         * SWIFT-2220 QuickSupport shows e-mails with "UT" timezone as 1970-01-01
          * SWIFT-1917 [Notice]: Undefined index: date (Parser/class.Parser\Library\MailParser\SWIFT_MailParserEmail.php:120)
          *
          */

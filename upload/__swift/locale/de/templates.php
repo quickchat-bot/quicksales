@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -49,7 +49,7 @@ $__LANG = array(
     'addtohistory'                  => 'Vorlagen-Revisionsverlauf beibehalten',
     'desc_addtohistory'             => 'Überschreibt die Zusammenführung von Vorlagen bestehende Vorlangen, behalten die überschriebenen Vorlagen den Vorlagenverlauf bei.',
     'titleversioncheckfail'         => 'Diese Vorlagengruppe ist veraltet',
-    'msgversioncheckfail'           => 'Diese Vorlagengruppe konnte nicht importiert werden, weil es mit einer älteren Version von Kayako erstellt wurde und evtl. Vorlagen fehlen. Möchten Sie diese Überprüfung der Version überschreiben, aktivierenSie <em>Version der Vorlagen ignorieren</em>.',
+    'msgversioncheckfail'           => 'Diese Vorlagengruppe konnte nicht importiert werden, weil es mit einer älteren Version von QuickSupport erstellt wurde und evtl. Vorlagen fehlen. Möchten Sie diese Überprüfung der Version überschreiben, aktivierenSie <em>Version der Vorlagen ignorieren</em>.',
     'importexport'                  => 'Importieren/Exportieren',
     'exporttgroup'                  => 'Zu exportierende Vorlagengruppe',
     'desc_exporttgroup'             => 'Die Vorlagengruppe wird als XML-Datei exportiert.',
@@ -114,7 +114,7 @@ $__LANG = array(
     'inserttgroup'                  => 'Vorlagengruppen',
     'desc_inserttgroup'             => 'Bitte wählen Sie diese Vorlagengruppe für diese Vorlage.',
     'templateeditingguideline'      => 'Empfehlungen für die Bearbeitung von Vorlagen',
-    'desc_templateeditingguideline' => 'Mit dem Vorlagen-Editor, können Sie das Aussehen Ihres Support-Centers personalisieren. Sollte eine künftige Aktualisierung von Kayako auch Änderungen dieser Vorlage beinhalten, werden Sie gebeten, die Vorlage auf ihren Originalzustand wiederherzustellen. Dies macht Ihre Änderungen rückgängig, so dass Sie sie erneut vornehmen müssen.<br><br>Um mögliche Kopfzerbrechen zu minimieren, sehen Sie sich die <a href="https://go.gfi.com/?pageid=GFIHelpDeskTemplates" target="_blank" rel="noopener noreferrer">Empfehlungen für die Bearbeitung von Vorlagen</a> an, bevor Sie mit der Personalisierung Ihres Support-Centers beginnen.',
+    'desc_templateeditingguideline' => 'Mit dem Vorlagen-Editor, können Sie das Aussehen Ihres Support-Centers personalisieren. Sollte eine künftige Aktualisierung von QuickSupport auch Änderungen dieser Vorlage beinhalten, werden Sie gebeten, die Vorlage auf ihren Originalzustand wiederherzustellen. Dies macht Ihre Änderungen rückgängig, so dass Sie sie erneut vornehmen müssen.<br><br>Um mögliche Kopfzerbrechen zu minimieren, sehen Sie sich die <a href="https://go.gfi.com/?pageid=GFIHelpDeskTemplates" target="_blank" rel="noopener noreferrer">Empfehlungen für die Bearbeitung von Vorlagen</a> an, bevor Sie mit der Personalisierung Ihres Support-Centers beginnen.',
     'restoreconfirmaskcat'          => 'Sind Sie sicher, dass Sie die Vorlagen dieser Kategorie wiederherstellen möchten?\\nSie können diese Aktion nicht rückgängig machen; die Wiederherstellung der Vorlagen kann zum Verlust aller UI Änderungen, die Sie an Ihren bestehenden Vorlagen durchgenommen haben, führen!',
     'inserttemplatetgroup'          => 'Vorlagengruppen',
     'inserttemplatetcategory'       => 'Vorlagenkategorie',
@@ -290,15 +290,15 @@ $__LANG = array(
     'loginsharefile'                => 'LoginShare XML File',
     'desc_loginsharefile'           => 'Upload the LoginShare XML File',
     'titlenoelevatedls'             => 'Unable to Import LoginShare XML',
-    'msgnoelevatedls'               => 'Kayako is unable to import the LoginShare XML file as it is required that you login with a staff user that has elevated rights. You can add your user to elevated right list in config/config.php file of the package.',
+    'msgnoelevatedls'               => 'QuickSupport is unable to import the LoginShare XML file as it is required that you login with a staff user that has elevated rights. You can add your user to elevated right list in config/config.php file of the package.',
     'titlelsversioncheckfail'       => 'Version Check Failed',
-    'msglsversioncheckfail'         => 'Kayako is unable to import the LoginShare Plugin as the plugin was created for an older version of Kayako',
+    'msglsversioncheckfail'         => 'QuickSupport is unable to import the LoginShare Plugin as the plugin was created for an older version of QuickSupport',
     'titlelsinvaliduniqueid'        => 'Duplicate Unique ID Error',
-    'msglsinvaliduniqueid'          => 'Kayako is unable to import the LoginShare Plugin due to a conflict in Unique ID. This usually means that the plugin has already been imported into the database.',
+    'msglsinvaliduniqueid'          => 'QuickSupport is unable to import the LoginShare Plugin due to a conflict in Unique ID. This usually means that the plugin has already been imported into the database.',
     'titlelsinvalidxml'             => 'Invalid XML File',
-    'msglsinvalidxml'               => 'Kayako is unable to import the LoginShare Plugin as the XML file corrupt or contains invalid data.',
+    'msglsinvalidxml'               => 'QuickSupport is unable to import the LoginShare Plugin as the XML file corrupt or contains invalid data.',
     'titlelsimported'               => 'Imported LoginShare Plugin',
-    'msglsimported'                 => 'Kayako has successfully imported the %s LoginShare Plugin.',
+    'msglsimported'                 => 'QuickSupport has successfully imported the %s LoginShare Plugin.',
     'titlelsdeleted'                => 'Deleted LoginShare Plugin',
     'msglsdeleted'                  => 'Successfully deleted the "%s" LoginShare Plugin from the database.',
     'tgroupjump'                    => 'Template Group: %s',
@@ -314,7 +314,7 @@ $__LANG = array(
     'importtemplates'               => 'Import Templates',
     'importxml'                     => 'Import XML',
     'tgroupmergeconfirm'            => 'Template Group "%s" merged with import file',
-    'versioncheckfailed'            => 'Version Check Failed: The uploaded template pack was created using older version of Kayako',
+    'versioncheckfailed'            => 'Version Check Failed: The uploaded template pack was created using older version of QuickSupport',
     'tgroupnewimportconfirm'        => 'Template Group "%s" imported successfully',
     'templategroupdetails'          => 'Template Group Details',
     'passworddontmatch'             => 'ERROR: Passwords don\'t match',

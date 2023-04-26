@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -44,32 +44,32 @@ $__LANG = array(
     'lite'                       => 'Lite',
     'lastupdate'                 => 'Última atualização:',
     'notavailable'               => '- Não disponível -',
-    'titlegeoipremote'           => 'Serviço de pesquisa de GeoIP da Kayako ativo',
-    'msggeoipremote'             => 'O seu suporte técnico está a utilizar o serviço de pesquisa de GeoIP da Kayako. Não são necessárias ações adicionais.',
+    'titlegeoipremote'           => 'Serviço de pesquisa de GeoIP da QuickSupport ativo',
+    'msggeoipremote'             => 'O seu suporte técnico está a utilizar o serviço de pesquisa de GeoIP da QuickSupport. Não são necessárias ações adicionais.',
     'titlenofilecitylocation'    => 'Não foi possível encontrar a base de dados Cidade (Localização)',
-    'msgnofilecitylocation'      => 'Kayako não consegue encontrar uma base de dados GeoIP válida para a cidade (localizações). Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
+    'msgnofilecitylocation'      => 'QuickSupport não consegue encontrar uma base de dados GeoIP válida para a cidade (localizações). Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
     'titlenofilecityblocks'      => 'Não foi possível encontrar a base de dados Cidade (Quarteirões)',
-    'msgnofilecityblocks'        => 'Kayako não consegue encontrar uma base de dados GeoIP válida para a cidade (quarteirões). Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
+    'msgnofilecityblocks'        => 'QuickSupport não consegue encontrar uma base de dados GeoIP válida para a cidade (quarteirões). Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
     'titlenofilenetspeed'        => 'Não foi possível encontrar a base de dados Velocidade da rede',
-    'msgnofilenetspeed'          => 'Kayako não consegue encontrar uma base de dados GeoIP válida para velocidades de rede. Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
+    'msgnofilenetspeed'          => 'QuickSupport não consegue encontrar uma base de dados GeoIP válida para velocidades de rede. Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
     'titlenofileisp'             => 'Não foi possível encontrar a base de dados ISP',
-    'msgnofileisp'               => 'Kayako não consegue encontrar uma base de dados GeoIP válida para velocidades de rede. Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
+    'msgnofileisp'               => 'QuickSupport não consegue encontrar uma base de dados GeoIP válida para velocidades de rede. Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
     'titlenofileorganization'    => 'Não foi possível encontrar a base de dados Organização',
-    'msgnofileorganization'      => 'Kayako não consegue encontrar uma base de dados GeoIP válida para organizações. Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
+    'msgnofileorganization'      => 'QuickSupport não consegue encontrar uma base de dados GeoIP válida para organizações. Pode transferir a mais recente base de dados  da <a href="https://go.gfi.com/?pageid=GFIHelpdeskGeoIP">aqui</a>.',
     'titlenotbuiltcitylocations' => 'A base de dados Cidade (localização) não foi indexada',
-    'msgnotbuiltcitylocations'   => 'As informações da base de dados GeoIP não podem ser utilizadas pela Kayako até serem indexadas.',
+    'msgnotbuiltcitylocations'   => 'As informações da base de dados GeoIP não podem ser utilizadas pela QuickSupport até serem indexadas.',
     'titlenotbuiltcityblocks'    => 'A base de dados Cidade (quarteirões) não foi indexada',
-    'msgnotbuiltcityblocks'      => 'As informações da base de dados GeoIP não podem ser utilizadas pela Kayako até serem indexadas.',
+    'msgnotbuiltcityblocks'      => 'As informações da base de dados GeoIP não podem ser utilizadas pela QuickSupport até serem indexadas.',
     'titlenotbuiltisp'           => 'A base de dados ISP não foi indexada',
-    'msgnotbuiltisp'             => 'As informações da base de dados GeoIP não podem ser utilizadas pela Kayako até serem indexadas.',
+    'msgnotbuiltisp'             => 'As informações da base de dados GeoIP não podem ser utilizadas pela QuickSupport até serem indexadas.',
     'titlenotbuiltnetspeed'      => 'A base de dados Velocidade da rede não foi indexada',
-    'msgnotbuiltnetspeed'        => 'As informações da base de dados GeoIP não podem ser utilizadas pela Kayako até serem indexadas.',
+    'msgnotbuiltnetspeed'        => 'As informações da base de dados GeoIP não podem ser utilizadas pela QuickSupport até serem indexadas.',
     'titlenotbuiltorganization'  => 'A base de dados Organização não foi indexada',
-    'msgnotbuiltorganization'    => 'As informações da base de dados GeoIP não podem ser utilizadas pela Kayako até serem indexadas.',
+    'msgnotbuiltorganization'    => 'As informações da base de dados GeoIP não podem ser utilizadas pela QuickSupport até serem indexadas.',
     'titlenotbuiltgeoip'         => 'A base de dados GeoIP não foi indexada',
-    'msgnotbuiltgeoip'           => 'As informações da base de dados GeoIP não podem ser utilizadas pela Kayako até serem indexadas.',
+    'msgnotbuiltgeoip'           => 'As informações da base de dados GeoIP não podem ser utilizadas pela QuickSupport até serem indexadas.',
     'titlenotuptodategeoip'      => 'A base de dados GeoIP está desatualizada',
-    'msgnotuptodategeoip'        => 'A sua base de dados GeoIP é mais recente do que a indexada pela Kayako. É recomendada a reindexação da sua base de dados GeoIP para ter as informações mais atualizadas do local disponíveis.',
+    'msgnotuptodategeoip'        => 'A sua base de dados GeoIP é mais recente do que a indexada pela QuickSupport. É recomendada a reindexação da sua base de dados GeoIP para ter as informações mais atualizadas do local disponíveis.',
 );
 
 return $__LANG;

@@ -2,7 +2,7 @@
 /**
  * ###############################################
  *
- * Kayako Classic
+ * QuickSupport Classic
  * _______________________________________________
  *
  * @author        Abdulrahman Suleiman <abdulrahman.suleiman@crossover.com>

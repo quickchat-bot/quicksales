@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -592,7 +592,7 @@ class SWIFT_Interface extends SWIFT_Base
     }
 
     /**
-     * Checks to see if current Winapp IP is restricted or is a Kayako IP
+     * Checks to see if current Winapp IP is restricted or is a QuickSupport IP
      *
      * @author Ravinder Singh
      * @return bool "true" on Success, "false" otherwise
@@ -633,7 +633,7 @@ class SWIFT_Interface extends SWIFT_Base
                     $_gatewayIP = GetClientIPFromXForwardedFor($_SERVER['HTTP_X_FORWARDED_FOR']);
                 }
 
-                if ($_forwardedIPIsAllowed === true  && IsKayakoIP($_gatewayIP))
+                if ($_forwardedIPIsAllowed === true  && IsQuickSupportIP($_gatewayIP))
                 {
                     return false;
                 }

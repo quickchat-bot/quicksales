@@ -3,7 +3,7 @@
 /**
  * ###############################################
  *
- * Kayako Classic
+ * QuickSupport Classic
  * _______________________________________________
  *
  * @author        Werner Garcia <werner.garcia@crossover.com>

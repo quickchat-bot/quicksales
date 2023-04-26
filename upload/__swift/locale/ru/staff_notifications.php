@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -36,7 +36,7 @@ $__LANG = array(
 
     'na_email'                       => 'Email',
     'na_sms'                         => 'SMS',
-    'na_pool'                        => 'Приложение Kayako Desktop',
+    'na_pool'                        => 'Приложение QuickSupport Desktop',
     'na_staff'                       => 'Личная учетная запись сотрудника',
     'na_staffgroup'                  => 'Команда',
     'na_department'                  => 'Департамент',

@@ -1,5 +1,5 @@
 //===============================
-// Kayako LiveResponse
+// QuickSupport LiveResponse
 // Copyright (c) 2001-<{$_currentYear}>
 
 // http://www.kayako.com

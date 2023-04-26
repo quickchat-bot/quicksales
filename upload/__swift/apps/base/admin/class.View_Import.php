@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -81,7 +81,7 @@ class View_Import extends SWIFT_View
             }
 
             $_columnContainer = array();
-            $_columnContainer[0]['value'] = '<input type="radio" name="productname" class="swiftradio" value="' . $_productName . '" id="productname_' . $_productName . '"' . IIF($_productName == 'Kayako3', ' checked="checked"') . ' />';
+            $_columnContainer[0]['value'] = '<input type="radio" name="productname" class="swiftradio" value="' . $_productName . '" id="productname_' . $_productName . '"' . IIF($_productName == 'QuickSupport3', ' checked="checked"') . ' />';
             $_columnContainer[0]['width'] = '16';
             $_columnContainer[0]['align'] = 'center';
             $_columnContainer[1]['value'] = '<label for="productname_' . $_productName . '">' . $_SWIFT_ImportManagerObject->GetProductTitle() . '</label>';

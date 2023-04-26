@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -40,7 +40,7 @@ $__LANG = array (
     'filterbydepartment' => 'Restrict to specific departments',
     'desc_filterbydepartment' => 'If departments are selected here, the live chat status and department choices offered to the visitor will reflect only these departments.<BR /><BR /><em>Note that this means the live support status (online, offline, busy, away) will be limited to staff assigned to these departments.</em>',
     'routetochatskill' => 'Route to a specific skill',
-    'desc_routetochatskill' => 'Kayako will try to route the chat or call requests made through this tag to someone with the skills specified here. Failing that, the request will join the regular queue.',
+    'desc_routetochatskill' => 'QuickSupport will try to route the chat or call requests made through this tag to someone with the skills specified here. Failing that, the request will join the regular queue.',
     'generaloptions' => 'General Options',
     'usesecurelinks' => 'Use secure URLs (https://)',
     'desc_usesecurelinks' => 'If your helpdesk is available over HTTPs (SSL), you can enable this setting to serve this tag to visitors over HTTPs too.',

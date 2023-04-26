@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -27,9 +27,9 @@ if (!defined('K_TCPDF_EXTERNAL_CONFIG'))
     define ('K_BLANK_IMAGE', K_PATH_IMAGES . '_blank.png');
     define ('PDF_PAGE_FORMAT', 'A4');
     define ('PDF_PAGE_ORIENTATION', 'P');
-    define ('PDF_CREATOR', 'Kayako ' . SWIFT_PRODUCT);
-    define ('PDF_AUTHOR', 'Kayako ' . SWIFT_PRODUCT);
-    define ('PDF_HEADER_TITLE', 'Kayako');
+    define ('PDF_CREATOR', 'QuickSupport ' . SWIFT_PRODUCT);
+    define ('PDF_AUTHOR', 'QuickSupport ' . SWIFT_PRODUCT);
+    define ('PDF_HEADER_TITLE', 'QuickSupport');
     define ('PDF_HEADER_STRING', '');
     define ('PDF_HEADER_LOGO', '');
     define ('PDF_HEADER_LOGO_WIDTH', 30);

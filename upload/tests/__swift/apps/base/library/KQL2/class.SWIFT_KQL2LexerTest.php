@@ -5,8 +5,8 @@
  * SWIFT Framework
  *
  * @package    SWIFT
- * @author    Kayako Singapore Pte. Ltd.
- * @copyright    Copyright (c) 2001-Kayako Singapore Pte. Ltd.h Ltd.
+ * @author    QuickSupport Singapore Pte. Ltd.
+ * @copyright    Copyright (c) 2001-QuickSupport Singapore Pte. Ltd.h Ltd.
  * @license    http://www.kayako.com/license
  * @link        http://www.kayako.com
  * @filesource
@@ -53,16 +53,16 @@ class SWIFT_KQL2LexerTest extends SWIFT_TestCase
          * Testing Apostrophes and Slashes Inside the String
          */
 
-        $_sqlQuery = "SELECT '\\\"Kayako\'s products\\\"' FROM Kayako";
-        $_checkList = array('SELECT', ' ', '"Kayako\'s products"', ' ', 'FROM', ' ', 'Kayako');
+        $_sqlQuery = "SELECT '\\\"QuickSupport\'s products\\\"' FROM QuickSupport";
+        $_checkList = array('SELECT', ' ', '"QuickSupport\'s products"', ' ', 'FROM', ' ', 'QuickSupport');
 
         $SWIFT_KQL2Lexer = new SWIFT_KQL2Lexer($_sqlQuery);
 
         foreach ($_checkList as $_checkToken) {
             $this->assertEquals($_checkToken, $SWIFT_KQL2Lexer->NextToken());
 
-            if ($_checkToken == '"Kayako\'s products"') {
-                $this->assertEquals("'\\\"Kayako\'s products\\\"'", $SWIFT_KQL2Lexer->GetTokenString());
+            if ($_checkToken == '"QuickSupport\'s products"') {
+                $this->assertEquals("'\\\"QuickSupport\'s products\\\"'", $SWIFT_KQL2Lexer->GetTokenString());
             }
         }
 

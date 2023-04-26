@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -17,7 +17,7 @@
 
 $__LANG = array(
     'titlemasterviewdel'            => '"%d" Ansicht(en) konnten nicht gelöscht werden',
-    'msgmasterviewdel'              => 'Kayako konnte folgende Ansicht(en) von Master-Tickets nicht löschen:',
+    'msgmasterviewdel'              => 'QuickSupport konnte folgende Ansicht(en) von Master-Tickets nicht löschen:',
     'manageviews'                   => 'Ansichten',
     'insertview'                    => 'Ansicht eingeben',
     'viewtitle'                     => 'Ticket-Ansicht-Titel',
@@ -81,7 +81,7 @@ $__LANG = array(
     'afterreply_ticket'             => 'Das aktive Ticket',
     'afterreply_nextticket'         => 'Nächstes verfügbares Ticket',
     'viewafterreplyaction'          => 'Nachdem ein Ticket beantwortet wurde, weiterführen auf',
-    'desc_viewafterreplyaction'     => 'Wählen Sie aus, wohin Kayako Sie (oder wen auch immer, der diese Ansicht verwendet) nach dem Beantworten oder Weiterleiten eines Tickets führen soll.',
+    'desc_viewafterreplyaction'     => 'Wählen Sie aus, wohin QuickSupport Sie (oder wen auch immer, der diese Ansicht verwendet) nach dem Beantworten oder Weiterleiten eines Tickets führen soll.',
 
     'sort_asc'                      => 'Aufsteigend',
     'sort_desc'                     => 'Absteigend',
@@ -89,7 +89,7 @@ $__LANG = array(
     // Potentialy unused phrases in staff_ticketview.php
     'viewfilteroptions'             => 'Filter Options',
     'viewfilterdepartments'         => 'Filter Department(s)',
-    'desc_viewfilterdepartments'    => 'Kayako by default will display tickets from all/selected department. However, you can use this option to filter the tickets based on the selected departments.',
+    'desc_viewfilterdepartments'    => 'QuickSupport by default will display tickets from all/selected department. However, you can use this option to filter the tickets based on the selected departments.',
     'viewfiltertype'                => 'Filter Ticket Type(s)',
     'desc_viewfiltertype'           => 'You can use this option to filter the tickets based on the selected ticket type(s).',
     'viewfilterstatus'              => 'Filter Ticket Status(es)',

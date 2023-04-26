@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -46,7 +46,7 @@ $__LANG = array(
     'editban'                => 'Modifier le bannissement',
     'bandelconfirmmsg'       => 'Êtes-vous sûre de que vouloir supprimer ce bannissement d\'email ?  Cette action est irréversible !',
     'parserbanupdconfirm'    => 'Bannissement d\'email de %s mis à jour',
-    'desc_mailbans'          => 'Vous pouvez empêcher les utilisateurs à problème de soumettre des tickets en ajoutant un bannissement pour leur email.  Chaque fois que Kayako reçoit un email, il compare l\'adresse de l\'auteur à la liste de bannissement et si l\'adresse est bannie, le message sera ignoré sans préavis.',
+    'desc_mailbans'          => 'Vous pouvez empêcher les utilisateurs à problème de soumettre des tickets en ajoutant un bannissement pour leur email.  Chaque fois que QuickSupport reçoit un email, il compare l\'adresse de l\'auteur à la liste de bannissement et si l\'adresse est bannie, le message sera ignoré sans préavis.',
 
     // Catch-All Rules
     'insertcatchallrule'     => 'Ajouter la règle fourre-tout',

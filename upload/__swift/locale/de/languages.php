@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2012, Kayako
+ * @copyright      Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -20,7 +20,7 @@ $__LANG = array(
     'languageisenabled'          => 'Sprache aktiviert',
     'desc_languageisenabled'     => 'Wenn aktivieren, kann der Endbenutzer diese Sprache im Support-Center auswählen.',
     'titlemissingphrases'        => 'Fehlende Ausdrücke gefunden',
-    'msgmissingphrases'          => 'Kayako hat %d fehlende Ausdrücke gefunden. Es wird empfohlen, die ausgewählte Sprache zu aktualisieren und die fehlenden Ausdrücke einzufügen.',
+    'msgmissingphrases'          => 'QuickSupport hat %d fehlende Ausdrücke gefunden. Es wird empfohlen, die ausgewählte Sprache zu aktualisieren und die fehlenden Ausdrücke einzufügen.',
     'tabimport'                  => 'Importieren',
     'tabexport'                  => 'Exportieren',
     'languagemen'                => 'Sprache',
@@ -30,9 +30,9 @@ $__LANG = array(
     'titleupdatedlangphrases'    => 'Ausdrücke aktualisiert',
     'msgupdatedlangphrases'      => 'Ausdrücke für %s wurden aktualisiert.',
     'titlevcfailed'              => 'Sprachpaket veraltet',
-    'msgvcfailed'                => 'Das hochgeladene Sprachpaket wurde für eine ältere Version von Kayako erstellt. Sie können diese Überprüfung überspringen, indem Sie <em>Version-Überprüfen ignorieren</em> unten auswählen.',
+    'msgvcfailed'                => 'Das hochgeladene Sprachpaket wurde für eine ältere Version von QuickSupport erstellt. Sie können diese Überprüfung überspringen, indem Sie <em>Version-Überprüfen ignorieren</em> unten auswählen.',
     'titlelangimpfailed'         => 'Sprachimport/-zusammenführung fehlgeschlagen',
-    'msglangimpfailed'           => 'Es ist ein Problem beim Importieren dieses Sprachpakets in Kayako aufgetreten. Möglicherweise stimmt das Format nicht oder es enhält ungültige Daten.',
+    'msglangimpfailed'           => 'Es ist ein Problem beim Importieren dieses Sprachpakets in QuickSupport aufgetreten. Möglicherweise stimmt das Format nicht oder es enhält ungültige Daten.',
     'tabsearch'                  => 'Suchen',
     'tabgeneral'                 => 'Allgemeines',
     'flagicon'                   => 'Markierungssymbol',
@@ -47,7 +47,7 @@ $__LANG = array(
     'titlemergelang'             => 'Zusammenführung der Sprache erfolgreich',
     'msgmergelang'               => 'Sprachpaket wurde erfolgreich mit der Sprache "%s" zusammengeführt.',
     'titleimportlang'            => 'Sprachenimport erfolgreich',
-    'msgimportlang'              => 'Das Sprachpaket wurde erfolgreich importiert. Kayako hat folgende Sprache erstellt:',
+    'msgimportlang'              => 'Das Sprachpaket wurde erfolgreich importiert. QuickSupport hat folgende Sprache erstellt:',
     'titlephraseinsert'          => 'Ausdruck (%s) erstellt',
     'msgphraseinsert'            => 'Der Ausdruck (%s) wurde erfolgreich erstellt. <strong>Sprache: </strong>%s <strong>Ausdruckscode:</strong> %s <strong>Ausdrucksabschnitt:</strong> %s <strong>Ausdruck:</strong> %s',
     'titlephrasedel'             => 'Ausdruck gelöscht',
@@ -68,7 +68,7 @@ $__LANG = array(
     'diagnosticslang1'           => 'Sprache',
     'desc_diagnosticslang1'      => 'Die Sprache, zu der Ausdrücke gesucht werden.',
     'diagnosticslang2'           => 'Vergleichen mit',
-    'desc_diagnosticslang2'      => 'Bitte wählen Sie die Sprache, mit der die fehlenden Ausdrücke verglichen werden sollen. Kayako listet alles fehlenden Ausdrücke der Hauptsprache auf.',
+    'desc_diagnosticslang2'      => 'Bitte wählen Sie die Sprache, mit der die fehlenden Ausdrücke verglichen werden sollen. QuickSupport listet alles fehlenden Ausdrücke der Hauptsprache auf.',
     'restorephrases'             => 'Ausdrücke wiederherstellen',
     'desc_restorephrases'        => '',
     'tabrestorephrases'          => 'Ausdrücke wiederherstellen',
@@ -132,7 +132,7 @@ $__LANG = array(
     'mergewith'                  => 'Import-Methode',
     'desc_mergewith'             => '<strong>Neue Sprache erstellen</strong> Erstellen Sie eine komplett neue Sprache, indem Sie die Daten aus dem Sprachpaket benutzen.<br /><strong>Sprache wählen</strong> Die übersetzten Ausdrücke aus dem Sprachpaket werden mit der bereits vorhandenen Sprache zusammengeführt.',
     'ignoreversion'              => 'Versionsüberprüfung überspringen',
-    'desc_ignoreversion'         => 'Aktivieren Sie diese Option, um Kayako zu zwingen, Sprachpakete, die mit älteren Versionen von Kayako erstellt wurden, zu akzeptieren. Wir empfehlen, nur aktuelle Übersetzungen zu benutzen.',
+    'desc_ignoreversion'         => 'Aktivieren Sie diese Option, um QuickSupport zu zwingen, Sprachpakete, die mit älteren Versionen von QuickSupport erstellt wurden, zu akzeptieren. Wir empfehlen, nur aktuelle Übersetzungen zu benutzen.',
     'createnewlanguage'          => '-- Neue Sprache erstellen --',
     'languageimportconfirmation' => 'Sprache %s erfolgreich importiert',
     'managephrases'              => 'Ausdrücke verwalten',
@@ -149,7 +149,7 @@ $__LANG = array(
     'desc_searchtype'            => '<strong>Bezeichner und Text</strong> Dies sucht Text in Ausdrücken und Ausdrucksbezeichner.<br /><strong>Bezeichner</strong> Dies sucht nur nach Ausdrucksbezeichnern.',
     'searchlanguage'             => 'In Sprache suchen',
     'desc_searchlanguage'        => 'Wählen Sie die Sprache zum Suchen.',
-    'versioncheckfailed'         => 'FEHLER: Dieses Sprachpaket wurde mit einer älteren Version von Kayako erstellt und ist nicht mehr aktuell',
+    'versioncheckfailed'         => 'FEHLER: Dieses Sprachpaket wurde mit einer älteren Version von QuickSupport erstellt und ist nicht mehr aktuell',
     'addphrase'                  => 'Ausdruck einfügen',
     'changelanguage'             => 'Sprache wechseln',
     'desc_phrasecode'            => 'Bitte geben Sie einen eindeutigen Bezeichner für den neuen Ausdruck an. Zum Beispiel: <em>ticket_meinausdruck</em>.',

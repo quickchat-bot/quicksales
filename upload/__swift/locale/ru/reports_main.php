@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -86,7 +86,7 @@ $__LANG = array(
     'emailingproperties'       => 'Параметры отправки Email сообщений',
 
     'totaldefaulttitle'        => 'Всего',
-    'exportdefaulttitle'       => '%s - Powered by Kayako %s',
+    'exportdefaulttitle'       => '%s - Powered by QuickSupport %s',
 );
 
 return $__LANG;

@@ -8,7 +8,7 @@
  * @author        Nicolas Grondin
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2022, Kayako
+ * @copyright    Copyright (c) 2001-2022, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *

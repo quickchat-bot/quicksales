@@ -651,7 +651,7 @@ function ProcessMessage() {
 	/*
 	 * BUG FIX - Varun Shoor
 	 *
-	 * SWIFT-166 Displaying of Polish characters in Kayako Desktop.
+	 * SWIFT-166 Displaying of Polish characters in QuickSupport Desktop.
 	 *
 	 * Comments: None
 	 */
@@ -677,7 +677,7 @@ var xmlsubset = "";
 
 function AjaxErrorAlert(_noAjaxSupport) {
 	if (!_noAjaxSupport) {
-		alert("XMLHttpRequest::open failed!  This usually occurs due to the URL of your Kayako installation being different from the one specified under Admin CP >> Settings >> General.  Due to limitations inherent in AJAX, the product URL needs to be exactly the same as the one specified in the settings; this includes \"www.\" and trailing slashes.");
+		alert("XMLHttpRequest::open failed!  This usually occurs due to the URL of your QuickSupport installation being different from the one specified under Admin CP >> Settings >> General.  Due to limitations inherent in AJAX, the product URL needs to be exactly the same as the one specified in the settings; this includes \"www.\" and trailing slashes.");
 	} else {
 		alert("Your browser does not have the JavaScript support required to use this application. Please make sure that full JavaScript support is enabled in your browser and that your browser is recent and up to date.");
 	}

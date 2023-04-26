@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <swifttemplate>
 	<title>Default</title>
-	<author>Kayako</author>
+	<author>QuickSupport</author>
 	<version>0</version>
 
 	<category name="template_chat" app="livechat" icon="icon_livesupport.gif">
@@ -117,7 +117,7 @@
 
 			<div id="soundcontainer"></div>
 		<div id="main" class="chatview">
-			<div id="topbanner"><div class="topbannerchat"><img src="<{$_headerImageSC}>" alt="Kayako logo" id="logo" /></div><div id="topbanneravatarcontainer"><img src="<{$_themePath}>images/space.gif" id="topbanneravatar" border="0" /></div></div>
+			<div id="topbanner"><div class="topbannerchat"><img src="<{$_headerImageSC}>" alt="QuickSupport logo" id="logo" /></div><div id="topbanneravatarcontainer"><img src="<{$_themePath}>images/space.gif" id="topbanneravatar" border="0" /></div></div>
 			<div id="chattoptoolbar">
 				<span id="chattoptoolbarrightarea">
 				<span id="chattoptoolbarrightareainset">
@@ -562,7 +562,7 @@ $(function(){
 
     <div id="main">
 
-      <div id="topbanner"><img src="<{$_headerImageSC}>" alt="Kayako logo" id="logo" /></div>
+      <div id="topbanner"><img src="<{$_headerImageSC}>" alt="QuickSupport logo" id="logo" /></div>
 	  <div id="printcontent">
 		<b><{$_language[fielddepartment]}></b> <{$_chatDepartment}><br />
 		<b><{$_language[fieldfullname]}></b> <{$_chatFullName}><br />

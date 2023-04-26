@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -66,7 +66,7 @@ $__LANG = array(
     'titleticketstatusupdate'               => 'Статус заявки "%s" обновлен',
     'msgticketstatusupdate'                 => 'Статус заявки "%s" был успешно обновлен.',
     'titlemasterstatusdelete'               => 'Невозможно удалить "%d" статусов заявок',
-    'msgmasterstatusdelete'                 => 'Kayako не может удалить следующие основные статусы заявок:',
+    'msgmasterstatusdelete'                 => 'QuickSupport не может удалить следующие основные статусы заявок:',
     'tablanguages'                          => 'Языки: перевод',
     'title_statusinuse'                     => 'Статус используется',
     'message_statusinuse_editassociation'   => 'Существуют заявки с этим статусом, которые связаны с существующими департаментами. Необходимо изменить статусы заявок, прежде чем вы сможете обновить связанные департаменты.',

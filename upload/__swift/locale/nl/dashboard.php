@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -73,9 +73,9 @@ $__LANG = array(
     'plognosubject'                 => 'Geen onderwerp',
     'showingmsg'                    => ' (Weergegeven: %d van %d)',
     'titlelicenseexpirywarning'     => 'Je licentie is bijna verlopen',
-    'msglicenseexpirywarning'       => 'Je GFI HelpDesk-licentie is bijna verlopen (op %s). Hierna kun je niet langer beschikking tot nieuwe Kayako-releases, fixes, beveiligingsupdates en technische ondersteuning. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Klik hier om je licentie te verlengen</a> of <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">meer te weten te komen</a> over het vernieuwen van licenties.',
+    'msglicenseexpirywarning'       => 'Je GFI HelpDesk-licentie is bijna verlopen (op %s). Hierna kun je niet langer beschikking tot nieuwe QuickSupport-releases, fixes, beveiligingsupdates en technische ondersteuning. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Klik hier om je licentie te verlengen</a> of <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">meer te weten te komen</a> over het vernieuwen van licenties.',
     'titlelicenseexpired'           => 'Je licentie is verlopen - verleng om up-to-date te blijven',
-    'msglicenseexpired'             => 'Je GFI HelpDesk-licentie is verlopen op %s, wat inhoudt dat je niet langer toegang hebt tot nieuwe Kayako-releases, functies en technische ondersteuning. Het is belangrijk je helpdesk up-to-date te houden met de nieuwste fixes en beveiligingsupdates. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Klik hier om je licentie te verlengen</a>, <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">meer te weten te komen</a> over het verlengen van licenties.',
+    'msglicenseexpired'             => 'Je GFI HelpDesk-licentie is verlopen op %s, wat inhoudt dat je niet langer toegang hebt tot nieuwe QuickSupport-releases, functies en technische ondersteuning. Het is belangrijk je helpdesk up-to-date te houden met de nieuwste fixes en beveiligingsupdates. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Klik hier om je licentie te verlengen</a>, <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">meer te weten te komen</a> over het verlengen van licenties.',
     'titletrialexpirywarning'       => 'Je proefperiode is bijna verlopen',
     'msgtrialexpirywarning'         => 'Je GFI HelpDesk-proefperiode is bijna verlopen (op %s). <a href="https://accounts.gfi.com" target="_blank">Klik hier om te upgraden</a> om je helpdesk in de lucht te houden, of <a href="https://www.gfi.com/contact-us" target="_blank" rel="noopener noreferrer">klik hier om contact op te nemen met ons</a> als we kunnen helpen met vragen.',
     'titletemplaterevert'           => 'Sommige sjablonen zijn verouderd',
@@ -83,7 +83,7 @@ $__LANG = array(
     'titlelanguagerevert'           => 'Sommige zinnen zijn verouderd',
     'msglanguagerevert'             => '%d taalzinnen zijn verouderd omdat je helpdesk is bijgewerkt en moeten worden hersteld:',
     'licensedetails'                => 'Licentiegegevens',
-    'latestkayakonews'              => 'Laatste Kayako-nieuws',
+    'latestkayakonews'              => 'Laatste QuickSupport-nieuws',
     'tabwelcome'                    => 'Welkom',
     'tabrecentactivity'             => 'Recente activiteit',
     'tabalerts'                     => 'Waarschuwingen',
@@ -101,7 +101,7 @@ $__LANG = array(
     'titleparserlogfailuredetected' => '%d emailparserfouten gelogd',
     'msgparserlogfailuredetected'   => 'Er zijn %d emailparserfouten. Ga voor de volledige log naar <strong>Logs > Parserlog</strong>.',
     'titleerrorsdetected'           => '%d fouten gelogd',
-    'msgerrorsdetected'             => 'Er zijn %d fouten gelogd. Deze zijn mogelijk niet ernstig, maar voel je vrij om contact op te nemen met Kayako hierover als je vragen hebt.',
+    'msgerrorsdetected'             => 'Er zijn %d fouten gelogd. Deze zijn mogelijk niet ernstig, maar voel je vrij om contact op te nemen met QuickSupport hierover als je vragen hebt.',
     'dashusername'                  => 'Gebruikersnaam:',
     'dashemail'                     => 'Emailadres:',
     'dashlastlogin'                 => 'Laatste aanmelding:',
@@ -110,7 +110,7 @@ $__LANG = array(
     'dversion'                      => 'Versie: ',
     'dbuildtype'                    => 'Buildtype: ',
     'dbuilddate'                    => 'Builddatum: ',
-    'kayako'                        => 'Kayako',
+    'kayako'                        => 'QuickSupport',
     'accreated'                     => 'GEMAAKT',
     'acupdated'                     => 'BIJGEWERKT',
     'acdeleted'                     => 'VERWIJDERD',

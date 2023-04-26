@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -20,12 +20,12 @@ $__LANG = array(
     'tabpostindex'            => 'Ricostruisci l\'Indice di Ricerca',
     'tabmoveattachments'      => 'Sposta gli Allegati',
     'attachmentsperpass'      => 'Numero di allegati da elaborare in batch',
-    'desc_attachmentsperpass' => 'Kayako eleborerà gli allegati un batch alla volta. Una quantità maggiore richiede un server più potente.',
+    'desc_attachmentsperpass' => 'QuickSupport eleborerà gli allegati un batch alla volta. Una quantità maggiore richiede un server più potente.',
     'move'                    => 'Sposta',
     'dbtofiles'               => 'Dal database (%d) al file system',
     'filestodb'               => 'Dal file system (%d) al database',
     'movetype'                => 'Sposta gli allegati da',
-    'desc_movetype'           => 'Seleziona dove vuoi spostare gli allegati. Se sei un cliente Kayako Download e gestisci un tuo server web, potrebbe essere necessario aumentare il valore max_packet_size se sposti file dal file system al database.',
+    'desc_movetype'           => 'Seleziona dove vuoi spostare gli allegati. Se sei un cliente QuickSupport Download e gestisci un tuo server web, potrebbe essere necessario aumentare il valore max_packet_size se sposti file dal file system al database.',
     'attachmentsprocessed'    => 'Gli allegati sono stati spostati',
     'totalattachments'        => 'Totale allegati',
     'tabproperties'           => 'Ricostruisci le Proprietà',

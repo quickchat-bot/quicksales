@@ -8,7 +8,7 @@
  * @author         Ravi Sharma <ravi.sharma@kayako.com>
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2015, Kayako
+ * @copyright      Copyright (c) 2001-2015, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *

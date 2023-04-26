@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <swifttemplate>
 	<title>Default</title>
-	<author>Kayako</author>
+	<author>QuickSupport</author>
 	<version>0</version>
 
 	<category name="template_tickets" app="tickets" icon="icon_tickets.gif">

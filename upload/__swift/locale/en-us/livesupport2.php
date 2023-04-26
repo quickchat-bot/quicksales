@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -85,7 +85,7 @@ $__LANG = array (
     'editcampaign' => 'Edit Campaign',
     'campaignurl' => 'Campaign URL',
     'view' => 'View',
-    'campaignurlinfo' => 'Use the following URL for tracking this campaign. Link your visitors/banners to this URL rather than linking directly to your homepage in order to enable Kayako to track and log the incoming visitors.',
+    'campaignurlinfo' => 'Use the following URL for tracking this campaign. Link your visitors/banners to this URL rather than linking directly to your homepage in order to enable QuickSupport to track and log the incoming visitors.',
     'adoptions' => 'Ad Options',
     'deletecampaign' => 'Delete Campaign',
     'adtrackingreport' => 'Ad Tracking Report',

@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -112,7 +112,7 @@ class SWIFT_KnowledgebaseRSSManager extends SWIFT_Library
                 $this->XML->AddTag('title', SWIFT::Get('companyname'));
                 $this->XML->AddTag('link', SWIFT::Get('swiftpath'));
                 $this->XML->AddTag('description', '');
-                $this->XML->AddTag('generator', 'Kayako ' . SWIFT_PRODUCT . ' v' . SWIFT_VERSION);
+                $this->XML->AddTag('generator', 'QuickSupport ' . SWIFT_PRODUCT . ' v' . SWIFT_VERSION);
 
                 foreach ($_knowledgebaseArticleContainer as $_knowledgebaseArticle)
                 {

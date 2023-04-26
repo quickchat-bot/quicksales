@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -28,7 +28,7 @@ $__LANG = array(
     'importemails'          => 'Endereços de email a importar (separar vários valores utilizando uma vírgula)',
     'generationdate'        => 'XML gerado a: %s',
     'titlesubscriberimport' => 'Subscritores %d importados',
-    'msgsubscriberimport'   => 'Kayako importou com sucesso "%d" novo(s) subscritor(es).',
+    'msgsubscriberimport'   => 'QuickSupport importou com sucesso "%d" novo(s) subscritor(es).',
 );
 
 return $__LANG;

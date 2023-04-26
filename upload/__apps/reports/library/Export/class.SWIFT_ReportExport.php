@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -281,8 +281,8 @@ abstract class SWIFT_ReportExport extends SWIFT_ReportBase
 
         $this->_exportFormat = $_exportFormat;
 
-        $this->_exportDocument->getProperties()->setCreator('Kayako ' . SWIFT_PRODUCT . ' v' . SWIFT_VERSION);
-        $this->_exportDocument->getProperties()->setLastModifiedBy('Kayako ' . SWIFT_PRODUCT . ' v' . SWIFT_VERSION);
+        $this->_exportDocument->getProperties()->setCreator('QuickSupport ' . SWIFT_PRODUCT . ' v' . SWIFT_VERSION);
+        $this->_exportDocument->getProperties()->setLastModifiedBy('QuickSupport ' . SWIFT_PRODUCT . ' v' . SWIFT_VERSION);
         $this->_exportDocument->getProperties()->setTitle($this->Report->GetProperty('title'));
         $this->_exportDocument->getProperties()->setSubject($this->Report->GetProperty('title'));
 

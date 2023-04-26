@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -47,7 +47,7 @@ $__LANG = array (
     'editban' => 'Edit Ban',
     'bandelconfirmmsg' => 'Are you sure you wish to delete this email ban entry?  This action is irreversible!',
     'parserbanupdconfirm' => 'Email address ban for %s updated',
-    'desc_mailbans' => 'You can prevent problem users from submitting tickets by adding an email ban for their address.  Whenever Kayako receives an email message, it will check the author\'s address against the ban list, and if the address is banned, the message will be ignored without notice.',
+    'desc_mailbans' => 'You can prevent problem users from submitting tickets by adding an email ban for their address.  Whenever QuickSupport receives an email message, it will check the author\'s address against the ban list, and if the address is banned, the message will be ignored without notice.',
 
     // Catch-All Rules
     'insertcatchallrule' => 'Insert Catch-all Rule',

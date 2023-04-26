@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -40,7 +40,7 @@ $__LANG = array(
     'filterbydepartment'             => 'Restreindre à certains services',
     'desc_filterbydepartment'        => 'Si les services sont sélectionnés ici, les états de chat en direct et les choix de services offerts au visiteur seront valides uniquement pour ces services. .<BR /><BR /><em>Notez que cela signifie que les état de l\'assistance en direct (en ligne, hors ligne, occupé, absent) seront  valides uniquement pour le personnel assigné à ces services.</em>',
     'routetochatskill'               => 'Router vers une compétence spécifique',
-    'desc_routetochatskill'          => 'Kayako essaiera de router par le biais de cette balise, les chat ou les demandes d\'appel formulés vers quelqu\'un ayant les compétences spécifiées ici. Le cas échéant, la demande est ajoutée à file d\'attente générale.',
+    'desc_routetochatskill'          => 'QuickSupport essaiera de router par le biais de cette balise, les chat ou les demandes d\'appel formulés vers quelqu\'un ayant les compétences spécifiées ici. Le cas échéant, la demande est ajoutée à file d\'attente générale.',
     'generaloptions'                 => 'Options Générales',
     'usesecurelinks'                 => 'Utiliser des URL sécurisée (https://)',
     'desc_usesecurelinks'            => 'Si votre helpdesk est disponible sur HTTPs (SSL), vous pouvez activer ce paramètre pour appliquer cette balise aux visiteurs via HTTPs aussi.',

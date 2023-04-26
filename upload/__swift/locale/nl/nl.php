@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -39,7 +39,7 @@ $__LANG = array(
     'username'                     => 'Gebruikersnaam',
     'password'                     => 'Wachtwoord',
     'rememberme'                   => 'Onthouden',
-    'defaulttitle'                 => '%s - Powered by Kayako',
+    'defaulttitle'                 => '%s - Powered by QuickSupport',
     'login'                        => 'Aanmelden',
     'global'                       => 'Algemeen',
     'first'                        => 'Eerste',
@@ -47,11 +47,11 @@ $__LANG = array(
     'pagination'                   => 'Pagina %s van %s',
     'submit'                       => 'Verzenden',
     'reset'                        => 'Herstellen',
-    'poweredby'                    => 'Helpdesk software powered by Kayako',
-    'copyright'                    => 'Copyright &copy; 2001-%s Kayako',
-    'notifycsrfhash'               => 'Kayako kon dit verzoek niet valideren',
-    'titlecsrfhash'                => 'Kayako kon dit verzoek niet valideren',
-    'msgcsrfhash'                  => 'Kayako valideert verzoeken ter bescherming tegen vervalsingen van cross-site verzoeken en kon dit verzoek niet valideren. Probeer het nogmaals.',
+    'poweredby'                    => 'Helpdesk software powered by QuickSupport',
+    'copyright'                    => 'Copyright &copy; 2001-%s QuickSupport',
+    'notifycsrfhash'               => 'QuickSupport kon dit verzoek niet valideren',
+    'titlecsrfhash'                => 'QuickSupport kon dit verzoek niet valideren',
+    'msgcsrfhash'                  => 'QuickSupport valideert verzoeken ter bescherming tegen vervalsingen van cross-site verzoeken en kon dit verzoek niet valideren. Probeer het nogmaals.',
     'invaliduser'                  => 'Gebruikersnaam of wachtwoord is onjuist',
     'invaliduseripres'             => 'Niet-toegestaan IP-adres (poging: %d van %d)',
     'invaliduserdisabled'          => 'Dit account is uitgeschakeld (poging: %d van %d)',
@@ -74,7 +74,7 @@ $__LANG = array(
     'logout'                       => 'Afmelden',
     'staffcp'                      => 'Medewerkerbeheerscherm',
     'admincp'                      => 'Adminbeheerscherm',
-    'winapp'                       => 'Kayako Desktop',
+    'winapp'                       => 'QuickSupport Desktop',
     'staffapi'                     => 'Staff API',
     'bytes'                        => 'Bytes',
     'kb'                           => 'KB',
@@ -208,7 +208,7 @@ $__LANG = array(
     'interface_staff'              => 'Medewerkerbeheerscherm',
     'interface_intranet'           => 'Intranet',
     'interface_api'                => 'API',
-    'interface_winapp'             => 'Kayako Desktop/Medewerker-API',
+    'interface_winapp'             => 'QuickSupport Desktop/Medewerker-API',
     'interface_syncworks'          => 'SyncWorks',
     'interface_instaalert'         => 'InstaAlert',
     'interface_pda'                => 'PDA',
@@ -239,7 +239,7 @@ $__LANG = array(
     'searchmodeactive'             => 'Resultaten zijn gefilterd - klik om te herstellen',
     'notifysearchfailed'           => '"0" resultaten gevonden',
     'titlesearchfailed'            => '"0" resultaten gevonden',
-    'msgsearchfailed'              => 'Kayako kon geen vermeldingen vinden die overeenkomen met de opgegeven criteria.',
+    'msgsearchfailed'              => 'QuickSupport kon geen vermeldingen vinden die overeenkomen met de opgegeven criteria.',
     'quickfilter'                  => 'Snelfilter',
     'fuenterurl'                   => 'URL invoeren:',
     'fuorupload'                   => 'of uploaden:',
@@ -377,7 +377,7 @@ $__LANG = array(
     'app_reports'                  => 'Rapporten',
 
     // Potentialy unused phrases in en-us.php
-    'defaultloginapi'              => 'Kayako Login Routine',
+    'defaultloginapi'              => 'QuickSupport Login Routine',
     'redirect_login'               => 'Processing Login...',
     'redirect_dashboard'           => 'Redirecting to Home...',
     'no_wait'                      => 'Please click here if your browser does not automatically redirect you',
@@ -389,7 +389,7 @@ $__LANG = array(
     'searchfieldquery'             => 'Query: ',
     'searchfieldfield'             => 'Field: ',
     'settingsfieldresultsperpage'  => 'Results Per Page: ',
-    'clidefault'                   => '%s v%s\\nCopyright (c) 2001-%s Kayako\\n',
+    'clidefault'                   => '%s v%s\\nCopyright (c) 2001-%s QuickSupport\\n',
     'firstselect'                  => '- Select -',
     'exportasxml'                  => 'XML',
     'exportascsv'                  => 'CSV',
@@ -397,7 +397,7 @@ $__LANG = array(
     'exportaspdf'                  => 'PDF',
     'clientarea'                   => 'Support Center',
     'pdainterface'                 => 'PDA Interface',
-    'kayakomobile'                 => 'Kayako Mobile',
+    'kayakomobile'                 => 'QuickSupport Mobile',
     'thousandsseperator'           => ',',
     'clierror'                     => '[ERROR]: ',
     'cliwarning'                   => '[WARNING]: ',
@@ -435,7 +435,7 @@ $__LANG = array(
     'maddthumbnail'                => 'Thumbnail',
     'maddthumbnailwithlink'        => 'Thumbnail with Link',
     'checkuncheckall'              => 'Check/Uncheck All',
-    'defaultloginshare'            => 'Kayako LoginShare',
+    'defaultloginshare'            => 'QuickSupport LoginShare',
     'invalidusernoapiaccess'       => 'Invalid Staff. This staff does not have API access, please configure under Settings > General.',
     'msgupdsettings'               => 'Successfully updated all settings for "%s"',
     'msgpwpolicy'                  => 'The password specified does not match the requirements of the Password Policy.',

@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -75,7 +75,7 @@ $__LANG = array(
     'titlelicenseexpirywarning'     => 'Действие Вашей лицензии подходит к концу',
     'msglicenseexpirywarning'       => 'Действие Вашей лицензии скоро закончится (%s). После этого вы больше не будет доступа к новым релизам GFI HelpDesk, исправлениям, обновлениям безопасности и технической поддержке. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer"> нажмите сюда, чтобы продлить лицензию</a>, или сюда<a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">чтобы узнать больше</a> о продлении лицензии.',
     'titlelicenseexpired'           => 'Истек срок действия вашей лицензии - обновите ее',
-    'msglicenseexpired'             => 'Ваша лицензия GFI HelpDesk на загрузку истекает  %s, а значит, вы больше не сможете получать доступ к новым  релизaм, особенностям и технической поддержке Kayako. Важно, чтобы  ваша техподдержки была в курсе последних исправлений и обновлений безопасности.  <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer"> Нажмите сюда чтобы продлить лицензию</a>, <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer"> узнать больше</a>.',
+    'msglicenseexpired'             => 'Ваша лицензия GFI HelpDesk на загрузку истекает  %s, а значит, вы больше не сможете получать доступ к новым  релизaм, особенностям и технической поддержке QuickSupport. Важно, чтобы  ваша техподдержки была в курсе последних исправлений и обновлений безопасности.  <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer"> Нажмите сюда чтобы продлить лицензию</a>, <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer"> узнать больше</a>.',
     'titletrialexpirywarning'       => 'Действие Вашей пробной версии подходит к концу',
     'msgtrialexpirywarning'         => 'Действие Вашей пробной версии подходит к концу ( %s). Для продолжения работы, <a href="https://accounts.gfi.com" target="_blank">нажмите сюда чтобы обновить вашу версию</a> или сюда <a href="https://www.gfi.com/contact-us" target="_blank" rel="noopener noreferrer">чтобы связаться снами</a> если у Вас есть какие-либо вопросы.',
     'titletemplaterevert'           => 'Шаблон: необходимо обновление',
@@ -83,7 +83,7 @@ $__LANG = array(
     'titlelanguagerevert'           => 'Язык: необходимо обновление',
     'msglanguagerevert'             => 'Необходимо восстановить "%d" языковых фраз после недавнего обновления:',
     'licensedetails'                => 'Информация о лицензии',
-    'latestkayakonews'              => 'Лента новостей Kayako',
+    'latestkayakonews'              => 'Лента новостей QuickSupport',
     'tabwelcome'                    => 'Добро пожаловать',
     'tabrecentactivity'             => 'Последняя активность',
     'tabalerts'                     => 'Уведомления',
@@ -95,13 +95,13 @@ $__LANG = array(
     'dashuseragent'                 => 'Пользователь: ',
     'dashinterface'                 => 'Роль: ',
     'titleloginfailuredetectedone'  => 'Обнаружены ошибки доступа!',
-    'msgloginfailuredetectedone'    => 'Kayako обнаружил ошибки доступа. Для того, чтобы посмотреть все записи журнала, откройте закладку  <i>Журналы > Журнал регистрации доступа</i>.',
+    'msgloginfailuredetectedone'    => 'QuickSupport обнаружил ошибки доступа. Для того, чтобы посмотреть все записи журнала, откройте закладку  <i>Журналы > Журнал регистрации доступа</i>.',
     'titleloginfailuredetected'     => 'Обнаружено %d ошибок доступа',
-    'msgloginfailuredetected'       => 'Kayako обнаружил %d ошибок доступа. Для того, чтобы посмотреть все записи журнала, откройте закладку  <i>Журналы > Журнал регистрации доступа</i>.',
+    'msgloginfailuredetected'       => 'QuickSupport обнаружил %d ошибок доступа. Для того, чтобы посмотреть все записи журнала, откройте закладку  <i>Журналы > Журнал регистрации доступа</i>.',
     'titleparserlogfailuredetected' => 'Обнаружено %d ошибок парсера электронной почты!',
-    'msgparserlogfailuredetected'   => 'Kayako обнаружил %d ошибок парсера электронной почты. Для того, чтобы посмотреть все записи журнала, откройте закладку  <i>Журналы > Журнал парсера</i>.',
+    'msgparserlogfailuredetected'   => 'QuickSupport обнаружил %d ошибок парсера электронной почты. Для того, чтобы посмотреть все записи журнала, откройте закладку  <i>Журналы > Журнал парсера</i>.',
     'titleerrorsdetected'           => 'Обнаружено %d ошибок!',
-    'msgerrorsdetected'             => 'Kayako обнаружил %d ошибок. Свяжитесь с центром поддержки  Kayako для устранения ошибок.',
+    'msgerrorsdetected'             => 'QuickSupport обнаружил %d ошибок. Свяжитесь с центром поддержки  QuickSupport для устранения ошибок.',
     'dashusername'                  => 'Имя пользователя:',
     'dashemail'                     => 'Email:',
     'dashlastlogin'                 => 'Последний вход:',
@@ -110,7 +110,7 @@ $__LANG = array(
     'dversion'                      => 'Версия: ',
     'dbuildtype'                    => 'Тип сборки: ',
     'dbuilddate'                    => 'Дата сборки: ',
-    'kayako'                        => 'Kayako',
+    'kayako'                        => 'QuickSupport',
     'accreated'                     => 'СОЗДАНО',
     'acupdated'                     => 'ОБНОВЛЕНО',
     'acdeleted'                     => 'УДАЛЕНО',

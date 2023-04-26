@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -26,7 +26,7 @@ $__LANG = array(
     'desc_typetitle'            => 'Например <em>Ошибка</em> или <em>Посетить сайт</em>.',
     'typevisibility'            => 'Видимость',
     'titlemastertypedelete'     => 'Невозможно удалить "%d" типов заявок',
-    'msgmastertypedelete'       => 'Kayako не может удалить следующие основные типы заявок:',
+    'msgmastertypedelete'       => 'QuickSupport не может удалить следующие основные типы заявок:',
     'inserttype'                => 'Добавить тип',
     'edittype'                  => 'Редактировать тип',
     'displayorder'              => 'Порядок отображения',

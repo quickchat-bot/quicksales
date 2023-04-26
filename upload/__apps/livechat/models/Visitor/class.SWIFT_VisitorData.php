@@ -1,9 +1,9 @@
 <?php
 //=======================================
 //###################################
-// Kayako Singapore Pte. Ltd. - SWIFT Framework
+// QuickSupport Singapore Pte. Ltd. - SWIFT Framework
 //
-// Source Copyright 2001-2009 Kayako Singapore Pte. Ltd.
+// Source Copyright 2001-2009 QuickSupport Singapore Pte. Ltd.
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //                          www.kayako.com
 //###################################

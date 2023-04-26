@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -49,7 +49,7 @@ $__LANG = array(
     'titleticketpriorityupdate' => 'Обновлен приоритет для заявки "%s"',
     'msgticketpriorityupdate'   => 'Приоритет для заявки "%s" был успешно обновлен.',
     'titlemasterprioritydelete' => 'Невозможно удалить "%d" приоритетов для заявок',
-    'msgmasterprioritydelete'   => 'Kayako не может удалить следующие основные приоритеты для заявок:',
+    'msgmasterprioritydelete'   => 'QuickSupport не может удалить следующие основные приоритеты для заявок:',
 
     // Potentialy unused phrases in admin_ticketspriority.php
     'desc_insertpriority'       => '',

@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -20,7 +20,7 @@ $__LANG = [
     'languageisenabled'        => 'Language enabled',
     'desc_languageisenabled'   => 'If enable, your end users will be able to select this language in the support center.',
     'titlemissingphrases'      => 'Missing phrases found',
-    'msgmissingphrases'        => 'Kayako has found %d missing phrases. It is recommended that you update the selected language and insert all the missing phrases.',
+    'msgmissingphrases'        => 'QuickSupport has found %d missing phrases. It is recommended that you update the selected language and insert all the missing phrases.',
     'tabimport'                => 'Import',
     'tabexport'                => 'Export',
     'languagemen'              => 'Language',
@@ -30,9 +30,9 @@ $__LANG = [
     'titleupdatedlangphrases'  => 'Phrases updated',
     'msgupdatedlangphrases'    => 'Phrases for %s have been updated.',
     'titlevcfailed'            => 'Language pack out of date',
-    'msgvcfailed'              => 'The language pack uploaded was created for an older version of Kayako. You can skip this check by enabling <em>Ignore version check</em> below.',
+    'msgvcfailed'              => 'The language pack uploaded was created for an older version of QuickSupport. You can skip this check by enabling <em>Ignore version check</em> below.',
     'titlelangimpfailed'       => 'Language import/merge failed',
-    'msglangimpfailed'         => 'Kayako had problems importing this language pack. It may not be in the correct format or may contain bad data.',
+    'msglangimpfailed'         => 'QuickSupport had problems importing this language pack. It may not be in the correct format or may contain bad data.',
     'tabsearch'                => 'Search',
     'tabgeneral'               => 'General',
     'flagicon'                 => 'Flag icon',
@@ -48,7 +48,7 @@ $__LANG = [
     'titlemergelang'           => 'Language merge successful',
     'msgmergelang'             => 'Successfully merged the language pack with language "%s".',
     'titleimportlang'          => 'Language import successful',
-    'msgimportlang'            => 'The language pack was successfully imported. Kayako has created the following language:',
+    'msgimportlang'            => 'The language pack was successfully imported. QuickSupport has created the following language:',
     'titlephraseinsert'        => 'Phrase (%s) created',
     'msgphraseinsert'          => 'The phrase (%s) was successfully created. <strong>Language: </strong>%s <strong>Phrase code:</strong> %s <strong>Phrase section:</strong> %s <strong>Phrase:</strong> %s',
     'titlephrasedel'           => 'Phrase deleted',
@@ -69,7 +69,7 @@ $__LANG = [
     'diagnosticslang1'         => 'Language',
     'desc_diagnosticslang1'    => 'The language to search the phrases of.',
     'diagnosticslang2'         => 'Compare with',
-    'desc_diagnosticslang2'    => 'Please select the language to compare the missing phrases with. Kayako will list all phrases that are missing from the main language.',
+    'desc_diagnosticslang2'    => 'Please select the language to compare the missing phrases with. QuickSupport will list all phrases that are missing from the main language.',
     'restorephrases'           => 'Restore Phrases',
     'desc_restorephrases'      => '',
     'tabrestorephrases'        => 'Restore Phrases',
@@ -134,7 +134,7 @@ $__LANG = [
     'mergewith'                  => 'Import method',
     'desc_mergewith'             => '<strong>Create new language</strong> Create an entirely new language using the data in the language pack.<br /><strong>Select language</strong> The translated phrases in the language pack will be merged with the existing language.',
     'ignoreversion'              => 'Bypass version check',
-    'desc_ignoreversion'         => 'Enable this to force Kayako to accept language packs created using older versions of Kayako. We recommend using up-to-date translations only.',
+    'desc_ignoreversion'         => 'Enable this to force QuickSupport to accept language packs created using older versions of QuickSupport. We recommend using up-to-date translations only.',
     'createnewlanguage'          => '-- Create New Language --',
     'languageimportconfirmation' => 'Imported language %s successfully',
     'managephrases'              => 'Manage Phrases',
@@ -152,7 +152,7 @@ $__LANG = [
     'desc_searchtype'            => '<strong>Identifier and text</strong> Will search in phrase texts and phrase identifiers.<br /><strong>Identifier</strong> Will only search the phrase identifiers.',
     'searchlanguage'             => 'Search within language',
     'desc_searchlanguage'        => 'Select the language to search.',
-    'versioncheckfailed'         => 'ERROR: This language pack was created using an older version of Kayako, and is out of date',
+    'versioncheckfailed'         => 'ERROR: This language pack was created using an older version of QuickSupport, and is out of date',
     'addphrase'                  => 'Insert Phrase',
     'changelanguage'             => 'Language Jump',
     'desc_phrasecode'            => 'Please enter a unique identifier for the new phrase. For example: <em>ticket_myphrase</em>.',

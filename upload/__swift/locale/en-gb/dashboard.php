@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -73,9 +73,9 @@ $__LANG = array(
     'plognosubject'                 => 'No Subject',
     'showingmsg'                    => ' (Showing %d of %d)',
     'titlelicenseexpirywarning'     => 'Your license is about to expire',
-    'msglicenseexpirywarning'       => 'Your GFI HelpDesk license is expiring soon (on %s). After this, you will no longer be able to access new Kayako releases, fixes, security updates and technical support. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Click here to extend your license</a> or <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">find out more</a> about license renewals.',
+    'msglicenseexpirywarning'       => 'Your GFI HelpDesk license is expiring soon (on %s). After this, you will no longer be able to access new QuickSupport releases, fixes, security updates and technical support. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Click here to extend your license</a> or <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">find out more</a> about license renewals.',
     'titlelicenseexpired'           => 'Your license has expired - renew to stay up to date',
-    'msglicenseexpired'             => 'Your GFI HelpDesk license expired on %s, which means you can no longer access new Kayako releases, features and technical support. It is important to keep your helpdesk up to date with the latest fixes and security updates. <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">find out more</a> .',
+    'msglicenseexpired'             => 'Your GFI HelpDesk license expired on %s, which means you can no longer access new QuickSupport releases, features and technical support. It is important to keep your helpdesk up to date with the latest fixes and security updates. <a href="https://go.gfi.com/?pageid=GFIHelpDeskSubscription" target="_blank" rel="noopener noreferrer">find out more</a> .',
     'titletrialexpirywarning'       => 'Your trial is about to expire',
     'msgtrialexpirywarning'         => 'Your GFI HelpDesk trial is expiring soon (on %s). To keep your helpdesk live, <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">click here to upgrade</a> or <a href="https://www.gfi.com/contact-us" target="_blank" rel="noopener noreferrer">click here to contact us</a> if we can help with any questions.',
     'titletemplaterevert'           => 'Some templates are out of date',
@@ -83,7 +83,7 @@ $__LANG = array(
     'titlelanguagerevert'           => 'Some phrases out of date',
     'msglanguagerevert'             => '%d language phrases are out of date since your helpdesk was updated, and need restoring:',
     'licensedetails'                => 'License information',
-    'latestkayakonews'              => 'Latest Kayako news',
+    'latestkayakonews'              => 'Latest QuickSupport news',
     'tabwelcome'                    => 'Welcome',
     'tabrecentactivity'             => 'Recent Activity',
     'tabalerts'                     => 'Alerts',
@@ -101,7 +101,7 @@ $__LANG = array(
     'titleparserlogfailuredetected' => '%d email parser failure logged',
     'msgparserlogfailuredetected'   => 'There have been %d email parser failuress. To view the full log, go to <strong>Logs > Parser Log</strong>.',
     'titleerrorsdetected'           => '%d errors logged',
-    'msgerrorsdetected'             => 'There have been %d errors logged. These may not be serious, but feel free to contact Kayako about them if you have any questions.',
+    'msgerrorsdetected'             => 'There have been %d errors logged. These may not be serious, but feel free to contact QuickSupport about them if you have any questions.',
     'dashusername'                  => 'Username:',
     'dashemail'                     => 'Email address:',
     'dashlastlogin'                 => 'Last login:',
@@ -110,7 +110,7 @@ $__LANG = array(
     'dversion'                      => 'Version: ',
     'dbuildtype'                    => 'Build Type: ',
     'dbuilddate'                    => 'Build Date: ',
-    'kayako'                        => 'Kayako',
+    'kayako'                        => 'QuickSupport',
     'accreated'                     => 'CREATED',
     'acupdated'                     => 'UPDATED',
     'acdeleted'                     => 'DELETED',

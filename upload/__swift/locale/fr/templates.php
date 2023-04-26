@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -49,7 +49,7 @@ $__LANG = array(
     'addtohistory'                  => 'Conserver l\'historique de révision de gabarit',
     'desc_addtohistory'             => 'Si la fusion de groupe de gabarits remplace certains des gabarits existants, les gabarit remplacés seront conservés dans l\'historique du gabarit.',
     'titleversioncheckfail'         => 'Ce groupe de gabarits est obsolète',
-    'msgversioncheckfail'           => 'Ce groupe de gabarits n\'a pas pu être importé, car il a été générée à l\'aide d\'une version antérieure de Kayako, et manque peut-être de gabarits. Si vous souhaitez substituer le contrôle de version, activez <em>Ignorer la version de groupe de gabarits</em>.',
+    'msgversioncheckfail'           => 'Ce groupe de gabarits n\'a pas pu être importé, car il a été générée à l\'aide d\'une version antérieure de QuickSupport, et manque peut-être de gabarits. Si vous souhaitez substituer le contrôle de version, activez <em>Ignorer la version de groupe de gabarits</em>.',
     'importexport'                  => 'Importer/Exporter',
     'exporttgroup'                  => 'Groupe de gabarits à exporter',
     'desc_exporttgroup'             => 'Le groupe de gabarits qui doit être exporté comme fichier XML.',
@@ -114,7 +114,7 @@ $__LANG = array(
     'inserttgroup'                  => 'Groupes de gabarits',
     'desc_inserttgroup'             => 'Veuillez sélectionner le groupe de gabarits pour ce gabarit.',
     'templateeditingguideline'      => 'Meilleures pratiques de modification de gabarit',
-    'desc_templateeditingguideline' => 'À l\'aide de l\'éditeur de gabarits, vous pouvez personnaliser l\'apparence du centre d\'assistance. Si une future mise à jour de Kayako inclut des modifications du gabarit en question, il vous sera demandé de restaurer le gabarit à la dernière version originale. Ceci annulera les modifications que vous avez apportées  au gabarit et vous devrez les ré-appliquer.<br><br>Pour minimiser les problèmes potentiels, consultez le <a href="https://go.gfi.com/?pageid=GFIHelpDeskTemplates" target="_blank" rel="noopener noreferrer">Guide des meilleures pratiques de modification de gabarits</a> avant de personnaliser votre centre d\'assistance.',
+    'desc_templateeditingguideline' => 'À l\'aide de l\'éditeur de gabarits, vous pouvez personnaliser l\'apparence du centre d\'assistance. Si une future mise à jour de QuickSupport inclut des modifications du gabarit en question, il vous sera demandé de restaurer le gabarit à la dernière version originale. Ceci annulera les modifications que vous avez apportées  au gabarit et vous devrez les ré-appliquer.<br><br>Pour minimiser les problèmes potentiels, consultez le <a href="https://go.gfi.com/?pageid=GFIHelpDeskTemplates" target="_blank" rel="noopener noreferrer">Guide des meilleures pratiques de modification de gabarits</a> avant de personnaliser votre centre d\'assistance.',
     'restoreconfirmaskcat'          => 'Êtes-vous certain de vouloir restaurer les gabarits de cette catégorie? \\nVous ne pourrez pas annuler cette action ; la restauration des gabarits peut entraîner la perte de toutes les modifications de l\'interface d\'utilisateur que vous avez apportées aux gabarits existants !',
     'inserttemplatetgroup'          => 'Groupes de gabarits',
     'inserttemplatetcategory'       => 'Catégorie de gabarits',
@@ -289,15 +289,15 @@ $__LANG = array(
     'loginsharefile'                => 'LoginShare XML File',
     'desc_loginsharefile'           => 'Upload the LoginShare XML File',
     'titlenoelevatedls'             => 'Unable to Import LoginShare XML',
-    'msgnoelevatedls'               => 'Kayako is unable to import the LoginShare XML file as it is required that you login with a staff user that has elevated rights. You can add your user to elevated right list in config/config.php file of the package.',
+    'msgnoelevatedls'               => 'QuickSupport is unable to import the LoginShare XML file as it is required that you login with a staff user that has elevated rights. You can add your user to elevated right list in config/config.php file of the package.',
     'titlelsversioncheckfail'       => 'Version Check Failed',
-    'msglsversioncheckfail'         => 'Kayako is unable to import the LoginShare Plugin as the plugin was created for an older version of Kayako',
+    'msglsversioncheckfail'         => 'QuickSupport is unable to import the LoginShare Plugin as the plugin was created for an older version of QuickSupport',
     'titlelsinvaliduniqueid'        => 'Duplicate Unique ID Error',
-    'msglsinvaliduniqueid'          => 'Kayako is unable to import the LoginShare Plugin due to a conflict in Unique ID. This usually means that the plugin has already been imported into the database.',
+    'msglsinvaliduniqueid'          => 'QuickSupport is unable to import the LoginShare Plugin due to a conflict in Unique ID. This usually means that the plugin has already been imported into the database.',
     'titlelsinvalidxml'             => 'Invalid XML File',
-    'msglsinvalidxml'               => 'Kayako is unable to import the LoginShare Plugin as the XML file corrupt or contains invalid data.',
+    'msglsinvalidxml'               => 'QuickSupport is unable to import the LoginShare Plugin as the XML file corrupt or contains invalid data.',
     'titlelsimported'               => 'Imported LoginShare Plugin',
-    'msglsimported'                 => 'Kayako has successfully imported the %s LoginShare Plugin.',
+    'msglsimported'                 => 'QuickSupport has successfully imported the %s LoginShare Plugin.',
     'titlelsdeleted'                => 'Deleted LoginShare Plugin',
     'msglsdeleted'                  => 'Successfully deleted the "%s" LoginShare Plugin from the database.',
     'tgroupjump'                    => 'Template Group: %s',
@@ -313,7 +313,7 @@ $__LANG = array(
     'importtemplates'               => 'Import Templates',
     'importxml'                     => 'Import XML',
     'tgroupmergeconfirm'            => 'Template Group "%s" merged with import file',
-    'versioncheckfailed'            => 'Version Check Failed: The uploaded template pack was created using older version of Kayako',
+    'versioncheckfailed'            => 'Version Check Failed: The uploaded template pack was created using older version of QuickSupport',
     'tgroupnewimportconfirm'        => 'Template Group "%s" imported successfully',
     'templategroupdetails'          => 'Template Group Details',
     'passworddontmatch'             => 'ERROR: Passwords don\'t match',

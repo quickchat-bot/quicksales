@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -74,7 +74,7 @@ class Controller_Import extends Controller_console
             $_databasePort = 3306;
         }
 
-        $_SWIFT_ImportManagerObject = SWIFT_ImportManager::GetImportManagerObject('Kayako3');
+        $_SWIFT_ImportManagerObject = SWIFT_ImportManager::GetImportManagerObject('QuickSupport3');
 
 //        $_SWIFT_ImportManagerObject->GetImportRegistry()->DeleteAll();
 

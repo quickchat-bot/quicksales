@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -599,7 +599,7 @@ class SWIFT_UserInterfaceControlPanel extends SWIFT_UserInterface
              * BUG FIX - Ravi Sharma <ravi.sharma@kayako.com>
              *
              * SWIFT-1806 Using 'enter' in "Your Question" field while initiating a chat, help desk throws an error when viewing chat history
-             * SWIFT-4917 Cross site scripting flaw in Kayako Case.
+             * SWIFT-4917 Cross site scripting flaw in QuickSupport Case.
              */
             $_documentTitle = preg_replace("#(\r\n|\r|\n)#s", ' ', addslashes($this->Input->SanitizeForXSS($this->_documentTitle)));
             echo 'SetHeaderTitle("' . $_documentTitle . '");';

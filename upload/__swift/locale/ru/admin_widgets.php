@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -48,13 +48,13 @@ $__LANG = array(
     'titleinvalidfileext'       => ' Некорректное расширение файла изображения',
     'msginvalidfileext'         => 'У файла изображения для иконки некорректное расширение. Допустимые виды расширения: gif, jpeg, jpg, png.',
     'titlewidgetinsert'         => 'Вставить виджет "%s"',
-    'msgwidgetinsert'           => 'Kayako виджет успешно установлен "%s".',
+    'msgwidgetinsert'           => 'QuickSupport виджет успешно установлен "%s".',
     'titlewidgetupdate'         => 'Виджет обновлен "%s"',
-    'msgwidgetupdate'           => 'Kayako виджет успешно обновлен"%s".',
+    'msgwidgetupdate'           => 'QuickSupport виджет успешно обновлен"%s".',
     'titledeletedwidget'        => 'Виджет "%d" удален',
-    'msgdeletedwidget'          => 'Kayako виджет успешно удален из базы данных:',
+    'msgdeletedwidget'          => 'QuickSupport виджет успешно удален из базы данных:',
     'titledeletedwidgetfail'    => 'Невозможно удалить "%d" виджет',
-    'msgdeletedwidgetfail'      => 'Kayako невозможно удалить основной виджет:',
+    'msgdeletedwidgetfail'      => 'QuickSupport невозможно удалить основной виджет:',
     'uservisibilitycustom'      => 'Ограничить доступ определенных групп  пользователей?',
     'desc_uservisibilitycustom' => 'При включении данной опции, этот виджет будет виден только выбранным группам пользователей.',
     'tabpermissionsclient'      => 'Доступ',

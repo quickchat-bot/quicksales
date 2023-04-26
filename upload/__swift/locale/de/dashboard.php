@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -73,9 +73,9 @@ $__LANG = array (
 'plognosubject'                 => 'Kein Betreff',
 'showingmsg'                    => ' (%d von %d angezeigt)',
 'titlelicenseexpirywarning'     => 'Ihre Lizenz läuft in Kürze ab',
-'msglicenseexpirywarning'       => 'Ihre GFI HelpDesk Lizens läuft in Kürze ab (am %s). Danach haben Sie keinen Zugriff mehr auf neue Versionen von Kayako, Software-Fixes, Sicherheitsaktualisierungen oder das technische Support. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Klicken Sie hier, um Ihre Lizens zu verlängern</a> oder <a href="https://go.gfi.com/?pageid=GFIHelpdeskSubscription" target="_blank" rel="noopener noreferrer">um mehr über Ihre</a> Lizensverlängerung zu erfahren.',
+'msglicenseexpirywarning'       => 'Ihre GFI HelpDesk Lizens läuft in Kürze ab (am %s). Danach haben Sie keinen Zugriff mehr auf neue Versionen von QuickSupport, Software-Fixes, Sicherheitsaktualisierungen oder das technische Support. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Klicken Sie hier, um Ihre Lizens zu verlängern</a> oder <a href="https://go.gfi.com/?pageid=GFIHelpdeskSubscription" target="_blank" rel="noopener noreferrer">um mehr über Ihre</a> Lizensverlängerung zu erfahren.',
 'titlelicenseexpired'           => 'Ihre Lizenz ist abgelaufen - erneuern Sie sie, um auf dem Laufenden zu bleiben',
-'msglicenseexpired'             => 'Ihre GFI HelpDesk Lizenz ist am %s abgelaufen. Dies bedeutet, dass Sie keinen Zugriff mehr auf neue Kayako Versionen, Features oder den technischen Support haben. Es ist wichtig, dass Sie Ihr Helpdesk mit den letzten Software-Fixes und Sicherheitsaktualisierungen auf dem Laufenden halten. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Klicken Sie hier, um Ihre Lizenz zu erneuern</a>, <a href="https://go.gfi.com/?pageid=GFIHelpdeskSubscription" target="_blank" rel="noopener noreferrer">Erfahren Sie mehr über</a> die Lizenzerneuerung oder.',
+'msglicenseexpired'             => 'Ihre GFI HelpDesk Lizenz ist am %s abgelaufen. Dies bedeutet, dass Sie keinen Zugriff mehr auf neue QuickSupport Versionen, Features oder den technischen Support haben. Es ist wichtig, dass Sie Ihr Helpdesk mit den letzten Software-Fixes und Sicherheitsaktualisierungen auf dem Laufenden halten. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Klicken Sie hier, um Ihre Lizenz zu erneuern</a>, <a href="https://go.gfi.com/?pageid=GFIHelpdeskSubscription" target="_blank" rel="noopener noreferrer">Erfahren Sie mehr über</a> die Lizenzerneuerung oder.',
 'titletrialexpirywarning'       => 'Ihre Testversion läuft bald ab',
 'msgtrialexpirywarning'         => 'Ihre GFI HelpDesk trial läuft bald ab (am %s). Um Ihr Helpdesk beizubehalten, <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">klicken Sie für ein Upgrade hier</a> oder <a href="https://www.gfi.com/contact-us" target="_blank" rel="noopener noreferrer">klicken Sie hier, um uns</a> für jegliche Fragen zu kontaktieren.',
 'titletemplaterevert'           => 'Einige Vorlagen sind nicht mehr aktuell',
@@ -83,7 +83,7 @@ $__LANG = array (
 'titlelanguagerevert'           => 'Einige Ausdrücke sind nicht mehr aktuell',
 'msglanguagerevert'             => '%d Sprachausdrücke sind nicht mehr aktuell, seitdem Ihr Helpdesk aktualisiert wurde und müssen wiederhergestellt werden:',
 'licensedetails'                => 'Lizenzinformationen',
-'latestkayakonews'              => 'Letzte Kayako-News',
+'latestkayakonews'              => 'Letzte QuickSupport-News',
 'tabwelcome'                    => 'Willkommen',
 'tabrecentactivity'             => 'Letzte Aktivität',
 'tabalerts'                     => 'Alarm',
@@ -101,7 +101,7 @@ $__LANG = array (
 'titleparserlogfailuredetected' => '%d E-Mail-Parser-Fehler protokolliert',
 'msgparserlogfailuredetected'   => 'Es gab %d E-Mail-Parser-Fehler. Um das granze Protokoll zu sehen, gehen Sie auf <strong>Protokolle > Parser-Protokoll</strong>.',
 'titleerrorsdetected'           => '%d Fehler protokolliert',
-'msgerrorsdetected'             => 'Es wurden %d Fehler protokolliert. Diese dürften nichts Ernstes sein, aber gerne können Sie Kayako für jegliche Fragen kontaktieren.',
+'msgerrorsdetected'             => 'Es wurden %d Fehler protokolliert. Diese dürften nichts Ernstes sein, aber gerne können Sie QuickSupport für jegliche Fragen kontaktieren.',
 'dashusername'                  => 'Benutzername:',
 'dashemail'                     => 'E-Mail-Adresse:',
 'dashlastlogin'                 => 'Letzte Anmeldung:',
@@ -110,7 +110,7 @@ $__LANG = array (
 'dversion'                      => 'Version: ',
 'dbuildtype'                    => 'Build Typ: ',
 'dbuilddate'                    => 'Build Datum: ',
-'kayako'                        => 'Kayako',
+'kayako'                        => 'QuickSupport',
 'accreated'                     => 'ERSTELLT',
 'acupdated'                     => 'AKTUALISIERT',
 'acdeleted'                     => 'GELÖSCHT',

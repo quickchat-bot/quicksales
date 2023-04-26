@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -171,7 +171,7 @@ $__LANG = array(
     'lc_skillspanish'                                => 'español',
     'lc_searchenginerule'                            => 'Visitantes de motor de búsqueda',
     'workflowcloseticket'                            => 'Tickets cerrados',
-    'scconfirmcleardb'                               => 'ADVERTENCIA: ¿Está seguro que desea vaciar la base de datos? Se eliminarán todas las tablas de esta base de datos, incluso si no fueran parte de Kayako, y esto es totalmente irreversible',
+    'scconfirmcleardb'                               => 'ADVERTENCIA: ¿Está seguro que desea vaciar la base de datos? Se eliminarán todas las tablas de esta base de datos, incluso si no fueran parte de QuickSupport, y esto es totalmente irreversible',
     'tickettypeissue'                                => 'Problema',
     'tickettypetask'                                 => 'Tarea',
     'tickettypebug'                                  => 'Bug',
@@ -225,7 +225,7 @@ $__LANG = array(
     'scgeoipdir'                                     => 'Comprobar si el directorio de base de datos de GeoIP tiene permisos de escritura',
     'scgeoipdirerror'                                => 'El directorio de archivos (./__swift/geoip/) no tiene permisos de escritura. Por favor, concédale permisos de escritura',
     'scminphpversion'                                => 'Comprobando la versión de PHP (versión mínima: %s)',
-    'scminphpversionerror'                           => 'La versión de PHP instalada en este servidor es demasiado antigua. Kayako requiere la versión de PHP <strong>%s</strong> o más nueva',
+    'scminphpversionerror'                           => 'La versión de PHP instalada en este servidor es demasiado antigua. QuickSupport requiere la versión de PHP <strong>%s</strong> o más nueva',
     'scfileup'                                       => 'Comprobando si la subida de archivos está activada',
     'scfileuperror'                                  => 'Por favor, cambie <strong>file_uploads</strong> en el archivo de configuración php.ini a <strong>On</strong>',
     'scmaxupsize'                                    => 'Comprobando el tamaño máximo de archivo para la subida de archivos',
@@ -244,11 +244,11 @@ $__LANG = array(
     'scextensioncheck'                               => 'Comprobando si está instalada la extensión PHP <strong>%s</strong>',
     'scinstalled'                                    => 'INSTALADO',
     'scmissing'                                      => 'FALTA',
-    'scdbnotempty'                                   => 'La base de datos no está vacía. Por favor, haga clic en <strong>Vaciar base de datos</strong> para eliminar todas las tablas existentes o haga clic en <strong>Continuar</strong> para proceder con la instalación. Se recomienda instalar Kayako en una base de datos vacía',
+    'scdbnotempty'                                   => 'La base de datos no está vacía. Por favor, haga clic en <strong>Vaciar base de datos</strong> para eliminar todas las tablas existentes o haga clic en <strong>Continuar</strong> para proceder con la instalación. Se recomienda instalar QuickSupport en una base de datos vacía',
     'sccleardb'                                      => 'Vaciar base de datos',
     'sccontinue'                                     => 'Continuar',
     'scnext'                                         => 'Siguiente &raquo;',
-    'scsyscheckfailed'                               => 'Lamentablemente no se puede instalar Kayako. O bien se ha producido un error o su servidor web no cumple los requisitos mínimos del sistema. Por favor, revise cualquiera de los errores mostrados arriba y vuelva a iniciar el proceso de instalación después de haberlos resuelto',
+    'scsyscheckfailed'                               => 'Lamentablemente no se puede instalar QuickSupport. O bien se ha producido un error o su servidor web no cumple los requisitos mínimos del sistema. Por favor, revise cualquiera de los errores mostrados arriba y vuelva a iniciar el proceso de instalación después de haberlos resuelto',
     'scstartsetup'                                   => 'Iniciar la instalación',
     'scpassnomatch'                                  => 'Las contraseñas no coinciden',
     'scfieldempty'                                   => 'Uno de los campos obligatorios está vacío',
@@ -271,7 +271,7 @@ $__LANG = array(
 
     'sclanguage'                                     => 'Creando idioma: %s',
     'sclanguagesection'                              => 'Creando sección de idioma: %s',
-    'scsetupconfirmation'                            => '¡Kayako se ha instalado en su servidor web! Visite el panel de control de administradores para seguir configurando su helpdesk.<br/><br/><font color="red"><b>Nota importante:</b> No podrá utilizar Kayako hasta que elimine el directorio \'setup\' del directorio raíz de la instalación.</font><br/><br/><font color="darkblue"><b>Importar sus datos:</b></font> Puede importar datos del helpdesk de productos anteriores de Kayako o de otros productos mediante el motor de importación en el panel de control del administrador.',
+    'scsetupconfirmation'                            => '¡QuickSupport se ha instalado en su servidor web! Visite el panel de control de administradores para seguir configurando su helpdesk.<br/><br/><font color="red"><b>Nota importante:</b> No podrá utilizar QuickSupport hasta que elimine el directorio \'setup\' del directorio raíz de la instalación.</font><br/><br/><font color="darkblue"><b>Importar sus datos:</b></font> Puede importar datos del helpdesk de productos anteriores de QuickSupport o de otros productos mediante el motor de importación en el panel de control del administrador.',
     'scupgradeconfirmation'                          => '<div class="smalltext">Su helpdesk está ahora actualizado.</div><br/><br/><font color="red"><b>Nora importante:</b> Debe eliminar inmediatamente el directorio \'setup\' del directorio raíz de instalación. De lo contrario se podría vaciar la base de datos, si alguien ejecutara el setup.',
     'scadmincp'                                      => 'Panel de control admin',
     'scstaffcp'                                      => 'Panel de control del personal',
@@ -301,7 +301,7 @@ $__LANG = array(
     'snewuser'                                       => 'Registro de usuario',
     'scmaxexectime'                                  => 'Comprobando el tiempo máximo de ejecución de script PHP',
     'scmaxexectimelessspec'                          => '<strong>max_execution_time</strong> se ha fijado en %d segundos (se recomiendan por lo menos 90 segundos)',
-    'scmaxexectimeerror'                             => 'La configuración de Kayako precisa un tiempo máximo de ejecución más largo. Cámbielo en <strong>max_execution_time</strong> en el archivo de configuración php.ini',
+    'scmaxexectimeerror'                             => 'La configuración de QuickSupport precisa un tiempo máximo de ejecución más largo. Cámbielo en <strong>max_execution_time</strong> en el archivo de configuración php.ini',
 
 
     'statusonhold'                                   => 'En espera',
@@ -320,7 +320,7 @@ $__LANG = array(
     'defaultview'                                    => 'Vista por defecto',
     'alltickets'                                     => 'Todos los tickets',
     'impex'                                          => 'Importar',
-    'setupwelcome'                                   => 'Bienvenido a la instalación de Kayako. Por favor, seleccione una opción para comenzar.',
+    'setupwelcome'                                   => 'Bienvenido a la instalación de QuickSupport. Por favor, seleccione una opción para comenzar.',
 
     // Potentialy unused phrases in setup.php
     'issuefixed'                                     => 'Fixed',

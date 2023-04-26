@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -39,21 +39,21 @@ $__LANG = array(
     'upgrade'                => 'Обновить',
     'forceupgrade'           => 'Принудительное обновление',
     'titleuninstallsuccess'  => 'Модуль успешно удален',
-    'msguninstallsuccess'    => 'Kayako Модуль "%s" было успешно удален',
+    'msguninstallsuccess'    => 'QuickSupport Модуль "%s" было успешно удален',
     'titleuninstallfailure'  => 'Модуль не был удален',
-    'msguninstallfailure'    => 'Kayako модуль "%s" не был удален. Пожалуйста, свяжитесь со службой поддержки Kayako для дополнительной информации.',
+    'msguninstallfailure'    => 'QuickSupport модуль "%s" не был удален. Пожалуйста, свяжитесь со службой поддержки QuickSupport для дополнительной информации.',
     'titleinstallsuccess'    => 'Модуль успешно установлен',
-    'msginstallsuccess'      => 'Kayako Модуль "%s" был успешно установлен',
+    'msginstallsuccess'      => 'QuickSupport Модуль "%s" был успешно установлен',
     'titleinstallfailure'    => 'Произошел сбой в установке модуля',
-    'msginstallfailure'      => 'Kayako Произошел сбой в установке модуля "%s". Пожалуйста, свяжитесь со службой поддержки Kayako для дополнительной информации.',
+    'msginstallfailure'      => 'QuickSupport Произошел сбой в установке модуля "%s". Пожалуйста, свяжитесь со службой поддержки QuickSupport для дополнительной информации.',
     'titleupgradesuccess'    => 'Модуль успешно обновлен',
-    'msgupgradesuccess'      => 'Kayako Модуль "%s" был успешно обновлен',
+    'msgupgradesuccess'      => 'QuickSupport Модуль "%s" был успешно обновлен',
     'titleupgradefailure'    => 'Модуль не обновлен',
-    'msgupgradefailure'      => 'Kayako Модуль "%s" не был обновлен. Пожалуйста, свяжитесь со службой поддержки Kayako для дополнительной информации.',
+    'msgupgradefailure'      => 'QuickSupport Модуль "%s" не был обновлен. Пожалуйста, свяжитесь со службой поддержки QuickSupport для дополнительной информации.',
     'titleupgradeallsuccess' => 'Модуль успешно обновлен',
-    'msgupgradeallsuccess'   => 'Kayako Следующий модуль был успешно обновлен:<br />%s',
+    'msgupgradeallsuccess'   => 'QuickSupport Следующий модуль был успешно обновлен:<br />%s',
     'titleupgradeallfailure' => 'Модуль не обновлен',
-    'msgupgradeallfailure'   => 'Kayako Следующий модуль не был обновлен. Пожалуйста, свяжитесь со службой поддержки Kayako для дополнительной информации.<br />%s',
+    'msgupgradeallfailure'   => 'QuickSupport Следующий модуль не был обновлен. Пожалуйста, свяжитесь со службой поддержки QuickSupport для дополнительной информации.<br />%s',
 );
 
 

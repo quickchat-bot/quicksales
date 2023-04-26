@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -112,7 +112,7 @@ $__LANG = array(
     'desc_reportfile'             => 'XML File containing the reports',
     'activityexportedreport'      => 'Exported Report: %s',
     'importfailed'                => 'Failed to import the Report',
-    'msgimportfailed'             => 'Kayako failed to import the Report. Please check the integrity of the file.',
+    'msgimportfailed'             => 'QuickSupport failed to import the Report. Please check the integrity of the file.',
     'titlefieldempty'             => 'Invalid Data, Unable to proceed.',
     'msgtitlefieldempty'          => 'One of the required field(s) is empty or contains invalid data. Please make sure that you have entered all the required information.',
     'titleimportreport'           => 'Successfully imported report "%s"',

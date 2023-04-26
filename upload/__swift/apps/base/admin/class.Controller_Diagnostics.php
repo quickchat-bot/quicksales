@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -294,7 +294,7 @@ class Controller_Diagnostics extends Controller_admin
     }
 
     /**
-     * Report a Bug to Kayako
+     * Report a Bug to QuickSupport
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise
@@ -322,7 +322,7 @@ class Controller_Diagnostics extends Controller_admin
     }
 
     /**
-     * Dispatch the Bug report to Kayako
+     * Dispatch the Bug report to QuickSupport
      *
      * @author Varun Shoor
      * @return bool "true" on Success, "false" otherwise

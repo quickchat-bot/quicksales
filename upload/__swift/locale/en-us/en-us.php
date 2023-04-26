@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -39,7 +39,7 @@ $__LANG = array(
     'username'                     => 'Username',
     'password'                     => 'Password',
     'rememberme'                   => 'Remember Me',
-    'defaulttitle'                 => '%s - Powered by Kayako',
+    'defaulttitle'                 => '%s - Powered by QuickSupport',
     'login'                        => 'Login',
     'global'                       => 'Global',
     'first'                        => 'First',
@@ -47,11 +47,11 @@ $__LANG = array(
     'pagination'                   => 'Page %s of %s',
     'submit'                       => 'Submit',
     'reset'                        => 'Reset',
-    'poweredby'                    => 'Helpdesk Software Powered by Kayako',
-    'copyright'                    => 'Copyright &copy; 2001-%s Kayako',
-    'notifycsrfhash'               => 'Kayako had a problem validating this request',
-    'titlecsrfhash'                => 'Kayako had a problem validating this request',
-    'msgcsrfhash'                  => 'Kayako validates requests to protect against cross-site request forgeries and could not validate this request. Please try again.',
+    'poweredby'                    => 'Helpdesk Software Powered by QuickSupport',
+    'copyright'                    => 'Copyright &copy; 2001-%s QuickSupport',
+    'notifycsrfhash'               => 'QuickSupport had a problem validating this request',
+    'titlecsrfhash'                => 'QuickSupport had a problem validating this request',
+    'msgcsrfhash'                  => 'QuickSupport validates requests to protect against cross-site request forgeries and could not validate this request. Please try again.',
     'invaliduser'                  => 'Username or password is incorrect',
     'invaliduseripres'             => 'Unauthorized IP address (attempt: %d of %d)',
     'invaliduserdisabled'          => 'This account is disabled (attempt: %d of %d)',
@@ -74,7 +74,7 @@ $__LANG = array(
     'logout'                       => 'Logout',
     'staffcp'                      => 'Staff CP',
     'admincp'                      => 'Admin CP',
-    'winapp'                       => 'Kayako Desktop',
+    'winapp'                       => 'QuickSupport Desktop',
     'staffapi'                     => 'Staff API',
     'bytes'                        => 'Bytes',
     'kb'                           => 'KB',
@@ -208,7 +208,7 @@ $__LANG = array(
     'interface_staff'              => 'Staff CP',
     'interface_intranet'           => 'Intranet',
     'interface_api'                => 'API',
-    'interface_winapp'             => 'Kayako Desktop/Staff API',
+    'interface_winapp'             => 'QuickSupport Desktop/Staff API',
     'interface_syncworks'          => 'SyncWorks',
     'interface_instaalert'         => 'InstaAlert',
     'interface_pda'                => 'PDA',
@@ -239,7 +239,7 @@ $__LANG = array(
     'searchmodeactive'             => 'Results are filtered - click to reset',
     'notifysearchfailed'           => '"0" Results found',
     'titlesearchfailed'            => '"0" Results Found',
-    'msgsearchfailed'              => 'Kayako was unable to locate any records matching the specified criteria.',
+    'msgsearchfailed'              => 'QuickSupport was unable to locate any records matching the specified criteria.',
     'quickfilter'                  => 'Quick Filter',
     'fuenterurl'                   => 'Enter URL:',
     'fuorupload'                   => 'or Upload:',
@@ -379,7 +379,7 @@ $__LANG = array(
     'app_reports'                  => 'Reports',
 
     // Potentialy unused phrases in en-us.php
-    'defaultloginapi'              => 'Kayako Login Routine',
+    'defaultloginapi'              => 'QuickSupport Login Routine',
     'redirect_login'               => 'Processing Login...',
     'redirect_dashboard'           => 'Redirecting to Home...',
     'no_wait'                      => 'Please click here if your browser does not automatically redirect you',
@@ -391,7 +391,7 @@ $__LANG = array(
     'searchfieldquery'             => 'Query: ',
     'searchfieldfield'             => 'Field: ',
     'settingsfieldresultsperpage'  => 'Results Per Page: ',
-    'clidefault'                   => '%s v%s\nCopyright (c) 2001-%s Kayako\n',
+    'clidefault'                   => '%s v%s\nCopyright (c) 2001-%s QuickSupport\n',
     'firstselect'                  => '- Select -',
     'exportasxml'                  => 'XML',
     'exportascsv'                  => 'CSV',
@@ -399,7 +399,7 @@ $__LANG = array(
     'exportaspdf'                  => 'PDF',
     'clientarea'                   => 'Support Center',
     'pdainterface'                 => 'PDA Interface',
-    'kayakomobile'                 => 'Kayako Mobile',
+    'kayakomobile'                 => 'QuickSupport Mobile',
     'thousandsseperator'           => ',',
     'clierror'                     => '[ERROR]: ',
     'cliwarning'                   => '[WARNING]: ',
@@ -437,7 +437,7 @@ $__LANG = array(
     'maddthumbnail'                => 'Thumbnail',
     'maddthumbnailwithlink'        => 'Thumbnail with Link',
     'checkuncheckall'              => 'Check/Uncheck All',
-    'defaultloginshare'            => 'Kayako LoginShare',
+    'defaultloginshare'            => 'QuickSupport LoginShare',
     'invalidusernoapiaccess'       => 'Invalid Staff. This staff does not have API access, please configure under Settings > General.',
     'msgupdsettings'               => 'Successfully updated all settings for "%s"',
     'msgpwpolicy'                  => 'The password specified does not match the requirements of the Password Policy.',

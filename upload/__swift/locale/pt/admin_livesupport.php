@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -42,7 +42,7 @@ $__LANG = array(
     'visitorgrouptitle'                     => 'Nome do grupo de visitantes',
     'desc_visitorgrouptitle'                => 'Especifique um nome para o grupo de visitantes, por exemplo: <em>Importantes</em>.',
     'groupcolor'                            => 'Cor do grupo',
-    'desc_groupcolor'                       => 'Especifique uma cor para o título deste grupo, que será apresentado na listagem de visitantes no Kayako Desktop.',
+    'desc_groupcolor'                       => 'Especifique uma cor para o título deste grupo, que será apresentado na listagem de visitantes no QuickSupport Desktop.',
     'lastupdate'                            => 'Última atualização',
     'titledelvisitorgroup'                  => 'Grupos de visitantes eliminados (%d)',
     'msgdelvisitorgroup'                    => 'Os seguintes grupos de visitantes foram eliminados:',

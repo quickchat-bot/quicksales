@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -20,7 +20,7 @@ $__LANG = array(
     'languageisenabled'          => 'Langue activée',
     'desc_languageisenabled'     => 'Si activée, vos utilisateurs seront en mesure de choisir cette langue dans le centre d\'assistance.',
     'titlemissingphrases'        => 'Phrases manquantes trouvées',
-    'msgmissingphrases'          => 'Kayako a trouvé %d phrases manquantes. Il est recommandé de mettre à jour la langue sélectionnée et d\'ajouter les phrases manquantes.',
+    'msgmissingphrases'          => 'QuickSupport a trouvé %d phrases manquantes. Il est recommandé de mettre à jour la langue sélectionnée et d\'ajouter les phrases manquantes.',
     'tabimport'                  => 'Importer',
     'tabexport'                  => 'Exporter',
     'languagemen'                => 'Langues',
@@ -30,9 +30,9 @@ $__LANG = array(
     'titleupdatedlangphrases'    => 'Phrases mises à jour',
     'msgupdatedlangphrases'      => 'Les phrases pour %s ont été mises à jour.',
     'titlevcfailed'              => 'Pack de langue obsolète',
-    'msgvcfailed'                => 'Le module linguistique téléchargé a été créé pour une version plus ancienne de Kayako. Vous pouvez ignorer cette vérification en activant <em>Ignorer la vérification de version</em> ci-dessous.',
+    'msgvcfailed'                => 'Le module linguistique téléchargé a été créé pour une version plus ancienne de QuickSupport. Vous pouvez ignorer cette vérification en activant <em>Ignorer la vérification de version</em> ci-dessous.',
     'titlelangimpfailed'         => 'L\'import/fusion de langue à échoué',
-    'msglangimpfailed'           => 'Kayako a rencontré des difficultés lors de l\'importation de ce module linguistique. Le format peu-être incorrect ou le module peut contenir des données incorrectes.',
+    'msglangimpfailed'           => 'QuickSupport a rencontré des difficultés lors de l\'importation de ce module linguistique. Le format peu-être incorrect ou le module peut contenir des données incorrectes.',
     'tabsearch'                  => 'Recherche',
     'tabgeneral'                 => 'Généralités',
     'flagicon'                   => 'Icône de drapeau',
@@ -48,7 +48,7 @@ $__LANG = array(
     'titlemergelang'             => 'Fusion de langue réussie',
     'msgmergelang'               => 'Le module linguistique à bien été fusionné avec le module linguistique "%s".',
     'titleimportlang'            => 'La  langue a été importé avec avec succès',
-    'msgimportlang'              => 'Le module linguistique a été importé avec succès. Kayako a créé la langue suivante :',
+    'msgimportlang'              => 'Le module linguistique a été importé avec succès. QuickSupport a créé la langue suivante :',
     'titlephraseinsert'          => 'Phrase (%s) créée',
     'msgphraseinsert'            => 'La phrase (%s) a été créée avec succès. <strong>Langue :</strong> %s <strong>Code de phrase :</strong> %s <strong>Section de laphrase :</strong> %s <strong>Phrase :</strong> %s',
     'titlephrasedel'             => 'Phrase supprimée',
@@ -69,7 +69,7 @@ $__LANG = array(
     'diagnosticslang1'           => 'Langue',
     'desc_diagnosticslang1'      => 'La langue à laquelle correspondent les phrases recherchées.',
     'diagnosticslang2'           => 'Comparer avec',
-    'desc_diagnosticslang2'      => 'Veuillez sélectionner la langue pour laquelle rechercher les phrases manquantes. Kayako listera toutes les phrases qui manquent pour la langue principale.',
+    'desc_diagnosticslang2'      => 'Veuillez sélectionner la langue pour laquelle rechercher les phrases manquantes. QuickSupport listera toutes les phrases qui manquent pour la langue principale.',
     'restorephrases'             => 'Restaurer les phrases',
     'desc_restorephrases'        => '',
     'tabrestorephrases'          => 'Restaurer les phrases',
@@ -134,7 +134,7 @@ $__LANG = array(
     'mergewith'                  => 'Méthode d\'importation',
     'desc_mergewith'             => '<strong>Créer nouvelle langue</strong> Créer une langue entièrement nouvelle, utilisant les données dans le module linguistique<br /><strong>Sélectionner la langue</strong> Les phrases déjà traduites du module linguistique seront fusionnés avec la langue existante.',
     'ignoreversion'              => 'Ignorer la vérification de version',
-    'desc_ignoreversion'         => 'Activer pour forcer Kayako à accepter des modules linguistiques créées avec des versions plus anciennes de Kayako. Nous recommandons d\'utiliser uniquement des traductions mises à jour.',
+    'desc_ignoreversion'         => 'Activer pour forcer QuickSupport à accepter des modules linguistiques créées avec des versions plus anciennes de QuickSupport. Nous recommandons d\'utiliser uniquement des traductions mises à jour.',
     'createnewlanguage'          => '-- Créer nouvelle langue --',
     'languageimportconfirmation' => 'La langue %s à été correctement impotée',
     'managephrases'              => 'Gérer les phrases',
@@ -152,7 +152,7 @@ $__LANG = array(
     'desc_searchtype'            => '<strong>Identificateur et texte</strong> Recherche dans le texte des phrases et parmi les identificateurs de phrase. <br /><strong>Identificateur</strong> Recherche uniquement parmi les identificateurs de phrase.',
     'searchlanguage'             => 'Rechercher dans la langue',
     'desc_searchlanguage'        => 'Sélectionner la langue de recherche.',
-    'versioncheckfailed'         => 'ERREUR : Ce module linguistique a été créé à l\'aide d\'une version antérieure de Kayako et est obsolète',
+    'versioncheckfailed'         => 'ERREUR : Ce module linguistique a été créé à l\'aide d\'une version antérieure de QuickSupport et est obsolète',
     'addphrase'                  => 'Ajouter la phrase',
     'changelanguage'             => 'Saut de langue',
     'desc_phrasecode'            => 'Veuillez entrer un identificateur unique pour la nouvelle phrase. Par exemple : <em>ticket_myphrase</em>.',

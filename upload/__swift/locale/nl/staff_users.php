@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -88,7 +88,7 @@ $__LANG = array(
     'usertimezone'                   => 'Tijdzone',
     'desc_usertimezone'              => 'Als je geen tijdzone selecteert, wordt de standaardwaarde van de helpdesk gebruikt.',
     'userenabledst'                  => 'Zomertijd detecteren',
-    'desc_userenabledst'             => 'Wanneer dit is ingeschakeld, detecteert Kayako zomertijd en past de tijd automatisch aan.',
+    'desc_userenabledst'             => 'Wanneer dit is ingeschakeld, detecteert QuickSupport zomertijd en past de tijd automatisch aan.',
     'defaultlanguage'                => '-- Standaardtaal --',
     'userlanguage'                   => 'Taal',
     'desc_userlanguage'              => 'Bepaal welke taal deze gebruiker als deze zich aanmeldt bij het support center. Als dit is ingesteld, wordt de standaardtaal van de sjabloongroep overschreven.',
@@ -133,7 +133,7 @@ $__LANG = array(
     'titledeleteduserorganization'   => 'Organisaties verwijderd (%d)',
     'msgdeleteduserorganization'     => 'De volgende gebruikersorganisaties zijn verwijderd:',
     'userorganizationemails'         => 'Emaildomeinfilters',
-    'desc_userorganizationemails'    => 'Kayako voegt gebruikers die zich registreren met een emailadres met een van deze domeinnamen automatisch toe aan deze organisatie.<br/><br/>Door bijvoorbeeld <em>acme.com</em> toe te voegen, wordt een gebruiker met het emailadres <em>joe.bloggt@acme.com</em> aan deze organisatie toegevoegd.',
+    'desc_userorganizationemails'    => 'QuickSupport voegt gebruikers die zich registreren met een emailadres met een van deze domeinnamen automatisch toe aan deze organisatie.<br/><br/>Door bijvoorbeeld <em>acme.com</em> toe te voegen, wordt een gebruiker met het emailadres <em>joe.bloggt@acme.com</em> aan deze organisatie toegevoegd.',
     'contactdetails'                 => 'Contactgegevens',
     'userorganizationslaplan'        => 'SLA-plan overschrijven',
     'desc_userorganizationslaplan'   => 'Alle tickets gemaakt door gebruikers die tot deze organisatie behoren worden aan dit SLA-plan toegewezen. Merk op dat een SLA-planoverschrijving voor een specifieke gebruiker voorrang heeft boven deze instelling.',

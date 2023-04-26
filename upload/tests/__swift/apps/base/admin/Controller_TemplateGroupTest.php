@@ -2,7 +2,7 @@
 /**
  * ###############################################
  *
- * Kayako Classic
+ * QuickSupport Classic
  * _______________________________________________
  *
  * @author        Iunir Iakupov <iunir.iakupov@aurea.com>

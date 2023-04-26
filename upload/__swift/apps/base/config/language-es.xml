@@ -3,7 +3,7 @@
 <swiftlanguage>
 <title><![CDATA[Español (ES)]]></title>
 <isocode><![CDATA[es]]></isocode>
-<author><![CDATA[Kayako]]></author>
+<author><![CDATA[QuickSupport]]></author>
 <charset><![CDATA[UTF-8]]></charset>
 <textdirection><![CDATA[LTR]]></textdirection>
 <flagicon><![CDATA[{$themepath}es.gif]]></flagicon>
@@ -73,7 +73,7 @@
 <phrase section="default" code="commentemail"><![CDATA[Correo electrónico:]]></phrase>
 <phrase section="default" code="commentfullname"><![CDATA[Nombre completo:]]></phrase>
 <phrase section="default" code="comments"><![CDATA[Comentarios]]></phrase>
-<phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s Kayako]]></phrase>
+<phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s QuickSupport]]></phrase>
 <phrase section="default" code="creationfailed"><![CDATA[Se ha detectado un problema (error al crear objetos)]]></phrase>
 <phrase section="default" code="defaulttimezone"><![CDATA[-- Zona horaria por defecto --]]></phrase>
 <phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.gfi.com/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">GFI HelpDesk</a>.]]></phrase>
@@ -284,7 +284,7 @@ Contraseña: Oculta
 
 Puede visitar el helpdesk para buscar artículos o contactar con nosotros cuando desee: %2$s
 
-Tenga en cuenta que Kayako procesa la información del usuario para mejorar la calidad de la mesa de ayuda y la experiencia del usuario
+Tenga en cuenta que QuickSupport procesa la información del usuario para mejorar la calidad de la mesa de ayuda y la experiencia del usuario
 
 ¡Muchas gracias por registrarse!
 
@@ -312,7 +312,7 @@ Contraseña: %4$s
 
 Puede visitar el helpdesk para buscar artículos o contactar con nosotros cuando desee: %2$s
 
-Tenga en cuenta que Kayako procesa la información del usuario para mejorar la calidad de la mesa de ayuda y la experiencia del usuario
+Tenga en cuenta que QuickSupport procesa la información del usuario para mejorar la calidad de la mesa de ayuda y la experiencia del usuario
 
 ¡Muchas gracias por registrarse!
 
@@ -328,13 +328,13 @@ Tenga en cuenta que Kayako procesa la información del usuario para mejorar la c
 <phrase section="default" code="replytocomment"><![CDATA[Responder al comentario]]></phrase>
 <phrase section="default" code="requiredfieldempty"><![CDATA[Uno de los campos obligatorios está vacío]]></phrase>
 <phrase section="default" code="rssfeed"><![CDATA[Feed RSS]]></phrase>
-<phrase section="default" code="regpolicytext">Doy mi consentimiento para que Kayako procese mis datos y acepto los términos del</phrase>
+<phrase section="default" code="regpolicytext">Doy mi consentimiento para que QuickSupport procese mis datos y acepto los términos del</phrase>
 <phrase section="default" code="regpolicyurl">Política de privacidad</phrase>
 <phrase section="default" code="regpolicyareement">Política de privacidad requerida</phrase>
 <phrase section="default" code="cookiepolicyagreement">Estoy de acuerdo</phrase>
 <phrase section="default" code="cookiepolicytext">Este sitio utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web. Para obtener más información sobre las cookies, lea nuestro </phrase>
 <phrase section="default" code="cookiepolicyurl">Política de privacidad</phrase>
-<phrase section="livechatclient" code="fieldregpolicytext"> Doy mi consentimiento para que Kayako procese mis datos y acepto los términos del </phrase>
+<phrase section="livechatclient" code="fieldregpolicytext"> Doy mi consentimiento para que QuickSupport procese mis datos y acepto los términos del </phrase>
 <phrase section="livechatclient" code="fieldregpolicyurl">Política de privacidad</phrase>
 <phrase section="tickets" code="st_regpolicyareement">Política de privacidad requerida </phrase>
 <phrase section="mime" code="rtf"><![CDATA[Archivo de formato de texto enriquecido]]></phrase>

@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -26,13 +26,13 @@ $__LANG = array(
     'secretkey'             => 'Clé secrète',
     'usageinformation'      => 'Informations sur l\'utilisation',
     'desc_apikey'           => 'Voici votre clé API unique.',
-    'desc_secretkey'        => 'La clé secrète est utilisée pour signer toutes les demandes expédiées à Kayako. Cette clé est comme un mot de passe et elle doit être conservée en lieu sûr.',
+    'desc_secretkey'        => 'La clé secrète est utilisée pour signer toutes les demandes expédiées à QuickSupport. Cette clé est comme un mot de passe et elle doit être conservée en lieu sûr.',
     'apiurl'                => 'REST API URL',
     'desc_apiurl'           => 'Voici l\'URL à laquelle vous pouvez envoyer toutes vos requêtes GET, POST, PUT et DELETE.',
     'apidocs'               => 'Documentation de la REST API',
     'desc_apidocs'          => '',
     'titleapiregenerate'    => 'Nouveaux identifiant API créées',
-    'msgapiregenerate'      => 'Kayako a créé de nouvelles informations d\'authentification API. Si l\'API est en cours certaines de vos applications d\'utilisation par certaines de vos applications, vous devrez les mettre à jour.',
+    'msgapiregenerate'      => 'QuickSupport a créé de nouvelles informations d\'authentification API. Si l\'API est en cours certaines de vos applications d\'utilisation par certaines de vos applications, vous devrez les mettre à jour.',
     'titleapidisabled'      => 'Interface REST API  désactivée',
     'msgapidisabled'        => 'L\'interface REST API est actuellement désactivée. Pour l\'activer, allez dans paramètres de REST API.',
 );

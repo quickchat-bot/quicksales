@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -88,7 +88,7 @@ $__LANG = array(
     'usertimezone'                   => 'Fuso horário',
     'desc_usertimezone'              => 'Se não selecionar um fuso horário, será utilizado o fuso horário predefinido do suporte técnico.',
     'userenabledst'                  => 'Deteção da hora de verão',
-    'desc_userenabledst'             => 'Quando ativado, a Kayako detetará a hora de verão e efetuar ajustes automaticamente.',
+    'desc_userenabledst'             => 'Quando ativado, a QuickSupport detetará a hora de verão e efetuar ajustes automaticamente.',
     'defaultlanguage'                => '-- Idioma predefinido --',
     'userlanguage'                   => 'Idioma',
     'desc_userlanguage'              => 'Selecione o idioma visualizado por este utilizador quando inicia sessão no centro de suporte. Se estiver definido, o idioma predefinido do grupo de modelos será substituído.',
@@ -133,7 +133,7 @@ $__LANG = array(
     'titledeleteduserorganization'   => 'Organizações eliminadas (%d)',
     'msgdeleteduserorganization'     => 'As seguintes organizações de utilizador foram eliminadas:',
     'userorganizationemails'         => 'Filtros de domínio de email',
-    'desc_userorganizationemails'    => 'O Kayako adicionará automaticamente quaisquer utilizadores que se registem com um endereço de email que contenha um destes nomes de domínio desta organização.<br/><br/>Por exemplo, adicionar <em>acme.com</em> significa que um endereço de email de utilizador <em>joe.bloggs@acme.com</em> será adicionado a esta organização.',
+    'desc_userorganizationemails'    => 'O QuickSupport adicionará automaticamente quaisquer utilizadores que se registem com um endereço de email que contenha um destes nomes de domínio desta organização.<br/><br/>Por exemplo, adicionar <em>acme.com</em> significa que um endereço de email de utilizador <em>joe.bloggs@acme.com</em> será adicionado a esta organização.',
     'contactdetails'                 => 'Detalhes de contacto',
     'userorganizationslaplan'        => 'Substituição do plano de SLA',
     'desc_userorganizationslaplan'   => 'Todos os pedidos de suporte criados por utilizadores pertencentes a esta organização serão atribuídos a este plano de SLA. Note que uma substituição de plano de SLA para um utilizador específico prevalecerá sobre esta definição.',

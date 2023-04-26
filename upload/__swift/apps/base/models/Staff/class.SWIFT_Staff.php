@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -1008,7 +1008,7 @@ class SWIFT_Staff extends SWIFT_Model
             }
         }
 
-        // Unable to match, check if the interface is winapp and match X-Forwarded-For and verify it's a Kayako IP
+        // Unable to match, check if the interface is winapp and match X-Forwarded-For and verify it's a QuickSupport IP
         $_forwardedIPIsAllowed = false;
         if ($this->Interface->GetInterface() == SWIFT_Interface::INTERFACE_WINAPP && defined('ENABLECHATGATEWAYBYPASS') && ENABLECHATGATEWAYBYPASS === true && isset($_SERVER['HTTP_X_ORIGINATED_FROM']) && !empty($_SERVER['HTTP_X_ORIGINATED_FROM'])) {
             if (stristr($this->GetProperty('iprestriction'), ',')) {
@@ -1032,7 +1032,7 @@ class SWIFT_Staff extends SWIFT_Model
                 $_gatewayIP = GetClientIPFromXForwardedFor($_SERVER['HTTP_X_FORWARDED_FOR']);
             }
 
-            if ($_forwardedIPIsAllowed === true && IsKayakoIP($_gatewayIP)) {
+            if ($_forwardedIPIsAllowed === true && IsQuickSupportIP($_gatewayIP)) {
                 return true;
             }
         }

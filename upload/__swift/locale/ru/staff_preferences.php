@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -54,7 +54,7 @@ $__LANG = array(
     'stafftimezone'            => 'Временная зона',
     'desc_stafftimezone'       => 'Если Вы не укажите Вашу временную зону, будет использована зона системы по умолчанию.',
     'staffenabledst'           => 'Определение летнего времени',
-    'desc_staffenabledst'      => 'Если эта опция включена, Kayako будет автоматически определять время перехода на летнее время и совершать соответствующие поправки.',
+    'desc_staffenabledst'      => 'Если эта опция включена, QuickSupport будет автоматически определять время перехода на летнее время и совершать соответствующие поправки.',
     'livechatoptions'          => 'Настройки чата онлайн',
     'lcgreeting'               => 'Автоматическое приветствие',
     'desc_lcgreeting'          => 'Это приветствие будет автоматически отправляться пользователю, когда Вы будете принимать чат. Например: <em>Здравствуйте, чем я могу Вам сегодня помочь?</em>',

@@ -162,18 +162,18 @@ define('USE_ICONV', false);
 
 /**
  * BYPASS IP RESTRICTION FOR KAYAKO CHAT GATEWAY
- * If this setting is enabled, staff can connect from Kayako's chat gateway. The IP address of staff *will be* checked once it is received from the chat gateway.
+ * If this setting is enabled, staff can connect from QuickSupport's chat gateway. The IP address of staff *will be* checked once it is received from the chat gateway.
  */
 define('ENABLECHATGATEWAYBYPASS', true);
 
 /**
- * Let Kayako Execute segment code
+ * Let QuickSupport Execute segment code
  * If this setting is enabled, staff and admin panel will allow segment code to run.
  */
 define('EXECUTESEGMENT', false);
 
 /**
- * Let Kayako Execute GTM code
+ * Let QuickSupport Execute GTM code
  * If this setting is enabled, staff and admin panel will allow GOOGLE TAG MANAGER to run.
  */
 define('EXECUTEGTM', false);

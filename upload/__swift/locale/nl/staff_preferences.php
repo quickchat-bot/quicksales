@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -54,7 +54,7 @@ $__LANG = array(
     'stafftimezone'            => 'Tijdzone',
     'desc_stafftimezone'       => 'Als je geen tijdzone selecteert, wordt de standaardwaarde van de helpdesk gebruikt.',
     'staffenabledst'           => 'Zomertijd detecteren',
-    'desc_staffenabledst'      => 'Wanneer dit is ingeschakeld, detecteert Kayako zomertijd en past de tijd automatisch aan.',
+    'desc_staffenabledst'      => 'Wanneer dit is ingeschakeld, detecteert QuickSupport zomertijd en past de tijd automatisch aan.',
     'livechatoptions'          => 'Live Chat-instellingen',
     'lcgreeting'               => 'Automatische begroeting',
     'desc_lcgreeting'          => 'Deze groet wordt automatisch verstuurt in jouw naam, wanneer je een live chat accepteert. Bijvoorbeeld <em>Hallo, hoe kan ik je vandaag van dienst zijn?</em>',

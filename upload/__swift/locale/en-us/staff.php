@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -98,7 +98,7 @@ $__LANG = array (
     'stafftimezone' => 'Time zone',
     'desc_stafftimezone' => 'If a time zone is not selected for a staff user, the helpdesk default will be used.',
     'staffenabledst' => 'Daylight savings time detection',
-    'desc_staffenabledst' => 'When enabled, Kayako will detect daylight savings time and automatically make adjustments.',
+    'desc_staffenabledst' => 'When enabled, QuickSupport will detect daylight savings time and automatically make adjustments.',
     'staff' => 'Staff',
     'desc_staff' => '',
     'managestaff' => 'Manage Staff',
@@ -176,8 +176,8 @@ Thank you,
 
     // License
     'titlestafflicense' => 'Maximum number of staff user accounts reached',
-    'msgstafflicense' => 'Kayako could not add another staff user account because you have reached the maximum number of staff users allowed by your license or subscription. Please <a href="https://accounts.gfi.com"> upgrade your subscription</a>.',
-    'msgenablestafflicense' => 'Kayako could not enable any more staff user accounts because you have reached the maximum number of active staff users allowed by your license or subscription. Please <a href="https://accounts.gfi.com"> upgrade your subscription</a>.',
+    'msgstafflicense' => 'QuickSupport could not add another staff user account because you have reached the maximum number of staff users allowed by your license or subscription. Please <a href="https://accounts.gfi.com"> upgrade your subscription</a>.',
+    'msgenablestafflicense' => 'QuickSupport could not enable any more staff user accounts because you have reached the maximum number of active staff users allowed by your license or subscription. Please <a href="https://accounts.gfi.com"> upgrade your subscription</a>.',
 
     // Potentialy unused phrases in staff.php
     'tabplugins' => 'Plugins',
@@ -199,15 +199,15 @@ Thank you,
     'ignoreversion' => 'Ignore Version',
     'desc_ignoreversion' => 'If selected, the import file version will be ignored. It is recommended that you do not enable this option as it can result in problems in the Client Support Center.',
     'titlenoelevatedls' => 'Unable to Import Staff LoginShare XML',
-    'msgnoelevatedls' => 'Kayako is unabled to import the Staff LoginShare XML file as it is required that you login with a staff user that has elevated rights. You can add your user to elevated right list in config/config.php file of the package.',
+    'msgnoelevatedls' => 'QuickSupport is unabled to import the Staff LoginShare XML file as it is required that you login with a staff user that has elevated rights. You can add your user to elevated right list in config/config.php file of the package.',
     'titlelsversioncheckfail' => 'Version Check Failed',
-    'msglsversioncheckfail' => 'Kayako is unable to import the Staff LoginShare Plugin as the plugin was created for an older version of Kayako',
+    'msglsversioncheckfail' => 'QuickSupport is unable to import the Staff LoginShare Plugin as the plugin was created for an older version of QuickSupport',
     'titlelsinvaliduniqueid' => 'Duplicate Unique ID Error',
-    'msglsinvaliduniqueid' => 'Kayako is unable to import the Staff LoginShare Plugin due to a conflict in Unique ID. This usually means that the plugin has already been imported into the database.',
+    'msglsinvaliduniqueid' => 'QuickSupport is unable to import the Staff LoginShare Plugin due to a conflict in Unique ID. This usually means that the plugin has already been imported into the database.',
     'titlelsinvalidxml' => 'Invalid XML File',
-    'msglsinvalidxml' => 'Kayako is unable to import the Staff LoginShare Plugin as the XML file corrupt or contains invalid data.',
+    'msglsinvalidxml' => 'QuickSupport is unable to import the Staff LoginShare Plugin as the XML file corrupt or contains invalid data.',
     'titlelsimported' => 'Imported Staff LoginShare Plugin',
-    'msglsimported' => 'Kayako has successfully imported the "%s" Staff LoginShare Plugin.',
+    'msglsimported' => 'QuickSupport has successfully imported the "%s" Staff LoginShare Plugin.',
     'titlelsdeleted' => 'Deleted Staff LoginShare Plugin',
     'msglsdeleted' => 'Successfully deleted the "%s" Staff LoginShare Plugin from the database.',
     'invalidloginshareplugin' => 'Invalid LoginShare Plugin, Please make sure the LoginShare plugin exists in the database.',

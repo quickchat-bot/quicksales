@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -101,7 +101,7 @@ $__LANG = array(
     'rnnextticket'                    => 'Next Ticket',
     'loading'                         => 'Loading...',
     'replynav'                        => 'After Replying Take Me To',
-    'desc_replynav'                   => 'Select the area that Kayako should take you to after you replying to a ticket.',
+    'desc_replynav'                   => 'Select the area that QuickSupport should take you to after you replying to a ticket.',
     'rnticketstatus'                  => 'Default Ticket Status When Replying',
     'desc_rnticketstatus'             => 'Select the status to which tickets should be set to after you have made a reply.<br/><br/><i>Note:</i> This setting does <b>not</b> apply to replies made from your email client.',
     'unspecified'                     => '-- Unspecified --',
@@ -333,7 +333,7 @@ $__LANG = array(
 
     //Staff Reply Not allowed
     'rejectionstaffemail_header'      => 'Your reply to "%s" could not be created',
-    'rejectionstaffemail_contents'    => 'You do not have the necessary permissions to submit a reply to this ticket. To submit a reply, log in to the staff control panel, and ask your Kayako administrator to update the permissions on your staff account.',
+    'rejectionstaffemail_contents'    => 'You do not have the necessary permissions to submit a reply to this ticket. To submit a reply, log in to the staff control panel, and ask your QuickSupport administrator to update the permissions on your staff account.',
     'rejectionstaffemail_subject'     => 'Your reply to "%s" could not be created'
 );
 

@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -20,12 +20,12 @@ $__LANG = array(
     'tabpostindex'            => 'Zoekindex opnieuw opbouwen',
     'tabmoveattachments'      => 'Bijlagen verplaatsen',
     'attachmentsperpass'      => 'Aantal te verwerken bijlagen in een batch',
-    'desc_attachmentsperpass' => 'Kayako verwerkt de bijlagen met één batch per keer. Een hoger aantal vereist een krachtigere server.',
+    'desc_attachmentsperpass' => 'QuickSupport verwerkt de bijlagen met één batch per keer. Een hoger aantal vereist een krachtigere server.',
     'move'                    => 'Verplaatsen',
     'dbtofiles'               => 'Van database (%d) naar bestandssysteem',
     'filestodb'               => 'Van bestandssysteem (%d) naar database',
     'movetype'                => 'Bijlagen verplaatsen van',
-    'desc_movetype'           => 'Selecteer waar je je bijlagen naartoe wilt verplaatsen. Als je een Kayako Download-klant bent en je eigen webserver beheert, moet je mogelijk je max_packet_size verhogen bij het verplaatsen van bestanden van het bestandssysteem naar de database.',
+    'desc_movetype'           => 'Selecteer waar je je bijlagen naartoe wilt verplaatsen. Als je een QuickSupport Download-klant bent en je eigen webserver beheert, moet je mogelijk je max_packet_size verhogen bij het verplaatsen van bestanden van het bestandssysteem naar de database.',
     'attachmentsprocessed'    => 'Bijlagen verplaatst',
     'totalattachments'        => 'Totaal bijlagen',
     'tabproperties'           => 'Eigenschappen opnieuw opbouwen',

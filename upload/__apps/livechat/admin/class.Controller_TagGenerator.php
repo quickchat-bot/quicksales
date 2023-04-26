@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -389,7 +389,7 @@ class Controller_TagGenerator extends Controller_admin
         $_requestURL = $_SERVER['SERVER_NAME'];
 
         if ($_tagType == self::TAG_HTMLBUTTON) {
-            $_tagCode .= '</td> </tr><tr><td align="center"><div style="MARGIN-TOP: 2px; WIDTH: 100%; TEXT-ALIGN: center;"><span style="FONT-SIZE: 9px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif;"><a href="https://www.gfi.com/helpdesk?utm_source=' . $_requestURL . '&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" style="TEXT-DECORATION: none; COLOR: #000000" target="_blank" rel="noopener noreferrer">' . $this->Language->Get('tagpoweredlivechat') . '</a><span style="COLOR: #000000"> ' . $this->Language->Get('tagpoweredby') . ' </span>Kayako</span></div></td></tr>';
+            $_tagCode .= '</td> </tr><tr><td align="center"><div style="MARGIN-TOP: 2px; WIDTH: 100%; TEXT-ALIGN: center;"><span style="FONT-SIZE: 9px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif;"><a href="https://www.gfi.com/helpdesk?utm_source=' . $_requestURL . '&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" style="TEXT-DECORATION: none; COLOR: #000000" target="_blank" rel="noopener noreferrer">' . $this->Language->Get('tagpoweredlivechat') . '</a><span style="COLOR: #000000"> ' . $this->Language->Get('tagpoweredby') . ' </span>QuickSupport</span></div></td></tr>';
 
             $_tagCode .= '</table></div>';
         } else if ($_tagType == self::TAG_SITEBADGE) {

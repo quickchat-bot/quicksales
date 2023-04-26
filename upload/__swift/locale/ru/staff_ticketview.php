@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -17,7 +17,7 @@
 
 $__LANG = array(
     'titlemasterviewdel'            => 'Невозможно удалить "%d" режимов отображения',
-    'msgmasterviewdel'              => 'Kayako не может удалить следующие основные с заявок:',
+    'msgmasterviewdel'              => 'QuickSupport не может удалить следующие основные с заявок:',
     'manageviews'                   => 'Режимы отображения',
     'insertview'                    => 'Добавить режим отображения',
     'viewtitle'                     => 'Название режима отображения заявок',
@@ -81,7 +81,7 @@ $__LANG = array(
     'afterreply_ticket'             => 'Активная заявка',
     'afterreply_nextticket'         => 'Следующая существующая заявка',
     'viewafterreplyaction'          => 'После того, как на заявку ответили, перенаправить меня в',
-    'desc_viewafterreplyaction'     => 'Выберите, куда Kayako следует Вас перенаправить (и всех пользователей этого режима отображения) после ответа или пересылки заявки.',
+    'desc_viewafterreplyaction'     => 'Выберите, куда QuickSupport следует Вас перенаправить (и всех пользователей этого режима отображения) после ответа или пересылки заявки.',
 
     'sort_asc'                      => 'По возрастанию',
     'sort_desc'                     => 'По убыванию',
@@ -89,7 +89,7 @@ $__LANG = array(
     // Potentialy unused phrases in staff_ticketview.php
     'viewfilteroptions'             => 'Filter Options',
     'viewfilterdepartments'         => 'Filter Department(s)',
-    'desc_viewfilterdepartments'    => 'Kayako by default will display tickets from all/selected department. However, you can use this option to filter the tickets based on the selected departments.',
+    'desc_viewfilterdepartments'    => 'QuickSupport by default will display tickets from all/selected department. However, you can use this option to filter the tickets based on the selected departments.',
     'viewfiltertype'                => 'Filter Ticket Type(s)',
     'desc_viewfiltertype'           => 'You can use this option to filter the tickets based on the selected ticket type(s).',
     'viewfilterstatus'              => 'Filter Ticket Status(es)',

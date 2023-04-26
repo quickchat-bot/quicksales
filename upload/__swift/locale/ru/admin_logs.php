@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -43,7 +43,7 @@ $__LANG = array(
     'interface_api'        => 'API',
     'interface_pda'        => 'Телефон',
     'titleloginfailure'    => 'Обнаружены ошибки доступа',
-    'msgloginfailure'      => 'Kayako обнаружил ошибки доступа с момента Вашей последей регистрации. Это могут быть попытки неавтоизованного проникновения в систему.',
+    'msgloginfailure'      => 'QuickSupport обнаружил ошибки доступа с момента Вашей последей регистрации. Это могут быть попытки неавтоизованного проникновения в систему.',
     'activitylog'          => 'Журнал регистрации операций',
     'logdetails'           => 'Информация о записи',
     'logdateline'          => 'Дата записи',

@@ -2,7 +2,7 @@
 <swiftlanguage>
 	<title>English (U.S.)</title>
 	<isocode>en-us</isocode>
-	<author>Kayako</author>
+	<author>QuickSupport</author>
 	<charset>UTF-8</charset>
 	<textdirection>LTR</textdirection>
 	<version>0</version>
@@ -33,7 +33,7 @@
 	<phrase section="default" code="lostpassword">Lost password</phrase>
 	<phrase section="default" code="poweredby">Powered by GFI HelpDesk</phrase>
 	<phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.gfi.com/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">GFI HelpDesk</a>.]]></phrase>
-	<phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s Kayako]]></phrase>
+	<phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s QuickSupport]]></phrase>
 	<phrase section="default" code="app_notreg">We encountered a problem (%s app is not registered)</phrase>
 	<phrase section="default" code="event_notreg">We encountered a problem (%s event is not registered)</phrase>
 	<phrase section="default" code="unable_to_execute">We encountered a problem (unable to execute %s)</phrase>
@@ -112,7 +112,7 @@
 	<phrase section="default" code="vardate4">%ds</phrase>
 	<phrase section="default" code="unsubscribe">Unsubscribe</phrase>
 	<phrase section="default" code="pagination">Page %s of %s</phrase>
-	<phrase section="default" code="regpolicytext">I consent for Kayako to process my data and agree to the terms of the </phrase>
+	<phrase section="default" code="regpolicytext">I consent for QuickSupport to process my data and agree to the terms of the </phrase>
 	<phrase section="default" code="regpolicyurl">Privacy Policy</phrase>
 	<phrase section="default" code="regpolicyareement">Privacy Policy Field Required</phrase>
 	<phrase section="default" code="cookiepolicyagreement">I Agree</phrase>
@@ -223,7 +223,7 @@ Password: Hidden
 
 You can visit the helpdesk to browse articles and contact us at any time: %2$s
 
-Please be informed that Kayako processes user information for a better help desk quality and user experience.
+Please be informed that QuickSupport processes user information for a better help desk quality and user experience.
 
 Thank you for registering!
 
@@ -235,7 +235,7 @@ Password: %4$s
 
 You can visit the helpdesk to browse articles and contact us at any time: %2$s
 
-Please be informed that Kayako processes user information for a better help desk quality and user experience.
+Please be informed that QuickSupport processes user information for a better help desk quality and user experience.
 
 Thank you for registering!
 

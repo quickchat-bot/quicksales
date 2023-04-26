@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -46,7 +46,7 @@ $__LANG = array(
     'editban'                => 'Editar banimento',
     'bandelconfirmmsg'       => 'Tem a certeza de que pretende eliminar esta entrada de banimento de email? Esta ação é irreversível!',
     'parserbanupdconfirm'    => 'Banimento de endereço de email para %s atualizado',
-    'desc_mailbans'          => 'Pode evitar problemas resultantes da submissão de pedidos de suporte de utilizadores ao adicionar um banimento de email ao seu endereço. Sempre que a Kayako receber uma mensagem de email, comparará o endereço do autor com a lista de banimento e, caso o endereço esteja banido, a mensagem será ignorada sem aviso prévio.',
+    'desc_mailbans'          => 'Pode evitar problemas resultantes da submissão de pedidos de suporte de utilizadores ao adicionar um banimento de email ao seu endereço. Sempre que a QuickSupport receber uma mensagem de email, comparará o endereço do autor com a lista de banimento e, caso o endereço esteja banido, a mensagem será ignorada sem aviso prévio.',
 
     // Catch-All Rules
     'insertcatchallrule'     => 'Inserir regra catch-all',

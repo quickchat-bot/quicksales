@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -17,11 +17,11 @@
 
 $__LANG = array(
     'titlenodelmasterugroup' => 'Невозможно удалить "%d" групп пользователей',
-    'msgnodelmasterugroup'   => 'Kayako не может удалить следующие основные группы пользователей:',
+    'msgnodelmasterugroup'   => 'QuickSupport не может удалить следующие основные группы пользователей:',
     'users'                  => 'Пользователи',
     'managegroups'           => 'Управлять группами',
     'titleusergroupdel'      => 'Удалено "%d" групп пользователей',
-    'msgusergroupdel'        => 'Kayako удалил следующие группы пользователей из базы данных:',
+    'msgusergroupdel'        => 'QuickSupport удалил следующие группы пользователей из базы данных:',
     'ugregistered'           => 'Зарегистрированный',
     'ugguest'                => 'Гость',
     'usergrouptitle'         => 'Название группы',

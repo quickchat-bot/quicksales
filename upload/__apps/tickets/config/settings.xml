@@ -117,7 +117,7 @@
 			<defaultvalue>0</defaultvalue>
 		</setting>
 		<setting name="t_cdisplayname" type="text">
-			<defaultvalue>Kayako Support</defaultvalue>
+			<defaultvalue>QuickSupport Support</defaultvalue>
 		</setting>
 		<setting name="t_cthirdparty" type="yesno">
 			<defaultvalue>0</defaultvalue>

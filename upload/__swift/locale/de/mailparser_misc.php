@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -46,7 +46,7 @@ $__LANG = array(
     'editban'                => 'Sperre bearbeiten',
     'bandelconfirmmsg'       => 'Sind Sie sicher, dass Sie diesen Eintrag zur E-Mail-Sperrung löschen möchten?  Diese Aktion ist unwiderruflich!',
     'parserbanupdconfirm'    => 'Sperrung der E-Mail-Adresse %s aktualisiert',
-    'desc_mailbans'          => 'Sie können verhindern, dass Problembenutzer Tickets senden, indem Sie deren E-Mail-Adressen sperren. Wenn Kayako eine E-Mail-Nachricht empfängt, vergleicht es die Adresse des Verfassers mit der Sperrungsliste. Ist diese Adresse gesperrt, wird die Nachricht ohne Meldung ignoriert.',
+    'desc_mailbans'          => 'Sie können verhindern, dass Problembenutzer Tickets senden, indem Sie deren E-Mail-Adressen sperren. Wenn QuickSupport eine E-Mail-Nachricht empfängt, vergleicht es die Adresse des Verfassers mit der Sperrungsliste. Ist diese Adresse gesperrt, wird die Nachricht ohne Meldung ignoriert.',
 
     // Catch-All Rules
     'insertcatchallrule'     => 'Catch-All-Regel einfügen',

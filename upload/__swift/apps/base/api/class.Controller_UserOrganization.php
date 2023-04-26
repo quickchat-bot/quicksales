@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -114,7 +114,7 @@ class Controller_UserOrganization extends Controller_api implements SWIFT_REST_I
      * <userorganizations>
      *    <userorganization>
      *        <id>1</id>
-     *        <name>Kayako Infotech Ltd.</name>
+     *        <name>QuickSupport Infotech Ltd.</name>
      *        <organizationtype>restricted</organizationtype>
      *        <address>2nd Floor, Midas Corporate Park, 37 GT Road</address>
      *        <city>Jalandhar</city>
@@ -162,7 +162,7 @@ class Controller_UserOrganization extends Controller_api implements SWIFT_REST_I
      * <userorganizations>
      *    <userorganization>
      *        <id>1</id>
-     *        <name>Kayako Infotech Ltd.</name>
+     *        <name>QuickSupport Infotech Ltd.</name>
      *        <organizationtype>restricted</organizationtype>
      *        <address>2nd Floor, Midas Corporate Park, 37 GT Road</address>
      *        <city>Jalandhar</city>
@@ -215,7 +215,7 @@ class Controller_UserOrganization extends Controller_api implements SWIFT_REST_I
      * <userorganizations>
      *    <userorganization>
      *        <id>1</id>
-     *        <name>Kayako Infotech Ltd.</name>
+     *        <name>QuickSupport Infotech Ltd.</name>
      *        <organizationtype>restricted</organizationtype>
      *        <address>2nd Floor, Midas Corporate Park, 37 GT Road</address>
      *        <city>Jalandhar</city>
@@ -341,7 +341,7 @@ class Controller_UserOrganization extends Controller_api implements SWIFT_REST_I
      * <userorganizations>
      *    <userorganization>
      *        <id>1</id>
-     *        <name>Kayako Infotech Ltd.</name>
+     *        <name>QuickSupport Infotech Ltd.</name>
      *        <organizationtype>restricted</organizationtype>
      *        <address>2nd Floor, Midas Corporate Park, 37 GT Road</address>
      *        <city>Jalandhar</city>

@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -20,12 +20,12 @@ $__LANG = array(
     'tabpostindex'            => 'Suchindex wiederherstellen',
     'tabmoveattachments'      => 'Anhänge verschieben',
     'attachmentsperpass'      => 'In einem Stapel zu verarbeitende Anhänge',
-    'desc_attachmentsperpass' => 'Kayako verarbeitet die Anhänge in Stapeln. Eine höhere Zahl erfordert einen stärkeren Server.',
+    'desc_attachmentsperpass' => 'QuickSupport verarbeitet die Anhänge in Stapeln. Eine höhere Zahl erfordert einen stärkeren Server.',
     'move'                    => 'Verschieben',
     'dbtofiles'               => 'Aus Datenbank (%d) ins Dateisystem',
     'filestodb'               => 'Aus Dateisystem (%d) in Datenbank',
     'movetype'                => 'Anhänge verschieben aus',
-    'desc_movetype'           => 'Wählen Sie, wohin Sie Ihre Anhänge verschieben möchten. Wenn Sie ein Kayako-Download Kunde sind und Ihren eigenen Web-Server verwalten, müssen Sie evtl. Ihre max_packet_size erhöhen, wenn Sie Dateien aus dem Dateisystem in die Datenbank verschieben.',
+    'desc_movetype'           => 'Wählen Sie, wohin Sie Ihre Anhänge verschieben möchten. Wenn Sie ein QuickSupport-Download Kunde sind und Ihren eigenen Web-Server verwalten, müssen Sie evtl. Ihre max_packet_size erhöhen, wenn Sie Dateien aus dem Dateisystem in die Datenbank verschieben.',
     'attachmentsprocessed'    => 'Anhänge verschoben',
     'totalattachments'        => 'Gesamtzahl der Anhänge',
     'tabproperties'           => 'Eigenschaften neu erstellen',

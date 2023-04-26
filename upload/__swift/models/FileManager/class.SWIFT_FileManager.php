@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -597,7 +597,7 @@ class SWIFT_FileManager extends SWIFT_Model
         if ($this->HasRemote()) {
             $_remoteFileInfo = $this->GetRemoteInfo();
             if (!$_remoteFileInfo) {
-                echo 'Unable to locate remote file "' . $this->GetProperty('filename') . '". Please contact Kayako support for assistance.';
+                echo 'Unable to locate remote file "' . $this->GetProperty('filename') . '". Please contact QuickSupport support for assistance.';
                 return false;
             }
 

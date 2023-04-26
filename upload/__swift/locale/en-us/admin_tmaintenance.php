@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -20,12 +20,12 @@ $__LANG = array (
     'tabpostindex' => 'Rebuild Search Index',
     'tabmoveattachments' => 'Move Attachments',
     'attachmentsperpass' => 'Number of attachments to process in a batch',
-    'desc_attachmentsperpass' => 'Kayako will work through the attachments one batch at a time. A higher number requires a more powerful server.',
+    'desc_attachmentsperpass' => 'QuickSupport will work through the attachments one batch at a time. A higher number requires a more powerful server.',
     'move' => 'Move',
     'dbtofiles' => 'From database (%d) into file system',
     'filestodb' => 'From file system (%d) into database',
     'movetype' => 'Move attachments from',
-    'desc_movetype' => 'Select where you wish to move your attachments. If you are a Kayako Download customer and manage your own web server, you may need to increase your max_packet_size if moving files from the file system to the database.',
+    'desc_movetype' => 'Select where you wish to move your attachments. If you are a QuickSupport Download customer and manage your own web server, you may need to increase your max_packet_size if moving files from the file system to the database.',
     'attachmentsprocessed' => 'Attachments moved',
     'totalattachments' => 'Total attachments',
     'tabproperties'=> 'Rebuild Properties',

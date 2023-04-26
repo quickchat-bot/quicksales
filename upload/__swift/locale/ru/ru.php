@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -39,7 +39,7 @@ $__LANG = array(
     'username'                     => 'Имя пользователя',
     'password'                     => 'Пароль',
     'rememberme'                   => 'Запомнить меня',
-    'defaulttitle'                 => '%s - Powered by Kayako %s',
+    'defaulttitle'                 => '%s - Powered by QuickSupport %s',
     'login'                        => 'Войти',
     'global'                       => 'Общий',
     'first'                        => 'Первая',
@@ -47,11 +47,11 @@ $__LANG = array(
     'pagination'                   => 'Страница %s из %s',
     'submit'                       => 'Отправить',
     'reset'                        => 'Сброс',
-    'poweredby'                    => 'Helpdesk Software Powered by Kayako %s',
-    'copyright'                    => 'Copyright &copy; 2001-%s Kayako',
+    'poweredby'                    => 'Helpdesk Software Powered by QuickSupport %s',
+    'copyright'                    => 'Copyright &copy; 2001-%s QuickSupport',
     'notifycsrfhash'               => 'Обнаружена попытка CSRF, невозможно выполнить необходимое действие.',
     'titlecsrfhash'                => 'Неверный CSRF Hash',
-    'msgcsrfhash'                  => 'Kayako обнаружил попытку CSRF (межсайтовой подделки запроса) и не может выполнить необходимое действие.',
+    'msgcsrfhash'                  => 'QuickSupport обнаружил попытку CSRF (межсайтовой подделки запроса) и не может выполнить необходимое действие.',
     'invaliduser'                  => 'Неверное имя пользователя или пароль',
     'invaliduseripres'             => 'Неавторизованный IP (Попытка: %d/%d)',
     'invaliduserdisabled'          => 'Учетная запись заблокирована (Попытка: %d/%d)',
@@ -74,7 +74,7 @@ $__LANG = array(
     'logout'                       => 'Выход',
     'staffcp'                      => 'ПУ Персонала',
     'admincp'                      => 'ПУ Администраторов',
-    'winapp'                       => 'Kayako Desktop',
+    'winapp'                       => 'QuickSupport Desktop',
     'staffapi'                     => 'Staff API',
     'bytes'                        => 'Байты',
     'kb'                           => 'KB',
@@ -207,7 +207,7 @@ $__LANG = array(
     'interface_staff'              => 'ПУ Персонала',
     'interface_intranet'           => 'Интранет',
     'interface_api'                => 'API',
-    'interface_winapp'             => 'Kayako Desktop',
+    'interface_winapp'             => 'QuickSupport Desktop',
     'interface_syncworks'          => 'SyncWorks',
     'interface_instaalert'         => 'InstaAlert',
     'interface_pda'                => 'PDA',
@@ -238,7 +238,7 @@ $__LANG = array(
     'searchmodeactive'             => 'Результаты отфильтрованы',
     'notifysearchfailed'           => 'Найдено "0" результатов',
     'titlesearchfailed'            => 'Найдено "0" результатов',
-    'msgsearchfailed'              => 'Kayako не смог обнаружить какие-либо записи, соответствующие указанным критериям.',
+    'msgsearchfailed'              => 'QuickSupport не смог обнаружить какие-либо записи, соответствующие указанным критериям.',
     'quickfilter'                  => 'Быстрый фильтр',
     'fuenterurl'                   => 'Введите URL:',
     'fuorupload'                   => 'или загрузите:',
@@ -294,7 +294,7 @@ $__LANG = array(
     'sfalse'                       => 'Неправильно',
     'notifynoperm'                 => 'Действие запрещено, отказано в разрешении.',
     'titlenoperm'                  => 'Действие запрещено',
-    'msgnoperm'                    => 'Kayako не может продолжить, так как сотрудник, который в данный момент находится в системе, не имеет достаточно прав доступа для выполнения этого действия.',
+    'msgnoperm'                    => 'QuickSupport не может продолжить, так как сотрудник, который в данный момент находится в системе, не имеет достаточно прав доступа для выполнения этого действия.',
     'msgnoperm1'                   => 'The ticket has been created but you do not have the permission to carry out other operations.',
     'cyesterday'                   => 'Вчера',
     'ctoday'                       => 'Сегодня',
@@ -376,7 +376,7 @@ $__LANG = array(
     'app_reports'                  => 'Отчеты',
 
     // Potentialy unused phrases in en-us.php
-    'defaultloginapi'              => 'Kayako Login Routine',
+    'defaultloginapi'              => 'QuickSupport Login Routine',
     'redirect_login'               => 'Processing Login...',
     'redirect_dashboard'           => 'Redirecting to Home...',
     'no_wait'                      => 'Please click here if your browser does not automatically redirect you',
@@ -388,7 +388,7 @@ $__LANG = array(
     'searchfieldquery'             => 'Query: ',
     'searchfieldfield'             => 'Field: ',
     'settingsfieldresultsperpage'  => 'Results Per Page: ',
-    'clidefault'                   => '%s v%s\\nCopyright (c) 2001-%s Kayako\\n',
+    'clidefault'                   => '%s v%s\\nCopyright (c) 2001-%s QuickSupport\\n',
     'firstselect'                  => '- Select -',
     'exportasxml'                  => 'XML',
     'exportascsv'                  => 'CSV',
@@ -396,7 +396,7 @@ $__LANG = array(
     'exportaspdf'                  => 'PDF',
     'clientarea'                   => 'Support Center',
     'pdainterface'                 => 'PDA Interface',
-    'kayakomobile'                 => 'Kayako Mobile',
+    'kayakomobile'                 => 'QuickSupport Mobile',
     'thousandsseperator'           => ',',
     'clierror'                     => '[ERROR]: ',
     'cliwarning'                   => '[WARNING]: ',
@@ -434,7 +434,7 @@ $__LANG = array(
     'maddthumbnail'                => 'Thumbnail',
     'maddthumbnailwithlink'        => 'Thumbnail with Link',
     'checkuncheckall'              => 'Check/Uncheck All',
-    'defaultloginshare'            => 'Kayako LoginShare',
+    'defaultloginshare'            => 'QuickSupport LoginShare',
     'invalidusernoapiaccess'       => 'Invalid Staff. This staff does not have API access, please configure under Settings > General.',
     'msgupdsettings'               => 'Successfully updated all settings for "%s"',
     'msgpwpolicy'                  => 'The password specified does not match the requirements of the Password Policy.',

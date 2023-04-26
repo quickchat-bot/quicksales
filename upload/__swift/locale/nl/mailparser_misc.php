@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -46,7 +46,7 @@ $__LANG = array(
     'editban'                => 'Ban bewerken',
     'bandelconfirmmsg'       => 'Weet je zeker dat je deze emailbanvermelding wilt verwijderen? Deze actie is onomkeerbaar!',
     'parserbanupdconfirm'    => 'Emailadresban voor %s bijgwerkt',
-    'desc_mailbans'          => 'Je kunt voorkomen dat probleemgebruikers tickets indienen door een emailban toe te voegen voor hun adres. Wanneer Kayako een emailbericht ontvangt, wordt het afzenderadres vergeleken met de banlijst en wordt het bericht zonder kennisgeving genegeerd, als het adres is geband.',
+    'desc_mailbans'          => 'Je kunt voorkomen dat probleemgebruikers tickets indienen door een emailban toe te voegen voor hun adres. Wanneer QuickSupport een emailbericht ontvangt, wordt het afzenderadres vergeleken met de banlijst en wordt het bericht zonder kennisgeving genegeerd, als het adres is geband.',
 
     // Catch-All Rules
     'insertcatchallrule'     => 'Catch-allregel toevoegen',

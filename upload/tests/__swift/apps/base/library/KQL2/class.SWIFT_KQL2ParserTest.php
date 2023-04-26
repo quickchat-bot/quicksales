@@ -5,8 +5,8 @@
  * SWIFT Framework
  *
  * @package    SWIFT
- * @author    Kayako Singapore Pte. Ltd.
- * @copyright    Copyright (c) 2001-Kayako Singapore Pte. Ltd.h Ltd.
+ * @author    QuickSupport Singapore Pte. Ltd.
+ * @copyright    Copyright (c) 2001-QuickSupport Singapore Pte. Ltd.h Ltd.
  * @license    http://www.kayako.com/license
  * @link        http://www.kayako.com
  * @filesource
@@ -627,7 +627,7 @@ class SWIFT_KQL2ParserTest extends SWIFT_TestCase
             $this->assertEquals(SWIFT_KQL2::DATA_BOOLEAN, $_kqlExpression[1][4][2]);
 
             // SWIFT-3385: KQL generates mis-matched results if we change the placing of statements in WHERE condition
-            $_kqlParser->_InjectKQL("'Tickets.Status' != 'Closed' AND ('User Organizations.Name' = 'Apple' OR 'User Organizations.Name' = 'Kayako')");
+            $_kqlParser->_InjectKQL("'Tickets.Status' != 'Closed' AND ('User Organizations.Name' = 'Apple' OR 'User Organizations.Name' = 'QuickSupport')");
 
             $_kqlExpression = $_kqlParser->GetExpression();
 

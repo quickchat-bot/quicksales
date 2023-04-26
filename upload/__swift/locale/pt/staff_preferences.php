@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -54,7 +54,7 @@ $__LANG = array(
     'stafftimezone'            => 'Fuso horário',
     'desc_stafftimezone'       => 'Se não selecionar um fuso horário, será utilizado o fuso horário predefinido do suporte técnico.',
     'staffenabledst'           => 'Deteção da hora de verão',
-    'desc_staffenabledst'      => 'Quando ativado, a Kayako detetará a hora de verão e efetuar ajustes automaticamente.',
+    'desc_staffenabledst'      => 'Quando ativado, a QuickSupport detetará a hora de verão e efetuar ajustes automaticamente.',
     'livechatoptions'          => 'Definições da conversação em tempo real',
     'lcgreeting'               => 'Saudação automática',
     'desc_lcgreeting'          => 'Esta saudação será automaticamente enviada por si sempre que aceitar uma conversação em tempo real. Por exemplo: <em>Olá, como posso ajudá-lo hoje?</em>',

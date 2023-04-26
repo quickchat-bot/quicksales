@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -79,9 +79,9 @@ $__LANG = array(
     'titleupdateworkflow'        => 'Обновлено правило последовательности действий "%s"',
     'msgupdateworkflow'          => 'Правило последовательности действий "%s" успешно обновлено.',
     'titleworkflowenable'        => 'Активировано "%d" последовательностей действий для заявок',
-    'msgworkflowenable'          => 'Kayako успешно активировал следующие последовательности действий для заявок:',
+    'msgworkflowenable'          => 'QuickSupport успешно активировал следующие последовательности действий для заявок:',
     'titleworkflowdisable'       => 'Деактивировано "%d" последовательностей действий для заявок',
-    'msgworkflowdisable'         => 'Kayako успешно деактивировал следующие последовательности действий для заявок:',
+    'msgworkflowdisable'         => 'QuickSupport успешно деактивировал следующие последовательности действий для заявок:',
 
     // ?
     'wfaticketstatus'            => 'Изменить статус заявки',

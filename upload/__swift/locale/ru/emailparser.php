@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -70,7 +70,7 @@ $__LANG = array(
     'titledelqueues'                            => 'Удалено "%d" очередей Email',
     'msgdelqueues'                              => 'Следующие очереди email были успешно удалены из базы данных:',
     'titlestaffemail'                           => 'Неверный адрес Email',
-    'msgstaffemail'                             => 'Kayako не может добавить/обновить адрес очереди email, так как указанный email адрес также связан с "%s" сотрудником. Эта проверка была добавлена с целью избежать возникновения замкнутых петель email.',
+    'msgstaffemail'                             => 'QuickSupport не может добавить/обновить адрес очереди email, так как указанный email адрес также связан с "%s" сотрудником. Эта проверка была добавлена с целью избежать возникновения замкнутых петель email.',
     'verifyconnection'                          => 'Подтвердить связь',
     'vcvariablesanity'                          => 'Выполняется проверка информации об очереди.',
     'vcimapnotcompiled'                         => 'Ваш PHP не имеет поддержки IMAP. *nix пользователи должны перекомпилировать их PHP с помощью \'--with-imap\' флага; пользователи Windows могут лишь сделать комментарий в командной строке =\'php_imap.dll\' в их php.ini',
@@ -150,9 +150,9 @@ $__LANG = array(
     'msginvalidqueueprefix'                     => 'Пожалуйста, укажите верный префикс очереди писем. Используйте только буквенно-цифровые символы.',
 
     'titleenablequeues'                         => 'Активировано "%d" очередей ожидания email',
-    'msgenablequeues'                           => 'Kayako успешно активировал следующие очереди ожидания email:',
+    'msgenablequeues'                           => 'QuickSupport успешно активировал следующие очереди ожидания email:',
     'titledisablequeues'                        => 'Деактивировано "%d" очередей ожидания email',
-    'msgdisablequeues'                          => 'Kayako успешно деактивировал следующие очереди ожидания email:',
+    'msgdisablequeues'                          => 'QuickSupport успешно деактивировал следующие очереди ожидания email:',
 
     // View Parser Log
     'viewparserlog'                             => 'Журнал парсера',
@@ -224,7 +224,7 @@ $__LANG = array(
     'titleupdatelooprule'                       => 'Циклическое правило обновлено',
     'msgupdatelooprule'                         => 'Правило блокирования цикла успешно обновлено:',
     'titlelooprulemasterdel'                    => 'Невозможно удалить основные циклические правила',
-    'msglooprulemasterdel'                      => 'Kayako не может удалить следующие основные циклические правила:',
+    'msglooprulemasterdel'                      => 'QuickSupport не может удалить следующие основные циклические правила:',
 
     // Potentialy unused phrases in emailparser.php
     'titlefailedtocreatequeue'                  => 'Failed to create queue',
@@ -267,8 +267,8 @@ $__LANG = array(
     'pr_loopcontrolrules'                       => 'Loop Control Rules',
     'pr_new_loop_control_header_text'           => 'New Loop Control',
     'pr_new_loop_control_rule_added_desc'       => 'New loop control rule added.',
-    'pr_desc_loopblockages_filler'              => 'Below is a list of active loop blockages. The addresses listed here triggered one or more loop control rules (<i>Mail Parser >> Manage Loop Rules</i>).  Depending on the active settings (<i>Settings >> Mail Parser >> Loop Control Settings</i>), incoming email from these addresses may be completely ignored by Kayako and an autoresponder message may not be sent.  These settings will be in effect for each blockage until it expires.',
-    'pr_desc_looprules_filler'                  => 'Below is a list of loop control rules.  These rules prevent autoresponder loops or other email flood situations and all incoming email messages are subjected to them.  If a rule is triggered, the settings (<i>Settings >> Mail Parser >> Loop Control Settings</i>) are applied.  This allows Kayako to completely ignore the message and/or not reply with an autoresponder message.  Blockages created by these rules are automatically removed after the specified timeframe.',
+    'pr_desc_loopblockages_filler'              => 'Below is a list of active loop blockages. The addresses listed here triggered one or more loop control rules (<i>Mail Parser >> Manage Loop Rules</i>).  Depending on the active settings (<i>Settings >> Mail Parser >> Loop Control Settings</i>), incoming email from these addresses may be completely ignored by QuickSupport and an autoresponder message may not be sent.  These settings will be in effect for each blockage until it expires.',
+    'pr_desc_looprules_filler'                  => 'Below is a list of loop control rules.  These rules prevent autoresponder loops or other email flood situations and all incoming email messages are subjected to them.  If a rule is triggered, the settings (<i>Settings >> Mail Parser >> Loop Control Settings</i>) are applied.  This allows QuickSupport to completely ignore the message and/or not reply with an autoresponder message.  Blockages created by these rules are automatically removed after the specified timeframe.',
     'pr_loop_rule_deleted'                      => 'Rule deleted.',
     'pr_loop_block_deleted'                     => 'Blockage deleted.',
     'invalidlooprule'                           => 'Invalid Loop Cutter Rule. Please make sure the record exists in the database.',

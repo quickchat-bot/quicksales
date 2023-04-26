@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -44,32 +44,32 @@ $__LANG = array(
     'lite'                       => 'Lite',
     'lastupdate'                 => 'Ultimo aggiornamento:',
     'notavailable'               => '- Non disponibile -',
-    'titlegeoipremote'           => 'Servizio di ricerca GeoIP di Kayako attivo',
-    'msggeoipremote'             => 'Il supporto tecnico sta utilizzando il servizio di ricerca GeoIP di Kayako. Nessuna azione ulteriore è necessaria.',
+    'titlegeoipremote'           => 'Servizio di ricerca GeoIP di QuickSupport attivo',
+    'msggeoipremote'             => 'Il supporto tecnico sta utilizzando il servizio di ricerca GeoIP di QuickSupport. Nessuna azione ulteriore è necessaria.',
     'titlenofilecitylocation'    => 'Non è stato trovato il database di Città (Località)',
-    'msgnofilecitylocation'      => 'Kayako non è in grado di individuare un database GeoIP valido per la Città (Località). È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
+    'msgnofilecitylocation'      => 'QuickSupport non è in grado di individuare un database GeoIP valido per la Città (Località). È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
     'titlenofilecityblocks'      => 'Non è stato trovato il database di Città (Aree)',
-    'msgnofilecityblocks'        => 'Kayako non è in grado di individuare un database GeoIP valido per la Città (Aree). È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
+    'msgnofilecityblocks'        => 'QuickSupport non è in grado di individuare un database GeoIP valido per la Città (Aree). È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
     'titlenofilenetspeed'        => 'Il database Netspeed non è stato trovato',
-    'msgnofilenetspeed'          => 'Kayako non è in grado di individuare un database GeoIP valido per Netspeed. È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
+    'msgnofilenetspeed'          => 'QuickSupport non è in grado di individuare un database GeoIP valido per Netspeed. È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
     'titlenofileisp'             => 'Il database di ISP non si trova',
-    'msgnofileisp'               => 'Kayako non è in grado di individuare un database GeoIP valido per Netspeed. È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
+    'msgnofileisp'               => 'QuickSupport non è in grado di individuare un database GeoIP valido per Netspeed. È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
     'titlenofileorganization'    => 'Non si trova il database dell\'Organizzazione',
-    'msgnofileorganization'      => 'Kayako non è in grado di individuare un database GeoIP valido per le Organizzazioni. È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
+    'msgnofileorganization'      => 'QuickSupport non è in grado di individuare un database GeoIP valido per le Organizzazioni. È possibile scaricare l\'ultimo database  da <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">qui</a>.',
     'titlenotbuiltcitylocations' => 'Il database di Città (Località) non è stato indicizzato',
-    'msgnotbuiltcitylocations'   => 'Le informazioni di questo database GeoIP non possono essere utilizzate da Kayako fino a quando non sono indicizzate.',
+    'msgnotbuiltcitylocations'   => 'Le informazioni di questo database GeoIP non possono essere utilizzate da QuickSupport fino a quando non sono indicizzate.',
     'titlenotbuiltcityblocks'    => 'Il database di Città (Aree) non è stato indicizzato',
-    'msgnotbuiltcityblocks'      => 'Le informazioni di questo database GeoIP non possono essere utilizzate da Kayako fino a quando non sono indicizzate.',
+    'msgnotbuiltcityblocks'      => 'Le informazioni di questo database GeoIP non possono essere utilizzate da QuickSupport fino a quando non sono indicizzate.',
     'titlenotbuiltisp'           => 'Il database di ISP non è stato indicizzato',
-    'msgnotbuiltisp'             => 'Le informazioni di questo database GeoIP non possono essere utilizzate da Kayako fino a quando non sono indicizzate.',
+    'msgnotbuiltisp'             => 'Le informazioni di questo database GeoIP non possono essere utilizzate da QuickSupport fino a quando non sono indicizzate.',
     'titlenotbuiltnetspeed'      => 'Il database Netspeed non è stato indicizzato',
-    'msgnotbuiltnetspeed'        => 'Le informazioni di questo database GeoIP non possono essere utilizzate da Kayako fino a quando non sono indicizzate.',
+    'msgnotbuiltnetspeed'        => 'Le informazioni di questo database GeoIP non possono essere utilizzate da QuickSupport fino a quando non sono indicizzate.',
     'titlenotbuiltorganization'  => 'Il database dell\'Organizzazione non è stato indicizzato',
-    'msgnotbuiltorganization'    => 'Le informazioni di questo database GeoIP non possono essere utilizzate da Kayako fino a quando non sono indicizzate.',
+    'msgnotbuiltorganization'    => 'Le informazioni di questo database GeoIP non possono essere utilizzate da QuickSupport fino a quando non sono indicizzate.',
     'titlenotbuiltgeoip'         => 'Il database GeoIP non è stato indicizzato',
-    'msgnotbuiltgeoip'           => 'Le informazioni di questo database GeoIP non possono essere utilizzate da Kayako fino a quando non sono indicizzate.',
+    'msgnotbuiltgeoip'           => 'Le informazioni di questo database GeoIP non possono essere utilizzate da QuickSupport fino a quando non sono indicizzate.',
     'titlenotuptodategeoip'      => 'Il database GeoIP non è aggiornato',
-    'msgnotuptodategeoip'        => 'Il tuo database di GeoIP è più recente di quello che ha indicizzato Kayako. Si consiglia di reindicizzare il tuo database GeoIP per avere le ultime informazioni di posizione disponibili.',
+    'msgnotuptodategeoip'        => 'Il tuo database di GeoIP è più recente di quello che ha indicizzato QuickSupport. Si consiglia di reindicizzare il tuo database GeoIP per avere le ultime informazioni di posizione disponibili.',
 );
 
 return $__LANG;

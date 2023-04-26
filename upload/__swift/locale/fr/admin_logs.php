@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -43,7 +43,7 @@ $__LANG = array(
     'interface_api'        => 'API',
     'interface_pda'        => 'Téléphone',
     'titleloginfailure'    => 'Échec de l\'ouverture de session inscrit au journal',
-    'msgloginfailure'      => 'Kayako a détecté des échecs d\'ouverture de session depuis votre dernière session.',
+    'msgloginfailure'      => 'QuickSupport a détecté des échecs d\'ouverture de session depuis votre dernière session.',
     'activitylog'          => 'Journal d\'activité',
     'logdetails'           => 'Informations du journal',
     'logdateline'          => 'Date du journal',

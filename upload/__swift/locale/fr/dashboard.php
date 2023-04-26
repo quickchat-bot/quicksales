@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -73,9 +73,9 @@ $__LANG = array(
     'plognosubject'                 => 'Aucun sujet',
     'showingmsg'                    => ' (Montrant %d de %d)',
     'titlelicenseexpirywarning'     => 'Votre licence arrive à expiration',
-    'msglicenseexpirywarning'       => 'Votre licence de téléchargement GFI HelpDesk expire bientôt (le %s). Après expiration vous n\'aurez plus accès aux nouvelles versions, correctifs, mises à jour de sécurité et à l\'assistance technique de Kayako. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Cliquez ici pour prolonger votre licence.</a> ou <a href="https://go.gfi.com/?pageid=GFIHelpdeskSubscription" target="_blank" rel="noopener noreferrer">informez-vous</a> sur le renouvellement des licences.',
+    'msglicenseexpirywarning'       => 'Votre licence de téléchargement GFI HelpDesk expire bientôt (le %s). Après expiration vous n\'aurez plus accès aux nouvelles versions, correctifs, mises à jour de sécurité et à l\'assistance technique de QuickSupport. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Cliquez ici pour prolonger votre licence.</a> ou <a href="https://go.gfi.com/?pageid=GFIHelpdeskSubscription" target="_blank" rel="noopener noreferrer">informez-vous</a> sur le renouvellement des licences.',
     'titlelicenseexpired'           => 'Votre licence a expiré - renouvelez votre licence pour rester à jour',
-    'msglicenseexpired'             => 'Votre licence de téléchargement GFI HelpDesk expire le %s, ce qui veut dire qu\'après la date d\'expiration vous n\'aurez plus accès aux nouvelles versions, correctifs, mises à jour de sécurité et à l\'assistance technique de Kayako. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Cliquez ici pour renouveler votre licence.</a> ou <a href="https://go.gfi.com/?pageid=GFIHelpdeskSubscription" target="_blank" rel="noopener noreferrer">informez-vous</a> .',
+    'msglicenseexpired'             => 'Votre licence de téléchargement GFI HelpDesk expire le %s, ce qui veut dire qu\'après la date d\'expiration vous n\'aurez plus accès aux nouvelles versions, correctifs, mises à jour de sécurité et à l\'assistance technique de QuickSupport. <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer">Cliquez ici pour renouveler votre licence.</a> ou <a href="https://go.gfi.com/?pageid=GFIHelpdeskSubscription" target="_blank" rel="noopener noreferrer">informez-vous</a> .',
     'titletrialexpirywarning'       => 'Votre version d\'essai arrive à expiration',
     'msgtrialexpirywarning'         => 'Votre version d\'essai de GFI HelpDesk expire bientôt (sur %s). Pour garder votre helpdesk actif, <a href="https://accounts.gfi.com" target="_blank" rel="noopener noreferrer"> cliquez ici pour mettre à jour votre version </a> ou <a href="https://www.gfi.com/contact-us" target="_blank" rel="noopener noreferrer"> cliquez ici pour nous contacter</a>, nous pouvons répondre à vos questions.',
     'titletemplaterevert'           => 'Certains gabarits sont obsolètes',
@@ -83,7 +83,7 @@ $__LANG = array(
     'titlelanguagerevert'           => 'Certaines phrases sont obsolètes',
     'msglanguagerevert'             => 'les expressions de langue %d sont obsolètes depuis la mise à jour de votre centre d\'assistance et doivent être restaurées :',
     'licensedetails'                => 'Informations sur la licence',
-    'latestkayakonews'              => 'Dernières nouvelles de Kayako',
+    'latestkayakonews'              => 'Dernières nouvelles de QuickSupport',
     'tabwelcome'                    => 'Bienvenue',
     'tabrecentactivity'             => 'Activité récente',
     'tabalerts'                     => 'Alertes',
@@ -101,7 +101,7 @@ $__LANG = array(
     'titleparserlogfailuredetected' => '%d échecs d\'analyseur d\'email enregistrés',
     'msgparserlogfailuredetected'   => 'Il ya eu %d échecs de connexion. Pour afficher le journal complet, allez à <strong>Journaux > Journal de connexion</strong>.',
     'titleerrorsdetected'           => '%d erreurs enregistrés',
-    'msgerrorsdetected'             => '%d erreurs ont étés enregistrées. Ce n\'est peut-être pas graves, mais n\'hésitez pas à contacter Kayako à leur sujet, si vous avez des questions.',
+    'msgerrorsdetected'             => '%d erreurs ont étés enregistrées. Ce n\'est peut-être pas graves, mais n\'hésitez pas à contacter QuickSupport à leur sujet, si vous avez des questions.',
     'dashusername'                  => 'Nom d’utilisateur :',
     'dashemail'                     => 'Adresse email :',
     'dashlastlogin'                 => 'Date de la dernière connexion :',
@@ -110,7 +110,7 @@ $__LANG = array(
     'dversion'                      => 'Version : ',
     'dbuildtype'                    => 'Type de compilation : ',
     'dbuilddate'                    => 'Date de compilation : ',
-    'kayako'                        => 'Kayako',
+    'kayako'                        => 'QuickSupport',
     'accreated'                     => 'CRÉÉ',
     'acupdated'                     => 'MIS À JOUR',
     'acdeleted'                     => 'SUPPRIMÉ',

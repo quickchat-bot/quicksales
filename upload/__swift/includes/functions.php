@@ -14,7 +14,7 @@ use Base\Library\HTML\SWIFT_HTMLPurifier;
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -79,7 +79,7 @@ function kc_mime_content_type($filename)
     /*
      * BUG FIX - Varun Shoor
      *
-     * SWIFT-1711 PHP error when trying to load attachments via Kayako Mobile API
+     * SWIFT-1711 PHP error when trying to load attachments via QuickSupport Mobile API
      *
      * Comments: Fix provided by Drew
      */
@@ -1522,14 +1522,14 @@ function calculateBusinessDay($_days, $_dateTime=null) {
 }
 
 /**
- * Check if an IP belongs to Kayako servers
+ * Check if an IP belongs to QuickSupport servers
  *
  * @author Ravinder Singh
  * @param string $_ip
  * @param bool $_useCache
  * @return bool "true" on Success, "false" otherwise
  */
-function IsKayakoIP($_ip, $_useCache = true)
+function IsQuickSupportIP($_ip, $_useCache = true)
 {
     $_ipCache = array();
     $_cacheFile = './' . SWIFT_BASE_DIRECTORY . '/' . SWIFT_CACHE_DIRECTORY . '/ip.cache';
@@ -1548,7 +1548,7 @@ function IsKayakoIP($_ip, $_useCache = true)
         return $_ipCache[$_ip];
     }
 
-    $_validationURL = 'https://my.kayako.com/Backend/Verify/IsKayakoIP';
+    $_validationURL = 'https://my.kayako.com/Backend/Verify/IsQuickSupportIP';
 
     $_curlHandle = curl_init();
     curl_setopt($_curlHandle, CURLOPT_URL, $_validationURL);
@@ -1837,7 +1837,7 @@ function removeTags($html, $stripAllHTMLTags = 0, $_canReturnEmpty = true)
     }, $decoded_html);
 
     /**
-     * Bugfix KAYAKOC-6655 - Kayako should allow the rendering
+     * Bugfix KAYAKOC-6655 - QuickSupport should allow the rendering
      * of mathematical representations including "<" or ">" symbols.
      * @author Banjo Mofesola Paul
      *

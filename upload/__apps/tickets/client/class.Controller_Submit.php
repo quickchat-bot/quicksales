@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -707,7 +707,7 @@ class Controller_Submit extends Controller_client {
         /**
          * BIG FIX - Ravi Sharma <ravi.sharma@kayako.com>
          *
-         * SWIFT-4917 Cross site scripting flaw in Kayako Case.
+         * SWIFT-4917 Cross site scripting flaw in QuickSupport Case.
          */
         $this->Template->Assign('_selectedDepartmentTitle', $_selectedDepartmentTitle);
         $this->Template->Assign('_ticketFullName', text_to_html_entities($this->Input->SanitizeForXSS($_SWIFT_TicketObject->GetProperty('fullname')), 1, true, true));

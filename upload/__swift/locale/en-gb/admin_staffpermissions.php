@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -25,8 +25,8 @@ $__LANG = array(
     'livechatmessages'                   => 'Messages (<em>leave a message</em>) and surveys',
     'livechatcalls'                      => 'Calls',
     'livechatcanned'                     => 'Canned responses',
-    'ls_canobserve'                      => 'Observe chats (Kayako Desktop)',
-    'winapplrbans'                       => 'Visitor bans (Kayako Desktop)',
+    'ls_canobserve'                      => 'Observe chats (QuickSupport Desktop)',
+    'winapplrbans'                       => 'Visitor bans (QuickSupport Desktop)',
 
     // Admin/Live support
     'lrskills'                           => 'Skills',

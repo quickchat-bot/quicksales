@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -39,7 +39,7 @@ $__LANG = array(
     'username'                     => 'Nombre de usuario',
     'password'                     => 'Contraseña',
     'rememberme'                   => 'Recordarme',
-    'defaulttitle'                 => '%s - con la tecnología de Kayako',
+    'defaulttitle'                 => '%s - con la tecnología de QuickSupport',
     'login'                        => 'Iniciar sesión',
     'global'                       => 'Global',
     'first'                        => 'Primero',
@@ -47,11 +47,11 @@ $__LANG = array(
     'pagination'                   => 'Página %s de %s',
     'submit'                       => 'Enviar',
     'reset'                        => 'Reiniciar',
-    'poweredby'                    => 'Software de helpdesk con la tecnología de Kayako',
-    'copyright'                    => 'Copyright &copy; 2001-%s Kayako',
-    'notifycsrfhash'               => 'Kayako detectó un problema al validar esta petición',
-    'titlecsrfhash'                => 'Kayako detectó un problema al validar esta petición',
-    'msgcsrfhash'                  => 'Kayako valida las peticiones como protección contra falsificaciones de petición en sitios cruzados y no pudo validar esta petición. Por favor, inténtelo de nuevo.',
+    'poweredby'                    => 'Software de helpdesk con la tecnología de QuickSupport',
+    'copyright'                    => 'Copyright &copy; 2001-%s QuickSupport',
+    'notifycsrfhash'               => 'QuickSupport detectó un problema al validar esta petición',
+    'titlecsrfhash'                => 'QuickSupport detectó un problema al validar esta petición',
+    'msgcsrfhash'                  => 'QuickSupport valida las peticiones como protección contra falsificaciones de petición en sitios cruzados y no pudo validar esta petición. Por favor, inténtelo de nuevo.',
     'invaliduser'                  => 'Nombre de usuario o contraseña incorrecta',
     'invaliduseripres'             => 'Dirección IP no autorizada (intento: %d de %d)',
     'invaliduserdisabled'          => 'Esta cuenta está desactivada (intento: %d de %d)',
@@ -74,7 +74,7 @@ $__LANG = array(
     'logout'                       => 'Salir',
     'staffcp'                      => 'Panel de control del personal',
     'admincp'                      => 'Panel de control de admin',
-    'winapp'                       => 'Kayako Desktop',
+    'winapp'                       => 'QuickSupport Desktop',
     'staffapi'                     => 'Staff API',
     'bytes'                        => 'Bytes',
     'kb'                           => 'KB',
@@ -207,7 +207,7 @@ $__LANG = array(
     'interface_staff'              => 'Panel de control del personal',
     'interface_intranet'           => 'Intranet',
     'interface_api'                => 'API',
-    'interface_winapp'             => 'Kayako Desktop/API del personal',
+    'interface_winapp'             => 'QuickSupport Desktop/API del personal',
     'interface_syncworks'          => 'SyncWorks',
     'interface_instaalert'         => 'InstaAlert',
     'interface_pda'                => 'PDA',
@@ -238,7 +238,7 @@ $__LANG = array(
     'searchmodeactive'             => 'Los resultados se filtran - haga clic para restablecer',
     'notifysearchfailed'           => 'Se han encontrado "0" resultados',
     'titlesearchfailed'            => 'Se han encontrado "0" resultados',
-    'msgsearchfailed'              => 'Kayako no pudo localizar registros que coincidieran con los criterios especificados.',
+    'msgsearchfailed'              => 'QuickSupport no pudo localizar registros que coincidieran con los criterios especificados.',
     'quickfilter'                  => 'Filtro rápido',
     'fuenterurl'                   => 'Introducir URL:',
     'fuorupload'                   => 'o subir:',
@@ -376,7 +376,7 @@ $__LANG = array(
     'app_reports'                  => 'Informes',
 
     // Potentialy unused phrases in en-us.php
-    'defaultloginapi'              => 'Kayako Login Routine',
+    'defaultloginapi'              => 'QuickSupport Login Routine',
     'redirect_login'               => 'Processing Login...',
     'redirect_dashboard'           => 'Redirecting to Home...',
     'no_wait'                      => 'Please click here if your browser does not automatically redirect you',
@@ -388,7 +388,7 @@ $__LANG = array(
     'searchfieldquery'             => 'Query: ',
     'searchfieldfield'             => 'Field: ',
     'settingsfieldresultsperpage'  => 'Results Per Page: ',
-    'clidefault'                   => '%s v%s\\nCopyright (c) 2001-%s Kayako\\n',
+    'clidefault'                   => '%s v%s\\nCopyright (c) 2001-%s QuickSupport\\n',
     'firstselect'                  => '- Select -',
     'exportasxml'                  => 'XML',
     'exportascsv'                  => 'CSV',
@@ -396,7 +396,7 @@ $__LANG = array(
     'exportaspdf'                  => 'PDF',
     'clientarea'                   => 'Support Center',
     'pdainterface'                 => 'PDA Interface',
-    'kayakomobile'                 => 'Kayako Mobile',
+    'kayakomobile'                 => 'QuickSupport Mobile',
     'thousandsseperator'           => ',',
     'clierror'                     => '[ERROR]: ',
     'cliwarning'                   => '[WARNING]: ',
@@ -434,7 +434,7 @@ $__LANG = array(
     'maddthumbnail'                => 'Thumbnail',
     'maddthumbnailwithlink'        => 'Thumbnail with Link',
     'checkuncheckall'              => 'Check/Uncheck All',
-    'defaultloginshare'            => 'Kayako LoginShare',
+    'defaultloginshare'            => 'QuickSupport LoginShare',
     'invalidusernoapiaccess'       => 'Invalid Staff. This staff does not have API access, please configure under Settings > General.',
     'msgupdsettings'               => 'Successfully updated all settings for "%s"',
     'msgpwpolicy'                  => 'The password specified does not match the requirements of the Password Policy.',

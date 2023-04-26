@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -35,9 +35,9 @@ $__LANG = array(
     'wineditgroup'                          => 'Редактировать группу пользователей: %s',
     'visitorgroups'                         => 'Группы пользователей',
     'titlenorulecriteria'                   => 'Критерий не был задан',
-    'msgnorulecriteria'                     => 'Kayako не может добавить правило пользователя, так как не были заданы критерии.',
+    'msgnorulecriteria'                     => 'QuickSupport не может добавить правило пользователя, так как не были заданы критерии.',
     'titlenoruleactions'                    => 'Не было задано никаких действий',
-    'msgnoruleactions'                      => 'Kayako не может добавить правило пользователя, так как не было указано никаких действий.',
+    'msgnoruleactions'                      => 'QuickSupport не может добавить правило пользователя, так как не было указано никаких действий.',
     'invalidgroup'                          => 'Указана неверная группа. Убедитесь, что эта группа пользователей существует в базе данных и что база данных без повреждений',
     'visitorgrouptitle'                     => 'Название группы пользователей',
     'desc_visitorgrouptitle'                => 'Пожалуйста, укажите название группы пользователей.',
@@ -51,7 +51,7 @@ $__LANG = array(
     'titleupdategroup'                      => 'Обновлена группа пользователей "%s"',
     'msgupdategroup'                        => 'Группа пользователей "<font color="%s">%s</font>" была успешно обновлена.',
     'isregex'                               => 'Регулярное выражение?',
-    'desc_isregex'                          => 'Если активировано, Kayako сравнит IP пользователей, используя регулярное выражение, указанное выше.',
+    'desc_isregex'                          => 'Если активировано, QuickSupport сравнит IP пользователей, используя регулярное выражение, указанное выше.',
     'titleinsertban'                        => 'Добавлен запрет пользователей',
     'msginsertban'                          => 'Запрет пользователей "%s" успешно добавлен в базу данных.',
     'titleupdateban'                        => 'Запрет пользователей обновлен',

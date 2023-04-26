@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -422,7 +422,7 @@ class Controller_Call extends Controller_staff
         if ($_SWIFT_FileManagerObject->HasRemote()) {
             $_remoteFileInfo = $_SWIFT_FileManagerObject->GetRemoteInfo();
             if (!$_remoteFileInfo) {
-                echo 'Unable to locate remote file "' . $_SWIFT_FileManagerObject->GetProperty('filename') . '". Please contact Kayako support for assistance.';
+                echo 'Unable to locate remote file "' . $_SWIFT_FileManagerObject->GetProperty('filename') . '". Please contact QuickSupport support for assistance.';
 
                 return false;
             }
@@ -430,7 +430,7 @@ class Controller_Call extends Controller_staff
             // Yes, just read out the file
             $_filePointer = @fopen($_remoteFileInfo['url'], 'rb');
             if (!$_filePointer) {
-                echo 'Unable to open remote file "' . $_SWIFT_FileManagerObject->GetProperty('filename') . '", info: ' . print_r($_remoteFileInfo, true) . '. Please contact Kayako support for assistance.';
+                echo 'Unable to open remote file "' . $_SWIFT_FileManagerObject->GetProperty('filename') . '", info: ' . print_r($_remoteFileInfo, true) . '. Please contact QuickSupport support for assistance.';
 
                 return false;
             }

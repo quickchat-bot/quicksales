@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -355,11 +355,11 @@ class View_Report extends SWIFT_View
                 <p class='text'>The Report Writer is the text field you see above. It makes creating your own reports using KQL really simple by checking what you type on-the-fly and automatically providing suggestions about what you may need to type next.</p>
                 <p class='text'>To get started, simply place your cursor inside of the text editor and start with the first suggestion. You can use your mouse or arrow keys to scroll through and accept a suggestion. It's as easy as that!</p>
 
-                <span class='title'>Kayako Query Language (KQL)</span><br />
+                <span class='title'>QuickSupport Query Language (KQL)</span><br />
                 <p class='text'>KQL is the syntax used to define a report. KQL is used to specify the information to include in your report and how the report should be displayed and formatted.</p>
                 <p class='text'>The following KQL statement:</p>
                 <p><span class='code'>SELECT 'Tickets.Ticket Mask ID', 'Tickets.Subject', 'Users.Fullname' FROM 'Tickets', 'Users' WHERE 'Tickets.Department' = 'Sales' AND 'Tickets.Status' = 'Open'</span><p>
-                <p class='text'>would produce a table of all the Open tickets in the Sales department. In this example, we are <strong>SELECT</strong>ing specific pieces of information <strong>FROM</strong> two sources, <strong>WHERE</strong> various conditions are met. For more information on the Kayako Query Language, see <a href='https://classic.kayako.com/article/1413-introduction-to-kayako-query-language-kql' target='_blank' rel='noopener noreferrer'><u>the KQL guide</u></a>.</p>
+                <p class='text'>would produce a table of all the Open tickets in the Sales department. In this example, we are <strong>SELECT</strong>ing specific pieces of information <strong>FROM</strong> two sources, <strong>WHERE</strong> various conditions are met. For more information on the QuickSupport Query Language, see <a href='https://classic.kayako.com/article/1413-introduction-to-kayako-query-language-kql' target='_blank' rel='noopener noreferrer'><u>the KQL guide</u></a>.</p>
 
                 <span class='title'>Report Types</span><br />
                 <p class='text'>Reports is capable of producing various report layouts, such as <strong>tabular</strong>, <strong>summary</strong> and <strong>matrix</strong> reports. The way a report is displayed depends on how you structure your KQL statement. For more information on report types and the syntax required for specific report layouts, see the <a href='https://classic.kayako.com/article/1411-report-types-in-kayako-classic' target='_blank' rel='noopener noreferrer'><u>guide to report types</u></a>.</p>

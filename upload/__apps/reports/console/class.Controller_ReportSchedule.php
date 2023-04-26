@@ -8,7 +8,7 @@
  * @author        Andriy Lesyuk
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2013, Kayako
+ * @copyright    Copyright (c) 2001-2013, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *

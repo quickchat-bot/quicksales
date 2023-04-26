@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -88,7 +88,7 @@ $__LANG = array(
     'usertimezone'                   => 'Zona horaria',
     'desc_usertimezone'              => 'Si no selecciona una zona horaria, se utilizará el valor predeterminado de helpdesk.',
     'userenabledst'                  => 'Detección de horario de verano',
-    'desc_userenabledst'             => 'Si se activa, Kayako detecta el horario de verano y hace los ajustes automáticamente.',
+    'desc_userenabledst'             => 'Si se activa, QuickSupport detecta el horario de verano y hace los ajustes automáticamente.',
     'defaultlanguage'                => '-- Idioma predeterminada --',
     'userlanguage'                   => 'Idioma',
     'desc_userlanguage'              => 'Seleccione el idioma que este usuario verá cuando inicie sesión en el centro de soporte. Si se determina, el idioma predeterminado del grupo de plantillas será anulado.',
@@ -133,7 +133,7 @@ $__LANG = array(
     'titledeleteduserorganization'   => 'Organizaciones eliminadas (%d)',
     'msgdeleteduserorganization'     => 'Se eliminaron las siguientes organizaciones de usuario:',
     'userorganizationemails'         => 'Filtros de dominio de correo electrónico',
-    'desc_userorganizationemails'    => 'Kayako añadirá automáticamente a usuarios que se registren con una dirección de correo electrónico que contenga uno de estos nombres de dominio a esta organización. <br/><br/>Por ejemplo, añadiendo <em>acme.com</em> se añadirá a un usuario con la dirección de correo electrónico <em>joe.bloggs@acme.com</em> a esta organización.',
+    'desc_userorganizationemails'    => 'QuickSupport añadirá automáticamente a usuarios que se registren con una dirección de correo electrónico que contenga uno de estos nombres de dominio a esta organización. <br/><br/>Por ejemplo, añadiendo <em>acme.com</em> se añadirá a un usuario con la dirección de correo electrónico <em>joe.bloggs@acme.com</em> a esta organización.',
     'contactdetails'                 => 'Datos de contacto',
     'userorganizationslaplan'        => 'Anular plan de SLA',
     'desc_userorganizationslaplan'   => 'A todos los tickets creados por usuarios pertenecientes a esta organización se les asignará este plan SLA. Tenga en cuenta que la anulación de un plan de SLA para un usuario específico tendrá prioridad sobre esta opción.',

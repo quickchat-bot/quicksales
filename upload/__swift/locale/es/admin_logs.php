@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -43,7 +43,7 @@ $__LANG = array(
     'interface_api'        => 'API',
     'interface_pda'        => 'Teléfono',
     'titleloginfailure'    => 'Fallo al iniciar sesión registrado',
-    'msgloginfailure'      => 'Kayako ha detectado fallos de inicio de sesión desde su último acceso.',
+    'msgloginfailure'      => 'QuickSupport ha detectado fallos de inicio de sesión desde su último acceso.',
     'activitylog'          => 'Registro de actividad',
     'logdetails'           => 'Datos del registro',
     'logdateline'          => 'Fecha del registro',

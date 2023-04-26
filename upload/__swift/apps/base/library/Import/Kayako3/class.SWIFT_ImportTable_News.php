@@ -8,14 +8,14 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
  * ###############################################
  */
 
-namespace Base\Library\Import\Kayako3;
+namespace Base\Library\Import\QuickSupport3;
 
 use News\Models\Category\SWIFT_NewsCategory;
 use News\Models\NewsItem\SWIFT_NewsItem;

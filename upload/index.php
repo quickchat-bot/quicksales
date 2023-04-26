@@ -5,8 +5,8 @@
  * SWIFT Framework
  *
  * @package    SWIFT
- * @author    Kayako Singapore Pte. Ltd.
- * @copyright    Copyright (c) 2001-2009, Kayako Singapore Pte. Ltd.
+ * @author    QuickSupport Singapore Pte. Ltd.
+ * @copyright    Copyright (c) 2001-2009, QuickSupport Singapore Pte. Ltd.
  * @license    http://www.kayako.com/license
  * @link        http://www.kayako.com
  * @filesource

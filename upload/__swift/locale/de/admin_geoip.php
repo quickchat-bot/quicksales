@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -44,32 +44,32 @@ $__LANG = array (
     'lite'                       => 'Lite',
     'lastupdate'                 => 'Letzte Aktualisierung:',
     'notavailable'               => '-Nicht verfügbar-',
-    'titlegeoipremote'           => 'Kayako GeoIP Suchdienst ist aktiv',
-    'msggeoipremote'             => 'Ihr Helpdesk verwendet Kayako\'s GeoIP Suchdienst. Es ist keine weitere Aktion erforderlich.',
+    'titlegeoipremote'           => 'QuickSupport GeoIP Suchdienst ist aktiv',
+    'msggeoipremote'             => 'Ihr Helpdesk verwendet QuickSupport\'s GeoIP Suchdienst. Es ist keine weitere Aktion erforderlich.',
     'titlenofilecitylocation'    => 'Stadt (Ort)-Datenbank konnte nicht gefunden werden',
-    'msgnofilecitylocation'      => 'Kayako konnte keine gültige GeoIP-Datenbank für Stadt (Ort) finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
+    'msgnofilecitylocation'      => 'QuickSupport konnte keine gültige GeoIP-Datenbank für Stadt (Ort) finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
     'titlenofilecityblocks'      => 'Stadt (Blöcke)-Datenbank  konnte nicht gefunden werden',
-    'msgnofilecityblocks'        => 'Kayako konnte keine gültige GeoIP-Datenbank für Stadt (Blöcke) finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
+    'msgnofilecityblocks'        => 'QuickSupport konnte keine gültige GeoIP-Datenbank für Stadt (Blöcke) finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
     'titlenofilenetspeed'        => 'Datenbank für Netzgeschwindigkeit konnte nicht gefunden werden',
-    'msgnofilenetspeed'          => 'Kayako konnte keine gültige GeoIP-Datenbank für Netzgeschwindigkeit finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
+    'msgnofilenetspeed'          => 'QuickSupport konnte keine gültige GeoIP-Datenbank für Netzgeschwindigkeit finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
     'titlenofileisp'             => 'ISP-Datenbank konnte nicht gefunden werden',
-    'msgnofileisp'               => 'Kayako konnte keine gültige GeoIP-Datenbank für Netzgeschwindigkeit finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
+    'msgnofileisp'               => 'QuickSupport konnte keine gültige GeoIP-Datenbank für Netzgeschwindigkeit finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
     'titlenofileorganization'    => 'Organisationsdatenbank konnte nicht gefunden werden',
-    'msgnofileorganization'      => 'Kayako konnte keine gültige GeoIP-Datenbank für Organisationen finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
+    'msgnofileorganization'      => 'QuickSupport konnte keine gültige GeoIP-Datenbank für Organisationen finden. Sie können die aktuellste Datenbank  <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">hier</a>.',
     'titlenotbuiltcitylocations' => 'Die Stadt (Ort)-Datenbank wurde nicht indexiert',
-    'msgnotbuiltcitylocations'   => 'Informationen aus dieser GeoIP-Datenbank können von Kayako nicht verwendet werden, bis sie indexiert wurden.',
+    'msgnotbuiltcitylocations'   => 'Informationen aus dieser GeoIP-Datenbank können von QuickSupport nicht verwendet werden, bis sie indexiert wurden.',
     'titlenotbuiltcityblocks'    => 'Die Stadt (Blöcke)-Datenbank wurde nicht indexiert',
-    'msgnotbuiltcityblocks'      => 'Informationen aus dieser GeoIP-Datenbank können von Kayako nicht verwendet werden, bis sie indexiert wurden.',
+    'msgnotbuiltcityblocks'      => 'Informationen aus dieser GeoIP-Datenbank können von QuickSupport nicht verwendet werden, bis sie indexiert wurden.',
     'titlenotbuiltisp'           => 'Die ISP-Datenbank wurde nicht indexiert',
-    'msgnotbuiltisp'             => 'Informationen aus dieser GeoIP-Datenbank können von Kayako nicht verwendet werden, bis sie indexiert wurden.',
+    'msgnotbuiltisp'             => 'Informationen aus dieser GeoIP-Datenbank können von QuickSupport nicht verwendet werden, bis sie indexiert wurden.',
     'titlenotbuiltnetspeed'      => 'Die Netspeed-Datenbank wurde nicht indexiert',
-    'msgnotbuiltnetspeed'        => 'Informationen aus dieser GeoIP-Datenbank können von Kayako nicht verwendet werden, bis sie indexiert wurden.',
+    'msgnotbuiltnetspeed'        => 'Informationen aus dieser GeoIP-Datenbank können von QuickSupport nicht verwendet werden, bis sie indexiert wurden.',
     'titlenotbuiltorganization'  => 'Die Organisationsdatenbank wurde nicht indexiert',
-    'msgnotbuiltorganization'    => 'Informationen aus dieser GeoIP-Datenbank können von Kayako nicht verwendet werden, bis sie indexiert wurden.',
+    'msgnotbuiltorganization'    => 'Informationen aus dieser GeoIP-Datenbank können von QuickSupport nicht verwendet werden, bis sie indexiert wurden.',
     'titlenotbuiltgeoip'         => 'Die GeoIP-Datenbank wurde nicht indexiert',
-    'msgnotbuiltgeoip'           => 'Informationen aus dieser GeoIP-Datenbank können von Kayako nicht verwendet werden, bis sie indexiert wurden.',
+    'msgnotbuiltgeoip'           => 'Informationen aus dieser GeoIP-Datenbank können von QuickSupport nicht verwendet werden, bis sie indexiert wurden.',
     'titlenotuptodategeoip'      => 'Die GeoIP-Datenbank ist veraltet',
-    'msgnotuptodategeoip'        => 'Ihre GeoIP-Datenbank ist neuer als die von Kayako indexierte. Es wird empfohlen, Ihre GeoIP-Datenbank erneut zu indexieren, damit die aktuellsten Lokalisierungsinformationen verfügbar sind.',
+    'msgnotuptodategeoip'        => 'Ihre GeoIP-Datenbank ist neuer als die von QuickSupport indexierte. Es wird empfohlen, Ihre GeoIP-Datenbank erneut zu indexieren, damit die aktuellsten Lokalisierungsinformationen verfügbar sind.',
 );
 
 return $__LANG;

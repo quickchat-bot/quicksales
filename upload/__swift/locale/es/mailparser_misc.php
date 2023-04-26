@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -46,7 +46,7 @@ $__LANG = array(
     'editban'                => 'Editar bloqueo',
     'bandelconfirmmsg'       => '¿Está seguro que desea eliminar esta entrada de bloqueo?  ¡Esta acción es irreversible!',
     'parserbanupdconfirm'    => 'Bloqueo de dirección de correo electrónico para %s actualizada',
-    'desc_mailbans'          => 'Puede impedir que usuarios problemáticos envíen tickets bloqueando sus direcciones de correo electrónico. Cuando Kayako reciba un correo electrónico comparará la dirección del autor con la lista de bloqueos y si la dirección está bloqueada el mensaje será ignorado sin previo aviso.',
+    'desc_mailbans'          => 'Puede impedir que usuarios problemáticos envíen tickets bloqueando sus direcciones de correo electrónico. Cuando QuickSupport reciba un correo electrónico comparará la dirección del autor con la lista de bloqueos y si la dirección está bloqueada el mensaje será ignorado sin previo aviso.',
 
     // Catch-All Rules
     'insertcatchallrule'     => 'Insertar regla catch-all',

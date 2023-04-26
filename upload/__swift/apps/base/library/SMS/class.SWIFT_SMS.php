@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -39,7 +39,7 @@ class SWIFT_SMS extends SWIFT_Model
     }
 
     /**
-     * Send SMS Alert using Kayako Gateway
+     * Send SMS Alert using QuickSupport Gateway
      *
      * @author Varun Shoor
      * @param string $_phoneNumber The Phone Number to Send Message To

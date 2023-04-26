@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -20,12 +20,12 @@ $__LANG = array(
     'tabpostindex'            => 'Reconstruire l\'Index de recherche',
     'tabmoveattachments'      => 'Déplacer les pièces jointes',
     'attachmentsperpass'      => 'Nombre de pièces jointes à traiter dans un lot',
-    'desc_attachmentsperpass' => 'Kayako traite les pièces jointes un lot à la fois. Un nombre plus élevé requiert un serveur plus puissant.',
+    'desc_attachmentsperpass' => 'QuickSupport traite les pièces jointes un lot à la fois. Un nombre plus élevé requiert un serveur plus puissant.',
     'move'                    => 'Déplacer',
     'dbtofiles'               => 'De la base de données (%d) vers le système de fichiers',
     'filestodb'               => 'Du système de fichiers (%d) vers la base de données',
     'movetype'                => 'Déplacer des pièces jointes depuis',
-    'desc_movetype'           => 'Sélectionnez vers où vous souhaitez déplacer vos pièces jointes. Si vous êtes un client de téléchargement Kayako et vous gérez votre propre serveur web, vous devrez peut-être augmenter votre max_packet_size si vous déplacez des fichiers du système de fichiers vers la base de données.',
+    'desc_movetype'           => 'Sélectionnez vers où vous souhaitez déplacer vos pièces jointes. Si vous êtes un client de téléchargement QuickSupport et vous gérez votre propre serveur web, vous devrez peut-être augmenter votre max_packet_size si vous déplacez des fichiers du système de fichiers vers la base de données.',
     'attachmentsprocessed'    => 'Pièces jointes déplacées',
     'totalattachments'        => 'Total des pièces jointes',
     'tabproperties'           => 'Reconstruire les propriétés',

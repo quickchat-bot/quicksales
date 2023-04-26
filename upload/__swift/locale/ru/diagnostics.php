@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -100,7 +100,7 @@ $__LANG = array(
     'bugfromname'                                  => 'Имя и фамилия',
     'desc_bugfromname'                             => 'Введите Ваше имя или имя представителя Вашей организации, с которым нам нужно связаться.',
     'bugfromemail'                                 => 'Email адрес',
-    'desc_bugfromemail'                            => 'Это email адрес, который используется как адрес <b>Отправителя</b> отчета в Kayako. Пожалуйста, убедитесь, что этот e-mail адрес верный.',
+    'desc_bugfromemail'                            => 'Это email адрес, который используется как адрес <b>Отправителя</b> отчета в QuickSupport. Пожалуйста, убедитесь, что этот e-mail адрес верный.',
     'debuginfo'                                    => '### Устранение ошибок ###',
     'dphpversion'                                  => 'PHP версия: %s',
     'dphpuploadsize'                               => 'Максимальный размер загрузки: %s',
@@ -127,7 +127,7 @@ $__LANG = array(
     'sess' . SWIFT_Interface::INTERFACE_STAFF      => 'Staff',
     'sess' . SWIFT_Interface::INTERFACE_ADMIN      => 'Admin',
     'sess' . SWIFT_Interface::INTERFACE_CLIENT     => 'Client',
-    'sess' . SWIFT_Interface::INTERFACE_WINAPP     => 'Kayako Desktop/Staff API',
+    'sess' . SWIFT_Interface::INTERFACE_WINAPP     => 'QuickSupport Desktop/Staff API',
     'sess' . SWIFT_Interface::INTERFACE_CONSOLE    => 'Console',
     'sess' . SWIFT_Interface::INTERFACE_VISITOR    => 'Visitor',
     'sess' . SWIFT_Interface::INTERFACE_CHAT       => 'Chat',
@@ -147,7 +147,7 @@ $__LANG = array(
     'desc_mysqlinfo'                               => 'Your server\'s MySQL configuration details are listed below. The value of these variables are specified in the my.cnf file which is usually located in the <i>etc</i> directory.',
     'cacheinfo'                                    => 'Cache Info',
     'desc_cacheinfo'                               => 'Frequently generated information and data is cached, reducing the requirement to run repetitive database queries.',
-    'desc_reportbug'                               => 'You can report a bug to the Kayako team by providing a brief description of the issue below. It is recommended that you keep the debug information, as it helps us trace the problem more quickly. Please make sure that the email address specified is correct.',
+    'desc_reportbug'                               => 'You can report a bug to the QuickSupport team by providing a brief description of the issue below. It is recommended that you keep the debug information, as it helps us trace the problem more quickly. Please make sure that the email address specified is correct.',
     'submitbug'                                    => 'Submit Bug',
     'dmysqlversion'                                => 'MySQL Version: %s',
     'specifyvalidemail'                            => 'ERROR: Please specify a valid email address',

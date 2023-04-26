@@ -3,7 +3,7 @@
 <swiftlanguage>
 <title><![CDATA[Italiano]]></title>
 <isocode><![CDATA[it]]></isocode>
-<author><![CDATA[Kayako]]></author>
+<author><![CDATA[QuickSupport]]></author>
 <charset><![CDATA[UTF-8]]></charset>
 <textdirection><![CDATA[LTR]]></textdirection>
 <flagicon><![CDATA[{$themepath}it.gif]]></flagicon>
@@ -73,7 +73,7 @@
 <phrase section="default" code="commentemail"><![CDATA[Email: ]]></phrase>
 <phrase section="default" code="commentfullname"><![CDATA[Nome e Cognome:]]></phrase>
 <phrase section="default" code="comments"><![CDATA[Commenti]]></phrase>
-<phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s Kayako]]></phrase>
+<phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s QuickSupport]]></phrase>
 <phrase section="default" code="creationfailed"><![CDATA[Abbiamo riscontrato un problema (creazione di un oggetto non riuscita)]]></phrase>
 <phrase section="default" code="defaulttimezone"><![CDATA[-- Fuso Orario Predefinito --]]></phrase>
 <phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.gfi.com/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">GFI HelpDesk</a>.]]></phrase>
@@ -236,7 +236,7 @@ Grazie,
 <phrase section="default" code="postedby"><![CDATA[Pubblicato da]]></phrase>
 <phrase section="default" code="posted"><![CDATA[Pubblicato]]></phrase>
 <phrase section="default" code="postnewcomment"><![CDATA[Inserisci un nuovo commento]]></phrase>
-<phrase section="default" code="poweredby"><![CDATA[Powered by Kayako Help Desk Software]]></phrase>
+<phrase section="default" code="poweredby"><![CDATA[Powered by QuickSupport Help Desk Software]]></phrase>
 <phrase section="mime" code="ppt"><![CDATA[Documento PowerPoint]]></phrase>
 <phrase section="mime" code="pptx"><![CDATA[Documento PowerPoint]]></phrase>
 <phrase section="users" code="praddemail"><![CDATA[Aggiungi Email]]></phrase>
@@ -284,7 +284,7 @@ Password: Nascosta
 
 Puoi visitare l'helpdesk per sfogliare gli articoli e puoi contattarci in qualsiasi momento: %2$s
 
-Si informa che Kayako elabora le informazioni dell'utente per migliorare la qualità e l'esperienza utente dell'help desk
+Si informa che QuickSupport elabora le informazioni dell'utente per migliorare la qualità e l'esperienza utente dell'help desk
 
 Grazie di esserti registrato!
 
@@ -312,7 +312,7 @@ Password: %4$s
 
 Puoi visitare l'helpdesk per sfogliare gli articoli e puoi contattarci in qualsiasi momento: %2$s
 
-Si informa che Kayako elabora le informazioni dell'utente per migliorare la qualità e l'esperienza utente dell'help desk
+Si informa che QuickSupport elabora le informazioni dell'utente per migliorare la qualità e l'esperienza utente dell'help desk
 
 Grazie di esserti registrato!
 
@@ -329,13 +329,13 @@ Grazie di esserti registrato!
 <phrase section="default" code="replytocomment"><![CDATA[Rispondi al commento]]></phrase>
 <phrase section="default" code="requiredfieldempty"><![CDATA[Uno dei campi obbligatori è vuoto]]></phrase>
 <phrase section="default" code="rssfeed"><![CDATA[Feed RSS]]></phrase>
-<phrase section="default" code="regpolicytext">Acconsento che Kayako elabori i miei dati e accetti i termini del </phrase>
+<phrase section="default" code="regpolicytext">Acconsento che QuickSupport elabori i miei dati e accetti i termini del </phrase>
 <phrase section="default" code="regpolicyurl">politica sulla riservatezza</phrase>
 <phrase section="default" code="regpolicyareement">Informativa sulla privacy richiesta</phrase>
 <phrase section="default" code="cookiepolicyagreement">Sono d'accordo</phrase>
 <phrase section="default" code="cookiepolicytext">Questo sito utilizza i cookie per assicurarti la migliore esperienza sul nostro sito. Per maggiori informazioni sui cookie, si prega di leggere il nostro </phrase>
 <phrase section="default" code="cookiepolicyurl">politica sulla riservatezza</phrase>
-<phrase section="livechatclient" code="fieldregpolicytext">Acconsento che Kayako elabori i miei dati e accetti i termini del </phrase>
+<phrase section="livechatclient" code="fieldregpolicytext">Acconsento che QuickSupport elabori i miei dati e accetti i termini del </phrase>
 <phrase section="livechatclient" code="fieldregpolicyurl">politica sulla riservatezza</phrase>
 <phrase section="tickets" code="st_regpolicyareement">Informativa sulla privacy richiesta</phrase>
 <phrase section="mime" code="rtf"><![CDATA[File RTF]]></phrase>

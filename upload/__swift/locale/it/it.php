@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -39,7 +39,7 @@ $__LANG = array(
     'username'                     => 'Nome utente',
     'password'                     => 'Password',
     'rememberme'                   => 'Ricordami',
-    'defaulttitle'                 => '%s - Powered by Kayako',
+    'defaulttitle'                 => '%s - Powered by QuickSupport',
     'login'                        => 'Accedi',
     'global'                       => 'Globale',
     'first'                        => 'Primo',
@@ -47,11 +47,11 @@ $__LANG = array(
     'pagination'                   => 'Pagina %s di %s',
     'submit'                       => 'Invia',
     'reset'                        => 'Reimposta',
-    'poweredby'                    => 'Software di Helpdesk Powered by Kayako',
-    'copyright'                    => 'Copyright &copy; 2001-%s Kayako',
-    'notifycsrfhash'               => 'Kayako ha avuto un problema nel convalidare questa richiesta',
-    'titlecsrfhash'                => 'Kayako ha avuto un problema nel convalidare questa richiesta',
-    'msgcsrfhash'                  => 'Kayako convalida le richieste per proteggere contro le richieste intersito contraffatte e non è stato possibile convalidare questa richiesta. Riprova per favore.',
+    'poweredby'                    => 'Software di Helpdesk Powered by QuickSupport',
+    'copyright'                    => 'Copyright &copy; 2001-%s QuickSupport',
+    'notifycsrfhash'               => 'QuickSupport ha avuto un problema nel convalidare questa richiesta',
+    'titlecsrfhash'                => 'QuickSupport ha avuto un problema nel convalidare questa richiesta',
+    'msgcsrfhash'                  => 'QuickSupport convalida le richieste per proteggere contro le richieste intersito contraffatte e non è stato possibile convalidare questa richiesta. Riprova per favore.',
     'invaliduser'                  => 'Il nome utente o la password è errata',
     'invaliduseripres'             => 'Indirizzo IP non autorizzato (tentativo: %d di %d)',
     'invaliduserdisabled'          => 'Questo account è disabilitato (tentativo: %d di %d)',
@@ -74,7 +74,7 @@ $__LANG = array(
     'logout'                       => 'Disconnetti',
     'staffcp'                      => 'CP Personale',
     'admincp'                      => 'CP Admin',
-    'winapp'                       => 'Kayako Desktop',
+    'winapp'                       => 'QuickSupport Desktop',
     'staffapi'                     => 'Staff API',
     'bytes'                        => 'Byte',
     'kb'                           => 'KB',
@@ -207,7 +207,7 @@ $__LANG = array(
     'interface_staff'              => 'CP Personale',
     'interface_intranet'           => 'Intranet',
     'interface_api'                => 'API',
-    'interface_winapp'             => 'Kayako Desktop/API del Personale',
+    'interface_winapp'             => 'QuickSupport Desktop/API del Personale',
     'interface_syncworks'          => 'SyncWorks',
     'interface_instaalert'         => 'InstaAlert',
     'interface_pda'                => 'PDA',
@@ -238,7 +238,7 @@ $__LANG = array(
     'searchmodeactive'             => 'I risultati sono filtrati - clicca per resettare',
     'notifysearchfailed'           => '"0" Risultati Trovati',
     'titlesearchfailed'            => '"0" Risultati Trovati',
-    'msgsearchfailed'              => 'Kayako non è stato in grado di individuare record corrispondenti ai criteri specificati.',
+    'msgsearchfailed'              => 'QuickSupport non è stato in grado di individuare record corrispondenti ai criteri specificati.',
     'quickfilter'                  => 'Filtro Rapido',
     'fuenterurl'                   => 'Immetti l\'URL:',
     'fuorupload'                   => 'o Carica:',
@@ -376,7 +376,7 @@ $__LANG = array(
     'app_reports'                  => 'Report',
 
     // Potentialy unused phrases in en-us.php
-    'defaultloginapi'              => 'Kayako Login Routine',
+    'defaultloginapi'              => 'QuickSupport Login Routine',
     'redirect_login'               => 'Processing Login...',
     'redirect_dashboard'           => 'Redirecting to Home...',
     'no_wait'                      => 'Please click here if your browser does not automatically redirect you',
@@ -388,7 +388,7 @@ $__LANG = array(
     'searchfieldquery'             => 'Query: ',
     'searchfieldfield'             => 'Field: ',
     'settingsfieldresultsperpage'  => 'Results Per Page: ',
-    'clidefault'                   => '%s v%s\\nCopyright (c) 2001-%s Kayako\\n',
+    'clidefault'                   => '%s v%s\\nCopyright (c) 2001-%s QuickSupport\\n',
     'firstselect'                  => '- Select -',
     'exportasxml'                  => 'XML',
     'exportascsv'                  => 'CSV',
@@ -396,7 +396,7 @@ $__LANG = array(
     'exportaspdf'                  => 'PDF',
     'clientarea'                   => 'Support Center',
     'pdainterface'                 => 'PDA Interface',
-    'kayakomobile'                 => 'Kayako Mobile',
+    'kayakomobile'                 => 'QuickSupport Mobile',
     'thousandsseperator'           => ',',
     'clierror'                     => '[ERROR]: ',
     'cliwarning'                   => '[WARNING]: ',
@@ -434,7 +434,7 @@ $__LANG = array(
     'maddthumbnail'                => 'Thumbnail',
     'maddthumbnailwithlink'        => 'Thumbnail with Link',
     'checkuncheckall'              => 'Check/Uncheck All',
-    'defaultloginshare'            => 'Kayako LoginShare',
+    'defaultloginshare'            => 'QuickSupport LoginShare',
     'invalidusernoapiaccess'       => 'Invalid Staff. This staff does not have API access, please configure under Settings > General.',
     'msgupdsettings'               => 'Successfully updated all settings for "%s"',
     'msgpwpolicy'                  => 'The password specified does not match the requirements of the Password Policy.',

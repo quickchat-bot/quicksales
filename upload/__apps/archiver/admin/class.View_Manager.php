@@ -3,7 +3,7 @@
 /**
  * ###############################################
  *
- * Archiver App for Kayako
+ * Archiver App for QuickSupport
  * _______________________________________________
  *
  * @author        Werner Garcia <werner.garcia@crossover.com>

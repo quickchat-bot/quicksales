@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -42,7 +42,7 @@ $__LANG = array(
     'sendnotification'            => 'Отправить уведомление пользователю',
     'desc_sendnotification'       => '',
     'titlenoplanavail'            => 'План SLA не доступен',
-    'msgnoplanavail'              => 'В Kayako не было добавлено ни одного плана SLA. Необходимо добавить план SLA, чтобы добавить/обновить правило эскалации.',
+    'msgnoplanavail'              => 'В QuickSupport не было добавлено ни одного плана SLA. Необходимо добавить план SLA, чтобы добавить/обновить правило эскалации.',
     'creationdate'                => 'Дата создания',
     'wineditescalationrule'       => 'Редактировать правило эскалации: %s',
     'invalidescalationrule'       => 'Недопустимое правило эскалации. Пожалуйста, убедитесь, что такое правило существует а базе данных.',

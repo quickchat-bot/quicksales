@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -43,7 +43,7 @@ $__LANG = array (
     'interface_api' => 'API',
     'interface_pda' => 'Phone',
     'titleloginfailure' => 'Login Failure Logged',
-    'msgloginfailure' => 'Kayako has detected login failures since your last login.',
+    'msgloginfailure' => 'QuickSupport has detected login failures since your last login.',
     'activitylog' => 'Activity Log',
     'logdetails' => 'Log Details',
     'logdateline' => 'Log Date',

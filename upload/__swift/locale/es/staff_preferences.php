@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -54,7 +54,7 @@ $__LANG = array(
     'stafftimezone'            => 'Zona horaria',
     'desc_stafftimezone'       => 'Si no selecciona una zona horaria, se utilizará el valor predeterminado de helpdesk.',
     'staffenabledst'           => 'Detección de horario de verano',
-    'desc_staffenabledst'      => 'Si se activa, Kayako detecta el horario de verano y hace los ajustes automáticamente.',
+    'desc_staffenabledst'      => 'Si se activa, QuickSupport detecta el horario de verano y hace los ajustes automáticamente.',
     'livechatoptions'          => 'Configuración del Live Chat',
     'lcgreeting'               => 'Saludo automático',
     'desc_lcgreeting'          => 'Este saludo se enviará automáticamente de su parte cuando acepte un Live Chat. Por ejemplo: <em>Hola, ¿en qué puedo ayudarle?</em>',

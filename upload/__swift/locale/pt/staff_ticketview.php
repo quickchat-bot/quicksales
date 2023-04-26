@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -17,7 +17,7 @@
 
 $__LANG = array(
     'titlemasterviewdel'            => 'Não é possível eliminar "%d" vista(s)',
-    'msgmasterviewdel'              => 'Não é possível ao Kayako eliminar a(s) seguinte(s) vista(s) de pedido de suporte principal:',
+    'msgmasterviewdel'              => 'Não é possível ao QuickSupport eliminar a(s) seguinte(s) vista(s) de pedido de suporte principal:',
     'manageviews'                   => 'Vistas',
     'insertview'                    => 'Inserir vista',
     'viewtitle'                     => 'Título da vista do pedido de suporte',
@@ -81,7 +81,7 @@ $__LANG = array(
     'afterreply_ticket'             => 'O pedido de suporte ativo',
     'afterreply_nextticket'         => 'Próximo pedido de suporte disponível',
     'viewafterreplyaction'          => 'Após responder a um pedido de suporte, leve-me para',
-    'desc_viewafterreplyaction'     => 'Selecione para onde Kayako o deve levar (ou a quem estiver a utilizar esta vista) após responder a um pedido de suporte ou reencaminhar o mesmo.',
+    'desc_viewafterreplyaction'     => 'Selecione para onde QuickSupport o deve levar (ou a quem estiver a utilizar esta vista) após responder a um pedido de suporte ou reencaminhar o mesmo.',
 
     'sort_asc'                      => 'Ascendente',
     'sort_desc'                     => 'Descendente',
@@ -89,7 +89,7 @@ $__LANG = array(
     // Potentialy unused phrases in staff_ticketview.php
     'viewfilteroptions'             => 'Filter Options',
     'viewfilterdepartments'         => 'Filter Department(s)',
-    'desc_viewfilterdepartments'    => 'Kayako by default will display tickets from all/selected department. However, you can use this option to filter the tickets based on the selected departments.',
+    'desc_viewfilterdepartments'    => 'QuickSupport by default will display tickets from all/selected department. However, you can use this option to filter the tickets based on the selected departments.',
     'viewfiltertype'                => 'Filter Ticket Type(s)',
     'desc_viewfiltertype'           => 'You can use this option to filter the tickets based on the selected ticket type(s).',
     'viewfilterstatus'              => 'Filter Ticket Status(es)',

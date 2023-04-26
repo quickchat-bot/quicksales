@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -20,7 +20,7 @@ $__LANG = array(
     'languageisenabled'          => 'Idioma ativado',
     'desc_languageisenabled'     => 'Se permitir, os utilizadores finais poderão selecionar este idioma no centro de suporte.',
     'titlemissingphrases'        => 'Frases em falta encontradas',
-    'msgmissingphrases'          => 'Kayako encontrou %d frases em falta. Recomenda-se que atualize o idioma selecionado e insira todas as frases em falta.',
+    'msgmissingphrases'          => 'QuickSupport encontrou %d frases em falta. Recomenda-se que atualize o idioma selecionado e insira todas as frases em falta.',
     'tabimport'                  => 'Importar',
     'tabexport'                  => 'Exportar',
     'languagemen'                => 'Idioma',
@@ -30,9 +30,9 @@ $__LANG = array(
     'titleupdatedlangphrases'    => 'Frases atualizadas',
     'msgupdatedlangphrases'      => 'Foram atualizadas frases para %s.',
     'titlevcfailed'              => 'Pacote de idiomas desatualizado',
-    'msgvcfailed'                => 'O pacote de idiomas carregado foi criado para uma versão antiga da Kayako. Pode ignorar esta verificação ao ativar <em>Ignorar verificação da versão</em> abaixo.',
+    'msgvcfailed'                => 'O pacote de idiomas carregado foi criado para uma versão antiga da QuickSupport. Pode ignorar esta verificação ao ativar <em>Ignorar verificação da versão</em> abaixo.',
     'titlelangimpfailed'         => 'Falha na importação/intercalação de idioma',
-    'msglangimpfailed'           => 'A Kayako teve problemas ao importar este pacote de idiomas. Pode não estar no formato correto ou pode conter dados inválidos.',
+    'msglangimpfailed'           => 'A QuickSupport teve problemas ao importar este pacote de idiomas. Pode não estar no formato correto ou pode conter dados inválidos.',
     'tabsearch'                  => 'Pesquisar',
     'tabgeneral'                 => 'Geral',
     'flagicon'                   => 'Ícone de sinalizador',
@@ -48,7 +48,7 @@ $__LANG = array(
     'titlemergelang'             => 'Intercalação de idiomas com sucesso',
     'msgmergelang'               => 'Intercalou com sucesso o pacote de idiomas com o idioma "%s".',
     'titleimportlang'            => 'Importação de idioma com sucesso',
-    'msgimportlang'              => 'O pacote de idiomas foi importado com sucesso. A Kayako criou o seguinte idioma:',
+    'msgimportlang'              => 'O pacote de idiomas foi importado com sucesso. A QuickSupport criou o seguinte idioma:',
     'titlephraseinsert'          => 'Frase (%s) criada',
     'msgphraseinsert'            => 'A frase (%s) foi criada com sucesso. <strong>Idioma: </strong>%s <strong>Código da frase:</strong> %s <strong>Secção da frase:</strong> %s <strong>Frase:</strong> %s',
     'titlephrasedel'             => 'Frase eliminada',
@@ -69,7 +69,7 @@ $__LANG = array(
     'diagnosticslang1'           => 'Idioma',
     'desc_diagnosticslang1'      => 'O idioma no qual pesquisar as frases.',
     'diagnosticslang2'           => 'Comparar com',
-    'desc_diagnosticslang2'      => 'Selecione o idioma com o qual pretende comparar as frases em falta. A Kayako listará todas as frases em falta no idioma principal.',
+    'desc_diagnosticslang2'      => 'Selecione o idioma com o qual pretende comparar as frases em falta. A QuickSupport listará todas as frases em falta no idioma principal.',
     'restorephrases'             => 'Restaurar frases',
     'desc_restorephrases'        => '',
     'tabrestorephrases'          => 'Restaurar frases',
@@ -134,7 +134,7 @@ $__LANG = array(
     'mergewith'                  => 'Método de importação',
     'desc_mergewith'             => '<strong>Criar novo idioma</strong> Crie um idioma completamente novo utilizando os dados no pacote de idiomas.<br /><strong>Selecionar idioma</strong> As frases traduzidas no pacote de idiomas serão intercaladas com o idioma existente.',
     'ignoreversion'              => 'Ignorar verificação da versão',
-    'desc_ignoreversion'         => 'Ative para forçar a Kayako a aceitar pacotes de idiomas criadas utilizando versões antigas da Kayako. Recomendamos apenas a utilização de traduções atualizadas.',
+    'desc_ignoreversion'         => 'Ative para forçar a QuickSupport a aceitar pacotes de idiomas criadas utilizando versões antigas da QuickSupport. Recomendamos apenas a utilização de traduções atualizadas.',
     'createnewlanguage'          => '-- Criar novo idioma --',
     'languageimportconfirmation' => 'Idioma %s importado com sucesso',
     'managephrases'              => 'Gerir frases',
@@ -152,7 +152,7 @@ $__LANG = array(
     'desc_searchtype'            => '<strong>Identificador e texto</strong> Pesquisará na frase textos e identificadores de frase.<br /><strong>Identificador</strong> Só irá pesquisar os identificadores de frase.',
     'searchlanguage'             => 'Pesquisar no idioma',
     'desc_searchlanguage'        => 'Seleciona o idioma de pesquisa.',
-    'versioncheckfailed'         => 'ERRO: este pacote de idiomas foi criado utilizando uma versão mais antiga da Kayako e está desatualizado',
+    'versioncheckfailed'         => 'ERRO: este pacote de idiomas foi criado utilizando uma versão mais antiga da QuickSupport e está desatualizado',
     'addphrase'                  => 'Inserir frase',
     'changelanguage'             => 'Avanço de idioma',
     'desc_phrasecode'            => 'Introduza um identificador exclusivo para a nova frase. Por exemplo: <em>pedido de suporte_minha frase</em>.',

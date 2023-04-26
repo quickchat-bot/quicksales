@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -20,7 +20,7 @@ $__LANG = array(
     'languageisenabled'          => 'Taal ingeschakeld',
     'desc_languageisenabled'     => 'Als dit is ingeschakeld, kunnen je eindgebruikers deze taal selecteren in het support center.',
     'titlemissingphrases'        => 'Ontbrekende zinnen gevonden',
-    'msgmissingphrases'          => 'Kayako heeft %d ontbrekende zinnen gevonden. Het is aanbevolen dat je de geselecteerde taal bijwerkt en alle ontbrekende zinnen toevoegt.',
+    'msgmissingphrases'          => 'QuickSupport heeft %d ontbrekende zinnen gevonden. Het is aanbevolen dat je de geselecteerde taal bijwerkt en alle ontbrekende zinnen toevoegt.',
     'tabimport'                  => 'Importeren',
     'tabexport'                  => 'Exporteren',
     'languagemen'                => 'Taal',
@@ -30,9 +30,9 @@ $__LANG = array(
     'titleupdatedlangphrases'    => 'Zinnen bijgewerkt',
     'msgupdatedlangphrases'      => 'Zinnen voor %s zijn bijgewerkt.',
     'titlevcfailed'              => 'Taalpakket verouderd',
-    'msgvcfailed'                => 'Het geüploade taalpakket is gemaakt voor een oudere versie van Kayako. Je kunt deze controle overslaan door <em>Versiecontrole overslaan</em> hieronder in te schakelen.',
+    'msgvcfailed'                => 'Het geüploade taalpakket is gemaakt voor een oudere versie van QuickSupport. Je kunt deze controle overslaan door <em>Versiecontrole overslaan</em> hieronder in te schakelen.',
     'titlelangimpfailed'         => 'Taal importeren/samenvoegen mislukt',
-    'msglangimpfailed'           => 'Kayako ondervond problemen bij het importeren van dit taalpakket. Mogelijk heeft het niet de juiste indeling of bevat het foute gegevens.',
+    'msglangimpfailed'           => 'QuickSupport ondervond problemen bij het importeren van dit taalpakket. Mogelijk heeft het niet de juiste indeling of bevat het foute gegevens.',
     'tabsearch'                  => 'Zoeken',
     'tabgeneral'                 => 'Algemeen',
     'flagicon'                   => 'Vlagpictogram',
@@ -48,7 +48,7 @@ $__LANG = array(
     'titlemergelang'             => 'Taalsamenvoeging succesvol',
     'msgmergelang'               => 'Taalpakket succesvol samengevoegd met taal "%s".',
     'titleimportlang'            => 'Taalimport succesvol',
-    'msgimportlang'              => 'Het taalpakket is succesvol geïmporteerd. Kayako heeft de volgende taal gemaakt:',
+    'msgimportlang'              => 'Het taalpakket is succesvol geïmporteerd. QuickSupport heeft de volgende taal gemaakt:',
     'titlephraseinsert'          => 'Zin (%s) gemaakt',
     'msgphraseinsert'            => 'De zin (%s) is succesvol gemaakt. <strong>Taal: </strong>%s <strong>Zincode:</strong> %s <strong>Zinsectie:</strong> %s <strong>Zin:</strong> %s',
     'titlephrasedel'             => 'Zin verwijderd',
@@ -69,7 +69,7 @@ $__LANG = array(
     'diagnosticslang1'           => 'Taal',
     'desc_diagnosticslang1'      => 'De taal waarvan je zinnen wilt zoeken.',
     'diagnosticslang2'           => 'Vergelijken met',
-    'desc_diagnosticslang2'      => 'Selecteer de taal om de ontbrekende zinnen mee te vergelijken. Kayako zal een lijst van zinnen geven die ontbreken in de hoofdtaal.',
+    'desc_diagnosticslang2'      => 'Selecteer de taal om de ontbrekende zinnen mee te vergelijken. QuickSupport zal een lijst van zinnen geven die ontbreken in de hoofdtaal.',
     'restorephrases'             => 'Zinnen herstellen',
     'desc_restorephrases'        => '',
     'tabrestorephrases'          => 'Zinnen herstellen',
@@ -134,7 +134,7 @@ $__LANG = array(
     'mergewith'                  => 'Importmethode',
     'desc_mergewith'             => '<strong>Nieuwe taal maken</strong> Maak een geheel nieuwe taal op basis van de gegevens in het taalpakket.<br /><strong>Taal selecteren</strong> De vertaalde zinnen in het taalpakket worden samengevoegd met de bestaande taal.',
     'ignoreversion'              => 'Versiecontrole overslaan',
-    'desc_ignoreversion'         => 'Schakel dit in om Kayako te dwingen taalpakket te accepteren die met oudere versies van Kayako zijn gemaakt. Wij adviseren alleen up-to-date vertalingen te gebruiken.',
+    'desc_ignoreversion'         => 'Schakel dit in om QuickSupport te dwingen taalpakket te accepteren die met oudere versies van QuickSupport zijn gemaakt. Wij adviseren alleen up-to-date vertalingen te gebruiken.',
     'createnewlanguage'          => '-- Nieuwe taal maken --',
     'languageimportconfirmation' => 'Taal %s succesvol geïmporteerd',
     'managephrases'              => 'Zinnen beheren',
@@ -152,7 +152,7 @@ $__LANG = array(
     'desc_searchtype'            => '<strong>Identifier en tekst</strong> Zoekt in zinsteksten en zins-IDs.<br /><strong>Identifier</strong> Zoekt alleen op zins-IDs.',
     'searchlanguage'             => 'Zoeken binnen taal',
     'desc_searchlanguage'        => 'Selecteer de taal om te doorzoeken.',
-    'versioncheckfailed'         => 'FOUT: Dit taalpakket is gemaakt met een oudere versie van Kayako en is verouderd',
+    'versioncheckfailed'         => 'FOUT: Dit taalpakket is gemaakt met een oudere versie van QuickSupport en is verouderd',
     'addphrase'                  => 'Zin toevoegen',
     'changelanguage'             => 'Taal wisselen',
     'desc_phrasecode'            => 'Voer een unieke ID in voor de nieuwe zin. Bijvoorbeeld <em>ticket mijnzin</em>.',

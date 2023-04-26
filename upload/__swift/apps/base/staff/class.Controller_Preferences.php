@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -419,7 +419,7 @@ class Controller_Preferences extends Controller_staff
         }
 
         /**
-         * BUGFIX: KAYAKOC-2521 - Profile Image exploit in Kayako Classic
+         * BUGFIX: KAYAKOC-2521 - Profile Image exploit in QuickSupport Classic
          *
          * When an image with wrong format is uploaded, it should not
          * be used. Instead, the original content should be used or nothing if

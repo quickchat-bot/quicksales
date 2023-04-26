@@ -2,7 +2,7 @@
 /**
  * ###############################################
  *
- * Kayako Classic
+ * QuickSupport Classic
  * _______________________________________________
  *
  * @author        Busayo Arotimi <arotimi.busayo@crossover.com>

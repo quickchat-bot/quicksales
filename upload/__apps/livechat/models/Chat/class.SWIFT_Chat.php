@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -232,7 +232,7 @@ class SWIFT_Chat extends SWIFT_Model
         /*
          * BUG FIX - Ravi Sharma
          *
-         * SWIFT-2885 Chat shows ‘Pending’ in Kayako Desktop to all staff members, if staff declines a transfer chat
+         * SWIFT-2885 Chat shows ‘Pending’ in QuickSupport Desktop to all staff members, if staff declines a transfer chat
          *
          * Comments: When transfer request has been accepted, it should update the chat status and corresponding data aswell.
          */

@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -44,32 +44,32 @@ $__LANG = array(
     'lite'                       => 'Lite',
     'lastupdate'                 => 'Laatste update:',
     'notavailable'               => '- Niet beschikbaar -',
-    'titlegeoipremote'           => 'Kayako GeoIP-zoekdienst is actief',
-    'msggeoipremote'             => 'Je helpdesk gebruikt Kayako\'s GeoIP-zoekdienst. Er is geen verdere actie nodig.',
+    'titlegeoipremote'           => 'QuickSupport GeoIP-zoekdienst is actief',
+    'msggeoipremote'             => 'Je helpdesk gebruikt QuickSupport\'s GeoIP-zoekdienst. Er is geen verdere actie nodig.',
     'titlenofilecitylocation'    => 'Database voor Plaats (locatie) kon niet worden gevonden',
-    'msgnofilecitylocation'      => 'Kayako kan geen geldige GeoIP-database voor Plaats (locaties) vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
+    'msgnofilecitylocation'      => 'QuickSupport kan geen geldige GeoIP-database voor Plaats (locaties) vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
     'titlenofilecityblocks'      => 'Database voor Plaats (blokken) kon niet worden gevonden',
-    'msgnofilecityblocks'        => 'Kayako kan geen geldige GeoIP-database voor Plaats (blokken) vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
+    'msgnofilecityblocks'        => 'QuickSupport kan geen geldige GeoIP-database voor Plaats (blokken) vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
     'titlenofilenetspeed'        => 'Netsnelheidsdatabase kon niet worden gevonden',
-    'msgnofilenetspeed'          => 'Kayako kan geen geldige GeoIP-database voor Netsnelheden vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
+    'msgnofilenetspeed'          => 'QuickSupport kan geen geldige GeoIP-database voor Netsnelheden vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
     'titlenofileisp'             => 'Internetprovider-database kon niet worden gevonden',
-    'msgnofileisp'               => 'Kayako kan geen geldige GeoIP-database voor Netsnelheden vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
+    'msgnofileisp'               => 'QuickSupport kan geen geldige GeoIP-database voor Netsnelheden vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
     'titlenofileorganization'    => 'Organisatie-database kon niet worden gevonden',
-    'msgnofileorganization'      => 'Kayako kan geen geldige GeoIP-database voor Organisaties vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
+    'msgnofileorganization'      => 'QuickSupport kan geen geldige GeoIP-database voor Organisaties vinden. Je kunt de nieuwste database downloaden  in <a href="https://go.gfi.com/?pageid=GFIHelpDeskGeoIP">her</a>.',
     'titlenotbuiltcitylocations' => 'De database voor Plaats (locatie) is niet geïndexeerd',
-    'msgnotbuiltcitylocations'   => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door Kayako tot deze is geïndexeerd.',
+    'msgnotbuiltcitylocations'   => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door QuickSupport tot deze is geïndexeerd.',
     'titlenotbuiltcityblocks'    => 'De database voor Plaats (blokken) is niet geïndexeerd',
-    'msgnotbuiltcityblocks'      => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door Kayako tot deze is geïndexeerd.',
+    'msgnotbuiltcityblocks'      => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door QuickSupport tot deze is geïndexeerd.',
     'titlenotbuiltisp'           => 'De internetprovider-database is niet geïndexeerd',
-    'msgnotbuiltisp'             => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door Kayako tot deze is geïndexeerd.',
+    'msgnotbuiltisp'             => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door QuickSupport tot deze is geïndexeerd.',
     'titlenotbuiltnetspeed'      => 'De Netspeed database is niet geïndexeerd',
-    'msgnotbuiltnetspeed'        => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door Kayako tot deze is geïndexeerd.',
+    'msgnotbuiltnetspeed'        => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door QuickSupport tot deze is geïndexeerd.',
     'titlenotbuiltorganization'  => 'De Organisatiedatabase is niet geïndexeerd',
-    'msgnotbuiltorganization'    => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door Kayako tot deze is geïndexeerd.',
+    'msgnotbuiltorganization'    => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door QuickSupport tot deze is geïndexeerd.',
     'titlenotbuiltgeoip'         => 'De GeoIP-database is niet geïndexeerd',
-    'msgnotbuiltgeoip'           => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door Kayako tot deze is geïndexeerd.',
+    'msgnotbuiltgeoip'           => 'Informatie uit deze GeoIP-database kan niet worden gebruikt door QuickSupport tot deze is geïndexeerd.',
     'titlenotuptodategeoip'      => 'De GeoIP-database is verouderd',
-    'msgnotuptodategeoip'        => 'Je GeoIP-database is nieuwer dan wat Kayako heeft geïndexeerd. Wij raden aan je GeoIP-database te herindexeren als je over de meest recente locatie-informatie wilt beschikken.',
+    'msgnotuptodategeoip'        => 'Je GeoIP-database is nieuwer dan wat QuickSupport heeft geïndexeerd. Wij raden aan je GeoIP-database te herindexeren als je over de meest recente locatie-informatie wilt beschikken.',
 );
 
 return $__LANG;

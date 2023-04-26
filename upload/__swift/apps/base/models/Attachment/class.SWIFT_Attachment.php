@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -766,7 +766,7 @@ class SWIFT_Attachment extends SWIFT_Model
             if (SWIFT_FileManager::HasRemoteFile($this->GetProperty('storefilename'))) {
                 $_remoteFileInfo = SWIFT_FileManager::GetRemoteFileInfo($this->GetProperty('storefilename'));
                 if (!$_remoteFileInfo) {
-                    echo 'Unable to locate remote file "' . $this->GetProperty('storefilename') . '". Please contact Kayako support for assistance.';
+                    echo 'Unable to locate remote file "' . $this->GetProperty('storefilename') . '". Please contact QuickSupport support for assistance.';
                     return false;
                 }
 
@@ -774,7 +774,7 @@ class SWIFT_Attachment extends SWIFT_Model
                 $_filePointer = @fopen($_remoteFileInfo['url'], 'rb');
                 if (!$_filePointer)
                 {
-                    echo 'Unable to open remote file "' . $this->GetProperty('storefilename') . '", info: ' . print_r($_remoteFileInfo, true) . '. Please contact Kayako support for assistance.';
+                    echo 'Unable to open remote file "' . $this->GetProperty('storefilename') . '", info: ' . print_r($_remoteFileInfo, true) . '. Please contact QuickSupport support for assistance.';
 
                     return false;
                 }
@@ -888,7 +888,7 @@ class SWIFT_Attachment extends SWIFT_Model
             if (SWIFT_FileManager::HasRemoteFile($this->GetProperty('storefilename'))) {
                 $_remoteFileInfo = SWIFT_FileManager::GetRemoteFileInfo($this->GetProperty('storefilename'));
                 if (!$_remoteFileInfo) {
-                    echo 'Unable to locate remote file "' . $this->GetProperty('storefilename') . '". Please contact Kayako support for assistance.';
+                    echo 'Unable to locate remote file "' . $this->GetProperty('storefilename') . '". Please contact QuickSupport support for assistance.';
 
                     return false;
                 }
@@ -897,7 +897,7 @@ class SWIFT_Attachment extends SWIFT_Model
                 $_filePointer = @fopen($_remoteFileInfo['url'], 'rb');
                 if (!$_filePointer)
                 {
-                    echo 'Unable to open remote file "' . $this->GetProperty('storefilename') . '", info: ' . print_r($_remoteFileInfo, true) . '. Please contact Kayako support for assistance.';
+                    echo 'Unable to open remote file "' . $this->GetProperty('storefilename') . '", info: ' . print_r($_remoteFileInfo, true) . '. Please contact QuickSupport support for assistance.';
 
                     return false;
                 }
@@ -1338,7 +1338,7 @@ class SWIFT_Attachment extends SWIFT_Model
                 $_remoteFileInfo = SWIFT_FileManager::GetRemoteFileInfo($this->GetProperty('storefilename'));
 
                 if (!$_remoteFileInfo) {
-                    echo 'Unable to locate remote file "' . $this->GetProperty('storefilename') . '". Please contact Kayako support for assistance.';
+                    echo 'Unable to locate remote file "' . $this->GetProperty('storefilename') . '". Please contact QuickSupport support for assistance.';
 
                     return false;
                 }
@@ -1346,7 +1346,7 @@ class SWIFT_Attachment extends SWIFT_Model
                 // Yes, just read out the file
                 $_filePointer = @fopen($_remoteFileInfo['url'], 'rb');
                 if (!$_filePointer) {
-                    echo 'Unable to open remote file "' . $this->GetProperty('storefilename') . '", info: ' . print_r($_remoteFileInfo, true) . '. Please contact Kayako support for assistance.';
+                    echo 'Unable to open remote file "' . $this->GetProperty('storefilename') . '", info: ' . print_r($_remoteFileInfo, true) . '. Please contact QuickSupport support for assistance.';
 
                     return false;
                 }

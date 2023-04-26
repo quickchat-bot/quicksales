@@ -1,9 +1,9 @@
 <?php
 //=======================================
 //###################################
-// Kayako Web Solutions
+// QuickSupport Web Solutions
 //
-// Source Copyright 2001-2004 Kayako Singapore Pte. Ltd.
+// Source Copyright 2001-2004 QuickSupport Singapore Pte. Ltd.
 // Unauthorized reproduction is not allowed
 // License Number: $%LICENSE%$
 // $Author$ ($Date$)

@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -31,9 +31,9 @@ $__LANG = array(
     'titledelprules'            => 'Правила электронной почты удалены "%d"',
     'msgdelprules'              => 'Следующие правила парсера успешно удалены.',
     'titleenableprules'         => 'Активировано "%d" правил парсера',
-    'msgenableprules'           => 'Kayako успешно активировал следующие правила парсера:',
+    'msgenableprules'           => 'QuickSupport успешно активировал следующие правила парсера:',
     'titledisableprules'        => 'Деактивировано "%d" правил парсера',
-    'msgdisableprules'          => 'Kayako успешно деактивировал следующие правила парсера:',
+    'msgdisableprules'          => 'QuickSupport успешно деактивировал следующие правила парсера:',
     // ======= END v4 LOCALES =======
 
     'mailparser'                => 'Парсер почты',

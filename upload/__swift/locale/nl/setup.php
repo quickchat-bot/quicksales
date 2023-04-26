@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -171,7 +171,7 @@ $__LANG = array(
     'lc_skillspanish'                                => 'Spaans',
     'lc_searchenginerule'                            => 'Zoekmachinebezoekers',
     'workflowcloseticket'                            => 'Ticket sluiten',
-    'scconfirmcleardb'                               => 'WAARSCHUWING: weet je zeker dat je de database wilt wissen? Alle tabellen in deze database worden verwijderd, ook als ze geen onderdeel uitmaken van Kayako en het is volledig onomkeerbaar',
+    'scconfirmcleardb'                               => 'WAARSCHUWING: weet je zeker dat je de database wilt wissen? Alle tabellen in deze database worden verwijderd, ook als ze geen onderdeel uitmaken van QuickSupport en het is volledig onomkeerbaar',
     'tickettypeissue'                                => 'Kwestie',
     'tickettypetask'                                 => 'Taak',
     'tickettypebug'                                  => 'Bug',
@@ -225,7 +225,7 @@ $__LANG = array(
     'scgeoipdir'                                     => 'Controleren of de GeoIP-databasedirectory beschrijfbaar is',
     'scgeoipdirerror'                                => 'De directory (./__swift/geoip/) is niet beschrijfbaar. Zorg dat deze directory beschrijfbaar is',
     'scminphpversion'                                => 'Controleren van de PHP-versie van de server (minimale versie: %s)',
-    'scminphpversionerror'                           => 'De op deze server geïnstalleerde PHP-versie is te oud. Kayako vereist PHP-versie <strong>%s</strong> of nieuwer',
+    'scminphpversionerror'                           => 'De op deze server geïnstalleerde PHP-versie is te oud. QuickSupport vereist PHP-versie <strong>%s</strong> of nieuwer',
     'scfileup'                                       => 'Controleren of uploaden van bestanden is ingeschakeld',
     'scfileuperror'                                  => 'Wijzig <strong>file_uploads</strong> in het php.ini-configuratiebestand naar <strong>On</strong>',
     'scmaxupsize'                                    => 'Controleren van de maximale bestandsgrootte voor bestandsuploads',
@@ -244,11 +244,11 @@ $__LANG = array(
     'scextensioncheck'                               => 'Controleren of de PHP-extensie <strong>%s</strong> is geïnstalleerd',
     'scinstalled'                                    => 'GEÏNSTALLEERD',
     'scmissing'                                      => 'ONTBREEKT',
-    'scdbnotempty'                                   => 'De database is niet leeg. Klik op <strong>Database wissen</strong> om alle bestaande tabellen te verwijderen, of klik op <strong>Continue</strong> om verder te gaan met de installatie. Het wordt aanbevollen dat je Kayako in een lege database installeert',
+    'scdbnotempty'                                   => 'De database is niet leeg. Klik op <strong>Database wissen</strong> om alle bestaande tabellen te verwijderen, of klik op <strong>Continue</strong> om verder te gaan met de installatie. Het wordt aanbevollen dat je QuickSupport in een lege database installeert',
     'sccleardb'                                      => 'Database wissen',
     'sccontinue'                                     => 'Verder gaan',
     'scnext'                                         => 'Volgende &raquo;',
-    'scsyscheckfailed'                               => 'Helaas, Kayako kan niet worden geïnstalleerd. Er is een fout opgetreden, of je webserver voldoet niet aan de minimale systeemvereisten. Bekijk eventuele hierboven aangegeven fouten en probeer het installatieproces opnieuw, nadat dergelijke kwesties zijn opgelost',
+    'scsyscheckfailed'                               => 'Helaas, QuickSupport kan niet worden geïnstalleerd. Er is een fout opgetreden, of je webserver voldoet niet aan de minimale systeemvereisten. Bekijk eventuele hierboven aangegeven fouten en probeer het installatieproces opnieuw, nadat dergelijke kwesties zijn opgelost',
     'scstartsetup'                                   => 'Installatie starten',
     'scpassnomatch'                                  => 'Wachtwoorden komen niet overeen',
     'scfieldempty'                                   => 'Een van de verplichte velden is leeg',
@@ -271,7 +271,7 @@ $__LANG = array(
 
     'sclanguage'                                     => 'Taal maken: %s',
     'sclanguagesection'                              => 'Taalsectie maken: %s',
-    'scsetupconfirmation'                            => 'Kayako is nu geïnstalleerd op je webserver! Ga naar het adminbeheerscherm om je helpdesk verder te configureren.<br/><br/><font color="red"><b>Belangrijk:</b> Je kunt Kayako niet gebruiken tot je de \'setup\'-directory verwijdert in de rootinstallatiedirectory.</font><br/><br/><font color="darkblue"><b>Importeren van je gegevens:</b></font> Je kunt helpdeskgegevens van eerdere Kayako-producten importeren, of van anderen producten, door middel van de importengine in het adminbeheerscherm.',
+    'scsetupconfirmation'                            => 'QuickSupport is nu geïnstalleerd op je webserver! Ga naar het adminbeheerscherm om je helpdesk verder te configureren.<br/><br/><font color="red"><b>Belangrijk:</b> Je kunt QuickSupport niet gebruiken tot je de \'setup\'-directory verwijdert in de rootinstallatiedirectory.</font><br/><br/><font color="darkblue"><b>Importeren van je gegevens:</b></font> Je kunt helpdeskgegevens van eerdere QuickSupport-producten importeren, of van anderen producten, door middel van de importengine in het adminbeheerscherm.',
     'scupgradeconfirmation'                          => '<div class="smalltext">Je helpdesk is nu up-to-date.</div><br/><br/><font color="red"><b>Belangrijk:</b> Je moet direct de \'setup\'-directory in de rootinstallatiedirectory verwijderen. Als je dit niet doet, kan dit een lege database tot gevolg hebben als iemand de installatie uitvoert.',
     'scadmincp'                                      => 'Adminbeheerscherm',
     'scstaffcp'                                      => 'Medewerkerbeheerscherm',
@@ -301,7 +301,7 @@ $__LANG = array(
     'snewuser'                                       => 'Gebruikersregistratie',
     'scmaxexectime'                                  => 'Controleren van de maximale uitvoertijd van PHP-scripts',
     'scmaxexectimelessspec'                          => '<strong>max_execution_time</strong> is op %d seconden gezet (tenminste 90 seconden is aanbevolen)',
-    'scmaxexectimeerror'                             => 'Kayako-installatie heeft een langere maximale uitvoeringstijd nodig. Wijzig <strong>max_execution_time</strong> in het php.ini-configuratiebestand',
+    'scmaxexectimeerror'                             => 'QuickSupport-installatie heeft een langere maximale uitvoeringstijd nodig. Wijzig <strong>max_execution_time</strong> in het php.ini-configuratiebestand',
 
 
     'statusonhold'                                   => 'In de wacht',
@@ -320,7 +320,7 @@ $__LANG = array(
     'defaultview'                                    => 'Standaard weergave',
     'alltickets'                                     => 'Alle tickets',
     'impex'                                          => 'Importeren',
-    'setupwelcome'                                   => 'Welkom bij de Kayako-installatie. Kies een optie om te beginnen.',
+    'setupwelcome'                                   => 'Welkom bij de QuickSupport-installatie. Kies een optie om te beginnen.',
 
     // Potentialy unused phrases in setup.php
     'issuefixed'                                     => 'Fixed',

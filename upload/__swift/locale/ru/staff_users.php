@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -88,7 +88,7 @@ $__LANG = array(
     'usertimezone'                   => 'Временная зона',
     'desc_usertimezone'              => 'Если Вы не укажите свою временную зону, система будет использовать свои стандартные настройки времени.',
     'userenabledst'                  => 'Определение летнего времени',
-    'desc_userenabledst'             => 'Если эта опция включена, Kayako будет автоматически определять время перехода на летнее время и вносить соответствующие поправки.',
+    'desc_userenabledst'             => 'Если эта опция включена, QuickSupport будет автоматически определять время перехода на летнее время и вносить соответствующие поправки.',
     'defaultlanguage'                => '-- Язык по умолчанию --',
     'userlanguage'                   => 'Язык',
     'desc_userlanguage'              => 'Выберите язык, который будет использован при входе пользователя в центр поддержки. Указанный язык отменяет стандартные языковые настройки системы.',
@@ -133,7 +133,7 @@ $__LANG = array(
     'titledeleteduserorganization'   => 'Организации удалены (%d)',
     'msgdeleteduserorganization'     => 'Следующие организации пользователей удалены:',
     'userorganizationemails'         => 'Фильр доменов Email',
-    'desc_userorganizationemails'    => 'Kayako автоматически добавляет любого пользователя в эту организацию, если в его email адресе есть одно из домeнных имен.<br/><br/>Например, если Вы указали доменное имя <em>acme.com</em>, система автоматически добавит в организацию пользователя с email адресом <em>joe.bloggs@acme.com</em>.',
+    'desc_userorganizationemails'    => 'QuickSupport автоматически добавляет любого пользователя в эту организацию, если в его email адресе есть одно из домeнных имен.<br/><br/>Например, если Вы указали доменное имя <em>acme.com</em>, система автоматически добавит в организацию пользователя с email адресом <em>joe.bloggs@acme.com</em>.',
     'contactdetails'                 => 'Контактная информация',
     'userorganizationslaplan'        => 'Приоритетный SLA план',
     'desc_userorganizationslaplan'   => 'Всем заявкам, созданным пользователями этой организации, будет назначен этот SLA план. Обратите внимание, что приоритетный SLA плана для отдельного пользователя не учитывает эти настройки.',

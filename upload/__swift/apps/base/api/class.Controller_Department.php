@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -134,7 +134,7 @@ class Controller_Department extends Controller_api implements SWIFT_REST_Interfa
      *        </department>
      *        <department>
      *            <id>3</id>
-     *            <title>Kayako Fusion</title>
+     *            <title>QuickSupport Fusion</title>
      *            <type>public</type>
      *            <app>livechat</app>
      *            <displayorder>3</displayorder>
@@ -358,7 +358,7 @@ class Controller_Department extends Controller_api implements SWIFT_REST_Interfa
      *    <departments>
      *        <department>
      *            <id>3</id>
-     *            <title>Kayako Fusion</title>
+     *            <title>QuickSupport Fusion</title>
      *            <type>public</type>
      *            <app>livechat</ap>
      *            <displayorder>3</displayorder>

@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -824,7 +824,7 @@ class SWIFT_ChatEventWinapp extends SWIFT_ChatEvent
                     /*
                      * BUG FIX - Ravi Sharma
                      *
-                     * SWIFT-2885 Chat shows ‘Pending’ in Kayako Desktop to all staff members, if staff declines a transfer chat
+                     * SWIFT-2885 Chat shows ‘Pending’ in QuickSupport Desktop to all staff members, if staff declines a transfer chat
                      *
                      * Comments: In case of open queue, transfertoid should not check with staffid.
                      */

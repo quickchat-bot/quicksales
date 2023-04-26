@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -88,7 +88,7 @@ $__LANG = array(
     'usertimezone'                   => 'Fuso orario',
     'desc_usertimezone'              => 'Se non selezioni un fuso orario verrà utilizzato il valore predefinito dell\'helpdesk.',
     'userenabledst'                  => 'Rilevazione ora legale',
-    'desc_userenabledst'             => 'Quando è abilitato, Kayako rileverà l\'ora legale ed effettuerà automaticamente le correzioni.',
+    'desc_userenabledst'             => 'Quando è abilitato, QuickSupport rileverà l\'ora legale ed effettuerà automaticamente le correzioni.',
     'defaultlanguage'                => '-- Lingua Predefinita --',
     'userlanguage'                   => 'Lingua',
     'desc_userlanguage'              => 'Seleziona la lingua che questo utente vedrà quando si collega al centro di supporto. Se questo viene designato, la lingua predefinita del gruppo di modelli verrà sostituita.',
@@ -133,7 +133,7 @@ $__LANG = array(
     'titledeleteduserorganization'   => 'Organizzazioni eliminate (%d)',
     'msgdeleteduserorganization'     => 'Sono state eliminate le seguenti organizzazioni utente:',
     'userorganizationemails'         => 'Filtri dominii email',
-    'desc_userorganizationemails'    => 'Kayako aggiungerà automaticamente qualsiasi utente registrato con un indirizzo email contenente un dominio appartenente a questa organizzazione.<br/><br/>Per esempio, aggiungendo <em>acme.com</em> significa che un utente con indirizzo email <em>mario.rossi@acme.com</em> verrà aggiunto a questa organizzazione.',
+    'desc_userorganizationemails'    => 'QuickSupport aggiungerà automaticamente qualsiasi utente registrato con un indirizzo email contenente un dominio appartenente a questa organizzazione.<br/><br/>Per esempio, aggiungendo <em>acme.com</em> significa che un utente con indirizzo email <em>mario.rossi@acme.com</em> verrà aggiunto a questa organizzazione.',
     'contactdetails'                 => 'Dettagli Contatto',
     'userorganizationslaplan'        => 'Sostituzione del piano SLA',
     'desc_userorganizationslaplan'   => 'Questo piano di SLA verrà assegnato a tutti i ticket creati dagli utenti appartenenti a questa organizzazione. Notasi che avrà precedenza su questa impostazione la sostituzione del piano di SLA assegnata ad un utente specifico.',

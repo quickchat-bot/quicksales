@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -31,7 +31,7 @@ define('SEARCH_COL_TYPE', "type");
 define('SEARCH_COL_FULLTEXT', "ft");
 
 // DB layer had a limitation which hinders fast MyISAM FULLTEXT Search, when using
-// MySQL < 5.6.20. Kayako had implemented a strategy to overcome this limitation, by
+// MySQL < 5.6.20. QuickSupport had implemented a strategy to overcome this limitation, by
 // using "SearchIdentifier" within FULLTEXT contents. MySQL uses every word with length
 // greater than 3 & and containing underscores & alphanumerics to create word index.
 // When searching, identifier is passed with Search query and hence improves the searching.

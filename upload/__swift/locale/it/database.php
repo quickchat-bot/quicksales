@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -22,7 +22,7 @@ $__LANG = array(
     'export'              => 'Esporta',
     'dbtables'            => 'Tabelle di Database',
     'exportdata'          => 'Esporta i dati e lo schema.',
-    'desc_exportdata'     => 'Se questa impostazione è attiva, Kayako esporterà i dati del database e lo schema.',
+    'desc_exportdata'     => 'Se questa impostazione è attiva, QuickSupport esporterà i dati del database e lo schema.',
     'dbdiagnostics'       => 'Diagnostica',
     'desc_dbdiagnostics'  => '',
     'tabdiagnostics'      => 'Diagnostica',

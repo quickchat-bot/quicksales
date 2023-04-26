@@ -271,7 +271,7 @@
   fixed a few things since 1.0.1
 * The include_path isn't altered anymore, hopefully saving some stat calls
 * User classes extending Dwoo_Template_File are now supported better with
-  regard to includes - Thanks to the Kayako.com team for the patch
+  regard to includes - Thanks to the QuickSupport.com team for the patch
 * Objects now act like arrays when you access non-existing properties on
   them (i.e. it outputs a notice only if it's output straight, and none
   when passed to a function)

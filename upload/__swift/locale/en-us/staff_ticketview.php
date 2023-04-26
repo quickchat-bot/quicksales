@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -17,7 +17,7 @@
 
 $__LANG = array(
     'titlemasterviewdel' => 'Unable to Delete "%d" View(s)',
-    'msgmasterviewdel' => 'Kayako is unable to delete the following master ticket view(s):',
+    'msgmasterviewdel' => 'QuickSupport is unable to delete the following master ticket view(s):',
     'manageviews' => 'Views',
     'insertview' => 'Insert View',
     'viewtitle' => 'Ticket view title',
@@ -82,7 +82,7 @@ $__LANG = array(
     'afterreply_ticket' => 'The active ticket',
     'afterreply_nextticket' => 'Next available ticket',
     'viewafterreplyaction' => 'After a ticket has been replied to, take me to',
-    'desc_viewafterreplyaction' => 'Select where Kayako should take you (or whomever is using this view) after replying to or forwarding a ticket.',
+    'desc_viewafterreplyaction' => 'Select where QuickSupport should take you (or whomever is using this view) after replying to or forwarding a ticket.',
 
     'sort_asc' => 'Ascending',
     'sort_desc' => 'Descending',
@@ -90,7 +90,7 @@ $__LANG = array(
     // Potentialy unused phrases in staff_ticketview.php
     'viewfilteroptions' => 'Filter Options',
     'viewfilterdepartments' => 'Filter Department(s)',
-    'desc_viewfilterdepartments' => 'Kayako by default will display tickets from all/selected department. However, you can use this option to filter the tickets based on the selected departments.',
+    'desc_viewfilterdepartments' => 'QuickSupport by default will display tickets from all/selected department. However, you can use this option to filter the tickets based on the selected departments.',
     'viewfiltertype' => 'Filter Ticket Type(s)',
     'desc_viewfiltertype' => 'You can use this option to filter the tickets based on the selected ticket type(s).',
     'viewfilterstatus' => 'Filter Ticket Status(es)',

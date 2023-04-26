@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -93,7 +93,7 @@ $__LANG = array (
     'usertimezone' => 'Time zone',
     'desc_usertimezone' => 'If you do not select a time zone, the helpdesk default will be used.',
     'userenabledst' => 'Daylight savings time detection',
-    'desc_userenabledst' => 'When enabled, Kayako will detect daylight savings time and automatically make adjustments.',
+    'desc_userenabledst' => 'When enabled, QuickSupport will detect daylight savings time and automatically make adjustments.',
     'defaultlanguage' => '-- Default Language --',
     'userlanguage' => 'Language',
     'desc_userlanguage' => 'Select which language this user will see when they log in to the support center. If set, the template group default language will be overridden.',
@@ -138,7 +138,7 @@ $__LANG = array (
     'titledeleteduserorganization' => 'Organizations deleted (%d)',
     'msgdeleteduserorganization' => 'The following user organizations were deleted:',
     'userorganizationemails' => 'Email domain filters',
-    'desc_userorganizationemails' => 'Kayako will automatically add any users who register with an email address containing one of these domain names to this organization.<br/><br/>For example, adding <em>acme.com</em> will mean that a user with email address <em>joe.bloggs@acme.com</em> will be added to this organization.',
+    'desc_userorganizationemails' => 'QuickSupport will automatically add any users who register with an email address containing one of these domain names to this organization.<br/><br/>For example, adding <em>acme.com</em> will mean that a user with email address <em>joe.bloggs@acme.com</em> will be added to this organization.',
     'contactdetails' => 'Contact Details',
     'userorganizationslaplan' => 'SLA plan override',
     'desc_userorganizationslaplan' => 'All tickets created by users belonging to this organization will be assigned this SLA plan. Note that an SLA plan override for a specific user will take precedence over this setting.',

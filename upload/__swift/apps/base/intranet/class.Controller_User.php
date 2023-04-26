@@ -8,7 +8,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -148,7 +148,7 @@ class Controller_User extends Controller_intranet
 
             $_finalDisplayText = '';
 
-            // Varun Shoor (Kayako Infotech Ltd.)
+            // Varun Shoor (QuickSupport Infotech Ltd.)
             // 2nd Floor, Midas Corporate Park
             // Jalandhar, Punjab, India
             // Organization Phone: +91 181xxx

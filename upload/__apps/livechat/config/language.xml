@@ -2,7 +2,7 @@
 <swiftlanguage>
 	<title>English (U.S.)</title>
 	<isocode>en-us</isocode>
-	<author>Kayako</author>
+	<author>QuickSupport</author>
 	<charset>UTF-8</charset>
 	<textdirection>LTR</textdirection>
 	<version>0</version>
@@ -20,7 +20,7 @@
 	<phrase section="livechatclient" code="clickleavemessage">Live Chat is offline. Click here to leave a message.</phrase>
 	<phrase section="livechatclient" code="online">Online</phrase>
 	<phrase section="livechatclient" code="offline">Offline</phrase>
-	<phrase section="livechatclient" code="fieldregpolicytext"> I consent for Kayako to process my data and agree to the terms of the </phrase>
+	<phrase section="livechatclient" code="fieldregpolicytext"> I consent for QuickSupport to process my data and agree to the terms of the </phrase>
 	<phrase section="livechatclient" code="fieldregpolicyurl">Privacy Policy</phrase>
 	<phrase section="livechatclient" code="leaveamessage">Leave a Message</phrase>
 	<phrase section="livechatclient" code="proactivetitle">Can I help you?</phrase>

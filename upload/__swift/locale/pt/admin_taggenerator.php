@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -40,7 +40,7 @@ $__LANG = array(
     'filterbydepartment'             => 'Restringir a departamentos específicos',
     'desc_filterbydepartment'        => 'Se forem selecionados departamentos aqui, o estado da conversação em tempo real e as escolhas do departamento oferecidas ao visitante só refletirão estes departamentos.<BR /><BR /><em>Note que isto significa que o estado do suporte em tempo real (online, offline, ocupado, ausente) estará limitado ao pessoal atribuído a estes departamentos.</em>',
     'routetochatskill'               => 'Encaminhar para uma competência específica',
-    'desc_routetochatskill'          => 'A Kayako tentará encaminhar os pedidos de conversação ou de chamada efetuados através desta tag para alguém com as competências aqui especificadas. Caso isso falhe, o pedido juntar-se-á à fila regular.',
+    'desc_routetochatskill'          => 'A QuickSupport tentará encaminhar os pedidos de conversação ou de chamada efetuados através desta tag para alguém com as competências aqui especificadas. Caso isso falhe, o pedido juntar-se-á à fila regular.',
     'generaloptions'                 => 'Opções gerais',
     'usesecurelinks'                 => 'Utilizar URLs seguros (https://)',
     'desc_usesecurelinks'            => 'Se o suporte técnico estiver disponível por HTTPs (SSL), pode ativar esta definição para também disponibilizar esta tag aos visitantes por HTTPs.',

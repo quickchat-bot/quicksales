@@ -9,7 +9,7 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
@@ -473,7 +473,7 @@ class SWIFT_XML extends SWIFT_Model
              * BUG FIX - Mansi Wason, Simaranjit Singh
              *
              * SWIFT-3408 "Broken XML Response"
-             * SWIFT-4108 Issue with control characters in Kayako Staff/Rest APIs
+             * SWIFT-4108 Issue with control characters in QuickSupport Staff/Rest APIs
              *
              * Comments: Multiple adjacent CDATA
              */

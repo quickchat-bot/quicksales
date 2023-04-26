@@ -8,7 +8,7 @@
  * @author         Andriy Lesyuk
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -64,7 +64,7 @@ $__LANG = array(
     'reportsendyearlysub'        => 'Ежегодный отчет: %s',
 
     'reportnoattachment'         => 'нет вложений',
-    'reportsendintro'            => 'Вы получили это сообщение email, так как Вы (%s) подписались на получение этого отчета от Kayako Kayako.',
+    'reportsendintro'            => 'Вы получили это сообщение email, так как Вы (%s) подписались на получение этого отчета от QuickSupport QuickSupport.',
     'reporterrorintro'           => 'Отчет выдал следующую ошибку',
     'reporterrorccnote'          => 'Из-за вышеуказанной ошибки это сообщение email не было отправлено на CC email адреса.',
 

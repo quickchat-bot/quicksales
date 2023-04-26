@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -40,7 +40,7 @@ $__LANG = array(
     'filterbydepartment'             => 'Auf bestimmte Abteilungen beschränken',
     'desc_filterbydepartment'        => 'Werden Abteilungen hier ausgewählt, werden die dem Besucher angebotene Optionen nur den Live-Chat-Status dieser Abteilungen anzeigen.<BR /><BR /><em>Beachten Sie, dass der Live-Support-Status (online, offline, beschäftigt, abwesend) auf das den Abteilungen zugehörigen Personal eingeschränkt wird.</em>',
     'routetochatskill'               => 'An bestimmte Kenntnisse leiten',
-    'desc_routetochatskill'          => 'Kayako versucht die über dieses Tag getätigte Chat- oder Anrufanfrage an jemanden mit den hier angegebenen Kenntnissen weiterzuleiten. Schlägt dies fehl, wird die Anfrage in die regulären Warteschlange eingereiht.',
+    'desc_routetochatskill'          => 'QuickSupport versucht die über dieses Tag getätigte Chat- oder Anrufanfrage an jemanden mit den hier angegebenen Kenntnissen weiterzuleiten. Schlägt dies fehl, wird die Anfrage in die regulären Warteschlange eingereiht.',
     'generaloptions'                 => 'Allgemeine Optionen',
     'usesecurelinks'                 => 'Sichere URLs (https://) verwenden',
     'desc_usesecurelinks'            => 'Ist Ihr Helpdesk über HTTPs (SSL) verfügbar, können Sie diese Einstellungen aktivieren, um dieses Tag HTTPs-Besuchern anzubieten.',

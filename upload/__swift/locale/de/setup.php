@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -171,7 +171,7 @@ $__LANG = array(
     'lc_skillspanish'                                => 'Spanisch',
     'lc_searchenginerule'                            => 'Suchmaschinenbesucher',
     'workflowcloseticket'                            => 'Ticket schließen',
-    'scconfirmcleardb'                               => 'WARNUNG: Sind Sie sicher, dass Sie die Datenbank löschen wollen? Alle in dieser Datenbank enthaltene Tabellen werden gelöscht, auch wenn diese nicht Teil von Kayako sind. Außerdem kann dies nicht mehr rückgängig gemacht werden',
+    'scconfirmcleardb'                               => 'WARNUNG: Sind Sie sicher, dass Sie die Datenbank löschen wollen? Alle in dieser Datenbank enthaltene Tabellen werden gelöscht, auch wenn diese nicht Teil von QuickSupport sind. Außerdem kann dies nicht mehr rückgängig gemacht werden',
     'tickettypeissue'                                => 'Problem',
     'tickettypetask'                                 => 'Aufgabe',
     'tickettypebug'                                  => 'Bug',
@@ -225,7 +225,7 @@ $__LANG = array(
     'scgeoipdir'                                     => 'Überprüft, ob das GeoIP Verzeichnis der Datenbank beschreibbar ist',
     'scgeoipdirerror'                                => 'Das Verzeichnis (./__swift/geoip/) ist nicht beschreibbar. Bitte stellen Sie dieses Verzeichnis als beschreibbar ein',
     'scminphpversion'                                => 'Überprüft die Server-PHP-Version (mindestens Version: %s)',
-    'scminphpversionerror'                           => 'Die auf diesem Server installierte PHP Version ist zu alt. Kayako erfordert mindestens die PHP-Version <strong>%s</strong>',
+    'scminphpversionerror'                           => 'Die auf diesem Server installierte PHP Version ist zu alt. QuickSupport erfordert mindestens die PHP-Version <strong>%s</strong>',
     'scfileup'                                       => 'Überprüft, ob das Hochladen von Dateien aktiviert ist',
     'scfileuperror'                                  => 'Bitte ändern Sie <strong>file_uploads</strong> in der php.ini Konfigurationsdatei auf <strong>On</strong>',
     'scmaxupsize'                                    => 'Überprüft die maximale Dateigröße zum Hochladen',
@@ -244,11 +244,11 @@ $__LANG = array(
     'scextensioncheck'                               => 'Überprüft, ob die <strong>%s</strong>-PHP-Erweiterung installiert ist',
     'scinstalled'                                    => 'INSTALLIERT',
     'scmissing'                                      => 'FEHLT',
-    'scdbnotempty'                                   => 'Die Datenbank ist nicht leer. Bitte klicken Sie auf <strong>Datenbank löschen</strong>, um die bestehenden Tabellen zu löschen oder klicken Sie auf <strong>Fortfahren</strong>, um mit dem Setup fortzufahren. Es wird empfohlen,  Kayako auf eine leere Datenbank zu installieren',
+    'scdbnotempty'                                   => 'Die Datenbank ist nicht leer. Bitte klicken Sie auf <strong>Datenbank löschen</strong>, um die bestehenden Tabellen zu löschen oder klicken Sie auf <strong>Fortfahren</strong>, um mit dem Setup fortzufahren. Es wird empfohlen,  QuickSupport auf eine leere Datenbank zu installieren',
     'sccleardb'                                      => 'Datenbank löschen',
     'sccontinue'                                     => 'Fortfahren',
     'scnext'                                         => 'Weiter &raquo;',
-    'scsyscheckfailed'                               => 'Leider kann Kayako nicht installiert werden. Entweder ein Fehler ist aufgetreten oder Ihr Webserver erfüllt die minimalen Systemanforderungen nicht. Bitte überprüfen Sie alle oben angezeigte Fehler und versuchen Sie den Setup-Vorgang erneut zu starten, nachdem diese Fehler behoben wurden',
+    'scsyscheckfailed'                               => 'Leider kann QuickSupport nicht installiert werden. Entweder ein Fehler ist aufgetreten oder Ihr Webserver erfüllt die minimalen Systemanforderungen nicht. Bitte überprüfen Sie alle oben angezeigte Fehler und versuchen Sie den Setup-Vorgang erneut zu starten, nachdem diese Fehler behoben wurden',
     'scstartsetup'                                   => 'Setup starten',
     'scpassnomatch'                                  => 'Die Passwörter stimmen nicht überein',
     'scfieldempty'                                   => 'Eines der erforderlichen Felder ist leer',
@@ -271,7 +271,7 @@ $__LANG = array(
 
     'sclanguage'                                     => 'Erstellung der Sprache: %s',
     'sclanguagesection'                              => 'Erstellung von Sprachabschnitt: %s',
-    'scsetupconfirmation'                            => 'Kayako ist nun auf Ihrem Webserver installiert! Besuchen Sie die Admin-Systemsteuerung, um Ihr Helpdesk weiter zu konfigurieren.<br/><br/><font color="red"><b>Wichtiger Hinweis:</b> Sie können Kayako erst benutzen, wenn Sie das \'setup\' Verzeichnis im  Stammverzeichnis der Installation löschen.</font><br/><br/><font color="darkblue"><b>Datenimport:</b></font> Sie können Helpdesk-Daten von früheren Kayako-Produkten oder von anderen Produkten über das Import-Engine in der Admin-Systemsteuerung importieren.',
+    'scsetupconfirmation'                            => 'QuickSupport ist nun auf Ihrem Webserver installiert! Besuchen Sie die Admin-Systemsteuerung, um Ihr Helpdesk weiter zu konfigurieren.<br/><br/><font color="red"><b>Wichtiger Hinweis:</b> Sie können QuickSupport erst benutzen, wenn Sie das \'setup\' Verzeichnis im  Stammverzeichnis der Installation löschen.</font><br/><br/><font color="darkblue"><b>Datenimport:</b></font> Sie können Helpdesk-Daten von früheren QuickSupport-Produkten oder von anderen Produkten über das Import-Engine in der Admin-Systemsteuerung importieren.',
     'scupgradeconfirmation'                          => '<div class="smalltext">Ihr Helpdesk ist nun aktualisiert.</div><br/><br/><font color="red"><b>Wichtiger Hinweis:</b> Sie sollten das \'setup\' Verzeichnis im Stammverzeichnis der Installation sofort löschen. Sollte das nicht geschehen, kann Ihre Datenbank geleert werden, wenn jemand das Setup ausführt.',
     'scadmincp'                                      => 'Admin-Systemsteuerung',
     'scstaffcp'                                      => 'Personal-Systemsteuerung',
@@ -300,7 +300,7 @@ $__LANG = array(
     'snewuser'                                       => 'Benutzer-Registrierung',
     'scmaxexectime'                                  => 'Überprüfung der maximalen Ausführungszeit des PHP-Skripts',
     'scmaxexectimelessspec'                          => '<strong>max_execution_time</strong> ist auf %d Sekunden eingestellt (mindestens 90 Sekunden werden empfohlen)',
-    'scmaxexectimeerror'                             => 'Das Kayako Setup benötigt eine längere maximale Ausführungszeit. Verändern Sie <strong>max_execution_time</strong> in der php.ini Konfigurationsdatei',
+    'scmaxexectimeerror'                             => 'Das QuickSupport Setup benötigt eine längere maximale Ausführungszeit. Verändern Sie <strong>max_execution_time</strong> in der php.ini Konfigurationsdatei',
 
 
     'statusonhold'                                   => 'Pausiert',
@@ -319,7 +319,7 @@ $__LANG = array(
     'defaultview'                                    => 'Standardansicht',
     'alltickets'                                     => 'Alle Tickets',
     'impex'                                          => 'Importieren',
-    'setupwelcome'                                   => 'Willkommen im Kayako Setup. Bitte wählen Sie eine Option, um zu beginnen.',
+    'setupwelcome'                                   => 'Willkommen im QuickSupport Setup. Bitte wählen Sie eine Option, um zu beginnen.',
 
     // Potentialy unused phrases in setup.php
     'issuefixed'                                     => 'Fixed',

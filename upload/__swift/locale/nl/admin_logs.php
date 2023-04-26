@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -43,7 +43,7 @@ $__LANG = array(
     'interface_api'        => 'API',
     'interface_pda'        => 'Telefoonnummer',
     'titleloginfailure'    => 'Mislukte aanmelding gelogd',
-    'msgloginfailure'      => 'Kayako heeft mislukte aanmeldingen gedetecteerd sinds uw laatste aanmelding.',
+    'msgloginfailure'      => 'QuickSupport heeft mislukte aanmeldingen gedetecteerd sinds uw laatste aanmelding.',
     'activitylog'          => 'Activiteitenlog',
     'logdetails'           => 'Loggegevens',
     'logdateline'          => 'Logdatum',

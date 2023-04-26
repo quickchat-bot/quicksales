@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -49,7 +49,7 @@ $__LANG = array(
     'addtohistory'                  => 'Mantener historial de revisiones de plantillas',
     'desc_addtohistory'             => 'Si la fusión de grupo de plantillas anula cualquier plantilla existente, se conservarán las plantillas anuladas en el historial de plantillas.',
     'titleversioncheckfail'         => 'Este grupo de plantillas está desactualizado',
-    'msgversioncheckfail'           => 'No se pudo importar este grupo de plantillas porque se generó utilizando una versión anterior de Kayako y es posible que falten plantillas. Si desea anular la comprobación de versión, active <em>ignorar versión de grupo de plantillas</em>.',
+    'msgversioncheckfail'           => 'No se pudo importar este grupo de plantillas porque se generó utilizando una versión anterior de QuickSupport y es posible que falten plantillas. Si desea anular la comprobación de versión, active <em>ignorar versión de grupo de plantillas</em>.',
     'importexport'                  => 'Importar/Exportar',
     'exporttgroup'                  => 'Grupo de plantillas que exportar',
     'desc_exporttgroup'             => 'El grupo de plantillas que exportar como archivo XML.',
@@ -114,7 +114,7 @@ $__LANG = array(
     'inserttgroup'                  => 'Grupo de plantillas',
     'desc_inserttgroup'             => 'Por favor, seleccione un grupo de plantillas para esta plantilla.',
     'templateeditingguideline'      => 'Buenas prácticas de edición de plantillas',
-    'desc_templateeditingguideline' => 'Con el editor de plantillas puede personalizar el aspecto y la funcionalidad de su centro de soporte. Si una futura actualización de Kayako contuviera cambios a esta plantilla, se le pedirá que la restaure a la última versión original. Esto borrará sus cambios en las plantillas y los deberá volver a realizar.<br><br>Para minimizar posibles quebraderos de cabeza, eche un vistazo a la <a href="https://go.gfi.com/?pageid=GFIHelpDeskTemplates" target="_blank" rel="noopener noreferrer">guía de buenas prácticas de edición de plantillas</a> antes de personalizar su centro de soporte.',
+    'desc_templateeditingguideline' => 'Con el editor de plantillas puede personalizar el aspecto y la funcionalidad de su centro de soporte. Si una futura actualización de QuickSupport contuviera cambios a esta plantilla, se le pedirá que la restaure a la última versión original. Esto borrará sus cambios en las plantillas y los deberá volver a realizar.<br><br>Para minimizar posibles quebraderos de cabeza, eche un vistazo a la <a href="https://go.gfi.com/?pageid=GFIHelpDeskTemplates" target="_blank" rel="noopener noreferrer">guía de buenas prácticas de edición de plantillas</a> antes de personalizar su centro de soporte.',
     'restoreconfirmaskcat'          => '¿Está seguro de que desea restaurar las plantillas en esta categoría?\\nEsta acción es irreversible; ¡Restaurar las plantillas puede conllevar una pérdida de todos los cambios UI que haya realizado a las plantillas existentes!',
     'inserttemplatetgroup'          => 'Grupo de plantillas',
     'inserttemplatetcategory'       => 'Categoría de la plantillas',
@@ -290,15 +290,15 @@ $__LANG = array(
     'loginsharefile'                => 'LoginShare XML File',
     'desc_loginsharefile'           => 'Upload the LoginShare XML File',
     'titlenoelevatedls'             => 'Unable to Import LoginShare XML',
-    'msgnoelevatedls'               => 'Kayako is unable to import the LoginShare XML file as it is required that you login with a staff user that has elevated rights. You can add your user to elevated right list in config/config.php file of the package.',
+    'msgnoelevatedls'               => 'QuickSupport is unable to import the LoginShare XML file as it is required that you login with a staff user that has elevated rights. You can add your user to elevated right list in config/config.php file of the package.',
     'titlelsversioncheckfail'       => 'Version Check Failed',
-    'msglsversioncheckfail'         => 'Kayako is unable to import the LoginShare Plugin as the plugin was created for an older version of Kayako',
+    'msglsversioncheckfail'         => 'QuickSupport is unable to import the LoginShare Plugin as the plugin was created for an older version of QuickSupport',
     'titlelsinvaliduniqueid'        => 'Duplicate Unique ID Error',
-    'msglsinvaliduniqueid'          => 'Kayako is unable to import the LoginShare Plugin due to a conflict in Unique ID. This usually means that the plugin has already been imported into the database.',
+    'msglsinvaliduniqueid'          => 'QuickSupport is unable to import the LoginShare Plugin due to a conflict in Unique ID. This usually means that the plugin has already been imported into the database.',
     'titlelsinvalidxml'             => 'Invalid XML File',
-    'msglsinvalidxml'               => 'Kayako is unable to import the LoginShare Plugin as the XML file corrupt or contains invalid data.',
+    'msglsinvalidxml'               => 'QuickSupport is unable to import the LoginShare Plugin as the XML file corrupt or contains invalid data.',
     'titlelsimported'               => 'Imported LoginShare Plugin',
-    'msglsimported'                 => 'Kayako has successfully imported the %s LoginShare Plugin.',
+    'msglsimported'                 => 'QuickSupport has successfully imported the %s LoginShare Plugin.',
     'titlelsdeleted'                => 'Deleted LoginShare Plugin',
     'msglsdeleted'                  => 'Successfully deleted the "%s" LoginShare Plugin from the database.',
     'tgroupjump'                    => 'Template Group: %s',
@@ -314,7 +314,7 @@ $__LANG = array(
     'importtemplates'               => 'Import Templates',
     'importxml'                     => 'Import XML',
     'tgroupmergeconfirm'            => 'Template Group "%s" merged with import file',
-    'versioncheckfailed'            => 'Version Check Failed: The uploaded template pack was created using older version of Kayako',
+    'versioncheckfailed'            => 'Version Check Failed: The uploaded template pack was created using older version of QuickSupport',
     'tgroupnewimportconfirm'        => 'Template Group "%s" imported successfully',
     'templategroupdetails'          => 'Template Group Details',
     'passworddontmatch'             => 'ERROR: Passwords don\'t match',

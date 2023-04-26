@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -57,11 +57,11 @@ $__LANG = array(
     'desc_exportfilename'        => 'Укажите имя файла для этого пакета выходных для плана SLA',
     'slaholidaypack'             => 'Пакет выходных для плана SLA',
     'slaholidayfile'             => 'Файл с пакетом выходных для плана SLA',
-    'desc_slaholidayfile'        => 'Загрузите XML файл с пакетом выходных для плана SLA. Kayako импортирует в базу данных все выходные, которые находятся в XML файле.',
+    'desc_slaholidayfile'        => 'Загрузите XML файл с пакетом выходных для плана SLA. QuickSupport импортирует в базу данных все выходные, которые находятся в XML файле.',
     'titleslaholidayimpex'       => 'Импортирован пакет выходных для плана SLA',
     'msgslaholidayimpex'         => '<b>"%d"</b> выходных для плана SLA было успешно добавлено в базу данных.',
     'titleslaholidayimpexfailed' => 'Не удалось импортировать пакет выходных для плана SLA',
-    'msgslaholidayimpexfailed'   => 'Не удалось импортировать пакет выходных для плана SLA. Пожалуйста, убедитесь, что файл с пакетом содержит корректный XML, сгенерированный Kayako.',
+    'msgslaholidayimpexfailed'   => 'Не удалось импортировать пакет выходных для плана SLA. Пожалуйста, убедитесь, что файл с пакетом содержит корректный XML, сгенерированный QuickSupport.',
     'insertschedule'             => 'Добавить график',
     'sladayopen24'               => 'Открыто (24 часа)',
     'sladayclosed'               => 'Закрыто',
@@ -79,7 +79,7 @@ $__LANG = array(
     'editschedule'               => 'Редактировать график',
     'desc_editschedule'          => '',
     'titleslaschedulenodel'      => 'Невозможно удалить график плана SLA',
-    'msgslaschedulenodel'        => 'Kayako не может удалить следующие графики, так как они связаны с какими-то планами SLA.  Пожалуйста, отмените связь, чтобы удалить записи их базы данных.',
+    'msgslaschedulenodel'        => 'QuickSupport не может удалить следующие графики, так как они связаны с какими-то планами SLA.  Пожалуйста, отмените связь, чтобы удалить записи их базы данных.',
     'titledelslaschedules'       => 'Удалено "%d" графиков SLA планов',
     'msgdelslaschedules'         => 'Следующие графики SLA планов успешно удалены из базы данных.',
     'slasettings'                => 'Настройки SLA',
@@ -116,7 +116,7 @@ $__LANG = array(
     'msgnocriteriaadded'         => 'Необходимо добавить как минимум один критерий, чтобы добавить/редактировать SLA план.',
     'noscheduleavailable'        => '-- Нет доступных графиков --',
     'titlenoslasched'            => 'SLA график недоступен',
-    'msgnoslasched'              => 'Нет SLA графиков, добавленных в Kayako. Необходимо добавить SLA график, чтобы дабавить/применить SLA план в систему.',
+    'msgnoslasched'              => 'Нет SLA графиков, добавленных в QuickSupport. Необходимо добавить SLA график, чтобы дабавить/применить SLA план в систему.',
     'nocustomholidays'           => 'Нет доступных настраиваемых выходных. Вы можете переключить этот параметр в закладке Управлять выходными &gt; Редактировать',
     'editplan'                   => 'Редактировать план',
     'desc_editplan'              => '',

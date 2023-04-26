@@ -8,14 +8,14 @@
  * @author        Varun Shoor
  *
  * @package        SWIFT
- * @copyright    Copyright (c) 2001-2012, Kayako
+ * @copyright    Copyright (c) 2001-2012, QuickSupport
  * @license        http://www.kayako.com/license
  * @link        http://www.kayako.com
  *
  * ###############################################
  */
 
-namespace Base\Library\Import\Kayako3;
+namespace Base\Library\Import\QuickSupport3;
 
 use SWIFT;
 use SWIFT_App;
@@ -25,11 +25,11 @@ use Base\Library\Import\SWIFT_ImportManager;
 use Base\Library\UserInterface\SWIFT_UserInterfaceTab;
 
 /**
- * The Kayako Version 3 Import Manager
+ * The QuickSupport Version 3 Import Manager
  *
  * @author Varun Shoor
  */
-class SWIFT_ImportManager_Kayako3 extends SWIFT_ImportManager
+class SWIFT_ImportManager_QuickSupport3 extends SWIFT_ImportManager
 {
     public $DatabaseImport = false;
 
@@ -41,7 +41,7 @@ class SWIFT_ImportManager_Kayako3 extends SWIFT_ImportManager
      */
     public function __construct()
     {
-        parent::__construct('Kayako3', 'Kayako SupportSuite/eSupport/LiveResponse v3');
+        parent::__construct('QuickSupport3', 'QuickSupport SupportSuite/eSupport/LiveResponse v3');
     }
 
     /**

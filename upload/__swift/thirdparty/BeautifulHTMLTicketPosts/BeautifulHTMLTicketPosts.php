@@ -237,7 +237,7 @@ class BeautifulHTMLTicketPosts {
                 /**
                  * IMPROVEMENT - Ankit Saini <ankit.saini@kayako.com>
                  *
-                 * SWIFT-5169 Kayako should allow the rendering of mathematical representations including "<" or ">" symbols.
+                 * SWIFT-5169 QuickSupport should allow the rendering of mathematical representations including "<" or ">" symbols.
                  */
 
                 // If a start tag is followed immediately by a number consider it as a mathematical expression

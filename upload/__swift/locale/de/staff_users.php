@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -88,7 +88,7 @@ $__LANG = array(
     'usertimezone'                   => 'Zeitzone',
     'desc_usertimezone'              => 'Wenn Sie keine Zeitzone auswählen, wird die Helpdesk-Standardeinstellung verwendet.',
     'userenabledst'                  => 'Sommerzeit-Erkennung',
-    'desc_userenabledst'             => 'Ist dies aktiviert, erkennt  Kayako Sommer-/Winterzeit und passt die Änderungen automatisch an.',
+    'desc_userenabledst'             => 'Ist dies aktiviert, erkennt  QuickSupport Sommer-/Winterzeit und passt die Änderungen automatisch an.',
     'defaultlanguage'                => '-- Standard-Sprache --',
     'userlanguage'                   => 'Sprache',
     'desc_userlanguage'              => 'Wählen Sie, welche Sprache diesem Benutzer angezeigt wird, wenn er sich im Support-Center anmeldet. Ist dies eingestellt, wird die Standardsprache der Vorlagengruppe überschrieben.',
@@ -133,7 +133,7 @@ $__LANG = array(
     'titledeleteduserorganization'   => 'Organisationen gelöscht (%d)',
     'msgdeleteduserorganization'     => 'Folgende Benutzer-Organisationen wurden gelöscht:',
     'userorganizationemails'         => 'E-Mail-Domäne-Filter',
-    'desc_userorganizationemails'    => 'Kayako fügt automatisch alle Benutzer, die sich mit einer E-Mail-Adresse, die diese Domäne enthält, hinzu.<br/><br/>Zum Beispiel, bedeutet das Hinzufügen von <em>acme.com</em>, dass ein Benutzer mit der E-Mail <em>joe.bloggs@acme.com</em> zu dieser Organisation hinzugefügt wird.',
+    'desc_userorganizationemails'    => 'QuickSupport fügt automatisch alle Benutzer, die sich mit einer E-Mail-Adresse, die diese Domäne enthält, hinzu.<br/><br/>Zum Beispiel, bedeutet das Hinzufügen von <em>acme.com</em>, dass ein Benutzer mit der E-Mail <em>joe.bloggs@acme.com</em> zu dieser Organisation hinzugefügt wird.',
     'contactdetails'                 => 'Kontaktdaten',
     'userorganizationslaplan'        => 'DLV-Plan überschreiben',
     'desc_userorganizationslaplan'   => 'Alle von Benutzern dieser Organisation erstellte Tickets werden diesem DLV-Plan zugeordnet. Beachten Sie das die Überschreibung eines DLV-Plans für einen bestimmten Benutzer über diese Einstellung zählt.',

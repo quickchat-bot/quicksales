@@ -1,8 +1,8 @@
 //=======================================
 //###################################
-// Kayako Singapore Pte. Ltd. - SWIFT Framework
+// QuickSupport Singapore Pte. Ltd. - SWIFT Framework
 //
-// Source Copyright 2001-2007 Kayako Infotech Ltd.
+// Source Copyright 2001-2007 QuickSupport Infotech Ltd.
 // Unauthorized reproduction is not allowed
 // License Number: $%LICENSE%$
 // $Author$ ($Date$)
@@ -143,7 +143,7 @@ $(function(){
 	/*
 	 * BUG FIX - Varun Shoor
 	 *
-	 * SWIFT-SWIFT-2344 Script error in Kayako Desktop application when inserting a new notification rule.
+	 * SWIFT-SWIFT-2344 Script error in QuickSupport Desktop application when inserting a new notification rule.
 	 *
 	 * Comments: When clicking on "New" button, event will be handled by jquery, other part of fix is in __swift/library/UserInterface/class.SWIFT_UserInterfaceGrid.php
 	 */

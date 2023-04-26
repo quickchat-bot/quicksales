@@ -2,7 +2,7 @@
 /**
  * ###############################################
  *
- * Kayako Classic
+ * QuickSupport Classic
  * _______________________________________________
  *
  * @author        Banjo Mofesola Paul <banjo.paul@aurea.com>

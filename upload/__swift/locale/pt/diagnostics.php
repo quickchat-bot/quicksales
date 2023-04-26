@@ -8,7 +8,7 @@
  * @author         Varun Shoor
  *
  * @package        SWIFT
- * @copyright      Copyright (c) 2001-2014, Kayako
+ * @copyright      Copyright (c) 2001-2014, QuickSupport
  * @license        http://www.kayako.com/license
  * @link           http://www.kayako.com
  *
@@ -21,7 +21,7 @@ $__LANG = array(
     // Usage script run
 
     'titlespecifyvalidemail'                       => 'Ocorreu um problema com o endereço de email introduzido',
-    'msgspecifyvalidemail'                         => 'Introduza um endereço de email válido; este é o endereço de email através do qual a equipa da Kayako entrará em contacto consigo.',
+    'msgspecifyvalidemail'                         => 'Introduza um endereço de email válido; este é o endereço de email através do qual a equipa da QuickSupport entrará em contacto consigo.',
     'send'                                         => 'Enviar',
     'ddbversion'                                   => 'Versão da base de dados: %s',
     'ddbtype'                                      => 'Tipo de base de dados: %s',
@@ -93,14 +93,14 @@ $__LANG = array(
     'cachetitle'                                   => 'Título de cache',
 
     // Report Bug
-    'reportbug'                                    => 'Reportar problema à Kayako',
+    'reportbug'                                    => 'Reportar problema à QuickSupport',
     'bugdetails'                                   => 'Reportar problema',
     'bugsubject'                                   => 'Assunto',
     'desc_bugsubject'                              => 'Inclua um breve resumo do problema, por exemplo: <em>Os anexos de email não estão a ser aceites no suporte técnico</em>.',
     'bugfromname'                                  => 'Nome',
     'desc_bugfromname'                             => 'Introduza o seu nome ou o da pessoa cujo endereço de email fornecerá abaixo.',
     'bugfromemail'                                 => 'Endereço de email',
-    'desc_bugfromemail'                            => 'A Kayako entrará em contacto consigo através deste endereço de email.',
+    'desc_bugfromemail'                            => 'A QuickSupport entrará em contacto consigo através deste endereço de email.',
     'debuginfo'                                    => '### Suporte técnico e informações do servidor ###',
     'dphpversion'                                  => 'Versão do PHP: %s',
     'dphpuploadsize'                               => 'Tamanho máx. de carregamento: %s',
@@ -127,7 +127,7 @@ $__LANG = array(
     'sess' . SWIFT_Interface::INTERFACE_STAFF      => 'Staff',
     'sess' . SWIFT_Interface::INTERFACE_ADMIN      => 'Admin',
     'sess' . SWIFT_Interface::INTERFACE_CLIENT     => 'Client',
-    'sess' . SWIFT_Interface::INTERFACE_WINAPP     => 'Kayako Desktop/Staff API',
+    'sess' . SWIFT_Interface::INTERFACE_WINAPP     => 'QuickSupport Desktop/Staff API',
     'sess' . SWIFT_Interface::INTERFACE_CONSOLE    => 'Console',
     'sess' . SWIFT_Interface::INTERFACE_VISITOR    => 'Visitor',
     'sess' . SWIFT_Interface::INTERFACE_CHAT       => 'Chat',
@@ -147,7 +147,7 @@ $__LANG = array(
     'desc_mysqlinfo'                               => 'Your server\'s MySQL configuration details are listed below. The value of these variables are specified in the my.cnf file which is usually located in the <i>etc</i> directory.',
     'cacheinfo'                                    => 'Cache Info',
     'desc_cacheinfo'                               => 'Frequently generated information and data is cached, reducing the requirement to run repetitive database queries.',
-    'desc_reportbug'                               => 'You can report a bug to the Kayako team by providing a brief description of the issue below. It is recommended that you keep the debug information, as it helps us trace the problem more quickly. Please make sure that the email address specified is correct.',
+    'desc_reportbug'                               => 'You can report a bug to the QuickSupport team by providing a brief description of the issue below. It is recommended that you keep the debug information, as it helps us trace the problem more quickly. Please make sure that the email address specified is correct.',
     'submitbug'                                    => 'Submit Bug',
     'dmysqlversion'                                => 'MySQL Version: %s',
     'specifyvalidemail'                            => 'ERROR: Please specify a valid email address',
