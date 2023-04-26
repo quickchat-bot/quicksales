@@ -18,7 +18,7 @@
 $__LANG = array(
     // Scheduled tasks
     'scheduledtasks'       => 'Geplante Aufgaben',
-    'desc_scheduledtasks'  => 'Diese Aufgaben werden in den unten genannten Intervallen ausgeführt und mehrere Helpdek-Abläufe ausgeführt. Wenn Sie ein Download-Kunde sind und Ihr Helpdesk nicht oft benutzt wird, empfehlen wir Ihnen, einen cron auf dem Server einzustellen, um das System der geplanten Aufgaben auszulösen. <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Lesen Sie mehr über geplante Aufgaben</a>.',
+    'desc_scheduledtasks'  => 'Diese Aufgaben werden in den unten genannten Intervallen ausgeführt und mehrere Helpdek-Abläufe ausgeführt. Wenn Sie ein Download-Kunde sind und Ihr Helpdesk nicht oft benutzt wird, empfehlen wir Ihnen, einen cron auf dem Server einzustellen, um das System der geplanten Aufgaben auszulösen. <a href="https://go.opencart.com.vn/?pageid=NBTHelpDeskTasks" target="_blank" rel="noopener noreferrer">Lesen Sie mehr über geplante Aufgaben</a>.',
     'tasklist'             => 'Aufgabenliste',
     'nextrun'              => 'Nächste Ausführung',
     'lastrun'              => 'Letzte Ausführung',

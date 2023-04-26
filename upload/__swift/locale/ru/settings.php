@@ -208,7 +208,7 @@ $__LANG = array(
     'loginshare_stafftitle'                => 'Staff LoginShare API name',
     'd_loginshare_stafftitle'              => 'For example, <em>My Active Directory server</em>.',
     'loginshare_staffurl'                  => 'URL API LoginShare для персонала',
-    'd_loginshare_staffurl'                => 'Укажите URL в конечной точке API LoginShare для использования аутентификации персонала. <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskLoginShare" target="_blank" rel="noopener noreferrer"> Узнать больше о LoginShare</a>.',
+    'd_loginshare_staffurl'                => 'Укажите URL в конечной точке API LoginShare для использования аутентификации персонала. <a href="https://go.opencart.com.vn/?pageid=NBTHelpDeskLoginShare" target="_blank" rel="noopener noreferrer"> Узнать больше о LoginShare</a>.',
 
     'loginshare_user'                      => 'User LoginShare Settings',
     'loginshare_userenable'                => 'Включить внешнюю аутентификацию для пользователей',
@@ -216,7 +216,7 @@ $__LANG = array(
     'loginshare_usertitle'                 => 'Имя API LoginShare для пользователей',
     'd_loginshare_usertitle'               => 'For example, <em>My Active Directory server</em>.',
     'loginshare_userurl'                   => 'URL API LoginShare для пользователей',
-    'd_loginshare_userurl'                 => 'Укажите URL в конечной точке API LoginShare для использования аутентификации пользователей.  <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskLoginShare" target="_blank" rel="noopener noreferrer">Узнать больше о LoginShare</a>.',
+    'd_loginshare_userurl'                 => 'Укажите URL в конечной точке API LoginShare для использования аутентификации пользователей.  <a href="https://go.opencart.com.vn/?pageid=NBTHelpDeskLoginShare" target="_blank" rel="noopener noreferrer">Узнать больше о LoginShare</a>.',
 
     // ======= DATE & TIME =======
     'dtcalus'                              => 'US (mm/dd/yy + 12hr)',
@@ -614,11 +614,11 @@ $__LANG = array(
     'd_g_jscache'                          => 'Cache heavy-output items such as the menu and navigation bar to a file so that pages load faster (rather than loading from the database each time). This disables the real-time view of comments and private message counts in the menu.',
     'cpu_smsgateway'                       => 'SMS Gateway',
     'gateway_enable'                       => 'Enable SMS Gateway',
-    'd_gateway_enable'                     => 'The QuickSupport SMS Gateway can send alerts directly to mobile phones. For more information, see the <a target="_blank" rel="noopener noreferrer" href="http://support.opencart.com.vn">GFI Support</a>.',
+    'd_gateway_enable'                     => 'The QuickSupport SMS Gateway can send alerts directly to mobile phones. For more information, see the <a target="_blank" rel="noopener noreferrer" href="http://support.opencart.com.vn">NBT Support</a>.',
     'gateway_username'                     => 'Gateway Username',
-    'd_gateway_username'                   => 'Your SMS Gateway username. This is the same as the email address used to log in to the <a target="_blank" rel="noopener noreferrer" href="https://support.opencart.com.vn">GFI Support</a>.',
+    'd_gateway_username'                   => 'Your SMS Gateway username. This is the same as the email address used to log in to the <a target="_blank" rel="noopener noreferrer" href="https://support.opencart.com.vn">NBT Support</a>.',
     'gateway_password'                     => 'Gateway Password',
-    'd_gateway_password'                   => 'Your SMS Gateway password. This is the same as the password used to log in to the <a target="_blank" rel="noopener noreferrer" href="https://support.opencart.com.vn">GFI Support</a>.',
+    'd_gateway_password'                   => 'Your SMS Gateway password. This is the same as the password used to log in to the <a target="_blank" rel="noopener noreferrer" href="https://support.opencart.com.vn">NBT Support</a>.',
     'gat_emailfailure'                     => 'Email Failure Reports',
     'd_gat_emailfailure'                   => 'Send delivery failure reports to the primary administrator email address.',
     'dt_timezone'                          => 'Time Zone',

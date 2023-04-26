@@ -258,7 +258,7 @@ class Controller_UserAccount extends Controller_client
         }
 
         /**
-         * BUGFIX: KAYAKOC-2521 - Profile Image exploit in QuickSupport Classic
+         * BUNBTX: KAYAKOC-2521 - Profile Image exploit in QuickSupport Classic
          *
          * When an image with wrong format is uploaded, it should not
          * be used. Instead, the original content should be used or nothing if

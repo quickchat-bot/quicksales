@@ -31,8 +31,8 @@
 	<phrase section="default" code="subscribe">Subscribe</phrase>
 	<phrase section="default" code="rememberme">Remember me</phrase>
 	<phrase section="default" code="lostpassword">Lost password</phrase>
-	<phrase section="default" code="poweredby">Powered by GFI HelpDesk</phrase>
-	<phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.opencart.com.vn/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">GFI HelpDesk</a>.]]></phrase>
+	<phrase section="default" code="poweredby">Powered by NBT HelpDesk</phrase>
+	<phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.opencart.com.vn/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">NBT HelpDesk</a>.]]></phrase>
 	<phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s QuickSupport]]></phrase>
 	<phrase section="default" code="app_notreg">We encountered a problem (%s app is not registered)</phrase>
 	<phrase section="default" code="event_notreg">We encountered a problem (%s event is not registered)</phrase>

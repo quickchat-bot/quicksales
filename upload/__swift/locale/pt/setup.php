@@ -256,7 +256,7 @@ $__LANG = array(
     'scusernamelong'                                 => 'O nome de utilizador introduzido é demasiado longo',
     'scfieldlong'                                    => 'Um dos campos excede o comprimento máximo',
     'scsettingsbut'                                  => 'Definições &raquo;',
-    'scmodsetfailed'                                 => 'Foi encontrado um problema (a configuração não conseguiu executar %s). Entre em contacto com o <a href="https://support.opencart.com.vn">suporte da GFI</a>',
+    'scmodsetfailed'                                 => 'Foi encontrado um problema (a configuração não conseguiu executar %s). Entre em contacto com o <a href="https://support.opencart.com.vn">suporte da NBT</a>',
     'setupexecsql'                                   => 'A executar: %s',
     'setupexecinsert'                                => 'A inserir dados em: %s',
     'setupexecindex'                                 => 'A criar índice: %s para a tabela: %s',

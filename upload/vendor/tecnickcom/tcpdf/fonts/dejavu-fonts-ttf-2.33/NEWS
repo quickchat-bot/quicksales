@@ -765,7 +765,7 @@ Changes from 2.8 to 2.9:
   operators in Sans (by Ben Laenen)
 - hinted some Armenian capitals in Sans Book (by Ben Laenen)
 - added U+0246 - U+0249 (by Ben Laenen)
-- BUGFIX : swapped U+224E and U+224F, in Sans, Sans Condensed and Sans Mono
+- BUNBTX : swapped U+224E and U+224F, in Sans, Sans Condensed and Sans Mono
   (by Remy Oudompheng)
 - adjusted U+20B5 (by Mederic Boquien)
 - swapped U+21DA and U+21DB which were in wrong order (by Heikki Lindroos)

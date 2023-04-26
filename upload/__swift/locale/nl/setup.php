@@ -256,7 +256,7 @@ $__LANG = array(
     'scusernamelong'                                 => 'De ingevoerde gebruikersnaam is te lang',
     'scfieldlong'                                    => 'Een van de velden overschrijdt een maximale lengte',
     'scsettingsbut'                                  => 'Instellingen &raquo;',
-    'scmodsetfailed'                                 => 'Er is een probleem opgetreden (de installatie kon %s niet uitvoeren). Neem contact op met <a href="https://support.opencart.com.vn">GFI support</a>',
+    'scmodsetfailed'                                 => 'Er is een probleem opgetreden (de installatie kon %s niet uitvoeren). Neem contact op met <a href="https://support.opencart.com.vn">NBT support</a>',
     'setupexecsql'                                   => 'Uitvoeren: %s',
     'setupexecinsert'                                => 'Gegevens invoegen in: %s',
     'setupexecindex'                                 => 'Index maken: %s voor tabel: %s',

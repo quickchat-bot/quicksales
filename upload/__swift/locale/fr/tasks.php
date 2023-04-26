@@ -18,7 +18,7 @@
 $__LANG = array(
     // Scheduled tasks
     'scheduledtasks'       => 'Tâches planifiées',
-    'desc_scheduledtasks'  => 'Ces tâches seront exécutées aux intervalles indiqués ci-dessous pour effectuer plusieurs opérations de helpdesk. Si vous êtes un client de téléchargement et que votre centre d\'assistance est rarement utilisé, il est recommandé de mettre en place un service cron côté serveur pour déclencher le système de tâches planifiées.  <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Pour en savoir plus sur les tâches planifiées</a>.',
+    'desc_scheduledtasks'  => 'Ces tâches seront exécutées aux intervalles indiqués ci-dessous pour effectuer plusieurs opérations de helpdesk. Si vous êtes un client de téléchargement et que votre centre d\'assistance est rarement utilisé, il est recommandé de mettre en place un service cron côté serveur pour déclencher le système de tâches planifiées.  <a href="https://go.opencart.com.vn/?pageid=NBTHelpDeskTasks" target="_blank" rel="noopener noreferrer">Pour en savoir plus sur les tâches planifiées</a>.',
     'tasklist'             => 'Liste des tâches',
     'nextrun'              => 'Prochaine exécution',
     'lastrun'              => 'Dernière exécution',

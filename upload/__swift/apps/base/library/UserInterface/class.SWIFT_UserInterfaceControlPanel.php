@@ -515,7 +515,7 @@ class SWIFT_UserInterfaceControlPanel extends SWIFT_UserInterface
             $_adminBarItems = SWIFT::Get('adminbaritems');
 
             /**
-             * BUGFIX KAYAKOC-3469: Error message is displayed for Admin while
+             * BUNBTX KAYAKOC-3469: Error message is displayed for Admin while
              * navigating to 'Move Attachments' page
              *
              * @author Werner Garcia <werner.garcia@crossover.com>

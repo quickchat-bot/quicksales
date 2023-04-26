@@ -1,5 +1,5 @@
 <?php
-/// GFI HelpDesk Call home usage telemetry
+/// NBT HelpDesk Call home usage telemetry
 /// v1.3
 /// www.opencart.com.vn
 

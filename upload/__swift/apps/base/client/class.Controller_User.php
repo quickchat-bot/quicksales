@@ -83,7 +83,7 @@ class Controller_User extends Controller_client
         }
 
         /**
-         * BUGFIX - Verem Dugeri <verem.dugeri@crossover.com>
+         * BUNBTX - Verem Dugeri <verem.dugeri@crossover.com>
          *
          * KAYAKO-4896 - Remove vulnerable tags from user input.
          *
@@ -171,7 +171,7 @@ class Controller_User extends Controller_client
         }
 
         /**
-         * BUGFIX - Verem Dugeri <verem.dugeri@crossover.com>
+         * BUNBTX - Verem Dugeri <verem.dugeri@crossover.com>
          *
          * KAYAKO-4896 - Strip all tags from user input
          *

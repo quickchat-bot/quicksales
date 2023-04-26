@@ -49,7 +49,7 @@ $__LANG = array(
     'd_t_searchticketidinbody'             => 'Si no se puede encontrar el ID del ticket en el asunto del correo electrónico, el helpdesk buscará el ID del ticket en el cuerpo del correo electrónico.',
 
     // ======= GENERAL SETTINGS =======
-    'd_customurl'                          => 'Si desea cambiar el dominio debe contactar a soporte de GFI: <a href="https://support.opencart.com.vn" target="_blank" rel="noopener noreferrer">https://support.opencart.com.vn</a>',
+    'd_customurl'                          => 'Si desea cambiar el dominio debe contactar a soporte de NBT: <a href="https://support.opencart.com.vn" target="_blank" rel="noopener noreferrer">https://support.opencart.com.vn</a>',
     'd_customurlwarning'                   => 'Si desea cambiar el dominio siga las instrucciones en <a target="_blank" rel="noopener noreferrer" href="%s">esta gu&iacute;a</a>.',
     'general_companyname'                  => 'Nombre de la organización',
     'd_general_companyname'                => 'Se utilizará el nombre de la organización para personalizar el centro de soporte y los correos electrónicos salientes. Por ejemplo: <em>Acme S.A.</em>.',
@@ -210,7 +210,7 @@ $__LANG = array(
     'loginshare_stafftitle'                => 'Staff LoginShare API name',
     'd_loginshare_stafftitle'              => 'For example, <em>My Active Directory server</em>.',
     'loginshare_staffurl'                  => 'URL de la API de LoginShare para personal',
-    'd_loginshare_staffurl'                => 'Introduzca la URL a la API de LoginShare API que se utilizará para autenticar al personal. <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskLoginShare" target="_blank" rel="noopener noreferrer">Lea más sobre LoginShare</a>.',
+    'd_loginshare_staffurl'                => 'Introduzca la URL a la API de LoginShare API que se utilizará para autenticar al personal. <a href="https://go.opencart.com.vn/?pageid=NBTHelpDeskLoginShare" target="_blank" rel="noopener noreferrer">Lea más sobre LoginShare</a>.',
 
     'loginshare_user'                      => 'User LoginShare Settings',
     'loginshare_userenable'                => 'Activar autenticación externa para usuarios',
@@ -218,7 +218,7 @@ $__LANG = array(
     'loginshare_usertitle'                 => 'Nombre la API de LoginShare para el usuario',
     'd_loginshare_usertitle'               => 'For example, <em>My Active Directory server</em>.',
     'loginshare_userurl'                   => 'URL de la API de LoginShare para el usuario',
-    'd_loginshare_userurl'                 => 'Introduzca la URL a la API de LoginShare API que se utilizará para autenticar usuarios.  <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskLoginShare" target="_blank" rel="noopener noreferrer">Lea más sobre LoginShare</a>.',
+    'd_loginshare_userurl'                 => 'Introduzca la URL a la API de LoginShare API que se utilizará para autenticar usuarios.  <a href="https://go.opencart.com.vn/?pageid=NBTHelpDeskLoginShare" target="_blank" rel="noopener noreferrer">Lea más sobre LoginShare</a>.',
 
     // ======= DATE & TIME =======
     'dtcalus'                              => 'US (mm/dd/yy + 12hr)',
@@ -614,11 +614,11 @@ $__LANG = array(
     'd_g_jscache'                          => 'Cache heavy-output items such as the menu and navigation bar to a file so that pages load faster (rather than loading from the database each time). This disables the real-time view of comments and private message counts in the menu.',
     'cpu_smsgateway'                       => 'SMS Gateway',
     'gateway_enable'                       => 'Enable SMS Gateway',
-    'd_gateway_enable'                     => 'The QuickSupport SMS Gateway can send alerts directly to mobile phones. For more information, see the <a target="_blank" href="http://support.opencart.com.vn" rel="noopener noreferrer">GFI Support</a>.',
+    'd_gateway_enable'                     => 'The QuickSupport SMS Gateway can send alerts directly to mobile phones. For more information, see the <a target="_blank" href="http://support.opencart.com.vn" rel="noopener noreferrer">NBT Support</a>.',
     'gateway_username'                     => 'Gateway Username',
-    'd_gateway_username'                   => 'Your SMS Gateway username. This is the same as the email address used to log in to the <a target="_blank" href="https://support.opencart.com.vn" rel="noopener noreferrer">GFI Support</a>.',
+    'd_gateway_username'                   => 'Your SMS Gateway username. This is the same as the email address used to log in to the <a target="_blank" href="https://support.opencart.com.vn" rel="noopener noreferrer">NBT Support</a>.',
     'gateway_password'                     => 'Gateway Password',
-    'd_gateway_password'                   => 'Your SMS Gateway password. This is the same as the password used to log in to the <a target="_blank" href="https://support.opencart.com.vn" rel="noopener noreferrer">GFI Support</a>.',
+    'd_gateway_password'                   => 'Your SMS Gateway password. This is the same as the password used to log in to the <a target="_blank" href="https://support.opencart.com.vn" rel="noopener noreferrer">NBT Support</a>.',
     'gat_emailfailure'                     => 'Email Failure Reports',
     'd_gat_emailfailure'                   => 'Send delivery failure reports to the primary administrator email address.',
     'dt_timezone'                          => 'Time Zone',

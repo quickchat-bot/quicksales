@@ -422,7 +422,7 @@ class Controller_Submit extends Controller_client {
 
         // Email validation
         /**
-         * BUGFIX - Verem Dugeri <verem.dugeri@crossover.com>
+         * BUNBTX - Verem Dugeri <verem.dugeri@crossover.com>
          *
          * KAYAKOC-268 - Validate email format
          *

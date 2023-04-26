@@ -339,7 +339,7 @@ class SWIFT_TicketAuditLog extends SWIFT_Model
         }
 
         /**
-         * BUGFIX: Parminder Singh
+         * BUNBTX: Parminder Singh
          *
          * SWIFT-1998: ActionMsg too long
          *

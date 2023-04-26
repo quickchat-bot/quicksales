@@ -842,7 +842,7 @@ class Controller_EmailQueue extends Controller_admin
             } else {
                 /*
                  * Werner Garcia <werner.garcia@crossover.com>
-                 * BUGFIX/KAYAKO-3050 - Tickets are not created when a mail is
+                 * BUNBTX/KAYAKO-3050 - Tickets are not created when a mail is
                  * sent to the Email Queue ID
                  */
                 $userPassword = $_SWIFT_EmailQueueObject->GetProperty('userpassword');

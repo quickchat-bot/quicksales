@@ -139,7 +139,7 @@ class SWIFT_MailMIME extends SWIFT_Library
         $_mailStructure = $this->MIME->decode($_decodeParams);
 
         /**
-         * BUGFIX/KAYAKOC-7860 fix reply-to headers by adding quotes in case they don't have any
+         * BUNBTX/KAYAKOC-7860 fix reply-to headers by adding quotes in case they don't have any
          * @author Werner Garcia <werner.garcia@crossover.com>
          */
         $_headerObj = imap_rfc822_parse_headers($_decodeParams['input']);

@@ -267,7 +267,7 @@ class SWIFT_Department extends SWIFT_Model
         }
 
         /**
-         * BUGFIX/KAYAKOC-3361 - Navigating to 'Insert Team' page in Admin Panel throws error
+         * BUNBTX/KAYAKOC-3361 - Navigating to 'Insert Team' page in Admin Panel throws error
          *
          * Remove html tags from title to prevent XSS attacks
          *
@@ -326,7 +326,7 @@ class SWIFT_Department extends SWIFT_Model
         }
 
         /**
-         * BUGFIX/KAYAKOC-3361 - Navigating to 'Insert Team' page in Admin Panel throws error
+         * BUNBTX/KAYAKOC-3361 - Navigating to 'Insert Team' page in Admin Panel throws error
          *
          * Remove html tags from title to prevent XSS attacks
          *
@@ -774,7 +774,7 @@ class SWIFT_Department extends SWIFT_Model
         $_index = 0;
         while ($_SWIFT->Database->NextRecord()) {
             /**
-             * BUGFIX/KAYAKOC-3361 - Navigating to 'Insert Team' page in Admin Panel throws error
+             * BUNBTX/KAYAKOC-3361 - Navigating to 'Insert Team' page in Admin Panel throws error
              *
              * Remove html tags from title to prevent XSS attacks
              *

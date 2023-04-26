@@ -106,7 +106,7 @@ class Controller_Subscriber extends Controller_client
         }
 
         /**
-         * BUGFIX - Verem Dugeri
+         * BUNBTX - Verem Dugeri
          *
          * KAYAKO-4897 - Validate email
          *
