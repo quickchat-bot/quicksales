@@ -1,0 +1,115 @@
+.unifiedsearchdropdown {
+	position: absolute;
+	list-style: none;
+	margin: 10px;
+	-moz-box-shadow: 0 1px 14px 1px rgba(0, 0, 0, 0.23);
+	-webkit-box-shadow: 0 1px 14px 1px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 1px 14px 1px rgba(0, 0, 0, 0.23);
+	z-index: 1000 !important;
+	min-width: 50%;
+	border-radius: 4px;
+    background-color: #fff;
+    padding: 10px 0;
+    z-index: 1100;
+    line-height: 2;
+}
+
+.unifiedsearchdropdown li {
+	min-height: 20px;
+	padding: 6px 8px 6px 13px;
+	display: block;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.unifiedsearchdropdown li.selected {
+	background-color: #49AFCD;
+    box-shadow: inset 0 -18px 40px -20px #29A0C2;
+    color: #FFF !important;
+}
+
+.unifiedsearchdropdown li.selected .usdfloat{
+	color: #fff;
+}
+
+.unifiedsearchdropdown li.last {
+
+}
+
+.unifiedsearchdropdown li.title {
+	color: #515151;
+	padding: 6px 8px 0px 8px;
+	font-size: 10px;
+	border-bottom: 1px solid #eee;
+	background-color: #f6f6f6;
+
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #838d94;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.unifiedsearchdropdown li.title span.usdtitle {
+	color: #777;
+}
+
+.unifiedsearchbox {
+	padding-right:25px !important;
+	color: #777;
+	width: 196px;
+	background: white url('%themepath%/images/sprite_unifiedsearch.png') no-repeat 202px 1px;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.unifiedsearchboxwait {
+	background: white url('%themepath%images/unifiedsearch_wait.gif') no-repeat 202px 4px !important;
+}
+
+.unifiedsearchcontainer {
+	padding: 0;
+	z-index: 100 !important;
+	position: relative;
+	margin: 0 10px;
+}
+
+.unifiedsearchcontainer input{
+	color : #c7c7c7;
+}
+
+
+.unifiedsearchcontainer input:focus{
+	color : #2d3138;
+}
+
+.unifiedsearchcontainermenu {
+	border-bottom: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.usdfloat {
+	float: right;
+	font-size: 10px;
+	margin-left: 50px;
+	color: #7e7d7d;
+}
+
+.unifiedsearchdropdown li.title span.usdrightinfo {
+	background: #fff;
+    float: right;
+    padding: 0 5px 0 5px;
+    margin-left: 50px;
+    color: #7e7d7d;
+    border-radius: 3px;
+    margin-bottom: 6px;
+}
+
+.unifiedsearchdropdown li div.usdinfo {
+	font-size: 11px;
+	color: #fff;
+	display: none;
+}

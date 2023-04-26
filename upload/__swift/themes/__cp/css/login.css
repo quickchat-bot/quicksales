@@ -1,0 +1,134 @@
+.loginformcontainer {
+	width: 100%;
+	background-color: #ffffff;
+	height: 100vh;
+}
+
+form[name=loginform]{
+	padding-top: 6%;
+}
+
+.loginformcontainer .smalltext {
+	color: #999;
+}
+
+.loginformsub {
+	background-color: #fff;
+	height: 100%;
+	border: 1px solid #eee;
+	margin-top: 20px;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 8px 20px 0;
+}
+
+.loginformsub .gridrow1,.loginformsub .gridrow2 {
+	background-color: #fff;
+}
+
+.loginformsub input {
+	margin: 0;
+	width: 338px;
+}
+
+.loginformsub .rebutton {
+	height: 35px;
+}
+
+.loginformsub .gridrow1 td  {
+	padding: 0;
+}
+.loginformsub .gridrow2 td {
+	padding-bottom:16px;
+}
+
+.loginformsub .rowerror {
+	background-color: transparent;
+}
+
+.loginformsub .rowerror td {
+	padding: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	background-color: #e05353;
+}
+
+.loginsubmit td {
+	padding: 30px 0 10px 0;
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+
+.loginsubmit .rebutton {
+	width: 45%;
+	margin-bottom: 6px;
+}
+
+.loginlogo {
+	padding: 20px 0;
+}
+
+a.options {
+	font-size: 13px;
+	display: block;
+}
+
+.loginoptions .gridrow1, .loginoptions .gridrow2 {
+	background-color: transparent;
+	font-size: 13px;
+	text-align: middle;
+	line-height: 24px;
+}
+
+.loginoptions .swiftselect {
+	font-size: 13px;
+}
+
+.loginoptions input {
+	margin: 0 2px 0 0;
+	padding: 0;
+	vertical-align: inherit;
+}
+
+a.forgotlink {
+	color: #4eafcb !important;
+	border: 1px dotted;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.boxcontainerlabel {
+	color: #2d3138;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 24px;
+	text-transform: inherit;
+	padding: 48px 0 12px;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+.loginrule {
+	border: none;
+	color: #eee;
+	background-color: #eee;
+	height: 1px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.loginoptions {
+	z-index: 10;
+	overflow: hidden;
+	margin: 3px 0;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	padding: 0 20px;
+	position: relative;
+	border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+
+

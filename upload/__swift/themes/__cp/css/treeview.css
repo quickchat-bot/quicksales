@@ -1,0 +1,404 @@
+.treeview, .treeview ul {
+	padding: 0;
+	margin: 10px 0 0 14px;
+	list-style: none;
+	font-size: 13px;
+	line-height: 1.2;
+}
+
+.treeview ul {
+	background-color: white;
+	margin-top: 4px;
+}
+
+.treeview a{
+    align-items: center;
+    height: 36px;
+    padding: 0 2px 0 9px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #2d3138;
+    -webkit-transition: background-color .1s;
+    transition: background-color .1s;
+    line-height: 20px;
+}
+
+.treeview li li a{
+    font-size: 13px !important;
+}
+
+.treeview li font {
+    padding: 0 6px;
+    border-radius: 2px;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #838d94;
+    float: right;
+}
+
+.treeview li:last-child {
+    /*border-left: none;*/
+}
+
+.treeview .hitarea {
+	background-size: 8px 8px;
+    height: 18px;
+    width: 16px;
+    float: left;
+    cursor: pointer;
+    color: #838d94;
+    margin: 6px 3px 6px -16px;
+}
+
+div.hitarea:hover {
+	color: #4eafcb !important;
+}
+
+/*.collapsable-hitarea{
+	background: URL('%themepath%images/treeview_collapse.svg') no-repeat;
+}*/
+
+/*.expandable-hitarea{
+	background: URL('%themepath%images/treeview_expand.svg') no-repeat;
+}*/
+
+div.expandable-hitarea:before{
+    font-family: 'FontAwesome';
+    content: "\f2c3";
+    font-size: 18px;
+    color: inherit;
+    background: #fff;
+    padding: 2px 0px;
+}
+
+div.collapsable-hitarea:before{
+    font-family: 'FontAwesome';
+    content: "\f28f";
+    font-size: 18px;
+    color: inherit;
+    background: #fff;
+    padding: 2px 0px;
+}
+
+* html .hitarea {
+	display: inline;
+	float: none;
+}
+
+.treeview li {
+	margin: 0;
+	padding: 0px 0pt 0px 6px;
+    border-left: 2px solid #ebeef0;
+}
+
+.treeview li b + font{
+	color: #4EAFCB;
+	font-size: 14px;
+    font-weight: 600;
+}
+
+.treeview li span:hover{
+	background-color: #F7F8F9;
+	border-radius: 4px;
+}
+
+.treeview a.selected {
+	background-color: #eee;
+}
+
+#treecontrol {
+	margin: 1em 0;
+	display: none;
+}
+
+.treeview .hover {
+	color: red;
+	cursor: pointer;
+}
+
+.treeview li {
+	/*background: URL('%themepath%images/treeview-default-line.gif') 0 0 no-repeat;*/
+	border-left: 2px solid #ececec;
+}
+
+.treeview li.collapsable, .treeview li.expandable {
+	/*background-position: 3px 3px;*/
+}
+
+.treeview .hitarea {
+	background-position: 3px 3px;
+}
+
+.treeview li.last {
+	/*background-position: 0 -1766px;*/
+}
+
+.treeview li.lastCollapsable, .treeview li.lastExpandable {
+	/*background-image: URL('%themepath%images/treeview-default.gif');*/
+}
+
+.treeview li.lastCollapsable {
+	/*background-position: 3px 3px;*/
+}
+
+.treeview li.lastExpandable {
+	/*background-position: 3px 3px;*/
+}
+
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea {
+	/*background-position: 3px 3px;*/
+}
+
+.swifttree span.usergroup, .swifttree span.date, .swifttree span.yellowdot, .swifttree span.funnel, .swifttree span.news, .swifttree span.folder, .swifttree span.folderred, .swifttree span.folderfaded, .swifttree span.chat, .swifttree span.inbox, .swifttree span.inboxfull, .swifttree span.flagged, .swifttree span.watched, .swifttree span.reddot, .swifttree span.unassignedtickets, .swifttree span.mytickets, .swifttree span.trash, span.trashfull, .swifttree span.call, .swifttree span.callinbound, .swifttree span.calloutbound, .swifttree span.callmissed, .swifttree span.file, .swifttree span.userreport {
+	padding: 6px 0 6px 10px;
+	margin: 0 8px 0 3px;
+	display: block;
+	min-height: 15px;
+}
+
+.swifttree span {
+	overflow: hidden;
+	/*max-width: 122px;*/
+	word-wrap:break-word;
+}
+
+.swifttree span.blank {
+	padding: 0px 0 0px 1px;
+	height: 25px;
+	display: block;
+}
+
+.swifttree span.usergroup:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f369";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.inbox:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f247";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.inboxfull:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f247";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.flagged {
+	background: URL('%themepath%images/icon_flag.png') 6px 6px no-repeat;
+}
+
+.swifttree span.watched {
+	background: URL('%themepath%images/icon_ticketwatch.png') 6px 6px no-repeat;
+}
+
+.swifttree span.unassignedtickets:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: '\f1d5';
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.mytickets:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f364";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.trash:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f34d";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.trashfull:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f34c";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.date:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f15c";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.yellowdot:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f18b";
+    font-size: 12px;
+}
+
+.swifttree span.reddot:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f1bc";
+    font-size: 10px;
+    color: #4eafcb !important;
+    background-color: #4eafcb !important;
+    border-radius: 12px;
+    margin-left: 1px;
+}
+
+.swifttree span.folder:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f1fe";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree .collapsable span.folder:before{
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f201";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.folderred:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f1fe";
+    font-size: 18px;
+    vertical-align: -2px;
+    color: #4eafcb !important;
+}
+
+.swifttree .collapsable span.folderred:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f201";
+    font-size: 18px;
+    vertical-align: -2px;
+    color: #4eafcb;
+}
+
+.swifttree span.folderfaded:before {
+    font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f201";
+    font-size: 18px;
+    vertical-align: -2px;
+    color: #c3c3c3 !important;
+}
+
+.swifttree span.chat:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f1a2";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.funnel:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f1f3";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.news:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f29c";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.call:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f2b4";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.callinbound:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f2fb";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.calloutbound:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f2fc";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.callmissed:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f368";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.file:before {
+    font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f1ed";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span.userreport:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f2b7";
+    font-size: 18px;
+    vertical-align: -2px;
+}
+
+.swifttree span:before{
+    color: #838d94 !important;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:admin="http://webns.net/mvcb/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <channel>
+        <title>My weblog</title>
+        <link>http://www.example.com/</link>
+        <description>My cute tagline</description>
+
+        <dc:language>en-us</dc:language>
+        <dc:creator>Me (me@example.com)</dc:creator>
+        <dc:rights>Copyright 2002 Me</dc:rights>
+        <dc:date>2002-10-18T16:10:15-05:00</dc:date>
+
+        <admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.5" />
+        <admin:errorReportsTo rdf:resource="mailto:me@example.com"/>
+
+        <item>
+            <title>Take up knitting</title>
+            <guid>http://www.example.com/archives/000054.html</guid>
+
+            <content:encoded><![CDATA[<ul>
+<li><a href="http://www.geocities.com/pratiksolanki/">Hidden Mozilla prefs</a>.</li>
+<li><a href="http://www.perfectxml.com/TipsXSLT.asp">50 XSLT tips</a>. [via <a href="http://simon.incutio.com/">Simon</a>]</li>
+<li><a href="http://www.aaronsw.com/2002/eldredTranscript">Transcript of the Eldred Supreme Court case</a>. Converted to HTML and publicly archived by <a href="http://www.aaronsw.com/weblog/">Aaron</a>.</li>
+</ul>]]></content:encoded>
+
+            <dc:subject>Miscellaneous</dc:subject>
+            <dc:date>2002-10-18T16:10:15-05:00</dc:date>
+            <dc:creator>Me (me@example.com)</dc:creator>
+
+            <category domain="domain">
+                <domain>domain</domain>
+            </category>
+        </item>
+
+    </channel>
+</rss>

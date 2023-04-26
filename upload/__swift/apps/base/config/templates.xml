@@ -1,0 +1,5471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swifttemplate>
+	<title>Default</title>
+	<author>Kayako</author>
+	<version>0</version>
+
+	<category name="template_general" app="core" icon="icon_template.gif">
+		<template name="clientcss" date=""><![CDATA[
+			/* @group Eric Myer reset v2.0 */
+
+			html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+			    margin: 0;
+			    border: 0;
+			    font-size: 100%;
+			    font: inherit;
+			    vertical-align: baseline;
+			    -moz-osx-font-smoothing: grayscale;
+			}
+
+			article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+			    display: block;
+			}
+
+			body {
+			    line-height: 1;
+			}
+
+			ol,
+			ul {
+			}
+
+			blockquote,
+			q {
+			    quotes: none;
+			}
+
+			blockquote:before,
+			blockquote:after,
+			q:before,
+			q:after {
+			    content: '';
+			    content: none;
+			}
+
+			table {
+			    border-collapse: collapse;
+			    border-spacing: 0;
+			}
+
+			body {
+			    margin: 0;
+			    padding: 0;
+			    font: normal 16px/1.5 "Source Sans Pro", "helvetica neue", arial, helvetica, sans-serif;
+			    min-width: 980px;
+			    -webkit-font-smoothing: antialiased;
+			    -moz-font-smoothing: antialiased;
+			}
+
+			#main {
+			    position: relative;
+			    clear: both;
+			}
+			/* @group link styles */
+
+			a {
+			    text-decoration: none;
+			    outline: none;
+			}
+
+			a:link {
+			    color: #4eafcb;
+			}
+
+			a:visited {
+			    color: #4eafcb;
+			}
+
+			a:hover {
+			    color: #4eafcb;
+			}
+
+			a:active {
+			    color: #0e5f77;
+			}
+
+			.bluelink{
+				white-space: normal;
+			}
+
+			/* @end */
+			/* @group structure */
+
+			#maincore {
+			    position: relative;
+			    padding: 0 0;
+			    clear: both;
+			    width: 100%;
+			}
+
+			.uppermainsearch{
+				background-color: #f7f8f9;
+   				border-bottom: 1px solid #dfe4e6;
+   				padding: 30px;
+			}
+
+			#maincoreleft {
+			    padding: 0;
+			    float: left;
+			    left: 0;
+			    width: 230px;
+			    height: 100%;
+			    margin: 26px 0 0 30px;
+			}
+
+			#maincorecontent {
+			    margin: 0px 30px 0 290px;
+			    height: 100%;
+			}
+
+			#bottomfooter {
+			    padding: 20px 0px;
+			    margin: auto;
+			    border-bottom: none;
+			    font-size: 12px;
+			    color: #92969b;
+			    clear: both;
+				text-align: center;
+			}
+			/* @end */
+			/* @group header */
+			/* @group logo & banner */
+
+			#topbanner {
+			    background-color: #fff;
+			    border-bottom: 1px solid #cfd4d6;
+			    margin: 0;
+			}
+
+			.bodymain #topbanner {
+			    border-bottom: none;
+			}
+
+			.innerwrapper {
+			    width: 100%;
+			    margin: 0 auto;
+			    max-width: 1280px;
+			    box-sizing: border-box;
+			}
+
+			.innerwrapper:before,
+			.innerwrapper:after {
+			    content: " ";
+			    display: table;
+			}
+
+			.innerwrapper:after {
+			    clear: both;
+			}
+
+			.innerwrapper {
+			    *zoom: 1;
+			}
+			/* -- clearfix -- */
+
+			#topbanner:before,
+			#topbanner:after {
+			    content: " ";
+			    display: table;
+			}
+
+			#topbanner:after {
+			    clear: both;
+			}
+
+			#topbanner {
+			    *zoom: 1;
+			}
+			/* for ie 6/7 */
+
+			#logo {
+			    margin: 20px 0 10px 30px;
+			}
+
+			.chatbodymain #logo {
+			    margin: 22px 0 0px 20px;
+			}
+			/* @end */
+			/* @group main navigation */
+
+			#toptoolbar {
+			    padding: 0px 0px;
+			    background-color: white;
+    			border-bottom: 1px solid #dfe4e6;
+  				box-shadow: 0 1px 3px rgb(247, 247, 247);
+			    padding-bottom: 15px;
+			}
+			/* clearfix */
+
+			#toptoolbar:before,
+			#toptoolbar:after {
+			    content: " ";
+			    display: table;
+			}
+
+			#toptoolbar:after {
+			    clear: both;
+			}
+
+			#toptoolbar {
+			    *zoom: 1;
+			}
+			/* for ie 6/7 */
+
+			#toptoolbarlinklist {
+			    padding: 0 24px;
+			    max-width: 75%;
+			    max-width: calc(100% - 230px);
+			}
+
+			#toptoolbarlinklist li {
+			    list-style-type: none;
+			    display: inline-block;
+			    float: left;
+			    margin: 3px 3px 0 0;
+			}
+
+			#toptoolbarlinklist li.current {
+			    background-color: #4faeca !important;
+			    border-radius: 4px;
+			    -webkit-border-radius: 4px;
+			    -moz-border-radius: 4px;
+			    color: #fff;
+			}
+
+			#toptoolbarlinklist li.current a{
+			    color: #fff;
+			}
+
+			#toptoolbarlinklist li:hover {
+			    border-radius: 4px;
+			    -webkit-border-radius: 4px;
+			    -moz-border-radius: 4px;
+			    background-color: #f7f8f9;
+			    color: #231d2b !important;
+			}
+
+			#toptoolbarlinklist a {
+			    background: none !important;
+			    padding: 2px 10px;
+				float: left;
+			    border: 0;
+			    margin: 0 1px 0 0;
+			    color: #231d2b;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			    max-width: 200px;
+			    box-sizing: border-box;
+			    overflow: hidden;
+			    font-size: 14px;
+			}
+
+			#toptoolbarrightarea {
+			    float: right;
+			    padding: 1px 30px 1px 0;
+			}
+
+			#toptoolbarrightarea select{
+				border: none;
+			    transition: all .25s ease;
+			    box-shadow: none;
+			    cursor: pointer;
+			    height: 26px;
+			}
+
+			#toptoolbarrightarea select:hover{
+				background: #50adc9;
+			    border-radius: 5px;
+			    color: #fff;
+			    background: #50adc9 url(%themepath%images/menudrop_white.svg) no-repeat;
+			    background-position: right;
+    			background-position-x: 95px;
+			}
+
+			#toptoolbarrightarea .swiftselect {
+			    margin: 2px 0 0 0;
+			    padding: 0px 25px 0px 10px!important;
+			    transition: all 0.25s ease;
+			    background: url(%themepath%images/menudrop_grey.svg) no-repeat;
+			    background-position: right;
+    			background-position-x: 95px;
+    			float:right;
+			}
+			/* @end */
+			/* @end */
+			/* @group typography */
+			/* base type styles using modular scale ---------------------- */
+
+			body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote {
+			    margin: 0;
+			    padding: 0;
+			    font-size: 15px;
+			    color: #4c5156;
+			}
+
+			p {
+			    font-family: inherit;
+			    font-weight: normal;
+			    font-size: 15px;
+			    line-height: 1.6;
+			    margin-bottom: 12px;
+			}
+
+			p.lead {
+			    font-size: 17.5px;
+			    line-height: 1.6;
+			    margin-bottom: 17px;
+			}
+
+			aside p {
+			    font-size: 13px;
+			    line-height: 1.35;
+			    font-style: italic;
+			}
+
+			h1, h2, h3, h4, h5, h6 {
+			    font-weight: normal;
+			    font-style: normal;
+			    color: #4c5156;
+			    text-rendering: optimizelegibility;
+			    line-height: 1.1;
+			    margin-bottom: 14px;
+			    margin-top: 28px;
+			}
+
+			h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+			    font-size: 60%;
+			    color: #2c3137;
+			    line-height: 0;
+			}
+
+			h1,
+			.newstitle a {
+			    font-size: 17px;
+			    font-weight: 600;
+			    line-height: 1.3;
+			    margin-bottom: 0px;
+			    margin-top: 4px;
+			}
+
+			h2 {
+			    font-size: 21px;
+			}
+
+			h3 {
+			    font-size: 17px;
+			}
+
+			h4 {
+			    font-size: 15px;
+			}
+
+			h5 {
+			    font-size: 15px;
+			}
+
+			h6 {
+			    font-size: 14px;
+			}
+
+			hr {
+			    border: solid #eee;
+			    border-width: 1px 0 0;
+			    clear: both;
+			    margin: 22px 0 21px;
+			    height: 0;
+			}
+
+			em,
+			i {
+			    font-style: italic;
+			    line-height: inherit;
+			}
+
+			strong,
+			b {
+			    font-weight: bold;
+			    line-height: inherit;
+			}
+
+			small {
+			    font-size: 60%;
+			    line-height: inherit;
+			}
+
+			code {
+			    font-weight: normal;
+			    background: #ffffda;
+			    font-family: Consolas, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New';
+			}
+
+			sub,
+			sup {
+			    font-size: 75%;
+			    line-height: 0;
+			    position: relative;
+			    vertical-align: baseline;
+			}
+
+			sup {
+			    top: -0.5em;
+			}
+
+			sub {
+			    bottom: -0.25em;
+			}
+			/* lists ---------------------- */
+
+			ul,
+			ol,
+			dl {
+			    font-size: 14px;
+			    line-height: 1.7;
+			    margin-bottom: 17px;
+			    list-style-position: outside;
+			}
+
+			ul li ul,
+			ul li ol {
+			    margin-left: 20px;
+			    margin-bottom: 0;
+			}
+
+			ol {
+			    margin-left: 20px;
+			}
+
+			ol li ul,
+			ol li ol {
+			    margin-left: 20px;
+			    margin-bottom: 0;
+			}
+
+			dl {
+			    margin-bottom: 20px;
+			}
+
+			dt,
+			dd {
+			    line-height: 20px;
+			}
+
+			dt {
+			    font-weight: 600;
+			}
+
+			dd {
+			    margin-left: 10px;
+			}
+			/* code etc ---------------------- */
+
+			pre {
+			    font-size: 10pt;
+			    font-family: Consolas, 'Courier New', Courier, monospace;
+			    background: white;
+			    margin: 12px 0;
+			    padding: 10px;
+			    overflow: auto;
+			    line-height: 1.24;
+			    min-height: 30px;
+			    max-height: 500px;
+			    overflow: auto;
+			    border: 1px solid #e1e1e1;
+			    border-left-width: 10px;
+			    box-sizing: border-box;
+			    width: 640px;
+			    border-radius: 5px;
+			    -webkit-border-radius: 5px;
+			    -moz-border-radius: 5px;
+			    -khtml-border-radius: 5px;
+			}
+			/* blockquotes ---------------------- */
+
+			blockquote,
+			blockquote p {
+			    line-height: 1.5;
+			    color: #6c7176;
+			    word-break: break-word;
+			}
+
+			blockquote {
+			    margin: 0 0 17px 0;
+			    padding: 0 20px;
+			    border-left: 5px solid #d8dbdf;
+			}
+
+			blockquote cite {
+			    display: block;
+			    font-size: 13px;
+			    color: #555555;
+			}
+
+			blockquote cite:before {
+			    content: "\2014 \0020";
+			}
+
+			blockquote cite a,
+			blockquote cite a:visited {
+			    color: #555555;
+			}
+
+			abbr,
+			acronym {
+			    text-transform: uppercase;
+			    font-size: 90%;
+			    color: #3c3e43;
+			    border-bottom: 1px solid #d8dbdf;
+			    cursor: help;
+			}
+
+			abbr {
+			    text-transform: none;
+			}
+			/* @end */
+			/* @group news */
+
+			.boxcontainer{
+			}
+
+			.boxcontainerlabel {
+			    text-transform: uppercase;
+			    color: #2d3138;
+			    padding: 48px 0 6px 0;
+			    border-bottom: 1px solid #eee;
+			    margin-bottom: 24px;
+			    text-transform: inherit;
+			    padding-bottom: 12px;
+			    font-size: 30px;
+			    font-weight: 300;
+			    line-height: 1.2;
+			}
+
+			.boxcontainercontenttight {
+   				 border: 1px solid #eee;
+   				 border-radius: 4px;
+			}
+
+			.boxcontainercontent {
+			    word-break: break-word;
+			    padding-left: 5px;
+			}
+
+			.newstitle {
+			    font-size: 30px;
+			    margin: 0 0 0px 52px;
+			    line-height: 1.2;
+			    font-weight: 200;
+			}
+
+			.newstitlelink {
+			    text-decoration: none;
+			    margin: 1px 0 1px 0;
+			    display: block;
+			    font-size: 20px;
+			    font-weight: 500;
+			    line-height: 1.3;
+			}
+
+			.newsreadmorelink {
+			    text-decoration: none;
+			    font-size: 15px;
+			    font-weight: 500;
+			}
+
+			.newsinfo {
+			    font-size: 12px;
+			    color: #7c7f85;
+			    margin-bottom: 20px;
+			    line-height: 1.4;
+			    margin-bottom: 10px;
+			    font-weight: 400;
+			}
+
+			.newscontents {
+			    font-family: inherit;
+			    font-size: 14px;
+			    line-height: 1.6;
+			    margin-bottom: 17px;
+			    padding-left: 52px;
+			}
+
+			.newscontents ol {
+			    list-style: decimal;
+			    margin: 16px 36px;
+			}
+
+			.newscontents ul {
+			    list-style: disc;
+			    margin-left: 40px;
+			}
+
+			.newscontents ul {
+			    margin-bottom: 5px;
+			}
+
+			.newscontents img {
+			    max-width: 100%;
+			    height: auto;
+			    padding: 3px;
+			    background-color: #fff;
+			    border: 1px solid #d8dbdf;
+			    margin: 0 !important;
+			}
+
+			.newscontents td,
+			.newscontents th {
+			    padding: 5px 10px;
+			    border: 1px solid #cfd4d6;
+			}
+
+			.newscontents th {
+			    background-color: #ededed;
+			    font-weight: 500;
+			}
+
+			.newscontents table {
+			    border-collapse: collapse;
+			    margin-bottom: 17px;
+			    background-color: #fff;
+			}
+
+			.newsavatar {
+			    background-color: #fff;
+			    line-height: 0;
+    			padding: 3px;
+			    margin-left: 0px;
+			    margin-right: 5px;
+			    display: inline-block;
+			    float: left;
+			    min-height: 40px;
+			    min-width: 40px;
+			    border-radius: 2px;
+			}
+
+			.avatar img{
+				width: 100px;
+    			border-radius: 4px;
+    			box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.06), 0 1px 3px 0 rgba(44,48,56,0.09);
+			}
+
+			.newsavatar img{
+				border-radius: 2px;
+			}
+
+			.newsfooter {
+				margin-top: 10px;
+			    text-align: center;
+			}
+			/* previous & next links ---------------------- */
+
+			.newsfooter a {
+			    padding: 8px 20px;
+			    text-align: center;
+			    display: block;
+			    cursor: pointer;
+			    clear: none;
+			    display: inline-block;
+			    background-color: #fff;
+			    border-radius: 4px;
+			    line-height: 14px;
+			    margin: 0 15px 6px 0;
+			    white-space: nowrap;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    box-shadow: 0 2px 6px 0 rgba(0,0,0,.06), 0 1px 3px 0 rgba(44,48,56,.09);
+			    color: #909090;
+			    font-size: 12px;
+			    font-weight: 600;
+			}
+
+			.newsfooter a:hover{
+				box-shadow: rgba(0,0,0,.07) 0 2px 10px 0, rgba(44,48,56,.09) 0 1px 8px 0;
+			}
+
+			.fa-rss-color{
+				font-size: 18px !important;
+   				 margin-top: 20px;
+			}
+
+			/* @end */
+			/* @group troubleshooter */
+
+			.troubleshootercategory {
+			    font-weight: normal;
+			    margin-bottom: 12px;
+			}
+
+			.troubleshootercategorytitle {
+			    padding: 0 0 3px 25px;
+			    font-size: 16px;
+			    display: inline-flex;
+			    white-space: nowrap;
+			}
+
+			.troubleshootercategorytitle:before {
+			    font-family: 'FontAwesome';
+			    content: "\f11b";
+			    font-size: 18px;
+			    margin-right: 10px;
+			    color: #7f8285;
+			    vertical-align: -2px;
+			}
+
+			.troubleshootercategorydesc {
+			    font-weight: normal;
+			    font-size: 13px;
+			    padding: 0 0 0 25px;
+			}
+
+			.trstepcontents {
+			    line-height: 1.6;
+			}
+
+			.trstepcontents ol {
+			    list-style: decimal;
+			    margin: 16px 36px;
+			}
+
+			.trstepcontents ul {
+			    margin-left: 24px;
+			    list-style-type: disc;
+			}
+
+			.trsteptitle {
+			    font-size: 21px;
+			    padding-bottom: 8px;
+			}
+
+			.trsteptitlemain {
+			    font-size: 22px;
+			    margin: 0 0 9px 0;
+			    line-height: 1.2;
+			    font-weight: 500;
+			}
+
+			.trattachments {
+			    width: 100%;
+			    margin-bottom: 10px;
+			    padding-bottom: 6px;
+			}
+
+			.trattachmentitem {
+			    padding: 4px 0 5px 18px;
+			    margin: 0 10px 0 0;
+			    cursor: pointer;
+			    background-repeat: no-repeat;
+			    background-position: 0px 3px;
+			    color: #228aa9;
+			    display: block;
+			}
+
+			.trstepcontents td,
+			.trstepcontents th {
+			    padding: 5px 10px;
+			    border: 1px solid #cfd4d6;
+			}
+
+			.trstepcontents th {
+			    background-color: #ededed;
+			    font-weight: 500;
+			}
+
+			.trstepcontents table {
+			    border-collapse: collapse;
+			    margin-bottom: 17px;
+			    background-color: white;
+			}
+
+			.trstepcontents img {
+			    max-width: 100%;
+			    height: auto;
+			    padding: 3px;
+			    background-color: #fff;
+			    border: 1px solid #d8dbdf;
+			    margin: 0 !important;
+			}
+
+			.troubleshooterstepradio {
+			    padding: 8px !important;
+			}
+			/* @end */
+			/* @group knowledgebase */
+
+			.kbcategorytitlecontainer {
+			    margin: 0 12px 24px 0;
+			}
+
+			.kbarticlelistitem {
+			    margin: 0;
+			    font-size: 15px;
+				font-weight: 600;
+				line-height: 1.3;
+			}
+			.kbarticlecategorylistitem {
+			    margin: 0;
+			    font-size: 14px;
+				font-weight: 600;
+				line-height: 1.3;
+				padding: 4px 0px;
+			}
+
+			.kbcategorytitle {
+			    font-size: 16px;
+			    border-bottom: 1px solid #eee;
+			    padding: 0 0 6px 0;
+			    margin: 0 0 6px 0;
+			}
+
+			.kbarticletext {
+			    font-size: 14px;
+			    line-height: 1.5;
+			    color: #5F6C73;
+			}
+
+			.kbcontents {
+			    line-height: 1.6;
+			    word-wrap: break-word;
+    			font-size: 16px;
+			}
+
+			.kbcontents ol {
+			    list-style: decimal;
+			    margin: 16px 36px;
+			}
+
+			.kbcontents ul {
+			    margin-left: 24px;
+			    list-style-type: disc;
+			}
+
+			.kbcontents td,
+			.kbcontents th {
+			    padding: 5px 10px;
+			    border: 1px solid #cfd4d6;
+			}
+
+			.kbcontents th {
+			    background-color: #ededed;
+			    font-weight: 500;
+			}
+
+			.kbcontents table {
+			    border-collapse: collapse;
+			    margin-bottom: 17px;
+			    background-color: #fff;
+			}
+
+			.kbcontents img {
+			    max-width: 100%;
+			    height: auto;
+			    padding: 3px;
+			    background-color: #fff;
+			    border: 1px solid #d8dbdf;
+			    margin: 0 !important;
+			}
+
+			.kbcategorytitle a:link,
+			.kbcategorytitle a:visited {
+			    color: #4c5156;
+			}
+
+			.kbcategorytitle a:hover {
+			    color: #3c3e43;
+			}
+
+			.kbcategorycount {
+			    font-weight: normal;
+			    font-size: 13px;
+			    color: #9fa3a8;
+			    letter-spacing: 1px;
+			}
+
+			/* ---  kb entry page -- */
+
+			.kbtitle {
+			    font-size: 30px;
+			    margin: 0 0 9px 0;
+			    line-height: 1.2;
+			    font-weight: 300;
+			}
+
+			.kbinfo {
+			    font-size: 13px;
+			    color: #92969b;
+			    margin-bottom: 20px;
+			}
+
+			.kbavatar {
+			    float: right;
+			    background-color: #fff;
+			    margin: 0;
+			    line-height: 0;
+			}
+
+			.kbavatar img{
+				border-radius: 4px;
+			}
+
+			.kbratingstars {
+			    cursor: default;
+			    color: #92969b;
+			    font-size: 13px;
+			    margin-bottom: 6px;
+			    float: left;
+			}
+
+			.kbratinghelpful,
+			.kbratingnothelpful {
+			    font-size: 13px;
+			    font-weight: 500;
+			    color: #228aa9;
+			    float: left;
+			    margin-left: 20px;
+			    cursor: pointer;
+			}
+
+			#kbratingcontainer {
+			    margin: 10px 0;
+			}
+
+			.kbratinghelpful img,
+			.kbratingnothelpful img {
+			    position: relative;
+			    top: 2px;
+			}
+
+			.kbhr {
+			    display: none;
+			}
+			/*-- kb list page --*/
+
+			.kbarticle a {
+			    font-size: 16px;
+			    font-weight: 600;
+			    line-height: 1.3;
+			    margin: 0 0 6px 0;
+			    display: inline-block;
+			}
+
+			.kbarticlecontainer {
+			    margin: 20px 0;
+			}
+
+			.kbarticlefeatured {
+			    background-color: #fff9e7;
+			    border: 1px solid #eedeae;
+			    border-radius: 6px;
+			    -moz-border-radius: 6px;
+			    -webkit-border-radius: 6px;
+			    padding: 10px 10px 6px 10px
+			}
+
+			.containercontenttable {
+			    table-layout: fixed;
+			    width: 100%;
+			}
+
+			.boxcontainercontent .newstitlecontainer {
+			    vertical-align: top !important;
+			}
+
+			.kbattachments {
+			    width: 100%;
+			    margin-bottom: 10px;
+			    padding-bottom: 6px;
+			}
+
+			.kbattachmentitem {
+			    padding: 4px 0 5px 18px;
+			    margin: 0 10px 0 0;
+			    cursor: pointer;
+			    background-repeat: no-repeat;
+			    background-position: 0px 3px;
+			    color: #228aa9;
+			    display: block;
+			}
+			/* @end */
+			/* @group comments */
+
+			.commentslabel {
+			    font-weight: 500;
+			    color: #4c5156;
+			    font-size: 14px;
+			    padding: 20px 0 6px 0;
+			    border-bottom: 1px solid #eee;
+			    margin-bottom: 20px;
+			}
+
+			.commentchild {
+			    background: url("%themepath%images/downarrow.gif") no-repeat 0px 22px;
+			    padding-left: 18px;
+			}
+
+			.clearfix {
+			    clear: both;
+			}
+
+			.commentcontentsholder {
+			    margin-bottom: 20px;
+			    padding: 12px 0 15px 0;
+			    font-size:14px;
+			}
+
+			.general-info td{
+				vertical-align: middle;
+			}
+
+			.commentdatelabel {
+			    color: #999;
+			    font-size: 12px;
+			    margin: 0 0 5px 0;
+			}
+
+			.commentnamelabel {
+			    color: #3c3e43;
+			    padding-top: 0px;
+			    font-weight: 500;
+			}
+
+			#commentscontainer {
+			    margin: -20px 0 0 0;
+			    padding: 0;
+			}
+
+			.commentavatar {
+			    float: left;
+			    width: 46px;
+			    padding-bottom: 10px !important;
+			}
+
+			.commentavatar img{
+				width: 38px;
+				border-radius: 3px;
+			}
+
+			#commentscontainer div {
+			    padding: 20px 0 0 0;
+			    border-bottom: 1px solid #eee;
+			}
+
+			#commentscontainer div div {
+			    padding: 0px 0;
+			    outline: none;
+			    border: none;
+			}
+
+			.commentdataholder {
+			    padding: 0 0 0 45px;
+			}
+
+			#commentscontainer div:last-child,
+			#commentscontainer div:nth-last-child(2) {
+			    border-bottom: none;
+			}
+
+			.commentdataholderstaff {
+			    background: #fbfbfb;
+			    padding: 0px 6px !important;
+			}
+			/* @end */
+			/* @group forms */
+			/* @group main search box */
+
+			#searchform {
+			    padding: 12px 0 5px 0;
+			}
+
+			.helptitle{
+				text-align: center;
+			    font-size: 36px;
+			    font-weight: 300;
+			    margin-bottom: 30px;
+			}
+
+			.searchboxcontainer {
+			    -moz-border-radius: 6px;
+			    -webkit-border-radius: 6px;
+			    border-radius: 6px;
+			    margin: 0;
+			    background-color: #fff;
+			    position: relative;
+			    width: 650px;
+    			margin: auto;
+			}
+
+			.searchbuttoncontainer {
+			    float: right;
+			    background-color: #fff;
+			    position: absolute;
+			    top: 13px;
+			    right: 1px;
+			}
+
+			.searchbutton {
+			    font-size: 14px;
+			    font-weight: 500;
+			    -webkit-appearance: none;
+			    background-image: linear-gradient(to bottom, white 0%, #fdfdfd 100%);
+			    border-left: 1px solid #d1d5d7;
+			    border-radius: 2px;
+			    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+			    color: #5F6C73 !important;
+			    cursor: pointer;
+			    font-size: 14px;
+			    height: 30px;
+			    padding: 16px 24px;
+			    text-align: center;
+			    transition: all 0.15s ease;
+			}
+
+			.searchbutton:hover {
+			    background: linear-gradient(to bottom, white 0%, #f5f9fb 100%);
+			    color: #3b474e !important;
+			}
+
+			.searchquery {
+			    box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    -webkit-box-sizing: border-box;
+			    width: 100%;
+			    margin: 0;
+			    padding: 15px 12px;
+			    border: 1px solid #d1d5d7;
+			    color: #ccc;
+			    background-color: #fff;
+			    font-size: 16px;
+			}
+
+			.searchquery_topbar {
+				box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    -webkit-box-sizing: border-box;
+			    width: 225px;
+			    margin: 0;
+			    padding: 8px 6px;
+			    border: 1px solid #d1d5d7;
+			    color: #d4d4d4;
+			    background-color: #fff;
+			    font-size: 13px;
+			}
+
+			.searchbuttoncontainer_topbar{
+			    margin-left: -36px;
+			    display: inline-block;
+			    border-radius: 2px;
+			    padding-left: 8px;
+			    line-height: 29px;
+			    color: #d1d5d7;
+			    transition: color 0.25s ease;
+			    border-left: 1px solid #fff;
+			    padding-right: 8px;
+			    margin-top: 1px;
+			    padding-top: 3px;
+			}
+
+			.searchbuttoncontainer_topbar .fa{
+			    vertical-align : 0px;
+			}
+
+			.searchbuttoncontainer_topbar:hover {
+			    color: #9c9c9c;
+			    cursor: pointer;
+			    border-left: 1px solid #d1d5d7;
+			    background-color: #f3f3f3;
+			}
+
+			.searchinputcontainer_topbar{
+				float:left;
+			}
+
+			input[name="searchquery"]:focus .searchbuttoncontainer_topbar{
+			    border-left: 1px solid #d1d5d7;
+			}
+
+			.topbar_searchdiv{
+				display: inline-block;
+				margin-right: 15px;
+				vertical-align: top;
+			}
+
+			.searchquery:focus {
+				border-color: #b8c3c7 !important;
+			}
+
+			.searchqueryactive {
+			    color: #666!important;
+			}
+			/* @end */
+			/* @group horizontal line */
+
+			table.hlineheader {
+			    width: 100%;
+			    margin: 0;
+			    padding: 0;
+			    white-space: nowrap;
+			    text-decoration: none;
+			    font-weight: none;
+			    margin-bottom: 6px;
+			}
+
+			.kbrightstrip {
+			    margin: 0 12px 0 0;
+			}
+
+			.hlineheader th {
+				padding: 0px 10px 5px 5px;
+			    vertical-align: middle;
+			    font-size: 16px;
+			    text-align: left;
+			    color: #4c5156;
+			}
+
+			.hlineheader td {
+			    margin: 0;
+			    padding: 0;
+			}
+
+			td.hlinelower {
+			    border-top: 1px solid #ececec;
+			    width: 100%;
+			}
+
+			.hlinegray {
+			    color: #626262!important;
+			}
+			/* @end */
+			/* add focus highlight */
+
+			textarea,
+			input[type="text"],
+			input[type="password"],
+			input[type="datetime"],
+			input[type="datetime-local"],
+			input[type="date"],
+			input[type="month"],
+			input[type="time"],
+			input[type="week"],
+			input[type="number"],
+			input[type="email"],
+			input[type="url"],
+			input[type="search"],
+			input[type="tel"],
+			input[type="color"],
+			.uneditable-input {
+			    background-color: #ffffff;
+			    border: 1px solid #D1D5D7;
+			    -webkit-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+     				 -moz-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+          				box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+			    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+			    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+			    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+			    transition: border linear 0.2s, box-shadow linear 0.2s;
+			    -webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+						border-radius: 3px;
+			    -webkit-font-smoothing: antialiased;
+			    -moz-font-smoothing: antialiased;
+			}
+
+			textarea:focus,
+			input[type="text"]:focus,
+			input[type="password"]:focus,
+			input[type="datetime"]:focus,
+			input[type="datetime-local"]:focus,
+			input[type="date"]:focus,
+			input[type="month"]:focus,
+			input[type="time"]:focus,
+			input[type="week"]:focus,
+			input[type="number"]:focus,
+			input[type="email"]:focus,
+			input[type="url"]:focus,
+			input[type="search"]:focus,
+			input[type="tel"]:focus,
+			input[type="color"]:focus,
+			.uneditable-input:focus {
+			    border-color: #4EAFCB;
+			    -webkit-box-shadow: #D8EEF4 0 0 0 2px;
+			      -moz-box-shadow: #D8EEF4 0 0 0 2px;
+			          box-shadow: #D8EEF4 0 0 0 2px;
+			    outline: 0;
+			}
+
+			select {
+			    background-color: #fff;
+			    border: 1px solid #D1D5D7;
+			    max-width: 100%;
+			    -webkit-appearance: none;
+			    -webkit-border-radius: 2px;
+			    -moz-border-radius: 2px;
+			    -webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+						border-radius: 3px;
+			    margin-bottom: 4px;
+			    background: url(%themepath%images/menudrop_grey.svg) no-repeat;
+			    background-position: center right 4px;
+			    background-color: #fff;
+			    padding: 4px 16px 4px 4px !important;
+			    -webkit-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+     				 -moz-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+          				box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+			    height: 33px;
+			    line-height: 24px;
+			    font-size: 12px;
+			    -moz-appearance: none;
+			}
+
+			select[multiple] {
+  			 	background: none;
+			}
+
+			select:-moz-focusring {
+    			color: transparent;
+    			text-shadow: 0 0 0 #000;
+			}
+
+			select[name="languageid"]{
+			}
+
+			select:focus {
+				border-color: #4EAFCB;
+			    -webkit-box-shadow: #D8EEF4 0 0 0 2px;
+			      -moz-box-shadow: #D8EEF4 0 0 0 2px;
+			          box-shadow: #D8EEF4 0 0 0 2px;
+			    outline: 0;
+			}
+
+			@media(-webkit-min-device-pixel-ratio:0) {
+			    select {
+			        border: 1px solid #ccc;
+			    }
+			}
+
+			textarea[name="comments"] {
+			    width: 100%;
+			}
+
+			.useremailitem,
+			.ticketattachmentitem {
+			    padding: 4px;
+			}
+
+			.useremailitemdelete,
+			.ticketattachmentitemdelete {
+			    margin: 0 4px 0 0px;
+			    display: inline-block;
+			    height: 18px;
+			    cursor: pointer;
+			}
+
+			.useremailitemdelete:before,
+			.ticketattachmentitemdelete:before {
+			    content : "\f34c";
+			   	font-family: 'FontAwesome';
+			    font-size: 18px;
+			    vertical-align: -2px;
+			    margin-right: 3px;
+			}
+
+			.ticketattachmentitem {
+			    margin: 0;
+			    padding: 0;
+			}
+
+			input[type=file] {
+			    border-radius: 2px;
+			    -webkit-border-radius: 2px;
+			    -moz-border-radius: 2px;
+			}
+
+			form table td {
+			    padding: 0px 0px 0px 6px;
+			}
+
+			form table td select {
+			    margin: 3px 0;
+			    vertical-align: middle !important;
+			}
+
+			form .zebraodd {
+			    padding: 8px !important;
+			}
+
+			form .zebraodd,
+			form .zebraeven {
+			    text-align: left;
+			    font-size: 14px;
+			    margin: 0;
+			    padding: 0;
+			    color: #2d3138;
+			    font-weight: 600;
+			    line-height: 1.8;
+			}
+
+			.captchaholder {
+			    padding: 4px 0;
+			}
+
+			.smalltext {
+			    font-size: 13px;
+			    color: #92969b;
+			}
+
+			.swifttext,
+			.swifttextlarge,
+			.swifttextarea,
+			.swifttextwide,
+			.swifttextareawide {
+			    width: 300px;
+			    color: #3c3e43;
+			    border: 1px solid #cfd4d6;
+			    padding: 8px 4px;
+			    margin: 2px 0;
+			    vertical-align: middle;
+			    box-shadow: inset 0px 1px 1px #eee;
+			    font-size: 12px;
+			}
+
+			.swifttext {
+			    width: inherit;
+			}
+
+			.swifttextarea {
+			    vertical-align: top;
+			}
+
+			.swifttextwide,
+			.swifttextareawide {
+			    width: 100%;
+			    box-sizing: border-box;
+			}
+
+			.swifttexterror {
+			    border: 1px solid #e95f41 !important;
+                -webkit-box-shadow: 0px 0px 4px 0px rgba(232, 96, 72, 0.55), inset 0px 1px 1px 0px rgba(0, 0, 0, 0.08) !important;
+                box-shadow: 0px 0px 4px 0px rgba(232, 96, 72, 0.55), inset 0px 1px 1px 0px rgba(0, 0, 0, 0.08) !important;
+			}
+
+			#ticketmessage {
+			    margin-left: 0px;
+			    width: 100%;
+			}
+
+			#recordkayakoscreencast {
+			    margin-left: 130px;
+			}
+
+			.commentchild {
+			    background: url("%themepath%images/downarrow.gif") no-repeat 0px 12px !important;
+			    padding-left: 18px !important;
+			    width: 40px;
+			}
+
+			.commentchild img {
+			    width: 38px;
+			}
+
+			.subcontent {
+			    padding: 0px 0 20px 10px !important;
+			}
+
+			.captchaholder {
+			    padding: 0 0 0 0px;
+			}
+
+			.captchaholder img {
+			    float: left;
+			    margin-right: 6px;
+			}
+
+			form[name="RegisterForm"] .captchaholder img {
+			    float: none;
+			    display: inline-block;
+			    vertical-align: middle;
+			}
+
+			input[name=captcha] {
+			    width: 207px;
+			    margin: 0;
+			}
+			/* @end */
+			/* @group kb related questions */
+
+			select[name="salutation"] {
+			    min-width: 70px !important;
+			    max-width: 100px !important;
+			}
+
+			.swiftselect {
+			    word-break: initial;
+			}
+
+			.irsui {
+			    background-color: #fffbf2;
+			    border: 1px solid #ffe6b8;
+			    color: #3c3e43;
+			    -moz-border-radius: 6px;
+			    -webkit-border-radius: 6px 6px 6px 6px;
+			    border-radius: 6px 6px 6px 6px;
+			    padding: 20px 20px 10px 20px;
+			    margin: 10px 0 0;
+			}
+
+			.irscontainer {
+			    display: none;
+			}
+
+			.irstitle {
+			    font-size: 18px;
+			    color: #3c3e43;
+			    margin-bottom: 6px;
+			    font-weight: 500;
+			}
+
+			.irshr {
+			    border: none;
+			    color: #ffeecf;
+			    background-color: #ffeecf;
+			    height: 1px;
+			    margin: 20px 0;
+			    padding: 0;
+			}
+
+			.addplus {
+			    display: inline;
+			    padding: 0 0 0 2px;
+			}
+
+			.addplus:before {
+			    content : "\f2c3";
+			   	font-family: 'FontAwesome';
+			    font-size: 14px;
+			    margin-right: 3px;
+			    color: #4eafcb;
+			}
+			/* @end */
+			/* @group widget boxes */
+
+			#corewidgetbox {
+			    margin-top: 2em;
+			    margin-bottom: 1.5em;
+			    padding-left: 3px;
+			}
+
+			.widgetrow {
+			    width: 100%;
+			    position: relative;
+			    margin: 0 -20px 0 0;
+			    text-align: center;
+			}
+
+			.widgetrowitem:focus {
+			    outline: none;
+			    background-color: #eee;
+			}
+
+			.defaultwidget {
+			    background-image: url(%themepath%images/space.gif);
+			}
+
+			.widgetrow a {
+			    background-repeat: no-repeat;
+			    background-position: 50% 12px;
+			    padding: 60px 10px 14px 10px;
+			    font-weight: normal;
+			    text-align: center;
+			    width: 115px;
+			    display: block;
+			    cursor: pointer;
+			    clear: none;
+			    display: inline-block;
+			    background-color: #fff;
+			    border-radius: 4px;
+			    line-height: 14px;
+			    margin: 0 15px 6px 0;
+			    white-space: nowrap;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    box-shadow: 0 2px 6px 0 rgba(0,0,0,.06), 0 1px 3px 0 rgba(44,48,56,.09);
+			    color: #909090;
+		        font-size: 12px;
+		        font-weight: 600;
+			}
+
+			.widgetrow a:hover {
+			    box-shadow: rgba(0,0,0,.07) 0 2px 10px 0, rgba(44,48,56,.09) 0 1px 8px 0;
+			}
+			/* @end */
+			/* @group left sidebar */
+
+			.inactive .tabbulk {
+
+			}
+
+			.tabbulk {
+			    display: inline-block;
+			    padding: 8px 0px 6px 0;
+			    margin: 0 0 0 0;
+			    height: 100%;
+			    -moz-border-radius: 3px 3px 0 0;
+			    -webkit-border-radius: 3px 3px 0 0;
+			    border-radius: 3px 3px 0 0;
+			    position: relative;
+			    top: 1px;
+			    font-size: 14px;
+			}
+
+			.tabbulk:hover {
+			    color: #3c3e43!important;
+			}
+
+			.tabrow {
+			    margin: 0;
+			    padding: 0;
+			    border-bottom: 1px solid #f4f5f5;
+			    <!-- background-color: #f4f5f5; -->
+			}
+
+			.tabtext {
+			    padding: 0 12px;
+			    background-repeat: no-repeat;
+			    background-position: 5px 0;
+			    max-width: 70px;
+			    display: inline-block;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			    font-size: 13px;
+			}
+
+			.atab {
+			    display: inline-block;
+			    clear: none;
+			    margin: 0;
+			    padding: 0;
+			    height: 100%;
+			    text-decoration: none;
+			    cursor: pointer;
+			    border-bottom: 2px solid #4eafcb;
+    			font-weight: 600;
+    			color :
+			}
+
+			.tabtext{
+				color: #676767 !important;
+			}
+
+			.tableftgap {
+			    display: none;
+			}
+
+			.atab.inactive,
+			.atab.inactive {
+			    margin: 0;
+			    padding: 0;
+			    color: #506c74;
+			    border-bottom : none;
+			    font-weight : normal;
+			}
+
+			.atabbasic {
+			    cursor: inherit!important;
+			}
+
+			#logintext {
+			    float: left;
+			    margin: 10px 0 0 20px;
+			    font-size: 12px;
+			    max-width: 105px;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    width: 86px;
+			}
+
+			#leftloginboxremembermetext {
+			    font-size: 12px;
+			    color: #92969b;
+			    margin-left: 3px;
+			}
+
+			#loginsubscribebuttons {
+			    font-size: 11px;
+			    text-align: right;
+			    display: block;
+			    padding: 4px 11px 12px 20px;
+			    margin: 10px 0 0 12px;
+			}
+
+			#loginsubscribebuttons .rebutton {
+			    padding: 4px 10px!important;
+			    white-space: nowrap;
+				display: inline-block;
+			    *display: inline;
+			    *zoom: 1;
+			    text-overflow: ellipsis;
+			    -ms-text-overflow: ellipsis;
+			    white-space: nowrap;
+			    overflow: hidden;
+			    word-wrap: normal;
+			    width: 88px;
+			    margin-right: 10px;
+			}
+
+			#leftloginsubscribebox,
+			.leftnavboxbox {
+			    margin: 20px 0 35px 0px;
+			    border: 1px solid #eee;
+   				border-radius: 4px;
+   				padding-bottom: 15px;
+   				background-color: #fff;
+			}
+
+			#leftlivechatbox {
+			    text-align: center;
+			    padding: 6px 0 10px 0;
+			    margin: auto;
+   				width: 150px;
+			}
+
+			#inlinechatdiv{
+			    box-shadow: 0px 7px 29px rgba(0, 0, 0, 0.34);
+    			border-radius: 10px;
+  	  			border: 1px solid #eee;
+  	  			padding-top : 10px;
+  	  			background-color: #fff;
+  	  			position: fixed !important;
+			    bottom: 10px !important;
+			    right: 15px !important;
+			    left: unset !important;
+			    top: unset !important;
+			}
+
+			#inlinechatclosebutton{
+				float: right !important;
+				position: absolute !important;
+    			right: 5px !important;
+			}
+
+			#leftloginbox,
+			#leftsubscribebox {
+			    border-width: 0 1px 1px;
+			    padding: 5px 0px;
+			    border-radius: 0 0 5px 5px;
+			    margin: 0 0 0 0;
+			}
+
+			#leftsubscribebox {
+			    display: none;
+			}
+
+			#leftloginbox .inputframe,
+			#leftsubscribebox .inputframe {
+			    vertical-align: middle;
+			}
+
+			#leftloginbox .maitem,
+			#leftsubscribebox .maitem {
+			    padding: 6px 0 6px 15px;
+			    font-size: 14px;
+			    color: #2d3138;
+			    background-color: #fff;
+			    margin: 0 10px;
+    			border-radius: 4px;
+			}
+
+			#leftloginbox .maitem:before,
+			#leftsubscribebox .maitem:before {
+			    color: #666 !important;
+			}
+
+			#leftloginbox .maitem:last-child {
+			    border-bottom: none;
+			    -webkit-border-radius: 4px;
+			    -moz-border-radius: 4px;
+			    border-radius: 4px;
+			}
+
+			#leftloginbox .maitem:hover,
+			#leftsubscribebox .maitem:hover {
+			    cursor: pointer;
+			    background-color: #f4f5f7;
+			}
+
+			#leftloginbox .maprofile:before {
+			    font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f364";
+			    font-size: 18px;
+			    vertical-align: -5%;
+			    margin-right: 10px;
+			}
+
+			#leftloginbox .maorganization:before {
+				font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f12d";
+			    font-size: 18px;
+			    vertical-align: -5%;
+			    margin-right: 10px;
+			}
+
+			#leftloginbox .machangepassword:before {
+				font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f271";
+			    font-size: 18px;
+			    vertical-align: -5%;
+			    margin-right: 10px;
+			}
+
+			#leftloginbox .mapreferences:before {
+				font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f20c";
+			    font-size: 18px;
+			    vertical-align: -5%;
+			    margin-right: 10px;
+			}
+
+			#leftloginbox .mabilling:before {
+				font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f174";
+			    font-size: 18px;
+			    vertical-align: -5%;
+			    margin-right: 10px;
+			}
+
+			#leftloginbox .malogout:before {
+			    border-bottom: none!important;
+				font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f2fc";
+			    font-size: 18px;
+			    vertical-align: -5%;
+			    margin-right: 10px;
+			}
+
+			input.loginstyled,
+			input.loginstyledlabel,
+			input.emailstyled,
+			input.emailstyledlabel {
+			    width: 177px;
+			    margin: 0px 0px;
+			    background-color: white;
+			    border: 1px solid #D1D5D7;
+			    -webkit-border-radius: 3px;
+			    -moz-border-radius: 3px;
+			    border-radius: 3px;
+			    -webkit-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+			      -moz-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+			          box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+			    color: #2d3138;
+			    font-size: 12px !important;
+			    font-weight: normal;
+			    margin-bottom: 0.3em;
+			    padding: 8px 5px;
+			    -webkit-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+			    -moz-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+			    -o-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+			    transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+			    -moz-appearance: none;
+			    -webkit-appearance: none;
+			}
+
+			#leftloginbox .inputframe.zebraeven,
+			#leftloginbox .inputframe.zebraodd,
+			#leftsubscribebox .inputframe.zebraeven,
+			#leftsubscribebox .inputframe.zebraodd {
+			    background: none !important;
+			    padding: 20px 20px 0 20px !important;
+			    margin: 0px 0;
+			    text-align: left;
+			    font-weight: normal;
+			    border: none;
+			}
+
+			#leftsubscribebox .inputframe.zebraeven {
+			    background: none !important;
+			    padding: 20px;
+			    margin: 0px;
+			}
+
+			#leftloginbox input.loginstyledlabel,
+			#leftsubscribebox input.emailstyledlabel {
+			    color: #ccc;
+			    font: normal 14px/18px "segoe ui", "helvetica neue", arial, helvetica, sans-serif;
+			    padding: 6px 4px;
+			}
+
+			.remembermeDiv{
+				padding: 1px 20px 0px 20px !important;
+			}
+
+			#leftloginbox #leftloginboxrememberme {
+			    margin-bottom: 10px;
+			}
+
+			#leftloginboxremembermetext {
+			    vertical-align: middle;
+			}
+
+			.leftnavboxtitle {
+			    padding: 8px 0 8px;
+			}
+
+			.leftnavboxtitleleftgap {
+			    display: none;
+			}
+
+			.leftnavboxtitletext {
+			    padding: 10px 6px 3px 15px;
+			    text-transform: uppercase;
+			    font-size: 10px;
+			    font-weight: 600;
+			    color: #838d94;
+			    letter-spacing: 0.92px;
+			    line-height: 16px;
+			}
+
+			.leftnavboxcontent {
+			    -moz-border-radius: 4px;
+			    -webkit-border-radius: 4px;
+			    border-radius: 4px;
+			    word-wrap: break-word;
+			    background-color: #fff;
+			    margin: 0 0 24px 0;
+			}
+
+			.leftnavboxcontent a {
+			    display: block;
+			    text-decoration: none;
+			    padding: 8px 10px;
+			    line-height: 140%;
+			    background-color: transparent;
+			    font-size: 14px;
+			    margin: 0 10px;
+			    align-items: center;
+			    border-radius: 4px;
+			    font-size: 13px;
+			    text-decoration: none;
+			    color: #2d3138;
+			    -webkit-transition: background-color .1s;
+			    transition: background-color .1s;
+			    line-height: 20px;
+			}
+
+			.leftnavboxcontent a:last-child {
+			    border-bottom: none;
+			    -moz-border-radius: 0 0 4px 4px;
+			    -webkit-border-radius: 0 0 4px 4px;
+			    border-radius: 0 0 4px 4px;
+			}
+
+			.leftnavboxcontent a:first-child {
+			    -moz-border-radius: 4px 4px 0 0;
+			    -webkit-border-radius: 4px 4px 0 0;
+			    border-radius: 4px 4px 0 0;
+			}
+
+			.leftnavboxcontent a:hover {
+			     background-color: #f7f8f9;
+   				 border-radius: 4px;
+			}
+
+			.leftnavboxcontent .graytext {
+			    padding: 0 6px;
+			    border-radius: 2px;
+			    line-height: 20px;
+			    font-weight: 600;
+			    font-size: 12px;
+			    color: #838d94;
+			    float: right;
+			}
+
+			.vdivider {
+			    border: solid #fff;
+			    border-width: 1px 0 0;
+			    clear: both;
+			    margin: 10px 0 6px;
+			    height: 0;
+			}
+			/* @end */
+			/* @group buttons */
+
+			.rebutton,
+			.rebuttonblue,
+			.rebuttonred,
+			.rebuttonwide2 {
+			    background-color: #4eafcb;
+			    background-image: linear-gradient(to top,rgba(0,0,0,0.04),rgba(255,255,255,0.04) 57%);
+			    box-shadow: 0 1px 1px rgba(0,0,0,0.18), inset 0 1px rgba(255,255,255,0.16), inset 0 0 0px rgba(255,255,255,0.35);
+			    border: 1px solid rgba(0,0,0,0.16);
+			    color: white;
+			    font-weight: 600;
+			    padding-left: 1.8em;
+			    padding-right: 1.8em;
+			    border-radius: 4px;
+			    font-size: 12px;
+			    height: 30px;
+			    padding: 0 1.35em 0.1em;
+			    text-align: center;
+			    transition: all 0.15s ease;
+			    cursor: pointer;
+    			margin-right: 12px;
+			}
+
+			.rebutton:hover,
+			.rebuttonblue:hover,
+			.rebuttonred:hover,
+			.rebuttonwide2:hover {
+			    background-color: #339bba;
+			}
+
+			.rebuttonwide2.rebuttonwide2final {
+				line-height: 2.5;
+			}
+
+			.rebuttonred {
+			    color: #b94a48;
+			    border: 1px solid #e0acac;
+			}
+
+			.searchbutton {
+			    font-size: 12px;
+			}
+
+			.searchbutton span {
+			    display: none;
+			}
+
+			.subcontent .rebuttonwide2 {
+			    margin: 10px 0 0 0px;
+			}
+
+			.infotextcontainer {
+			    font-style: italic;
+			    word-break: break-word;
+			}
+
+			.sprite-button1 {
+			    background-position: 0 0;
+			}
+
+			.rebuttonred:hover {
+			    background-position: 0 0px;
+			    position: relative;
+			}
+
+			.rebutton:active {
+			    background-position: 0 0px;
+			    position: relative;
+			    top: 1px;
+			    box-shadow: none;
+			}
+
+			.sprite-buttonwide {
+			    background-position: 0 0;
+			}
+
+			.sprite-buttonwidehover {
+			    background-position: 0 -95px;
+			}
+
+			.sprite-buttonwide2 {
+			    background-position: 0 0;
+			}
+
+			.sprite-buttonwide2hover {
+			    background-position: 0 -86px;
+			}
+
+			.headerbutton,
+			.headerbuttongreen,
+			.headerbuttonorange,
+			.headerbuttonred,
+			.headerbuttonblue,
+			.headerbuttonyellow {
+			    float: left;
+			    -webkit-appearance: none;
+			    background-image: linear-gradient(to bottom, white 0%, #fdfdfd 100%);
+			    border: 1px solid #d1d5d7;
+			    border-radius: 4px;
+			    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+			    color: #5F6C73;
+			    cursor: pointer;
+			    display: block;
+			    font-size: 14px;
+			    height: 30px;
+			    padding: 0px 12px;
+			    text-align: center;
+			    transition: all 0.15s ease;
+			    line-height: 2;
+			    width: auto;
+			    margin-left:10px;
+			    font-weight: 500;
+			}
+
+			.headerbutton:hover,
+			.headerbuttongreen:hover,
+			.headerbuttonorange:hover,
+			.headerbuttonred:hover,
+			.headerbuttonblue:hover,
+			.headerbuttonyellow:hover {
+			    background-image: linear-gradient(to bottom, white 0%, #f5f9fb 100%);
+			    border-color: #acb9bf;
+			    color: #3b474e;
+			    outline: none;
+			    text-decoration: none;
+			}
+
+			.headerbuttongreen {
+			    color: #fff;
+			    font-weight: normal;
+			    color: #fff !important;
+			    border: 1px solid #80b506;
+			    -moz-box-shadow: 0px 1px 1px #f8f8f8, inset 0px 1px 0px rgba(255, 255, 255, .2);
+			    -webkit-box-shadow: 0px 1px 1px #f8f8f8, inset 0px 1px 0px rgba(255, 255, 255, .2);
+			    box-shadow: 0px 1px 1px #f8f8f8, inset 0px 1px 0px rgba(255, 255, 255, .2);
+			    text-shadow: 0 -1px 0 #7fb405;
+			    background-color: #82b900;
+			    background: -moz-linear-gradient(top, #8ac400 0%, #7db100 100%) #82b900;
+			    background: -webkit-gradient(linear, left top, left bottom, from(#8ac400), to(#7db100)) #82b900;
+			}
+
+			.headerbutton:active,
+			.headerbuttongreen:active,
+			.headerbuttonorange:active {
+			    -moz-transform: translatey(1px);
+			}
+			/* @end */
+			/* @group date box */
+
+			.datecontainerparent {
+			    width: 54px;
+			    margin-top: 5px;
+			}
+
+			.monthholder {
+			    display: block;
+			    text-align: center;
+			    padding: 0;
+			    margin: 0;
+			    color: #717d82;
+			    width: 54px;
+			    background-color: #c9cfd7;
+			    -moz-border-radius: 3px 3px 0 0;
+			    -webkit-border-radius: 3px 3px 0 0;
+			    border-radius: 3px 3px 0 0;
+			    text-transform: uppercase;
+			}
+
+			.monthsub {
+			    padding: 3px 0 2px 0;
+			    font-size: 11px;
+			    line-height: 11px;
+			}
+
+			.dateholder {
+			    display: block;
+			    text-align: center;
+			    padding: 0px 0 5px 0;
+			    color: #717d82;
+			    width: 52px;
+			    background-color: #fff;
+			    font-size: 36px;
+			    border: 1px solid #c9cfd7;
+			    -moz-border-radius: 0 0 3px 3px;
+			    -webkit-border-radius: 0 0 3px 3px;
+			    border-radius: 0 0 3px 3px;
+			    font-weight: 300;
+			}
+
+			.datecontainer {
+			    padding-top: 3px;
+			    font-size: 28px;
+			    line-height: 28px;
+			}
+
+			.datesub {
+			    padding-top: 6px;
+			    padding-bottom: 6px;
+			}
+			/* @end */
+			/* @group images */
+
+			img.alignright {
+			    float: right;
+			    margin: 10px 0 10px 20px !important;
+			}
+
+			img.alignleft {
+			    float: left;
+			    margin: 10px 20px 10px 0 !important;
+			}
+			/* @end */
+			/* @group misc */
+
+			.flickr-thumb {
+			    float: left;
+			    margin-right: 6px;
+			}
+
+			.fg-clear {
+			    clear: both;
+			}
+			/* @end */
+			/* @group alerts */
+
+			label.error {
+			    border: none;
+			    background-color: transparent;
+			    color: #b94a48;
+			    display: block;
+			    margin-top: 0;
+			}
+
+			.error {
+			    border: 1px solid #e0acac;
+			    background-color: #f2dede;
+			    color: #b94a48;
+			    margin-top: 5px;
+			    padding: 4px;
+			}
+
+			.dialogerrorcontent {
+			    padding: 5px 30px 5px 30px;
+			    margin: 54px 0 0 0px;
+			    color: #ffffff;
+			    background-color: #e05720;
+			    -webkit-border-radius: 3px;
+			    -moz-border-radius: 3px;
+			    border-radius: 3px;
+			    display: inline-block;
+			    font-size: 13px;
+			    font-weight: 600;
+			}
+
+			.dialogerrorcontent:before {
+			    font-family: 'FontAwesome';
+			    content: "\f1ce";
+			    font-size: 16px;
+			    margin-right: 6px;
+			    color: #fff;
+			    vertical-align: -2px;
+			}
+
+			.alert,
+			.dialoginfocontent {
+			    padding: 5px 30px 5px 30px;
+			    margin: 54px 0 0 0px;
+			    color: #ffffff;
+			    background-color: #fcf8e3;
+			    -webkit-border-radius: 3px;
+			    -moz-border-radius: 3px;
+			    border-radius: 3px;
+			    display: inline-block;
+			    font-size: 13px;
+			    font-weight: 600;
+			}
+
+			.alert:before,
+			.dialoginfocontent:before {
+				font-family: 'FontAwesome';
+			    content: "\f17c";
+			    font-size: 16px;
+			    margin-right: 10px;
+			    color: #fff;
+			    vertical-align: -2px;
+			}
+
+			.alert,
+			.alert h4 {
+			    color: #c09853;
+			}
+
+			.alert h4 {
+			    margin: 0;
+			}
+
+			.alert .close {
+			    position: relative;
+			    top: -2px;
+			    right: -21px;
+			    line-height: 20px;
+			}
+
+			.alert-success,
+			.dialoginfocontent {
+   				color: #ffffff;
+   				background-color: #50adc9;
+			}
+
+			.alert-success h4 {
+			    color: #468847;
+			}
+
+			.alert-danger,
+			.alert-error {
+			    color: #b94a48;
+			    background-color: #f2dede;
+			    border-color: #e0acac;
+			}
+
+			.alert-danger h4,
+			.alert-error h4 {
+			    color: #b94a48;
+			}
+
+			.alert-info {
+			    color: #3a87ad;
+			    background-color: #d9edf7;
+			    border-color: #bce8f1;
+			}
+
+			.alert-info h4 {
+			    color: #3a87ad;
+			}
+
+			.alert-block {
+			    padding-top: 14px;
+			    padding-bottom: 14px;
+			}
+
+			.alert-block > p,
+			.alert-block > ul {
+			    margin-bottom: 0;
+			}
+
+			.alert-block p + p {
+			    margin-top: 5px;
+			}
+			/* @end */
+			/* @group chat stuff */
+
+			#main.chatview {
+			    background-color: #fff;
+			    position: relative;
+			    clear: both;
+			}
+
+			.topbannerchat {
+			    float: left;
+			}
+
+			#topbanneravatarcontainer {
+			    float: right;
+			   	width: 48px;
+    			height: 48px;
+    			margin: 12px 25px;
+			}
+
+			#topbanneravatarcontainer img {
+			    width: 48px;
+			    height: 48px;
+			    border-radius: 50px;
+			}
+
+			.chatlink:visited {
+			    color: #277dc9;
+			    text-decoration: none;
+			    outline: none;
+			}
+
+			.chatlink:hover {
+			    color: red!important;
+			    text-decoration: none;
+			    outline: none;
+			}
+
+			.chatlink:link {
+			    color: #277dc9;
+			    text-decoration: none;
+			    outline: none;
+			}
+
+			#chattoptoolbar {
+			    color: #3c3e43;
+			    padding: 6px 20px;
+			}
+			/* clearfix */
+
+			#chattoptoolbar:before,
+			#chattoptoolbar:after {
+			    content: " ";
+			    display: table;
+			}
+
+			#chattoptoolbar:after {
+			    clear: both;
+			}
+
+			.chatstatuscontainer img{
+				box-shadow: 0 2px 6px 0 rgba(0,0,0,.06), 0 1px 3px 0 rgba(44,48,56,.09);
+			    border-radius: 4px;
+			    background-color: #fff;
+			    padding: 6px 6px;
+			    opacity: 0.8;
+			    transition: all 0.25s ease;
+			}
+
+			.chatstatuscontainer img:hover{
+			    opacity: 1;
+			}
+
+			#chattoptoolbar {
+			    *zoom: 1;
+			}
+			/* for ie 6/7 */
+
+			#chattoptoolbar a {
+			    color: #888888;
+			    text-decoration: none;
+			}
+
+			#chattoptoolbarrightarea {
+			    float: right;
+			    display: inline-block;
+			    height: 100%;
+			    font-size: 14px;
+			}
+
+			#chattoptoolbarrightarea .swiftselect {}
+
+			#chattoptoolbarrightareainset {
+			    display: inline-block;
+			    margin: 0 .2em 0 0;
+			    vertical-align: middle;
+			}
+			#languageid {
+				display: inline-block;
+    			vertical-align: middle;
+			}
+			/* @group chat link list */
+
+			#chattoptoolbarlinklist {
+			    margin: 0;
+			    padding: 0;
+			}
+
+			#chattoptoolbarlinklist li {
+			    list-style-type: none;
+			    display: inline-block;
+			    float: left;
+			    padding: 0;
+			}
+
+			#chattoptoolbarlinklist a {
+			    display: inline-block;
+			    font-size: 12px;
+			    text-align: left;
+			    padding: 0px 10px 0px 10px;
+			    margin: 0 6px 0 0;
+			    background-color: #e4e4e4;
+			    -moz-border-radius: 3px;
+			    -webkit-border-radius: 3px;
+			    border-radius: 3px;
+			    border: 1px solid #dcdcdc;
+			    cursor: pointer;
+			    height: 24px;
+			   	transition: all 0.25s ease;
+			}
+
+			#sendemailcontainer {
+			    display: none;
+			}
+
+			#chattoptoolbarlinklist a:hover {
+				background-color: #4eafcb;
+			    color: #fff;
+			    border-color: #4eafcb;
+			}
+
+			a#chattoptoolbarcloselink {
+				line-height: 2;
+			}
+
+			a#chattoptoolbarcloselink i{
+				vertical-align: -1px;
+				font-size: 14px !important;
+			}
+
+			a#chattoptoolbarcloselink:hover {
+			    background-color: #e05720;
+			    border: 1px solid #e05720;
+			    box-shadow: none;
+			    color: #fff;
+			}
+
+			a#chattoptoolbarprintlink:before {
+			    font-family: 'FontAwesome';
+			    content: "\f2c7";
+			    font-size: 14px;
+			    margin-right: 8px;
+			}
+
+			a#chattoptoolbaremaillink:before {
+			    font-family: 'FontAwesome';
+			    content: "\f1c7";
+			    font-size: 14px;
+			    margin-right: 8px;
+			}
+
+			a#chattoptoolbarsoundonlink:before {
+			    font-family: 'FontAwesome';
+			    content: "\f375";
+			    font-size: 14px;
+			    margin-right: 8px;
+			}
+
+			a#chattoptoolbarsoundofflink:before {
+			    font-family: 'FontAwesome';
+			    content: "\f374";
+			    font-size: 14px;
+			    margin-right: 8px;
+			}
+
+			li#chattoptoolbarprint {
+			    display: none;
+			}
+
+			li#chattoptoolbaremail {
+			    display: none;
+			}
+
+			li#chattoptoolbarsoundon {
+			    display: none;
+			}
+
+			li#chattoptoolbarsoundoff {
+			    display: none;
+			}
+			/* @end */
+
+			.errorrowhidden {
+			    padding: 6px;
+			    display: none;
+			    border: 1px solid #e7bcbc;
+			    -moz-border-radius: 4px;
+			    background-color: #ffeef0;
+			    color: #3c3e43;
+			    font-size: 11px;
+			}
+
+			#main.chatview {
+			    margin: 0;
+			    min-height: 100vh;
+			    min-width: 450px;
+			}
+
+			.chatview #bottomfooter {
+			    height: 22px;
+			    vertical-align: middle;
+			    color: #4eafcb;
+			    position: absolute;
+			    bottom: 0;
+			    width: 100%;
+			    padding: 4px 0px 0px 0px;
+			    text-align: center;
+			}
+
+			.chatview #chatpostcontainer {
+			    position: absolute;
+			    bottom: 22px;
+			    width: 100%;
+			    height: 77px;
+			    border-top: 1px solid #eee;
+			}
+
+			#chatcontentcontainer {
+			    z-index: 10000;
+			    overflow: auto;
+			    position: fixed;
+			    top: 122px;
+			    bottom: 125px;
+			    left: 0px;
+			    right: 0px;
+			    padding: 20px 20px 0px 20px;
+			}
+
+			#chatstatuswrapper {
+			    z-index: 10001;
+			    position: fixed;
+			    bottom: 100px;
+			    left: 20px;
+			    right: 30px;
+			}
+
+			.chatstatusbar {
+			    font-size: 12px;
+			    font-weight: 500;
+			    padding: 3px 6px;
+			    border-radius: 4px;
+			    -webkit-border-radius: 4px;
+			    -moz-border-radius: 4px;
+			    color: #92969b;
+			    margin-bottom: 4px;
+			}
+
+			#chatcore {
+			    background-color: #f8f8f8;
+			    height: 100%;
+			    width: 100%;
+			}
+
+			#chatcore .tabrow {
+			    padding-left: 20px;
+			    background-color: #f8f8f8;
+			}
+
+			#chatcore .fieldtitle {
+			    font-weight: 600;
+			}
+
+			#chatbox {
+			    background-color: #fff;
+			    top: 130px;
+			    padding: 50px;
+			    bottom: 27px;
+			    left: 0;
+			    right: 0;
+			}
+
+			.bubblecover_client{
+			    display: flex;
+			    flex-direction: row-reverse;
+			}
+
+			.bubblecover_staff{
+			    display: flex;
+			}
+
+			.msgwrapper {
+			    display: block;
+			    padding: 2px 0;
+			    max-width: 70%;
+   				display: block;
+    			width: fit-content;
+    			margin: 6px;
+    			min-width: 200px;
+			}
+
+			.clientbubble{
+				background-color: #e05720;
+			    color: #edeeef !important;
+			    padding: 5px 10px !important;
+			    border-radius: 4px;
+			}
+
+			.clientmessage{
+				color: #fff !important;
+			}
+
+			.clientbubble .clientname{
+				color: #fff !important;
+			}
+
+			.clientbubble .timestamp{
+				color: #fff !important;
+			}
+
+			.staffbubble{
+				background-color: #edeeef;
+			    color: #fff !important;
+			    padding: 5px 10px !important;
+			    border-radius: 4px;
+			}
+
+			.staffmessage{
+				color: #2D3138 !important;
+			}
+
+			.staffbubble .staffname{
+				color: #92969b !important;
+			}
+
+			.staffbubble .timestamp{
+				color: #92969b !important;
+			}
+
+			.timestamp {
+			    font-size: 12px;
+			    color: #92969b;
+			    float: right;
+			}
+
+			.clientname,
+			.staffname {
+			    font-size: 13px;
+			}
+
+			.staffname {
+			    color: #5b9ec0;
+			}
+
+			.clientname {
+			    color: #92969b;
+			}
+
+			.clientmessage,
+			.staffmessage {
+			    display: block;
+			    font-size: 15px;
+			}
+
+			#chatcontrolregion {
+			    position: fixed;
+			    left: 20px;
+			    right: 30px;
+			    height: 45px;
+			    bottom: 3em;
+			    z-index: 10002;
+			}
+
+			#chatpostmsgwrap {
+			    position: absolute;
+			    height: 100%;
+			    top: 0;
+			    bottom: 0;
+			    right: 55px;
+			    left: 0;
+			}
+
+			#chatpostmsg {
+			    height: 100%;
+			    height: 100%;
+			    width: 100%;
+			    color: #3c3e43;
+			    padding: 4px;
+			    vertical-align: middle;
+			    font-size: 12px;
+			    border: none;
+			    box-shadow: none;
+			    background: transparent;
+			    resize: none;
+			}
+
+			.blockoverlay {
+			    background-color: rgba(0, 0, 0, .75) !important;
+			    background-image: none !important;
+			}
+
+			.blockui.blockmsg {
+			    background-color: #fff;
+			    color: #3c3e43 !important;
+			    font: normal 16px/1.2em "helvetica neue", arial, helvetica, sans-serif !important;
+			    border-radius: 4px !important;
+			    border: 1px solid #92969b !important;
+			}
+
+			#chattoptoolbarrightclockticker {
+			    color: #92969b;
+			    margin-top: 2px;
+			    margin-right: 2px;
+			}
+
+			#chatpostbutton {
+			    position: absolute;
+			    height: 40px;
+			    top: 8px;
+			    bottom: 0;
+			    right: 0;
+			    margin: 0;
+			    width: 40px;
+			    font-weight: 500;
+			    font-size: 18px;
+			    color: #ffffff;
+			    background-color: #e05720;
+			    border: none;
+			    border-radius: 50px;
+			    cursor: pointer;
+			    outline: none !important;
+			    background: #e05720 url(%themepath%/images/sendbutton.svg) no-repeat 13px 11px;
+			}
+
+			#chatpostbutton i{
+				margin-left: 2px;
+				font-size: 22px;
+			}
+
+			.chatsystemmessage {
+			    padding: 10px 35px 10px 10px;
+			    margin-bottom: 5px;
+			    margin-top: 5px;
+			    background-color: #f3f3f3;
+			    border: 1px solid #ffffff;
+			    -webkit-border-radius: 4px;
+			    -moz-border-radius: 4px;
+			    border-radius: 4px;
+			    color: #545454;
+			    font-size: 13px;
+			}
+
+			.chaturlmessage {
+			    border-top: 1px solid #ccc;
+			    border-bottom: 1px solid #ccc;
+			    padding-left: 20px;
+			    background: #fff url(%themepath%images/icon_pushurl.png) no-repeat left;
+			    margin-top: 8px;
+			    margin-bottom: 8px;
+			    padding-top: 6px;
+			    padding-bottom: 6px;
+			    font-size: 12px;
+			    color: #3c3e43;
+			}
+
+			.chatimagemessage {
+			    border-top: 1px solid #ccc;
+			    border-bottom: 1px solid #ccc;
+			    padding-left: 20px;
+			    background: #fff url(%themepath%images/icon_pushimage.png) no-repeat left;
+			    margin-top: 8px;
+			    margin-bottom: 8px;
+			    padding-top: 6px;
+			    padding-bottom: 6px;
+			    font-size: 12px;
+			    color: #3c3e43;
+			}
+
+			.chatcodemessage {
+			    border-top: 1px solid #ccc;
+			    border-bottom: 1px solid #ccc;
+			    padding-left: 6px;
+			    margin-top: 8px;
+			    margin-bottom: 8px;
+			    padding-top: 6px;
+			    padding-bottom: 3px;
+			    font-size: 12px;
+			    color: #3c3e43;
+			}
+
+			.chatcodemessage ol {
+			    margin-bottom: 8px!important;
+			    list-style: decimal;
+			}
+
+			#imagezoomcontainer {
+			    width: 100%;
+			    overflow: hidden;
+			}
+
+			#imagezoomcontainer a {
+			    position: relative;
+			    float: left;
+			    margin: 5px;
+			}
+
+			#imagezoomcontainer a span {
+			    display: block;
+			    background-image:URL('<{$_themePath}>images/icon_zoom.png');
+			    background-repeat: no-repeat;
+			    width: 16px;
+			    height: 16px;
+			    position: absolute;
+			    bottom: 8px;
+			    right: 8px;
+			}
+
+			#imagezoomcontainer img {
+			    border: solid 1px #999;
+			    padding: 5px;
+			}
+
+			@media screen and (max-width: 520px) {
+			#proactivechatcontainernc2v4biell { display: none }
+			}
+
+			/* @end */
+			/* @group rating */
+
+			#surveyform table td {
+			    padding: 3px 6px;
+			}
+
+			div.rating-cancel,
+			div.star-rating {
+			    float: left;
+			    width: 17px !important;
+			    height: 18px;
+			    cursor: pointer;
+			    display: block;
+			    background: transparent;
+			    overflow: hidden;
+			}
+
+			div.rating-cancel:before {
+			    font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f28f" !important;
+			    font-size: 14px;
+			    color: #e05720;
+			}
+
+			div.star-rating:before {
+			    font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f31b";
+			    font-size: 14px;
+			    transition: all .25s ease;
+			    color: #dcd6d6;
+			}
+
+			div.rating-cancel a,
+			div.star-rating a {
+			    display: block;
+			    width: 16px;
+			    height: 100%;
+			    background-position: 0 0px;
+			    border: 0;
+			}
+
+			div.star-rating-on:before{
+			    font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f318";
+			    font-size: 15px;
+			    color: #4eafcb;
+			}
+
+			div.star-rating-hover:before{
+			    font-family: 'FontAwesome';
+			    top: 6px;
+			    left: 6px;
+			    content: "\f318";
+			    font-size: 14px;
+			    color: #4eafcb;
+			}
+
+			div.star-rating-readonly a {
+			    cursor: default !important;
+			}
+
+			div.star-rating {
+			    background: transparent !important;
+			    overflow: hidden !important;
+			}
+			/* @end */
+			/* @group tickets */
+
+			.ticketlistproperties {
+			    color: white;
+			    font-size: 1em;
+			}
+
+			.ticketStatusIndicator{
+			    min-width: 30px;
+			    letter-spacing: .5px;
+			    font-size: 11px;
+			    font-weight: 600;
+			    font-style: normal;
+			    line-height: 9px;
+			    align-items: center;
+			    height: 11px;
+			    padding: 1px 5px;
+			    text-transform: uppercase;
+			    border-radius: 2px;
+			    box-shadow: 2px 2px 0px 0 rgba(0,0,0,0.08);
+			    max-width: 100px;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    overflow: hidden;
+			    display: inline-block;
+			    padding-top: 3px;
+			    margin-top: 4px;
+			}
+
+			.postStatusIndicator{
+				background-color: #4eafcb;
+			    color: #FFFFFF;
+			    margin-left: 2px;
+			    min-width: 100px;
+			    letter-spacing: .5px;
+			    font-size: 11px;
+			    font-weight: 600;
+			    font-style: normal;
+			    line-height: 9px;
+			    align-items: center;
+			    height: 18px;
+			    padding: 1px 5px;
+			    text-transform: uppercase;
+			    border-radius: 2px;
+			}
+
+			.ticketlistpropertiescontainer {
+			    padding: 8px 6px;
+			    font-size: 13px;
+			    color: #4e5158;
+			    border-bottom: 1px solid #e6e6e6;
+			}
+
+			.ticketlistsubject {
+			    font-size: 24px;
+			    color: #3c3e43;
+			    border-bottom: none;
+			    margin: 0 !important;
+			}
+
+			.ticketsubjectrow:hover, .ticketsubjectrow:hover + tr {
+			    background-color: #eff8fa !important;
+			}
+
+			.ticketlistsubject a {
+			    padding: 8px 0 2px 2px;
+			    border-bottom: none;
+			    display: block;
+			    color: #4d5157;
+			    font-size: 15px;
+			    font-weight: 600;
+			    line-height: 2.2;
+			}
+
+			.ticketlistpropertiesdivider {
+			    height: 0px;
+			    display:none;
+			}
+
+			.ticketlistheaderrow {
+			    min-width: 110px;
+			    font-size: 12px;
+			    padding: 5px;
+			    cursor: pointer;
+			    background-color: #fff;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			    color: #838d94 !important;
+			    font-weight: 600;
+			    text-transform: uppercase;
+			    letter-spacing: 1px;
+				border-bottom: 2px solid #e6e6e6 !important;
+			}
+
+			.ticketlistheaderrow a{
+				color: #838d94 !important;
+			}
+
+			#ticketpropertiesform {
+				min-width: 470px;
+			}
+
+			#ticketpropertiesform table td {
+			    padding: 0;
+			}
+
+			.ticketlistheaderrow {
+			    min-width: 110px;
+			}
+
+			.ticketlistheaderrow:nth-child(1) {
+			    width: 15%;
+			}
+
+			.ticketlistheaderrow:nth-child(2) {
+			    width: 25%;
+			}
+
+			.ticketlistheaderrow:nth-child(3) {
+			    width: 15%;
+			}
+
+			.ticketlistheaderrow:nth-child(4) {
+			    width: 15%;
+			}
+
+			.ticketlistheaderrow:nth-child(5) {
+			    width: 10%;
+			}
+
+			.ticketlistheaderrow:nth-child(6) {
+			    width: 10%;
+			}
+
+			.ticketlistheaderrow:nth-child(7) {
+			    width: 10%;
+			}
+
+			.ticketlisttable {
+			    border: 1px solid #cdc6b6;
+			}
+
+			.ticketsubdepartment {
+			    background: url('%themepath%images/linkdownarrow.gif') no-repeat 4px 0px;
+			    padding: 0 0 0 20px;
+			    margin-left: 10px;
+			}
+
+			.ticketgeneralcontainer {
+			    padding: 0px;
+			    border-bottom: none;
+			}
+
+			.ticketgeneralcontainer .swiftselect{
+				border: none;
+			    margin-top: 4px;
+			    font-size: 12px;
+			    line-height: 1;
+			    padding: 0px 2px 0px 6px!important;
+			    height: 24px;
+			    width: 100%;
+			    background: url(%themepath%images/menudrop_white.svg) no-repeat;
+			    background-position: right;
+    			background-position-x: 135px;
+    			-moz-appearance: none;
+    			text-shadow: none !important;
+			}
+
+			.ticketgeneraltitlecontainer {
+			    padding: 14px 10px 10px;
+			}
+
+			.ticketgeneraltitlecontainer:before,
+			.ticketgeneraltitlecontainer:after {
+			    content: " ";
+			    display: table;
+			}
+
+			.ticketgeneraltitlecontainer:after {
+			    clear: both;
+			}
+
+			.ticketgeneraltitlecontainer {
+			    *zoom: 1;
+			}
+
+			.ticketgeneraldepartment {
+			    font-size: 14px;
+			    color: #999;
+			    line-height: 14px;
+			    margin: 0 0 6px 0;
+			}
+
+			.ticketgeneraldepartment:after {
+			    /* content: "/"; */
+
+			    color: #ccc;
+			    padding: 0 5px;
+			}
+
+			.ticketgeneraltitle {
+			    color: #3c3e43;
+			    font-size: 24px;
+			    padding: 0px 0 0px 0px;
+			    font-weight: 500;
+			    line-height: 36px;
+			}
+
+			.ticketratings {
+			    padding: 6px 8px 5px 10px;
+			    font-size: 11px;
+			    color: #3c3e43;
+			}
+
+			.ticketrating {
+			    display: inline-block;
+			    margin-right: 12px;
+			}
+
+			.ticketratingtitle {
+			    display: inline;
+			    float: left;
+			    margin-right: 5px;
+			    color: #666;
+			    font-size: 14px;
+			}
+
+			.ticketpostbox {
+				text-decoration: none;
+				margin: 0 18px 0px 0px;
+				color: #3c3e43;
+				margin-left: 58px;
+			}
+
+			.ticketpostinfoitem,
+			.ticketpostinfoitemtext {
+			   padding: 4px 0px 2px 15px !important;
+				font-size: 12px;
+				color: #3c3e43;
+			}
+
+			.ticketpostcontainer:hover .ticketpostbox {
+   				opacity: 1;
+    			height: 36px;
+			}
+
+			.ticketpostcontainer:hover .ticketpostinfoitem {
+   				opacity: 1;
+			}
+
+			.ticketpostcontainer:hover .ticketpostbox {
+   				opacity: 1;
+    			height: 36px;
+			}
+
+			.ticketpostcontainer .ticketpostbox {
+    			height: 0px;
+    			transition: .25s;
+			}
+
+			.ticketpostinfoitem {
+			    background-color: transparent;
+			    color: #838d92;
+			    display: inline-block;
+			    transition: .25s;
+			    cursor: default;
+			    margin-left: auto;
+			    opacity: 0;
+			    margin-right: 10px;
+			    padding: 3px 8px 2px 8px !important;
+			}
+
+			.ticketpostinfoitemtext {
+			    cursor: default;
+			}
+
+			.ticketpostinfoitemtitle {
+			    text-align: left;
+			    font-size: 0.9em;
+			}
+
+			.ticketpostinfoitemcontent,
+			.ticketpostinfoitemlink {
+			    font-size: 1.3em;
+			    font-weight: 600;
+			    cursor: pointer;
+			}
+
+			.ticketpostinfoitemcontainer {
+			    padding: 3px 0 3px 0;
+			}
+
+			.ticketpostinfoitemlink:hover {
+			    color: red;
+			}
+
+			.ticketgeneralinfocontainer {
+			    padding: 0 10px;
+			    font-size: 13px;
+			    color: #666;
+			}
+
+			.ticketgeneralproperties {
+				border-radius: 4px;
+			    margin: 0 10px;
+			    padding: 0;
+			}
+
+			.ticketgeneralproperties:before,
+			.ticketgeneralproperties:after {
+			    content: " ";
+			    display: table;
+			}
+
+			.ticketgeneralproperties:after {
+			    clear: both;
+			}
+
+			.ticketgeneralproperties {
+			    *zoom: 1;
+			}
+
+			.ticketgeneralpropertiesselect {
+			    display: block;
+			    text-align: left;
+			}
+
+			.ticketgeneralpropertiesselect .swiftselect {
+			    margin: 2px 0 0 0;
+			    background-color: rgba(255, 255, 255, 0.28);
+			    transition: all 0.25s ease;
+			    cursor: pointer;
+			    color: rgba(255, 255, 255, 0.79);
+			    font-weight: 600;
+			}
+
+			.ticketgeneralpropertiesselect .swiftselect option{
+			   	color : #000 !important;
+			}
+
+			.ticketgeneralpropertiesselect .swiftselect:hover {
+			    color: #464646;
+			    background: #ffffff url(%themepath%images/menudrop_grey.svg) no-repeat;
+			    background-position: right;
+    			background-position-x: 135px;
+			}
+
+			.ticketgeneralpropertiesobject,
+			.ticketgeneralpropertiesobjectwide,
+			.ticketgeneralpropertiesobjectmed {
+			    padding: 12px;
+			    display: block;
+			    float: left;
+			    color: #fff;
+			    min-height: 63px;
+			}
+
+			.ticketgeneralpropertiesobject {
+			    -moz-box-sizing: border-box;
+			    box-sizing: border-box;
+			    width: 20% !important;
+			    border-right: 1px solid rgba(255, 255, 255, .2);
+			}
+
+			.ticketgeneralpropertiesobject:last-child {
+			    border-right: none;
+			}
+
+			.ticketgeneralpropertiesobjectwide {
+			    width: 220px;
+			}
+
+			.ticketgeneralpropertiesobjectmed {
+			    width: 160px;
+			}
+
+			.ticketgeneralpropertiestitle {
+			    font-size: 11px;
+			    color: #fff;
+			    color: rgba(255, 255, 255, .75);
+			}
+
+			.ticketgeneralpropertiescontent {
+			    font-size: 16px;
+			    color: #fff;
+			    line-height: 1em;
+			    margin-top: 4px;
+			}
+
+			.ticketgeneralpropertiesdivider {
+			    padding: 10px 0 0 0;
+			    display: block;
+			    float: left;
+			    display: none;
+			}
+
+			#addreplybutton {
+			    margin-bottom: 55px;
+			    margin-top: 0px;
+			}
+
+			#cancelticketpropertiesbutton, #saveticketpropertiesbutton {
+			    display: inline-block;
+			    margin-bottom: 15px;
+			}
+
+			#ticketpropertiesform *[disabled], #ticketpropertiesform .disabled {
+			    color: lightgray;
+			    border-color: lightgray;
+			}
+
+			#cancelticketpropertiesbutton {
+			    margin-right: auto;
+			}
+
+			#saveticketpropertiesbuttoncontainer {
+			    display: none;
+			    float: right;
+			    margin-top: 5px;
+			}
+
+			#customfieldrequirednotice, #customfieldchangednotice {
+			    margin: 10px;
+			    display: none;
+			}
+
+			#customfieldchangednotice {
+			    margin-top: 50px;
+			}
+
+			.viewticketcontentcontainer {
+			    padding: 0 0 0 0px;
+			}
+
+			.viewticketcontentcontainer table:nth-child(2) {
+			}
+
+			.viewticketcontentcontainer table:nth-child(2) td {
+			    padding: 8px !important;
+			    background-color: #fff;
+			}
+
+			.viewticketcontentcontainer table:nth-child(2) td.zebraodd {
+			    width: 220px;
+			}
+
+			.ticketpaddingcontainer {
+			    padding: 8px;
+			}
+
+			.ticketpostcontainer:hover{
+				background-color: #F7F8F9;
+			}
+
+			.ticketpostcontainer:hover .ticketpostactions{
+				opacity: 1;
+			}
+
+			.ticketpostcontainer {
+			    margin: 0 0;
+    			position: relative;
+    			padding: 10px 10px 20px 10px;
+			}
+
+			.ticketpostbar {
+			    width: 48px;
+			    float: left;
+			    padding: 11px 0px 0 10px;
+			}
+
+			.ticketpostbarbottom {
+			    position: absolute;
+			    bottom: 0px;
+			    left: 0px;
+			    width: 240px;
+			    border-top: 1px solid #ddd;
+			}
+
+			.ticketpostbarname {
+			   	display: inline-block;
+			    font-size: 14px;
+			    font-weight: 600;
+			    color: #333;
+			}
+
+			.ticketpostbardesignation {
+			   	font-size: 12px;
+    			color: #7c7f85;
+			}
+
+			.ticketpostavatar {
+			    padding: 0px;
+			    max-width: 42px;
+			    min-width: 42px;
+			}
+
+			.ticketpostbarbadgeblue,
+			.ticketpostbarbadgered,
+			.ticketpostbarbadgegreen {
+			    margin: 3px 0;
+			}
+
+			.tpbadgetext {
+			    color: #5f6c73;
+			    font-size: 10px;
+			    margin-bottom: 6px;
+			    border: 1px solid #d1d5d7;
+			    border-radius: 3px;
+			    padding: 0px 4px;
+			    margin-left: 5px;
+			    letter-spacing: .5px;
+			    font-weight: 600;
+			    background-color: #fff;
+			    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.08);
+			    text-transform: uppercase;
+			}
+
+			.tpavatar img {
+    			border-radius: 4px;
+			}
+
+			.ticketpostcontentsbottom {
+			    position: absolute;
+			    bottom: 0px;
+			    left: 0px;
+			    border-top: 1px solid #ddd;
+			    width: 100%;
+			}
+
+			.ticketpostcontentsbottom .ticketpostbottomcontents,
+			.ticketpostbarbottom .ticketpostbottomcontents {
+			    padding: 8px;
+			    height: 18px;
+			}
+
+			.ticketpostedited {
+			    font: 11px "segoe ui", "helvetica neue", arial, helvetica, sans-serif;
+			    font-weight: 500;
+			    font-style: italic;
+			    padding: 15px 0 0 0;
+			}
+
+			.ticketpostbottomcontents {
+			    float: left;
+			}
+
+			.ticketpostclearer {
+			    clear: both;
+			}
+
+			.ticketpostcontents {
+			    margin-left: 48px;
+    			height: auto;
+			}
+
+			.ticketpostcontentsbar {
+			    position: relative;
+			    display: block;
+			    padding: 10px 20px 0px 18px;
+			    margin-bottom: 0px;
+			    font-size: 14px;
+			    -webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    box-sizing: border-box;
+			}
+
+			.ticketpostactions{
+				transition: .25s;
+			    float: right;
+			    cursor: default;
+			    position: relative;
+			    margin-left: auto;
+			    background: #fff;
+			    height: 24px;
+			    border: 1px solid #d1d5d7;
+			    border-radius: 4px;
+			    opacity: 0;
+			    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.08);
+			    float: right;
+			    margin-right: 12px;
+			}
+
+			.ticketbarquote {
+			    float: right;
+			    height: 16px;
+			    width: 16px;
+			    cursor: pointer;
+			}
+
+			.ticketpostactions a {
+			    padding: 0px 8px;
+			    height: 100%;
+			    display: inline-block;
+			    font-size: 16px;
+			    color: #666;
+			    width: auto;
+			    transition: color 0.25s ease;
+			}
+
+			.ticketpostactions a:hover{
+			    color: #4eafcb !important;
+			}
+			.ticketpostcontentsbar .ticketbarcontents {
+			   	font-size: 14px;
+    			color: #838d93;
+			}
+
+			.ticketpostcontentsattachments {
+			    width: 50%;
+			    margin: 0 0 45px 0;
+			    padding-bottom: 0px;
+			    padding-top: 5px;
+			    border-top: 1px solid #f1f1f1;
+			}
+
+			.ticketpostcontentsattachmentitem {
+			    padding: 4px 0 5px 22px;
+			    margin: 0 0px 0 20px;
+			    cursor: pointer;
+			    background-repeat: no-repeat;
+			    background-position: 0px 5px;
+			    display: block;
+			    font-size: 13px;
+			    font-weight: 500;
+			}
+
+			.ticketpostcontentsdetails {
+			   padding: 0 0 0 18px;
+			}
+
+			.ticketpostcontentsholder {
+			    padding: 0 0 5px 0;
+			    word-break: break-word;
+			}
+
+			.ticketpostcontentsdetailscontainer {
+			    color: #3c3e43;
+			    cursor: text;
+			    padding: 5px 50px 0 0;
+			    font-size: 15px;
+			    word-wrap: break-word;
+			}
+			.ticketpostbottomright {
+			    float: right;
+			    padding: 8px;
+			}
+
+			.ticketsearchcontainer,
+			.kbsearchcontainer {
+			    padding: 0 10px 16px 38px;
+			    border-bottom: 1px solid #ececec;
+			    margin: 0 0 30px 0;
+			}
+
+			.ticketsearchcontainer {
+			    background: url('%themepath%images/icon_ticket.png') no-repeat 0px 1px;
+			}
+
+			.kbsearchcontainer {
+			    background: url('%themepath%images/icon_knowledgebase.png') no-repeat 0px 1px;
+			}
+
+			.ticketsearch,
+			.kbsearch {
+			    color: #277dca;
+			    font-size: 16px;
+			    font-weight: 500;
+			    margin-bottom: 5px;
+			}
+
+			.ticketsearchtext,
+			.kbsearchtext {
+			    color: #969696;
+			    font-size: 13px;
+			    word-break: break-word;
+			}
+
+			.chatbodymain #maincore {
+			    padding: 0 !important;
+			}
+
+			/* fix monospace font set by Chrome browser in Mac OS X */
+			textarea {
+				font-family: inherit !important;
+				font-size: inherit !important;
+			}
+			/* @end */
+
+			.gridhighlightpage {
+			    padding: 0 0 6px 0;
+			    line-height: 20px;
+			    text-align: center;
+			    color: #a1aaaf;
+			    padding: 15px 15px;
+			}
+
+			.paginationcontainer {
+			    float: right;
+			}
+
+			.gridnavpage {
+			    color: #3c3e43;
+			    font-size: 13px;
+			    padding: 2px 4px 2px 4px;
+			    white-space: nowrap;
+			}
+
+			.gridnavpageselected {
+			    background-color: #fcfaf5;
+			    color: #3c3e43;
+			    font-weight: 600;
+			    font-size: 13px;
+			    padding: 2px 4px 2px 4px;
+			    white-space: nowrap;
+			}
+
+			body {
+			    min-width: 320px;
+			}
+
+			.innerwrapper {
+			    width: 100%;
+			    max-width: 1280px;
+			    padding: 2px 15px;
+			    box-sizing: border-box;
+			}
+
+			.nav-opener {
+			    display: none;
+			}
+
+			.swifttextarea {
+			    width: 100% !important;
+			    min-height: 108px;
+			}
+			form[name="ChangePasswordForm"] th {
+				text-align: left;
+			}
+
+			@media only screen and (max-width: 960px) and (min-width: 769px) {
+				form[name="ProfileForm"] .general-info > td {
+					display: block;
+				}
+			}
+
+			@media only screen and (max-width: 960px) and (min-width: 769px), (max-width: 560px) {
+				form[name="MyOrganizationForm"] td,
+				form[name="ChangePasswordForm"] td {
+					display: block;
+					width: 100%;
+					padding: 0;
+				}
+				form[name="MyOrganizationForm"] .zebraodd,
+				form[name="ChangePasswordForm"] .zebraodd {
+					margin: 10px 0 1px;
+					padding: 4px !important;
+				}
+				form[name="MyOrganizationForm"] .swifttextlarge,
+				form[name="ChangePasswordForm"] .swifttextlarge {
+					width: 100% !important;
+				}
+				form[name="MyOrganizationForm"] select {
+				    width: 100%;
+				}
+			}
+
+			@media only screen and (max-width: 767px) {
+
+				.searchboxcontainer{
+					width:95%;
+				}
+
+				.widgetrow a {
+					width: 100px;
+					font-weight: 500;
+					padding: 55px 0px 14px 0px;
+				}
+
+				#toptoolbarrightarea .swiftselect {
+				    margin: 15px 0 5px 0px;
+				    padding: 0px 25px 0px 10px!important;
+				    transition: all 0.25s ease;
+				    background: url(%themepath%images/menudrop_grey.svg) no-repeat;
+				    background-position: right;
+				    background-position-x: 95px;
+				    float:none;
+				}
+
+				#toptoolbarrightarea {
+				    padding: 1px 30px 1px 0;
+				    margin: 0px 15px;
+				    float:none;
+				}
+
+				#main + div {
+				    width: auto !important;
+				    margin: 0 15px 15px !important;
+				}
+				.nav-opener {
+				    display: block;
+				    background: #41374e;
+				    width: 33px;
+				    height: 31px;
+				    position: absolute;
+				    top: 20px;
+				    right: 15px;
+				    border-radius: 4px;
+				}
+				.nav-opener:before,
+				.nav-opener:after,
+				.nav-opener span {
+				    background: #fff;
+				    border-radius: 4px;
+				    position: absolute;
+				    top: 16px;
+				    left: 25%;
+				    right: 25%;
+				    height: 3px;
+				    margin-top: -2px;
+				    /* height/2 */
+
+				    -webkit-transition: all 0.2s linear;
+				    transition: all 0.2s linear;
+				}
+				.nav-opener:before,
+				.nav-opener:after {
+				    content: '';
+				    top: 10px;
+				}
+				.nav-opener:after {
+				    top: 22px;
+				}
+				.nav-active .nav-opener span {
+				    opacity: 0;
+				}
+				.nav-opener:hover {
+				    opacity: .9;
+				}
+				.nav-active .nav-opener:after,
+				.nav-active .nav-opener:before {
+				    -moz-transform: rotate(45deg);
+				    -webkit-transform: rotate(45deg);
+				    -ms-transform: rotate(45deg);
+				    transform: rotate(45deg);
+				    top: 16px;
+				    left: 15%;
+				    right: 15%;
+				}
+				.nav-active .nav-opener:after {
+				    -moz-transform: rotate(-45deg);
+				    -webkit-transform: rotate(-45deg);
+				    -ms-transform: rotate(-45deg);
+				    transform: rotate(-45deg);
+				}
+				#toptoolbarlinklist {
+				    padding: 0;
+				    margin: 0;
+				}
+				#toptoolbar {
+				    padding: 0;
+				}
+				#toptoolbarlinklist li {
+				    float: none;
+				    margin: 0;
+				    display: block;
+				}
+				#toptoolbar .innerwrapper {
+				    padding: 0;
+				    overflow: hidden;
+				    max-height: 0;
+				    -webkit-transition: all 0.25s linear;
+				    transition: all 0.25s linear;
+				}
+				.nav-active #toptoolbar .innerwrapper {
+				    max-height: 4000px;
+				}
+				#toptoolbarlinklist {
+				    -webkit-transition: all 0.25s linear;
+				    transition: all 0.25s linear;
+				    -webkit-transform: translateY(-100%);
+				    -ms-transform: translateY(-100%);
+				    transform: translateY(-100%);
+				}
+				.nav-active #toptoolbarlinklist {
+					max-width: none;
+				    -webkit-transform: translateY(0);
+				    -ms-transform: translateY(0);
+				    transform: translateY(0);
+				}
+				#toptoolbarlinklist li.current {
+				    border-radius: 0;
+				}
+				#toptoolbarlinklist a {
+					display: inline-block;
+					float: none;
+					max-width: none;
+				}
+				#logo {
+				  margin: 20px 0 10px 0;
+				  width: 120px;
+				  height: auto;
+				  max-height : 26px;
+				}
+			    #maincore .innerwrapper {
+			        display: table;
+			    }
+			    .leftnavboxbox {
+			        display: none;
+			    }
+			    #maincoreleft {
+			        float: none;
+			        width: auto;
+			        margin: 0 0 20px;
+			        display: table-footer-group;
+			    }
+			    #maincorecontent {
+			        margin: 0;
+			        height: auto;
+			        display: table-header-group;
+			    }
+			    .searchquery {
+			        font-size: 16px;
+			        height: 28px;
+			        height: 50px;
+			        padding: 12px 95px 12px 12px;
+			    }
+			    #toptoolbarlinklist {
+			        padding: 0;
+			        margin: 0;
+			    }
+			    #toptoolbar {
+			        padding: 0;
+			    }
+			    #toptoolbarlinklist li {
+			        float: none;
+			        margin: 0;
+			        display: block;
+			    }
+			    #toptoolbar .innerwrapper {
+			        padding: 0;
+			        overflow: hidden;
+			        max-height: 0;
+			        -webkit-transition: all 0.25s linear;
+			        transition: all 0.25s linear;
+			    }
+			    .nav-active #toptoolbar .innerwrapper {
+			        max-height: 4000px;
+			    }
+			    #toptoolbarlinklist {
+			        -webkit-transition: all 0.25s linear;
+			        transition: all 0.25s linear;
+			        -webkit-transform: translateY(-100%);
+			        -ms-transform: translateY(-100%);
+			        transform: translateY(-100%);
+			    }
+			    .nav-active #toptoolbarlinklist {
+			        -webkit-transform: translateY(0);
+			        -ms-transform: translateY(0);
+			        transform: translateY(0);
+			    }
+			    #toptoolbarlinklist li.current {
+			        border-radius: 0;
+			    }
+			    .kbcategorytitlecontainer {
+			        width: 200px !important;
+			        margin-right: 0;
+			    }
+			    #leftloginsubscribebox {
+			    	margin-top: 50px;
+			    }
+			    #bottomfooter {
+			    	text-align: center;
+			    }
+			    .newsfooter {
+			    	margin: -40px 0 20px;
+			    }
+			    .search-results thead {
+			    	display: none;
+			    }
+			    .search-results td {
+					display: block;
+					text-align: right;
+			    }
+			    .search-results .ticketlistsubject {
+			    	font-size: 20px;
+			    	text-align: left;
+			    }
+			    .search-results .ticketlistpropertiescontainer {
+			    	margin-bottom: 0;
+			    }
+			    .search-results td::before {
+			        content: attr(data-label);
+			        float: left;
+			        text-transform: uppercase;
+			        font-weight: bold;
+			    }
+			}
+
+			@media only screen and (max-width: 479px) {
+				.newscontents{
+					padding-left: 4px !important;
+				}
+			    .newsavatar {
+			        margin: 0;
+			    }
+			    .newstitle {
+			        margin: 0;
+			        font-size: 20px;
+			    }
+			    h1,
+			    .newstitle a {
+			        font-size: 15px;
+				    font-weight: 600;
+				    width: 70%;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    display: inline-block;
+				    white-space: nowrap;
+				    margin-top: 3px;
+			    }
+
+			    .newsinfo {
+				    font-size: 12px;
+				    color: #7c7f85;
+				    margin-bottom: 20px;
+				    line-height: 1.4;
+				    margin-bottom: 10px;
+				    font-weight: 400;
+				    width: 200px;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    display: inline-block;
+				    white-space: nowrap;
+				}
+
+			    .form-table,
+			    #commentsformcontainer table {
+			        display: block;
+			        -moz-box-sizing: border-box;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			        width: 100%;
+			    }
+			    .form-table td,
+			    .form-table tr,
+			    .form-table tbody,
+			    #commentsformcontainer table td,
+			    #commentsformcontainer table tr,
+			    #commentsformcontainer table tbody {
+			        display: block !important;
+			        width: 100% !important;
+			        background: none !important;
+			        padding: 0 !important;
+			    }
+			    .form-table .swifttextarea,
+			    .form-table input[type="text"],
+			    .form-table input[type="password"],
+			    .form-table input[type="datetime"],
+			    .form-table input[type="datetime-local"],
+			    .form-table input[type="date"],
+			    .form-table input[type="month"],
+			    .form-table input[type="time"],
+			    .form-table input[type="week"],
+			    .form-table input[type="number"],
+			    .form-table input[type="email"],
+			    .form-table input[type="url"],
+			    .form-table input[type="search"],
+			    .form-table input[type="tel"],
+			    .form-table input[type="color"],
+			    .form-table .uneditable-input,
+			    #commentsformcontainer .swifttextarea,
+			    #commentsformcontainer input[type="text"],
+			    #commentsformcontainer input[type="password"],
+			    #commentsformcontainer input[type="datetime"],
+			    #commentsformcontainer input[type="datetime-local"],
+			    #commentsformcontainer input[type="date"],
+			    #commentsformcontainer input[type="month"],
+			    #commentsformcontainer input[type="time"],
+			    #commentsformcontainer input[type="week"],
+			    #commentsformcontainer input[type="number"],
+			    #commentsformcontainer input[type="email"],
+			    #commentsformcontainer input[type="url"],
+			    #commentsformcontainer input[type="search"],
+			    #commentsformcontainer input[type="tel"],
+			    #commentsformcontainer input[type="color"],
+			    #commentsformcontainer .uneditable-input {
+			        width: 100% !important;
+			        -moz-box-sizing: border-box;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			    }
+			    #main.chatview {
+			        min-width: 320px;
+			    }
+			    .swifttext,
+			    .swifttextwide,
+			    .swifttextareawide {
+			        width: 100%;
+			        -moz-box-sizing: border-box;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			    }
+			    #chatbox table {
+			        display: block !important;
+			    }
+			    #chatbox table tr,
+			    #chatbox table td,
+			    #chatbox table th {
+			        display: block !important;
+			        width: 100 !important;
+			        clear: both;
+			    }
+			    #ticketpropertiesform {
+			    	min-width: 0;
+			    }
+			    .ticketgeneralpropertiesobject {
+			    	width: 180px !important;
+			    	float : none;
+			    	border: none;
+			    }
+			    .ticketpostcontainer {
+			    	background-image: none;
+			    }
+			    .ticketpostbar {
+			    }
+			}
+
+			blockquote,
+			q {
+			    quotes: none;
+			}
+
+			blockquote:before,
+			blockquote:after,
+			q:before,
+			q:after {
+			    content: '';
+			    content: none;
+			}
+
+			table {
+			    border-collapse: collapse;
+			    border-spacing: 0;
+			}
+
+			.kbcontents table {
+			    max-width: 100%;
+			    overflow: auto;
+			    display: block;
+			    background: none;
+			}
+
+			.kbcontents table td {
+			    background: #fff;
+			}
+
+			@media only screen and (max-width: 1252px) {
+				#toptoolbarlinklist a {
+					max-width: none;
+				}
+			}
+
+			@media only screen and (max-width: 1023px) {
+			    pre {
+			        width: 100%;
+			    }
+			    .form-table table {
+			        display: block;
+			        -moz-box-sizing: border-box;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			        width: 100%;
+			    }
+			    .form-table td,
+			    .form-table tr,
+			    .form-table tbody {
+			        display: block !important;
+			        width: 100% !important;
+			        background: none !important;
+			        padding: 0 !important;
+			    }
+			    .form-table .swifttextarea,
+			    .form-table input[type="text"],
+			    .form-table input[type="password"],
+			    .form-table input[type="datetime"],
+			    .form-table input[type="datetime-local"],
+			    .form-table input[type="date"],
+			    .form-table input[type="month"],
+			    .form-table input[type="time"],
+			    .form-table input[type="week"],
+			    .form-table input[type="number"],
+			    .form-table input[type="email"],
+			    .form-table input[type="url"],
+			    .form-table input[type="search"],
+			    .form-table input[type="tel"],
+			    .form-table input[type="color"],
+			    .form-table .uneditable-input,
+			    #ticketmessage {
+			        width: 100% !important;
+			        -moz-box-sizing: border-box;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			    }
+			    .list-table table,
+			    .list-table table td,
+			    .list-table table th,
+			    .list-table table tr,
+			    .list-table table tbody {
+			        display: block !important;
+			        width: 100% !important;
+			    }
+			    .form-table,
+			    #commentsformcontainer table {
+			        display: block;
+			        -moz-box-sizing: border-box;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			        width: 100%;
+			    }
+			    .form-table td,
+			    .form-table tr,
+			    .form-table tbody,
+			    #commentsformcontainer table td,
+			    #commentsformcontainer table tr,
+			    #commentsformcontainer table tbody {
+			        display: block !important;
+			        width: 100% !important;
+			        background: none !important;
+			        padding: 0 !important;
+			    }
+			    .form-table .swifttextarea,
+			    .form-table input[type="text"],
+			    .form-table input[type="password"],
+			    .form-table input[type="datetime"],
+			    .form-table input[type="datetime-local"],
+			    .form-table input[type="date"],
+			    .form-table input[type="month"],
+			    .form-table input[type="time"],
+			    .form-table input[type="week"],
+			    .form-table input[type="number"],
+			    .form-table input[type="email"],
+			    .form-table input[type="url"],
+			    .form-table input[type="search"],
+			    .form-table input[type="tel"],
+			    .form-table input[type="color"],
+			    .form-table .uneditable-input,
+			    #commentsformcontainer .swifttextarea,
+			    #commentsformcontainer input[type="text"],
+			    #commentsformcontainer input[type="password"],
+			    #commentsformcontainer input[type="datetime"],
+			    #commentsformcontainer input[type="datetime-local"],
+			    #commentsformcontainer input[type="date"],
+			    #commentsformcontainer input[type="month"],
+			    #commentsformcontainer input[type="time"],
+			    #commentsformcontainer input[type="week"],
+			    #commentsformcontainer input[type="number"],
+			    #commentsformcontainer input[type="email"],
+			    #commentsformcontainer input[type="url"],
+			    #commentsformcontainer input[type="search"],
+			    #commentsformcontainer input[type="tel"],
+			    #commentsformcontainer input[type="color"],
+			    #commentsformcontainer .uneditable-input {
+			        width: 100% !important;
+			        -moz-box-sizing: border-box;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			    }
+			}
+
+			@media only screen and (max-width: 667px) {
+				.tabtext {
+					  padding: 0 15px;
+					  max-width: none;
+				}
+				#logintext,
+				#loginsubscribebuttons .rebutton {
+					max-width: none;
+				}
+				#ticketpropertiesform table td {
+				    display: block;
+	                width: 100%;
+	                box-sizing: border-box;
+				}
+			}
+
+			@media only screen and (max-width: 560px) {
+				form[name="ProfileForm"] .general-info > td {
+					display: block;
+				}
+			    form[name="ProfileForm"] td {
+			        text-align: left;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			    }
+			    form[name="ProfileForm"] .swifttextlarge {
+			        width: 100% !important;
+			    }
+			    form[name="ProfileForm"] .hlineheader th {
+			        text-align: left;
+			    }
+			}
+
+			@media only screen and (max-width: 479px) {
+			    .newsavatar {
+			        margin: 0;
+			    }
+			    .newstitle {
+			        margin: 0;
+			        font-size: 20px;
+			    }
+			    h1,
+			    .newstitle a {
+			        font-size: 16px;
+			        line-height: 1 !important;
+			        margin-top: 5px;
+			    }
+			    #main.chatview {
+			        min-width: 320px;
+			    }
+			    #chatbox table {
+			        display: block !important;
+			    }
+			    #chatbox table tr,
+			    #chatbox table td,
+			    #chatbox table th {
+			        display: block !important;
+			        width: 100 !important;
+			        clear: both;
+			    }
+			    #chattoptoolbarlinklist li a {
+			        margin-bottom: 5px;
+			        overflow: hidden;
+			        width: 12px;
+			    }
+			    #chattoptoolbarlinklist li:first-child a {
+			        text-indent: 0;
+			        width: auto;
+			    }
+			    a#chattoptoolbarsoundonlink {
+			        width: 0;
+			    }
+			    .containercontenttable .newstitlecontainer .datecontainerparent {
+			        display: none;
+			    }
+			    .newscontents ul {
+			        margin-left: 30px;
+			    }
+			    .kbarticlelist .kbarticlelistitem {
+			        margin: 0;
+			    }
+			    .kbarticlelistitem {
+			        margin: 0;
+			        font-size: 14px;
+				    font-weight: 600;
+				    line-height: 1.3;
+			    }
+			    .kbarticlecategorylistitem {
+			        margin: 0;
+			    }
+			    .swifttext,
+			    .swifttextlarge,
+			    .swifttextarea,
+			    .swifttextwide,
+			    .swifttextareawide {
+			        -moz-box-sizing: border-box;
+			        -webkit-box-sizing: border-box;
+			        box-sizing: border-box;
+			    }
+			    table.containercontenttable,
+			    table.containercontenttable tr,
+			    table.containercontenttable td {
+			        overflow: hidden;
+			    }
+			    .captchaholder img {
+			        margin-bottom: 10px;
+			    }
+			    .ticketpostcontents {
+			    	margin-left: 0;
+			    }
+			}
+
+			@media only screen and (max-width: 375px) {
+			    form[name="RegisterForm"] .swifttextlarge {
+			        width: 50vw !important;
+			    }
+			    form[name="SubmitTicketForm"] input[type="text"],
+			    .swifttextarea {
+			        width: 100% !important;
+			    }
+			    form[name="SubmitTicketForm"] input[type="text"] {
+			    	min-width: 150px;
+			    }
+			    form[name="SubmitTicketForm"] {
+			        table-layout: auto;
+			    }
+			    form[name="SubmitTicketForm"] th {
+			        text-align: left;
+				}
+			    .submitticketform td {
+			        display: block;
+			        padding: 0;
+			    }
+			    form[name="SubmitTicketForm"] .zebraodd {
+			        box-sizing: content-box;
+			        word-break: initial;
+			    }
+			    .submitticketform .zebraodd {
+				    width: 100%;
+				    background-color: transparent;
+				    padding: 0!important;
+			    }
+			    form[name="PreferencesForm"] table {
+			    	table-layout: fixed;
+			    }
+			    form[name="PreferencesForm"] .zebraodd {
+			        display: inline-block;
+			        width: 100%;
+			    }
+			    form[name="LostPasswordForm"] .zebraodd {
+			    	min-width: 70px;
+			    }
+			    input.loginstyled,
+			    input.emailstyled,
+			    input.loginstyledlabel,
+			    input.emailstyledlabel {
+			        width: 100%;
+			    }
+			    form[name="ProfileForm"] .zebraodd {
+			        display: block;
+			        max-width: 120px;
+			    }
+			    .xs-fullwidth {
+			        width: 100%;
+			        display: block;
+			        text-align: left;
+			    }
+			    .ticketgeneralpropertiesselect .swiftselect {
+			    	max-width: 100% !important;
+			    }
+			}
+
+			ticketpostcontentsdetailscontainer {overflow : auto;}
+
+			#ticketattachmenterror{
+				display: none;
+    			margin-bottom: 10px;
+   				margin-left: 25px;
+			}
+
+a.resetimagebutton {
+    margin-left:5px;
+    border:1px solid #7A432D;
+    padding:3px 10px;
+    font-size:12px;
+    border-radius:5px;
+    background-color: #CC5C2F;
+    color:#ffffff !important;
+}
+
+a.resetimagebutton:before {
+    font-family:'FontAwesome';
+    content:"\f2d5";
+    font-size:12px;
+    margin-right:3px;
+}
+
+a.resetimagebutton:hover {
+    border:1px solid #7A432D;
+    background-color: #e05720;
+    color:#fff !important;
+}
+
+input[disabled="disabled"] {
+	pointer-events: none;
+	color: #8a8a8a !important;
+	background-color: #f4f5f5;
+	border: 1px solid #e6e6e6;
+}
+
+		]]></template>
+		<template name="header"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=<{$_language[charset]}>" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><{if $_pageTitle != ""}><{$_pageTitle}><{else}><{$_companyName}><{/if}> - <{$_poweredByNotice}></title>
+    <meta name="KEYWORDS" content="Home" />
+    <{if isset($_robotsNoIndex) && $_robotsNoIndex == 'true'}>
+    <meta name="robots" content="noindex,nofollow" />
+    <{else}>
+    <meta name="robots" content="index,follow" />
+    <{/if}>
+
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+		"popup": {
+		  "background": "#000"
+		},
+		"button": {
+		  "background": "#f1d600"
+		}
+	  },
+	  "content": {
+	  	"header": 'Cookie Consent',
+	  	"message":'<{$_language[cookiepolicytext]|escape}>',
+	  	"link":'<{$_language[cookiepolicyurl]|escape}>',
+	  	"href":'<{$_registrationPolicyURL}>',
+	  	"close":'&#x274c',
+	  	"dismiss":'<{$_language[cookiepolicyagreement]|escape}>',
+	  },
+	  "cookie": {
+	  	"name": "SWIFT_cookieconsent"
+	  },
+	  onStatusChange: function(status) {
+	  	if (this.hasConsented) {
+	  		document.cookie = "SWIFT_cookieconsenturl="+window.location.href;
+	  		<{if isset($_userIsLoggedIn) && $_userIsLoggedIn == 'true'}>
+	  			$.ajax({
+						type: "POST",
+						url: "<{$_baseName}><{$_templateGroupPrefix}>/Base/User/UpdateCookieConsentAJAX",
+					});
+    		<{/if}>
+	  	}
+	  }
+	})});
+	</script>
+
+    <link rel="icon" href="<{$_swiftPath}>favicon.ico" type="image/x-icon"/>
+	<{if $_settings[nw_enablerss] == '1'}>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="<{$_swiftPath}>rss/index.php?<{$_templateGroupPrefix}>/News/Feed" />
+	<{/if}>
+	<script language="Javascript" type="text/javascript">
+	var _themePath = "<{$_themePath}>";
+	var _swiftPath = "<{$_swiftPath}>";
+	var _baseName = "<{$_baseName}>";
+	var datePickerDefaults = {showOn: "both", buttonImage: "<{$_themePath}>images/icon_calendar.svg", changeMonth: true, changeYear: true, buttonImageOnly: true, dateFormat: '<{if $_settings[dt_caltype] == 'us'}>mm/dd/yy<{else}>dd/mm/yy<{/if}>'};
+	</script>
+
+	<link rel="stylesheet" type="text/css" media="all" href="<{$_baseName}><{$_templateGroupPrefix}>/Core/Default/Compressor/css" />
+	<script type="text/javascript" src="<{$_baseName}><{$_templateGroupPrefix}>/Core/Default/Compressor/js"></script>
+	<script language="Javascript" type="text/javascript">
+	<{$_jsInitPayload}>
+	</script>
+	 <{if isset($_showCheckOffScreen) && $_showCheckOffScreen == 'true'}>
+    	<script>
+    	window.addEventListener("load", function(){
+    		jQuery("#checkoffscreen").dialog({
+    			autoOpen: true
+    		});
+		});
+    	</script>
+    <{/if}>
+  </head>
+
+  <body class="bodymain">
+	<div id="main">
+		<div id="topbanner">
+			<div class="innerwrapper">
+      			<a href="<{$_baseName}><{$_templateGroupPrefix}>"><img border="0" src="<{$_headerImageSC}>" alt="Kayako logo" id="logo" width="120px;"/></a>
+			</div>
+      	</div>
+
+      	<div id="toptoolbar">
+      	    <a class="nav-opener" href="#"><span></span></a>
+      		<div class="innerwrapper">
+		        <span id="toptoolbarrightarea">
+		        	<{if $_pageTitle != ""}>
+					<div class="topbar_searchdiv">
+						<form method="post" id="searchformTopbar" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/Search/Index" name="SearchFormTopbar">
+						<span class="searchinputcontainer_topbar"><input type="text" name="searchquery" class="searchquery_topbar" onclick="javascript: if ($(this).val() == '<{$_language[pleasetypeyourquestion]}>' || $(this).val() == '<{$_language[pleasetypeyourquery]}>') { $(this).val('').addClass('searchqueryactive'); }" value="<{if $_baseIndex == true}><{$_language[pleasetypeyourquestion]}><{else}><{$_language[pleasetypeyourquery]}><{/if}>" /></span>
+
+<span class="searchbuttoncontainer_topbar">
+							<i class="fa fa-search" onclick="$('#searchformTopbar').submit();" aria-hidden="true"></i></span>
+						</form>
+					</div>
+					<{/if}>
+
+					<select class="swiftselect" name="languageid" id="languageid" onchange="javascript: LanguageSwitch(false);">
+						<{foreach key=_languageID item=_languageItem from=$_languageContainer}>
+						<{if $_languageItem[isenabled] == '1'}>
+						<option value="<{$_languageID}>"<{if $_activeLanguageID == $_languageID}> selected<{/if}>><{$_languageItem[title]}></option>
+						<{/if}>
+						<{/foreach}>
+					</select>
+		        </span>
+
+	        	<ul id="toptoolbarlinklist">
+                    <{foreach key=key item=_item from=$_widgetContainer}>
+                    <{if $_item[displayinnavbar] == '1'}>
+                    <li<{if $_item[isactive] == true}> class="current"<{/if}>><a class="toptoolbarlink" href="<{$_item[widgetlink]}>" title="<{$_item[defaulttitle]}>"><{$_item[defaulttitle]}></a></li>
+                    <{/if}>
+                    <{/foreach}>
+	        	</ul>
+	        </div>
+      	</div>
+
+      	<div id="maincore">
+      		<{if $_pageTitle == ""}>
+      		<div class="uppermainsearch">
+      			<!--
+					<div id="breadcrumbbar">
+						<span class="breadcrumb lastcrumb"><{$_language[home]}></span>
+					</div>
+					-->
+
+	                <form method="post" id="searchform" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/Search/Index" name="SearchForm">
+	                	<div class="helptitle"><{if $_baseIndex == true}><{$_language[pleasetypeyourquestion]}><{else}><{$_language[pleasetypeyourquery]}><{/if}></div>
+						<div class="searchboxcontainer">
+							<div class="searchbox">
+								<span class="searchbuttoncontainer">
+									<a class="searchbutton" href="javascript: void(0);" onclick="$('#searchform').submit();"><span></span><{$_language[searchbutton]}></a>
+								</span>
+								<span class="searchinputcontainer"><input type="text" name="searchquery" class="searchquery" onclick="javascript: if ($(this).val() == '<{$_language[pleasetypeyourquestion]}>' || $(this).val() == '<{$_language[pleasetypeyourquery]}>') { $(this).val('').addClass('searchqueryactive'); }" value="<{if $_baseIndex == true}><{$_language[pleasetypeyourquestion]}><{else}><{$_language[pleasetypeyourquery]}><{/if}>" /></span>
+							</div>
+						</div>
+					</form>
+
+					<div id="corewidgetbox"><div class="widgetrow"><{foreach key=key item=_item from=$_widgetContainer}><{if $_item[displayinindex] == '1'}><span onclick="javascript: window.location.href='<{$_item[widgetlink]}>';"><a href="<{$_item[widgetlink]}>" class="widgetrowitem defaultwidget" style="<{if $_item[defaulticon] != ''}>background-image: URL('<{$_item[defaulticon]}>');background-size: 36px 36px;<{/if}>" title="<{$_item[defaulttitle]}>"><span class="widgetitemtitle"><{$_item[defaulttitle]}></span></a></span><{/if}><{/foreach}></div></div>
+
+      		</div>
+      		<{/if}>
+			<div class="innerwrapper">
+        	    <div id="maincoreleft">
+ 					<div id="leftloginsubscribebox">
+              			<{if $_userIsLoggedIn == true}>
+                            <div class="tabrow" id="leftloginsubscribeboxtabs"><a id="leftloginsubscribeboxlogintab" href="#" class="atab"><span class="tableftgap">&nbsp;</span><span class="tabbulk"><span class="tabtext" title="<{$_language[myaccount]}>"><{$_language[myaccount]}></span></span></a></div>
+	                        <div id="leftloginbox" class="switchingpanel active">
+	                            <div class="maitem maprofile" onclick="javascript: Redirect('<{$_baseName}><{$_templateGroupPrefix}>/Base/UserAccount/Profile');"><{$_language[maprofile]}></div>
+	                            <{if ($_settings[user_orgprofileupdate] == 'allusers' && $_user[userorganizationid] != '0') || ($_user[userrole] == 2 && $_settings[user_orgprofileupdate] == 'managersonly' && $_user[userorganizationid] != '0')}>
+	                                <div class="maitem maorganization" onclick="javascript: Redirect('<{$_baseName}><{$_templateGroupPrefix}>/Base/UserAccount/MyOrganization');"><{$_language[maorganization]}></div>
+	                            <{/if}>
+		                        <{foreach key=_itemID item=_navbarMenuItem from=$_navbarMenuItemContainer}>
+		                            <div class="maitem<{if $_navbarMenuItem[class] != ''}> <{$_navbarMenuItem[class]}><{/if}>" onclick="javascript: Redirect('<{$_navbarMenuItem[link]}>');"><{$_navbarMenuItem[title]}></div>
+		                        <{/foreach}>
+				                <div class="maitem mapreferences" onclick="javascript: Redirect('<{$_baseName}><{$_templateGroupPrefix}>/Base/UserAccount/Preferences');"><{$_language[mapreferences]}></div>
+				                <div class="maitem machangepassword" onclick="javascript: Redirect('<{$_baseName}><{$_templateGroupPrefix}>/Base/UserAccount/ChangePassword');"><{$_language[machangepassword]}></div>
+				                <div class="maitem malogout" onclick="javascript: Redirect('<{$_baseName}><{$_templateGroupPrefix}>/Base/User/Logout');"><{$_language[malogout]}></div>
+				            </div>
+
+	                        <{else}>
+
+							<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/User/Login" name="LoginForm">
+								<div class="tabrow" id="leftloginsubscribeboxtabs"><a id="leftloginsubscribeboxlogintab" href="javascript:void(0);" onclick="ActivateLoginTab();" class="atab"><span class="tableftgap">&nbsp;</span><span class="tabbulk"><span class="tabtext" title="<{$_language[login]}>"><{$_language[login]}></span></span></a><{if $_canSubscribeNews == true}><a id="leftloginsubscribeboxsubscribetab" href="javascript: void(0);" onclick="javascript: ActivateSubscribeTab();" class="atab inactive"><span class="tableftgap">&nbsp;</span><span class="tabbulk"><span class="tabtext" title="<{$_language[subscribe]}>"><{$_language[subscribe]}></span></span></a><{/if}></div>
+								<div id="leftloginbox" class="switchingpanel active">
+									<input type="hidden" name="_redirectAction" value="<{$_redirectAction}>" />
+									<input type="hidden" name="_csrfhash" value="<{$_csrfhash}>" />
+									<div class="inputframe zebraeven"><input class="loginstyled<{if $_userLoginEmail != ''}><{else}>label<{/if}>" value="<{if $_userLoginEmail != ''}><{$_userLoginEmail}><{else}><{$_language[loginenteremail]}><{/if}>" onfocus="javascript: ResetLabel(this, '<{$_language[loginenteremail]}>', 'loginstyled');" name="scemail" type="text"></div>
+									<div class="inputframe zebraodd"><input class="loginstyled" value="<{$_userLoginPassword}>" name="scpassword" type="password" autocomplete="off"></div>
+									<div class="inputframe remembermeDiv"><input id="leftloginboxrememberme" name="rememberme" value="1" type="checkbox"<{if $_userRememberMe == true}> checked<{/if}>><label for="leftloginboxrememberme"><span id="leftloginboxremembermetext"><{$_language[rememberme]}></span></label></div>
+									<hr class="vdivider">
+									<div id="logintext"><a href="<{$_baseName}><{$_templateGroupPrefix}>/Base/UserLostPassword/Index" title="<{$_language[lostpassword]}>"><{$_language[lostpassword]}></a></div>
+									<div id="loginsubscribebuttons"><input class="rebutton" value="<{$_language[login]}>" type="submit" title="<{$_language[login]}>" /></div>
+								</div>
+							</form>
+
+              			    <{if $_canSubscribeNews == true}>
+
+								<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/News/Subscriber/Subscribe" name="SubscribeForm">
+								<input type="hidden" name="_csrfhash" value="<{$_csrfhash}>" />
+									<div id="leftsubscribebox" class="switchingpanel">
+										<div class="inputframe zebraeven"><input class="emailstyledlabel" value="<{$_language[loginenteremail]}>" onfocus="javascript: ResetLabel(this, '<{$_language[loginenteremail]}>', 'emailstyled');" name="subscribeemail" type="text">
+										<br>
+										<label> <input name="registrationconsent" type="checkbox"/> <{$_language[regpolicytext]}> <a href="<{$_registrationPolicyURL}>" target="_blank"> <{$_language[regpolicyurl]}> </a></label>
+										</div>
+										<hr class="vdivider">
+										<div id="logintext">&nbsp;</div>
+										<div id="loginsubscribebuttons"><input class="rebutton" value="<{$_language[buttonsubmit]}>" type="submit"></div>
+									</div>
+								</form>
+  						    <{/if}>
+              			<{/if}>
+            		</div>
+
+		  		    <{if $_settings[ls_displaystatus] == '1'}>
+			            <div id="leftlivechatbox">
+	                        <!-- BEGIN TAG CODE --><div><div id="proactivechatcontainernc2v4biell"></div><table border="0" cellspacing="2" cellpadding="2"><tr><td align="center" id="swifttagcontainernc2v4biell"><div style="display: inline;" id="swifttagdatacontainer"></div></td> </tr><tr><td align="center"><!-- DO NOT REMOVE --><div style="MARGIN-TOP: 2px; WIDTH: 100%; TEXT-ALIGN: center;"><span style="FONT-SIZE: 9px; FONT-FAMILY: 'segoe ui','helvetica neue', arial, helvetica, sans-serif;"><a href="https://www.gfi.com/helpdesk" style="TEXT-DECORATION: none; COLOR: #000000" target="_blank" rel="noopener noreferrer">Live Chat Software</a><span style="COLOR: #000000"> by </span>Kayako</span></div><!-- DO NOT REMOVE --></td></tr></table></div> <script type="text/javascript">var swiftscriptelemnc2v4biell=document.createElement("script");swiftscriptelemnc2v4biell.type="text/javascript";var swiftrandom = Math.floor(Math.random()*1001); var swiftuniqueid = "nc2v4biell"; var swifttagurlnc2v4biell="<{$_swiftPath}>visitor/index.php?<{$_templateGroupPrefix}>/LiveChat/HTML/HTMLButtonBase";setTimeout("swiftscriptelemnc2v4biell.src=swifttagurlnc2v4biell;document.getElementById('swifttagcontainernc2v4biell').appendChild(swiftscriptelemnc2v4biell);",1);</script><!-- END TAG CODE -->
+			            </div>
+		  		    <{/if}>
+
+				    <{if $_filterKnowledgebase == true}>
+						<div class="leftnavboxbox">
+							<div class="leftnavboxtitle"><span class="leftnavboxtitleleftgap">&nbsp;</span><span class="leftnavboxtitlebulk"><span class="leftnavboxtitletext"><{$_language[filterkb]}></span></span></div>
+							<div class="leftnavboxcontent">
+								<{foreach key=_knowledgebaseCategoryID item=_knowledgebaseCategory from=$_navKnowledgebaseCategoryContainer}>
+									<a class="zebraeven" href="<{$_baseName}><{$_templateGroupPrefix}>/Knowledgebase/List/Index/<{$_knowledgebaseCategoryID}>/<{$_knowledgebaseCategory[seotitle]}>"><{if $_knowledgebaseCategory[totalarticles] > 0}><span class="graytext"><{$_knowledgebaseCategory[totalarticles]}></span><{/if}><{$_knowledgebaseCategory[title]}></a>
+								<{/foreach}>
+							</div>
+						</div>
+				    <{/if}>
+
+				    <{if $_filterNews == true}>
+				  	    <div class="leftnavboxbox">
+				  		    <div class="leftnavboxtitle"><span class="leftnavboxtitleleftgap">&nbsp;</span><span class="leftnavboxtitlebulk"><span class="leftnavboxtitletext"><{$_language[filternews]}></span></span></div>
+				  		    <div class="leftnavboxcontent">
+					            <{foreach key=_newsCategoryID item=_newsCategory from=$_newsCategoryContainer}>
+						            <{if $_newsCategory[totalitems] != '0'}>
+						                <a class="zebraeven" href="<{$_baseName}><{$_templateGroupPrefix}>/News/List/Index/<{$_newsCategoryID}>"><{if $_newsCategory[totalitems] > 0}><span class="graytext"><{$_newsCategory[totalitems]}></span><{/if}><{$_newsCategory[categorytitle]}></a>
+					                <{/if}>
+						        <{/foreach}>
+				  		    </div>
+				  	    </div>
+				    <{/if}>
+                </div>
+
+	            <div id="maincorecontent">
+					<!-- BEGIN DIALOG PROCESSING -->
+					<{foreach key=key item=_item from=$_errorContainer}>
+						<div class="dialogerror"><div class="dialogerrorsub"><div class="dialogerrorcontent"><{$_item[message]}></div></div></div>
+					<{/foreach}>
+					<{foreach key=key item=_item from=$_infoContainer}>
+						<div class="dialoginfo"><div class="dialoginfosub"><div class="dialoginfocontent"><{$_item[message]}></div></div></div>
+					<{/foreach}>
+					]]></template>
+
+		<template name="footer"><![CDATA[
+				</div>
+				<style id="antiClickjack">body{display:none !important;}</style>
+				<script type="text/javascript">
+					if (self === top) {
+						var antiClickjack = document.getElementById("antiClickjack");
+						antiClickjack.parentNode.removeChild(antiClickjack);
+					} else {
+						top.location = self.location;
+					}
+				</script>
+				</div>
+				<div class="innerwrapper">
+					<div id="bottomfooter" class="bottomfooterpadding"><{$_defaultFooter}></div>
+				</div>
+		</div>
+	</div>
+			  <!--SWIFT-4941 Check Custom Tweaks compatibility with SWIFT -->
+              <{if $_settings[t_tinymceeditor] == '1'}>
+		        <script type="text/javascript" src="<{$_settings[general_producturl]}>__swift/apps/base/javascript/__global/thirdparty/TinyMCE/tinymce.min.js"></script>
+		        <script>
+		tinyMCE.baseURL = "<{$_settings[general_producturl]}>__swift/apps/base/javascript/__global/thirdparty/TinyMCE/";
+		</script>
+
+		<script type="text/javascript">
+		tinymce.init({
+		    mode : "specific_textareas",
+		    editor_selector : "swifttextareawide",
+		    paste_data_images: true,
+		    image_title: true,
+			automatic_uploads: true,
+			file_picker_types: "image",
+			file_picker_callback: function(cb, value, meta) {
+				var input = document.createElement("input");
+				input.setAttribute("type", "file");
+				input.setAttribute("accept", "image/*");
+				input.onchange = function() {
+					var file = this.files[0];
+					var reader = new FileReader();
+					reader.onload = function () {
+						var id = "blobid" + (new Date()).getTime();
+						var blobCache =  tinymce.activeEditor.editorUpload.blobCache;
+						var base64 = reader.result.split(",")[1];
+						var blobInfo = blobCache.create(id, file, base64);
+						blobCache.add(blobInfo);
+						cb(blobInfo.blobUri(), { title: file.name });
+					};
+					reader.readAsDataURL(file);
+				};
+				input.click();
+			},
+		    force_p_newlines : false,
+			remove_linebreaks : false,
+		    browser_spellcheck : true,
+		    entity_encoding : "raw",
+		    relative_urls : false,
+		    remove_script_host : false,
+		    convert_urls : true,
+		    gecko_spellcheck: true,
+		    force_br_newlines : false,              //btw, I still get <p> tags if this is false
+		    remove_trailing_nbsp : false,
+		    verify_html : false,
+		    theme: "modern",
+		    plugins: [
+		        "advlist autolink lists link image charmap print preview hr anchor pagebreak",
+		        "searchreplace wordcount visualblocks visualchars fullscreen",
+		        "insertdatetime media nonbreaking save table directionality",
+		        " template paste textcolor codesample"
+		    ],
+		    toolbar1: "undo redo | styleselect | bold italic underline | fontsizeselect fontselect | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image print preview media | forecolor backcolor ",
+		    image_advtab: true,
+		    menubar: "file edit insert view format tools",
+		    setup: function(ed) {
+			        ed.on('init', function(e) {
+			            showEditorValidationError();
+			        });
+    			}
+
+		});
+		</script><!--ENDCUSTOMWYSIWYG-->
+        <{/if}>
+        <script type="text/javascript">
+        	$(function() {
+				$('#i-agree-consent').on('click', function(e) {
+					e.preventDefault();
+					document.cookie = "SWIFT_prconsenturl="+window.location.href;
+					$.ajax({
+						type: "POST",
+						url: "<{$_baseName}><{$_templateGroupPrefix}>/Base/User/UpdateProcessingConsentAJAX",
+						data: $('form.processconsentform').serialize(),
+						success: function(response) {
+							jQuery("#checkoffscreen").dialog("destroy");
+						}
+					});
+					return false;
+				});
+			});
+		</script>
+		<!-- BEGIN MODAL FOR YET TO BE CAPTURED CONSENT LOGGEDIN USER -->
+               <div style="display:none" id="checkoffscreen" class="innerwrapper">
+               		<form enctype="multipart/form-data" name="processconsentform" autocomplete="off">
+							<div>
+								<p><{$_language[regpolicytext]}> <a href="<{$_registrationPolicyURL}>" target="_blank"> <{$_language[regpolicyurl]}> </a></p>
+								<input name ="processconsent" type="hidden" value="I Agree">
+							</div>
+							<div>
+								<input id="i-agree-consent" type="submit" class="rebuttonwide2" value="<{$_language[cookiepolicyagreement]}>">
+							</div>
+					</form>
+				</div>
+		  </body>
+</html>]]></template>
+
+		<template name="customcss" date=""><![CDATA[
+ /*
+  * Add your custom CSS
+ */
+		]]></template>
+
+		<template name="homeindex"><![CDATA[
+			<{if $_showIndexNews == true}>
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{if $_settings[nw_enablerss] == '1'}><div style="float: right;"><a href="<{$_swiftPath}>rss/index.php?<{$_templateGroupPrefix}>/News/Feed" title="<{$_language[rssfeed]}>" target="_blank"><i class="fa fa-rss-square" aria-hidden="true" alt="<{$_language[rssfeed]}>"></i></a></div><{/if}><{$_language[latestupdates]}></div>
+
+			<div class="boxcontainercontent">
+				<{if $_newsCount > 0}>
+				<table cellpadding="0" cellspacing="0" border="0" class = "containercontenttable">
+				<{foreach key=newsitemid item=_newsItem from=$_newsContainer}>
+					<tr>
+
+						<td width="100%" valign="top">
+							<div class="newsavatar"><img src="<{$_baseName}><{$_templateGroupPrefix}>/Base/StaffProfile/DisplayAvatar/<{$_newsItem[staffid]}>/<{$_newsItem[emailhash]}>/40" align="absmiddle" border="0" /></div>
+							<div class="newstitle"><a class="newstitlelink" href="<{$_baseName}><{$_templateGroupPrefix}>/News/NewsItem/View/<{$_newsItem[newsitemid]}>/<{$_newsItem[urlextension]}>" title="<{$_newsItem[subject]}>"><{$_newsItem[subject]}></a>
+							<div class="newsinfo"><{$_language[postedby]}> <{$_newsItem[author]}> <{$_language[on]}> <{$_newsItem[date]}></div></div>
+					</tr>
+					<tr><td colspan="2" class="newscontents">
+						<{$_newsItem[contents]}>
+						<br />
+						<a class="newsreadmorelink" href="<{$_baseName}><{$_templateGroupPrefix}>/News/NewsItem/View/<{$_newsItem[newsitemid]}>/<{$_newsItem[urlextension]}>" title="<{$_newsItem[subject]}>"><{$_language[readmore]}></a>
+					</td></tr>
+					<tr>
+					<td colspan="2"><hr class="newshr" /></td>
+					</tr>
+				<{/foreach}>
+				</table>
+				<br />
+				<div class="newsfooter">
+				<a class="newsreadmorelink" href="<{$_baseName}><{$_templateGroupPrefix}>/News/List"><{$_language[viewallnews]}></a>
+				</div>
+				<{/if}>
+				<{if $_newsCount == 0}>
+				<div class="infotextcontainer">
+				<{$_language[noinfoinview]}>
+				</div>
+				<{/if}>
+			</div>
+			</div>
+			<{/if}>
+		  ]]></template>
+
+		<template name="comments"><![CDATA[
+			<div class="commentslabel"><{$_language[comments]}> (<{$_commentCount}>)</div>
+			<div id="commentscontainer">
+			<{foreach key=_commentID item=_comment from=$_commentContainer}>
+			<div style="padding-left: <{$_comment[padding]}>px;">
+				<div class="commentavatar<{if $_comment[parentcommentid] != '0'}> commentchild<{/if}>"><img src="<{$_comment[avatarurl]}>" align="absmiddle" border="0" />
+				<div style="font-size: 13px;margin-left: 3px;"><{if $_canPostComments != false}><a href="javascript: void(0);" onclick="javascript: MoveCommentReply('<{$_commentID}>');"><{$_language[reply]}></a><{/if}></div>
+				</div>
+				<div class="commentdataholder" style="padding-left: <{if $_comment[parentcommentid] != '0'}>65px;<{else}>45px<{/if}>">
+					<div class="<{if $_comment[isstaff] == true}>commentdataholderstaff<{/if}>">
+						<div class="commentnamelabel"><{$_comment[fullname]}></div>
+						<div class="commentdatelabel"><{$_comment[date]}></div>
+						<div class="commentcontentsholder"><{$_comment[contents]}></div>
+					</div>
+				</div>
+				<div id="commentreplycontainer_<{$_commentID}>"></div>
+			</div>
+			<{/foreach}>
+			<{if $_canCaptcha == true && $_settings[security_captchatype] == 'recaptcha'}>
+			<script src="https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit" async defer></script>
+			<{/if}>
+
+			<div id="commentparent">
+				<{if $_canPostComments != false}>
+				<div id="commentsformcontainer">
+				<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/<{$_commentsApp}>/Comments/Submit/<{$_commentsItemID}>/<{$_commentExtendedURL}>" enctype="multipart/form-data" name="CommentsForm">
+				<input type="hidden" name="parentcommentid" id="commentformparentcommentid" value="0" />
+				<table class="hlineheader"><tr><th rowspan="2" nowrap><div id="postnewcomment"><{$_language[postnewcomment]}></div><div id="replytocomment" style="display:none;" ><{$_language[replytocomment]}></div></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+				<table width="100%" border="0" cellspacing="1" cellpadding="4">
+					<{if $_commentsFullName == ''}>
+					<tr>
+						<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[commentfullname]}></td>
+						<td><input name="fullname" type="text" size="25" class="swifttextlarge" value="<{$_commentsPostFullName}>" /></td>
+					</tr>
+					<{/if}>
+					<{if $_commentsEmail == ''}>
+					<tr>
+						<td align="left" valign="middle" class="zebraodd"><{$_language[commentemail]}></td>
+						<td><input name="email" type="text" size="25" class="swifttextlarge" value="<{$_commentsPostEmail}>" /></td>
+					</tr>
+					<{/if}>
+					<tr>
+						<td align="left" valign="top" class="zebraodd"><{$_language[commentdata]}></td>
+						<td><textarea name="comments" class="swifttextarea" rows="4" cols="20"><{$_commentsPostData}></textarea></td>
+					</tr>
+				</table>
+				<{if $_canCaptcha == true}>
+				<table class="hlineheader"><tr><th rowspan="2"><{$_language[captchaverification]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+				<{if  $_isRecaptcha == true}>
+				<div class="subcontent"><{$_language[recaptchadesc]}></div>
+				<{else}>
+				<div class="subcontent"><{$_language[captchadesc]}></div>
+				<{/if}>
+				<{$_captchaHTML}>
+				<br />
+				<{/if}>
+				<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[buttonsubmit]}>" type="submit" name="button" /></div>
+				<{if $_commentsFullName != ''}><input type="hidden" name="fullname" value="<{$_commentsFullName}>" /><{/if}>
+				<{if $_commentsEmail != ''}><input type="hidden" name="email" value="<{$_commentsEmail}>" /><{/if}>
+				</form>
+				</div>
+				<{/if}>
+			</div>
+			</div>
+		  ]]></template>
+
+		<template name="customfields"><![CDATA[
+		<{foreach key=key item=_customFieldGroup from=$_customFields}>
+		<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_customFieldGroup[title]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<{foreach key=key item=_customField from=$_customFieldGroup[_fields]}>
+				<{if $_customField[fieldtype] == 'custom' && $_customField[valuetype] != 'static'}>
+				<!-- PLACE CUSTOM FIELD TYPE HTML CODE HERE -->
+				<{else}>
+				<tr>
+					<td width="<{if $_isLiveChat}>100<{else}>200<{/if}>" align="left" valign="middle" class="<{if $_isLiveChat}><{else}>zebraodd<{/if}>">
+						<{$_customField[title]}>:<{if $_customField[isrequired] == '1'}><span class="customfieldrequired">*</span><{/if}>
+						<{if $_customField[description] != ''}><div class="smalltext"><{$_customField[description]}></div><{/if}>
+					</td>
+					<td><{if $_customField[valuetype] == 'static'}><{$_customField[fieldvalue]}><{else}>
+					<{if $_customField[fieldtype] == 'text'}>
+					<input name="<{$_customField[fieldname]}>" type="text" autocomplete="off" size="20" class="swifttextlarge" value="<{$_customField[fieldvalue]}>">
+					<{elseif $_customField[fieldtype] == 'textarea'}>
+					<textarea name="<{$_customField[fieldname]}>" class="swifttextarea" rows="5" cols="100"><{$_customField[fieldvalue]}></textarea>
+					<{elseif $_customField[fieldtype] == 'password'}>
+					<input name="<{$_customField[fieldname]}>" type="password" autocomplete="off" size="20" class="swifttextlarge swiftpassword" value="<{$_customField[fieldvalue]}>">
+					<{elseif $_customField[fieldtype] == 'checkbox'}>
+						<{foreach key=optionkey item=_customFieldOption from=$_customField[fieldvalue]}>
+						<label for="<{$_customField[fieldname]}>[<{$optionkey}>]"><input type="checkbox" id="<{$_customField[fieldname]}>[<{$optionkey}>]" name="<{$_customField[fieldname]}>[<{$optionkey}>]" value="<{$_customFieldOption[value]}>"<{if $_customFieldOption[checked] == 1}> checked<{/if}> /> <{$_customFieldOption[title]}></label><br />
+						<{/foreach}>
+					<{elseif $_customField[fieldtype] == 'radio'}>
+						<{foreach key=optionkey item=_customFieldOption from=$_customField[fieldvalue]}>
+						<label for="<{$_customField[fieldname]}>[<{$optionkey}>]"><input type="radio" id="<{$_customField[fieldname]}>[<{$optionkey}>]" name="<{$_customField[fieldname]}>" value="<{$_customFieldOption[value]}>"<{if $_customFieldOption[checked] == 1}> checked<{/if}> /> <{$_customFieldOption[title]}></label><br />
+						<{/foreach}>
+					<{elseif $_customField[fieldtype] == 'select'}>
+						<select name="<{$_customField[fieldname]}>" class="swiftselect">
+						<{foreach key=optionkey item=_customFieldOption from=$_customField[fieldvalue]}>
+						<option value="<{$_customFieldOption[value]}>"<{if $_customFieldOption[selected] == 1}> selected<{/if}>><{$_customFieldOption[title]}></option>
+						<{/foreach}>
+						</select>
+					<{elseif $_customField[fieldtype] == 'selectmultiple'}>
+						<select name="<{$_customField[fieldname]}>[]" class="swiftselect" multiple size = "5" style = "height:auto;">
+						<{foreach key=optionkey item=_customFieldOption from=$_customField[fieldvalue]}>
+						<option value="<{$_customFieldOption[value]}>"<{if $_customFieldOption[selected] == 1}> selected<{/if}>><{$_customFieldOption[title]}></option>
+						<{/foreach}>
+						</select>
+					<{elseif $_customField[fieldtype] == 'selectlinked'}>
+						<select name="<{$_customField[fieldname]}>[0]" class="swiftselect" onChange="javascript: LinkedSelectChanged(this, '<{$_customField[fieldname]}>');">
+						<{foreach key=optionkey item=_customFieldOption from=$_customField[fieldvalue]}>
+						<option value="<{$_customFieldOption[value]}>"<{if $_customFieldOption[selected] == 1}> selected<{/if}>><{$_customFieldOption[title]}></option>
+						<{/foreach}>
+						</select>
+						<{if $_customField[fieldvaluelinked] != false}>
+							<{foreach key=linkedoptionkey item=_customFieldOptionContainer from=$_customField[fieldvaluelinked]}>
+								<div id="selectsuboptioncontainer_<{$linkedoptionkey}>" class="linkedselectcontainer linkedselectcontainer_<{$_customField[fieldname]}>" style="display: <{if $_customFieldOptionContainer[display] == true}>block<{else}>none<{/if}>;">
+								<select name="<{$_customField[fieldname]}>[1][<{$linkedoptionkey}>]" class="swiftselect"<{if $_customFieldOptionContainer[display] != true}> disabled="disabled"<{/if}>>
+								<{foreach key=optionkey item=_customFieldOption from=$_customFieldOptionContainer[_options]}>
+								<option value="<{$_customFieldOption[value]}>"<{if $_customFieldOption[selected] == 1}> selected<{/if}>><{$_customFieldOption[title]}></option>
+								<{/foreach}>
+								</select>
+								</div>
+							<{/foreach}>
+						<{/if}>
+					<{elseif $_customField[fieldtype] == 'file'}>
+					<input name="<{$_customField[fieldname]}>" type="file" size="20" class="swifttextlarge" /><{if $_customField[fieldvalue] != ''}><br /><{$_customField[fieldvalue]}><{/if}>
+					<{elseif $_customField[fieldtype] == 'date'}>
+					<table border="0" cellpadding="0" cellspacing="0"><tr><td><input type="text" name="<{$_customField[fieldname]}>" id="<{$_customField[fieldname]}>" size="12" value="<{$_customField[fieldvalue]}>" class="swifttext"/></td><td align="left" valign="top" style="padding:0px !important;"><div style="padding: 4px 0 0 4px;"><a href="javascript: void(0);" onclick="javascript: ClearDateField('<{$_customField[fieldname]}>');"><i style="font-size:22px !important;vertical-align: -2px !important;" class="fa fa-calendar-times-o" aria-hidden="true"></i></a></div></td></tr></table><script type="text/javascript">QueueFunction(function(){ $("#<{$_customField[fieldname]}>").datepicker(datePickerDefaults); });</script>
+					<{/if}>
+
+					<{/if}>
+					</td>
+				</tr>
+				<{/if}>
+				<{/foreach}>
+			</table>
+		<br/>
+		<{/foreach}>
+		]]></template>
+
+		<template name="profileform"><![CDATA[
+		<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/UserAccount/ProfileSubmit" enctype="multipart/form-data" name="ProfileForm">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[profiletitle]}></div>
+
+			<div class="boxcontainercontent">
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[generalinformation]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr class="general-info">
+					<td class="avatar" width="100" align="center" valign="middle"><img src="<{$_userAvatarImage}>" border="0" /></td>
+					<td align="left" valign="middle">
+						<table width="100%" border="0" cellspacing="1" cellpadding="4">
+							<tr>
+								<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[prfullname]}></td>
+								<td><select class="swiftselect" name="salutation"><option value="0"<{if $_userSalutation == '0'}> selected<{/if}>>&nbsp;</option><option value="1"<{if $_userSalutation == '1'}> selected<{/if}>><{$_language[salutationmr]}></option><option value="2"<{if $_userSalutation == '2'}> selected<{/if}>><{$_language[salutationmiss]}></option><option value="3"<{if $_userSalutation == '3'}> selected<{/if}>><{$_language[salutationmrs]}></option><option value="4"<{if $_userSalutation == '4'}> selected<{/if}>><{$_language[salutationdr]}></option></select> <input name="fullname" type="text" size="20" class="swifttextlarge" value="<{$_userFullName}>" /></td>
+							</tr>
+							<{if $_canUpdateOrganization == true}>
+							<tr>
+								<td align="left" valign="middle" class="zebraodd"><{$_language[prorganization]}></td>
+								<td><input name="userorganization" type="text" size="20" class="swifttextlarge" /></td>
+							</tr>
+							<{/if}>
+							<{if $_userOrganizationName != ''}>
+							<tr>
+								<td align="left" valign="top" class="zebraodd" style="vertical-align: top"><{$_language[prorganization]}></td>
+								<td><{$_userOrganizationName}></td>
+							</tr>
+							<{/if}>
+							<tr>
+								<td align="left" valign="middle" class="zebraodd"><{$_language[prtitleposition]}></td>
+								<td><input name="userdesignation" type="text" size="20" value="<{$_userDesignation}>" class="swifttextlarge" /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[profiledetails]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[prphone]}></td>
+					<td><input name="phone" type="text" size="20" class="swifttextlarge" value="<{$_userPhone}>" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[prprofileimage]}></td>
+					<td><input name="profileimage" type="file" size="20" class="swifttextlarge" /></td>
+				</tr>
+					<tr>
+                    <td align="left" valign="middle" class="zebraodd"><{$_language[sendticketupdate]}></td>
+                    <td><input name="sendemailtoall" type="radio" value = "1" <{if $_sendEmailToAll == 1}> checked <{/if}> /><{$_language[yes]}> <input name="sendemailtoall" type="radio" value = "0"  <{if $_sendEmailToAll == 0}> checked <{/if}> /><{$_language[no]}></td>
+ 				</tr>
+			</table>
+			<br />
+			<{$_extendedProfileHTML}>
+			<{RenderTemplate name="customfields"}>
+
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[emailaccounts]}> [<div class="addplus"><a href="#" onclick="javascript: AddProfileEmail();"><{$_language[praddemail]}></a></div>]</th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<div id="profileemailcontainer">
+			<{foreach key=key item=_item from=$_userEmailContainer}>
+			<div class="useremailitem"><div class="useremailitemdelete" onclick="javascript: $(this).parent().remove();">&nbsp;</div><{$_item[email]}> <input type="hidden" name="emaillist[]" value="<{$_item[email]}>" /></div>
+			<{/foreach}>
+			</div>
+
+			<input type="hidden" name="_csrfhash" value="<{$_csrfhash}>" />
+			<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[buttonupdate]}>" type="submit" name="button" /></div>
+
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="myorganizationform"><![CDATA[
+		<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/UserAccount/MyOrganizationSubmit" enctype="multipart/form-data" name="MyOrganizationForm">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[myorganization]}></div>
+
+			<div class="boxcontainercontent">
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[orgprofile]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[orgname]}></td>
+					<td><{$_userOrganizationName}></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[orgaddress]}></td>
+					<td><textarea name="address" rows"3" cols="35" class="swifttextarea"><{$_userOrganizationAddress}></textarea></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[orgcity]}></td>
+					<td><input name="city" type="text" size="20" value="<{$_userOrganizationCity}>" class="swifttextlarge" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[orgstate]}></td>
+					<td><input name="state" type="text" size="20" value="<{$_userOrganizationState}>" class="swifttextlarge" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[orgzip]}></td>
+					<td><input name="postalcode" type="text" size="20" value="<{$_userOrganizationZIP}>" class="swifttextlarge" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[orgcountry]}></td>
+					<td><select name="country" class="swiftselect"><{foreach key=key item=_item from=$_countryContainer}><option value="<{$_item[value]}>"<{if $_item[selected] == true}> selected<{/if}>><{$_item[title]}></option><{/foreach}></select></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[orgphone]}></td>
+					<td><input name="phone" type="text" size="20" value="<{$_userOrganizationPhone}>" class="swifttextlarge" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[orgfax]}></td>
+					<td><input name="fax" type="text" size="20" value="<{$_userOrganizationFax}>" class="swifttextlarge" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[orgwebsite]}></td>
+					<td><input name="website" type="text" size="20" value="<{$_userOrganizationWebsite}>" class="swifttextlarge" /></td>
+				</tr>
+			</table>
+			<br/>
+			<{RenderTemplate name="customfields"}>
+
+			<input type="hidden" name="_csrfhash" value="<{$_csrfhash}>" />
+			<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[buttonupdate]}>" type="submit" name="button" /></div>
+
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="changepasswordform"><![CDATA[
+		<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/UserAccount/ChangePasswordSubmit" name="ChangePasswordForm">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[changepasswordtitle]}></div>
+
+			<div class="boxcontainercontent">
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[passworddetails]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[existingpassword]}></td>
+					<td><input name="existingpassword" type="password" size="20" value="" class="swifttextlarge swiftpassword" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[newpassword]}></td>
+					<td><input name="newpassword" type="password" size="20" value="" class="swifttextlarge swiftpassword" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[newpasswordrepeat]}></td>
+					<td><input name="newpasswordrepeat" type="password" size="20" value="" class="swifttextlarge swiftpassword" /></td>
+				</tr>
+			</table>
+			<br />
+
+			<input type="hidden" name="_csrfhash" value="<{$_csrfhash}>" />
+			<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[buttonupdate]}>" type="submit" name="button" /></div>
+
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="preferencesform"><![CDATA[
+		<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/UserAccount/PreferencesSubmit" name="PreferencesForm">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[preferencestitle]}></div>
+
+			<div class="boxcontainercontent">
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[generaloptions]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[prtimezone]}></td>
+					<td><select name="timezone" class="swiftselect"><{foreach key=key item=_item from=$_timeZoneContainer}><option value="<{$_item[value]}>"<{if $_item[selected] == true}> selected<{/if}>><{$_item[title]}></option><{/foreach}></select></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[prenabledst]}></td>
+					<td><input type="radio" name="enabledst" value="1"<{if $_enableDST == true}> checked<{/if}> /> <{$_language[yes]}> <input type="radio" name="enabledst" value="0"<{if $_enableDST == false}> checked<{/if}> /> <{$_language[no]}></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[prlanguage]}></td>
+					<td><select name="languageid" class="swiftselect"><{foreach key=key item=_item from=$_userLanguageContainer}><option value="<{$_item[languageid]}>"<{if $_item[selected] == true}> selected<{/if}>><{$_item[title]}></option><{/foreach}></select></td>
+				</tr>
+				<tr>
+                    <td align="left" valign="middle" class="zebraodd"><{$_language[prsubscription]}></td>
+                    <td><input type="radio" name="newssubscription" value="1"<{if $_newsSubscription == true}> checked<{/if}> <{if $_newsSubscriptionEnabled == false}> disabled="disabled"<{/if}> /> <{$_language[yes]}> <input type="radio" name="newssubscription" value="0"<{if $_newsSubscription == false}> checked<{/if}> /> <{$_language[no]}></td>
+                </tr>
+			</table>
+			<br />
+
+			<input type="hidden" name="_csrfhash" value="<{$_csrfhash}>" />
+			<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[buttonupdate]}>" type="submit" name="button" /></div>
+
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="lostpasswordresetform"><![CDATA[
+		<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/UserLostPassword/ResetSubmit/<{$_userVerifyHashID}>" name="LostPasswordForm">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[lostpasswordtitle]}></div>
+
+			<div class="boxcontainercontent">
+			<{$_language[lostpasswordresetdesc]}><br /><br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[accountinformation]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[regpassword]}></td>
+					<td><input name="password" type="password" size="20" class="swifttextlarge" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[regpasswordrepeat]}></td>
+					<td><input name="passwordrepeat" type="password" size="20" class="swifttextlarge" /></td>
+				</tr>
+			</table>
+			<br />
+
+			<div class="subcontent"><input class="rebuttonwide2" value="<{$_language[buttonsubmit]}>" type="submit" name="button" /></div>
+
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="lostpasswordform"><![CDATA[
+		<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/UserLostPassword/Submit" name="LostPasswordForm">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[lostpasswordtitle]}></div>
+
+			<div class="boxcontainercontent">
+			<{$_language[lostpassworddesc]}><br /><br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[accountinformation]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[regemail]}></td>
+					<td><input name="email" type="text" size="25" class="swifttextlarge" value="<{$_userEmail}>" /></td>
+				</tr>
+			</table>
+			<br />
+
+			<{if $_canCaptcha == true}>
+			<table class="hlineheader"><tr><th rowspan="2"><{$_language[captchaverification]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<{if  $_isRecaptcha == true}>
+			<div class="subcontent"><{$_language[recaptchadesc]}></div>
+			<{else}>
+			<div class="subcontent"><{$_language[captchadesc]}></div>
+			<{/if}>
+			<{$_captchaHTML}>
+			<br />
+			<{/if}>
+
+			<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[buttonsubmit]}>" type="submit" name="button" /></div>
+
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="registerform"><![CDATA[
+		<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Base/UserRegistration/RegisterSubmit" enctype="multipart/form-data" name="RegisterForm" autocomplete="off">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[registertitle]}></div>
+
+			<div class="boxcontainercontent">
+			<{$_language[registerdesc]}><br /><br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[generalinformation]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[regfullname]}></td>
+					<td><input name="fullname" type="text" size="25" class="swifttextlarge" value="<{$_userFullName}>" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[regemail]}></td>
+					<td><input name="regemail" type="text" size="25" class="swifttextlarge" value="<{$_userEmail}>" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[regpassword]}></td>
+					<td><input name="regpassword" type="password" size="20" class="swifttextlarge" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[regpasswordrepeat]}></td>
+					<td><input name="passwordrepeat" type="password" size="20" class="swifttextlarge" /></td>
+				</tr>
+			</table>
+			<br />
+			<label> <input name="registrationconsent" type="checkbox"/> <{$_language[regpolicytext]}> <a href="<{$_registrationPolicyURL}>" target="_blank"> <{$_language[regpolicyurl]}> </a></label>
+			<br />
+			<{RenderTemplate name="customfields"}>
+			<{if $_canCaptcha == true}>
+			<table class="hlineheader"><tr><th rowspan="2"><{$_language[verifyregistration]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<{if  $_isRecaptcha == true}>
+			<div class="subcontent"><{$_language[recaptchadesc]}></div>
+			<{else}>
+			<div class="subcontent"><{$_language[captchadesc]}></div>
+			<{/if}>
+			<{$_captchaHTML}>
+			<br />
+			<{/if}>
+			<{$_registerExtendedForms}>
+
+			<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[regsignup]}>" type="submit" name="button" /></div>
+
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="registervalidationpending"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[validationpendingtitle]}></div>
+
+			<div class="boxcontainercontent">
+			<{$_language[validationpendingesc]}><br /><br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[registrationdetails]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[regfullname]}></td>
+					<td><{$_userFullName}></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[regemail]}></td>
+					<td><{$_userEmail}></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[regpassword]}></td>
+					<td><{$_language[pwhidden]}></td>
+				</tr>
+			</table>
+			<br />
+
+			</div>
+			</div>]]></template>
+
+		<template name="registersuccess"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[registersuccesstitle]}></div>
+
+			<div class="boxcontainercontent">
+			<{$_language[regsuccessdesc]}><br /><br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[registrationdetails]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[regfullname]}></td>
+					<td><{$_userFullName}></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[regemail]}></td>
+					<td><{$_userEmail}></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[regpassword]}></td>
+					<td><{$_language[pwhidden]}></td>
+				</tr>
+			</table>
+			<br />
+
+			</div>
+			</div>]]></template>
+
+		<template name="searchresults"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[searchresults]}></div>
+
+			<div class="boxcontainercontent">
+				<{if $_searchResultCount == 0}>
+				<div class="infotextcontainer">
+				<{$_language[nosearchresults]}>
+				</div>
+				<{/if}>
+
+				<{if $_searchResultCount > 0}>
+				<{foreach key=_searchResultID item=_searchResult from=$_searchResultContainer}>
+				<div class="<{$_searchResult[cssprefix]}>container">
+				<div class="<{$_searchResult[cssprefix]}>"><a href="<{$_searchResult[url]}>"><{$_searchResult[subject]}></a></div>
+				<div class="<{$_searchResult[cssprefix]}>text"><{$_searchResult[contentstext]}></div>
+				</div>
+				<{/foreach}>
+				<{/if}>
+
+			</div>
+			</div>
+		  ]]></template>
+
+		<template name="email_text"><![CDATA[<{$_contentsText}>
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}><{if $_showUnsubscribe == true}>
+<{$_language[unsubscribe]}>: <{$_swiftPath}>index.php?/News/Subscriber/Unsubscribe/<{$_subscriberID}>/<{$_subscriberHash}>
+<{/if}>
+]]></template>
+
+		<template name="email_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_contentsHTML}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+<{if $_showUnsubscribe == true}><br /><br />
+<{$_language[unsubscribe]}>: <a href="<{$_swiftPath}>index.php?/News/Subscriber/Unsubscribe/<{$_subscriberID}>/<{$_subscriberHash}>"><{$_swiftPath}>index.php?/News/Subscriber/Unsubscribe/<{$_subscriberID}>/<{$_subscriberHash}></a>
+<{/if}>
+</font>]]></template>
+
+		<template name="emailnotificationuser_text"><![CDATA[<{$_notificationContentsText}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="emailnotificationuser_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_notificationContentsHTML}>
+<br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="emailnotification_text"><![CDATA[<{$_notificationContentsText}>
+
+------------------------------------------------------
+<{$_language[notificationstaffcp]}> <{$_swiftPath}>staff
+]]></template>
+
+		<template name="emailnotification_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_notificationContentsHTML}>
+<br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[notificationstaffcp]}> <a href="<{$_swiftPath}>staff" target="_blank"><{$_swiftPath}>staff</a><br />
+</font>]]></template>
+
+		<template name="email_noregistration_text"><![CDATA[<{$_language[regemailrejectintro]}> <{$_basePath}><{$_templateGroupPrefix}>
+
+<{$_language[regemailrejectfooter]}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_noregistration_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_language[regemailrejectintro]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>"><{$_basePath}><{$_templateGroupPrefix}></a>
+<br /><br /><{$_language[regemailrejectfooter]}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_notvalidatedgeneric_text"><![CDATA[<{$_language[validationmailrejectintro_generic]}>
+
+<{$_language[validationemailrejectfooter]}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_notvalidatedgeneric_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_language[validationmailrejectintro_generic]}>
+<br /><br /><{$_language[validationemailrejectfooter]}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_needsstaffvalidation_text"><![CDATA[<{$_language[validationmailrejectintro_staff]}>
+
+<{$_language[validationemailrejectfooter]}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_needsstaffvalidation_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_language[validationmailrejectintro_staff]}>
+<br /><br /><{$_language[validationemailrejectfooter]}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_generatepassword_text"><![CDATA[<{$_language[generatepasswordintro]}>
+
+<{$_language[emailuserpw]}> <{$_userPassword}>
+
+<{$_language[generatepasswordfooter]}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+		<template name="email_generatepassword_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_language[generatepasswordintro]}><br /><br />
+<{$_language[emailuserpw]}> <{$_userPassword}>
+<br /><br /><{$_language[generatepasswordfooter]}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_sizelimit_text"><![CDATA[<{$_language[sizelimitrejectintro]}>
+<{$_language[sizelimitrejectfooter]}>
+------------------------------------------------------
+<{$_language[supportcenterfield]}>
+<{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+		<template name="email_sizelimit_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_language[sizelimitrejectintro]}>
+<a href="<{$_basePath}><{$_templateGroupPrefix}>"><{$_basePath}><{$_templateGroupPrefix}></a>
+<br /><br /><{$_language[sizelimitrejectfooter]}><br /><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}>
+<a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+		<template name="email_disableduser_text"><![CDATA[<{$_language[disableduserrejectintro]}>
+<{$_language[disableduserrejectfooter]}>
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_disableduser_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_language[disableduserrejectintro]}>
+<br /><br /><{$_language[disableduserrejectfooter]}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+	</category>
+
+</swifttemplate>

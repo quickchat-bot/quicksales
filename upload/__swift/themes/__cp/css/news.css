@@ -1,0 +1,238 @@
+
+.datecontainerparent {
+	width: 54px;
+	position: relative;
+	top: 0px;
+}
+
+.monthholder {
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #717d82;
+	width: 52px;
+	background-color: #eee;
+	border-radius: 3px 3px 0 0;
+	text-transform: uppercase;
+	border: 1px solid #ddd;
+	border-bottom: none;
+}
+
+.monthsub {
+	padding: 3px 0 2px 0;
+	font-size: 11px;
+	line-height: 11px;
+}
+
+.dateholder {
+	display: block;
+	text-align: center;
+	padding: 2px 0;
+	color: #666;
+	width: 52px;
+	background-color: #fff;
+	font-size: 36px;
+	border: 1px solid #ddd;
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	font-weight: 300;
+}
+
+.datecontainer {
+	padding-top: 3px;
+	font-size: 28px;
+	line-height: 28px;
+}
+
+.datesub {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.datesub {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.datecontainer {
+	font-size: 28px;
+	padding-top: 3px;
+}
+
+.newshr {
+	margin: 36px 0 0 0;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #eee;
+	color: white;
+	background-color: white;
+}
+
+.newstitle {
+	font-size: 30px;
+	margin: 0 0 0px 0;
+	line-height: 1.2;
+	font-weight: 200;
+}
+
+.newstitlelink {
+	text-decoration: none;
+    margin: 4px 0 1px 0;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.dashboardtabdatacontainer .newstitlelink{
+	max-width: 600px;
+	overflow-x: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: auto;
+}
+
+.newsavatar {
+	padding: 3px;
+    margin-left: 0px;
+    margin-right: 5px;
+    display: inline-block;
+    float: left;
+}
+
+.newsavatar img{
+	border-radius: 3px;
+}
+
+.newsreadmorelink {
+	text-decoration: none;
+	margin: 0px 0 0 0;
+}
+
+.newsinfo {
+	font-size: 12px;
+    color: #7c7f85;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+/* news article contents */
+
+.newscontents{
+	font-size: 14px !important;
+	padding-left: 52px;
+}
+
+.newscontents li, .newscontents ul, .newscontents ol, .newscontents h1, .newscontents h2,
+.newscontents h3, .newscontents h4, .newscontents h5, .newscontents h6, .newscontents p,
+.newscontents blockquote, .newscontents th, .newscontents td, .newscontents pre {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: #4c5156;
+}
+
+.newscontents p,
+.newscontents ul,
+.newscontents ol,
+.newscontents table {
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 17px;
+}
+
+.newscontents ol {
+	list-style: decimal;
+	margin: 16px 36px;
+}
+
+.newscontents ul {
+	margin-left: 24px;
+	list-style-type: disc;
+}
+
+.newscontents a, .newscontents a:visited {
+	text-decoration: none;
+	color: #4eafcb;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.newscontents a:hover {
+	text-decoration: none;
+}
+
+.newscontents blockquote {
+	margin: 0 0 17px 0;
+	padding: 0 20px;
+	border-left: 5px solid #d8dbdf;
+}
+
+.newscontents blockquote, .newscontents blockquote p {
+	line-height: 1.5;
+	color: #6c7176;
+}
+
+.newscontents h1, .newscontents h2, .newscontents h3, .newscontents h4, .newscontents h5, .newscontents h6 {
+	font-weight: normal;
+	font-style: normal;
+	color: #4c5156;
+	text-rendering: optimizelegibility;
+	line-height: 1.1;
+	margin-bottom: 14px;
+	margin-top: 28px;
+}
+
+.newscontents h1 {
+	font-size: 30px;
+	line-height: 1.2;
+}
+
+.newscontents h2 {
+	font-size: 21px;
+}
+
+.newscontents h3 {
+	font-size: 17px;
+}
+
+.newscontents h4, .newscontents h5, .newscontents h6 {
+	font-size: 15px;
+}
+
+.newscontents img {
+	max-width: 100%;
+	height: auto;
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid #d8dbdf;
+	margin: 0 !important;
+}
+
+.newscontents td, .newscontents th {
+	padding: 5px 10px;
+	border: 1px solid #cfd4d6;
+}
+
+.newscontents th {
+	background-color: #ededed;
+	font-weight: 500;
+}
+
+.newscontents table {
+	border-collapse: collapse;
+	margin-bottom: 17px;
+	background-color: #fff;
+}
+
+/* /news article contents */
+
+.newsfooter {
+	text-align: center;
+}

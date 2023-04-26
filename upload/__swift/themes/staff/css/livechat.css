@@ -1,0 +1,105 @@
+#printcontent {
+	font-size: 12px;
+	font-family: 'segoe ui','helvetica neue', arial, helvetica, sans-serif;
+	padding: 8px;
+	padding-top: 40px;
+}
+
+.chatprinthr {
+	margin-bottom: 6px;
+	height: 1px;
+	border: none;
+	color: #cfcfcf;
+	background-color: #cfcfcf;
+}
+
+.chathistorymessage {
+	font-size: 12px;
+	color: #3c3e43;
+	padding: 6px 0;
+	word-break: break-word;
+}
+
+.chathistorytimestamp {
+	display: inline;
+	color: #676767;
+	padding-right: 5px;
+}
+
+.chathistoryred {
+	display: inline;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff3232;
+}
+
+.chathistoryblue {
+	display: inline;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0080ff;
+}
+
+.chathistorygreen {
+	display: inline;
+	font-size: 12px;
+	font-weight: bold;
+	color: #278d38;
+}
+
+.cannedcategorynew {
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: -3px;
+	cursor: pointer;
+	color: #a0a0a0;
+}
+
+.cannedcategorynew:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f2c3";
+}
+
+.cannedcategorynew:hover {
+	color: #4eafcb;
+}
+
+.cannedresponsenew {
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: -3px;
+	cursor: pointer;
+	color: #a0a0a0;
+}
+
+.cannedresponsenew:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f19f";
+}
+
+.cannedresponsenew:hover {
+	color: #4eafcb;
+}
+
+.cannedresponsesearch {
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: -3px;
+	cursor: pointer;
+	color: #a0a0a0;
+}
+
+.cannedresponsesearch:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f2eb";
+}
+
+.cannedresponsesearch:hover {
+	color: #4eafcb;
+}

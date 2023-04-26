@@ -1,0 +1,55 @@
+.linkedselectcontainer {
+	padding: 4px 0 0 20px;
+	background: url('%themepath%images/linkdownarrow_blue.gif') no-repeat 0 10px;
+}
+
+.customfieldstatic {
+	width: 100%;
+}
+
+.customfieldstatic_pink {
+	background-color: #fff;
+}
+
+.customfieldstaticcontainer {
+	padding: 3px;
+}
+
+.customfieldstaticcontainer2 {
+	padding: 10px 10px 5px 10px;
+}
+
+.customfieldstatictitle {
+	color: #3c3e43;
+	font-size: 14px;
+	padding: 6px 0px 8px;
+	font-weight: 400;
+	line-height: 1;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.customfieldstaticrule_pink {
+	color: #ddd !important;
+	height: 1px;
+	margin: 8px 0 0px 0;
+	padding: 0px;
+	display: none;
+}
+
+.customfieldstaticrule {
+	color: #cfcfcf !important;
+	height: 1px;
+	margin: 4px 0 4px 0;
+	padding: 0px;
+}
+
+.customfieldcol1_pink, .customfieldcol1 {
+	width: 20% !important;
+	border-bottom: 1px solid #eee;
+	font-weight: 600;
+}
+
+.customfieldcol2_pink, .customfieldcol2 {
+	width: 30% !important;
+	border-bottom: 1px solid #eee;
+}

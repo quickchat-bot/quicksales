@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swifttemplate>
+	<title>Default</title>
+	<author>Kayako</author>
+	<version>0</version>
+
+	<category name="template_news" app="news" icon="icon_news.gif">
+		<template name="email_subscribervalidate_text"><![CDATA[<{$_language[nwsubintro]}>
+
+<{$_swiftPath}>index.php?/News/Subscriber/Validate/<{$_hash}>
+
+<{$_language[nwsubfooter]}>
+
+<{$_companyName}>
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_swiftPath}>
+]]></template>
+
+		<template name="email_subscribervalidate_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_language[nwsubintro]}><br /><br />
+<a href="<{$_swiftPath}>index.php?/News/Subscriber/Validate/<{$_hash}>"><{$_swiftPath}>index.php?/News/Subscriber/Validate/<{$_hash}></a>
+<br /><br /><{$_language[nwsubfooter]}><br />
+<br /><{$_companyName}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_swiftPath}>" target="_blank"><{$_swiftPath}></a><br />
+</font>]]></template>
+		<template name="email_subscriberconfirm_text"><![CDATA[<{$_language[nwsubconintro]}>
+
+<{$_language[unsubscribe]}>: <{$_swiftPath}>index.php?/News/Subscriber/Unsubscribe/<{$_subscriberID}>/<{$_subscriberHash}>
+
+<{$_language[nwsubfooter]}>
+
+<{$_companyName}>
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_swiftPath}>
+]]></template>
+
+		<template name="email_subscriberconfirm_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_language[nwsubconintro]}><br /><br />
+<{$_language[unsubscribe]}>: <a href="<{$_swiftPath}>index.php?/News/Subscriber/Unsubscribe/<{$_subscriberID}>/<{$_subscriberHash}>"><{$_swiftPath}>index.php?/News/Subscriber/Unsubscribe/<{$_subscriberID}>/<{$_subscriberHash}></a>
+<br /><br /><{$_language[nwsubfooter]}><br />
+<br /><{$_companyName}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_swiftPath}>" target="_blank"><{$_swiftPath}></a><br />
+</font>]]></template>
+
+		<template name="newslist"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{if $_settings[nw_enablerss] == '1'}><div style="float: right;"><a href="<{$_swiftPath}>rss/index.php?/News/Feed/Index/<{$_newsCategoryID}>" title="<{$_language[rssfeed]}>" target="_blank"><i class="fa fa-rss-color fa-rss-square" aria-hidden="true" alt="<{$_language[rssfeed]}>"></i></a></div><{/if}><{$_language[news]}></div>
+
+			<div class="boxcontainercontent">
+				<table cellpadding="0" cellspacing="0" border="0" class = "containercontenttable">
+				<{foreach key=newsitemid item=_newsItem from=$_newsContainer}>
+					<tr>
+						<td width="100%" valign="top">
+							<div class="newsavatar"><img src="<{$_baseName}><{$_templateGroupPrefix}>/Base/StaffProfile/DisplayAvatar/<{$_newsItem[staffid]}>/<{$_newsItem[emailhash]}>/40" align="absmiddle" border="0" /></div>
+							<div class="newstitle"><a class="newstitlelink" href="<{$_baseName}><{$_templateGroupPrefix}>/News/NewsItem/View/<{$_newsItem[newsitemid]}>/<{$_newsItem[urlextension]}>" title="<{$_newsItem[subject]}>"><{$_newsItem[subject]}></a>
+							<{if $_newsItem[author]}>
+							<div class="newsinfo"><{$_language[postedby]}> <{$_newsItem[author]}> <{$_language[on]}> <{$_newsItem[date]}></div></div>
+							<{else}>
+							<div class="newsinfo"><{$_language[posted]}> <{$_language[on]}> <{$_newsItem[date]}></div></div>
+							<{/if}>
+						</td>
+					</tr>
+					<tr><td colspan="2" class="newscontents">
+						<{$_newsItem[contents]}>
+						<br />
+						<a class="newsreadmorelink" href="<{$_baseName}><{$_templateGroupPrefix}>/News/NewsItem/View/<{$_newsItem[newsitemid]}>/<{$_newsItem[urlextension]}>" title="<{$_newsItem[subject]}>"><{$_language[nwreadmore]}></a>
+					</td></tr>
+					<tr>
+					<td colspan="2"><hr class="newshr" /></td>
+					</tr>
+				<{/foreach}>
+				</table>
+				<{if $_newsCount > 0}>
+				<br />
+				<div class="newsfooter">
+				<{if $_showOlderPosts == true}><a class="newsreadmorelink" href="<{$_baseName}><{$_templateGroupPrefix}>/News/List/Index/<{$_newsCategoryID}>/<{$_olderOffset}>"><{$_language[olderposts]}></a><{/if}>
+				<{if $_showNewerPosts == true}>&nbsp;&nbsp;&nbsp;<a class="newsreadmorelink" href="<{$_baseName}><{$_templateGroupPrefix}>/News/List/Index/<{$_newsCategoryID}>/<{$_newerOffset}>"><{$_language[newerposts]}></a><{/if}>
+				</div>
+				<{/if}>
+				<{if $_newsCount == 0}>
+				<div class="infotextcontainer">
+				<{$_language[noinfoinview]}>
+				</div>
+				<{/if}>
+			</div>
+			</div>
+		  ]]></template>
+		<template name="newsitem"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{if $_settings[nw_enablerss] == '1'}><div style="float: right;"><a href="<{$_swiftPath}>rss/index.php?/News/Feed" title="<{$_language[rssfeed]}>" target="_blank"><i class="fa fa-rss-color fa-rss-square" aria-hidden="true" alt="<{$_language[rssfeed]}>"></i></a></div><{/if}><{$_language[news]}></div>
+
+			<div class="boxcontainercontent">
+				<table cellpadding="0" cellspacing="0" border="0" class = "containercontenttable">
+					<tr>
+						<td width="100%" valign="top">
+							<div class="newsavatar"><img src="<{$_baseName}><{$_templateGroupPrefix}>/Base/StaffProfile/DisplayAvatar/<{$_newsItem[staffid]}>/<{$_newsItem[emailhash]}>/40" align="absmiddle" border="0" /></div>
+							<div class="newstitle"><a class="newstitlelink" href="<{$_baseName}><{$_templateGroupPrefix}>/News/NewsItem/View/<{$_newsItem[newsitemid]}>/<{$_newsItem[urlextension]}>" title="<{$_newsItem[subject]}>"><{$_newsItem[subject]}></a>
+							  <{if $_newsItem[author]}>
+							  <div class="newsinfo"><{$_language[postedby]}> <{$_newsItem[author]}> <{$_language[on]}> <{$_newsItem[date]}></div></div>
+							  <{else}>
+							  <div class="newsinfo"><{$_language[posted]}> <{$_language[on]}> <{$_newsItem[date]}></div></div>
+							  <{/if}>
+						</td>
+					</tr>
+					<tr><td colspan="2" class="newscontents">
+						<{$_newsItem[contents]}>
+					</td></tr>
+					<tr>
+					<td colspan="2"><hr class="newshr" /></td>
+					</tr>
+				</table>
+
+				<{if $_newsItem[allowcomments] == '1'}>
+				<{RenderTemplate name="comments"}>
+				<{/if}>
+			</div>
+			</div>
+		  ]]></template>
+	</category>
+
+</swifttemplate>

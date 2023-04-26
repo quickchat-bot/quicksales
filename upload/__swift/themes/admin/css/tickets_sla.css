@@ -1,0 +1,44 @@
+.slascheduletitledefault {
+	color: #3c3e43;
+	font-size: 13px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+	background-color: #eee;
+}
+
+.slascheduletitleopen {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	border-top: 1px solid #398059;
+	border-bottom: 1px solid #398059;
+	padding: 5px;
+	background-color: #59b583;
+}
+
+.slascheduletitleopen24 {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	border-top: 1px solid #709542;
+	border-bottom: 1px solid #709542;
+	padding: 5px;
+	background-color: #8cb559;
+}
+
+.slascheduletitleclosed {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	border-top: 1px solid #595b60;
+	border-bottom: 1px solid #595b60;
+	padding: 5px;
+	background-color: #7c7f85;
+}
+
+.swiftnopad {
+	margin: 0px;
+	padding: 0px;
+	background-color: #515152;
+}

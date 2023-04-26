@@ -1,0 +1,160 @@
+div.jGrowl {
+	z-index: 9999;
+	color: #333;
+	font-size: 13px;
+}
+
+div.jGrowl {
+	position: absolute;
+}
+
+body > div.jGrowl {
+	position: fixed;
+}
+
+div.jGrowl.top-left {
+	left: 0px;
+	top: 0px;
+}
+
+div.jGrowl.top-right {
+	right: 0px;
+	top: 0px;
+}
+
+div.jGrowl.bottom-left {
+	left: 0px;
+	bottom: 0px;
+}
+
+div.jGrowl.bottom-right {
+	right: 0px;
+	bottom: 0px;
+}
+
+div.jGrowl.center {
+	top: 0px;
+	width: 50%;
+	left: 25%;
+}
+
+div.center div.jGrowl-notification, div.center div.jGrowl-closer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
+	zoom: 1;
+	width: 300px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1em;
+	text-align: left;
+	display: none;
+}
+
+div.jGrowl div.jGrowl-notification {
+	min-height: 55px;
+}
+
+div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
+	margin: 10px;
+}
+
+div.jGrowl div.jGrowl-notification div.jGrowl-header {
+	font-weight: bold;
+	font-size: .85em;
+}
+
+div.jGrowl div.jGrowl-notification div.jGrowl-close {
+	z-index: 99;
+	float: right;
+	font-weight: bold;
+	font-size: 1em;
+	cursor: pointer;
+	position: relative;
+	top: -4px;
+}
+
+div.jGrowl div.jGrowl-closer {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	cursor: pointer;
+	font-size: .9em;
+	font-weight: bold;
+	text-align: center;
+}
+
+@media print {
+
+div.jGrowl {
+	display: none;
+}
+
+}
+
+div.jGrowl div.info, div.jGrowl div.error, div.jGrowl div.alert, div.jGrowl div.users {
+	zoom: 1;
+	width: 300px;
+	padding: 6px 10px 10px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	text-align: left;
+	display: none;
+	border-radius: 3px;
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.08) !important;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.08) !important;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.08) !important;
+}
+
+div.jGrowl div.info {
+	background-color: #dff0d8 !important;
+    border: 1px solid #eee !important;
+}
+
+div.jGrowl div.error {
+	background: #f2dede !important;
+    border: 1px solid #eee !important;
+}
+
+div.jGrowl div.alert, div.jGrowl div.users {
+	background: #fcf8e3 !important;
+    border: 1px solid #eee !important;
+}
+
+.jGrowl-notification .jGrowl-message {
+	height: 55px;
+}
+
+.jGrowl-message .imgok, .jGrowl-message .imgerror, .jGrowl-message .imgalert, .jGrowl-message .imgusers {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+	margin-top: 7px;
+	float: left;
+}
+
+.jGrowl-message .imgok {
+	background: url('%themepath%images/sprite_notification.png') no-repeat -40px 0px;
+}
+
+.jGrowl-message .imgerror {
+	background: url('%themepath%images/sprite_notification.png') no-repeat 0px 0px;
+}
+
+.jGrowl-message .imgalert {
+	background: url('%themepath%images/sprite_notification.png') no-repeat -120px 0px;
+}
+
+.jGrowl-message .imgusers {
+	background: url('%themepath%images/sprite_notification.png') no-repeat -80px 0px;
+}
+
+.jGrowl-message .text {
+	height: 55px;
+	display: table-cell;
+	vertical-align: middle;
+}

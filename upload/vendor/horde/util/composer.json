@@ -1,0 +1,56 @@
+{
+    "name": "horde/util",
+    "description": "Utility library",
+    "type": "library",
+    "homepage": "https://www.horde.org/libraries/Horde_Util",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Chuck Hagenbuch",
+            "email": "chuck@horde.org",
+            "role": "lead"
+        },
+        {
+            "name": "Jan Schneider",
+            "email": "jan@horde.org",
+            "role": "lead"
+        },
+        {
+            "name": "Michael Slusarz",
+            "email": "slusarz@horde.org",
+            "role": "developer"
+        }
+    ],
+    "version": "2.5.9",
+    "time": "2017-11-11",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "https://pear.horde.org"
+        }
+    ],
+    "require": {
+        "php": "^5.3 || ^7",
+        "ext-dom": "*"
+    },
+    "suggest": {
+        "pear-pear.horde.org/Horde_Imap_Client": "^2",
+        "pear-pear.horde.org/Horde_Test": "^2.1",
+        "ext-ctype": "*",
+        "ext-filter": "*",
+        "ext-iconv": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-xml": "*"
+    },
+    "replace": {
+        "pear-pear.horde.org/Horde_Util": "2.*",
+        "pear-horde/Horde_Util": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Horde_Util": "lib/"
+        }
+    }
+}

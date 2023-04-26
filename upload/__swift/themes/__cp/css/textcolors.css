@@ -1,0 +1,19 @@
+.textred {
+	color: red;
+	display: inline;
+}
+
+.textgreen {
+	color: #8bb467;
+	display: inline;
+}
+
+.textblue {
+	color: #5c83b4;
+	display: inline;
+}
+
+.textorange {
+	color: #ff8c5a;
+	display: inline;
+}

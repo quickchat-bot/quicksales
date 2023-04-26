@@ -1,0 +1,63 @@
+.hlineheader, .hlineheaderext {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	color: #3c3e43;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: none;
+}
+
+.hlineheaderext {
+	padding: 0 25px 0 0;
+}
+
+.hlineheader th, .hlineheaderext th {
+	margin: 0;
+    padding: 0 8px 0 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    color: #838d94;
+    letter-spacing: 0.92px;
+    line-height: 16px;
+}
+
+.hlineheader td, .hlineheaderext td {
+	font-size: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+td.hlinelower {
+	/*border-top: 1px solid #eaeaea;*/
+	width: 100%;
+}
+
+.viewmore {
+    margin: 12px 5px 15px 0;
+	cursor: pointer;
+	background-image: linear-gradient(to bottom, white 0%, #fdfdfd 100%);
+    border: 1px solid #d1d5d7;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+    color: #5F6C73;
+    padding: 2px 15px;
+    float: right;
+}
+
+.viewmore:before {
+    font-family: 'FontAwesome';
+    content: "\f2eb";
+    font-size: 16px;
+    vertical-align: -2px;
+    margin-right: 5px;
+}
+
+.viewmore:hover{
+	background-image: linear-gradient(to bottom, white 0%, #f5f9fb 100%);
+    border-color: #acb9bf;
+    color: #3b474e;
+    outline: none;
+    text-decoration: none;
+}

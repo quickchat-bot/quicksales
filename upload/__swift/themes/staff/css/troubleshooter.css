@@ -1,0 +1,180 @@
+.troubleshootercategory {
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.troubleshootercategorycontainer {
+
+}
+
+.troubleshootercategorycontainer:hover {
+	cursor: pointer;
+}
+
+.troubleshootercategorytitle {
+	padding: 0 0 3px 0px;
+	font-size: 15px;
+}
+
+.troubleshootercategorydesc {
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0 0 0 25px;
+}
+
+.troubleshootercategoryfooter {
+
+}
+
+.trsteptitle {
+	font-size: 21px;
+	padding-bottom: 8px;
+}
+
+.trsteptitlemain {
+	font-size: 18px;
+	margin: 0 0 9px 0;
+	line-height: 1.2;
+	font-weight: 500;
+}
+
+
+/* troubleshooter contents */
+
+.trstepcontents li, .trstepcontents ul, .trstepcontents ol, .trstepcontents h1, .trstepcontents h2,
+.trstepcontents h3, .trstepcontents h4, .trstepcontents h5, .trstepcontents h6, .trstepcontents p,
+.trstepcontents blockquote, .trstepcontents th, .trstepcontents td, .trstepcontents pre {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	color: #4c5156;
+}
+
+.trstepcontents p,
+.trstepcontents ul,
+.trstepcontents ol,
+.trstepcontents table {
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 17px;
+}
+
+.trstepcontents ol {
+	list-style: decimal;
+	margin: 16px 36px;
+}
+
+.trstepcontents ul {
+	margin-left: 24px;
+	list-style-type: disc;
+}
+
+.trstepcontents a, .trstepcontents a:visited {
+	text-decoration: none;
+	color: #277dca;
+}
+
+.trstepcontents a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.trstepcontents blockquote {
+	margin: 0 0 17px 0;
+	padding: 0 20px;
+	border-left: 5px solid #d8dbdf;
+}
+
+.trstepcontents blockquote, .trstepcontents blockquote p {
+	line-height: 1.5;
+	color: #6c7176;
+}
+
+.trstepcontents h1, .trstepcontents h2, .trstepcontents h3, .trstepcontents h4, .trstepcontents h5, .trstepcontents h6 {
+	font-weight: normal;
+	font-style: normal;
+	color: #4c5156;
+	text-rendering: optimizelegibility;
+	line-height: 1.1;
+	margin-bottom: 14px;
+	margin-top: 28px;
+}
+
+.trstepcontents h1 {
+	font-size: 30px;
+	line-height: 1.2;
+}
+
+.trstepcontents h2 {
+	font-size: 21px;
+}
+
+.trstepcontents h3 {
+	font-size: 17px;
+}
+
+.trstepcontents h4, .trstepcontents h5, .trstepcontents h6 {
+	font-size: 15px;
+}
+
+.trstepcontents img {
+	max-width: 100%;
+	height: auto;
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid #d8dbdf;
+	margin: 0 !important;
+}
+
+.trstepcontents td, .trstepcontents th {
+	padding: 5px 10px;
+	border: 1px solid #cfd4d6;
+}
+
+.trstepcontents th {
+	background-color: #ededed;
+	font-weight: 500;
+}
+
+.trstepcontents table {
+	border-collapse: collapse;
+	margin-bottom: 17px;
+	background-color: white;
+}
+
+
+/* /troubleshooter contents */
+
+.trstephr {
+	margin-bottom: 16px; height: 1px; border: none; border-top: 1px solid #cfcfcf; color: white; background-color: white;
+}
+
+.trattachments {
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 6px;
+}
+
+.trattachmentitem {
+	padding: 4px 0 5px 18px;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	color: #228aa9;
+	display:block;
+}
+
+.troubleshooterstepradio {
+	padding: 8px !important;
+}
+
+.troubleshooterstepradio input {
+	margin: 4px;
+}
+
+.troubleshooterstepsubject {
+	background: white;
+}

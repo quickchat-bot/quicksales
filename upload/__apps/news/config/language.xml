@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swiftlanguage>
+	<title>English (U.S.)</title>
+	<isocode>en-us</isocode>
+	<author>Kayako</author>
+	<charset>UTF-8</charset>
+	<textdirection>LTR</textdirection>
+	<version>0</version>
+	<flagicon>{$themepath}us.gif</flagicon>
+	<app>news</app>
+
+	<phrase section="news" code="subscriberregistered">%s is already subscribed to the news feed.</phrase>
+	<phrase section="news" code="thankyousubscribervalidate">Thank you. Please check your email to confirm your subscription.</phrase>
+	<phrase section="news" code="thankyousubscriber">Thank you for subscribing!</phrase>
+	<phrase section="news" code="thankyouunsubscriber">You have been unsubscribed from our news feed - sorry to see you go!</phrase>
+	<phrase section="news" code="nwsubintro">Thank you for subscribing to our news feed. You will need to validate your subscription in order to receive updates. Please click on the link below to activate your subscription.</phrase>
+	<phrase section="news" code="nwsubfooter">Please let us know if we can be of any further assistance,</phrase>
+	<phrase section="news" code="nwsubconintro">Your subscription to our news feed has been confirmed. You will now receive updates from us whenever we post a new article. You can unsubscribe at any time by clicking on the link below.</phrase>
+	<phrase section="news" code="nwvalidatesubscriptionsub">Validate your news subscription</phrase>
+	<phrase section="news" code="nwsubconfirmsub">News subscription confirmed</phrase>
+	<phrase section="news" code="invalidsubscriberhash">We encountered a problem (invalid subscriber hash)</phrase>
+	<phrase section="news" code="news">News</phrase>
+	<phrase section="news" code="newsexpired">[Expired]</phrase>
+	<phrase section="news" code="olderposts"><![CDATA[Older Posts]]></phrase>
+	<phrase section="news" code="newerposts"><![CDATA[Newer Posts]]></phrase>
+	<phrase section="news" code="newsnotfound">Sorry, we were unable to find this news article.</phrase>
+	<phrase section="news" code="nwreadmore"><![CDATA[Read Complete article]]></phrase>
+</swiftlanguage>

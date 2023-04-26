@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML generated: 19 December 2013 06:43 PM -->
+<swiftlanguage>
+<title><![CDATA[Nederlands]]></title>
+<isocode><![CDATA[nl]]></isocode>
+<author><![CDATA[Kayako]]></author>
+<charset><![CDATA[UTF-8]]></charset>
+<textdirection><![CDATA[LTR]]></textdirection>
+<flagicon><![CDATA[{$themepath}nl.gif]]></flagicon>
+<version>0</version>
+<phrase section="default" code="wrong_profile_image"><![CDATA[De profielafbeelding is niet bijgewerkt. Verkeerd formaat.]]></phrase>
+	<phrase section="default" code="wrong_image_size"><![CDATA[De afbeeldingsgrootte is groter dan de toegestane uploadgrootte.]]></phrase>
+<phrase section="users" code="accountinformation"><![CDATA[Accountgegevens]]></phrase>
+<phrase section="ticketemails" code="acfinalintro"><![CDATA[Dit bericht betreft uw ticket met ID #%s.  We wijzigen de status van deze ticket naar %s, omdat we niet van je terug hebben gehoord binnen %s uur.]]></phrase>
+<phrase section="ticketemails" code="acfinalsubfooter"><![CDATA[Als je verder nog vragen hebt, laat het ons dan weten. Je kunt de status van of antwoord op deze ticket online bekijken op: ]]></phrase>
+<phrase section="ticketemails" code="acpendingintro"><![CDATA[Dit bericht betreft je ticket #%s. We hebben in %s uur niets van je gehoord en willen graag weten of je deze kwestie afgehandeld acht. Als je verder nog vragen hebt, beantwoord dan simpelweg deze email.]]></phrase>
+<phrase section="ticketemails" code="acpendingsubfooter"><![CDATA[Merk op dat de ticket automatisch wordt gesloten na %s uur, als we niets terug horen. Je kunt de status van of antwoord op deze ticket online bekijken op: ]]></phrase>
+<phrase section="default" code="action_notreg"><![CDATA[Er is een probleem opgetreden (actie %s is niet geregistreerd)]]></phrase>
+<phrase section="livechatclient" code="alloperatorsbusy"><![CDATA[Je verzoek is belangrijk voor ons. Wacht alsjeblieft en een van onze medewerkers zal je zo tewoord staan.]]></phrase>
+<phrase section="default" code="app_notreg"><![CDATA[Er is een probleem opgetreden (app %s is niet geregistreerd)]]></phrase>
+<phrase section="ticketemails" code="ardepartment"><![CDATA[Afdeling: ]]></phrase>
+<phrase section="ticketemails" code="aremail"><![CDATA[Email: ]]></phrase>
+<phrase section="ticketemails" code="arfooter"><![CDATA[met vriendelijke groet,]]></phrase>
+<phrase section="ticketemails" code="arintro"><![CDATA[Bedankt dat je contact met ons hebt opgenomen. Dit is een automatisch antwoord ter bevestiging van de ontvangst van je ticket. Ons team zal zo snel mogelijk contact met je opnemen. Zorg bij reacties dat de ticket-ID in het onderwerp blijft, zodat we je reacties kunnen volgen.]]></phrase>
+<phrase section="ticketemails" code="arpassword"><![CDATA[Wachtwoord: ]]></phrase>
+<phrase section="ticketemails" code="arpriority"><![CDATA[Prioriteit: ]]></phrase>
+<phrase section="ticketemails" code="arstatus"><![CDATA[Status: ]]></phrase>
+<phrase section="ticketemails" code="arsubfooter"><![CDATA[Je kunt de status of bijwerking van deze ticket online bekijken op: ]]></phrase>
+<phrase section="ticketemails" code="arsubject"><![CDATA[Onderwerp: ]]></phrase>
+<phrase section="ticketemails" code="articketid"><![CDATA[Ticket-ID: ]]></phrase>
+<phrase section="knowledgebase" code="articlehelpful"><![CDATA[Nuttig]]></phrase>
+<phrase section="knowledgebase" code="articlenothelpful"><![CDATA[Niet nuttig]]></phrase>
+<phrase section="knowledgebase" code="articlevotes"><![CDATA[stem(men)]]></phrase>
+<phrase section="knowledgebase" code="ratingstars"><![CDATA[%.1f van de 5 sterren]]></phrase>
+<phrase section="ticketemails" code="artype"><![CDATA[Type: ]]></phrase>
+<phrase section="tickets" code="badgebcc"><![CDATA[BCC]]></phrase>
+<phrase section="tickets" code="badgecc"><![CDATA[Ontvanger]]></phrase>
+<phrase section="tickets" code="badgestaff"><![CDATA[Medewerker]]></phrase>
+<phrase section="tickets" code="badgethirdparty"><![CDATA[Derde]]></phrase>
+<phrase section="tickets" code="badgeuser"><![CDATA[Gebruiker]]></phrase>
+<phrase section="default" code="buttonback"><![CDATA[Terug]]></phrase>
+<phrase section="default" code="buttonnext"><![CDATA[Volgende]]></phrase>
+<phrase section="default" code="buttonsend"><![CDATA[Verzenden]]></phrase>
+<phrase section="livechatclient" code="buttonstartchat"><![CDATA[Chat starten]]></phrase>
+<phrase section="default" code="buttonsubmit"><![CDATA[Verzenden]]></phrase>
+<phrase section="default" code="buttonupdate"><![CDATA[Bijwerken]]></phrase>
+<phrase section="default" code="bytes"><![CDATA[Bytes]]></phrase>
+<phrase section="mime" code="bz"><![CDATA[BZ-bestand]]></phrase>
+<phrase section="mime" code="bz2"><![CDATA[BZ2-bestand]]></phrase>
+<phrase section="livechatclient" code="callme"><![CDATA[Bel me]]></phrase>
+<phrase section="default" code="cancel"><![CDATA[Annuleren]]></phrase>
+<phrase section="default" code="captchadesc"><![CDATA[Voer in het tekstvak hieronder de tekst in die je ziet in de afbeelding (wij maken hier gebruik van om automatische bijdragen te voorkomen).]]></phrase>
+<phrase section="default" code="recaptchadesc"><![CDATA[Vul de onderstaande captcha-uitdaging in (wij maken hier gebruik van om automatische bijdragen te voorkomen).]]></phrase>
+<phrase section="default" code="captchaverification"><![CDATA[CAPTCHA-verificatie]]></phrase>
+<phrase section="users" code="changepasswordtitle"><![CDATA[Wachtwoord wijzigen]]></phrase>
+<phrase section="default" code="charset"><![CDATA[UTF-8]]></phrase>
+<phrase section="livechatclient" code="chatendednotification"><![CDATA[Het gesprek is beëindigd.]]></phrase>
+<phrase section="livechatclient" code="chatendednotificationsub"><![CDATA[Klik hier voor een kort onderzoek over deze livechat.]]></phrase>
+<phrase section="livechatclient" code="chatendleavemsg"><![CDATA[Klik hier om een bericht achter te laten.]]></phrase>
+<phrase section="livechatclient" code="chatendsurvey"><![CDATA[We willen graag je feedback horen. Druk op Annuleren om naar een kort onderzoek te gaan, of druk op OK om het venster te sluiten.]]></phrase>
+<phrase section="livechatclient" code="chatenter"><![CDATA[%s heeft zich aangesloten bij het gesprek.]]></phrase>
+<phrase section="livechatclient" code="chatexpired"><![CDATA[Het gesprek is verlopen of beëindigd.]]></phrase>
+<phrase section="livechatclient" code="chatleave"><![CDATA[%s heeft het gesprek verlaten.]]></phrase>
+<phrase section="livechatclient" code="chatsendemaildesc"><![CDATA[Een afschrift van het gesprek tot nu toe wordt naar onderstaand emailadres verzonden:]]></phrase>
+<phrase section="livechatclient" code="chattemplategroup"><![CDATA[Sjabloongroep]]></phrase>
+<phrase section="livechatclient" code="clickforlivechat"><![CDATA[Klik hier voor Live Chat]]></phrase>
+<phrase section="livechatclient" code="clickleavemessage"><![CDATA[Live Chat is offline. Klik hier om een bericht achter te laten.]]></phrase>
+<phrase section="livechatclient" code="clicktocall"><![CDATA[Klik om direct te bellen]]></phrase>
+<phrase section="livechatclient" code="clicktocalltab"><![CDATA[Klik om te bellen]]></phrase>
+<phrase section="default" code="close"><![CDATA[Sluiten]]></phrase>
+<phrase section="default" code="commentconfirmation"><![CDATA[Dank je voor je feedback. Je reactie verschijnt nadat deze is goedgekeurd.]]></phrase>
+<phrase section="default" code="commentdata"><![CDATA[Reacties:]]></phrase>
+<phrase section="default" code="commentemail"><![CDATA[Email: ]]></phrase>
+<phrase section="default" code="commentfullname"><![CDATA[Volledige naam:]]></phrase>
+<phrase section="default" code="comments"><![CDATA[Reacties]]></phrase>
+<phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s Kayako]]></phrase>
+<phrase section="default" code="creationfailed"><![CDATA[Er is een probleem opgetreden (object maken mislukt)]]></phrase>
+<phrase section="default" code="defaulttimezone"><![CDATA[-- Standaard tijdzone --]]></phrase>
+<phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.gfi.com/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">GFI HelpDesk</a>.]]></phrase>
+<phrase section="mime" code="doc"><![CDATA[MS Word document]]></phrase>
+<phrase section="mime" code="docx"><![CDATA[MS Word document]]></phrase>
+<phrase section="users" code="emailaccounts"><![CDATA[Emailaccounts]]></phrase>
+<phrase section="default" code="emailinvalid"><![CDATA[Het opgegeven emailadres is ongeldig]]></phrase>
+<phrase section="users" code="emailuserpw"><![CDATA[Nieuw wachtwoord:]]></phrase>
+<phrase section="default" code="errcaptchainvalid"><![CDATA[De opgegeven CAPTCHA-letters komen niet overeen, probeer het nogmaals.]]></phrase>
+<phrase section="users" code="errorinvalidfileext"><![CDATA[Zorg dat je profielfoto een van de volgende bestandsindelingen heeft: gif, jpg, jpg, png]]></phrase>
+<phrase section="default" code="errorsmtpconnect"><![CDATA[Er is een probleem opgetreden (kan geen verbinding maken met de SMTP-server)]]></phrase>
+<phrase section="tickets" code="errstinvaliddepartmentid"><![CDATA[Sorry, er is een probleem opgetreden (ongeldige afdeling). Begin opnieuw.]]></phrase>
+<phrase section="default" code="event_notreg"><![CDATA[Er is een probleem opgetreden (gebeurtenis %s is niet geregistreerd)]]></phrase>
+<phrase section="users" code="existingpassword"><![CDATA[Huidig wachtwoord:]]></phrase>
+<phrase section="users" code="existingpwdoesnotmatch"><![CDATA[Je huidige wachtwoord is onjuist.]]></phrase>
+<phrase section="livechatclient" code="fieldchatstaff"><![CDATA[Operator:]]></phrase>
+<phrase section="livechatclient" code="fieldchatsubject"><![CDATA[Je vraag:]]></phrase>
+<phrase section="livechatclient" code="fieldcomments"><![CDATA[Reacties:]]></phrase>
+<phrase section="livechatclient" code="fielddepartment"><![CDATA[Afdeling:]]></phrase>
+<phrase section="livechatclient" code="fieldemail"><![CDATA[Email: ]]></phrase>
+<phrase section="livechatclient" code="fieldfullname"><![CDATA[Volledige naam:]]></phrase>
+<phrase section="livechatclient" code="fieldmessage"><![CDATA[Bericht:]]></phrase>
+<phrase section="livechatclient" code="fieldphone"><![CDATA[Telefoon:]]></phrase>
+<phrase section="livechatclient" code="fieldrating"><![CDATA[Beoordeling:]]></phrase>
+<phrase section="livechatclient" code="fieldsubject"><![CDATA[Onderwerp:]]></phrase>
+<phrase section="default" code="file"><![CDATA[Bestand]]></phrase>
+<phrase section="default" code="filterkb"><![CDATA[Kennisbank]]></phrase>
+<phrase section="default" code="filternews"><![CDATA[Nieuwscategorieën]]></phrase>
+<phrase section="users" code="forgotpasswordemail"><![CDATA[We hebben een verzoek ontvangen om je accountwachtwoord voor de %1$s helpdesk (%2$s) te resetten. Als je denkt dat dit bericht niet voor jou is bestemd, negeer het dan.
+
+Klik om je wachtwoord te resetten op onderstaande link, of kopieer en plak de link in de adresbalk van je browser:
+
+%3$s
+
+Bedankt,]]></phrase>
+<phrase section="default" code="gb"><![CDATA[GB]]></phrase>
+<phrase section="default" code="generalinformation"><![CDATA[Algemene informatie]]></phrase>
+<phrase section="users" code="generaloptions"><![CDATA[Algemene opties]]></phrase>
+<phrase section="users" code="generatepasswordemailsubject"><![CDATA[Nieuw wachtwoord voor %s helpdesk]]></phrase>
+<phrase section="users" code="generatepasswordfooter"><![CDATA[Neem door op onderstaande link te klikken contact op met ons op voor meer informatie, of als je denkt dat dit zonder je toestemming is gedaan.]]></phrase>
+<phrase section="users" code="generatepasswordintro"><![CDATA[Het helpdeskaccountwachtwoord is hersteld:]]></phrase>
+<phrase section="mime" code="gif"><![CDATA[GIF-afbeelding]]></phrase>
+<phrase section="mime" code="gz"><![CDATA[GZIP-bestand]]></phrase>
+<phrase section="default" code="hidden"><![CDATA[[ Verborgen ]]]></phrase>
+<phrase section="tickets" code="hideresolvedt"><![CDATA[Afgehandelde tickets verbergen]]></phrase>
+<phrase section="default" code="home"><![CDATA[Start]]></phrase>
+<phrase section="mime" code="htm"><![CDATA[HTML-pagina]]></phrase>
+<phrase section="mime" code="html"><![CDATA[HTML-pagina]]></phrase>
+<phrase section="mime" code="ico"><![CDATA[Pictogrambestand]]></phrase>
+<phrase section="tickets" code="invalidattachments"><![CDATA[We konden je bijlagen helaas niet accepteren (te groot of vanwege bestandstypebeperkingen): %s]]></phrase>
+<phrase section="default" code="invalidemail"><![CDATA[Het opgegeven emailadres is ongeldig]]></phrase>
+<phrase section="default" code="invalidhtmltags"><![CDATA[Ongeldige HTML-tags ingevoerd]]></phrase>
+<phrase section="users" code="invalidorganization"><![CDATA[Er is een probleem opgetreden (deze organisatie bestaat niet)]]></phrase>
+<phrase section="news" code="invalidsubscriberhash"><![CDATA[Er is een probleem opgetreden (ongeldige abonneehash)]]></phrase>
+<phrase section="default" code="invaliduser"><![CDATA[Ongeldig gebruikersnaam of wachtwoord]]></phrase>
+<phrase section="default" code="invaliduseracc"><![CDATA[Ongeldig gebruikersaccount. Dit account bestaat niet.]]></phrase>
+<phrase section="default" code="invaliduserdisabled"><![CDATA[We konden je niet aanmelden, omdat dit account is uitgeschakeld]]></phrase>
+<phrase section="default" code="invaliduserexpired"><![CDATA[We konden je niet aanmelden, omdat dit account is verlopen]]></phrase>
+<phrase section="default" code="invalidusertgroupres"><![CDATA[Kon niet aanmelden. De gebruikersgroep heeft geen toestemming voor toegang tot deze sjabloongroep.]]></phrase>
+<phrase section="users" code="invalidverifyhash"><![CDATA[Er is een probleem opgetreden (ongeldige of verlopen verificatie)]]></phrase>
+<phrase section="tickets" code="irsdesc"><![CDATA[We stellen de volgende antwoorden en artikelen voor uit onze kennisbank]]></phrase>
+<phrase section="tickets" code="irsloading"><![CDATA[Kennisbanksuggesties laden...]]></phrase>
+<phrase section="tickets" code="irsnoresults"><![CDATA[Geen relevante kennisbankartikelen gevonden.]]></phrase>
+<phrase section="tickets" code="irssuggestions"><![CDATA[Kennisbanksuggesties]]></phrase>
+<phrase section="livechatclient" code="istyping"><![CDATA[%s is aan het typen...]]></phrase>
+<phrase section="mime" code="jar"><![CDATA[JAR-bestand]]></phrase>
+<phrase section="livechatclient" code="joinedchat"><![CDATA[Je chat nu met %s - %s]]></phrase>
+<phrase section="livechatclient" code="joinedchatdep"><![CDATA[Je chat nu met %s]]></phrase>
+<phrase section="mime" code="jpeg"><![CDATA[JPEG-afbeelding]]></phrase>
+<phrase section="mime" code="jpg"><![CDATA[JPEG-afbeelding]]></phrase>
+<phrase section="default" code="kb"><![CDATA[KB]]></phrase>
+<phrase section="knowledgebase" code="kbattachments"><![CDATA[Bijlagen]]></phrase>
+<phrase section="knowledgebase" code="kbnopermission"><![CDATA[Sorry. Dit artikel bestaat niet, of je hebt geen toestemming om het te bekijken.]]></phrase>
+<phrase section="knowledgebase" code="knowledgebase"><![CDATA[Kennisbank]]></phrase>
+<phrase section="default" code="languagefield"><![CDATA[Taal:]]></phrase>
+<phrase section="default" code="latestupdates"><![CDATA[Laatste updates]]></phrase>
+<phrase section="livechatclient" code="lcemail"><![CDATA[Email]]></phrase>
+<phrase section="livechatclient" code="lcprint"><![CDATA[Afdrukken]]></phrase>
+<phrase section="livechatclient" code="lcsoundoff"><![CDATA[Geluid: uit]]></phrase>
+<phrase section="livechatclient" code="lcsoundon"><![CDATA[Geluid: aan]]></phrase>
+<phrase section="livechatclient" code="leaveamessage"><![CDATA[Laat een bericht achter]]></phrase>
+<phrase section="livechatclient" code="leavemessageconfirmheader"><![CDATA[Bedankt voor je bericht. Ons team zal spoedig contact met je opnemen.]]></phrase>
+<phrase section="livechatclient" code="leavemessageheader"><![CDATA[Helaas is ons team momenteel niet beschikbaar. Vul echter het formulier hieronder in om een bericht bij ons achter te laten en we zullen zo snel mogelijk contact met je opnemen.]]></phrase>
+<phrase section="livechatclient" code="livechat"><![CDATA[live chat]]></phrase>
+<phrase section="livechatclient" code="livechat_emailsubject"><![CDATA[%s - Live Chat op %s]]></phrase>
+<phrase section="livechatclient" code="livechatheader"><![CDATA[Geef voordat we je chat beginnen eerst wat informatie, zodat we je beter kunnen helpen.]]></phrase>
+<phrase section="livechatclient" code="livechatheadercall"><![CDATA[Voer je telefoonnummer en gegevens hieronder in en we zullen je verbinden.]]></phrase>
+<phrase section="default" code="loggedinfromstaff"><![CDATA[Aangemeld als: %s]]></phrase>
+<phrase section="default" code="login"><![CDATA[Aanmelden]]></phrase>
+<phrase section="default" code="loginenteremail"><![CDATA[Je emailadres]]></phrase>
+<phrase section="default" code="logintocontinue"><![CDATA[Meld je aan om verder te gaan]]></phrase>
+<phrase section="default" code="logout"><![CDATA[Afmelden]]></phrase>
+<phrase section="default" code="lostpassword"><![CDATA[Wachtwoord opvragen]]></phrase>
+<phrase section="users" code="lostpassworddesc"><![CDATA[Voer je geregistreerde emailadres in en klik op Verzenden. Je ontvangt spoedig een email met een link om je wachtwoord te herstellen.]]></phrase>
+<phrase section="users" code="lostpasswordemailsubject"><![CDATA[Verzoek voor opvragen van wachtwoord voor %s helpdesk]]></phrase>
+<phrase section="users" code="lostpasswordresetdesc"><![CDATA[Voer hieronder je nieuwe wachtwoord in en klik op Verzenden om je wachtwoord te herstellen.]]></phrase>
+<phrase section="users" code="lostpasswordtitle"><![CDATA[Wachtwoord opvragen]]></phrase>
+<phrase section="users" code="lprequestsent"><![CDATA[Email voor het herstellen van het wachtwoord is verzonden naar %s]]></phrase>
+<phrase section="users" code="lpsuccess"><![CDATA[Je wachtwoord is gewijzigd. Je kunt je nu aanmelden met je nieuwe gegevens.]]></phrase>
+<phrase section="livechatclient" code="lsbacksoon"><![CDATA[Live Chat is zo terug]]></phrase>
+<phrase section="livechatclient" code="lsisaway"><![CDATA[Live Chat is weg]]></phrase>
+<phrase section="default" code="machangepassword"><![CDATA[Wachtwoord wijzigen]]></phrase>
+<phrase section="default" code="malogout"><![CDATA[Afmelden]]></phrase>
+<phrase section="default" code="maorganization"><![CDATA[Mijn organisatie]]></phrase>
+<phrase section="default" code="mapreferences"><![CDATA[Voorkeuren]]></phrase>
+<phrase section="default" code="maprofile"><![CDATA[Mijn profiel]]></phrase>
+<phrase section="default" code="mb"><![CDATA[MB]]></phrase>
+<phrase section="knowledgebase" code="mostpopular"><![CDATA[Meest populaire artikelen]]></phrase>
+<phrase section="mime" code="mov"><![CDATA[QuickTime-film]]></phrase>
+<phrase section="mime" code="mp3"><![CDATA[MPEG-audio]]></phrase>
+<phrase section="mime" code="mpeg"><![CDATA[MPEG-video]]></phrase>
+<phrase section="mime" code="mpg"><![CDATA[MPEG-video]]></phrase>
+<phrase section="default" code="msgcsrfhash"><![CDATA[Er is een probleem opgetreden (vervalsing van cross-siteverzoek gedetecteerd); probeer het nogmaals]]></phrase>
+<phrase section="default" code="myaccount"><![CDATA[Account]]></phrase>
+<phrase section="users" code="myorganization"><![CDATA[Mijn organisatie]]></phrase>
+<phrase section="default" code="na"><![CDATA[- NVT -]]></phrase>
+<phrase section="news" code="newerposts"><![CDATA[Nieuwere berichten]]></phrase>
+<phrase section="users" code="newpassword"><![CDATA[Nieuw wachtwoord:]]></phrase>
+<phrase section="users" code="newpasswordrepeat"><![CDATA[Nieuw wachtwoord (bevestigen):]]></phrase>
+<phrase section="users" code="newpwdoesnotmatch"><![CDATA[De nieuwe wachtwoorden komen niet overeen.]]></phrase>
+<phrase section="users" code="newpwupdated"><![CDATA[Wachtwoord bijgewerkt.]]></phrase>
+<phrase section="news" code="news"><![CDATA[Nieuws]]></phrase>
+<phrase section="news" code="newsnotfound"><![CDATA[Sorry, we konden dit nieuwsartikel niet vinden.]]></phrase>
+<phrase section="default" code="no"><![CDATA[Nee]]></phrase>
+<phrase section="default" code="noinfoinview"><![CDATA[We hebben niets om weer te geven]]></phrase>
+<phrase section="default" code="nopermission"><![CDATA[Sorry, je hebt geen toestemming om deze actie uit te voeren.]]></phrase>
+<phrase section="default" code="nosearchresults"><![CDATA[We konden niets relevants vinden voor je zoekopdracht]]></phrase>
+<phrase section="news" code="nwsubconfirmsub"><![CDATA[Nieuwsabonnement bevestigd]]></phrase>
+<phrase section="news" code="nwsubconintro"><![CDATA[Je abonnement op onze nieuwsfeed is bevestigd. Je ontvangt nu updates van ons wanneer we een nieuwsartikel plaatsen. Je kunt je op elk moment uitschrijvne door op onderstaande link te klikken.]]></phrase>
+<phrase section="news" code="nwsubfooter"><![CDATA[Laat ons weten of we je verder van dienst kunnen zijn,]]></phrase>
+<phrase section="news" code="nwsubintro"><![CDATA[Bedankt voor je abonnement op onze nieuwsfeed. Je moet je abonnement bevestigen om updates te ontvangen. Klik op onderstaande link om je abonnement te activeren.]]></phrase>
+<phrase section="news" code="nwvalidatesubscriptionsub"><![CDATA[Bevestig je nieuwsabonnement]]></phrase>
+<phrase section="livechatclient" code="offline"><![CDATA[Offline]]></phrase>
+<phrase section="news" code="olderposts"><![CDATA[Oudere berichten]]></phrase>
+<phrase section="default" code="on"><![CDATA[aan]]></phrase>
+<phrase section="livechatclient" code="online"><![CDATA[Online]]></phrase>
+<phrase section="users" code="orgaddress"><![CDATA[Adres:]]></phrase>
+<phrase section="users" code="orgcity"><![CDATA[Plaats:]]></phrase>
+<phrase section="users" code="orgcountry"><![CDATA[Land:]]></phrase>
+<phrase section="users" code="orgfax"><![CDATA[Fax:]]></phrase>
+<phrase section="users" code="orgname"><![CDATA[Naam van de organisatie:]]></phrase>
+<phrase section="users" code="orgphone"><![CDATA[Telefoon:]]></phrase>
+<phrase section="users" code="orgprofile"><![CDATA[Organisatieprofiel]]></phrase>
+<phrase section="users" code="orgstate"><![CDATA[Staat/provincie:]]></phrase>
+<phrase section="users" code="orgupdated"><![CDATA[Je organisatieprofiel is succesvol bijgewerkt]]></phrase>
+<phrase section="users" code="orgwebsite"><![CDATA[Website:]]></phrase>
+<phrase section="users" code="orgzip"><![CDATA[Postcode:]]></phrase>
+<phrase section="default" code="pagination"><![CDATA[Pagina %s van %s]]></phrase>
+<phrase section="users" code="passworddetails"><![CDATA[Wachtwoordgegevens]]></phrase>
+<phrase section="mime" code="pdf"><![CDATA[PDF-document]]></phrase>
+<phrase section="livechatclient" code="peopleaheadinqueue"><![CDATA[Er zijn momenteel %s mensen voor je in de rij.]]></phrase>
+<phrase section="mime" code="php"><![CDATA[PHP-scriptbestand]]></phrase>
+<phrase section="default" code="pleasetypeyourquery"><![CDATA[Waarmee kunnen we je helpen?]]></phrase>
+<phrase section="default" code="pleasetypeyourquestion"><![CDATA[Waarmee kunnen we je helpen?]]></phrase>
+<phrase section="livechatclient" code="pleasewaitoperator"><![CDATA[Wacht even, een van onze operators is zo bij je.]]></phrase>
+<phrase section="mime" code="png"><![CDATA[PNG-afbeelding]]></phrase>
+<phrase section="default" code="postedby"><![CDATA[Geplaatst door]]></phrase>
+<phrase section="default" code="posted"><![CDATA[Geplaatst]]></phrase>
+<phrase section="default" code="postnewcomment"><![CDATA[Nieuwe reactie plaatsen]]></phrase>
+<phrase section="default" code="poweredby"><![CDATA[Powered by GFI HelpDesk]]></phrase>
+<phrase section="mime" code="ppt"><![CDATA[PowerPoint-document]]></phrase>
+<phrase section="mime" code="pptx"><![CDATA[PowerPoint-document]]></phrase>
+<phrase section="users" code="praddemail"><![CDATA[Email toevoegen]]></phrase>
+<phrase section="users" code="preferencestitle"><![CDATA[Voorkeuren]]></phrase>
+<phrase section="users" code="prenabledst"><![CDATA[Zomertijd inschakelen:]]></phrase>
+<phrase section="users" code="prfullname"><![CDATA[Volledige naam:]]></phrase>
+<phrase section="default" code="private"><![CDATA[[ Privé ]]]></phrase>
+<phrase section="users" code="prlanguage"><![CDATA[Taal:]]></phrase>
+<phrase section="users" code="prnoemailprovided"><![CDATA[Je moet tenminste één geldig emailadres invoeren]]></phrase>
+<phrase section="livechatclient" code="proactivechatnow"><![CDATA[Chat nu]]></phrase>
+<phrase section="livechatclient" code="proactivemsg"><![CDATA[Ons team is klaar om je te assisteren. Klik op &quot;Chat nu&quot; om direct te worden verbonden.]]></phrase>
+<phrase section="livechatclient" code="proactivetitle"><![CDATA[Kan ik je helpen?]]></phrase>
+<phrase section="livechatclient" code="proactivevisitorname"><![CDATA[Bezoeker]]></phrase>
+<phrase section="users" code="profiledetails"><![CDATA[Profielgegevens]]></phrase>
+<phrase section="users" code="profiletitle"><![CDATA[Mijn profiel]]></phrase>
+<phrase section="users" code="prorganization"><![CDATA[Organisaties:]]></phrase>
+<phrase section="users" code="prphone"><![CDATA[Telefoonnummer:]]></phrase>
+<phrase section="users" code="prphoneregistered"><![CDATA[Dit telefoonnummer (%s) is al in gebruik door een ander account.]]></phrase>
+<phrase section="users" code="prprofileimage"><![CDATA[Profielafbeelding:]]></phrase>
+<phrase section="users" code="prprofileupdate"><![CDATA[Je profiel is bijgewerkt]]></phrase>
+<phrase section="users" code="prtimezone"><![CDATA[Tijdzone:]]></phrase>
+<phrase section="users" code="prtitleposition"><![CDATA[Titel/functie:]]></phrase>
+<phrase section="users" code="prupdated"><![CDATA[Je voorkeuren zijn opgeslagen]]></phrase>
+<phrase section="users" code="pwhidden"><![CDATA[[ Verborgen ]]]></phrase>
+<phrase section="mime" code="ram"><![CDATA[Real Audio-bestand]]></phrase>
+<phrase section="mime" code="rar"><![CDATA[RAR-bestand]]></phrase>
+<phrase section="default" code="readmore"><![CDATA[Meer lezen]]></phrase>
+<phrase section="knowledgebase" code="recentarticles"><![CDATA[Nieuwste artikelen]]></phrase>
+<phrase section="users" code="regemail"><![CDATA[Email: ]]></phrase>
+<phrase section="users" code="regemailregistered"><![CDATA[Het opgegeven emailadres is al geregistreerd. Gebruik de optie wachtwoord opvragen om je wachtwoord terug te krijgen, of geef een ander emailadres op.]]></phrase>
+<phrase section="users" code="regemailregisteredsmall"><![CDATA[Het emailadres (%s) is al in gebruik.]]></phrase>
+<phrase section="ticketemails" code="regemailrejectfooter"><![CDATA[Nadat je bent geregistreerd, kun je tickets indienen door ons simpelweg te emailen. Onze excuses voor het ongemak.]]></phrase>
+<phrase section="ticketemails" code="regemailrejectintro"><![CDATA[We konden je email niet verwerken. Je moet een helpdeskaccount hebben voordat je tickets kunt maken via email. Je kunt jezelf registreren op onze helpdesk:]]></phrase>
+<phrase section="ticketemails" code="regemailrejectsub"><![CDATA[Je email kan niet worden verwerkt (registratie vereist)]]></phrase>
+<phrase section="users" code="regfullname"><![CDATA[Volledige naam:]]></phrase>
+<phrase section="users" code="reginvalidemail"><![CDATA[Het opgegeven emailadres is ongeldig.]]></phrase>
+<phrase section="users" code="reginvalidemailaddress">The email address entered is already used in the desk; Please enter the valid email address.</phrase>
+<phrase section="users" code="registerdesc"><![CDATA[Vul de velden hieronder in om een nieuw helpdeskaccount te registreren.]]></phrase>
+<phrase section="users" code="registeremailsubject"><![CDATA[Welkom bij %s helpdesk]]></phrase>
+<phrase section="users" code="registeremailvalidationsubject"><![CDATA[Verifieer je %s helpdeskregistratie]]></phrase>
+<phrase section="users" code="registersuccessemail"><![CDATA[Deze email is een bevestiging dat je nu bent geregistreerd bij onze helpdesk.
+
+Emailadres: %3$s
+Wachtwoord: verborgen
+
+Je kunt op elk moment de helpdesk bezoeken om artikelen te bekijken en contact met ons op te nemen: %2$s
+
+Houd er rekening mee dat Kayako gebruikersinformatie verwerkt voor een betere helpdeskkwaliteit en gebruikerservaring
+
+Bedankt voor het registreren!
+
+%1$s]]></phrase>
+<phrase section="users" code="registersuccesstitle"><![CDATA[Registratie succesvol]]></phrase>
+<phrase section="users" code="registertitle"><![CDATA[Nieuw account maken]]></phrase>
+<phrase section="users" code="registervalidateemail"><![CDATA[Bedankt voor het registreren bij de %1$s helpdesk (%2$s).
+
+We moeten je emailadres verifiëren.
+
+Klik om je account te activeren op onderstaande link, of kopieer en plak de link in de adresbalk van je browser:
+
+%3$s
+
+Als je denkt dat dit bericht niet voor jou is bestemd, hoef je geen actie te ondernemen om het account te annuleren. Het account wordt niet geactiveerd en je ontvangt verder geen berichten van ons.
+
+Bedankt,
+
+
+%1$s]]></phrase>
+<phrase section="users" code="registerwelcomeemail"><![CDATA[Deze email is de bevestiging dat u nu bent geregistreerd bij onze helpdesk.
+
+Geregistreerde email: %3$s
+Wachtwoord: %4$s
+
+U kunt op elk moment de helpdesk bezoeken om artikelen te bekijken en contact met ons op te nemen: %2$s
+
+Houd er rekening mee dat Kayako gebruikersinformatie verwerkt voor een betere helpdeskkwaliteit en gebruikerservaring
+
+Bedankt voor het registreren!
+
+
+%1$s]]></phrase>
+<phrase section="users" code="registrationdetails"><![CDATA[Registratiegegevens]]></phrase>
+<phrase section="users" code="regpassword"><![CDATA[Wachtwoord:]]></phrase>
+<phrase section="users" code="regpasswordrepeat"><![CDATA[Wachtwoord (herhalen):]]></phrase>
+<phrase section="users" code="regpwnomatch"><![CDATA[De ingevoerde wachtwoorden komen niet overeen.]]></phrase>
+<phrase section="users" code="regsignup"><![CDATA[Registreren]]></phrase>
+<phrase section="users" code="regsuccessdesc"><![CDATA[Dank je voor het registreren! Een kopie van je registratiegegevens is naar je emailadres verzonden. Gebruik het aanmeldformulier naast deze tekst om je aan te melden.]]></phrase>
+<phrase section="default" code="rememberme"><![CDATA[Onthoud me]]></phrase>
+<phrase section="default" code="reply"><![CDATA[Antwoorden]]></phrase>
+<phrase section="default" code="replytocomment"><![CDATA[Reageren op reactie]]></phrase>
+<phrase section="default" code="requiredfieldempty"><![CDATA[Een van de verplichte velden is leeg]]></phrase>
+<phrase section="default" code="rssfeed"><![CDATA[RSS feed]]></phrase>
+<phrase section="default" code="regpolicytext">Ik stem ermee in dat Kayako mijn gegevens verwerkt en instem met de voorwaarden van de </phrase>
+<phrase section="default" code="regpolicyurl">Privacybeleid</phrase>
+<phrase section="default" code="regpolicyareement">Privacybeleid vereist</phrase>
+<phrase section="default" code="cookiepolicyagreement">Ik ben het eens</phrase>
+<phrase section="default" code="cookiepolicytext">Deze website maakt gebruik van cookies om ervoor te zorgen dat u de beste ervaring op onze website krijgt. Lees ons voor meer informatie over cookies </phrase>
+<phrase section="default" code="cookiepolicyurl">Privacybeleid</phrase>
+<phrase section="livechatclient" code="fieldregpolicytext"> Ik stem ermee in dat Kayako mijn gegevens verwerkt en instem met de voorwaarden van de </phrase>
+<phrase section="livechatclient" code="fieldregpolicyurl">Privacybeleid</phrase>
+<phrase section="tickets" code="st_regpolicyareement">Privacybeleid vereist</phrase>
+<phrase section="mime" code="rtf"><![CDATA[Rich Text Format-bestand]]></phrase>
+<phrase section="default" code="salutationdr"><![CDATA[Dr.]]></phrase>
+<phrase section="default" code="salutationmiss"><![CDATA[Mevrouw]]></phrase>
+<phrase section="default" code="salutationmr"><![CDATA[Deheer]]></phrase>
+<phrase section="default" code="salutationmrs"><![CDATA[Mevrouw]]></phrase>
+<phrase section="default" code="searchbutton"><![CDATA[ZOEKEN]]></phrase>
+<phrase section="default" code="searchresults"><![CDATA[Zoekresultaten]]></phrase>
+<phrase section="tickets" code="selectdepartmentdesc"><![CDATA[Als je geen oplossing voor je probleem kunt vinden in onze kennisbank, kun je een ticket indienen door hieronder de juiste afdeling te selecteren.]]></phrase>
+<phrase section="tickets" code="selectdepartmenttitle"><![CDATA[Ticket indienen]]></phrase>
+<phrase section="livechatclient" code="send"><![CDATA[Verzenden]]></phrase>
+<phrase section="tickets" code="st_department"><![CDATA[Afdeling]]></phrase>
+<phrase section="tickets" code="st_email"><![CDATA[Email]]></phrase>
+<phrase section="tickets" code="st_fullname"><![CDATA[Voor- en achternaam]]></phrase>
+<phrase section="tickets" code="st_messagedetails"><![CDATA[Je bericht]]></phrase>
+<phrase section="tickets" code="st_priority"><![CDATA[Prioriteit]]></phrase>
+<phrase section="tickets" code="st_subject"><![CDATA[Onderwerp]]></phrase>
+<phrase section="tickets" code="st_subjectconfirm"><![CDATA[Onderwerp: ]]></phrase>
+<phrase section="tickets" code="st_ticketid"><![CDATA[Ticket-ID]]></phrase>
+<phrase section="tickets" code="st_type"><![CDATA[Type]]></phrase>
+<phrase section="tickets" code="st_yourcomments"><![CDATA[Reacties]]></phrase>
+<phrase section="tickets" code="st_yourfeedback"><![CDATA[Jouw feedback]]></phrase>
+<phrase section="livechatclient" code="staffnotacceptedchat"><![CDATA[Je bericht kon niet worden verzonden - wacht tot een operator je verzoek accepteert.]]></phrase>
+<phrase section="tickets" code="sterr_invaliddepartment"><![CDATA[Sorry, er is een probleem opgetreden (ongeldige afdeling). Begin opnieuw.]]></phrase>
+<phrase section="tickets" code="sterr_invalidpriority"><![CDATA[Ongeldige ticketprioriteit opgegeven; begin opnieuw.]]></phrase>
+<phrase section="tickets" code="sterr_invalidtype"><![CDATA[Sorry, er is een probleem opgetreden (ongeldig tickettype). Begin opnieuw.]]></phrase>
+<phrase section="tickets" code="submitticketdepartments"><![CDATA[Afdelingen]]></phrase>
+<phrase section="default" code="subscribe"><![CDATA[Abonneren]]></phrase>
+<phrase section="news" code="subscriberregistered"><![CDATA[%s is al geabonneerd op de nieuwsfeed.]]></phrase>
+<phrase section="default" code="supportcenterfield"><![CDATA[Helpdesk:]]></phrase>
+<phrase section="livechatclient" code="surveyconfirmheader"><![CDATA[Dank je voor het invullen van de vragenlijst - je feedback is erg belangrijk voor ons. Je kunt dit venster nu sluiten.]]></phrase>
+<phrase section="ticketemails" code="surveycta"><![CDATA[Klik op de volgende link om de vragenlijst in te vullen: ]]></phrase>
+<phrase section="tickets" code="surveydesc"><![CDATA[Je feedback is erg belangrijk voor ons en helpt ons onze klantsupportervaring te verbeteren.]]></phrase>
+<phrase section="ticketemails" code="surveydescription1"><![CDATA[Als onderdeel van onze inzet voor het verbeteren van je klantsupportervaring willen we graag weten hoe jij denkt dat we het doen.]]></phrase>
+<phrase section="ticketemails" code="surveydescription2"><![CDATA[Neem alsjeblieft een momentje om een kort onderzoek in te vullen bestaande uit slechts enkele meerkeuzevragen.]]></phrase>
+<phrase section="ticketemails" code="surveydescription3"><![CDATA[Het zal je niet langer kosten dan één minuut (we beloven het!).]]></phrase>
+<phrase section="ticketemails" code="surveyfooter"><![CDATA[Bij voorbaat dank,]]></phrase>
+<phrase section="livechatclient" code="surveyheader"><![CDATA[We willen graag weten hoe jij denkt dat we het doen. Vul alsjeblieft het korte onderzoek in om ons te vertellen over je ervaring van vandaag.]]></phrase>
+<phrase section="ticketemails" code="surveyintro"><![CDATA[Deze email betreft je recente ticket]]></phrase>
+<phrase section="ticketemails" code="surveysubfooter"><![CDATA[Je feedback is erg belangrijk voor ons en we stellen je tijd zeer op prijs.]]></phrase>
+<phrase section="mime" code="swf"><![CDATA[Macromedia Flash-bestand]]></phrase>
+<phrase section="tickets" code="taddfile"><![CDATA[Bestand toevoegen]]></phrase>
+<phrase section="mime" code="tar"><![CDATA[TAR-bestand]]></phrase>
+<phrase section="news" code="thankyousubscriber"><![CDATA[Bedankt voor het abonneren!]]></phrase>
+<phrase section="news" code="thankyousubscribervalidate"><![CDATA[Dank je. Controleer je email om je abonnement te bevestigen.]]></phrase>
+<phrase section="tickets" code="thankyousurvey"><![CDATA[Dank je voor je feedback!]]></phrase>
+<phrase section="news" code="thankyouunsubscriber"><![CDATA[Je bent uitgeschreven van onze nieuwsfeed - het spijt ons je te zien gaan!]]></phrase>
+<phrase section="ticketemails" code="thattachments"><![CDATA[Bijlagen]]></phrase>
+<phrase section="ticketemails" code="thbcc"><![CDATA[Ontvanger (BCC)]]></phrase>
+<phrase section="ticketemails" code="thcc"><![CDATA[Ontvanger (CC)]]></phrase>
+<phrase section="ticketemails" code="thclient"><![CDATA[Klant]]></phrase>
+<phrase section="ticketemails" code="thpostedon"><![CDATA[Geplaatst op:]]></phrase>
+<phrase section="ticketemails" code="threcipient"><![CDATA[Ontvanger]]></phrase>
+<phrase section="ticketemails" code="thstaff"><![CDATA[Medewerker]]></phrase>
+<phrase section="ticketemails" code="ththirdparty"><![CDATA[Derde]]></phrase>
+<phrase section="ticketemails" code="ticketdetails"><![CDATA[Ticketgegevens]]></phrase>
+<phrase section="ticketemails" code="tickethistory"><![CDATA[Ticketgeschiedenis]]></phrase>
+<phrase section="tickets" code="ticketpermdenied"><![CDATA[Sorry, we konden de door jou opgevraagde ticket niet vinden, of je hebt geen toestemming deze te bekijken.]]></phrase>
+<phrase section="tickets" code="ticketsubmitteddesc"><![CDATA[We hebben je verzoek ontvangen en ons team zal snel contact met je opnemen. Je kunt je aanmelden bij de helpdesk om de status van je verzoek te bekijken, of om je email te controleren voor verdere updates.]]></phrase>
+<phrase section="tickets" code="ticketsubmittedtitle"><![CDATA[Je verzoek is ontvangen]]></phrase>
+<phrase section="tickets" code="ticketsurveytickettitle"><![CDATA[Onderzoek: #]]></phrase>
+<phrase section="tickets" code="ticketviewticketidtitle"><![CDATA[Ticket weergeven: #]]></phrase>
+<phrase section="tickets" code="ticketviewtickettitle"><![CDATA[Tickets weergeven]]></phrase>
+<phrase section="tickets" code="tldepartment"><![CDATA[Afdeling]]></phrase>
+<phrase section="tickets" code="tllastreplier"><![CDATA[Laatste antwoorder]]></phrase>
+<phrase section="tickets" code="tllastupdate"><![CDATA[Laatste update]]></phrase>
+<phrase section="tickets" code="tlpriority"><![CDATA[Prioriteit]]></phrase>
+<phrase section="tickets" code="tlstatus"><![CDATA[Status]]></phrase>
+<phrase section="tickets" code="tlticketid"><![CDATA[Ticket-ID]]></phrase>
+<phrase section="tickets" code="tltype"><![CDATA[Type]]></phrase>
+<phrase section="tickets" code="tpemailforwardedto"><![CDATA[Doorgestuurd naar: %s]]></phrase>
+<phrase section="tickets" code="tpemailto"><![CDATA[Email aan: %s]]></phrase>
+<phrase section="tickets" code="tppostedon"><![CDATA[Geplaatst op: %s]]></phrase>
+<phrase section="tickets" code="trash"><![CDATA[Prullenbak]]></phrase>
+<phrase section="troubleshooter" code="trattachments"><![CDATA[Bijlagen]]></phrase>
+<phrase section="troubleshooter" code="trback"><![CDATA[Terug]]></phrase>
+<phrase section="troubleshooter" code="trcategoryviews"><![CDATA[ (%d keer bekeken)]]></phrase>
+<phrase section="troubleshooter" code="trnext"><![CDATA[Volgende]]></phrase>
+<phrase section="troubleshooter" code="trnextsteps"><![CDATA[Volgende stappen]]></phrase>
+<phrase section="troubleshooter" code="troubleshooter"><![CDATA[Probleemoplosser]]></phrase>
+<phrase section="troubleshooter" code="troubleshooterdesc"><![CDATA[We kunnen je helpen algemene problemen en kwesties op te lossen door je door enkele vragen te leiden. Begin met het kiezen van een probleemoplossingscategorie.]]></phrase>
+<phrase section="tickets" code="tsupdate"><![CDATA[Bijgwerkt op: %s]]></phrase>
+<phrase section="mime" code="txt"><![CDATA[Tekstbestand]]></phrase>
+<phrase section="default" code="unable_to_execute"><![CDATA[Er is een probleem opgetreden (kan %s niet uitvoeren)]]></phrase>
+<phrase section="tickets" code="unassigned"><![CDATA[Niet toegewezen]]></phrase>
+<phrase section="default" code="unsubscribe"><![CDATA[Uitschrijven]]></phrase>
+<phrase section="tickets" code="updatedticketproperties"><![CDATA[Je ticket is succesvol bijgewerkt]]></phrase>
+<phrase section="tickets" code="uploadfiles"><![CDATA[Bestanden bijvoegen]]></phrase>
+<phrase section="users" code="userfirstprompt"><![CDATA[Welkom! Neem even een moment om je profiel hieronder bij te werken, zodat we je in de toekomst beter van dienst kunnen zijn.]]></phrase>
+<phrase section="ticketemails" code="validationemailrejectfooter"><![CDATA[Nadat je account is gevalideerd kun je tickets indienen door ons simpelweg een email te sturen. Het spijt ons voor het ongemak.]]></phrase>
+<phrase section="ticketemails" code="validationemailrejectsub"><![CDATA[Je email kan niet worden verwerkt (account niet gevalideerd)]]></phrase>
+<phrase section="ticketemails" code="validationmailrejectintro_generic"><![CDATA[We konden je email niet verwerken. Alhoewel er een helpdeskaccount bestaat voor je emailadres, is het account nog niet gevalideerd.]]></phrase>
+<phrase section="ticketemails" code="validationmailrejectintro_staff"><![CDATA[We konden je email niet verwerken. Alhoewel er een helpdeskaccount bestaat voor je emailadres, moeten alle accounts handmatig worden goedgekeurd door een beheerder. Totdat dit is gedaan, kunt u geen email verzenden naar de helpdesk.]]></phrase>
+<phrase section="users" code="validationpendingesc"><![CDATA[Bedankt voor het registreren. We hebben je een emailbericht gestuurd met een activeringslink om je emailadres te verifiëren. Volg de link om je registratie te verifiëren. Je moet deze stap voltooien voordat je je kunt aanmelden.]]></phrase>
+<phrase section="users" code="validationpendingtitle"><![CDATA[Emailverificatie vereist]]></phrase>
+<phrase section="default" code="vardate1"><![CDATA[%dd %dh %dm]]></phrase>
+<phrase section="default" code="vardate2"><![CDATA[%dh %dm %ds]]></phrase>
+<phrase section="default" code="vardate3"><![CDATA[%dm %ds]]></phrase>
+<phrase section="default" code="vardate4"><![CDATA[%ds]]></phrase>
+<phrase section="users" code="verifyregistration"><![CDATA[CAPTCHA-verificatie]]></phrase>
+<phrase section="tickets" code="verifyticketsubmission"><![CDATA[CAPTCHA-verificatie]]></phrase>
+<phrase section="default" code="viewallnews"><![CDATA[Alle nieuws weergeven]]></phrase>
+<phrase section="tickets" code="viewresolvedt"><![CDATA[Afgehandelde tickets weergeven]]></phrase>
+<phrase section="tickets" code="vtcreated"><![CDATA[Gemaakt:]]></phrase>
+<phrase section="tickets" code="vtcustomfieldrequirednotice"><![CDATA[Please complete all required fields before posting a reply.]]></phrase>
+<phrase section="tickets" code="vtcustomfieldchangednotice"><![CDATA[Je hebt wijzigingen aangebracht in de ticketvelden. Klik op de knop Wijzigingen opslaan hierboven om ze op te slaan.]]></phrase>
+<phrase section="tickets" code="vtdepartment"><![CDATA[AFDELING]]></phrase>
+<phrase section="tickets" code="vtowner"><![CDATA[EIGENAAR]]></phrase>
+<phrase section="tickets" code="vtpostreply"><![CDATA[Reactie toevoegen]]></phrase>
+<phrase section="tickets" code="vtpriority"><![CDATA[PRIORITEIT]]></phrase>
+<phrase section="tickets" code="vtsavechanges"><![CDATA[Wijzigingen opslaan]]></phrase>
+<phrase section="tickets" code="vtstatus"><![CDATA[STATUS]]></phrase>
+<phrase section="tickets" code="vttype"><![CDATA[TYPE]]></phrase>
+<phrase section="tickets" code="vtupdated"><![CDATA[Bijgewerkt:]]></phrase>
+<phrase section="ticketemails" code="watcherprefix"><![CDATA[%s (%s) reageerde met:]]></phrase>
+<phrase section="mime" code="wav"><![CDATA[WAV-bestand]]></phrase>
+<phrase section="default" code="widgethome"><![CDATA[Start]]></phrase>
+<phrase section="default" code="widgetknowledgebase"><![CDATA[Kennisbank]]></phrase>
+<phrase section="default" code="widgetnews"><![CDATA[Nieuws]]></phrase>
+<phrase section="default" code="widgetregister"><![CDATA[Registreren]]></phrase>
+<phrase section="default" code="widgetsubmitticket"><![CDATA[Ticket indienen]]></phrase>
+<phrase section="default" code="widgettroubleshooter"><![CDATA[Probleemoplosser]]></phrase>
+<phrase section="default" code="widgetviewtickets"><![CDATA[Mijn tickets]]></phrase>
+<phrase section="mime" code="xls"><![CDATA[Excel-bestand]]></phrase>
+<phrase section="mime" code="xlsx"><![CDATA[Excel-bestand]]></phrase>
+<phrase section="default" code="yes"><![CDATA[Ja]]></phrase>
+<phrase section="tickets" code="yourticketdetailsdesc"><![CDATA[Als je een probleem meldt, probeer dan zoveel mogelijk informatie te geven die relevant is voor de kwestie.]]></phrase>
+<phrase section="tickets" code="yourticketdetailstitle"><![CDATA[Je ticketgegevens]]></phrase>
+<phrase section="mime" code="zip"><![CDATA[ZIP-bestand]]></phrase>
+<phrase section="ticketemails" code="arnewsheader"><![CDATA[Laatste Nieuws]]></phrase>
+<phrase section="ticketemails" code="ticketsummary">Ticketoverzicht</phrase>
+<phrase section="users" code="prsubscription"><![CDATA[Abonneren op de nieuwsbrief:]]></phrase>
+<phrase section="tickets" code="st_attachmentwarning"><![CDATA[Sorry, we een fout opgetreden bij het uploaden van bijlagen. Een mogelijke reden is attachments grootte overschrijdt server upload limiet.]]></phrase>
+<phrase section="users" code="loginlogerror"><![CDATA[Login locked for %d minutes (attempt: %d of %d)]]></phrase>
+<phrase section="users" code="loginlogwarning"><![CDATA[Invalid username or password (attempt: %d of %d)]]></phrase>
+<phrase section="users" code="regmsgpwpolicy"><![CDATA[The password specified does not match the requirements of the Password Policy.]]></phrase>
+<phrase section="users" code="regtitlepwpolicy"><![CDATA[Password does not meet requirements]]></phrase>
+<phrase section="tickets" code="st_cc"><![CDATA[CC]]></phrase>
+<phrase section="tickets" code="st_recipients"><![CDATA[Recipients]]></phrase>
+<phrase section="tickets" code="st_recipientsdesc"><![CDATA[You can specify multiple e-mail addressess seperated by a single space or comma, as custom recipients. The recipients will receive ticket updates.]]></phrase>
+<phrase section="users" code="userpasswordpolicy"><![CDATA[<strong>Password requirements:</strong> Minimum length: %d characters, Minimum digits: %d, Minimum symbols: %d, Minimum uppercase letters: %d]]></phrase>
+<phrase section="users" code="lpinvalidemail"><![CDATA[No account found with that email address.]]></phrase>
+<phrase section="ticketemails" code="sizelimitrejectintro">Unfortunately, we were unable to process your message into our helpdesk because it was too big. The total message size (including attachments) should be lower than %s kilobytes.</phrase>
+<phrase section="ticketemails" code="sizelimitrejectfooter">Please resend your message with fewer attachments (you can split up a number of attachments across multiple messages, if you like). We are sorry to inconvenience you!</phrase>
+<phrase section="ticketemails" code="sizelimitrejectsub">Your message was not accepted (message size too big) - please resend</phrase>
+<phrase section="ticketemails" code="disableduserrejectintro">Your ticket has not been accepted into the system. Your account is disabled, you are not authorized to create any tickets via email.</phrase>
+<phrase section="ticketemails" code="disableduserrejectfooter">Once enabled, you will be able to submit tickets directly by sending us an email. We are sorry for any inconvenience this may have caused.</phrase>
+<phrase section="ticketemails" code="disableduserrejectsub">Disabled User: Unable to create ticket</phrase>
+<phrase section="knowledgebase" code="lastmodifiedby">Last modified by</phrase>
+	<phrase section="users" code="sendticketupdate">Send Ticket update to all the email addresses</phrase>
+</swiftlanguage>

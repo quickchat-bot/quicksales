@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swiftlanguage>
+	<title>English (U.S.)</title>
+	<isocode>en-us</isocode>
+	<author>Kayako</author>
+	<charset>UTF-8</charset>
+	<textdirection>LTR</textdirection>
+	<version>0</version>
+	<flagicon>{$themepath}us.gif</flagicon>
+	<app>knowledgebase</app>
+
+	<phrase section="knowledgebase" code="knowledgebase">Knowledgebase</phrase>
+	<phrase section="knowledgebase" code="mostpopular">Most popular articles</phrase>
+	<phrase section="knowledgebase" code="recentarticles">Newest articles</phrase>
+	<phrase section="knowledgebase" code="articlehelpful">Helpful</phrase>
+	<phrase section="knowledgebase" code="articlenothelpful">Not helpful</phrase>
+	<phrase section="knowledgebase" code="articlevotes">vote(s)</phrase>
+	<phrase section="knowledgebase" code="ratingstars"><![CDATA[%.1f out of 5 stars]]></phrase>
+	<phrase section="knowledgebase" code="kbattachments">Attachments</phrase>
+	<phrase section="knowledgebase" code="lastmodifiedby">Last modified by</phrase>
+	<phrase section="knowledgebase" code="kbnopermission">Sorry - either this article does not exist or you haven't been given permission to view it.</phrase>
+</swiftlanguage>

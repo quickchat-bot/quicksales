@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML generated: 19 December 2013 06:43 PM -->
+<swiftlanguage>
+<title><![CDATA[Русский]]></title>
+<isocode><![CDATA[ru]]></isocode>
+<author><![CDATA[Kayako]]></author>
+<charset><![CDATA[UTF-8]]></charset>
+<textdirection><![CDATA[LTR]]></textdirection>
+<flagicon><![CDATA[{$themepath}ru.gif]]></flagicon>
+<version>0</version>
+<phrase section="default" code="wrong_profile_image"><![CDATA[Изображение профиля не обновлялось. Неверный формат.]]></phrase>
+<phrase section="default" code="wrong_image_size"><![CDATA[Размер изображения больше разрешенного размера загрузки.]]></phrase>
+<phrase section="users" code="accountinformation"><![CDATA[Информация об учетной записи]]></phrase>
+<phrase section="ticketemails" code="acfinalintro"><![CDATA[Сообщение по запросу ID #%s. Статус изменен на '%s' так как мы не получили от Вас ответа в течение %s часов.]]></phrase>
+<phrase section="ticketemails" code="acfinalsubfooter"><![CDATA[Если у вас есть какие-либо вопросы, дайте нам знать. Вы можете проверить статус или ответить на эту заявку онлайн: ]]></phrase>
+<phrase section="ticketemails" code="acpendingintro"><![CDATA[Сообщение по запросу #%s. По запросу не было никаких действий от Вас в течение %s часов, и мы хотели бы знать, решена ли Ваша проблема. Если у Вас есть дополнения или замечания по запросу - просто ответьте на это сообщение.]]></phrase>
+<phrase section="ticketemails" code="acpendingsubfooter"><![CDATA[Пожалуйста, обратите внимание на то, что заявка будет автоматически закрыта в течение %s часов, если мы не получим ваш ответ. Вы можете проверить статус или ответить на эту заявку онлайн: ]]></phrase>
+<phrase section="default" code="action_notreg"><![CDATA[Мы столкнулись с проблемой (действие %s не зарегистрировано)]]></phrase>
+<phrase section="livechatclient" code="alloperatorsbusy"><![CDATA[Ваш запрос очень важен для нас. Ожидайте. Оператор скоро свяжется с Вами!]]></phrase>
+<phrase section="default" code="app_notreg"><![CDATA[%s Приложение не зарегистрировано]]></phrase>
+<phrase section="ticketemails" code="ardepartment"><![CDATA[Отдел: ]]></phrase>
+<phrase section="ticketemails" code="aremail"><![CDATA[Email: ]]></phrase>
+<phrase section="ticketemails" code="arfooter"><![CDATA[С уважением,]]></phrase>
+<phrase section="ticketemails" code="arintro"><![CDATA[Спасибо что связались с нами. Это автоматический ответ системы подтверждающий принятие запроса. Наш специалист скоро свяжется с Вами. Ниже представлены данные Вашего запроса.
+БУДЬТЕ ВНИМАТЕЛЬНЫ!
+При дальнейшей переписке НЕ ИЗМЕНЯЙТЕ тему (Subject) письма, так как она содержит техническую информацию для Системы!]]></phrase>
+<phrase section="ticketemails" code="arpassword"><![CDATA[Пароль: ]]></phrase>
+<phrase section="ticketemails" code="arpriority"><![CDATA[Приоритет: ]]></phrase>
+<phrase section="ticketemails" code="arstatus"><![CDATA[Статус: ]]></phrase>
+<phrase section="ticketemails" code="arsubfooter"><![CDATA[Вы всегда можете узнать статус запроса и ответы на него по адресу: ]]></phrase>
+<phrase section="ticketemails" code="arsubject"><![CDATA[Тема: ]]></phrase>
+<phrase section="ticketemails" code="articketid"><![CDATA[ID запроса: ]]></phrase>
+<phrase section="knowledgebase" code="articlehelpful"><![CDATA[Эта статья полезна]]></phrase>
+<phrase section="knowledgebase" code="articlenothelpful"><![CDATA[Эта статья бесполезна]]></phrase>
+<phrase section="knowledgebase" code="articlevotes"><![CDATA[голос(а)]]></phrase>
+<phrase section="knowledgebase" code="ratingstars"><![CDATA[%.1f из 5 звезд]]></phrase>
+<phrase section="ticketemails" code="artype"><![CDATA[Тип: ]]></phrase>
+<phrase section="tickets" code="badgebcc"><![CDATA[СКРЫТАЯ КОПИЯ]]></phrase>
+<phrase section="tickets" code="badgecc"><![CDATA[Получатель]]></phrase>
+<phrase section="tickets" code="badgestaff"><![CDATA[Персонал]]></phrase>
+<phrase section="tickets" code="badgethirdparty"><![CDATA[Третья сторона]]></phrase>
+<phrase section="tickets" code="badgeuser"><![CDATA[Клиент]]></phrase>
+<phrase section="default" code="buttonback"><![CDATA[Назад]]></phrase>
+<phrase section="default" code="buttonnext"><![CDATA[Вперед]]></phrase>
+<phrase section="default" code="buttonsend"><![CDATA[Отправить]]></phrase>
+<phrase section="livechatclient" code="buttonstartchat"><![CDATA[Начать чат]]></phrase>
+<phrase section="default" code="buttonsubmit"><![CDATA[Отправить]]></phrase>
+<phrase section="default" code="buttonupdate"><![CDATA[Обновить]]></phrase>
+<phrase section="default" code="bytes"><![CDATA[Байт]]></phrase>
+<phrase section="mime" code="bz"><![CDATA[BZ Файл]]></phrase>
+<phrase section="mime" code="bz2"><![CDATA[BZ2 Файл]]></phrase>
+<phrase section="livechatclient" code="callme"><![CDATA[Позвонить]]></phrase>
+<phrase section="default" code="cancel"><![CDATA[Отмена]]></phrase>
+<phrase section="default" code="captchadesc"><![CDATA[Пожалуйста, введите текст, находящийся на изображении, в текстовое поле ниже (этот метод используется для предотвращения отправки автоматических сообщений).]]></phrase>
+<phrase section="default" code="recaptchadesc"><![CDATA[Пожалуйста, заполните нижеприведенную задачу (этот метод используется для предотвращения отправки автоматических сообщений).]]></phrase>
+<phrase section="default" code="captchaverification"><![CDATA[Проверка CAPTCHA]]></phrase>
+<phrase section="users" code="changepasswordtitle"><![CDATA[Смена Пароля]]></phrase>
+<phrase section="default" code="charset"><![CDATA[UTF-8]]></phrase>
+<phrase section="livechatclient" code="chatendednotification"><![CDATA[Беседа завершена.]]></phrase>
+<phrase section="livechatclient" code="chatendednotificationsub"><![CDATA[Нажмите сюда, чтобы получить короткий обзор этого чата.]]></phrase>
+<phrase section="livechatclient" code="chatendleavemsg"><![CDATA[Щелкните здесь и оставьте сообщение.]]></phrase>
+<phrase section="livechatclient" code="chatendsurvey"><![CDATA[Если Вы хотите оставить комментарии или краткий отзыв о качестве обслуживания, которое Вы получили в течение данной беседы, нажмите Отмена, или нажмите ОК чтобы закрыть окно.]]></phrase>
+<phrase section="livechatclient" code="chatenter"><![CDATA[%s присоединился(ась) к беседе.]]></phrase>
+<phrase section="livechatclient" code="chatexpired"><![CDATA[Сессия завершена по таймауту.]]></phrase>
+<phrase section="livechatclient" code="chatleave"><![CDATA[%s покинул(а) беседу.]]></phrase>
+<phrase section="livechatclient" code="chatsendemaildesc"><![CDATA[Стенограмма разговора будет отправлено по указанному ниже адресу:]]></phrase>
+<phrase section="livechatclient" code="chattemplategroup"><![CDATA[Группа шаблонов]]></phrase>
+<phrase section="livechatclient" code="clickforlivechat"><![CDATA[Для запуска онлайн чата нажмите сюда]]></phrase>
+<phrase section="livechatclient" code="clickleavemessage"><![CDATA[В данный момент мы оффлайн. Щелкните чтобы оставить сообщение.]]></phrase>
+<phrase section="livechatclient" code="clicktocall"><![CDATA[Нажмите для немедленного вызова]]></phrase>
+<phrase section="livechatclient" code="clicktocalltab"><![CDATA[Нажмите для вызова]]></phrase>
+<phrase section="default" code="close"><![CDATA[Закрыть]]></phrase>
+<phrase section="default" code="commentconfirmation"><![CDATA[Спасибо вам за ваши отзывы. Ваш комментарий появится после того, как будет одобрен.]]></phrase>
+<phrase section="default" code="commentdata"><![CDATA[Комментарии:]]></phrase>
+<phrase section="default" code="commentemail"><![CDATA[Email:]]></phrase>
+<phrase section="default" code="commentfullname"><![CDATA[Полное имя:]]></phrase>
+<phrase section="default" code="comments"><![CDATA[Комментарии]]></phrase>
+<phrase section="default" code="copyright"><![CDATA[Все права защищены &copy; 2001-%s Kayako Infotech Ltd.]]></phrase>
+<phrase section="default" code="creationfailed"><![CDATA[Мы столкнулись с проблемой (ошибка создания объекта)]]></phrase>
+<phrase section="default" code="defaulttimezone"><![CDATA[-- Часовой пояс по умолчанию --]]></phrase>
+<phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.gfi.com/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">GFI HelpDesk</a>.]]></phrase>
+<phrase section="mime" code="doc"><![CDATA[MS Word Doc]]></phrase>
+<phrase section="mime" code="docx"><![CDATA[MS Word Doc]]></phrase>
+<phrase section="users" code="emailaccounts"><![CDATA[Email Аккаунты]]></phrase>
+<phrase section="default" code="emailinvalid"><![CDATA[Введеный адрес электронной почты не действителен]]></phrase>
+<phrase section="users" code="emailuserpw"><![CDATA[Новый пароль:]]></phrase>
+<phrase section="default" code="errcaptchainvalid"><![CDATA[CAPTCHA и фраза не совпадают.]]></phrase>
+<phrase section="users" code="errorinvalidfileext"><![CDATA[Пожалуйста, убедитесь, изображение в вашем профиле находится в одном из следующих форматов: gif, jpeg, jpg, png]]></phrase>
+<phrase section="default" code="errorsmtpconnect"><![CDATA[Мы столкнулись с проблемой (не удается подключиться к SMTP-серверу)]]></phrase>
+<phrase section="tickets" code="errstinvaliddepartmentid"><![CDATA[К сожалению, мы столкнулись с проблемой (недопустимый Департамент). Пожалуйста, начните заново.]]></phrase>
+<phrase section="default" code="event_notreg"><![CDATA[Мы столкнулись с проблемой (действие %s не зарегистрировано)]]></phrase>
+<phrase section="users" code="existingpassword"><![CDATA[Текущий пароль:]]></phrase>
+<phrase section="users" code="existingpwdoesnotmatch"><![CDATA[Введен неправильный текущий пароль. Продолжение невозможно.]]></phrase>
+<phrase section="livechatclient" code="fieldchatstaff"><![CDATA[Оператор:]]></phrase>
+<phrase section="livechatclient" code="fieldchatsubject"><![CDATA[Ваш вопрос:]]></phrase>
+<phrase section="livechatclient" code="fieldcomments"><![CDATA[Комментарии:]]></phrase>
+<phrase section="livechatclient" code="fielddepartment"><![CDATA[Департамент:]]></phrase>
+<phrase section="livechatclient" code="fieldemail"><![CDATA[Email:]]></phrase>
+<phrase section="livechatclient" code="fieldfullname"><![CDATA[Полное имя:]]></phrase>
+<phrase section="livechatclient" code="fieldmessage"><![CDATA[Сообщение:]]></phrase>
+<phrase section="livechatclient" code="fieldphone"><![CDATA[Телефон:]]></phrase>
+<phrase section="livechatclient" code="fieldrating"><![CDATA[Рейтинг:]]></phrase>
+<phrase section="livechatclient" code="fieldsubject"><![CDATA[Тема:]]></phrase>
+<phrase section="default" code="file"><![CDATA[Файл]]></phrase>
+<phrase section="default" code="filterkb"><![CDATA[База знаний]]></phrase>
+<phrase section="default" code="filternews"><![CDATA[Категории новостей]]></phrase>
+<phrase section="users" code="forgotpasswordemail"><![CDATA[Мы получили запрос на сброс Вашего пароля в %1$s Системе Запросов (%2$s). Если Вы считаете, что получили это письмо по ошибке просто проигнорируйте его.
+
+Для сброса/смены пароля щелкните эту ссылку или скопируйте ее в адресную строку Вашего браузера и перейдите по ней:
+
+%3$s
+
+Спасибо,
+
+%1$s]]></phrase>
+<phrase section="default" code="gb"><![CDATA[ГБ]]></phrase>
+<phrase section="default" code="generalinformation"><![CDATA[Общая информация]]></phrase>
+<phrase section="users" code="generaloptions"><![CDATA[Общие настройки]]></phrase>
+<phrase section="users" code="generatepasswordemailsubject"><![CDATA[Новый Пароль для %s Системы Запросов]]></phrase>
+<phrase section="users" code="generatepasswordfooter"><![CDATA[Если Вы считаете, что данное действие было совершено без Вашего согласия, зайдите в Систему Запросов, щелкнув по ссылке расположенной ниже.]]></phrase>
+<phrase section="users" code="generatepasswordintro"><![CDATA[Ваш пароль к Системе Запросов изменен. Смотрите ниже:]]></phrase>
+<phrase section="mime" code="gif"><![CDATA[Изображение в формате GIF]]></phrase>
+<phrase section="mime" code="gz"><![CDATA[GZIP файл]]></phrase>
+<phrase section="default" code="hidden"><![CDATA[[ Скрыто ]]]></phrase>
+<phrase section="tickets" code="hideresolvedt"><![CDATA[Скрыть Решённые Запросы]]></phrase>
+<phrase section="default" code="home"><![CDATA[Главная]]></phrase>
+<phrase section="mime" code="htm"><![CDATA[HTML Страница]]></phrase>
+<phrase section="mime" code="html"><![CDATA[HTML Страница]]></phrase>
+<phrase section="mime" code="ico"><![CDATA[Файл значка]]></phrase>
+<phrase section="tickets" code="invalidattachments"><![CDATA[Вложение запрещено (из-за размера/расширения): %s]]></phrase>
+<phrase section="default" code="invalidemail"><![CDATA[Введеный адрес электронной почты не действителен]]></phrase>
+<phrase section="default" code="invalidhtmltags"><![CDATA[Введен неверный HTML-тэг]]></phrase>
+<phrase section="users" code="invalidorganization"><![CDATA[Такой организации не существует. Свяжитесь со Службой Поддержки.]]></phrase>
+<phrase section="news" code="invalidsubscriberhash"><![CDATA[Неверный хэш подписки]]></phrase>
+<phrase section="default" code="invaliduser"><![CDATA[неправильное имя пользователя или пароль]]></phrase>
+<phrase section="default" code="invaliduseracc"><![CDATA[Неверный пользователь. Такой учётной записи не существует.]]></phrase>
+<phrase section="default" code="invaliduserdisabled"><![CDATA[Вход невозможен. Учётная запись отключена]]></phrase>
+<phrase section="default" code="invaliduserexpired"><![CDATA[Вход невозможен. Срок действия учётной записи истёк]]></phrase>
+<phrase section="default" code="invalidusertgroupres"><![CDATA[Не удается войти в систему. У этой группы пользователей нет доступа к этой группе шаблонов.]]></phrase>
+<phrase section="users" code="invalidverifyhash"><![CDATA[Мы столкнулись с проблемой (недействительное или устаревшее подтверждение)]]></phrase>
+<phrase section="tickets" code="irsdesc"><![CDATA[Следующие статьи Базы Знаний возможно, помогут Вам решить Вашу проблему. Пожалуйста, ознакомьтесь с ними, прежде чем писать запрос.]]></phrase>
+<phrase section="tickets" code="irsloading"><![CDATA[Загрузка совпадений по Базе Знаний...]]></phrase>
+<phrase section="tickets" code="irsnoresults"><![CDATA[Не найдено совпадений по Базе Знаний.]]></phrase>
+<phrase section="tickets" code="irssuggestions"><![CDATA[Совпадения по Базе Знаний]]></phrase>
+<phrase section="livechatclient" code="istyping"><![CDATA[%s вводит сообщение...]]></phrase>
+<phrase section="mime" code="jar"><![CDATA[JAR файл]]></phrase>
+<phrase section="livechatclient" code="joinedchat"><![CDATA[Вы беседуете с %s - %s]]></phrase>
+<phrase section="livechatclient" code="joinedchatdep"><![CDATA[Вы беседуете с %s]]></phrase>
+<phrase section="mime" code="jpeg"><![CDATA[JPEG Изображение]]></phrase>
+<phrase section="mime" code="jpg"><![CDATA[JPEG Изображение]]></phrase>
+<phrase section="default" code="kb"><![CDATA[кБ]]></phrase>
+<phrase section="knowledgebase" code="kbattachments"><![CDATA[Вложения]]></phrase>
+<phrase section="knowledgebase" code="kbnopermission"><![CDATA[Извините, но у Вас нет доступа для просмотра этой статьи или её просто не существует.]]></phrase>
+<phrase section="knowledgebase" code="knowledgebase"><![CDATA[База знаний]]></phrase>
+<phrase section="default" code="languagefield"><![CDATA[Язык:]]></phrase>
+<phrase section="default" code="latestupdates"><![CDATA[Последние обновления]]></phrase>
+<phrase section="livechatclient" code="lcemail"><![CDATA[Email]]></phrase>
+<phrase section="livechatclient" code="lcprint"><![CDATA[Печать]]></phrase>
+<phrase section="livechatclient" code="lcsoundoff"><![CDATA[Звук: Выкл]]></phrase>
+<phrase section="livechatclient" code="lcsoundon"><![CDATA[Звук: Вкл]]></phrase>
+<phrase section="livechatclient" code="leaveamessage"><![CDATA[Оставить сообщение]]></phrase>
+<phrase section="livechatclient" code="leavemessageconfirmheader"><![CDATA[Спасибо за обращение. Наш специалист рассмотрит его и свяжется с Вами в ближайшее время.]]></phrase>
+<phrase section="livechatclient" code="leavemessageheader"><![CDATA[К сожалению наша команда в настоящее время недоступна. Но Вы можете  оставить нам сообщение, заполните форму расположенную ниже и мы ответим вам как можно скорее.]]></phrase>
+<phrase section="livechatclient" code="livechat"><![CDATA[Онлайн чат]]></phrase>
+<phrase section="livechatclient" code="livechat_emailsubject"><![CDATA[%s -Онлайн чат включен %s]]></phrase>
+<phrase section="livechatclient" code="livechatheader"><![CDATA[Для того, чтобы улучшить обслуживание, пожалуйста предоставьте некоторую информацию до начала беседы.]]></phrase>
+<phrase section="livechatclient" code="livechatheadercall"><![CDATA[Пожалуйста, введите Ваш телефонный номер а так же другую требуемую информацию для совершения звонка.]]></phrase>
+<phrase section="default" code="loggedinfromstaff"><![CDATA[Вошли как: %s]]></phrase>
+<phrase section="default" code="login"><![CDATA[Вход]]></phrase>
+<phrase section="default" code="loginenteremail"><![CDATA[Ваш email адрес]]></phrase>
+<phrase section="default" code="logintocontinue"><![CDATA[Пожалуйста, войдите чтобы продолжить]]></phrase>
+<phrase section="default" code="logout"><![CDATA[Выйти]]></phrase>
+<phrase section="default" code="lostpassword"><![CDATA[Забыли пароль]]></phrase>
+<phrase section="users" code="lostpassworddesc"><![CDATA[Пожалуйста введите Ваш зарегистрированный в Системе email адрес и нажмите ОТПРАВИТЬ. Вскоре Вы получите письмо с необходимой информацией для восстановления пароля.]]></phrase>
+<phrase section="users" code="lostpasswordemailsubject"><![CDATA[Запрос на восстановление пароля к %s Системе Запросов]]></phrase>
+<phrase section="users" code="lostpasswordresetdesc"><![CDATA[Пожалуйста введите Ваш новый пароль и нажмите ОТПРАВИТЬ.]]></phrase>
+<phrase section="users" code="lostpasswordtitle"><![CDATA[Забыли пароль]]></phrase>
+<phrase section="users" code="lprequestsent"><![CDATA[Запрос на сброс пароля был отправлен на "%s"]]></phrase>
+<phrase section="users" code="lpsuccess"><![CDATA[Пароль успешно изменён; теперь Вы можете войти в Систему с новыми данными.]]></phrase>
+<phrase section="livechatclient" code="lsbacksoon"><![CDATA[Мы скоро вернёмся]]></phrase>
+<phrase section="livechatclient" code="lsisaway"><![CDATA[Мы тут, просто отошли]]></phrase>
+<phrase section="default" code="machangepassword"><![CDATA[Сменить пароль]]></phrase>
+<phrase section="default" code="malogout"><![CDATA[Выход]]></phrase>
+<phrase section="default" code="maorganization"><![CDATA[Моя Организация]]></phrase>
+<phrase section="default" code="mapreferences"><![CDATA[Настройки]]></phrase>
+<phrase section="default" code="maprofile"><![CDATA[Мой профиль]]></phrase>
+<phrase section="default" code="mb"><![CDATA[МБ]]></phrase>
+<phrase section="knowledgebase" code="mostpopular"><![CDATA[Популярное]]></phrase>
+<phrase section="mime" code="mov"><![CDATA[QuickTime Видео]]></phrase>
+<phrase section="mime" code="mp3"><![CDATA[MPEG Аудио]]></phrase>
+<phrase section="mime" code="mpeg"><![CDATA[MPEG Видео]]></phrase>
+<phrase section="mime" code="mpg"><![CDATA[MPEG Видео]]></phrase>
+<phrase section="default" code="msgcsrfhash"><![CDATA[Мы столкнулись с проблемой (обнаружена подделка межсайтовых запросов); Пожалуйста, попробуйте снова]]></phrase>
+<phrase section="default" code="myaccount"><![CDATA[Учетная запись]]></phrase>
+<phrase section="users" code="myorganization"><![CDATA[Моя Организация]]></phrase>
+<phrase section="default" code="na"><![CDATA[- Нет данных -]]></phrase>
+<phrase section="news" code="newerposts"><![CDATA[Новые Записи]]></phrase>
+<phrase section="users" code="newpassword"><![CDATA[Новый пароль:]]></phrase>
+<phrase section="users" code="newpasswordrepeat"><![CDATA[Новый Пароль (повторить):]]></phrase>
+<phrase section="users" code="newpwdoesnotmatch"><![CDATA[Новые пароли не совпадают.]]></phrase>
+<phrase section="users" code="newpwupdated"><![CDATA[Пароль пользователя обновлен.]]></phrase>
+<phrase section="news" code="news"><![CDATA[Новости]]></phrase>
+<phrase section="news" code="newsnotfound"><![CDATA[Новость не найдена.]]></phrase>
+<phrase section="default" code="no"><![CDATA[Нет]]></phrase>
+<phrase section="default" code="noinfoinview"><![CDATA[Информация не представлена]]></phrase>
+<phrase section="default" code="nopermission"><![CDATA[Продолжение невозможно. У Вас отсутствуют привилегии на совершение данного действия.]]></phrase>
+<phrase section="default" code="nosearchresults"><![CDATA[Результаты отсутствуют]]></phrase>
+<phrase section="news" code="nwsubconfirmsub"><![CDATA[Подписка на новости подтверждена]]></phrase>
+<phrase section="news" code="nwsubconintro"><![CDATA[Ваша подписка на нашу ленту новостей подтверждена. Теперь вы будете получать автоматические обновления по мере выхода новых статей. Вы всегда можете отписаться от получения обновлений новостной ленты, щелкнув по ссылке ниже.]]></phrase>
+<phrase section="news" code="nwsubfooter"><![CDATA[Пожалуйста дайте нам знать, если Вам потребуется дополнительная помощь,]]></phrase>
+<phrase section="news" code="nwsubintro"><![CDATA[Спасибо что подписались на наши новости. Вам необходимо подтвердить подписку, чтобы получать обновления. Пожалуйста, щёлкните по ссылке для подтверждения и активации подписки.]]></phrase>
+<phrase section="news" code="nwvalidatesubscriptionsub"><![CDATA[Подтвердите подписку на новости]]></phrase>
+<phrase section="livechatclient" code="offline"><![CDATA[Оффлайн]]></phrase>
+<phrase section="news" code="olderposts"><![CDATA[Старые записи]]></phrase>
+<phrase section="default" code="on"><![CDATA[на]]></phrase>
+<phrase section="livechatclient" code="online"><![CDATA[Онлайн]]></phrase>
+<phrase section="users" code="orgaddress"><![CDATA[Адрес:]]></phrase>
+<phrase section="users" code="orgcity"><![CDATA[Город:]]></phrase>
+<phrase section="users" code="orgcountry"><![CDATA[Страна:]]></phrase>
+<phrase section="users" code="orgfax"><![CDATA[Факс:]]></phrase>
+<phrase section="users" code="orgname"><![CDATA[Название организации:]]></phrase>
+<phrase section="users" code="orgphone"><![CDATA[Телефон:]]></phrase>
+<phrase section="users" code="orgprofile"><![CDATA[Профайл Организации]]></phrase>
+<phrase section="users" code="orgstate"><![CDATA[Государство:]]></phrase>
+<phrase section="users" code="orgupdated"><![CDATA[Профайл организации успешно обновлён]]></phrase>
+<phrase section="users" code="orgwebsite"><![CDATA[Сайт:]]></phrase>
+<phrase section="users" code="orgzip"><![CDATA[Почтовый Индекс:]]></phrase>
+<phrase section="default" code="pagination"><![CDATA[Страница %s из %s]]></phrase>
+<phrase section="users" code="passworddetails"><![CDATA[Информация о пароле]]></phrase>
+<phrase section="mime" code="pdf"><![CDATA[PDF Документ]]></phrase>
+<phrase section="livechatclient" code="peopleaheadinqueue"><![CDATA[Оставайтесь с нами! Перед Вами ожидают беседы со специалистом %s человек.]]></phrase>
+<phrase section="mime" code="php"><![CDATA[PHP Скрипт]]></phrase>
+<phrase section="default" code="pleasetypeyourquery"><![CDATA[Как мы можем Вам помочь?]]></phrase>
+<phrase section="default" code="pleasetypeyourquestion"><![CDATA[Как мы можем Вам помочь?]]></phrase>
+<phrase section="livechatclient" code="pleasewaitoperator"><![CDATA[Пожалуйста подождите, наш оператор скоро свяжется с Вами.]]></phrase>
+<phrase section="mime" code="png"><![CDATA[PNG Изображение]]></phrase>
+<phrase section="default" code="postedby"><![CDATA[Автор]]></phrase>
+<phrase section="default" code="posted"><![CDATA[Автор]]></phrase>
+<phrase section="default" code="postnewcomment"><![CDATA[Добавить новый комментарий]]></phrase>
+<phrase section="default" code="poweredby"><![CDATA[Работает под управлением системы GFI HelpDesk]]></phrase>
+<phrase section="mime" code="ppt"><![CDATA[PowerPoint Документ]]></phrase>
+<phrase section="mime" code="pptx"><![CDATA[PowerPoint Документ]]></phrase>
+<phrase section="users" code="praddemail"><![CDATA[Добавить Email]]></phrase>
+<phrase section="users" code="preferencestitle"><![CDATA[Настройки]]></phrase>
+<phrase section="users" code="prenabledst"><![CDATA[Автоперевод Зимнее/Летнее время:]]></phrase>
+<phrase section="users" code="prfullname"><![CDATA[Полное Имя:]]></phrase>
+<phrase section="default" code="private"><![CDATA[[ Приватно ]]]></phrase>
+<phrase section="users" code="prlanguage"><![CDATA[Язык:]]></phrase>
+<phrase section="users" code="prnoemailprovided"><![CDATA[Вы должны ввести как минимум один верный email]]></phrase>
+<phrase section="livechatclient" code="proactivechatnow"><![CDATA[Начать беседу]]></phrase>
+<phrase section="livechatclient" code="proactivemsg"><![CDATA[Наши операторы готовы помочь Вам. Щёлкните &quot;Начать беседу&quot; чтобы начать общение прямо сейчас!]]></phrase>
+<phrase section="livechatclient" code="proactivetitle"><![CDATA[Могу ли я Вам помочь?]]></phrase>
+<phrase section="livechatclient" code="proactivevisitorname"><![CDATA[Посетитель]]></phrase>
+<phrase section="users" code="profiledetails"><![CDATA[Пользовательские данные]]></phrase>
+<phrase section="users" code="profiletitle"><![CDATA[Мой профиль]]></phrase>
+<phrase section="users" code="prorganization"><![CDATA[Организации:]]></phrase>
+<phrase section="users" code="prphone"><![CDATA[Телефон:]]></phrase>
+<phrase section="users" code="prphoneregistered"><![CDATA["%s" такой телефон уже зарегистрирован.]]></phrase>
+<phrase section="users" code="prprofileimage"><![CDATA[Фотография:]]></phrase>
+<phrase section="users" code="prprofileupdate"><![CDATA[Профайл успешно обновлён]]></phrase>
+<phrase section="users" code="prtimezone"><![CDATA[Часовой Пояс:]]></phrase>
+<phrase section="users" code="prtitleposition"><![CDATA[Звание/должность:]]></phrase>
+<phrase section="users" code="prupdated"><![CDATA[Ваши настройки успешно обновлены]]></phrase>
+<phrase section="users" code="pwhidden"><![CDATA[[ Скрыто ]]]></phrase>
+<phrase section="mime" code="ram"><![CDATA[Real Audio Файл]]></phrase>
+<phrase section="mime" code="rar"><![CDATA[RAR Файл]]></phrase>
+<phrase section="default" code="readmore"><![CDATA[Подробнее]]></phrase>
+<phrase section="knowledgebase" code="recentarticles"><![CDATA[Последние добавленные статьи]]></phrase>
+<phrase section="users" code="regemail"><![CDATA[Email:]]></phrase>
+<phrase section="users" code="regemailregistered"><![CDATA[Такой Email уже зарегистрирован в Системе. Используйте систему восстановления пароля или укажите другой email.]]></phrase>
+<phrase section="users" code="regemailregisteredsmall"><![CDATA["%s" email адрес уже зарегистрирован.]]></phrase>
+<phrase section="ticketemails" code="regemailrejectfooter"><![CDATA[Вы сможете отправлять запросы по email после регистрации. Приносим извинения за доставленные неудобства.]]></phrase>
+<phrase section="ticketemails" code="regemailrejectintro"><![CDATA[Ваш запрос не был принят Системой. Необходимо иметь зарегистрированную учётную запись, чтобы посылать запросы по email. Зарегистрироваться можно здесь:]]></phrase>
+<phrase section="ticketemails" code="regemailrejectsub"><![CDATA[Невозможно создать запрос. Необходима регистрация]]></phrase>
+<phrase section="users" code="regfullname"><![CDATA[Полное Имя:]]></phrase>
+<phrase section="users" code="reginvalidemail"><![CDATA[Введен неверный email адрес]]></phrase>
+<phrase section="users" code="reginvalidemailaddress">The email address entered is already used in the desk; Please enter the valid email address.</phrase>
+<phrase section="users" code="registerdesc"><![CDATA[Для регистрации новой учетной записи заполните все поля. ]]></phrase>
+<phrase section="users" code="registeremailsubject"><![CDATA[Добро Пожаловать в %s Центр Решения Проблем и Запросов]]></phrase>
+<phrase section="users" code="registeremailvalidationsubject"><![CDATA[Проверка вашей регистрации %s в службе техподдержки]]></phrase>
+<phrase section="users" code="registersuccessemail"><![CDATA[Данное сообщение подтверждает регистрацию в Системе Запросов.
+
+Зарегистрированный Email: %3$s
+Пароль: [HIDDEN]
+
+
+Система Запросов всегда доступна по адресу  %2$s
+
+Пожалуйста, имейте в виду, что Kayako обрабатывает информацию о пользователе для лучшего качества справочной службы и пользовательского опыта
+
+Пожалуйста дайте нам знать, если у Вас появились вопросы.
+
+Успехов!
+
+%1$s]]></phrase>
+<phrase section="users" code="registersuccesstitle"><![CDATA[Успешная Регистрация]]></phrase>
+<phrase section="users" code="registertitle"><![CDATA[Создание новой учётной записи]]></phrase>
+<phrase section="users" code="registervalidateemail"><![CDATA[Мы получили от Вас запрос на регистрацию в %1$s Системе Запросов (%2$s).
+
+
+
+Перед тем, как Вы сможете начать использовать Систему, необходимо подтвердить email-адрес.
+Чтобы активировать Вашу учётную запись, щёлкните по ссылке ниже или скопируйте её, вставьте в адресную строку браузера и перейдите по ней:
+%3$s
+
+
+Если Вы считаете, что данное сообщение пришло к Вам по ошибке, просто проигнорируйте это сообщение. Учётная запись не будет активирована и мы Вас больше не побеспокоим.
+
+Успехов!
+
+%1$s]]></phrase>
+<phrase section="users" code="registerwelcomeemail"><![CDATA[Это сообщение подтверждает Вашу регистрацию в Системе Запросов.
+
+
+Зарегистрированный Email: %3$s
+Пароль: %4$s
+Система Запросов всегда доступна по адресу  %2$s
+
+
+Пожалуйста, имейте в виду, что Kayako обрабатывает информацию о пользователе для лучшего качества справочной службы и пользовательского опыта
+
+Пожалуйста дайте нам знать, если у Вас появились вопросы.
+
+Успехов!
+
+%1$s]]></phrase>
+<phrase section="users" code="registrationdetails"><![CDATA[Регистрационная Информация]]></phrase>
+<phrase section="users" code="regpassword"><![CDATA[Пароль:]]></phrase>
+<phrase section="users" code="regpasswordrepeat"><![CDATA[Пароль (повторить):]]></phrase>
+<phrase section="users" code="regpwnomatch"><![CDATA[Введенные пароли не совпадают.]]></phrase>
+<phrase section="users" code="regsignup"><![CDATA[Зарегистрироваться]]></phrase>
+<phrase section="users" code="regsuccessdesc"><![CDATA[Спасибо за регистрацию в Системе! Копия с регистрационной информацией была отправлена Вам на email. Пожалуйста войдите в Систему используя данную форму.]]></phrase>
+<phrase section="default" code="rememberme"><![CDATA[Запомнить меня]]></phrase>
+<phrase section="default" code="reply"><![CDATA[Ответ]]></phrase>
+<phrase section="default" code="replytocomment"><![CDATA[Ответ на комментарий]]></phrase>
+<phrase section="default" code="requiredfieldempty"><![CDATA[Одно из обязательных для заполнения полей пустое]]></phrase>
+<phrase section="default" code="rssfeed"><![CDATA[RSS Лента]]></phrase>
+<phrase section="default" code="regpolicytext">Я соглашаюсь, чтобы Каяко обработал мои данные и согласился с условиями </phrase>
+<phrase section="default" code="regpolicyurl">политика конфиденциальности</phrase>
+<phrase section="default" code="regpolicyareement">Политика конфиденциальности</phrase>
+<phrase section="default" code="cookiepolicyagreement">Согласен</phrase>
+<phrase section="default" code="cookiepolicytext">На этом сайте используются куки-файлы, чтобы вы могли получить лучший опыт на нашем сайте. Для получения дополнительной информации о файлах cookie, пожалуйста, </phrase>
+<phrase section="default" code="cookiepolicyurl">политика конфиденциальности</phrase>
+<phrase section="livechatclient" code="fieldregpolicytext">Я соглашаюсь, чтобы Каяко обработал мои данные и согласился с условиями </phrase>
+<phrase section="livechatclient" code="fieldregpolicyurl">политика конфиденциальности</phrase>
+<phrase section="tickets" code="st_regpolicyareement">Политика конфиденциальности</phrase>
+<phrase section="mime" code="rtf"><![CDATA[RTF Файл]]></phrase>
+<phrase section="default" code="salutationdr"><![CDATA[Уважаемый.]]></phrase>
+<phrase section="default" code="salutationmiss"><![CDATA[Госпожа.]]></phrase>
+<phrase section="default" code="salutationmr"><![CDATA[Господин.]]></phrase>
+<phrase section="default" code="salutationmrs"><![CDATA[Уважаемая.]]></phrase>
+<phrase section="default" code="searchbutton"><![CDATA[ПОИСК]]></phrase>
+<phrase section="default" code="searchresults"><![CDATA[Результаты Поиска]]></phrase>
+<phrase section="tickets" code="selectdepartmentdesc"><![CDATA[Если Вы не смогли найти решение проблемы в нашей Базе Знаний, Вы можете создать запрос. Выберите департамент из списка ниже и нажмите ДАЛЕЕ!]]></phrase>
+<phrase section="tickets" code="selectdepartmenttitle"><![CDATA[Отправить заявку]]></phrase>
+<phrase section="livechatclient" code="send"><![CDATA[Отправить]]></phrase>
+<phrase section="tickets" code="st_department"><![CDATA[Департамент]]></phrase>
+<phrase section="tickets" code="st_email"><![CDATA[Email]]></phrase>
+<phrase section="tickets" code="st_fullname"><![CDATA[Имя и фамилия]]></phrase>
+<phrase section="tickets" code="st_messagedetails"><![CDATA[Сообщение]]></phrase>
+<phrase section="tickets" code="st_priority"><![CDATA[Приоритет]]></phrase>
+<phrase section="tickets" code="st_subject"><![CDATA[Тема]]></phrase>
+<phrase section="tickets" code="st_subjectconfirm"><![CDATA[Тема: ]]></phrase>
+<phrase section="tickets" code="st_ticketid"><![CDATA[ID Запроса]]></phrase>
+<phrase section="tickets" code="st_type"><![CDATA[Тип]]></phrase>
+<phrase section="tickets" code="st_yourcomments"><![CDATA[Комментарии]]></phrase>
+<phrase section="tickets" code="st_yourfeedback"><![CDATA[Ваш отзыв]]></phrase>
+<phrase section="livechatclient" code="staffnotacceptedchat"><![CDATA[Ваше сообщение не может быть отправлено. Пожалуйста дождитесь оператора для беседы!]]></phrase>
+<phrase section="tickets" code="sterr_invaliddepartment"><![CDATA[К сожалению, мы столкнулись с проблемой (недопустимый Департамент). Пожалуйста, начните заново.]]></phrase>
+<phrase section="tickets" code="sterr_invalidpriority"><![CDATA[Выбран недопустимый приоритет; пожалуйста начните заново.]]></phrase>
+<phrase section="tickets" code="sterr_invalidtype"><![CDATA[Выбран недопустимый тип запроса; пожалуйста начните заново.]]></phrase>
+<phrase section="tickets" code="submitticketdepartments"><![CDATA[Департаменты]]></phrase>
+<phrase section="default" code="subscribe"><![CDATA[Подписаться]]></phrase>
+<phrase section="news" code="subscriberregistered"><![CDATA[%s уже подписан на новостную ленту.]]></phrase>
+<phrase section="default" code="supportcenterfield"><![CDATA[Центр поддержки:]]></phrase>
+<phrase section="livechatclient" code="surveyconfirmheader"><![CDATA[Спасибо за отзыв. Теперь Вы можете закрыть данное окно.]]></phrase>
+<phrase section="ticketemails" code="surveycta"><![CDATA[Для того, чтобы оставить отзыв, щёлкните: ]]></phrase>
+<phrase section="tickets" code="surveydesc"><![CDATA[Спасибо за принятие участия в опросе. Ваши отзывы очень важны для нас - они помогают обслуживать Вас еще лучше!]]></phrase>
+<phrase section="ticketemails" code="surveydescription1"><![CDATA[В рамках повышения качества обслуживания, мы хотели бы знать, удовлетворены ли Вы нашей работой.]]></phrase>
+<phrase section="ticketemails" code="surveydescription2"><![CDATA[Пожалуйста, оцените качество нашей работы заполнив эту короткую анкету.]]></phrase>
+<phrase section="ticketemails" code="surveydescription3"><![CDATA[Это займёт не более минуты (честное слово!).]]></phrase>
+<phrase section="ticketemails" code="surveyfooter"><![CDATA[Заранее благодарим,]]></phrase>
+<phrase section="livechatclient" code="surveyheader"><![CDATA[Ваши отзывы очень важны для нас - мы бы хотели знать, довольны ли Вы! Пожалуйста, оцените качество нашей работы заполнив эту короткую анкету.]]></phrase>
+<phrase section="ticketemails" code="surveyintro"><![CDATA[Это относится к проблеме Вашего последнего запроса]]></phrase>
+<phrase section="ticketemails" code="surveysubfooter"><![CDATA[Ваша оценка очень важна для нас, спасибо за затраченное Вами время!]]></phrase>
+<phrase section="mime" code="swf"><![CDATA[Macromedia Flash Файл]]></phrase>
+<phrase section="tickets" code="taddfile"><![CDATA[Добавить Файл]]></phrase>
+<phrase section="mime" code="tar"><![CDATA[TAR Файл]]></phrase>
+<phrase section="news" code="thankyousubscriber"><![CDATA[Спасибо Вам за подписку на Новости.]]></phrase>
+<phrase section="news" code="thankyousubscribervalidate"><![CDATA[Спасибо. Пожалуйста проверьте Ваш почтовый ящик для подтверждения подписки.]]></phrase>
+<phrase section="tickets" code="thankyousurvey"><![CDATA[Спасибо Вам за Вашу оценку!]]></phrase>
+<phrase section="news" code="thankyouunsubscriber"><![CDATA[Вы успешно отписались от новостной рассылки.]]></phrase>
+<phrase section="ticketemails" code="thattachments"><![CDATA[Вложения]]></phrase>
+<phrase section="ticketemails" code="thbcc"><![CDATA[Получатель (BCC)]]></phrase>
+<phrase section="ticketemails" code="thcc"><![CDATA[Получатель (CC)]]></phrase>
+<phrase section="ticketemails" code="thclient"><![CDATA[Клиент]]></phrase>
+<phrase section="ticketemails" code="thpostedon"><![CDATA[Запись от:]]></phrase>
+<phrase section="ticketemails" code="threcipient"><![CDATA[Получатель]]></phrase>
+<phrase section="ticketemails" code="thstaff"><![CDATA[Персонал]]></phrase>
+<phrase section="ticketemails" code="ththirdparty"><![CDATA[Третья сторона]]></phrase>
+<phrase section="ticketemails" code="ticketdetails"><![CDATA[Детали Запроса]]></phrase>
+<phrase section="ticketemails" code="tickethistory"><![CDATA[История Запроса]]></phrase>
+<phrase section="tickets" code="ticketpermdenied"><![CDATA[Неверный ID запроса или у Вас нет доступа для его просмотра.]]></phrase>
+<phrase section="tickets" code="ticketsubmitteddesc"><![CDATA[Мы получили Ваш запрос и свяжемся с Вами в ближайшее время. Вы можете войти в Систему Запросов или периодически проверять вашу почту на предмет обновлений.]]></phrase>
+<phrase section="tickets" code="ticketsubmittedtitle"><![CDATA[Ваш запрос принят]]></phrase>
+<phrase section="tickets" code="ticketsurveytickettitle"><![CDATA[Обзор: #]]></phrase>
+<phrase section="tickets" code="ticketviewticketidtitle"><![CDATA[Просмотр Запроса: #]]></phrase>
+<phrase section="tickets" code="ticketviewtickettitle"><![CDATA[Просмотр Запросов]]></phrase>
+<phrase section="tickets" code="tldepartment"><![CDATA[Департамент]]></phrase>
+<phrase section="tickets" code="tllastreplier"><![CDATA[Последний ответивший]]></phrase>
+<phrase section="tickets" code="tllastupdate"><![CDATA[Последнее обновление]]></phrase>
+<phrase section="tickets" code="tlpriority"><![CDATA[Приоритет]]></phrase>
+<phrase section="tickets" code="tlstatus"><![CDATA[Статус]]></phrase>
+<phrase section="tickets" code="tlticketid"><![CDATA[ID Запроса]]></phrase>
+<phrase section="tickets" code="tltype"><![CDATA[Тип]]></phrase>
+<phrase section="tickets" code="tpemailforwardedto"><![CDATA[Переслано: %s]]></phrase>
+<phrase section="tickets" code="tpemailto"><![CDATA[Email: %s]]></phrase>
+<phrase section="tickets" code="tppostedon"><![CDATA[Запись от: %s]]></phrase>
+<phrase section="tickets" code="trash"><![CDATA[Корзина]]></phrase>
+<phrase section="troubleshooter" code="trattachments"><![CDATA[Вложения]]></phrase>
+<phrase section="troubleshooter" code="trback"><![CDATA[Назад]]></phrase>
+<phrase section="troubleshooter" code="trcategoryviews"><![CDATA[ (%d Просм.)]]></phrase>
+<phrase section="troubleshooter" code="trnext"><![CDATA[Далее]]></phrase>
+<phrase section="troubleshooter" code="trnextsteps"><![CDATA[След. Шаги]]></phrase>
+<phrase section="troubleshooter" code="troubleshooter"><![CDATA[Устранение неполадок]]></phrase>
+<phrase section="troubleshooter" code="troubleshooterdesc"><![CDATA[Устранение неполадок поможет Вам решить  проблему, из числа часто встречающихся, проведя Вас серией шагов для ее устранения. Начните с выбора категории устранения неполадок.]]></phrase>
+<phrase section="tickets" code="tsupdate"><![CDATA[Обновлено: %s]]></phrase>
+<phrase section="mime" code="txt"><![CDATA[Текстовый файл]]></phrase>
+<phrase section="default" code="unable_to_execute"><![CDATA[Невыполнимо %s]]></phrase>
+<phrase section="tickets" code="unassigned"><![CDATA[Неназначенный]]></phrase>
+<phrase section="default" code="unsubscribe"><![CDATA[Отписаться]]></phrase>
+<phrase section="tickets" code="updatedticketproperties"><![CDATA[Ваш запрос успешно обновлен]]></phrase>
+<phrase section="tickets" code="uploadfiles"><![CDATA[Прикрепить файл]]></phrase>
+<phrase section="users" code="userfirstprompt"><![CDATA[Добро пожаловать! Пожалуйста, для того чтобы мы могли предоставлять Вам наивысшее качество услуг в дальнейшем, уделите минутку обновлению Вашего профиля.]]></phrase>
+<phrase section="ticketemails" code="validationemailrejectfooter"><![CDATA[Как только Ваша учетная запись будет подтверждена, Вы сможете отправлять запросы по email. Приносим извинения за возможные неудобства.]]></phrase>
+<phrase section="ticketemails" code="validationemailrejectsub"><![CDATA[Невозможно создать запрос: Учётная запись не подтверждена]]></phrase>
+<phrase section="ticketemails" code="validationmailrejectintro_generic"><![CDATA[Ваш запрос не принят Системой. Учётная запись присутствует в Системе, однако не подтверждена.]]></phrase>
+<phrase section="ticketemails" code="validationmailrejectintro_staff"><![CDATA[Ваш запрос не принят Системой. Учётная запись присутствует в Системе, однако должна быть подтверждена вручную Администраторами. Пока этого не произошло, Вы не сможете отправлять запросы в Систему.]]></phrase>
+<phrase section="users" code="validationpendingesc"><![CDATA[Спасибо за регистрацию. Мы послали Вам сообщение со ссылкой для подтверждения Вашего email. Перейдите по ссылке чтобы подтвердить регистрацию.]]></phrase>
+<phrase section="users" code="validationpendingtitle"><![CDATA[Требуется подтверждение по email]]></phrase>
+<phrase section="default" code="vardate1"><![CDATA[%dд %dч %dм]]></phrase>
+<phrase section="default" code="vardate2"><![CDATA[%dч %dм %dс]]></phrase>
+<phrase section="default" code="vardate3"><![CDATA[%dм %dс]]></phrase>
+<phrase section="default" code="vardate4"><![CDATA[%dс]]></phrase>
+<phrase section="users" code="verifyregistration"><![CDATA[Проверка CAPTCHA]]></phrase>
+<phrase section="tickets" code="verifyticketsubmission"><![CDATA[Проверка CAPTCHA]]></phrase>
+<phrase section="default" code="viewallnews"><![CDATA[Все Новости]]></phrase>
+<phrase section="tickets" code="viewresolvedt"><![CDATA[Смотреть Решённые Запросы]]></phrase>
+<phrase section="tickets" code="vtcreated"><![CDATA[Создано:]]></phrase>
+<phrase section="tickets" code="vtcustomfieldrequirednotice"><![CDATA[Please complete all required fields before posting a reply.]]></phrase>
+<phrase section="tickets" code="vtcustomfieldchangednotice"><![CDATA[Были внесены изменения в поля заявки. Нажмите Сохранить изменения, чтобы сохранить их.]]></phrase>
+<phrase section="tickets" code="vtdepartment"><![CDATA[ДЕПАРТАМЕНТ]]></phrase>
+<phrase section="tickets" code="vtowner"><![CDATA[ВЛАДЕЛЕЦ]]></phrase>
+<phrase section="tickets" code="vtpostreply"><![CDATA[Добавить ответ]]></phrase>
+<phrase section="tickets" code="vtpriority"><![CDATA[ПРИОРИТЕТ]]></phrase>
+<phrase section="tickets" code="vtsavechanges"><![CDATA[Сохранить изменения]]></phrase>
+<phrase section="tickets" code="vtstatus"><![CDATA[СТАТУС]]></phrase>
+<phrase section="tickets" code="vttype"><![CDATA[ТИП]]></phrase>
+<phrase section="tickets" code="vtupdated"><![CDATA[Обновлено:]]></phrase>
+<phrase section="ticketemails" code="watcherprefix"><![CDATA[%s (%s) ответил:]]></phrase>
+<phrase section="mime" code="wav"><![CDATA[WAV файл]]></phrase>
+<phrase section="default" code="widgethome"><![CDATA[Главная]]></phrase>
+<phrase section="default" code="widgetknowledgebase"><![CDATA[База знаний]]></phrase>
+<phrase section="default" code="widgetnews"><![CDATA[Новости]]></phrase>
+<phrase section="default" code="widgetregister"><![CDATA[Зарегистрироваться]]></phrase>
+<phrase section="default" code="widgetsubmitticket"><![CDATA[Отправить заявку]]></phrase>
+<phrase section="default" code="widgettroubleshooter"><![CDATA[Устранение неполадок]]></phrase>
+<phrase section="default" code="widgetviewtickets"><![CDATA[Мои заявки]]></phrase>
+<phrase section="mime" code="xls"><![CDATA[Excel Файл]]></phrase>
+<phrase section="mime" code="xlsx"><![CDATA[Excel Файл]]></phrase>
+<phrase section="default" code="yes"><![CDATA[Да]]></phrase>
+<phrase section="tickets" code="yourticketdetailsdesc"><![CDATA[Введите Ваш запрос. Если Вы сообщаете о проблеме, пожалуйста, предоставьте как можно больше информации о ней включая необходимые файлы, скриншоты, логи и т.п. Это даст возможность решить Вашу проблему в кратчайшие сроки.]]></phrase>
+<phrase section="tickets" code="yourticketdetailstitle"><![CDATA[Детали запроса]]></phrase>
+<phrase section="mime" code="zip"><![CDATA[ZIP Файл]]></phrase>
+<phrase section="ticketemails" code="arnewsheader"><![CDATA[Последние Новости]]></phrase>
+<phrase section="ticketemails" code="ticketsummary">Запросить резюме</phrase>
+<phrase section="users" code="prsubscription"><![CDATA[Подписаться на рассылку:]]></phrase>
+<phrase section="tickets" code="st_attachmentwarning"><![CDATA[К сожалению, мы столкнулись с проблемой при загрузки вложений.Возможной причиной является вложения размере, превышающем лимит отдачи сервер.]]></phrase>
+<phrase section="users" code="loginlogerror"><![CDATA[Login locked for %d minutes (attempt: %d of %d)]]></phrase>
+<phrase section="users" code="loginlogwarning"><![CDATA[Invalid username or password (attempt: %d of %d)]]></phrase>
+<phrase section="users" code="regmsgpwpolicy"><![CDATA[The password specified does not match the requirements of the Password Policy.]]></phrase>
+<phrase section="users" code="regtitlepwpolicy"><![CDATA[Password does not meet requirements]]></phrase>
+<phrase section="tickets" code="st_cc"><![CDATA[CC]]></phrase>
+<phrase section="tickets" code="st_recipients"><![CDATA[Recipients]]></phrase>
+<phrase section="tickets" code="st_recipientsdesc"><![CDATA[You can specify multiple e-mail addressess seperated by a single space or comma, as custom recipients. The recipients will receive ticket updates.]]></phrase>
+<phrase section="users" code="userpasswordpolicy"><![CDATA[<strong>Password requirements:</strong> Minimum length: %d characters, Minimum digits: %d, Minimum symbols: %d, Minimum uppercase letters: %d]]></phrase>
+<phrase section="users" code="lpinvalidemail"><![CDATA[No account found with that email address.]]></phrase>
+<phrase section="ticketemails" code="sizelimitrejectintro">Unfortunately, we were unable to process your message into our helpdesk because it was too big. The total message size (including attachments) should be lower than %s kilobytes.</phrase>
+<phrase section="ticketemails" code="sizelimitrejectfooter">Please resend your message with fewer attachments (you can split up a number of attachments across multiple messages, if you like). We are sorry to inconvenience you!</phrase>
+<phrase section="ticketemails" code="sizelimitrejectsub">Your message was not accepted (message size too big) - please resend</phrase>
+<phrase section="ticketemails" code="disableduserrejectintro">Your ticket has not been accepted into the system. Your account is disabled, you are not authorized to create any tickets via email.</phrase>
+<phrase section="ticketemails" code="disableduserrejectfooter">Once enabled, you will be able to submit tickets directly by sending us an email. We are sorry for any inconvenience this may have caused.</phrase>
+<phrase section="ticketemails" code="disableduserrejectsub">Disabled User: Unable to create ticket</phrase>
+<phrase section="knowledgebase" code="lastmodifiedby">Last modified by</phrase>
+	<phrase section="users" code="sendticketupdate">Send Ticket update to all the email addresses</phrase>
+</swiftlanguage>

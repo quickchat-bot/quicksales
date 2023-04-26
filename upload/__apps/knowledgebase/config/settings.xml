@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<swiftsettings>
+	<group name="settings_kb" app="knowledgebase" ishidden="0">
+		<setting name="kb_parcount" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="kb_categorycolumns" type="number">
+			<defaultvalue>3</defaultvalue>
+		</setting>
+		<setting name="kb_clientarea" type="title" />
+		<setting name="kb_enrating" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="kb_catdisplayorder" type="custom">
+			<defaultvalue>1</defaultvalue>
+			<customcode><![CDATA[
+			<select name="kb_catdisplayorder" class="swiftselect">
+				<option value="1"<?php echo IIF($_SWIFT->Settings->Get('kb_catdisplayorder')=="1", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_defaultdisp'); ?></option>
+				<option value="2"<?php echo IIF($_SWIFT->Settings->Get('kb_catdisplayorder')=="2", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_alphabetical'); ?></option>
+				<option value="3"<?php echo IIF($_SWIFT->Settings->Get('kb_catdisplayorder')=="3", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_chrono'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="kb_catorder" type="custom">
+			<defaultvalue>1</defaultvalue>
+			<customcode><![CDATA[
+			<select name="kb_catorder" class="swiftselect">
+				<option value="1"<?php echo IIF($_SWIFT->Settings->Get('kb_catorder')=="1", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_asc'); ?></option>
+				<option value="2"<?php echo IIF($_SWIFT->Settings->Get('kb_catorder')=="2", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_desc'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="kb_ardisplayorder" type="custom">
+			<defaultvalue>2</defaultvalue>
+			<customcode><![CDATA[
+			<select name="kb_ardisplayorder" class="swiftselect">
+				<option value="2"<?php echo IIF($_SWIFT->Settings->Get('kb_ardisplayorder')=="2", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_alphabetical'); ?></option>
+				<option value="3"<?php echo IIF($_SWIFT->Settings->Get('kb_ardisplayorder')=="3", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_chrono'); ?></option>
+				<option value="4"<?php echo IIF($_SWIFT->Settings->Get('kb_ardisplayorder')=="4", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_datemodified'); ?></option>
+				<option value="5"<?php echo IIF($_SWIFT->Settings->Get('kb_ardisplayorder')=="5", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_views'); ?></option>
+				<option value="6"<?php echo IIF($_SWIFT->Settings->Get('kb_ardisplayorder')=="6", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_rating'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="kb_arorder" type="custom">
+			<defaultvalue>1</defaultvalue>
+			<customcode><![CDATA[
+			<select name="kb_arorder" class="swiftselect">
+				<option value="1"<?php echo IIF($_SWIFT->Settings->Get('kb_arorder')=="1", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_asc'); ?></option>
+				<option value="2"<?php echo IIF($_SWIFT->Settings->Get('kb_arorder')=="2", " selected"); ?>><?php echo $_SWIFT->Language->Get('kb_desc'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="kb_categoryindex" type="title" />
+		<setting name="kb_maxcatarticles" type="number">
+			<defaultvalue>2</defaultvalue>
+		</setting>
+		<setting name="kb_climit" type="number">
+			<defaultvalue>255</defaultvalue>
+		</setting>
+
+		<setting name="kb_clientareaindex" type="title" />
+		<setting name="kb_enpopulararticles" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="kb_maxpopulararticles" type="number">
+			<defaultvalue>8</defaultvalue>
+		</setting>
+		<setting name="kb_enlatestarticles" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="kb_maxlatestarticles" type="number">
+			<defaultvalue>8</defaultvalue>
+		</setting>
+
+		<setting name="kb_rss" type="title" />
+		<setting name="kb_enrss" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="kb_rssclimit" type="number">
+			<defaultvalue>255</defaultvalue>
+		</setting>
+	</group>
+
+
+</swiftsettings>

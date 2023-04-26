@@ -1,0 +1,66 @@
+.swiftpopup {
+	display: none;
+	border: 1px solid #ddd;
+	background: #fff;
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	-moz-box-shadow: 2px 2px 2px #f3f3f3;
+	-webkit-box-shadow: 2px 2px 2px #f3f3f3;
+	box-shadow: 2px 2px 2px #f3f3f3;
+	z-index: 10004;
+	left: 0px;
+	top: 0px;
+}
+
+.swiftpopupdialog {
+	border-top: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.swiftpopup li {
+	height: 20px;
+	padding: 6px 8px 4px 8px;
+	border-bottom: 1px solid transparent;
+	display: block;
+	font-size: 14px;
+}
+
+.swiftpopup li:hover {
+	background: #fff9c9;
+	cursor: pointer;
+}
+
+.swiftpopup li.separator {
+	height: 1px !important;
+	padding: 0px !important;
+	background: #f1f1f1;
+	border: none;
+}
+
+.swiftpopup li.separator:hover {
+	background: #f1f1f1 !important;
+	cursor: default !important;
+}
+
+.swiftpopup li.selected {
+	background: #faf5d8;
+}
+
+.swiftpopupoutline {
+	padding: 4px 8px 4px 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	cursor: pointer;
+	z-index: 10005;
+	position: relative;
+	background: #fff;
+}
+
+.swiftpopupoutlinehover {
+	border: 1px solid #ddd;
+	z-index: 10010;
+}

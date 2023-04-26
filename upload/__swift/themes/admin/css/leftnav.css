@@ -1,0 +1,84 @@
+.BarItem {
+	padding: 3px 20px;
+	margin: 1px 5px;
+	cursor: pointer;
+	color: #696969;
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 160px;
+}
+
+.BarItem img {
+	opacity: .3;
+	margin-right: 10px;
+	position: relative;
+	top: -1px;
+}
+
+.BarItem:hover img {
+	opacity: 1;
+}
+
+.BarItem:hover {
+	color: #2d3646;
+	background-color: #ffffff;
+	border-radius: 3px;
+}
+
+.BarItemActive {
+	color: #4eafcb !important;
+	font-weight: bold;
+	background-color: #ffffff;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+.BarItemActive img {
+	opacity: 1;
+}
+
+.BarOption {
+	width: 100%;
+	cursor: pointer;
+	color: #2e3747;
+	font-size: 14px;
+	padding: 0;
+}
+
+.BarOptionPad {
+	padding: 1px 0 2px 10px;
+}
+
+.BarOption:hover {
+	color: #4eafcb;
+}
+
+.BarOptionActive {
+	color: #4eafcb !important;
+	font-weight: 600;
+}
+
+.BarOptionActive:before {
+	content: "\2192";
+	float: right;
+	margin-right: 10px;
+	margin-top: 1px;
+	color: #ccc;
+	font-family: arial;
+	font-weight: normal;
+}
+
+.BarOptions {
+	padding: 5px 0px;
+	display: none;
+	background-color: #fff;
+	margin: 0px 5px 5px 50px;
+	border-left: 1px solid #eee;
+}
+
+.BarOptionsdisplay {
+	padding: 0px;
+	display: inline;
+}

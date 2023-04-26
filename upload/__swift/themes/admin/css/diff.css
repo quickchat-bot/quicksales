@@ -1,0 +1,100 @@
+.diffcontainer {
+	color: #3c3e43;
+	background: #efe8da;
+	overflow-wrap: break-word;
+	table-layout: fixed;
+}
+
+.diffwordinserted {
+	display: inline;
+	color: blue;
+}
+
+.diffworddeleted {
+	color: #ccc;
+	display: inline;
+	text-decoration: line-through;
+}
+
+.diffline {
+	color: #3c3e43;
+	background: #ddd;
+	vertical-align : top;
+	white-space    : pre;
+	white-space    : pre-wrap;
+}
+
+.difflinedeleted {
+	color: #3c3e43;
+	background: #ffa;
+	vertical-align : top;
+	white-space    : pre;
+	white-space    : pre-wrap;
+	display: table-cell;
+	width: 100%;
+	padding-left: 4px;
+}
+
+.difflineempty {
+	color: #3c3e43;
+	background: #efe8da;
+	vertical-align : top;
+	white-space    : pre;
+	white-space    : pre-wrap;
+	display: table-cell;
+	width: 100%;
+	padding-left: 4px;
+}
+
+.difflineunchanged {
+	color: #3c3e43;
+	vertical-align : top;
+	white-space    : pre;
+	white-space    : pre-wrap;
+	display: table-cell;
+	width: 100%;
+	padding-left: 4px;
+	background-color: #eee;
+}
+
+.difflineadded {
+	color: #3c3e43;
+	background: #cfc;
+	vertical-align : top;
+	white-space    : pre;
+	white-space    : pre-wrap;
+	display: table-cell;
+	width: 100%;
+	padding-left: 4px;
+}
+
+.difflinechange {
+	color: #3c3e43;
+	background: #feccff;
+	vertical-align : top;
+	white-space    : pre;
+	white-space    : pre-wrap;
+	display: table-cell;
+	width: 100%;
+	padding-left: 4px;
+}
+
+.diffcontainer td {
+	border-right: 1px solid #ddd;
+}
+
+.diffnumber {
+	background-color: white;
+	padding: 2px;
+	display: table-cell;
+}
+
+.difflinerow {
+	width: 100%;
+	border-top: 1px solid #ddd;
+	overflow: auto;
+}
+
+table.diffcontainer {
+	border-bottom: 1px solid #ddd;
+}

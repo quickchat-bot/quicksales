@@ -1,0 +1,99 @@
+.dialogcontainer {
+	padding: 4px;
+	padding: 10px 0;
+	position: relative;
+	margin: 0 10px 10px 10px;
+}
+
+.dialogtitle {
+	padding: 8px 8px 0px 20px !important;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.dialogtext {
+	padding: 0px 8px 8px 20px ;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	font-size: 12px;
+	line-height: 2;
+}
+
+.dialogok {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 10px;
+    top: 16px;
+}
+
+.dialogok:before{
+	font-family: 'FontAwesome';
+    content: "\f17c";
+    font-size: 16px;
+    color: #fff;
+}
+
+.dialogokcontainer {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #4EAFCB;
+	color: #fff;
+    padding: 0px 10px;
+    min-width: 60%;
+}
+
+.dialogalert {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 10px;
+    top: 16px;
+    z-index: 1000;
+    color: #ffffff;
+}
+
+.dialogalert:before{
+	font-family: 'FontAwesome';
+	content: "\f376";
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.dialogalertcontainer {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #e8b600;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.dialogerror {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 10px;
+    top: 16px;
+}
+
+.dialogerror:before{
+    font-family: 'FontAwesome';
+    content: "\f1ce";
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.dialogerrorcontainer {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+    background-color: #e05720;
+    color: #fff;
+    padding: 0 10px;
+    min-width: 60%;
+}
+
+    

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+    <channel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <title>title</title>
+        <item>
+            <title>title</title>
+            <encoded><![CDATA[<p>What a <em>beautiful</em> day!</p>]]></encoded>            <link>link</link>
+            <guid>guid</guid>
+            <author>author</author>
+            <pubDate>pubDate</pubDate>
+            <category domain="domain">
+                <domain>domain</domain>
+            </category>
+        </item>
+    </channel>
+</feed>

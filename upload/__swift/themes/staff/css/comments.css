@@ -1,0 +1,78 @@
+.commentslabel {
+	font-weight: 500;
+	color: #4c5156;
+	font-size: 14px;
+	padding: 20px 0 6px 0;
+	border-bottom: 1px solid #cfd4d6;
+	margin-bottom: 20px;
+}
+
+#commentscontainer {
+	margin: -20px 0 0 0;
+	padding: 0;
+}
+
+.commentchild {
+	background: url("%themepath%images/downarrow.gif") no-repeat 0px 22px;
+	padding-left: 18px;
+}
+
+.commentavatar {
+			    float: left;
+			    width: 46px;
+			    padding-bottom: 10px !important;
+			}
+
+			.commentavatar img{
+				width: 38px;
+				border-radius: 3px;
+			}
+
+			#commentscontainer div {
+			    padding: 20px 0 0 0;
+			    border-bottom: 1px solid #eee;
+			}
+
+			#commentscontainer div div {
+			    padding: 0px 0;
+			    outline: none;
+			    border: none;
+			}
+
+			.commentdataholder {
+			    padding: 0 0 0 45px;
+			}
+
+			#commentscontainer div:last-child,
+			#commentscontainer div:nth-last-child(2) {
+			    border-bottom: none;
+			}
+
+			.commentdataholderstaff {
+			    background: #fbfbfb;
+			    padding: 0px 6px !important;
+			    border-radius: 5px;
+			}
+			
+			.commentcontentsholder {
+			    margin-bottom: 20px;
+			    padding: 12px 0 15px 0;
+			    font-size:14px;
+			}
+
+			.commentdatelabel {
+			    color: #999;
+			    font-size: 12px;
+			    margin: 0 0 5px 0;
+			}
+
+			.commentnamelabel {
+			    color: #3c3e43;
+			    padding-top: 0px;
+			    font-weight: 500;
+			}
+
+.commentstext {
+	font-size: 14px;
+	white-space: initial;
+}

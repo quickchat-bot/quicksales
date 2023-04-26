@@ -1,0 +1,123 @@
+Delivered-To: kayakoqueue.1@gmail.com
+Received: by 2002:ad4:4843:0:0:0:0:0 with SMTP id t3csp179332qvy; Thu, 2 Apr
+ 2020 22:09:33 -0700 (PDT)
+X-Received: by 2002:a05:6830:19a:: with SMTP id
+ q26mr5321793ota.285.1585890572973; Thu, 02 Apr 2020 22:09:32 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1585890572; cv=none; d=google.com;
+ s=arc-20160816;
+ b=jQDcZ79YZxVYcAM7lsn0uXJIIcgfMv18y2iSV5nDlHL/WXVHNwv8fnEcOpOOJ4TQrl
+ 4m+DUn58vGiHoZ1iD4l9uajG5NxRP5n/6iTaZWYATgoODa2qx5Nm0vJtxgJ4LHcN9dmC
+ g7sGlCIBqgVH0unVWzPgGEHf8yknov8edj/QmQ5QyNFzsgFKU++rYTPTHScNLZxown7Z
+ x4SUV3fCRmAPJqKpAOM8OQ9rrROjivrX7xEhkEc1PsInij6jDxVwoY2uSx3QZfZFdWn+
+ hVyaTX6OaFqUzEJYh8u/T6KYpZPhF/UDuHcKnD+TkDDRVc3xcBX37QUn1KIZazJwEw44 hHpg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;
+ h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;
+ bh=XETrEhXE9mIglT4tZMyEnxy6f/YtuyMg6jL6KeVhX9Y=;
+ b=ENGY3f7ZFiTIqDqKpH/GBEh+IT/YUWpnlvwOntnuwkx2Mr/I8Fs2bqQkYn51vM/yCx
+ oWBLWEJdWlli3ByoO+gdB1MYSacfhqq3htYTn0/nuiCo4Csl85zv1WOARW2JdeMbUwDy
+ MwQ8Kd2+y1YkgShhJ8OI74m8+w6F8mqLaANUWCylRDtVn2NG1mKvaErYc4gVMf8yhtW+
+ m0DyFsts8EUUKPpxw3vVhcS8YeWEZt3Gdl2FL0qjPrBLdodwvDTJnGrozP9YJnTYqcvs
+ PYTHvqHO97gZ+B1IQ1EMmnoJbVs7UG8Mvyy93U3NiRa8YeOvDGTTPhh4uRYLwKUQSVbx Ca4g==
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass
+ header.i=@crossover.com header.s=google header.b="gOK/iD8D"; spf=pass
+ (google.com: domain of werner.garcia@crossover.com designates 209.85.220.41
+ as permitted sender) smtp.mailfrom=werner.garcia@crossover.com
+Return-Path: <werner.garcia@crossover.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com.
+ [209.85.220.41]) by mx.google.com with SMTPS id
+ f125sor7791913oia.16.2020.04.02.22.09.32 for <kayakoqueue.1@gmail.com>
+ (Google Transport Security); Thu, 02 Apr 2020 22:09:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of werner.garcia@crossover.com
+ designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com; dkim=pass header.i=@crossover.com
+ header.s=google header.b="gOK/iD8D"; spf=pass (google.com: domain of
+ werner.garcia@crossover.com designates 209.85.220.41 as permitted sender)
+ smtp.mailfrom=werner.garcia@crossover.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=crossover.com;
+ s=google; h=mime-version:from:date:message-id:subject:to:cc;
+ bh=XETrEhXE9mIglT4tZMyEnxy6f/YtuyMg6jL6KeVhX9Y=;
+ b=gOK/iD8D3W88Mm9+tGVm4Cdj+BTExDMJyAEeWW4U6Z/piYHx9CYJg0goDKwBLjzjww
+ F3Qtl/6pz0L7tFopCmQNc+uQ5DXqlztFj4KndQLpW1AutK4Zc+opV3hAOReuGuXnt3qd
+ LEZGP3BT8k2wCNy3TbKuzbHWdwarEZYMFf1EU=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net;
+ s=20161025;
+ h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc;
+ bh=XETrEhXE9mIglT4tZMyEnxy6f/YtuyMg6jL6KeVhX9Y=;
+ b=GK4UJB9tzUz8YhHeRnhwgIG/kaNUmQPLxUBQXvuzxOawKYtaIK8WFbrTmW8wFXKTBl
+ DBd99vVLvioSwPAN+BiV5oAIp+HwUt5/As9bxMwrFTcbhB8GkosE9qJFxeWDdAgrWBlG
+ dHJSd/uTXOpWYn5kxj+R2V/PL6VkUTaJZU86hiYBkXbBP4aPjliqTP1i7GwJxjdFDtiU
+ +82weOy1wQk+fusSpVjUffuTiAOUh5jzoNJiaFS3NrGrE0F43/7NsGetiCAjQlbzxg76
+ RIJRcWwGrZiuvlc2K86LdHSYcarD7I/BGegFzQVkxRxYpueL1i498Ok18PaF25FDJ+zM G9+A==
+X-Gm-Message-State: AGi0PuZmxCyk4ymNUE9iFqNripwzjqB+C22ItiJ83yllc3eTppKcYwbm
+ 3Xl8Es991uCjZBLY1WCwzVs66NhhfeSZHlDBL0aHGY2o97I=
+X-Google-Smtp-Source: APiQypJr/wPtd92aiQf0AZ1ot0zit6JVuOQOLQkAalA5ndiyAu8VNvjvyRIyQw4kfBvbY3Q+wJ4pZcwW58+3Vm91t8s=
+X-Received: by 2002:aca:d44d:: with SMTP id l74mr1825574oig.83.1585890572305;
+ Thu, 02 Apr 2020 22:09:32 -0700 (PDT)
+MIME-Version: 1.0
+From: Werner Garcia <werner.garcia@crossover.com>
+Date: Thu, 2 Apr 2020 23:09:21 -0600
+Message-ID: <CA+MfKK-NhbhKts61UfdNRVtokTvfGW5WRgOb3t_xH00PS5aaqQ@mail.gmail.com>
+Subject: ticket test email 3
+To: Garcia & Sons <garcia&sons@maint.xo.local>
+Cc: werner.garcia+o'bannon@crossover.com
+Content-Type: multipart/alternative; boundary="0000000000003716b205a25bece7"
+
+--0000000000003716b205a25bece7
+Content-Type: text/plain; charset="UTF-8"
+
+ticket test email 3
+
+--
+
+
+*Werner Garcia*
+PHP Software Architect
+werner.garcia@crossover.com
+Skype: werner.garciaestrada
+
+C R O S S | O V E R
+
+--0000000000003716b205a25bece7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">ticket test email 3=C2=A0<br clear=3D"all"><div><br></div>=
+-- <br><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_s=
+ignature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div=
+><div style=3D"font-family:Arial,Helvetica,sans-serif;font-size:12px"><br><=
+br><span style=3D"font-family:Helvetica,Arial,sans-serif;line-height:16px">=
+<strong><font color=3D"#666666">Werner Garcia</font></strong></span><br><sp=
+an style=3D"color:rgb(70,70,70);font-family:Helvetica,Arial,sans-serif">PHP=
+ Software Architect<br></span><a href=3D"mailto:werner.garcia@crossover.com=
+" style=3D"color:rgb(0,0,0)" target=3D"_blank">werner.garcia@crossover.com<=
+/a><span style=3D"color:rgb(70,70,70);font-family:Helvetica,Arial,sans-seri=
+f"><br>Skype:=C2=A0<a style=3D"line-height:16px;font-weight:bold">werner.ga=
+rciaestrada</a></span></div><div><font color=3D"#464646" face=3D"Helvetica,=
+ Arial, sans-serif" style=3D"font-size:12px"><b><br></b></font><font color=
+=3D"#666666"><span style=3D"font-family:Helvetica,Arial,sans-serif;line-hei=
+ght:22px;background-color:rgb(255,255,255)"><span style=3D"font-size:17px">=
+C</span><font size=3D"1"> </font><span style=3D"font-size:17px">R</span><sp=
+an style=3D"font-size:x-small">=C2=A0</span><span style=3D"font-size:17px">=
+O</span></span><span style=3D"font-family:Helvetica,Arial,sans-serif;font-s=
+ize:x-small">=C2=A0</span><span style=3D"font-size:17px;font-family:Helveti=
+ca,Arial,sans-serif">S</span><span style=3D"font-family:Helvetica,Arial,san=
+s-serif;font-size:x-small">=C2=A0</span><span style=3D"font-family:Helvetic=
+a,Arial,sans-serif;font-size:17px">S</span><span style=3D"font-family:Helve=
+tica,Arial,sans-serif;font-size:x-small">=C2=A0</span><span style=3D"font-f=
+amily:Helvetica,Arial,sans-serif"><font size=3D"4">|</font></span></font><s=
+pan style=3D"color:rgb(153,153,153);font-family:Helvetica,Arial,sans-serif;=
+font-size:x-small">=C2=A0</span><span style=3D"color:rgb(153,153,153);font-=
+family:Helvetica,Arial,sans-serif;font-size:17px">O</span><span style=3D"co=
+lor:rgb(153,153,153);font-family:Helvetica,Arial,sans-serif;font-size:x-sma=
+ll">=C2=A0</span><span style=3D"color:rgb(153,153,153);font-family:Helvetic=
+a,Arial,sans-serif;font-size:17px">V</span><span style=3D"color:rgb(153,153=
+,153);font-family:Helvetica,Arial,sans-serif;font-size:x-small">=C2=A0</spa=
+n><span style=3D"color:rgb(153,153,153);font-family:Helvetica,Arial,sans-se=
+rif;font-size:17px">E</span><span style=3D"color:rgb(153,153,153);font-fami=
+ly:Helvetica,Arial,sans-serif;font-size:x-small">=C2=A0</span><span style=
+=3D"color:rgb(153,153,153);font-family:Helvetica,Arial,sans-serif;font-size=
+:17px">R</span></div><p><br></p></div></div></div></div></div></div></div><=
+/div>
+
+--0000000000003716b205a25bece7--

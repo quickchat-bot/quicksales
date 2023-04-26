@@ -1,0 +1,130 @@
+#printticketcontent .clearer {
+	clear: both;
+}
+
+#printticketcontent .ticketprinthr {
+	margin-bottom: 6px;
+	height: 1px;
+	color: #ddd;
+	background-color: #ddd;
+	border: 0;
+}
+
+/*------------------------------
+Print Tickets
+------------------------------*/
+
+body#printticket {
+	background-color: #fff;
+	padding: 20px;
+}
+
+#printticket .ticketpostleft {
+	float: left;
+	padding: 10px 10px 10px 0;
+	width: 100px;
+}
+
+#printticket  .ticketpostright {
+	float: left;
+	padding: 10px;
+	width: 80%;
+}
+
+#printticket .headingtext {
+	font-size: 18px;
+}
+
+body#printticket .titletext {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+#printticket .titletext .ticketid {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #7c7f85;
+}
+
+#printticket .rebarlogo {
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+body#printticket .reheaderbar {
+	float: right;
+}
+
+#printticket #printticketcontent {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+#printticket .customfieldstatic,
+body#printticket .customfieldstaticcontainer2 {
+	padding: 0 0 0 0 !important;
+	margin: 0 0 0 0 !important;
+}
+
+#printticket .customfieldcol1,
+#printticket .customfieldcol2 {
+	border: none;
+	padding-left: 0;
+}
+
+#printticket h3 {
+	font-size: 21px;
+	font-weight: 300;
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#printticket .customfieldstatictitle {
+	font-size: 1.05em;
+	font-weight: 300;
+	padding-bottom: 0.3em;
+	margin-bottom: .5em;
+	border-bottom: 0.1em solid #ddd;
+	text-transform: capitalize;
+}
+
+#printticket .notebubble {
+	background-color: #fff !important;
+	border: 1px solid #efefef;
+}
+
+#printticket .ticketnotesactions {
+	display: none;
+}
+
+#printticket cite strong {
+	font-size: 1em;
+}
+
+#printticket div.bubble div.notebubble blockquote p {
+	font-size: 1em !important;
+}
+
+@media print {
+	html, body {
+		height: 96%;
+	}
+	div#topbanner {
+		display: none;
+	}
+	div#toptoolbar {
+		display: none;
+	}
+	div#maincoreleft {
+		display: none;
+	}
+	#maincorecontent {
+		margin: 0 30px 0 0;
+		height: 100%;
+	}
+}

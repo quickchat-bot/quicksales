@@ -1,0 +1,80 @@
+.kqldropdown {
+	border-left: 1px solid #b1b1b1;
+	border-top: 1px solid #b1b1b1;
+	border-right: 1px solid #a9a8a8;
+	border-bottom: 1px solid #a9a8a8;
+	background: #f9f9f9;
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	-moz-box-shadow: 2px 2px 2px #ebebeb;
+	-webkit-box-shadow: 2px 2px 2px #ebebeb;
+	box-shadow: 2px 2px 2px #ebebeb;
+}
+
+.kqldropdown li {
+	height: 20px;
+	padding: 6px 8px 4px 8px;
+	border-bottom: 1px solid #e5e3e3;
+	display: block;
+}
+
+.kqldropdown li:hover {
+	background: #faf5d8;
+	cursor: pointer;
+}
+
+.kqldropdown li.selected {
+	background: #faf5d8;
+}
+
+.kqlcontainer {
+	padding: 4px 0 4px 0;
+	margin: 0;
+}
+
+.kqltextarea {
+    font-family: consolas, monaco, 'lucida console', 'courier new', calibri, verdana, tahoma, helvetica;
+    font-size: 13px;
+    padding: 10px;
+    background: #fff;
+    color: #424242;
+}
+
+.kqltoolbar {
+	margin-bottom: 2px;
+}
+
+.kqlstatusimage, .kqlstatusimageok, .kqlstatusimageerror {
+	width: 16px;
+	height: 16px;
+	margin-right: 2px;
+	display: block;
+	float: left;
+}
+
+.kqlstatusimageok {
+	background: url('%themepath%images/icon_check.gif') no-repeat;
+}
+
+.kqlstatusimageerror {
+	background: url('%themepath%images/icon_exclamation.gif') no-repeat;
+}
+
+.kqlstatus {
+	display: block;
+	position: relative;
+	bottom: 1px;
+}
+
+.kqlstatusinfo, .kqlstatuserror {
+	font-size: 9px;
+	height: 14px;
+	display: inline-block;
+}
+
+.kqlstatuserror {
+	display: none;
+	margin-left: 6px;
+}

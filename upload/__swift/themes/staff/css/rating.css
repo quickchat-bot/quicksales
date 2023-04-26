@@ -1,0 +1,80 @@
+/* BEGIN jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+
+div.rating-cancel,div.star-rating {
+	background: transparent!important;
+	overflow: hidden!important;
+	float: left;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    display: block;
+}
+
+/*div.rating-cancel,div.rating-cancel a {
+	background: URL('%themepath%images/icon_ratingdelete.png') no-repeat 0 -16px
+}*/
+
+div.rating-cancel:before {
+    font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f28f" !important;
+    font-size: 18px;
+    color: #e05720;
+}
+
+
+/*div.star-rating,div.star-rating a {
+	background: URL('%themepath%images/icon_ratingstar.gif') no-repeat 0 0px
+}*/
+
+div.star-rating:before {
+    font-family: 'FontAwesome';
+    content: "\f31b";
+    font-size: 18px;
+    transition: all .25s ease;
+    color: #dcd6d6;
+}
+
+div.star-rating-on:before{
+	font-family: 'FontAwesome';
+	top: 6px;
+	left: 6px;
+	content: "\f318";
+	color: #4eafcb;
+}
+
+div.star-rating-hover:before{
+	font-family: 'FontAwesome';
+	top: 6px;
+	left: 6px;
+	content: "\f318";
+	font-size: 18px;
+	color: #4eafcb;
+}
+
+div.rating-cancel a,div.star-rating a {
+	display: block;
+	width: 16px;
+	height: 100%;
+	background-position: 0 0px;
+	border: 0
+}
+
+/* Read Only CSS */
+
+div.star-rating-readonly a {
+	cursor: default !important
+}
+
+/* Partial Star CSS */
+
+div.star-rating {
+	background: transparent!important;
+	overflow: hidden!important;
+	float: left;
+    width: 20px;
+    height: 22px;
+    cursor: pointer;
+    display: block;
+}

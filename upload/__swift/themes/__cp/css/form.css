@@ -1,0 +1,515 @@
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+legend {
+  padding: 0 5px;
+  font-size: 21px;
+  color: #3c3e43333;
+  border: 0;
+}
+
+legend small {
+  font-size: 15px;
+  color: #999999;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+label {
+  margin: 0 5px 5px 0;
+}
+
+label input[type=checkbox]{
+	position: relative;
+	vertical-align: middle;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  display: inline-block;
+  height: 20px;
+  padding: 5px 5px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #555555;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+          -webkit-font-smoothing: antialiased;
+}
+
+input,
+textarea,
+.uneditable-input {
+}
+
+textarea {
+  height: auto;
+}
+
+
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  	background-color: white;
+    border: 1px solid #D1D5D7;
+   	-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+			border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+      -moz-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+          box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+    color: #2d3138;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    padding: 5px 5px;
+     -webkit-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	    -moz-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	      -o-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	         transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-color: #4EAFCB;
+    -webkit-box-shadow: #D8EEF4 0 0 0 2px;
+      -moz-box-shadow: #D8EEF4 0 0 0 2px;
+          box-shadow: #D8EEF4 0 0 0 2px;
+    outline: 0;
+    box-shadow: #D8EEF4 0 0 0 2px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  line-height: normal;
+  margin-right: 5px;
+}
+
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+
+select {
+  height: 32px;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+
+  line-height: 24px;
+}
+
+
+
+select[name="salutation"] {
+	min-width: 57px !important;
+	max-width: 100px !important;
+}
+
+
+input[type="file"] {
+font-size: 13px;
+}
+
+select {
+  background-color: #ffffff;
+  border: 1px solid #D1D5D7;
+  max-width: 100%;
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+			border-radius: 3px;
+  margin-bottom: 4px;
+  background: url("%themepath%images/menudrop_grey.svg") no-repeat;
+  background-position: center right 6px;
+  background-color: #fff;
+  padding: 4px 16px 4px 8px !important;
+  -webkit-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+      -moz-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+          box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+   -webkit-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      -moz-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        -o-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+           transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -moz-appearance: none;
+}
+
+select[multiple],
+select[size] {
+  height: auto;
+  background: none !important;
+}
+
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+    border-color: #4EAFCB;
+    -webkit-box-shadow: #D8EEF4 0 0 0 2px;
+      -moz-box-shadow: #D8EEF4 0 0 0 2px;
+          box-shadow: #D8EEF4 0 0 0 2px;
+    outline: 0;
+}
+
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type=radio] {
+	vertical-align: inherit;
+	margin-right: 5px;
+}
+
+.radio,
+.checkbox {
+  min-height: 20px;
+  padding-left: 20px;
+}
+
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+
+.controls > .radio:first-child,
+.controls > .checkbox:first-child {
+  padding-top: 5px;
+}
+
+.radio.inline,
+.checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.radio.inline + .radio.inline,
+.checkbox.inline + .checkbox.inline {
+  margin-left: 10px;
+}
+
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][readonly],
+input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+
+
+.swiftbutton {
+	background-color: #fff;
+	color: #3c3e43;
+	font-size: 13px;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 2px;
+}
+
+.multi {
+	background: #fff URL('%themepath%images/inputtextbg.gif') REPEAT-X top left;
+	color: #3c3e43;
+	font-size: 13px;
+	border: 1px solid #bdac8e;
+	padding: 2px 2px 2px 2px;
+	margin: 0px;
+	vertical-align: middle;
+}
+
+.swifttext, .swifttextautocompletelookup, .swifttextnumeric, .swifttextnumericsmall, .swifttextsearch, .swifttextnumeric2, .swifttextnumeric2small {
+	padding: 0;
+	margin: 0px;
+}
+
+.swiftpassword {
+	color: #666;
+	border: 1px solid #bdac8e;
+	padding: 2px 2px 2px 2px;
+	margin: 0px;
+	vertical-align: middle;
+}
+
+.swifttextdisabled {
+	color: #808080;
+	padding: 2px;
+	vertical-align: middle;
+	border: 1px solid #ccc !important;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+
+
+.swifttextareawide {
+	width: 100%;
+}
+
+.swiftcheckbox {
+	padding: 0px;
+	margin: -5px;
+	vertical-align: middle;
+}
+
+.swiftselect {
+}
+
+.swiftselect optgroup {
+	font-size: inherit;
+	font-weight: bold;
+}
+
+
+.swifttextlarge {
+	background-color: #fff;
+	color: #3c3e43;
+	margin: 0px;
+	vertical-align: middle;
+	font-size: inherit;
+}
+
+.swifttextarea {
+	width: 100% !important;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.errorcopyarea {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;}
+
+.swifttimer {
+	background-color: #fff;
+	color: #3c3e43;
+	font-size: 13px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px;
+	width: 50px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.swiftselectnotify {
+	border: 2px dashed red;
+}
+
+
+.swifttextnumericsmall, .swifttextnumeric2small {
+	font-size: 10px;
+	font-weight: bold;
+	padding: 2px !important;
+	margin: 0 !important;
+	width: 38px;
+}
+
+.swifttextsearch {
+	width: 185px !important;
+	margin: 6px 4px 4px 0px;
+}
+
+
+
+.swiftfieldset, .swiftfieldset td, .swiftfieldset p, .swiftfieldset li {
+	font-size: 13px;
+}
+
+
+fieldset.swiftfieldset {
+	margin-bottom: 6px;
+	padding: 10px;
+	color: #3c3e43;
+	border: 1px solid #ddd !important;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.hasDatepicker {
+	width: 75px;
+}
+
+#View_Ticket_tab_reply input[type="checkbox"],
+#View_Ticket_tab_general input[type="checkbox"],
+#ui-tabs-1 input[type="checkbox"]{
+	margin: 0;
+}
+
+#selectforwardfrom {
+	margin: 0 4px 0 0;
+}
+
+#selectnewticketfrom,
+#newticketsubject,
+#selectreplyfrom {
+	margin: 0;
+}
+
+#newticketsubject{
+  width: 717px;
+}
+
+#selectreplyfrom, #selectforwardfrom, #selectnewticketfrom {
+  width: 729px;
+}
+
+
+#newticketresolutiondue_hour,
+#newticketresolutiondue_minute,
+#newticketresolutiondue_meridian,
+#newticketdue_hour,
+#newticketdue_minute,
+#newticketdue_meridian,
+#releasedue_hour,
+#releasedue_minute,
+#releasedue_meridian,
+#releaseresolutiondue_hour,
+#releaseresolutiondue_minute,
+#releaseresolutiondue_meridian,
+#billdate_hour,
+#billdate_minute,
+#billdate_meridian,
+#billworkdate_hour,
+#billworkdate_minute,
+#billworkdate_meridian,
+#View_Schedule_tab_general select,
+#replyoptions select,
+#forwardoptions select
+ {
+	width: 70px;
+	margin-right: 5px;
+}
+
+select[id^="rulematchsel"]{
+	width: 100px;
+}
+
+
+label input{
+    margin-right: 5px;
+} 
+
+#forwardattachmentlistcontainer span{
+	display: block;
+  margin-top: 15px;
+  margin-bottom: -10px;
+  margin-left: 11px;
+}
+
+
+#newticket_tab_recurrence .tabletitle label{
+	background-color: #f4f5f5;
+    border-radius: 4px;
+    color: #7b7b7b;
+    border: 1px solid #eaeaea;
+    margin: 0px 10px 15px;
+    width: 130px;
+    display: inline-block;
+    text-align: left;
+    padding: 0 0 0 0 !important;
+}
+
+#selecttgroupid{
+  min-width: 100px;
+}
+
+div[id*='recurrencecontainer_'] {
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    padding: 20px 15px;
+    display: inline-block;
+    margin-top: 6px;
+    min-width: 500px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.08);
+    background: #ffffff;
+}
+
+#forwardsubject {
+  width: 718px;
+}

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<swiftsettings>
+	<group name="settings_tickets" app="tickets" ishidden="0">
+		<setting name="t_general" type="title" />
+		<setting name="t_enhistory" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_tinymceeditor" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_editor_format" type="custom">
+			<defaultvalue>text</defaultvalue>
+			<customcode><![CDATA[
+				<label for="editorformattext"><input type="radio" name="t_editor_format" class="swiftradio" id="editorformattext" value="text"<?php echo IIF($_SWIFT->Settings->Get('t_editor_format')=="text", " checked"); ?>/> <?php echo $_SWIFT->Language->Get('text'); ?></label>
+				<label for="editorformathtml"><input type="radio" name="t_editor_format" class="swiftradio"  id="editorformathtml" value="html"<?php echo IIF($_SWIFT->Settings->Get('t_editor_format')=="html", " checked"); ?>/> <?php echo $_SWIFT->Language->Get('html'); ?></label>
+			]]></customcode>
+		</setting>
+		<setting name="t_enpagin" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_postlimit" type="number">
+		  <defaultvalue>7</defaultvalue>
+		</setting>
+		<setting name="t_mergrecip" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_reciplimit" type="number">
+			<defaultvalue>6</defaultvalue>
+		</setting>
+		<setting name="t_postorder" type="custom">
+			<defaultvalue>asc</defaultvalue>
+			<customcode><![CDATA[
+			<select name="t_postorder" class="swiftselect">
+				<option value="asc"<?php echo IIF($_SWIFT->Settings->Get('t_postorder')=="asc", " selected"); ?>><?php echo $_SWIFT->Language->Get('oldestfirst'); ?></option>
+				<option value="desc"<?php echo IIF($_SWIFT->Settings->Get('t_postorder')=="desc", " selected"); ?>><?php echo $_SWIFT->Language->Get('newestfirst'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="t_chtml" type="custom">
+			<defaultvalue>strip</defaultvalue>
+			<customcode><![CDATA[
+			<select name="t_chtml" class="swiftselect">
+				<option value="entities"<?php echo IIF($_SWIFT->Settings->Get('t_chtml')=="entities", " selected"); ?>><?php echo $_SWIFT->Language->Get('tcentities'); ?></option>
+				<option value="html"<?php echo IIF($_SWIFT->Settings->Get('t_chtml')=="html", " selected"); ?>><?php echo $_SWIFT->Language->Get('tchtml'); ?></option>
+				<option value="strip"<?php echo IIF($_SWIFT->Settings->Get('t_chtml')=="strip", " selected"); ?>><?php echo $_SWIFT->Language->Get('tcstrip'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="t_ochtml" type="custom">
+			<defaultvalue>strip</defaultvalue>
+			<customcode><![CDATA[
+			<select name="t_ochtml" class="swiftselect">
+				<option value="entities"<?php echo IIF($_SWIFT->Settings->Get('t_ochtml')=="entities", " selected"); ?>><?php echo $_SWIFT->Language->Get('tcentities'); ?></option>
+				<option value="html"<?php echo IIF($_SWIFT->Settings->Get('t_ochtml')=="html", " selected"); ?>><?php echo $_SWIFT->Language->Get('tchtml'); ?></option>
+				<option value="strip"<?php echo IIF($_SWIFT->Settings->Get('t_ochtml')=="strip", " selected"); ?>><?php echo $_SWIFT->Language->Get('tcstrip'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="t_allowhtml" type="yesno">
+		  <defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_allowableadvtags" type="text">
+		  <defaultvalue><![CDATA[br,a,b,i,u,font,hr,strong]]></defaultvalue>
+		</setting>
+		<setting name="t_allowableadvtagsattributes" type="text">
+			  <defaultvalue><![CDATA[href,rel,src]]></defaultvalue>
+		</setting>
+		<setting name="t_tpreview" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_eticketid" type="custom">
+			<defaultvalue>seq</defaultvalue>
+			<customcode><![CDATA[
+			<select name="t_eticketid" class="swiftselect">
+				<option value="seq"<?php echo IIF($_SWIFT->Settings->Get('t_eticketid')=="seq", " selected"); ?>><?php echo $_SWIFT->Language->Get('tsequential'); ?></option>
+				<option value="random"<?php echo IIF($_SWIFT->Settings->Get('t_eticketid')=="random", " selected"); ?>><?php echo $_SWIFT->Language->Get('trandom'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="t_restrictnewticket" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_cstatusupd" type="custom">
+			<defaultvalue>1</defaultvalue>
+			<customcode><![CDATA[
+			<select name="t_cstatusupd" class="swiftselect">
+			<?php echo GenerateClientTicketStatus(); ?>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="t_resultlimit" type="number">
+			<defaultvalue>50</defaultvalue>
+		</setting>
+		<setting name="t_ticketview" type="custom">
+			<defaultvalue>25</defaultvalue>
+			<customcode><![CDATA[
+			<select name="t_ticketview" class="swiftselect">
+				<option value="25"<?php echo IIF($_SWIFT->Settings->Get('t_ticketview')=="25", " selected"); ?>><?php echo '25' ?></option>
+				<option value="50"<?php echo IIF($_SWIFT->Settings->Get('t_ticketview')=="50", " selected"); ?>><?php echo '50' ?></option>
+				<option value="75"<?php echo IIF($_SWIFT->Settings->Get('t_ticketview')=="75", " selected"); ?>><?php echo '75' ?></option>
+				<option value="<?php echo Tickets\Models\View\SWIFT_TicketView::VIEW_MAX_PER_PAGE; ?>" <?php echo $_SWIFT->Settings->Get('t_ticketview') == Tickets\Models\View\SWIFT_TicketView::VIEW_MAX_PER_PAGE ? 'selected' : ''; ?>> <?php echo Tickets\Models\View\SWIFT_TicketView::VIEW_MAX_PER_PAGE; ?></option>
+				</select>
+			]]></customcode>
+		</setting>
+		<setting name="t_spamhandling" type="title" />
+		<setting name="t_spammovetotrash" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_spamban" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_clientarea" type="title" />
+		<setting name="t_csccrecipients" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_cstaffname" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_cdisplayname" type="text">
+			<defaultvalue>Kayako Support</defaultvalue>
+		</setting>
+		<setting name="t_cthirdparty" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_canirs" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_maxwcnt" type="number">
+			<defaultvalue>20</defaultvalue>
+		</setting>
+		<setting name="t_ccaptcha" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_cpostorder" type="custom">
+			<defaultvalue>asc</defaultvalue>
+			<customcode><![CDATA[
+			<select name="t_cpostorder" class="swiftselect">
+				<option value="asc"<?php echo IIF($_SWIFT->Settings->Get('t_cpostorder')=="asc", " selected"); ?>><?php echo $_SWIFT->Language->Get('oldestfirst'); ?></option>
+				<option value="desc"<?php echo IIF($_SWIFT->Settings->Get('t_cpostorder')=="desc", " selected"); ?>><?php echo $_SWIFT->Language->Get('newestfirst'); ?></option>
+			</select>
+			]]></customcode>
+		</setting>
+		<setting name="t_cenattach" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_mailset" type="title" />
+		<setting name="t_cleanmailsubjects" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_searchticketidinbody" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_sla" type="title" />
+		<setting name="t_slaresets" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_encustomoverdue" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_overduehrs" type="number">
+			<defaultvalue>24</defaultvalue>
+		</setting>
+		<setting name="t_resolutionduehrs" type="number">
+			<defaultvalue>48</defaultvalue>
+		</setting>
+		<setting name="t_overduecolor" type="color">
+			<defaultvalue>#FFECEC</defaultvalue>
+		</setting>
+		<setting name="t_ticketnoteresetsupdatetime" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="t_parser" type="title" />
+		<setting name="t_autorecip" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_autorespondercc" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_pstaffreply" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="tickets_attachments" type="title" />
+		<setting name="tickets_resattachments" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+		<setting name="tickets_parseemlattachment" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="t_ticketlock" type="title" />
+		<setting name="t_plockthreshold" type="number">
+			<defaultvalue>1800</defaultvalue>
+		</setting>
+		<setting name="t_locktimeout" type="number">
+			<defaultvalue>600</defaultvalue>
+		</setting>
+		<setting name="tickets_bayesian" type="title" />
+		<setting name="tb_enablespam" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="tb_minwordlength" type="number">
+			<defaultvalue>3</defaultvalue>
+		</setting>
+		<setting name="tb_maxwordlength" type="number">
+			<defaultvalue>30</defaultvalue>
+		</setting>
+		<setting name="tb_indexnumbers" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="tb_minnumberlength" type="number">
+			<defaultvalue>6</defaultvalue>
+		</setting>
+		<setting name="tb_signores" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+
+	</group>
+
+</swiftsettings>

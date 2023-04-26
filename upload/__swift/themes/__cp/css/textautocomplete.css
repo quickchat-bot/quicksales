@@ -1,0 +1,243 @@
+.swifttextquickinsertdiv {
+	border: 1px solid #ccc;
+	width: 358px;
+	display: inline-block;
+	margin-right: 10px;
+	background: #fff;
+	padding: 0;
+	border-radius: 3px;
+	border: 1px solid #D1D5D7;
+    -webkit-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+       -moz-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+           box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+    -webkit-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	   -moz-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	     -o-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	        transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.swifttextquickinsertdiv input{
+	background: transparent !important;
+}
+
+.inputhasfocus .swifttextquickinsertdiv < .swifttextautocompleteinputactive{
+	border-color: #4eafcb;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 5px rgba(81,167,232,0.5);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 5px rgba(81,167,232,0.5);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 5px rgba(81,167,232,0.5);
+    outline-color: transparent;
+    outline-width: 0;
+}
+
+.swifttextquickinsertdiv:before,.swifttextquickinsertdiv:after {content: " ";display: table;}
+.swifttextquickinsertdiv:after {clear: both;}
+.swifttextquickinsertdiv {*zoom: 1;}
+
+
+
+.swifttextquickinsertdiv input {
+	border: none;
+	outline: none !important;
+	margin: 0 !important;
+	box-shadow: none !important;
+}
+
+.qipadding {
+	padding: 0px;
+	display: inline;
+	float: left;
+}
+
+.qipadding:before,.qipadding:after {content: " ";display: table;}
+.qipadding:after {clear: both;}
+.qipadding {*zoom: 1;}
+
+.swifttextquickinsertdiv input {
+	width: 296px !important;
+
+}
+
+.swifttextquickinsertdiv span {
+	float: right;
+	width: 12px;
+	height: 8px;
+	cursor: pointer;
+	background: #fff url(%themepath%/images/menudrop_grey.svg) no-repeat;
+    background-position: right;
+    margin: 11px 8px;
+}
+
+.swifttextautocompletediv {
+	padding: 0 0 1px 0px;
+    border-radius: 3px;
+    border: 1px solid #D1D5D7;
+    background-color: #fff !important;
+    margin: 4px 10px !important;
+    /*width: 95%;*/
+    display: inline-block;
+    min-height: 32px;
+    width: 98%;
+    display: table;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    -webkit-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+      -moz-box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+          box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.06);
+    -webkit-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	    -moz-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	    	-o-transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	        	transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.swifttextautocompletediv i{
+	vertical-align: -webkit-baseline-middle;
+	width: 16px;
+    margin-right: 6px;
+    color: #cccccc;
+    display: table-cell;
+	vertical-align: middle;
+	padding: 0px 4px 0px 8px;
+}
+
+.tablerow1 {
+	position: relative;
+}
+
+.tablerow1 .swifttextautocompletediv {
+	margin: 0 !important;
+	max-width: 727px !important;
+}
+
+.swifttextautocompletediv input {
+	margin: 0px 0;
+	box-shadow: none !important;
+	border: none !important;
+	outline: none !important;
+	height: 18px;
+	padding: 5px 6px;
+	background: transparent;
+}
+
+.gridrow2 .swifttextautocompletediv {
+	margin: 0 10px;
+}
+
+.swifttextautocomplete {
+	padding: 0px;
+	margin: 0px;
+	height: auto !important;
+	min-height: 30px;
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.600text {
+	    font-weight: 600;
+    }
+
+.swifttextautocompleteinputcontainer, .swifttextautocompleteinput, .swifttextautocompleteinputactive {
+	display: block;
+	float: left;
+	font-size: 13px;
+	list-style-type: none;
+	margin-top: 3px;
+}
+
+.swifttextautocompleteinput, .swifttextautocompleteinputactive {
+	border: 0px;
+	padding: 2px;
+	outline: none !important;
+	color: #a5a5a5 !important;
+}
+
+.swifttextautocompleteinputactive {
+	color: #3c3e43;
+	border: 0px!important;
+}
+
+.inputhasfocus .swifttextautocompletediv{
+	border-color: #4EAFCB;
+    -webkit-box-shadow: #D8EEF4 0 0 0 2px;
+      -moz-box-shadow: #D8EEF4 0 0 0 2px;
+          box-shadow: #D8EEF4 0 0 0 2px;
+    outline: 0;
+}
+
+.swifttextautocompleteinputfocus {
+	border: 0px;
+	padding: 2px;
+	outline: none;
+	color: #3c3e43;
+}
+
+.swifttextautocompleteitem {
+	border-radius: 4px;
+    color: #3c3e43;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    padding: 1px 10px 0px 10px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.05), inset 0 1px 0 rgba(255,255,255,0.3);
+    margin: 4px 3px 3px 3px;
+    background-color: #f8f8f8;
+    cursor: default;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    padding: 0 5px 0 9px;
+    height: 22px;
+    border-radius: 3px;
+    background-color: #FFF;
+    border: 1px solid #BEC4C7;
+    border-color: #BEC4C7;
+    background-clip: padding-box;
+    max-width: 50%;
+    color: #5F6C73;
+    -webkit-transition: border-color .15s;
+    transition: border-color .15s;
+}
+
+.swifttextautocompleteitem input[type="checkbox"] {
+	padding:0px !important;
+	vertical-align:middle;
+	display: inline-block;
+	height: 10px;
+    width: 15px;
+}
+
+.swifttextautocompleteitemclose {
+	float: right;
+	cursor: pointer;
+	margin: 0px 0 0 5px;
+	vertical-align:middle;
+}
+
+.swifttextautocompleteitemclose i {
+	margin : 0 0 0 0 !important;
+	padding: 0 0 0 0 !important;
+	width: auto !important;
+}
+
+.swifttextautocompleteitemclose i:hover {
+	color: red !important;
+}
+#tagcontainer_replycc .toggle-check{
+	position: absolute;
+	left: -64px;
+	top: 6px;
+}
+.toggle-forward {
+	position: absolute;
+	left: -35px;
+	top: 13px;
+}
+
+.swifttextautocompleteinputcontainer label{
+	margin: 0px 0px !important;
+}

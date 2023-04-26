@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<swiftsettings>
+	<group name="settings_nw" app="news" ishidden="0">
+		<setting name="nw_general" type="title" />
+		<setting name="nw_sendstaffemail" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="nw_newsstaffcp" type="title" />
+		<setting name="nw_enablestaffdashboard" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="nw_maxdashboardnewslist" type="number">
+			<defaultvalue>5</defaultvalue>
+		</setting>
+		<setting name="nw_staffpageno" type="number">
+			<defaultvalue>6</defaultvalue>
+		</setting>
+		<setting name="nw_newsclient" type="title" />
+		<setting name="nw_pageno" type="number">
+			<defaultvalue>6</defaultvalue>
+		</setting>
+		<setting name="nw_svalidate" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="nw_enablenewsnav" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="nw_maxnewslist" type="number">
+			<defaultvalue>5</defaultvalue>
+		</setting>
+		<setting name="nw_rss" type="title" />
+		<setting name="nw_enablerss" type="yesno">
+			<defaultvalue>1</defaultvalue>
+		</setting>
+		<setting name="nw_maxrss" type="number">
+			<defaultvalue>15</defaultvalue>
+		</setting>
+		<setting name="nw_sync" type="title" />
+		<setting name="nw_globalsync" type="text">
+			<defaultvalue></defaultvalue>
+		</setting>
+		<setting name="nw_publicsync" type="text">
+			<defaultvalue></defaultvalue>
+		</setting>
+		<setting name="nw_privatesync" type="text">
+			<defaultvalue></defaultvalue>
+		</setting>
+	</group>
+
+</swiftsettings>

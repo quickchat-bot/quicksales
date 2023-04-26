@@ -1,0 +1,137 @@
+.tabtoolbar ul {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	color: #3c3e43;
+	margin-top: 0px;
+	display: block;
+	line-style: none;
+}
+
+.tabtoolbar ul li {
+	list-style-type: none;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	line-style: none;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.tabtoolbarsub {
+	margin: 5px 0 8px 5px;
+	padding: 0px;
+	float: left;
+	min-width: 600px;
+	padding: 0px;
+}
+
+.tabtoolbarsub ul {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	color: #3c3e43;
+	margin-top: 0px;
+	display: block;
+}
+
+.tabtoolbarsub ul li {
+	list-style-type: none;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.tabtoolbarsub ul li:first-child a {
+	margin-left: 0;
+}
+
+.tabtoolbarsub ul li:last-child a {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;	
+}
+
+.tabtoolbarsub ul li a {
+	border: 1px solid #e6e6e6;
+    text-decoration: none;
+    margin-left: 4px;
+    color: #666;
+    padding: 4px 13px 4px 13px;
+    transition: all 0.25s ease;
+    border-radius: 4px;
+    background-color: #f4f5f5;
+    vertical-align: top;
+}
+
+
+.tabtoolbarsub ul li a img {
+	position: relative;
+	top: -2px;
+}
+
+
+.tabtoolbarsub ul li a:hover {
+	text-decoration: none;
+    color: #ffffff;
+    background-color: #4eafcb;
+    border-color: #4eafcb;
+}
+
+.tabtoolbarsub ul li a:active {
+	text-decoration: none;
+}
+
+.dashboardlayoutborder .ui-tabs-nav{
+	background-color: #fff !important;
+	border-bottom: 1px solid #ddd !important;
+}
+
+
+.dashboardlayoutborder .ui-state-default{
+	background-color: #fff !important;
+}
+
+.dashboardlayoutborder .basictabcontent{
+	background-color: #fff !important;
+	border: none;
+	/*border: 1px solid #eee !important;*/
+	box-shadow: 0px 0px 4px 0px #eee;
+}
+
+#ticketviewdropbutton a{
+	transition: all 0.25s ease;
+
+}
+
+#ticketviewdropbutton a:hover{
+	color: #fff !important;
+    background-color: #4faeca !important;
+}
+
+a.resetimagebutton {
+	margin-left:5px;
+	border:1px solid #7A432D;
+	padding:3px 10px;
+	font-size:12px;
+	border-radius:5px;
+	background-color: #CC5C2F;
+	color:#ffffff !important;
+}
+
+a.resetimagebutton:before {
+	font-family:'FontAwesome';
+	content:"\f2d5";
+	font-size:12px;
+	margin-right:3px;
+}
+
+a.resetimagebutton:hover {
+	border:1px solid #7A432D;
+	background-color: #e05720;
+	color:#fff !important;
+}
+
+a[disabled="disabled"] {
+	pointer-events: none;
+}

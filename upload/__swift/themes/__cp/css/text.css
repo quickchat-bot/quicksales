@@ -1,0 +1,38 @@
+.disabledtext {
+	color: #ccc;
+}
+
+.smalltext {
+	font-size: 13px;
+	color: #7c7f85;
+}
+
+.removeiecross::-ms-clear {
+	display: none;
+}
+
+dl, dd, dt {
+	margin: 0;
+	padding: 0;
+}
+
+dl {
+	margin: 5px;
+	display: block;
+}
+
+dd, dt {
+	display: inline-block;
+	float: left;
+}
+
+dt {
+	font-weight: bold;
+	margin: 0 5px 0 0;
+}
+
+dd {
+	font-weight: normal;
+	margin: 0 0 0 5px;
+	word-break: break-word;
+}

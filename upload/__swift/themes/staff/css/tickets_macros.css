@@ -1,0 +1,56 @@
+.macrocategorynew {
+	display: inline-block;
+	cursor: pointer;
+	color: #a0a0a0;
+}
+
+.macrocategorynew:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f2c3";
+    font-size: 18px;
+    vertical-align: -3px;
+}
+
+.macrocategorynew:hover{
+	color: #4eafcb;
+}
+
+.macroreplynew {
+	display: inline-block;
+	cursor: pointer;
+	color: #a0a0a0;
+}
+
+.macroreplynew:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f27a";
+    font-size: 18px;
+    vertical-align: -3px;
+}
+
+.macroreplynew:hover {
+	color: #4eafcb;
+}
+
+.macroreplysearch {
+	display: inline-block;
+	cursor: pointer;
+	color: #a0a0a0;
+}
+
+.macroreplysearch:before {
+	font-family: 'FontAwesome';
+    top: 6px;
+    left: 6px;
+    content: "\f2eb";
+    font-size: 18px;
+    vertical-align: -3px;
+}
+
+.macroreplysearch:hover {
+	color: #4eafcb;
+}

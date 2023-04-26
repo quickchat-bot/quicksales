@@ -1,0 +1,50 @@
+.rebuttonwide2,.rebutton, .rebuttonblue, .rebuttonred, .rebuttongreen, .rebuttonhover {
+	background-color: #4eafcb;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.04),rgba(255,255,255,0.04) 57%);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.18), inset 0 1px rgba(255,255,255,0.16), inset 0 0 0px rgba(255,255,255,0.35);
+    border: 1px solid rgba(0,0,0,0.16);
+    color: white;
+    font-weight: 600;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 30px;
+    padding: 0 1.35em 0.1em;
+    text-align: center;
+    transition: all 0.15s ease;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.rebutton:hover, .rebuttonblue:hover, .rebuttonred:hover, .rebuttongreen:hover, .rebuttonhover:hover,.rebuttonwide2:hover, 
+.rebutton:active, .rebuttonblue:active, .rebuttonred:active, .rebuttongreen:active, .rebuttonhover:active, .rebuttonwide2:active {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.06) 57%);
+    border-color: rgba(0, 0, 0, 0.16);
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+.clearimagebutton{
+    margin-left: 15px;
+    border: 1px solid #eee;
+    padding: 1px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #2d3138 !important;
+}
+
+.clearimagebutton:before{
+    font-family: 'FontAwesome';
+    content: "\f343";
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+.clearimagebutton:hover{
+    border: 1px solid #4eafcb;
+    background-color: #4eafcb;
+    color: #fff !important;
+}

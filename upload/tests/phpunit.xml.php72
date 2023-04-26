@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/7.4/phpunit.xsd"
+         bootstrap="autoload.php"
+         colors="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         verbose="true">
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">../__swift</directory>
+            <directory suffix=".php">../__apps</directory>
+            <exclude>
+                <directory>../__swift/cache</directory>
+                <directory>../__swift/files</directory>
+                <directory>../__swift/locale</directory>
+                <directory>../__swift/logs</directory>
+                <directory>../__swift/thirdparty</directory>
+                <directory>../*/*/locale</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+    <testsuites>
+        <testsuite name="Swift Test Suite">
+            <directory>./__swift</directory>
+            <directory>./__apps</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-html"
+             target="logs/php54/coverage"
+             lowUpperBound="35"
+             highLowerBound="80"/>
+        <log type="coverage-php"
+             target="logs/php54/coverage.php"/>
+        <log type="coverage-text"
+             target="logs/php54/coverage.txt"
+             showUncoveredFiles="false"/>
+        <log type="testdox-html"
+             target="logs/php54/testdox.html"/>
+        <log type="testdox-text"
+             target="logs/php54/testdox.txt"/>
+    </logging>
+</phpunit>

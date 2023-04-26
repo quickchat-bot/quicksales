@@ -1,0 +1,49 @@
+/* old blue #267794 */
+
+a {text-decoration: none; outline: none;}
+a:link {color: #4eafcb;}
+a:visited {color: #4eafcb;}
+a:hover {color: #4eafcb;}
+a:active {color: #4eafcb;}
+
+
+.bluelink{
+	white-space: normal;
+}
+
+.bluelink:link {
+	color: #277dc9;
+	text-decoration: none;
+	outline: none;
+}
+
+.bluelink:visited {
+	color: #277dc9;
+	text-decoration: none;
+	outline: none;
+}
+
+.bluelink:hover {
+	text-decoration: none;
+	outline: none;
+	color: #005b7c;
+}
+
+.widgetlinks:visited {
+	text-decoration: none;
+	outline: none;
+}
+
+.widgetlinks:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+.widgetlinks:link {
+	text-decoration: none;
+	outline: none;
+}
+
+.menulink {
+	padding: 0 6px;
+}

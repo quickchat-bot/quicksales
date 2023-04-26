@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swifttemplate>
+	<title>Default</title>
+	<author>Kayako</author>
+	<version>0</version>
+
+	<category name="template_chat" app="livechat" icon="icon_livesupport.gif">
+
+		<template name="inlinechatdiv"><![CDATA[
+<div style="float: left; width: <{$_inlineChatDivWidth}>px;">
+<iframe width="<{$_settings[livesupport_chatwidth]}>" height="<{$_settings[livesupport_chatheight]}>" scrolling="auto" frameborder="0" src="" name="inlinechatframe" id="inlinechatframe">error: no iframe support detected</iframe>
+</div><div id="inlinechatclosebutton" style="float: left; margin-left: -30px; margin-top: -2px;"><a href="javascript: closeInlineProactiveRequest_<{$_randomSuffix}>();"><i style="color:red;" class="fa fa-times-circle-o" aria-hidden="true"></i></a></div>
+		]]></template>
+
+		<template name="proactivechatdiv"><![CDATA[
+<div style="float: left; width: 500px; background: #ffffff url('<{$_themePath}>images/mainbackground.gif') repeat; border: solid 1px #bababa;">
+	<div style="background: #ffffff url('<{$_themePath}>images/icon_proactiveuserbackground.gif') no-repeat bottom left; border: solid 1px #bababa; margin: 8px;">
+		<div style="text-align: center;margin-top: 15px;margin-bottom: 10px;"><img align="absmiddle" border="0" src="<{$_headerImageSC}>"></div>
+		<hr style="border: solid #d8dbdf; border-width: 1px 0 0; clear: both; height: 0; margin: 0; text-align: center">
+
+		<div style="padding-left: 100px; text-align: center; margin-top: 20px; height: 60px; overflow: hidden; font: 40px 'segoe ui','helvetica neue', arial, helvetica, sans-serif; color: #128dbe;width: 350px;">
+			<{$_language[proactivetitle]}>
+		</div>
+
+		<div style="padding-left: 100px; vertical-align: top; margin-top: 0px; padding-top: 0px; height: 180px; font: 18pt 'segoe ui','helvetica neue', arial, helvetica, sans-serif; color: #4c5156;width: 350px;">
+			<{$_language[proactivemsg]}><br>
+
+			<div style="padding-top: 30px; padding-left: 90px; text-align: center;">
+				<div onclick="javascript:doProactiveRequest_<{$_randomSuffix}>();" style="font-weight: normal;font-size: 19px;color: #5d9928;padding: 10px 25px 10px 25px;background-color: #fff;background: -moz-linear-gradient(top,#fafafa 0%,#e7ebf0);background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),to(#f3f3f3));-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;border: 1px solid #cdd2d4;-moz-box-shadow: 0px 1px 1px #f8f8f8,inset 0px 1px 1px #fff;-webkit-box-shadow: 0px 1px 1px #f8f8f8,inset 0px 1px 1px #fff;box-shadow: 0px 1px 1px #f8f8f8,inset 0px 1px 1px #fff;text-shadow: 0px 1px 0px #fff;cursor: pointer;width: 100px;">
+					<{$_language[proactivechatnow]}>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div style="float: left; margin-left: -8px; margin-top: -8px;">
+	<a href="javascript:closeProactiveRequest_<{$_randomSuffix}>();"><img align="absmiddle" border="0" src="<{$_themePath}>images/icon_close.png"></a>
+</div>
+		]]></template>
+
+		<template name="chatimage" date=""><![CDATA[<a class="chatstatuscontainer" href="javascript:startChat_<{$_randomSuffix}>('0');" onMouseOver="window.status='<{$_staffStatusText}>'; return true;" onMouseOut="window.status=''; return true;"><img src="<{if $_customImage != false}><{$_customImage}><{else}><{$_themePath}>images/<{if $_staffStatus eq "online"}>staff<{$_promptPhone}>online.svg<{elseif $_staffStatus eq "away"}>staff<{$_promptPhone}>away.svg<{elseif $_staffStatus eq "back"}>staffbackin5.svg<{else}>staff<{$_promptPhone}>offline.svg<{/if}><{/if}>" border="0" alt="<{$_staffStatusText}>" title="<{$_staffStatusText}>"></a>]]></template>
+
+		<template name="chatbadge" date=""><![CDATA[
+<style type="text/css">
+#kayako_sitebadgebg:hover {
+	background-color: <{$_badgeHoverColor}> !important;
+}
+
+#kayako_sitebadgebg {
+	background-color: <{$_badgeBackgroundColor}>;
+	border-color: <{$_badgeHoverColor}> <{$_badgeBorderColor}> <{$_badgeBorderColor}> <{$_badgeBorderColor}> !important;
+}
+</style>
+<div id="kayako_sitebadgecontainer" title="<{$_staffStatusText}>" onclick="javascript: startChat_<{$_randomSuffix}>('0');" style="background: transparent none repeat scroll 0 0; bottom: 0; cursor:pointer; height: 101px; left: 0; line-height: normal; margin: 0; padding: 0; position: fixed; top: <{if $_promptType == 'call'}>25<{else}>35<{/if}>% !important; z-index: 4000000000 !important;">
+	<div id="kayako_sitebadgeholder">
+		<div id="kayako_sitebadgeindicator" style="background: transparent URL('<{$_themePath}>images/icon_badge_<{if $_staffStatus eq "online"}>green<{elseif $_staffStatus eq "away"}>green2<{elseif $_staffStatus eq "back"}>yellow<{else}>gray<{/if}>.png') no-repeat scroll 0 0; width: 30px; height: 30px; line-height: normal; margin: 0; padding: 0; position: absolute; left: 10px; top: -8px; z-index: 20000;"></div>
+		<div id="kayako_sitebadgebg" id="kayako_sitebadgebg" style="background-color: <{$_badgeBackgroundColor}>; border-color: <{$_badgeHoverColor}> <{$_badgeBorderColor}> <{$_badgeBorderColor}> <{$_badgeBorderColor}> !important; background-image: URL('<{$_themePath}>images/badge_<{$_badgeText}>_<{$_badgeLanguage}>_<{$_badgeTextColor}>.png'); background-position: 1px 8px; background-repeat: no-repeat; -moz-border-radius: 0 1em 1em 0 !important; border-radius: 0 1em 1em 0 !important; -webkit-border-radius: 0 1em 1em 0 !important; border-style: outset outset outset none !important; border-width: 1px 1px 1px medium !important; height: 101px !important; left: 0 !important; margin: 0 !important; opacity: 0.90 !important; padding: 0 !important; position: absolute !important; top: 0 !important; width: 30px !important; z-index: 19999 !important;"></div>
+
+	</div>
+</div>
+]]></template>
+		<template name="chatheader" date=""><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=<{$_language[charset]}>" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title><{if $_pageTitle != ""}><{$_pageTitle}><{else}><{$_companyName}><{/if}> - <{$_poweredByNotice}></title>
+		<meta name="KEYWORDS" content="Home" />
+		<meta name="robots" content="index,follow" />
+
+		<link rel="icon" href="<{$_swiftPath}>favicon.ico" type="image/x-icon"/>
+		<script language="Javascript" type="text/javascript">
+		var _themePath = "<{$_themePath}>";
+		var _swiftPath = "<{$_swiftPath}>";
+		var _baseName = "<{$_baseName}>";
+		var themepath = "<{$_themePath}>";
+		var swiftpath = "<{$_swiftPath}>";
+		var _isInline = "<{$_isInline}>";
+		var _swiftLanguage = {'istyping':'<{$_language[istyping]}>', 'staffnotacceptedchat':'<{$_language[staffnotacceptedchat]}>', 'chatendsurvey':"<{$_language[chatendsurvey]}>", 'chatendednotification':"<{$_language[chatendednotification]}>", 'chatendednotificationsub':"<{$_language[chatendednotificationsub]}>"};
+		var _swiftRefreshInterval = <{$_refreshInterval}>;
+		var _swiftChatURL = "<{$_swiftPath}>visitor/index.php?/LiveChat/Chat/Loop/_chatSessionID=<{$_chatSessionID}>/_sessionID=<{$_sessionID}>/_filterDepartmentID=<{$_filterDepartmentID}>";
+		var _swiftMessageURL = "<{$_swiftPath}>visitor/index.php?/LiveChat/Chat/SubmitMessage/<{$_chatSessionID}>/<{$_sessionID}>";
+		var _swiftChatEndURL = "<{$_swiftPath}>visitor/index.php?/LiveChat/Chat/End/<{$_chatSessionID}>/<{$_sessionID}>";
+		var _swiftChatSurvey = "<{$_swiftPath}>visitor/index.php?/LiveChat/Chat/Survey/<{$_chatSessionID}>/<{$_sessionID}>";
+		var _swiftChatEmailURL = "<{$_swiftPath}>visitor/index.php?/LiveChat/Chat/SendEmail/<{$_chatSessionID}>/<{$_sessionID}>";
+		var _swiftChatPrintURL = "<{$_swiftPath}>visitor/index.php?/LiveChat/Chat/PrintChat/<{$_chatSessionID}>/<{$_sessionID}>";
+		var _userFullName = "<{$_userFullName}>";
+		var _swiftDisplayTimestamps = "<{$_settings[livechat_timestamps]}>";
+		var datePickerDefaults = {showOn: "both", buttonImage: "<{$_themePath}>images/icon_calendar.svg", changeMonth: true, changeYear: true, buttonImageOnly: true, dateFormat: '<{if $_settings[dt_caltype] == 'us'}>mm/dd/yy<{else}>dd/mm/yy<{/if}>'};
+		</script>
+
+		<link rel="stylesheet" type="text/css" media="all" href="<{$_baseName}><{$_templateGroupPrefix}>/Core/Default/Compressor/css" />
+		<script type="text/javascript" src="<{$_baseName}><{$_templateGroupPrefix}>/Core/Default/Compressor/js"></script>
+		<script language="Javascript" type="text/javascript">
+		<{$_jsInitPayload}>
+		</script>
+		<{if $_inChat == true || $_chatLanding == true}>
+		<script type="text/javascript">
+			if (_isInline != '1')
+			{
+				window.onbeforeunload = LiveChatBeforeUnload;
+			}
+		</script>
+		<{/if}>
+
+		<{if $_hasFootprints == false}>
+			<script type="text/javascript">
+				var swiftuniqueid = '<{$_uniqueID}>';
+			</script>
+			<script type="text/javascript" src="<{$_swiftPath}>visitor/index.php?<{$_templateGroupPrefix}>/LiveChat/HTML/InsertFootprint"></script>
+		<{/if}>
+	</head>
+
+	<body class="chatbodymain" onload="<{if $_inChat == true}>OnChatLoaded();<{else}>OnLoaded();<{/if}>">
+
+			<div id="soundcontainer"></div>
+		<div id="main" class="chatview">
+			<div id="topbanner"><div class="topbannerchat"><img src="<{$_headerImageSC}>" alt="Kayako logo" id="logo" /></div><div id="topbanneravatarcontainer"><img src="<{$_themePath}>images/space.gif" id="topbanneravatar" border="0" /></div></div>
+			<div id="chattoptoolbar">
+				<span id="chattoptoolbarrightarea">
+				<span id="chattoptoolbarrightareainset">
+				<{if $_displayLanguageSelection == true}>
+				<{$_language[languagefield]}></span>
+					<select class="swiftselect" name="languageid" id="languageid" onchange="javascript: LanguageSwitch(true);">
+					<{foreach key=_languageID item=_languageItem from=$_languageContainer}>
+					<{if $_languageItem[isenabled] == '1'}>
+					<option value="<{$_languageID}>"<{if $_activeLanguageID == $_languageID}> selected<{/if}>><{$_languageItem[title]}></option>
+					<{/if}>
+					<{/foreach}>
+					</select>
+				<{elseif $_displayClockTicker == true}>
+				<div id="chattoptoolbarrightclockticker">00:00</div></span>
+				<{else}>
+				<div id="chattoptoolbarrightclockticker">&nbsp;</div></span>
+				<{/if}>
+				</span>
+
+				<ul id="chattoptoolbarlinklist"><{if $_isInline == false}><li><a id="chattoptoolbarcloselink" href="#" onclick="javascript: CloseChat();" title="<{$_language[close]}>"><i class="fa fa-times-circle" aria-hidden="true"></i> <{$_language[close]}></a></li><{/if}><li id="chattoptoolbarprint"><a id="chattoptoolbarprintlink" href="#" onclick="javascript: PrintChat();" title="<{$_language[lcprint]}>"><{$_language[lcprint]}></a></li><li id="chattoptoolbaremail"><a id="chattoptoolbaremaillink" href="#" onclick="javascript: EmailChat();" title="<{$_language[lcemail]}>"><{$_language[lcemail]}></a></li><li id="chattoptoolbarsoundon"><a id="chattoptoolbarsoundonlink" href="#" onclick="javascript: SwitchSoundOff();" title="<{$_language[lcsoundon]}>"><{$_language[lcsoundon]}></a></li><li id="chattoptoolbarsoundoff"><a id="chattoptoolbarsoundofflink" href="#" onclick="javascript: SwitchSoundOn();" title="<{$_language[lcsoundoff]}>"><{$_language[lcsoundoff]}></a></li></ul>
+			</div>
+
+			<div id="sendemailcontainer">
+			<form name="chatsendemailform" method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/LiveChat/Chat/SendEmail" target="_top" onsubmit="return ValidateChatSendEmailForm();">
+			<table width="100%"  border="0" cellspacing="1" cellpadding="2">
+				<tr>
+					<td align="left" valign="middle" colspan="2"><{$_language[chatsendemaildesc]}></td>
+				</tr>
+				<tr>
+					<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldemail]}></td>
+					<td align="left" valign="middle"><input type="text" name="email" id="chatsendemail" class="swifttext" value="<{$_email}>"></td>
+				</tr>
+				<tr>
+					<td class="fieldtitle" align="left" valign="middle">&nbsp;</td>
+					<td align="left" valign="middle"><input type="submit" class="rebuttonblue" value="<{$_language[send]}>" /> <input type="button" class="rebuttonred" onclick="javascript: CloseEmailDialog();" value="<{$_language[cancel]}>" /><div id="chatsendemailerror" class="errorrowhidden"><{$_language[requiredfieldempty]}></div><div id="chatsendemailinvaliderror" class="errorrowhidden"><{$_language[emailinvalid]}></div></td>
+				</tr>
+			</table>
+			</form>
+			</div>
+
+			<div id="maincore">
+
+			<div id="chatcore">
+				<!-- <div class="tabrow" id="leftloginsubscribeboxtabs"><a id="livechattab" href="#" class="atab atabbasic"><span class="tableftgap">&nbsp;</span><span class="tabbulk"><span class="tabtext"><{if $_promptType == 'call'}><{$_language[clicktocalltab]}><{elseif $_extendedPromptType == 'message'}><{$_language[leaveamessage]}><{else}><{$_language[livechat]}><{/if}><{if $_inChat == true}> &raquo; <{$_departmentBreadcrumb}><{/if}></span></span></a></div>-->
+				<div id="chatbox" class="switchingpanel active">
+
+				<!-- BEGIN DIALOG PROCESSING -->
+				<{foreach key=key item=_item from=$_errorContainer}>
+				<div class="dialogerror"><div class="dialogerrorsub"><div class="dialogerrorcontent"><{$_item[message]}></div></div></div>
+				<{/foreach}>
+				<{foreach key=key item=_item from=$_infoContainer}>
+				<div class="dialoginfo"><div class="dialoginfosub"><div class="dialoginfocontent"><{$_item[message]}></div></div></div>
+				<{/foreach}>
+
+]]></template>
+
+		<template name="chatfooter" date=""><![CDATA[
+					</div>
+				</div>
+			</div>
+			<{$_footerScript}>
+			<{if $_displayChatPostContainer == true}>
+			<div id="chatpostcontainer">
+				<form name="chatpostform" method="post" action="index.php" target="_top" onSubmit="return ProcessLiveChatSubmit();">
+				<div id="chatcontrolregion">
+					<div id="chatpostmsgwrap"><textarea name="msg" id="chatpostmsg" placeholder="<{$_language[pleasetypeyourquestion]}>" onKeyDown="return HandlePostEnter(event);" onKeyUp="return HandlePostKeyUp(event);" disabled="disabled"></textarea></div>
+					<button id="chatpostbutton" type="submit" name="Submit"></button>
+				</div>
+
+				</form>
+			</div>
+			<{/if}>
+			<div id="bottomfooter"><a href="https://www.gfi.com/helpdesk/?utm_source=<{$_requestURL}>&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" class="bottomfooterlink" target="_blank" rel="noopener noreferrer"><{$_poweredByNotice}></a></div>
+		</div>
+	</body>
+
+</html>]]></template>
+
+		<template name="chatdepartmentlist" date="">
+
+			<configgrouping name="HttpSecuritySettings_Rest-Transaction">
+				<!-- Set the value of X-XSS-Protection header. Empty value will disable this header. The default value stops some browsers from loading pages when they detect reflected cross-site scripting attacks -->
+				<property name="X-XSS-ProtectionHeader" value="1; mode=block"/>
+			</configgrouping>
+
+			<![CDATA[<select name="departmentid" class="swiftselect" onchange="javascript:RenderCustomfields(<{$_proactive}>);">
+<{foreach key=key item=_item from=$_departmentStatusContainer[online]}>
+<option <{if $_setDepartmentID == $_item[departmentid]}> selected="selected" <{/if}> value='<{$_item[departmentid]}>' class='deponline'><{$_item[displaytitle]}> - <{$_language[online]}></option>
+<{/foreach}>
+<{foreach key=key item=_item from=$_departmentStatusContainer[offline]}>
+<option <{if $_setDepartmentID == $_item[departmentid]}> selected="selected" <{/if}> value='<{$_item[departmentid]}>' class='depoffline'><{$_item[displaytitle]}> - <{$_language[offline]}></option>
+<{/foreach}>
+</select>]]></template>
+
+		<template name="chatlanding" date=""><![CDATA[<{RenderTemplate name="chatheader"}>
+<form name="chatform" id="chatform" method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/LiveChat/Chat/Start/_departmentID=<{$_setDepartmentID}>/_proactive=<{$_proactive}>" target="_top" enctype="multipart/form-data" onsubmit="return ValidateChatForm(false);">
+<{if $_promptType == 'call'}><{$_language[livechatheadercall]}><{else}><{$_language[livechatheader]}><{/if}><br /><br />
+<table width="100%"  border="0" cellspacing="1" cellpadding="2">
+	<tr>
+		<td width="100" class="fieldtitle" align="left" valign="middle"><{$_language[fielddepartment]}></td>
+		<td width="" align="left" valign="middle"><{RenderTemplate name="chatdepartmentlist"}></td>
+	</tr>
+	<tr>
+		<td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+		<td>&nbsp;</td>
+	</tr>
+	<{if $_getFullName == ""}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldfullname]}></td>
+		<td align="left" valign="middle"><input type="text" name="fullname" id="chatfullname" class="swifttext required" value="<{$_fullName}>"></td>
+	</tr>
+	<{/if}>
+	<{if $_getEmail == ""}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldemail]}></td>
+		<td align="left" valign="middle"><input type="text" name="email" id="chatemail" class="swifttext required email" value="<{$_email}>"></td>
+	</tr>
+	<{/if}>
+	<{if $_promptType == 'call'}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldphone]}></td>
+		<td><select name="countrycode" class="swiftselect required"><{foreach key=key item=_item from=$_countryList}><option value="<{$_item[value]}>"<{if $_item[selected] == true}> selected<{/if}>><{$_item[title]}></option><{/foreach}></select></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle">&nbsp;</td>
+		<td><input type="text" name="phonenumber" id="phonenumber" class="swifttext required" value="" /></td>
+	</tr>
+	<{/if}>
+	<{if $_getSubject == ""}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldchatsubject]}></td>
+		<td align="left" valign="middle"><textarea name="subject" id="chatsubject" class="swifttextwide" rows="4" cols="30" maxlength="255"><{$_subject}></textarea></td>
+	</tr>
+	<{/if}>
+	<{if $_canCaptcha == true}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="top"><{$_language[fieldcaptcha]}></td>
+		<td align="left" valign="middle">
+			<{$_captchaHTML}>
+			<{if $_captchaError == true}><label for="captcha" generated="true" class="error"><{$_language[errcaptchainvalid]}></label><{/if}>
+			<br>
+		</td>
+	</tr>
+	<{/if}>
+	<tr>
+		<td></td>
+		<td><label> <input name="registrationconsent" type="checkbox" required/> <{$_language[fieldregpolicytext]}> <a href="<{$_registrationPolicyURL}>" target="_blank"> <{$_language[fieldregpolicyurl]}> </a></label></td>
+	</tr>
+	</table>
+	<{RenderTemplate name="customfields"}>
+	<table width="100%"  border="0" cellspacing="1" cellpadding="2">
+	<tr>
+		<td width="100" class="fieldtitle" align="left" valign="middle">&nbsp;</td>
+		<td align="left" valign="middle"><input type="submit" class="rebuttonblue" value="<{if $_promptType == 'call'}><{$_language[callme]}><{else}><{$_language[buttonstartchat]}><{/if}>" /></td>
+	</tr>
+	<tr>
+		<td colspan="2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2"><div id="chaterror" class="errorrowhidden"><{$_language[requiredfieldempty]}></div><div id="chatemailerror" class="errorrowhidden"><{$_language[emailinvalid]}></div></td>
+	</tr>
+</table>
+<{if $_getFullName != ""}><input type="hidden" name="fullname" value="<{$_getFullName}>"><{/if}>
+<{if $_getEmail != ""}><input type="hidden" name="email" value="<{$_getEmail}>"><{/if}>
+<{if $_getUserID != ""}><input type="hidden" name="userid" value="<{$_getUserID}>"><{/if}>
+<input type="hidden" name="sessionid" value="<{$_getSessionID}>">
+<input type="hidden" name="prompttype" value="<{$_promptType}>">
+<input type="hidden" name="filterdepartmentid" value="<{$_filterDepartmentID}>">
+</form>
+<{RenderTemplate name="chatfooter"}>]]></template>
+
+		<template name="chatcore" date=""><![CDATA[<{RenderTemplate name="chatheader"}>
+<div id="chatcontentcontainer">
+</div>
+
+<div id="chatstatuswrapper">
+<div id="chatstatusbar" class="chatstatusbarhidden">
+</div>
+</div>
+
+
+<{RenderTemplate name="chatfooter"}>]]></template>
+
+		<template name="leavemessage" date=""><![CDATA[<{RenderTemplate name="chatheader"}>
+<form name="messageform" id="messageform" method="post" action="<{$_swiftPath}>visitor/index.php?/LiveChat/Chat/MessageSubmit/_sessionID=<{$_getSessionID}>" target="_top" onsubmit="return ValidateChatForm(true);">
+<{$_language[leavemessageheader]}><br /><br />
+<table width="100%" border="0" cellspacing="3" cellpadding="2">
+	<tr>
+		<td width="100" class="fieldtitle" align="left" valign="middle"><{$_language[fielddepartment]}></td>
+		<td width="" align="left" valign="middle"><{RenderTemplate name="chatdepartmentlist"}></td>
+	</tr>
+	<tr>
+		<td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+		<td>&nbsp;</td>
+	</tr>
+	<{if $_getFullName == ""}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldfullname]}></td>
+		<td align="left" valign="middle"><input type="text" name="fullname" id="chatfullname" class="swifttext required" value="<{$_fullName}>"></td>
+	</tr>
+	<{/if}>
+	<{if $_getEmail == ""}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldemail]}></td>
+		<td align="left" valign="middle"><input type="text" name="email" id="chatemail" class="swifttext required email" value="<{$_email}>"></td>
+	</tr>
+	<{/if}>
+	<{if $_getSubject == ""}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldsubject]}></td>
+		<td align="left" valign="middle"><input type="text" name="subject" id="chatsubject" class="swifttextwide required" value="<{$_subject}>"></td>
+	</tr>
+	<{/if}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="top"><{$_language[fieldmessage]}></td>
+		<td align="left" valign="middle"><textarea name="message" id="chatmessage" class="swifttextareawide required" rows="7" cols="30"><{$_message}></textarea></td>
+	</tr>
+	<{if $_canCaptcha == true}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="top"><{$_language[fieldcaptcha]}></td>
+		<td align="left" valign="middle">
+			<{$_captchaHTML}>
+			<{if $_captchaError == true}><label for="captcha" generated="true" class="error"><{$_language[errcaptchainvalid]}></label><{/if}>
+			<br>
+		</td>
+	</tr>
+	<{/if}>
+	<tr>
+		<td></td>
+		<td><label> <input name="registrationconsent" type="checkbox" required/> <{$_language[fieldregpolicytext]}> <a href="<{$_registrationPolicyURL}>" target="_blank"> <{$_language[fieldregpolicyurl]}> </a></label></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle">&nbsp;</td>
+		<td align="left" valign="middle"><input type="submit" class="rebuttonblue" value="<{$_language[send]}>" /><div id="chaterror" class="errorrowhidden"><{$_language[requiredfieldempty]}></div><div id="chatemailerror" class="errorrowhidden"><{$_language[emailinvalid]}></div></td>
+		<script type="text/javascript">
+            $(window).on('beforeunload', function () {
+            $("input[type=submit], input[type=button]").prop("disabled", "disabled");
+            });
+        </script>
+	</tr>
+	<tr>
+		<td colspan="2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2"></td>
+	</tr>
+</table>
+<{if $_getFullName != ""}><input type="hidden" name="fullname" value="<{$_getFullName}>"><{/if}>
+<{if $_getEmail != ""}><input type="hidden" name="email" value="<{$_getEmail}>"><{/if}>
+<{if $_getSubject != ""}><input type="hidden" name="subject" value="<{$_getSubject}>"><{/if}>
+<{if $_getUserID != ""}><input type="hidden" name="userid" value="<{$_getUserID}>"><{/if}>
+<input type="hidden" name="sessionid" value="<{$_getSessionID}>">
+<input type="hidden" name="filterdepartmentid" value="<{$_filterDepartmentID}>">
+</form>
+<{RenderTemplate name="chatfooter"}>]]></template>
+
+		<template name="leavemessageconfirmation" date=""><![CDATA[<{RenderTemplate name="chatheader"}>
+<{$_language[leavemessageconfirmheader]}><br /><br />
+<table width="100%" border="0" cellspacing="3" cellpadding="2">
+	<tr>
+		<td width="100" class="fieldtitle" align="left" valign="middle"><{$_language[fielddepartment]}></td>
+		<td width="" align="left" valign="middle"><{$_messageDepartmentTitle}></td>
+	</tr>
+	<tr>
+		<td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldfullname]}></td>
+		<td align="left" valign="middle"><{$_messageFullName}></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldemail]}></td>
+		<td align="left" valign="middle"><{$_messageEmail}></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldsubject]}></td>
+		<td align="left" valign="middle"><{$_messageSubject}></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="top"><{$_language[fieldmessage]}></td>
+		<td align="left" valign="middle"><{$_messageContents}></td>
+	</tr>
+</table>
+<{RenderTemplate name="chatfooter"}>]]></template>
+
+		<template name="chatsurvey" date=""><![CDATA[<{RenderTemplate name="chatheader"}>
+<script type="text/javascript">
+$(function () {
+	$('input.rating').rating();
+});
+</script>
+<form name="surveyform" id="surveyform" method="post" action="<{$_swiftPath}>visitor/index.php?/LiveChat/Chat/SurveySubmit/<{$_chatSessionID}>/<{$_sessionID}>/" target="_top" onsubmit="return ValidateSurveyForm();">
+<{$_language[surveyheader]}><br /><br />
+<table width="100%" border="0" cellspacing="3" cellpadding="2">
+	<tr>
+		<td width="100" class="fieldtitle" align="left" valign="middle"><{$_language[fielddepartment]}></td>
+		<td width="" align="left" valign="middle"><{$_surveyDepartmentTitle}></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldrating]}></td>
+		<td align="left" valign="middle"><input name="messagerating" type="radio" class="rating {split:2}" value="0.5" /> <input name="messagerating" type="radio" class="rating {split:2}" value="1" /> <input name="messagerating" type="radio" class="rating {split:2}" value="1.5" /> <input name="messagerating" type="radio" class="rating {split:2}" value="2" /> <input name="messagerating" type="radio" class="rating {split:2}" value="2.5" /> <input name="messagerating" type="radio" class="rating {split:2}" value="3" /> <input name="messagerating" type="radio" class="rating {split:2}" value="3.5" /> <input name="messagerating" type="radio" class="rating {split:2}" value="4" /> <input name="messagerating" type="radio" class="rating {split:2}" value="4.5" /> <input name="messagerating" type="radio" class="rating {split:2}" value="5" /></td>
+	</tr>
+	<{foreach key=_ratingID item=_chatRating from=$_chatRatingContainer}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_chatRating[ratingtitle]}></td>
+		<td>
+			<{for name=_ratingScale from=1 to=$_chatRating[ratingscale]}>
+			<input name="rating[<{$_ratingID}>]" type="radio" class="rating" value="<{$_ratingScale}>" <{if $_chatRating[isdisabled] == true}> disabled="disabled" <{/if}><{if $_chatRating[result] == '$_ratingScale'}> checked="checked"<{/if}> /><{/for}>
+		</td>
+	</tr>
+	<{/foreach}>
+	<{if $_getFullName == ""}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldfullname]}></td>
+		<td align="left" valign="middle"><input type="text" name="fullname" id="chatfullname" class="swifttext" value="<{$_fullName}>"></td>
+	</tr>
+	<{/if}>
+	<{if $_getEmail == ""}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldemail]}></td>
+		<td align="left" valign="middle"><input type="text" name="email" id="chatemail" class="swifttext" value="<{$_email}>"></td>
+	</tr>
+	<{/if}>
+	<tr>
+		<td class="fieldtitle" align="left" valign="top"><{$_language[fieldcomments]}></td>
+		<td align="left" valign="middle"><textarea name="message" id="chatmessage" class="swifttextareawide" rows="5" cols="30"><{$_message}></textarea></td>
+	</tr>
+	</table>
+	<{RenderTemplate name="customfields"}>
+	<table width="100%"  border="0" cellspacing="1" cellpadding="2">
+	<tr>
+		<td width="100" class="fieldtitle" align="left" valign="middle">&nbsp;</td>
+		<td align="left" valign="middle"><input type="submit" class="rebuttonblue" value="<{$_language[send]}>" /><div id="chaterror" class="errorrowhidden"><{$_language[requiredfieldempty]}></div><div id="chatemailerror" class="errorrowhidden"><{$_language[emailinvalid]}></div></td>
+	</tr>
+</table>
+<{if $_getFullName != ""}><input type="hidden" name="fullname" value="<{$_getFullName}>"><{/if}>
+<{if $_getEmail != ""}><input type="hidden" name="email" value="<{$_getEmail}>"><{/if}>
+<{if $_getSubject != ""}><input type="hidden" name="subject" value="<{$_getSubject}>"><{/if}>
+<{if $_getUserID != ""}><input type="hidden" name="userid" value="<{$_getUserID}>"><{/if}>
+<input type="hidden" name="sessionid" value="<{$_sessionID}>">
+<input type="hidden" name="departmentid" value="<{$_departmentID}>">
+</form>
+<{RenderTemplate name="chatfooter"}>]]></template>
+
+		<template name="chatsurveyconfirmation" date=""><![CDATA[<{RenderTemplate name="chatheader"}>
+<script type="text/javascript" language="Javascript">
+$(function(){
+	$('input.rating').rating();
+});
+
+</script>
+<{$_language[surveyconfirmheader]}><br /><br />
+<table width="100%" border="0" cellspacing="3" cellpadding="2">
+	<tr>
+		<td width="100" class="fieldtitle" align="left" valign="middle"><{$_language[fielddepartment]}></td>
+		<td width="" align="left" valign="middle"><{$_surveyDepartmentTitle}></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldrating]}></td>
+		<td align="left" valign="middle" style="vertical-align:middle !important"><input name="messagerating" type="radio" class="rating {split:2}" value="0.5" disabled="disabled"<{if $_messageRating == '0.5'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="1" disabled="disabled"<{if $_messageRating == '1'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="1.5" disabled="disabled"<{if $_messageRating == '1.5'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="2" disabled="disabled"<{if $_messageRating == '2'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="2.5" disabled="disabled"<{if $_messageRating == '2.5'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="3" disabled="disabled"<{if $_messageRating == '3'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="3.5" disabled="disabled"<{if $_messageRating == '3.5'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="4" disabled="disabled"<{if $_messageRating == '4'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="4.5" disabled="disabled"<{if $_messageRating == '4.5'}> checked="checked"<{/if}> /> <input name="messagerating" type="radio" class="rating {split:2}" value="5" disabled="disabled"<{if $_messageRating == '5'}> checked="checked"<{/if}> /></td>
+	</tr>
+	<tr>
+		<{foreach key=_ratingID item=_chatRating from=$_chatRatingContainer}>
+			<td class="fieldtitle" align="left" valign="middle"><{$_chatRating[ratingtitle]}></td>
+			<td align="left" valign="middle" style="vertical-align:middle !important">
+				<{for name=_ratingScale from=1 to=$_chatRating[ratingscale]}>
+					<input name="rating[<{$_ratingID}>]" type="radio" class="rating" value="<{$_ratingScale}>" disabled="disabled"<{if $_chatRating[result] == '$_ratingScale'}> checked="checked"<{/if}> />
+				<{/for}>
+			</td>
+		<{/foreach}>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldfullname]}></td>
+		<td align="left" valign="middle"><{$_surveyFullName}></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="middle"><{$_language[fieldemail]}></td>
+		<td align="left" valign="middle"><{$_surveyEmail}></td>
+	</tr>
+	<tr>
+		<td class="fieldtitle" align="left" valign="top"><{$_language[fieldcomments]}></td>
+		<td align="left" valign="middle"><{$_surveyComments}></td>
+	</tr>
+</table>
+<{RenderTemplate name="chatfooter"}>]]></template>
+
+		<template name="livechat_email_text"><![CDATA[<{$_emailNotes}>
+<{$_language[fielddepartment]}> <{$_chatDepartment}>
+<{$_language[fieldfullname]}> <{$_chatFullName}>
+<{$_language[fieldemail]}> <{$_chatEmail}>
+<{$_language[fieldchatsubject]}> <{$_chatSubject}>
+<{$_language[fieldchatstaff]}> <{$_chatStaff}>
+------------------------------------------------------
+<{foreach key=key item=_item from=$_chatConversation}>
+<{if $_settings[livechat_timestamps] == true}><{$_item[timestamp]}> <{/if}><{if $_item[msgtype] == 'system'}> * <{$_item[message]}><{else}><{$_item[name]}>: <{$_item[message]}><{/if}>
+<{/foreach}>
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_swiftPath}>
+]]></template>
+
+		<template name="livechat_email_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="3"><{$_emailNotesHTML}><br />
+<b><{$_language[fielddepartment]}></b> <{$_chatDepartment}><br />
+<b><{$_language[fieldfullname]}></b> <{$_chatFullName}><br />
+<b><{$_language[fieldemail]}></b> <{$_chatEmail}><br />
+<b><{$_language[fieldchatsubject]}></b> <{$_chatSubject}><br />
+<b><{$_language[fieldchatstaff]}></b> <{$_chatStaff}><br />
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{foreach key=key item=_item from=$_chatConversation}>
+<{if $_settings[livechat_timestamps] == true}><{$_item[timestamp]}> <{/if}><font color="<{if $_item[msgtype] == 'client'}>blue<{elseif $_item[msgtype] == 'staff'}>red<{else}>green<{/if}>"><{if $_item[msgtype] == 'system'}><b><{$_item[messagehtml]}></b></font><{else}><{$_item[name]}>:</font> <{$_item[messagehtml]}><{/if}><br />
+<{/foreach}>
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_swiftPath}>" target="_blank"><{$_swiftPath}></a><br />
+</font>]]></template>
+		<template name="printchat"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=<{$_language[charset]}>" />
+
+    <title><{$_companyName}> - <{$_poweredByNotice}></title>
+    <meta name="KEYWORDS" content="Home" />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="icon" href="<{$_swiftPath}>favicon.ico" type="image/x-icon"/>
+	<script language="Javascript" type="text/javascript">
+	var _themePath = "<{$_themePath}>";
+	var _swiftPath = "<{$_swiftPath}>";
+	var _baseName = "<{$_baseName}>";
+	</script>
+
+	<link rel="stylesheet" type="text/css" media="all" href="<{$_baseName}><{$_templateGroupPrefix}>/Core/Default/Compressor/css" />
+	<script type="text/javascript" src="<{$_baseName}><{$_templateGroupPrefix}>/Core/Default/Compressor/js"></script>
+	<script language="Javascript" type="text/javascript">
+	<{$_jsInitPayload}>
+	</script>
+  </head>
+
+
+  <body style="background-image: none;" onload="javascript: window.print();">
+
+    <div id="main">
+
+      <div id="topbanner"><img src="<{$_headerImageSC}>" alt="Kayako logo" id="logo" /></div>
+	  <div id="printcontent">
+		<b><{$_language[fielddepartment]}></b> <{$_chatDepartment}><br />
+		<b><{$_language[fieldfullname]}></b> <{$_chatFullName}><br />
+		<b><{$_language[fieldemail]}></b> <{$_chatEmail}><br />
+		<b><{$_language[fieldchatsubject]}></b> <{$_chatSubject}><br />
+		<b><{$_language[fieldchatstaff]}></b> <{$_chatStaff}><br />
+		<HR class="chatprinthr" />
+		<{foreach key=key item=_item from=$_chatConversation}>
+        <{if $_settings[livechat_timestamps] == true}><{$_item[timestamp]}> <{/if}><font color="<{if $_item[msgtype] == 'client'}>blue<{elseif $_item[msgtype] == 'staff'}>red<{else}>green<{/if}>"><{if $_item[msgtype] == 'system'}><b><{$_item[messagehtml]}></b></font><{else}><{$_item[name]}>:</font> <{$_item[messagehtml]}><{/if}><br />
+        <{/foreach}>
+		<HR class="chatprinthr" />
+		<{$_language[supportcenterfield]}> <a href="<{$_swiftPath}>" target="_blank"><{$_swiftPath}></a><br />
+	</div>
+	</div>
+</body>
+</html>
+]]></template>
+	</category>
+</swifttemplate>

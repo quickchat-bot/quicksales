@@ -1,0 +1,167 @@
+.outermostcontainer {
+	/*display: table;*/
+	width: 100%;
+	/*min-width: 1278px;*/
+}
+.mainnav {
+	/*min-width: 1040px;*/
+	/*display: table-row;*/
+	width: 100%;
+}
+
+/* -- Submenu Wrapper --*/
+.topmenulinksdiv {
+    font-size: 14px;
+    padding: 0 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #D1D5D7;
+    box-shadow: 0 1px 3px 0 rgba(45,49,56,0.09);
+}
+
+.topmenulinksdiv:before,.topmenulinksdiv:after {content: " ";display: table;}
+.topmenulinksdiv:after {clear: both;}
+.topmenulinksdiv {*zoom: 1;}
+
+/* -- Submenu Link --*/
+.topnavmenuitem {
+	cursor: pointer;
+	float: left;
+	margin: 8px 1px;
+	padding: 4px 15px;
+	background-color: transparent;
+	color: #40364d;
+	border-radius: 4px;
+}
+
+.topnavmenuitem:hover {
+	background-color: #F7F8F9;
+}
+
+.topnavmenuitem img, .topnavselmenuitem img {
+	margin-left: 4px;
+	margin-top: -1px;
+}
+
+/* -- Selected Sub Menu --*/
+.topnavselmenuitem {
+	cursor: pointer;
+	float: left;
+	margin: 8px 1px;
+	padding: 4px 15px;
+	color: #4EAFCB;
+	background-color: #F7F8F9;
+	border-radius: 4px;
+	font-weight: 600;
+}
+
+.topnavmenuitem #itemspanleft,
+.topnavmenuitem #itemspanright {
+	display: none;
+}
+
+.menusectionextender {
+	margin-top: 3px;
+	float: right;
+}
+
+/*-- Main nav wrapper --*/
+.menusectiondefault {
+	cursor: pointer;
+	background-color: #40364D;
+}
+
+.remenusectiondefault, .remenusectionwinapp, .remenusection1, .remenusection2, .remenusection3, .remenusection4 {
+	float: left;
+	text-align: center;
+	width: inherit !important;
+}
+
+.remenusectiondefault {
+	max-width: 150px;
+}
+
+/* clearfix */
+.menusectiondefault:before,.menusectiondefault:after {content: " ";display: table;}
+.menusectiondefault:after {clear: both;}
+.menusectiondefault {*zoom: 1;}
+
+
+/*-- Main nav text links --*/
+.menutext {
+	font-size: 14px;
+	padding: 4px 10px;
+	color: #dadfe7;
+	margin: 8px 1px;
+	border-radius: 4px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 102px;
+	}
+
+/*-- Main nav selected states --*/
+.remenusection1 .menutext,.remenusection2 .menutext,.remenusection3 .menutext,.remenusection4 .menutext{
+	background-color: #231D2A;
+	color: #fff;
+	font-weight: normal !important;
+	padding: 4px 10px;
+	position: relative;
+}
+
+.remenusection1 .menutext::after,
+.remenusection2 .menutext::after,
+.remenusection3 .menutext::after,
+.remenusection4 .menutext::after{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -9px;
+	left: 42%;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #fff;
+}
+
+/*-- Main nav hover --*/
+
+.menutext:hover {
+	color: #fff;
+}
+
+.remenulinks {
+	font-size: 13px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+
+.remenusection1, .remenusection2, .remenusection3, .remenusection4 {
+	color: #fff;
+	cursor: pointer;
+}
+
+.remenuline1, .remenuline2, .remenuline3, .remenuline4 {
+	display: block;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.remenuline1,.remenuline2,.remenuline3,.remenuline4 {
+	display: none;
+}
+
+#menulinkwindow {
+	display: inline;
+}
+
+#menulinkwindow img {
+	margin-left: 4px;
+}
+
+#menulinkholder{
+	font-size: 12px;
+    margin-left: 6px;
+}

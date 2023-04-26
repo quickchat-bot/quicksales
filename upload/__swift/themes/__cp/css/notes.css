@@ -1,0 +1,150 @@
+.swifttextareanotes1 {
+	background: #ffefbb;
+	color: #3c3e43;
+	padding: 2px 2px 2px 2px;
+	vertical-align: middle;
+}
+
+.swifttextareanotes2 {
+	background: #e5c7ec;
+	color: #3c3e43;
+	padding: 2px 2px 2px 2px;
+	vertical-align: middle;
+}
+
+.swifttextareanotes3 {
+	background: #c7d6ec;
+	color: #3c3e43;
+	padding: 2px 2px 2px 2px;
+	vertical-align: middle;
+}
+
+.swifttextareanotes4 {
+	background: #e5ecc7;
+	color: #3c3e43;
+	padding: 2px 2px 2px 2px;
+	vertical-align: middle;
+}
+
+.swifttextareanotes5 {
+	background: #ecc9c9;
+	color: #3c3e43;
+	padding: 2px 2px 2px 2px;
+	vertical-align: middle;
+}
+
+div.bubble {
+	width: auto;
+    margin-bottom: 10px;
+    transition: all 0.25s ease;
+    background-color: #fff;
+}
+
+div.bubble blockquote {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #c9c2c1;
+	background-color: #fff;
+}
+
+div.bubble blockquote p {
+	margin: 10px;
+	padding: 0px;
+}
+
+div.bubble cite {
+	position: relative;
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+	font-style: normal;
+	z-index: 100;
+}
+
+div.bubble div.notebubble {
+	color: #3c3e43;
+	margin-bottom: 0px;
+	background-color: #ffefbb;
+	z-index: 99;
+	border-radius: 3px;
+    padding: 4px 8px 10px;
+}
+
+div.bubble div.notebubble blockquote {
+	border: 0;
+	background-color: transparent;
+}
+
+div.bubble div.notebubble blockquote p {
+	margin: 16px 28px;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 960px;
+}
+
+div.bubble cite.tip {
+	position: relative;
+	margin: 0px;
+	padding-left: 5px;
+	/*padding-top: 18px;*/
+	top: 10px;
+}
+
+div#note2.bubble div.notebubble {
+	color: #3c3e43;
+	background-color: #e5c7ec;
+}
+
+div#note2.bubble cite.tip {
+}
+
+.tip strong {
+	font-weight: normal;
+}
+
+div#note3.bubble div.notebubble {
+	color: #3c3e43;
+	background-color: #c7d6ec;
+}
+
+div#note3.bubble cite.tip {
+}
+
+div#note4.bubble div.notebubble {
+	color: #3c3e43;
+	background-color: #e5ecc7;
+}
+
+div#note4.bubble cite.tip {
+}
+
+div#note5.bubble div.notebubble {
+	color: #3c3e43;
+	background-color: #ecc9c9;
+}
+
+div#note5.bubble cite.tip {
+}
+
+#fudonote_container {
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+cite .fa{
+    color: rgba(4, 0, 0, 0.52);
+    font-size: 16px;
+}
+
+cite strong{
+	font-size: 13px;
+    line-height: 16px;
+    color: #838D93;
+}
+
+cite strong b{
+	color: #2d3138 !important;
+    margin-left: 2px;
+}
+
+#usernotescontainerdiv{
+  margin: 0px 15px 30px;
+}

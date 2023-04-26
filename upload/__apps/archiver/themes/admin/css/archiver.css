@@ -1,0 +1,308 @@
+.arprinthr {
+    margin-bottom: 6px;
+    height: 1px;
+    border: none;
+    color: #cfcfcf;
+    background-color: #cfcfcf;
+    size: 100px
+}
+
+.arprintgridtabletitlerow {
+    background: #c0c0c0;
+    color: #3c3e43;
+    font-size: 11px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #d9cebc;
+    padding: 5px;
+}
+
+.arprintgridrow2 {
+    background-color: #ffffff;
+    color: #3c3e43;
+    font-size: 11px;
+}
+
+.arprintgridrow1 {
+    background-color: #e3e3e3;
+    color: #3c3e43;
+    font-size: 11px;
+}
+
+.arschartscontainer {
+    overflow: hidden;
+}
+
+.arschartcontainer {
+    float: left;
+}
+
+.arschartcontainer > div {
+    padding: 3px;
+}
+
+.arschartcontainer object {
+    border: 1px solid #ddd;
+}
+
+.arstablecontainer {
+    padding: 3px;
+}
+
+.arstable {
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.arstable td {
+    padding: 6px;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd !important;
+    text-align: center;
+}
+
+.arstable tfoot tr:last-child td,
+.arstable tbody tr:last-child td {
+    border-bottom: none !important;
+}
+
+.artdtitle, .artdytitle {
+    background-color: #f7f6f6;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.artdytitle {
+    background: #fdfcfc !important;
+    border-right: 1px solid #ddd;
+}
+
+tfoot td {
+    BORDER-TOP: 1px SOLID #a1a1a1;
+    BORDER-BOTTOM: none;
+}
+
+tfoot .artdytitle {
+    BACKGROUND: #f7f6f6 !important;
+    BORDER-BOTTOM: none;
+}
+
+.arsheading {
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+    color: #4a4949;
+}
+
+.arsline {
+    border: 0px;
+    height: 1px;
+    background: #ddd;
+}
+
+.arhistorycontainer {
+    padding-bottom: 12px;
+}
+
+.arhistorycontentsborder {
+    padding: 3px;
+    background: #ecebeb;
+}
+
+.arhistorycontents {
+    border: 1px solid #a1a1a1;
+    background: #ffffff;
+    padding: 12px;
+}
+
+.arhistorycontents .title {
+    color: #006699;
+    font-size: 14px;
+}
+
+.arhistorycontents .avatarcontainer {
+    border: 1px solid #8b8f90;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding: 5px 7px 5px 6px;
+    -moz-box-shadow: 2px 2px 2px #f3f3f3;
+    -webkit-box-shadow: 2px 2px 2px #f3f3f3;
+    box-shadow: 2px 2px 2px #f3f3f3;
+    width: 50px;
+    float: left;
+    background: #ffffff;
+}
+
+.arhistorycontents .avatar {
+    border: 1px solid #f0f0f1;
+    padding: 0;
+    margin: 0;
+}
+
+.arhistorycontents .basetitle {
+    margin-left: 75px;
+}
+
+.arhistorycontents .date {
+    color: #3c3e43;
+    font-size: 11px;
+}
+
+.arhistorycontents .code {
+    color: #3c3e43;
+    background: #eff3f6;
+    font-size: 12px;
+    border: 1px dashed #d3d8db;
+    padding: 4px;
+    margin-top: 6px;
+}
+
+.ardesccontainer {
+    padding-bottom: 8px;
+    overflow: auto;
+    position: relative;
+}
+
+.ardescpointer {
+    width: 19px;
+    height: 10px;
+    position: absolute;
+    left: 40px;
+    top: 1px;
+    opacity: 0.3;
+    background: url('%themepath%images/reportdescpointer.gif');
+}
+
+.ardesccontentsborder {
+    margin-top: 10px;
+    padding: 3px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+}
+
+.ardesccontents {
+    background: #ffffff;
+    padding: 8px;
+}
+
+.ardesccontents .title {
+    color: #006699;
+    font-size: 16px;
+}
+
+.ardesccontents .text {
+    color: #3c3e43;
+    font-size: 14px;
+}
+
+.ardesccontents .code {
+    padding: 10px 20px;
+    background-color: #f0f0f0 !important;
+    box-shadow: 0 0 0 rgba(64, 54, 77, 0.5);
+    border-radius: 3px;
+    color: #2d3138;
+    font-size: 14px;
+}
+
+/* Paginator */
+.gridnavpageselected a:hover, .gridnavpage a:hover {
+    border: 1px solid #4eafcb !important;
+}
+
+.gridnavpageselected a, .gridnavpage a {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1px 6px;
+    color: #666 !important;
+    font-size: 13px;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.gridnavpageselected, .gridnavpage {
+    background-color: white;
+}
+
+td.gridsearchborder {
+    overflow-x: auto;
+    display: block;
+}
+
+.gridsearchborder .tablerow1 .gridtabletitlerow {
+    background-color: #fff !important;
+}
+
+#View_Template_tab_general .gridsearchborder {
+    padding-top: 0px;
+}
+
+.gridsearchborder table {
+    border-spacing: 0px !important;
+}
+
+.gridsearchborder table td {
+    padding: 10px 6px 10px 6px !important;
+    border-bottom: 1px solid #f5f5f5;
+    max-width: 300px;
+}
+
+.gridsearchborder table td:last-child {
+    padding: 10px 15px 10px 5px !important;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.searchrow2 {
+    background-color: #fff !important;
+    color: #2d3138;
+    font-size: 13px;
+}
+
+.searchrow1 {
+    background-color: #fcfcfc !important;
+    color: #2d3138;
+    font-size: 13px;
+}
+
+.searchrow1:hover, .searchrow2:hover {
+    background-color: #f0f0f0 !important;
+}
+
+.bigtext {
+    font-size: 1.4em;
+}
+
+.settabletitlerowmain2 {
+    color: #6c6e73;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.ui-dialog-content.ui-widget-content {
+    overflow-y: hidden !important;
+}
+
+.ar-warning {
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    margin-top: -10px;
+    border-top: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.ar-warning h2, .text.warning {
+    color: orangered;
+}
+
+.ar-warning .title {
+    font-weight: bold;
+    color: steelblue;
+}
+
+.dialogtext a {
+    color: white;
+}
+
+.dialogtext a:hover {
+    color: lightblue;
+}

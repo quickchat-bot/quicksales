@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="24px" viewBox="0 0 21 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>GFIHelpDesk-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="21" height="24"></rect>
+        <linearGradient x1="50%" y1="100%" x2="53.8808594%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#0B1245" offset="0%"></stop>
+            <stop stop-color="#0079C1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="67.6621094%" y1="60.1125943%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="27.8138543%" y1="88.8316338%" x2="-5.20581604%" y2="-3.90151855%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="43.8724249%" y1="50%" x2="0%" y2="5.56574551%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="GFIHelpDesk-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)" id="Rectangle-4">
+                <g transform="translate(-3.000000, -1.000000)">
+                    <rect fill="#004F80" x="0" y="0.489523824" width="24.4761912" height="24.4761912"></rect>
+                    <rect fill="url(#linearGradient-3)" transform="translate(12.238096, 12.727619) scale(1, -1) translate(-12.238096, -12.727619) " x="0" y="0.489523824" width="24.4761912" height="24.4761912"></rect>
+                    <path d="M-6.45594689e-14,0.489523824 C2.54370729,-1.28818704 10.7024377,2.79117816 24.4761912,12.7276194 L24.4761912,24.965715 L-6.45594689e-14,24.965715 C0.0250179819,8.71581871 0.0250179819,0.55708831 -6.45594689e-14,0.489523824 Z" fill="url(#linearGradient-4)" opacity="0.1"></path>
+                    <path d="M-2.21767049e-14,7.71501976 C4.97841905,10.8209146 10.6998881,16.5711463 17.1644071,24.965715 L-2.21767049e-14,25.1256246 C0.0250179819,13.5861192 0.0250179819,7.78258425 -2.21767049e-14,7.71501976 Z" fill="#FFFFFF" opacity="0.05"></path>
+                    <path d="M1.03493603e-14,0.489523824 L17.7048433,0.489523824 C8.34614319,11.3210352 2.44452874,16.7368121 1.03493603e-14,16.7368547 C0.00605530772,16.7583244 0.00605530772,11.3425475 1.03493603e-14,0.489523824 Z" fill="url(#linearGradient-5)" opacity="0.25"></path>
+                    <path d="M4.78486084,12.1598569 C18.0076857,12.5626198 24.598781,12.7568305 24.5581467,12.742489 C9.39892281,19.6883253 4.77593439,25.5160013 4.78501735,25.5482697 C4.79107266,25.569782 4.79102049,21.1069777 4.78486084,12.1598569 Z" fill="url(#linearGradient-6)" opacity="0.2" transform="translate(14.671597, 18.854102) scale(-1, -1) translate(-14.671597, -18.854102) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

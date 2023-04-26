@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<swiftsettings>
+	<group name="settings_tr" app="troubleshooter" ishidden="0">
+		<setting name="tr_displayviews" type="yesno">
+			<defaultvalue>0</defaultvalue>
+		</setting>
+	</group>
+</swiftsettings>

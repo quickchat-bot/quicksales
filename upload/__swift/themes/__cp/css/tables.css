@@ -1,0 +1,345 @@
+.settabletitlerow {
+	background: #fff URL('%themepath%images/settabletitlebg.gif') REPEAT-X top left;
+	color: #3c3e43;
+	font-size: 13px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.settabletitlerowhover {
+	background: #80a9ea URL('%themepath%images/settabletitlebghover.gif') REPEAT-X top left;
+	color: red;
+	font-size: 13px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.settabletitlerowmain {
+	background: #80a9ea URL('%themepath%images/settabletitlebghover.gif') REPEAT-X top left;
+	color: #3c3e43;
+	font-size: 13px;
+	border-top: 1px solid #d0eef8;
+	border-bottom: 1px solid #99d9ee;
+	padding: 5px;
+}
+
+.tabletitlerowtitle{
+    padding: 25px 10px 15px;
+    font-weight: 300;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #838d94;
+    letter-spacing: 0.92px;
+    line-height: 16px;
+}
+
+#View_Tickettabs .tabletitlerowtitle{
+	padding: 10px 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#View_Tickettabs .tabletitlerowtitle label{
+	text-transform: uppercase;
+}
+
+#fudonote_container .tabletitle {
+	vertical-align: unset !important;
+}
+
+.tabletitlerowtitle img[src*="doublearrows"] {
+	 display: none;
+}
+
+.settabletitlerowmain2 img#imgpermstaff_tickets,
+.settabletitlerowmain2 img#imgpermstaff_livechat,
+.settabletitlerowmain2 img#imgpermstaff_reports,
+.settabletitlerowmain2 img#imgpermstaff_troubleshooter,
+.settabletitlerowmain2 img#imgpermstaff_news,
+.settabletitlerowmain2 img#imgpermstaff_knowledgebase,
+.settabletitlerowmain2 img#imgpermstaff_base,
+.settabletitlerowmain2 img#imgpermuser_tickets,
+.settabletitlerowmain2 img#imgpermuser_core,
+.settabletitlerowmain2 img#imgpermuser_news {
+	display: none;
+}
+
+.settabletitlerowmain2 {
+	color: #3c3e43;
+	font-size: 13px;
+	border-top: 1px solid #fff;
+	padding: 5px;
+}
+
+/*-- deleting icons --*/
+
+#View_Schedule_tab_general .tablerow1 img {
+	top: 0;
+}
+
+#View_Schedule_tab_general .settabletitlerowmain2 .slascheduletitledefault img,
+#View_Schedule_tab_general .settabletitlerowmain2 .slascheduletitleopen img{
+	display: inherit;
+}
+
+.settabletitlerowmain3 {
+	background: URL('%themepath%images/settabletitlebgdisabled.gif') REPEAT-X top left;
+	color: #aeaeae;
+	font-size: 13px;
+	border-top: 1px solid #aeaeae;
+	border-bottom: 1px solid #aeaeae;
+	padding: 5px;
+}
+
+.settabletitlerowmain4 {
+	background: URL('%themepath%images/settabletitlebgsel.gif') REPEAT-X top left;
+	color: #3c3e43;
+	font-size: 13px;
+	border-top: 1px solid #c0eae0;
+	border-bottom: 1px solid #c0eae0;
+	padding: 5px;
+}
+
+.settabletitlerowmain5 {
+	color: #3c3e43;
+	font-size: 13px;
+	padding: 15px 5px 10px 5px;
+	background-color: #fff;
+	/*border-bottom: 1px solid #ddd;*/
+	white-space: nowrap;
+}
+
+.row1 {
+	background-color: #fcfbf4;
+	color: #3c3e43;
+	font-size: 13px;
+}
+
+.errorrow .tabletitle, .errordiv .tabletitle{
+	color: #ff4b4b !important;
+	font-size: 13px;
+    padding: 6px 5px 6px 12px;
+}
+
+.errorrow .tabletitle:before, .errordiv .tabletitle:before{
+	content: "*";
+	color: #ff4b4b !important;
+}
+.errorrow, .errordiv {
+/*    -moz-border-radius: 4px 4px 4px 4px;
+    background-color: rgba(173, 72, 88, 0.1);
+    color: #3c3e43;
+    font-size: 13px;
+    padding: 6px 5px 6px 12px;*/
+}
+
+
+.errordiv {
+	padding: 6px;
+	margin: 3px;
+}
+
+.row2 {
+	background-color: #fff;
+	color: #3c3e43;
+	font-size: 13px;
+}
+
+.retborder {
+	background-color: #fff;
+	color: #3c3e43;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.tablerow1 {
+	color: #3c3e43;
+	font-size: 13px;
+	padding: 5px 12px 5px 12px;
+	vertical-align: top;
+}
+
+#View_Diagnosticsform .tablerow1{
+	border-bottom: 1px solid #f5f5f5;
+}
+
+#View_Diagnosticsform .tabledescription{
+	line-height: 16px !important;
+	word-wrap: break-word;
+}
+
+.tablerow1 a {
+	color: #2d3138 !important;
+}
+
+.tablerow1_tr, .tablerowbase_tr {
+	background-color: #fff;
+}
+
+.tablerow1_tr:last-child .tablerow1{
+	border-bottom: none !important;
+}
+
+/*-- Import Manage Page --*/
+#View_Import_tab_general .tablerow1_tr .tabletitle {
+	border-bottom: 1px solid #eee;
+}
+
+/*-- Import Manage Page --*/
+#View_Import_tab_general .tablerow1_tr:last-child .tabletitle {
+	border-bottom: none;
+}
+
+.itemrow, .itemrowunlinked {
+	padding: 4px 0 2px 10px;
+	font-size: 13px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.tablerow1 .mce-tinymce iframe {
+	min-height: 175px;
+}
+
+.tablerow1_tr, .tablerowbase_tr
+{
+	BACKGROUND-COLOR: #ffffff;
+}
+
+.itemrowunlinked {
+	cursor: default;
+}
+
+.hlrow, itemrow:hover {
+	padding: 2px;
+	background-color: #fcfaf5;
+	color: red;
+	font-size: 13px;
+	border-bottom: 1px solid #efe8da;
+	border-top: 1px solid #fff;
+	cursor: pointer;
+}
+
+.tabletitle {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2d3138;
+    font-weight: 600;
+    margin: 2px 0px 0px 0px;
+}
+
+.tabletitle input[type=radio] {
+    margin: 8px;
+}
+
+#recurrencecontainer_none{
+	font-size: 13px;
+}
+
+.tabledescriptionext {
+	color: #313131;
+    font-size: 12px;
+    padding: 0px 20px 20px 20px;
+}
+
+.tabledescriptionbig {
+	color: #313131;
+	font-size: 13px;
+}
+
+.tabledescription {
+	font-size: 13px;
+    font-weight: 400;
+    color: #585858;
+    display: block;
+    max-width: 740px;
+    line-height: 22px;
+}
+
+.tabledescription a{
+	color: #4eafcb !important;
+}
+
+.tabledescription:not(:first-child){
+	margin-bottom: 30px;
+    max-width: 550px;
+    margin-top: 8px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.ui-dialog .tabledescription:not(:first-child){
+	margin-bottom: 4px !important;
+    margin-left: 2px;
+    max-width: 99% !important;
+    margin-top: 5px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-right: 10px;
+ }
+
+#View_Tickettabs .tabletitle {
+	vertical-align: baseline;
+    vertical-align: -webkit-baseline-middle;
+}
+
+#View_Tickettabs .tabledescriptionbig{
+	font-size: 13px;
+	color: #5a5a5a;
+    padding-left: 3px;
+}
+
+.rowerror {
+	background-color: #e05353;
+	color: #fff;
+	font-size: 13px;
+}
+
+.rowhighlightpointer {
+	background: #EFF8FA;
+	color: red;
+	font-size: 13px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.rowhighlight {
+	background: #eff8fa !important;
+	color: #000;
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+.rowhighlight a{
+	color: #000;
+	font-size: 15px;
+	max-width: 250px;
+	letter-spacing: -0.21px;
+    vertical-align: middle;
+}
+
+.rowselect {
+	background: #EFF8FA;
+	color: #3c3e43;
+	vertical-align: middle;
+	font-size: 13px;
+}
+
+.rowselect a{
+	font-size: 15px;
+	letter-spacing: -0.21px;
+	color: #000 !important;
+}
+
+#View_Report2_tab_general{
+	overflow: hidden;
+}
+
+#reportviewportcontainer {
+	overflow: auto;
+}

@@ -1,0 +1,29 @@
+.searchrule1 {
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	color: #3c3e43;
+	border-radius: 6px;
+	margin-bottom: 4px;
+	padding: 10px;
+}
+
+.searchrule0 {
+	border: 1px solid #ddd;
+	color: #3c3e43;
+	border-radius: 6px;
+	margin-bottom: 4px;
+	padding: 10px;
+}
+
+.searchrule2 {
+	border: 1px solid #ddd;
+	color: #3c3e43;
+	border-radius: 6px;
+	margin-bottom: 4px;
+	padding: 10px;
+}
+
+.searchrule1 img,.searchrule2 img,.searchrule0 img {
+	position:relative;
+	top:-6px;
+	}

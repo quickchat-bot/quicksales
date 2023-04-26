@@ -1,0 +1,48 @@
+{
+    "name": "horde/exception",
+    "description": "Exception handler library",
+    "type": "library",
+    "homepage": "https://www.horde.org/libraries/Horde_Exception",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Chuck Hagenbuch",
+            "email": "chuck@horde.org",
+            "role": "lead"
+        },
+        {
+            "name": "Jan Schneider",
+            "email": "jan@horde.org",
+            "role": "lead"
+        },
+        {
+            "name": "Michael Slusarz",
+            "email": "slusarz@horde.org",
+            "role": "developer"
+        }
+    ],
+    "version": "2.0.9",
+    "time": "2017-11-11",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "https://pear.horde.org"
+        }
+    ],
+    "require": {
+        "php": "^5.3 || ^7",
+        "pear-pear.horde.org/Horde_Translation": "^2.2"
+    },
+    "suggest": {
+        "pear-pear.horde.org/Horde_Test": "^2.1"
+    },
+    "replace": {
+        "pear-pear.horde.org/Horde_Exception": "2.*",
+        "pear-horde/Horde_Exception": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Horde_Exception": "lib/"
+        }
+    }
+}

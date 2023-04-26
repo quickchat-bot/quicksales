@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swiftlanguage>
+	<title>English (U.S.)</title>
+	<isocode>en-us</isocode>
+	<author>Kayako</author>
+	<charset>UTF-8</charset>
+	<textdirection>LTR</textdirection>
+	<version>0</version>
+	<flagicon>{$themepath}us.gif</flagicon>
+	<app>troubleshooter</app>
+
+	<phrase section="troubleshooter" code="troubleshooter">Troubleshooter</phrase>
+	<phrase section="troubleshooter" code="troubleshooterdesc">We can help you resolve common problems and issues by walking you through a few questions. Begin by choosing a troubleshooter category.</phrase>
+	<phrase section="troubleshooter" code="trattachments">Attachments</phrase>
+	<phrase section="troubleshooter" code="trnextsteps">Next Steps</phrase>
+	<phrase section="troubleshooter" code="trnext"><![CDATA[Next]]></phrase>
+	<phrase section="troubleshooter" code="trback"><![CDATA[Back]]></phrase>
+	<phrase section="troubleshooter" code="trcategoryviews"> (%d Views)</phrase>
+</swiftlanguage>

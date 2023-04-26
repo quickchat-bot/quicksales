@@ -1,0 +1,12 @@
+td.wf_cf_title {
+    font-size: large;
+    font-weight: bold;
+    color: #666666;
+    padding: 5px 12px 5px 12px;
+}
+
+td.wf_cf_description {
+    font-size: medium;
+    color: #aaaaaa;
+    padding: 5px 12px 5px 12px;
+}

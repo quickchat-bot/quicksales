@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.5/phpunit.xsd"
+         backupGlobals="false"
+         bootstrap="autoload.php"
+         colors="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         verbose="true">
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">../__swift</directory>
+            <directory suffix=".php">../__apps</directory>
+            <exclude>
+                <directory>../__swift/cache</directory>
+                <directory>../__swift/files</directory>
+                <directory>../__swift/locale</directory>
+                <directory>../__swift/logs</directory>
+                <directory>../__swift/thirdparty</directory>
+                <directory>../*/*/locale</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+    <testsuites>
+        <testsuite name="Swift Test Suite">
+            <directory>./__swift</directory>
+            <directory>./__apps</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

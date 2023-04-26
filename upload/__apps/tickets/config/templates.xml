@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swifttemplate>
+	<title>Default</title>
+	<author>Kayako</author>
+	<version>0</version>
+
+	<category name="template_tickets" app="tickets" icon="icon_tickets.gif">
+		<template name="submitticket_departments"><![CDATA[
+		<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/Submit/RenderForm" name="SubmitTicketForm">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[selectdepartmenttitle]}></div>
+
+			<div class="boxcontainercontent">
+			<{$_language[selectdepartmentdesc]}><br /><br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[submitticketdepartments]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<{foreach key=key item=_item from=$_departmentMap}>
+				<tr>
+					<td width="16" align="left" valign="middle" class="zebraodd"><input type="radio" name="departmentid" onclick="javascript: ToggleTicketSubDepartments('<{$_item[departmentid]}>');" value="<{$_item[departmentid]}>" id="department_<{$_item[departmentid]}>"<{if $_selectedDepartmentID == $_item[departmentid]}> checked<{/if}> /></td>
+					<td><label for="department_<{$_item[departmentid]}>"><{$_item[title_language]}></label></td>
+				</tr>
+					<{foreach key=keysub item=_subItem from=$_item[subdepartments]}>
+					<tr class="ticketsubdepartments_<{$_item[departmentid]}>" style="<{if $_displayParentDepartmentID != $_item[departmentid]}>display: none;<{/if}>">
+						<td width="16" align="left" valign="middle" class="zebraodd"><input type="radio" name="departmentid" value="<{$_subItem[departmentid]}>" id="department_<{$_subItem[departmentid]}>"<{if $_selectedDepartmentID == $_subItem[departmentid]}> checked<{/if}> /></td>
+						<td><div class="ticketsubdepartment"><label for="department_<{$_subItem[departmentid]}>"><{$_subItem[title_language]}></label></div></td>
+					</tr>
+					<{/foreach}>
+				<{/foreach}>
+			</table>
+			<br />
+
+			<div class="subcontent"><input class="rebuttonwide2" value="<{$_language[buttonnext]}>" type="submit" name="button" /></div>
+
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="submitticket_form"><![CDATA[
+		<form class="submitticketform" method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/Submit/Confirmation" name="SubmitTicketForm" enctype="multipart/form-data" autocomplete="off">
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[yourticketdetailstitle]}></div>
+
+			<div class="boxcontainercontent">
+			<{$_language[yourticketdetailsdesc]}><br /><br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[generalinformation]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<div class="form-table">
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<{if $_noContactDetails != '1'}>
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[st_fullname]}></td>
+					<td><input name="ticketfullname" maxlength="120" type="text" size="25" class="swifttextlarge" value="<{$_ticketFullName}>" /></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[st_email]}></td>
+					<td><input name="ticketemail" type="text" size="25" class="swifttextlarge" value="<{$_ticketEmail}>" /></td>
+				</tr>
+				<{/if}>
+				<{if $_promptTicketType == '1'}>
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[st_type]}></td>
+					<td><select name="tickettypeid" class="swiftselect"><{foreach key=key item=_item from=$_ticketTypeContainer}>
+					<option value="<{$_item[tickettypeid]}>"<{if $_item[selected] == true}> selected="selected"<{/if}>><{escape $_item[title]}></option>
+					<{/foreach}></select></td>
+				</tr>
+				<{/if}>
+				<{if $_promptTicketPriority == '1'}>
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[st_priority]}></td>
+					<td><select name="ticketpriorityid" class="swiftselect"><{foreach key=key item=_item from=$_ticketPriorityContainer}>
+					<option value="<{$_item[priorityid]}>"<{if $_item[selected] == true}> selected="selected"<{/if}>><{escape $_item[title]}></option>
+					<{/foreach}></select></td>
+				</tr>
+				<{/if}>
+			</table>
+			</div>
+			<br />
+			<{RenderTemplate name="customfields"}>
+
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[st_messagedetails]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<div class="form-table">
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+	
+			</table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[st_subject]}></td>
+					<td width=""><input name="ticketsubject" type="text" size="45" class="swifttextwide" id="ticketsubject" value="<{$_ticketSubject}>" /></br></br></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="left" valign="top"><textarea name="ticketmessage" id="ticketmessage" cols="25" rows="15" class="swifttextareawide"><{$_ticketMessage}></textarea><div id="irscontainer" class="irscontainer"><div class="irsui"><div class="irstitle"><{$_language[irsloading]}></div></div></div></td>
+				</tr>
+			</table>
+			</div>
+			<br />
+
+			<{if $_settings[t_csccrecipients] == '1'}>
+            <table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[st_recipients]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+            <div class="subcontent"><{$_language[st_recipientsdesc]}></div>
+            <table width="100%" border="0" cellspacing="1" cellpadding="4">
+            <tr>
+                <td width="200" align="left" valign="middle" class="zebraodd"><{$_language[st_cc]}></td>
+                <td width=""><input name="ticketcc" type="text" size="25" class="swifttextwide" id="ticketcc" value="<{$_ticketCC}>" /></td>
+            </tr>
+            </table>
+			<br />
+			<{/if}>
+
+			<{if $_settings[t_cenattach] == '1'}>
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[uploadfiles]}> [<div class="addplus"><a href="#ticketattachmentcontainer" onclick="javascript: AddTicketFile();"><{$_language[taddfile]}></a></div>]</th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<div id="ticketattachmenterror" class="error"><{$_language[requiredfieldempty]}></div>
+			<div id="ticketattachmentcontainer">
+			</div>
+			<{/if}>
+
+			<br />
+			<label> <input name="registrationconsent" type="checkbox"/> <{$_language[regpolicytext]}> <a href="<{$_registrationPolicyURL}>" target="_blank"> <{$_language[regpolicyurl]}> </a></label>
+
+			<br />
+
+			<{if $_canCaptcha == true}>
+			<table class="hlineheader"><tr><th rowspan="2"><{$_language[verifyticketsubmission]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<{if  $_isRecaptcha == true}>
+			<div class="subcontent"><{$_language[recaptchadesc]}></div>
+			<{else}>
+			<div class="subcontent"><{$_language[captchadesc]}></div>
+			<{/if}>
+			<{$_captchaHTML}>
+			<br />
+			<{/if}>
+
+			<div class="subcontent"><input class="rebuttonwide2" value="<{$_language[buttonsubmit]}>" type="submit" name="button" /><input type="hidden" name="departmentid" value="<{$_departmentID}>" /><input type="hidden" name="_csrfhash" value="<{$_csrfhash}>" /></div>
+			<script type="text/javascript">
+                $(window).on('beforeunload', function () {
+                $("input[type=submit], input[type=button]").prop("disabled", "disabled");
+               });
+            </script>
+			<{if $_canIRS == true}>
+			<script type="text/javascript">
+			StartIRS();
+			</script>
+			<{/if}>
+			</div>
+			</div>
+		</form>]]></template>
+
+		<template name="submitticket_confirmation"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[ticketsubmittedtitle]}></div>
+
+			<div class="boxcontainercontent">
+			<{$_language[ticketsubmitteddesc]}><br /><br />
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[generalinformation]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td width="200" align="left" valign="middle" class="zebraodd"><{$_language[st_ticketid]}></td>
+					<td>#<{$_ticketDisplayID}></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[st_fullname]}></td>
+					<td><{$_ticketFullName}></td>
+				</tr>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[st_email]}></td>
+					<td><{$_ticketEmail}></td>
+				</tr>
+				<{if $_ticketTypeTitle != ''}>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[st_type]}></td>
+					<td><{$_ticketTypeTitle}></td>
+				</tr>
+				<{/if}>
+				<{if $_ticketPriorityTitle != ''}>
+				<tr>
+					<td align="left" valign="middle" class="zebraodd"><{$_language[st_priority]}></td>
+					<td><{$_ticketPriorityTitle}></td>
+				</tr>
+				<{/if}>
+			</table>
+			<br />
+
+			<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[st_subjectconfirm]}><{$_ticketSubject}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+			<table width="100%" border="0" cellspacing="1" cellpadding="4">
+				<tr>
+					<td align="left" valign="top"><{$_ticketMessage}></td>
+				</tr>
+			</table>
+			<br />
+
+			<{if $_settings[t_csccrecipients] == '1' && $_CCEmailList}>
+		    <table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[st_recipients]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+            <table width="100%" border="0" cellspacing="1" cellpadding="4">
+            <tr>
+                <td width="200" align="left" valign="middle" class="zebraodd"><{$_language[st_cc]}></td>
+                <td>
+                  <{foreach from=$_CCEmailList item=_recipient}>
+                  <{$_recipient}><br />
+                  <{/foreach}>
+                  </td>
+            </tr>
+            </table>
+			<br />
+			<{/if}>
+
+			</div>
+			</div>
+			]]></template>
+
+		<template name="viewtickets_list"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{if $_resolvedTicketCount > 0 && $_showResolvedTickets == false}><div style="float: right"><div class="headerbutton" onclick="javascript:window.location.href = '<{$_baseName}><{$_templateGroupPrefix}>/Tickets/ViewList/Index/1';"><{$_language[viewresolvedt]}> (<{$_resolvedTicketCount}>)</div></div><{elseif $_showResolvedTickets == true}><div style="float: right"><div class="headerbutton" onclick="javascript:window.location.href = '<{$_baseName}><{$_templateGroupPrefix}>/Tickets/ViewList/Index/0';"><{$_language[hideresolvedt]}></div></div><{/if}><{$_language[ticketviewtickettitle]}></div>
+
+			<div class="boxcontainercontent search-results">
+
+				<table border="0" cellpadding="3" cellspacing="1" width="100%">
+					<thead>
+						<tr>
+						<td class="ticketlistheaderrow" align="left" valign="middle" width="150"><{$_language[tlticketid]}></td>
+						<td class="ticketlistheaderrow" align="center" valign="middle" width="200"><a href="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/ViewList/Sort/lastactivity/<{$_sortOrderFlip}>"><{$_language[tllastupdate]}>&nbsp;<{if $_sortBy == 'lastactivity'}><{if $_sortOrder == 'asc'}><img src="<{$_themePath}>images/sortasc.gif" border="0"/><{elseif $_sortOrder == 'desc'}><img src="<{$_themePath}>images/sortdesc.gif" border="0"/><{/if}><{/if}></a></td>
+						<td class="ticketlistheaderrow" align="center" valign="middle" width=""><a href="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/ViewList/Sort/lastreplier/<{$_sortOrderFlip}>"><{$_language[tllastreplier]}>&nbsp;<{if $_sortBy == 'lastreplier'}><{if $_sortOrder == 'asc'}><img src="<{$_themePath}>images/sortasc.gif" border="0"/><{elseif $_sortOrder == 'desc'}><img src="<{$_themePath}>images/sortdesc.gif" border="0"/><{/if}><{/if}></a></td>
+						<td class="ticketlistheaderrow" align="center" valign="middle" width="180"><a href="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/ViewList/Sort/department/<{$_sortOrderFlip}>"><{$_language[tldepartment]}>&nbsp;<{if $_sortBy == 'departmentid'}><{if $_sortOrder == 'asc'}><img src="<{$_themePath}>images/sortasc.gif" border="0"/><{elseif $_sortOrder == 'desc'}><img src="<{$_themePath}>images/sortdesc.gif" border="0"/><{/if}><{/if}></a></td>
+						<td class="ticketlistheaderrow" align="center" valign="middle" width="120"><a href="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/ViewList/Sort/type/<{$_sortOrderFlip}>"><{$_language[tltype]}>&nbsp;<{if $_sortBy == 'tickettypeid'}><{if $_sortOrder == 'asc'}><img src="<{$_themePath}>images/sortasc.gif" border="0"/><{elseif $_sortOrder == 'desc'}><img src="<{$_themePath}>images/sortdesc.gif" border="0"/><{/if}><{/if}></a></td>
+						<td class="ticketlistheaderrow" align="center" valign="middle" width="120"><a href="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/ViewList/Sort/status/<{$_sortOrderFlip}>"><{$_language[tlstatus]}>&nbsp;<{if $_sortBy == 'ticketstatusid'}><{if $_sortOrder == 'asc'}><img src="<{$_themePath}>images/sortasc.gif" border="0"/><{elseif $_sortOrder == 'desc'}><img src="<{$_themePath}>images/sortdesc.gif" border="0"/><{/if}><{/if}></a></td>
+						<td class="ticketlistheaderrow" align="center" valign="middle" width="120"><a href="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/ViewList/Sort/priority/<{$_sortOrderFlip}>"><{$_language[tlpriority]}>&nbsp;<{if $_sortBy == 'priorityid'}><{if $_sortOrder == 'asc'}><img src="<{$_themePath}>images/sortasc.gif" border="0"/><{elseif $_sortOrder == 'desc'}><img src="<{$_themePath}>images/sortdesc.gif" border="0"/><{/if}><{/if}></a></td>
+						</tr>
+					</thead>
+					<tbody>
+						<{foreach key=_ticketID item=_ticket from=$_ticketContainer}>
+						<tr class="ticketsubjectrow">
+						<td class="ticketlistsubject" align="left" valign="middle" colspan="7"><a href="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[ticketid]}>"><{$_ticket[subject]}></a></td>
+						</tr>
+						<tr class="ticketlistproperties">
+						<td class="ticketlistpropertiescontainer" data-label="<{$_language[tlticketid]}>" align="left" valign="middle"><{$_ticket[displayticketid]}></td>
+						<td class="ticketlistpropertiescontainer" data-label="<{$_language[tllastupdate]}>" align="center" valign="middle"><{$_ticket[lastactivity]}></td>
+						<td class="ticketlistpropertiescontainer" data-label="<{$_language[tllastreplier]}>" align="center" valign="middle"><{$_ticket[lastreplier]}></td>
+						<td class="ticketlistpropertiescontainer" data-label="<{$_language[tldepartment]}>" align="center" valign="middle"><{$_ticket[department]}></td>
+						<td class="ticketlistpropertiescontainer" data-label="<{$_language[tltype]}>" align="center" valign="middle"><{$_ticket[type]}></td>
+						<td class="ticketlistpropertiescontainer" data-label="<{$_language[tlstatus]}>" align="center" valign="middle"><span class="ticketStatusIndicator" style="background: <{$_ticket[statusbgcolor]}>;color: #FFFFFF;"><{$_ticket[status]}></span></td>
+						<td class="ticketlistpropertiescontainer" data-label="<{$_language[tlpriority]}>" align="center" valign="middle">
+							<{if $_ticket[prioritybgcolor] != ''}><span class="ticketStatusIndicator" style="background: <{$_ticket[prioritybgcolor]}>;color: #FFFFFF;"><{$_ticket[priority]}></span>
+							<{else}>
+							<{$_ticket[priority]}>
+							<{/if}>
+						</td>
+						</tr>
+						<tr class="ticketlistpropertiesdivider">
+						<td colspan="7">&nbsp;</td>
+						</tr>
+						<{/foreach}>
+					</tbody>
+				</table>
+
+			</div>
+			<div class="paginationcontainer">
+				<table border="0" cellpadding="3" cellspacing="1" class="paginationborder">
+					<tr><{$_paginationHTML}></tr>
+				</table>
+			</div>
+			</div>
+			]]></template>
+
+		<template name="viewticket"><![CDATA[
+			<script type="text/javascript">
+			$(function () {
+				<{$_ratingJSCode}>
+			});
+			</script>
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[ticketviewticketidtitle]}><{$_ticketContainer[displayticketid]}></div>
+
+			<div class="boxcontainercontenttight">
+
+				<form name="ticketpropertiesform" id="ticketpropertiesform" method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/Ticket/Update/<{$_ticketContainer[ticketid]}>" enctype="multipart/form-data">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody>
+
+				<tr>
+					<td>
+						<div class="ticketgeneralcontainer"><div class="ticketgeneraltitlecontainer"><!--<div class="ticketgeneraldepartment"><{$_ticketDepartmentFullTitle}></div>--><div class="ticketgeneraltitle"><{$_ticketContainer[subject]}></div></div><div class="ticketgeneralinfocontainer"><{$_language[vtcreated]}> <span id="createdat"><{$_ticketContainer[dateline]}></span>&nbsp;&nbsp;&nbsp;&nbsp;<{$_language[vtupdated]}> <span id="updatedat"><{$_ticketContainer[lastactivity]}></span></div>
+						<{if $_ticketRatingCount > 0}>
+						<div class="ticketratings">
+						<{foreach key=_ratingID item=_ticketRating from=$_ticketRatingContainer}>
+						<div class="ticketrating"><div class="ticketratingtitle"><{$_ticketRating[ratingtitle]}></div>
+						<{for name=_ratingScale from=1 to=$_ticketRating[ratingscale]}>
+						<input name="rating_<{$_ratingID}>_<{$_ticketContainer[ticketid]}>" type="radio" class="rating" value="<{$_ratingScale}>" <{if $_ticketRating[isdisabled] == true}> disabled="disabled" <{/if}><{if $_ticketRating[result] == '$_ratingScale'}> checked="checked"<{/if}> />
+						<{/for}>
+						</div>
+						<{/foreach}>
+						</div>
+						<{/if}>
+						</div>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<div class="ticketgeneralcontainer"><div style="background-color: <{$_ticketContainer[statusbgcolor]}>;" class="ticketgeneralproperties">
+
+						<div class="ticketgeneralpropertiesobject"><div class="ticketgeneralpropertiestitle"><{$_language[vtdepartment]}></div><div class="ticketgeneralpropertiescontent"><{$_ticketContainer[department]}></div></div>
+
+						<div class="ticketgeneralpropertiesdivider"><img border="0" align="middle" src="<{$_themePath}>images/ticketpropertiesdivider.png"></div>
+
+						<div class="ticketgeneralpropertiesobject"><div class="ticketgeneralpropertiestitle"><{$_language[vtowner]}></div><div class="ticketgeneralpropertiescontent"><{$_ticketContainer[owner]}></div></div>
+
+						<div class="ticketgeneralpropertiesdivider"><img border="0" align="middle" src="<{$_themePath}>images/ticketpropertiesdivider.png"></div>
+
+						<div class="ticketgeneralpropertiesobject"><div class="ticketgeneralpropertiestitle"><{$_language[vttype]}></div><div class="ticketgeneralpropertiescontent"><{$_ticketContainer[type]}></div></div>
+
+						<div class="ticketgeneralpropertiesdivider"><img border="0" align="middle" src="<{$_themePath}>images/ticketpropertiesdivider.png"></div>
+
+						<div class="ticketgeneralpropertiesobject"><div class="ticketgeneralpropertiestitle"><{$_language[vtstatus]}></div>
+						<{if $_canChangeTicketProperties != false}>
+						<div class="ticketgeneralpropertiesselect"><select class="swiftselect" name="ticketstatusid">
+						<{foreach key=_optionID item=_option from=$_ticketStatusContainer}>
+						<option value="<{$_option[value]}>"<{if $_option[selected] == true}> selected<{/if}>><{$_option[title]}></option>
+						<{/foreach}></select></div>
+						<{else}>
+						<div class="ticketgeneralpropertiescontent"><{$_ticketContainer[status]}></div>
+						<{/if}>
+						</div>
+
+						<div class="ticketgeneralpropertiesdivider"><img border="0" align="middle" src="<{$_themePath}>images/ticketpropertiesdivider.png"></div>
+
+						<div class="ticketgeneralpropertiesobject" style="background-color: <{$_ticketContainer[prioritybgcolor]}>;"><div class="ticketgeneralpropertiestitle"><{$_language[vtpriority]}></div>
+
+						<{if $_canChangeTicketProperties != false}>
+						<div class="ticketgeneralpropertiesselect"><select class="swiftselect" name="ticketpriorityid">
+						<{foreach key=_optionID item=_option from=$_ticketPriorityContainer}>
+						<option <{if $_option[value] == 0}> disabled<{/if}> value="<{$_option[value]}>"<{if $_option[selected] == true}> selected<{/if}>><{$_option[title]}></option>
+						<{/foreach}></select></div>
+						<{else}>
+						<div class="ticketgeneralpropertiescontent"><{$_ticketContainer[priority]}></div>
+						<{/if}>
+						</div>
+
+						<div class="ticketgeneralpropertiesdivider"><img border="0" align="middle" src="<{$_themePath}>images/ticketpropertiesdivider.png"></div>
+
+						</div></div>
+					</td>
+				</tr>
+
+				</tbody></table>
+
+				<div id="saveticketpropertiesbuttoncontainer">
+					<span id="cancelticketpropertiesbutton" class="rebuttonwide2 rebuttonwide2final" onclick="javascript: $('#customfieldchangednotice, #saveticketpropertiesbuttoncontainer').hide(); $('#ticketpropertiesform').trigger('reset');"><{$_language[cancel]}></span> <span id="saveticketpropertiesbutton" class="rebuttonwide2 rebuttonwide2final" onclick="javascript: $('#ticketpropertiesform').submit();"><{$_language[vtsavechanges]}></span>
+				</div>
+
+				<div class="viewticketcontentcontainer">
+					<div id="customfieldchangednotice" class="dialogerrorcontent"><{$_language[vtcustomfieldchangednotice]}></div>
+					<{RenderTemplate name="customfields"}>
+					<div id="customfieldrequirednotice" class="dialogerrorcontent"><{$_language[vtcustomfieldrequirednotice]}></div>
+				</div>
+				</form>
+
+				<br />
+				<{if count($_workFlows) > 0 }>
+					<div style='margin-left: 10px;margin-bottom:15px;'><{$_language[tworkflow]}></div>
+					<div>
+						<{foreach key=_workFlowID item=_workFlow from=$_workFlows}>
+							<div class="headerbutton" style=' background-image: linear-gradient(to bottom, #F4F4F4 0%, #fdfdfd 100%);' onclick="confirm('<{$_language[confirmworkflow]}> \'<{$_workFlow[title]}>\'?')? window.location.href = '<{$_workFlow[link]}>' : null;"><{$_workFlow[title]}></div>
+						<{/foreach}>
+					</div>
+					<br />
+					<br />
+					<br />
+				<{/if}>
+				<div id="addreplybutton">
+					<div class="headerbutton" onclick="javascript: if (!checkMandatoryCustomFields()) return false; disableCustomFields(); $('#replycontents').focus();"><{$_language[vtpostreply]}></div>
+				</div>
+
+				<div id="postreplycontainer" style="display: <{if $_expandPostReply === true}>block<{else}>none<{/if}>;">
+				<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/Ticket/Reply/<{$_ticketContainer[ticketid]}>" name="TicketReplyForm" enctype="multipart/form-data">
+					<div class="ticketpaddingcontainer">
+					<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[st_messagedetails]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+					<table width="100%" border="0" cellspacing="1" cellpadding="4">
+						<tr>
+							<td colspan="2" align="left" valign="top"><textarea name="replycontents" cols="25" rows="15" id="replycontents" class="swifttextareawide"></textarea></td>
+						</tr>
+					</table>
+					<br />
+
+					<{if $_settings[t_cenattach] == '1'}>
+					<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[uploadfiles]}> [<div class="addplus"><a href="#ticketattachmentcontainer" onclick="javascript: AddTicketFile();"><{$_language[taddfile]}></a></div>]</th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+					<div id="ticketattachmentcontainer">
+					</div>
+					<{/if}>
+					<br />
+
+					<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[buttonsend]}>" type="submit" name="button" /> <input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[cancel]}>" type="button" name="btncancel" onclick="javascript: enableCustomFields();"/></div>
+					</div>
+				</form>
+				</div>
+
+
+				<div class="ticketpostsholder">
+
+					<{foreach key=_ticketPostID item=_ticketPost from=$_ticketPostContainer}>
+					<div class="ticketpostcontainer">
+					   <div class="ticketpostbar">
+					      <div class="ticketpostavatar">
+					      	<{if $_ticketPost[avatar] != ''}>
+					         <div class="tpavatar"><img src="<{$_ticketPost[avatar]}>" align="absmiddle" border="0" width="42px;"/></div>
+					        <{else}>
+					      	<div class="tpavatar"><img src="<{$_themePath}>images/icon_defaultavatar.gif" align="absmiddle" border="0" width="42px;"/></div>
+					      	 <{/if}>
+					     	</div>
+					   </div>
+					   <div class="ticketpostcontents">
+					      <div class="ticketpostcontentsbar">
+					         <div class="ticketpostbarname"><{$_ticketPost[fullname]}></div>
+					         <{if $_ticketPost[designation] != ''}>
+					         <span class="ticketpostbardesignation">(<{$_ticketPost[designation]}>)</span>
+					         <{/if}>
+					         <span class="<{$_ticketPost[badgeclass]}>">
+					            <span class="tpbadgetext"><{$_ticketPost[badgetext]}></span>
+					         </span>
+					         <div class="ticketpostactions"><a onclick="javascript: QuoteTicketPost('<{$_ticketContainer[ticketid]}>', '<{$_ticketPost[ticketpostid]}>'); self.scrollTo(0, 0); return false;" class="ticketbarquote"><i class="fa fa-quote-right" aria-hidden="true"></i></a></div>
+					         
+					         <div class="ticketbarcontents"><{$_ticketPost[posttitle]}></div>
+					         <span class="ticketbardatefold"></span>
+					      </div>
+					      <div class="ticketpostcontentsdetails">
+					         <div class="ticketpostcontentsholder">
+					            <div class="ticketpostcontentsdetailscontainer"><{$_ticketPost[contents]}></div>
+					         </div>
+					         <{if $_ticketPost[hasattachments] == '1'}>
+					         <div class="ticketpostcontentsattachments">
+					            <{/if}>
+					            <{foreach key=_attachmentID item=_ticketAttachment from=$_ticketPost[attachments]}>
+					            <div class="ticketpostcontentsattachmentitem" onclick="javascript: PopupSmallWindow('<{$_ticketAttachment[link]}>');" style="background-image: URL('<{$_themePath}>images/<{$_ticketAttachment[icon]}>');">&nbsp;<{$_ticketAttachment[name]}> (<{$_ticketAttachment[size]}>)</div>
+					            <{/foreach}>
+					            <{if $_ticketPost[hasattachments] == '1'}>
+					         </div>
+					         <{/if}>
+					      </div>
+					      <!--<div class="ticketpostcontentsbottom"><span class="ticketpostbottomright">&nbsp;</span><div class="ticketpostbottomcontents"><{$_ticketPost[postfooter]}>&nbsp;</div></div>-->
+					   </div>
+					   <{if $_ticketPostRatingCount > 0 && $_ticketPost[creatorlabel] == 'staff'}>
+					      <div class="ticketpostbox">
+					         <{foreach key=_ratingID item=_ticketPostRating from=$_ticketPostRatingContainer}>
+					         <div class="ticketpostinfoitem">
+					            <div class="ticketpostinfoitemtitle"><{$_ticketPostRating[ratingtitle]}></div>
+					            <{for name=_ratingScale from=1 to=$_ticketPostRating[ratingscale]}>
+					            <input name="rating_<{$_ratingID}>_<{$_ticketPostID}>" type="radio" class="rating" value="<{$_ratingScale}>" <{if $_ticketPostRatingResults[$_ratingID][$_ticketPostID][isdisabled] == true}> disabled="disabled" <{/if}><{if $_ticketPostRatingResults[$_ratingID][$_ticketPostID][ratingresult] == '$_ratingScale'}> checked="checked"<{/if}> />
+					            <{/for}>
+					         </div>
+					         <{/foreach}>
+					      </div>
+					      <{/if}>
+					   <!--<div class="ticketpostbarbottom"><div class="ticketpostbottomcontents">&nbsp;&nbsp;</div></div>-->
+					   <div class="ticketpostclearer"></div>
+					</div>
+					<{/foreach}>
+
+				</div>
+
+			</div>
+			</div>
+			]]></template>
+
+		<template name="ticketsurvey"><![CDATA[
+			<script type="text/javascript">
+			$(function () {
+				$('input.rating').rating();
+			});
+			</script>
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[ticketsurveytickettitle]}><{$_ticketContainer[displayticketid]}></div>
+
+			<div class="boxcontainercontenttight">
+
+				<form name="ticketsurveyform" id="ticketsurveyform" method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Tickets/Survey/SurveySubmit/<{$_ticketContainer[ticketid]}>/<{$_ticketContainer[tickethash]}>">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody>
+				<tr>
+					<td>
+						<div class="ticketgeneralcontainer"><div class="ticketgeneraltitlecontainer"><div class="ticketgeneraldepartment"><{$_ticketDepartmentFullTitle}></div><div class="ticketgeneraltitle"><{$_ticketContainer[subject]}></div></div><div class="ticketgeneralinfocontainer"><{$_language[vtcreated]}> <{$_ticketContainer[dateline]}>&nbsp;&nbsp;&nbsp;&nbsp;<{$_language[vtupdated]}> <{$_ticketContainer[lastactivity]}></div></div>
+					</td>
+				</tr>
+				</tbody></table>
+
+				<div id="surveycontainer">
+					<div class="ticketpaddingcontainer">
+					<{$_language[surveydesc]}><br /><br />
+					<{if $_ticketRatingCount > 0}>
+					<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[st_yourfeedback]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+					<table width="100%" border="0" cellspacing="1" cellpadding="4">
+						<{foreach key=_ratingID item=_ticketRating from=$_ticketRatingContainer}>
+						<tr>
+							<td width="200" align="left" valign="middle" class="zebraodd"><{$_ticketRating[ratingtitle]}></td>
+							<td>
+								<{for name=_ratingScale from=1 to=$_ticketRating[ratingscale]}>
+								<input name="rating[<{$_ratingID}>]" type="radio" class="rating" value="<{$_ratingScale}>" <{if $_ticketRating[isdisabled] == true}> disabled="disabled" <{/if}><{if $_ticketRating[result] == '$_ratingScale'}> checked="checked"<{/if}> />
+								<{/for}>
+							</td>
+						</tr>
+						<{/foreach}>
+					</table>
+					<br />
+					<{/if}>
+
+					<table class="hlineheader"><tr><th rowspan="2" nowrap><{$_language[st_yourcomments]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table>
+					<table width="100%" border="0" cellspacing="1" cellpadding="4">
+						<tr>
+							<td colspan="2" align="left" valign="top"><textarea name="replycontents" cols="25" rows="5" id="replycontents" class="swifttextareawide"></textarea></td>
+						</tr>
+					</table>
+					<br />
+
+					<div class="subcontent"><input class="rebuttonwide2 rebuttonwide2final" value="<{$_language[buttonsend]}>" type="submit" name="button" /></div>
+					</div>
+				</div>
+				</form>
+
+
+			</div>
+			</div>
+			]]></template>
+
+		<template name="irssuggestions">
+			<![CDATA[
+<div class="irsui">
+	<div class="irstitle"><{$_language[irssuggestions]}></div>
+		<{if $_irsResults == true}>
+		<div class="irsdesc"><{$_language[irsdesc]}></div>
+		<HR class="irshr">
+
+		<{foreach key=_kbArticleID item=_knowledgebaseArticle from=$_knowledgebaseArticleContainer}>
+		<div class="kbarticlecontainer">
+		<div class="kbarticle"><a target="_blank" href="<{$_baseName}><{$_templateGroupPrefix}>/Knowledgebase/Article/View/<{$_knowledgebaseArticle[seosubject]|default:$_knowledgebaseArticle[kbarticleid]}>"><{$_knowledgebaseArticle[subject]}></a></div>
+		<div class="kbarticletext"><{$_knowledgebaseArticle[contentstext]}></div>
+		</div>
+		<{/foreach}>
+
+		<{else}>
+		  <HR class="irshr"><br />
+		  <div class="irsdesc"><{$_language[irsnoresults]}></div>
+		<{/if}>
+</div>]]></template>
+
+		<template name="email_surveytext"><![CDATA[<{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>,
+
+<{$_language[surveyintro]}>: <{$_ticket[subject]}> (<{$_ticket[displayticketid]}>)
+
+<{$_language[surveydescription1]}>
+
+<{$_language[surveydescription2]}>
+
+<{$_language[surveydescription3]}>
+
+<{$_language[surveycta]}><{$_basePath}><{$_templateGroupPrefix}>/Tickets/Survey/Index/<{$_ticket[displayticketid]}>/<{$_ticket[tickethash]}>
+
+<{$_language[surveysubfooter]}>
+
+<{$_language[surveyfooter]}>
+
+<{$_companyName}><{if $_ticketSignatureText != ""}>
+<{$_ticketSignatureText}><{/if}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_surveyhtml"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>,<br />
+<br />
+<{$_language[surveyintro]}>: <{$_ticket[subject]}> (<{$_ticket[displayticketid]}>)<br />
+<br />
+<{$_language[surveydescription1]}><br />
+<br />
+<{$_language[surveydescription2]}><br />
+<br />
+<{$_language[surveydescription3]}><br />
+<br />
+<{$_language[surveycta]}><a href="<{$_basePath}><{$_templateGroupPrefix}>/Tickets/Survey/Index/<{$_ticket[displayticketid]}>/<{$_ticket[tickethash]}>"><{$_basePath}><{$_templateGroupPrefix}>/Tickets/Survey/Index/<{$_ticket[ticketid]}>/<{$_ticket[tickethash]}></a><br />
+<br />
+<{$_language[surveysubfooter]}><br />
+<br />
+<{$_language[surveyfooter]}><br />
+<br />
+<{$_companyName}><{if $_ticketSignatureHTML != ""}><br /><{$_ticketSignatureHTML}><{/if}>
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_ticketautorespondertext"><![CDATA[<{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>,
+
+<{$_language[arintro]}>
+
+	<{$_language[articketid]}><{$_ticket[displayticketid]}>
+	<{$_language[arsubject]}><{$_ticket[subject]}>
+	<{$_language[ardepartment]}><{$_ticketDepartmentTitle}>
+	<{$_language[artype]}><{$_ticketTypeTitle}>
+	<{$_language[arstatus]}><{$_ticketStatusTitle}>
+	<{$_language[arpriority]}><{$_ticketPriorityTitle}>
+
+<{$_language[arsubfooter]}><{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}>
+
+<{$_language[arfooter]}>
+<{$_companyName}>
+<{if $_ticketSignatureText != ""}><{$_ticketSignatureText}><{/if}>
+------------------------------------------------------
+<{$_language[ticketsummary]}>:
+
+<{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>:
+<{$_ticketContentText}>
+
+--
+
+<{if isset($_newsContainer) && count($_newsContainer) > 0}>
+<{$_language[arnewsheader]}>:
+<{$_index=1}>
+<{foreach key=newsitemid item=_newsItem from=$_newsContainer}>
+<{$_index++}>. <{$_basePath}><{$_templateGroupPrefix}>/News/NewsItem/View/<{$_newsItem[newsitemid]}>/<{$_newsItem[urlextension]}>
+<{/foreach}><{/if}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_ticketautoresponderhtml"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>,<br />
+<br />
+<{$_language[arintro]}><br />
+<br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[articketid]}></b><{$_ticket[displayticketid]}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arsubject]}></b><{$_ticket[subject]}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[ardepartment]}></b><{$_ticketDepartmentTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[artype]}></b><{$_ticketTypeTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arstatus]}></b><{$_ticketStatusTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arpriority]}></b><{$_ticketPriorityTitle}><br />
+<br />
+<{$_language[arsubfooter]}><a href="<{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}></a><br />
+<br />
+<{$_language[arfooter]}><br />
+<br />
+<{$_companyName}><{if $_ticketSignatureHTML != ""}><br /><{$_ticketSignatureHTML}><br /><{/if}>
+--
+<br />
+<{$_language[ticketsummary]}>:
+<hr style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<b><{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>: </b><br><br><font face="Verdana, Arial, Helvetica" color="#222" size="2"><{$_ticketContent}></font>
+<br />
+<{if isset($_newsContainer) && count($_newsContainer) > 0}>
+<hr style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[arnewsheader]}>:
+<br><br><{$_index=1}>
+<{foreach key=newsitemid item=_newsItem from=$_newsContainer}>
+<b><{$_index++}>.&nbsp;<a class="newstitlelink" href="<{$_basePath}><{$_templateGroupPrefix}>/News/NewsItem/View/<{$_newsItem[newsitemid]}>/<{$_newsItem[urlextension]}>" title="<{$_newsItem[subject]}>"><{$_newsItem[subject]}></a>
+</b><br/>
+<{/foreach}><{/if}>
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_ticketautoclosependingtext"><![CDATA[<{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>,
+
+<{$_autoClosePendingIntro}>
+
+	<{$_language[articketid]}><{$_ticket[displayticketid]}>
+	<{$_language[arsubject]}><{$_ticket[subject]}>
+	<{$_language[ardepartment]}><{$_ticketDepartmentTitle}>
+	<{$_language[artype]}><{$_ticketTypeTitle}>
+	<{$_language[arstatus]}><{$_ticketStatusTitle}>
+	<{$_language[arpriority]}><{$_ticketPriorityTitle}>
+
+<{$_autoClosePendingSubFooter}><{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}>
+
+<{$_language[arfooter]}>
+
+<{$_companyName}><{if $_ticketSignatureText != ""}>
+<{$_ticketSignatureText}><{/if}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_ticketautoclosependinghtml"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>,<br />
+<br />
+<{$_autoClosePendingIntro}><br />
+<br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[articketid]}></b><{$_ticket[displayticketid]}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arsubject]}></b><{$_ticket[subject]}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[ardepartment]}></b><{$_ticketDepartmentTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[artype]}></b><{$_ticketTypeTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arstatus]}></b><{$_ticketStatusTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arpriority]}></b><{$_ticketPriorityTitle}><br />
+<br />
+<{$_autoClosePendingSubFooter}><a href="<{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}></a><br />
+<br />
+<{$_language[arfooter]}><br />
+<br />
+<{$_companyName}><{if $_ticketSignatureHTML != ""}><br /><{$_ticketSignatureHTML}><{/if}>
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_ticketautoclosefinaltext"><![CDATA[<{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>,
+
+<{$_autoCloseFinalIntro}>
+
+	<{$_language[articketid]}><{$_ticket[displayticketid]}>
+	<{$_language[arsubject]}><{$_ticket[subject]}>
+	<{$_language[ardepartment]}><{$_ticketDepartmentTitle}>
+	<{$_language[artype]}><{$_ticketTypeTitle}>
+	<{$_language[arstatus]}><{$_ticketStatusTitle}>
+	<{$_language[arpriority]}><{$_ticketPriorityTitle}>
+
+<{$_autoCloseFinalSubFooter}><{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}>
+
+<{$_language[arfooter]}>
+
+<{$_companyName}><{if $_ticketSignatureText != ""}>
+<{$_ticketSignatureText}><{/if}>
+
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_ticketautoclosefinalhtml"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{if $_ticket[replyto] != '' && $_ticket[creator] == 1}><{$_ticket[replyto]}><{else}><{$_ticket[fullname]}><{/if}>,<br />
+<br />
+<{$_autoCloseFinalIntro}><br />
+<br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[articketid]}></b><{$_ticket[displayticketid]}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arsubject]}></b><{$_ticket[subject]}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[ardepartment]}></b><{$_ticketDepartmentTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[artype]}></b><{$_ticketTypeTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arstatus]}></b><{$_ticketStatusTitle}><br />
+&nbsp;&nbsp;&nbsp;<b><{$_language[arpriority]}></b><{$_ticketPriorityTitle}><br />
+<br />
+<{$_autoCloseFinalSubFooter}><a href="<{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}>/Tickets/Ticket/View/<{$_ticket[displayticketid]}></a><br />
+<br />
+<{$_language[arfooter]}><br />
+<br />
+<{$_companyName}><{if $_ticketSignatureHTML != ""}><br /><{$_ticketSignatureHTML}><{/if}>
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_ticketstaffreplytext"><![CDATA[<{$_staffReplyText}>
+
+<{if $_settings[t_enhistory] == 1 && $_isNewTicket == false}>
+====== Please reply above this line ======
+<{$_language[tickethistory]}>
+===================
+<{foreach key=key item=_ticketPost from=$_ticketPostList}>
+<{if $_ticketPost[ticketpostid] != $_ticket[lastpostid]}>
+<{$_ticketPost[fullname]}> (<{$_ticketPost[creator]}>) <{$_language[thpostedon]}> <{$_ticketPost[date]}>
+
+===============================================================
+<{$_ticketPost[contents][0]}>
+
+<{/if}>
+<{/foreach}>
+
+<{/if}>
+<{$_language[ticketdetails]}>
+---------------------------------
+<{$_language[articketid]}><{$_ticket[displayticketid]}>
+<{$_language[ardepartment]}><{$_ticketDepartmentTitle}>
+<{$_language[artype]}><{$_ticketTypeTitle}>
+<{$_language[arstatus]}><{$_ticketStatusTitle}>
+<{$_language[arpriority]}><{$_ticketPriorityTitle}>
+
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_ticketstaffreplyhtml"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_staffReplyHTML}>
+<br /><br />
+<{if $_settings[t_enhistory] == 1 && $_isNewTicket == false}>
+<br />
+====== Please reply above this line ======
+<br />
+<fieldset style="margin-bottom: 6px; color: #333333;FONT: 11px Verdana, Tahoma;PADDING:3px;">
+<legend><{$_language[tickethistory]}></legend>
+<{foreach key=key item=_ticketPost from=$_ticketPostList}>
+<{if $_ticketPost[ticketpostid] != $_ticket[lastpostid]}>
+<b><{$_ticketPost[fullname]}></b> (<{$_ticketPost[creator]}>) <{$_language[thpostedon]}> <{$_ticketPost[date]}>
+<hr style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<br />
+<{$_ticketPost[contents][1]}>
+
+<br /><br />
+<{/if}>
+<{/foreach}>
+</fieldset>
+<{/if}>
+
+<{$_language[ticketdetails]}><br />
+<hr style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[articketid]}><{$_ticket[displayticketid]}><br />
+<{$_language[ardepartment]}><{$_ticketDepartmentTitle}><br />
+<{$_language[artype]}><{$_ticketTypeTitle}><br />
+<{$_language[arstatus]}><font color="<{$_ticketStatus[statuscolor]}>"><{$_ticketStatusTitle}></font><br />
+<{$_language[arpriority]}><font color="<{$_ticketPriority[frcolorcode]}>"><{$_ticketPriorityTitle}></font><br />
+<br />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_ticketforwardtext"><![CDATA[<{$_forwardReplyText}>
+
+<{if $_settings[t_enhistory] == 1 && $_isNewTicket == false}>
+<{$_language[tickethistory]}>
+===================
+<{foreach key=key item=_ticketPost from=$_ticketPostList}>
+<{if $_ticketPost[ticketpostid] != $_ticket[lastpostid]}>
+<{$_ticketPost[fullname]}> (<{$_ticketPost[creator]}>) <{$_language[thpostedon]}> <{$_ticketPost[date]}>
+
+===============================================================
+<{$_ticketPost[contents][0]}>
+
+<{/if}>
+<{/foreach}>
+
+<{/if}>
+<{$_language[ticketdetails]}>
+---------------------------------
+<{$_language[articketid]}><{$_ticket[displayticketid]}>
+<{$_language[ardepartment]}><{$_ticketDepartmentTitle}>
+<{$_language[artype]}><{$_ticketTypeTitle}>
+<{$_language[arstatus]}><{$_ticketStatusTitle}>
+<{$_language[arpriority]}><{$_ticketPriorityTitle}>
+
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_ticketforwardhtml"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_forwardReplyHTML}>
+<br /><br />
+<{if $_settings[t_enhistory] == 1 && $_isNewTicket == false}>
+<fieldset style="margin-bottom: 6px; color: #333333;FONT: 11px Verdana, Tahoma;PADDING:3px;">
+<legend><{$_language[tickethistory]}></legend>
+<{foreach key=key item=_ticketPost from=$_ticketPostList}>
+<{if $_ticketPost[ticketpostid] != $_ticket[lastpostid]}>
+<b><{$_ticketPost[fullname]}></b> (<{$_ticketPost[creator]}>) <{$_language[thpostedon]}> <{$_ticketPost[date]}>
+<hr style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<br />
+<{$_ticketPost[contents][1]}>
+
+<br /><br />
+<{/if}>
+<{/foreach}>
+</fieldset>
+<{/if}>
+
+<{$_language[ticketdetails]}><br />
+<hr style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[articketid]}><{$_ticket[displayticketid]}><br />
+<{$_language[ardepartment]}><{$_ticketDepartmentTitle}><br />
+<{$_language[artype]}><{$_ticketTypeTitle}><br />
+<{$_language[arstatus]}><font color="<{$_ticketStatus[statuscolor]}>"><{$_ticketStatusTitle}></font><br />
+<{$_language[arpriority]}><font color="<{$_ticketPriority[frcolorcode]}>"><{$_ticketPriorityTitle}></font><br />
+<br />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+
+		<template name="email_ticketuserreplytext"><![CDATA[<{$_userReplyText}>
+
+<{if $_settings[t_enhistory] == 1 && $_isNewTicket == false}>
+<{$_language[tickethistory]}>
+===================
+<{foreach key=key item=_ticketPost from=$_ticketPostList}>
+<{if $_ticketPost[ticketpostid] != $_ticket[lastpostid]}>
+<{$_ticketPost[fullname]}> (<{$_ticketPost[creator]}>) <{$_language[thpostedon]}> <{$_ticketPost[date]}>
+
+===============================================================
+<{$_ticketPost[contents][0]}>
+
+<{/if}>
+<{/foreach}>
+
+<{/if}>
+<{$_language[ticketdetails]}>
+---------------------------------
+<{$_language[articketid]}><{$_ticket[displayticketid]}>
+<{$_language[ardepartment]}><{$_ticketDepartmentTitle}>
+<{$_language[artype]}><{$_ticketTypeTitle}>
+<{$_language[arstatus]}><{$_ticketStatusTitle}>
+<{$_language[arpriority]}><{$_ticketPriorityTitle}>
+
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+
+		<template name="email_ticketuserreplyhtml"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_userReplyHTML}>
+<br /><br />
+<{if $_settings[t_enhistory] == 1 && $_isNewTicket == false}>
+<fieldset style="margin-bottom: 6px; color: #333333;FONT: 11px Verdana, Tahoma;PADDING:3px;">
+<legend><{$_language[tickethistory]}></legend>
+<{foreach key=key item=_ticketPost from=$_ticketPostList}>
+<{if $_ticketPost[ticketpostid] != $_ticket[lastpostid]}>
+<b><{$_ticketPost[fullname]}></b> (<{$_ticketPost[creator]}>) <{$_language[thpostedon]}> <{$_ticketPost[date]}>
+<hr style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<br />
+<{$_ticketPost[contents][1]}>
+
+<br /><br />
+<{/if}>
+<{/foreach}>
+</fieldset>
+<{/if}>
+
+<{$_language[ticketdetails]}><br />
+<hr style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[articketid]}><{$_ticket[displayticketid]}><br />
+<{$_language[ardepartment]}><{$_ticketDepartmentTitle}><br />
+<{$_language[artype]}><{$_ticketTypeTitle}><br />
+<{$_language[arstatus]}><font color="<{$_ticketStatus[statuscolor]}>"><{$_ticketStatusTitle}></font><br />
+<{$_language[arpriority]}><font color="<{$_ticketPriority[frcolorcode]}>"><{$_ticketPriorityTitle}></font><br />
+<br />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+	</category>
+
+</swifttemplate>

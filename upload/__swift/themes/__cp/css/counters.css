@@ -1,0 +1,134 @@
+.notecounterred, .notecounterredver {
+	background: #4eafcb;
+}
+
+.notecountergreen, .notecountergreenver {
+	background: #639d0c;
+}
+
+.notecounteryellow, .notecounteryellowver {
+	background: #fbc22d;
+}
+
+.notecounterpink, .notecounterpinkver {
+	background: #ec8ff1;
+}
+
+.notecounterorange, .notecounterorangever {
+	background: #fe9309;
+}
+
+.notecounterblue, .notecounterbluever {
+	background: #3b5998;
+	border-bottom: 1px solid #00376a;
+}
+
+.notecounterred, .notecountergreen, .notecounteryellow, .notecounterpink, .notecounterorange, .notecounterblue, .notecounterredver, .notecountergreenver, .notecounteryellowver, .notecounterpinkver, .notecounterorangever, .notecounterbluever {
+    padding: 1px 6px 2px 6px;
+    text-align: center;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 9px;
+    float: right;
+    display: inline;
+    color: #fff;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    top: -9px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.06), 0 1px 3px 0 rgba(44,48,56,0.09);
+}
+
+.notecounterredver, .notecountergreenver, .notecounteryellowver, .notecounterpinkver, .notecounterorangever, .notecounterbluever {
+	position: absolute;
+	right: 5px ;
+	top: -6px;
+}
+
+.blocknotecountergray {
+	background: #3c3e43;
+}
+
+.blocknotecounterred {
+	background: #ce1707;
+}
+
+.blocknotecountergreen {
+	background: #639d0c;
+}
+
+.blocknotecounteryellow {
+	background: #fbc22d;
+}
+
+.blocknotecounterpink {
+	background: #ec8ff1;
+}
+
+.blocknotecounterorange {
+	background: #fe9309;
+}
+
+.blocknotecounterblue {
+	background: #3b5998;
+	border-bottom: 1px solid #00376a;
+}
+
+.blocknotecounterred, .blocknotecountergreen, .blocknotecounteryellow, .blocknotecounterpink, .blocknotecounterorange, .blocknotecounterblue, .blocknotecountergray {
+	height: 10px;
+	right: 0;
+	padding: 3px 6px 5px 6px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	float: left;
+	margin: 0 4px 0 0;
+	color: #fff;
+	font-size: 9px;
+}
+
+.blockgray {
+	background: #3c3e43;
+}
+
+.blockred {
+	background: #ce1707;
+}
+
+.blockgreen {
+	background: #639d0c;
+}
+
+.blockyellow {
+	background: #fbc22d;
+}
+
+.blockpink {
+	background: #ec8ff1;
+}
+
+.blockorange {
+	background: #fe9309;
+}
+
+.blockblue {
+	background: #3b5998;
+	border-bottom: 1px solid #00376a;
+}
+
+.blockred, .blockgreen, .blockyellow, .blockpink, .blockorange, .blockblue, .blockgray {
+	height: 10px;
+	padding: 4px 6px 4px 6px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	display: inline;
+	color: #fff;
+	font-size: 10px;
+}

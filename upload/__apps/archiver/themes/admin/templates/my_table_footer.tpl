@@ -1,0 +1,5 @@
+
+
+/*!40000 ALTER TABLE `<{$table}>` ENABLE KEYS */;
+UNLOCK TABLES;
+

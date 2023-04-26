@@ -1,0 +1,115 @@
+.rebartopspacer {
+	height: 4px;
+	border-top: 1px solid #d5cab8;
+	display: none;
+}
+
+.footertext {
+	color: #565656;
+	font-size: 13px;
+	padding-bottom: 4px;
+}
+
+.cptopmenulink {
+	float: right;
+	font-size: 13px;
+	padding: 13px 20px 13px 0;
+	color: #535d6f;
+	background-color:#40364D;
+}
+
+.cptopmenulink a:link {color: #aeb1b6;}
+.cptopmenulink a:visited {color: #aeb1b6;}
+.cptopmenulink a:hover {color: #fff;}
+
+
+.checkboxcontainer {
+	border: 1px solid #ddd;
+    background: #fff;
+    overflow: auto;
+    height: 150px;
+    width: 250px;
+    border-radius: 2px;
+    padding: 0px 10px;
+}
+
+.checkboxcontainer div {
+	border-bottom: 1px solid #ddd;
+	padding: 4px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.checkboxcontainer div:hover {
+	background: #f2f2f2;
+}
+
+img {
+	vertical-align: middle;
+	border: 0px;
+}
+
+.cpuisplitter {
+	background-color: #fff;
+
+}
+
+.cpuisplitterinner {
+	width: 2px !important;
+	background-color: #fff;
+
+}
+
+.cpuicontainer {
+	padding: 10px 0px 40px 0px;
+}
+
+.cpuicontainer > table {
+	/*min-width: 900px;*/
+	table-layout: fixed;
+}
+
+.restaffnavbar {
+	background: #f2e7d6 URL('%themepath%images/renavbarbg.gif') no-repeat bottom left;
+}
+
+.staffnavbarclickable {
+	cursor: pointer;
+	background: URL('%themepath%images/renavbarsplitterbg.gif');
+	width: 5px;
+}
+
+.renavsection {
+	text-decoration: none;
+	width: 100%;
+}
+
+.renavsub {
+	padding: 0;
+}
+
+.renavsectionadmin {
+	width: 100%;
+}
+
+.reheadertext {
+	font-size: 13px;
+	color: #3c3e43;
+	vertical-align: middle;
+}
+
+.reheaderbar {
+	display: block;
+	background: #fff;
+	height: 72px;
+}
+
+.rebarlogo {
+	float: left;
+	padding:10px 20px 10px;
+}
+
+
+.rebarlogo img{
+	max-height: 24px;
+}

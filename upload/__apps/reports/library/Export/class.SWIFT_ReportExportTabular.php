@@ -1,0 +1,138 @@
+<?php
+/**
+ * ###############################################
+ *
+ * SWIFT Framework
+ * _______________________________________________
+ *
+ * @author        Varun Shoor
+ *
+ * @package        SWIFT
+ * @copyright    Copyright (c) 2001-2012, Kayako
+ * @license        http://www.kayako.com/license
+ * @link        http://www.kayako.com
+ *
+ * ###############################################
+ */
+
+use Base\Library\KQL\SWIFT_KQLParserResult;
+use Base\Library\KQL2\SWIFT_KQL2;
+
+/**
+ * The Tabular Report Exporter
+ *
+ * @author Andriy Lesyuk
+ */
+class SWIFT_ReportExportTabular extends SWIFT_ReportExport
+{
+
+    /**
+     * Constructor
+     *
+     * @author Andriy Lesyuk
+     * @param SWIFT_KQL2 $_SWIFT_KQL2Object
+     * @param SWIFT_Report $_SWIFT_ReportObject
+     * @param SWIFT_KQLParserResult $_SWIFT_KQLParserResultObject
+     */
+    public function __construct($_SWIFT_KQL2Object, SWIFT_Report $_SWIFT_ReportObject, SWIFT_KQLParserResult $_SWIFT_KQLParserResultObject)
+    {
+        parent::__construct($_SWIFT_KQL2Object, $_SWIFT_ReportObject, $_SWIFT_KQLParserResultObject);
+    }
+
+    /**
+     * Generate the Report Content
+     *
+     * @author Andriy Lesyuk
+     * @return bool "true" on Success, "false" otherwise
+     * @throws SWIFT_Exception If the Class is not Loaded
+     */
+    protected function Generate($_ = null)
+    {
+        if (!$this->GetIsClassLoaded()) {
+            throw new SWIFT_Exception(SWIFT_CLASSNOTLOADED);
+
+            return false;
+        }
+
+        // Execute the SQL Statement
+        if (!$this->ExecuteSQL()) {
+            return false;
+        }
+
+        // Process Array Keys into Titles
+        if (!$this->ProcessSQLResultTitle()) {
+            return false;
+        }
+
+        // Process Custom Field Values
+        if (!$this->ProcessFieldValues()) {
+            return false;
+        }
+
+        /**
+         * ---------------------------------------------
+         * Generate the header row
+         * ---------------------------------------------
+         */
+
+        $this->ResetColumn();
+
+        foreach ($this->_sqlParsedTitles as $_titleName => $_titleContainer) {
+            if (isset($this->_hiddenFields[$_titleName])) {
+                continue;
+            }
+
+            $this->GenerateTitleCell($this->NextColumn(), $_titleName, $_titleContainer[0], $_titleContainer[2]);
+        }
+
+        $this->_workSheet->getPageSetup()->setRowsToRepeatAtTopByStartAndEnd($this->GetRecordCount() + 1, $this->GetRecordCount() + 1);
+
+        $this->IncrementRecordCount();
+
+        /**
+         * ---------------------------------------------
+         * Generate the content
+         * ---------------------------------------------
+         */
+
+        $_rowCount = 0;
+
+        foreach ($this->_sqlResult as $_resultContainer) {
+            $this->ResetColumn();
+
+            foreach ($_resultContainer as $_columnName => $_columnValue) {
+                if (isset($this->_hiddenFields[$_columnName])) {
+                    continue;
+                }
+
+                $_columnIndex = $this->NextColumn();
+
+                $_sharedStyle = $this->GetCellStyle($_columnIndex, $this->GetRecordCount() + 1);
+
+                $this->SetColumnValue($_columnName, $_columnValue, $_columnIndex, $_sharedStyle, $_rowCount - $this->_rowCount, $_resultContainer);
+
+                $this->StyleCell($_sharedStyle);
+
+                if ($_rowCount >= $this->_rowCount) {
+                    $this->StyleTitleCell($_sharedStyle);
+                }
+
+                if (isset($this->_exportFieldTitleExtendedInfoContainer[$_columnName])) {
+                    $_sharedStyle->getAlignment()->setHorizontal($this->_exportFieldTitleExtendedInfoContainer[$_columnName]);
+                }
+
+                $this->SetCellStyle($_columnIndex, $this->GetRecordCount() + 1, $_sharedStyle);
+
+            }
+
+            $_rowCount++;
+
+            $this->IncrementRecordCount();
+        }
+
+        return true;
+    }
+
+}
+
+?>

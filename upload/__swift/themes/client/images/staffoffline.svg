@@ -1,0 +1,41 @@
+<svg width="134" height="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="16.328327" width="41.999913" y="-1" x="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_1"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <defs>
+   <path d="m0,25.956c0,20.0688 16.2688,25.956 36.3384,25.956c20.0688,0 36.3384,-5.8872 36.3384,-25.956c0,-20.0688 -16.2696,-25.956 -36.3384,-25.956c-20.0696,0 -36.3384,5.8872 -36.3384,25.956z" id="svg_27"/>
+  </defs>
+  <g id="svg_32">
+   <g transform="matrix(0.8455542280771944,0,0,0.8455542280771944,0,0) " id="svg_30">
+    <title>background</title>
+    <rect x="-0.391973" y="-27.804289" width="147" height="119" id="svg_28" fill="#ffffff"/>
+   </g>
+   <g transform="matrix(0.8455542280771944,0,0,0.8455542280771944,0,0) " id="svg_31">
+    <title>Layer 1</title>
+    <use fill-rule="evenodd" xlink:href="#svg_27" class="bubble__color" id="svg_26" fill="#b2b2b2" transform="translate(96.8401107788086,34.563899993896484) scale(1.035967230796814,1) translate(-96.8401107788086,-34.563899993896484) translate(37.047908782958984,78.72520446777344) scale(1,1.051168441772461) translate(-37.047908782958984,-78.72520446777344) translate(40.96044158935547,43.785301208496094) matrix(0.8128500179120542,0,0,0.7958126633812309,-19.857223721161418,-10.30802844533227) " y="-28.625232" x="-12.511183" stroke-width="0" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    <ellipse fill="#ffffff" stroke-width="0" cx="23.388624" cy="29.186724" id="svg_25" rx="3" ry="3" stroke="#000"/>
+    <ellipse fill="#ffffff" stroke-width="0" cx="53.138071" cy="28.929107" id="svg_24" rx="3" ry="3" stroke="#000"/>
+    <ellipse fill="#ffffff" stroke-width="0" cx="38.442563" cy="28.929107" id="svg_23" rx="3" ry="3" stroke="#000"/>
+    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+    <g id="svg_19" transform="matrix(0.9475911943571512,0,0,0.9735136094872309,-172.8197278947927,-21.97950512968633) " stroke="null">
+     <title>background</title>
+     <rect x="287.908558" y="-78.38839" width="142" height="47" id="svg_22" fill="none" stroke="null"/>
+     <g id="svg_20" display="none" stroke="null">
+      <rect id="svg_21" width="140" height="45" x="288.908558" y="-77.38839" stroke-width="0" fill="url(#gridpattern)" stroke="null"/>
+     </g>
+    </g>
+    <text font-weight="bold" opacity="0.87" fill="#5b5b5b" stroke-width="0" stroke-opacity="null" x="53.711246" y="3.564584" id="svg_18" font-size="9" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(1.0279945662050312,0,0,1.1106872321914745,23.072018591039853,22.605289121674872) " stroke="#000">LIVE SUPPORT</text>
+    <ellipse fill="#b2b2b2" stroke-width="0" cx="281.783881" cy="61.233915" id="svg_16" rx="3" ry="3" transform="matrix(0.9475911943571512,0,0,0.9735136094872309,-172.8197278947927,-21.97950512968633) "/>
+    <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+    <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="10" id="svg_2" y="40.66663" x="101.854996" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="#b2b2b2">OFFLINE</text>
+   </g>
+  </g>
+ </g>
+</svg>

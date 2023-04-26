@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swiftlanguage>
+	<title>English (U.S.)</title>
+	<isocode>en-us</isocode>
+	<author>Kayako</author>
+	<charset>UTF-8</charset>
+	<textdirection>LTR</textdirection>
+	<version>0</version>
+	<flagicon>{$themepath}us.gif</flagicon>
+	<app>tickets</app>
+
+	<phrase section="tickets" code="selectdepartmenttitle">Submit a ticket</phrase>
+	<phrase section="tickets" code="selectdepartmentdesc">If you can't find a solution to your problem in our knowledgebase, you can submit a ticket by selecting the appropriate department below.</phrase>
+	<phrase section="tickets" code="submitticketdepartments">Departments</phrase>
+	<phrase section="tickets" code="errstinvaliddepartmentid">Sorry, we encountered a problem (invalid department). Please start over.</phrase>
+	<phrase section="tickets" code="yourticketdetailstitle">Your ticket details</phrase>
+	<phrase section="tickets" code="yourticketdetailsdesc">If you are reporting a problem, please remember to provide as much information that is relevant to the issue as possible.</phrase>
+	<phrase section="tickets" code="st_regpolicyareement">Privacy Policy Required</phrase>
+	<phrase section="tickets" code="st_messagedetails">Your Message</phrase>
+	<phrase section="tickets" code="st_department">Department</phrase>
+	<phrase section="tickets" code="st_ticketid">Ticket ID</phrase>
+	<phrase section="tickets" code="st_fullname">First and Last Name</phrase>
+	<phrase section="tickets" code="st_email">Email</phrase>
+	<phrase section="tickets" code="st_priority">Priority</phrase>
+	<phrase section="tickets" code="st_type">Type</phrase>
+	<phrase section="tickets" code="st_subject">Subject</phrase>
+	<phrase section="tickets" code="st_subjectconfirm">Subject: </phrase>
+	<phrase section="tickets" code="st_attachmentwarning">Sorry, we encountered a problem while uploading attachments. A possible reason is attachments size exceeding server upload limit.</phrase>
+	<phrase section="tickets" code="sterr_invaliddepartment">Sorry, we encountered a problem (invalid department). Please start over.</phrase>
+	<phrase section="tickets" code="sterr_invalidtype">Sorry, we encountered a problem (invalid ticket type). Please start over.</phrase>
+	<phrase section="tickets" code="sterr_invalidpriority">Invalid ticket priority specified; please start over.</phrase>
+	<phrase section="tickets" code="ticketsubmittedtitle">Your request has been received</phrase>
+	<phrase section="tickets" code="ticketsubmitteddesc">We have received your request and our team will get back to you shortly. You can log in to the helpdesk to review the status of your request, or check your email for further updates.</phrase>
+	<phrase section="tickets" code="uploadfiles">Attach Files</phrase>
+	<phrase section="tickets" code="taddfile">Add File</phrase>
+	<phrase section="tickets" code="invalidattachments">Unfortunately, we couldn't accept your attachments (either too large or due to file type restrictions): %s</phrase>
+	<phrase section="tickets" code="ticketviewtickettitle">View Tickets</phrase>
+	<phrase section="tickets" code="ticketsurveytickettitle">Survey: #</phrase>
+	<phrase section="tickets" code="st_yourfeedback">Your feedback</phrase>
+	<phrase section="tickets" code="st_yourcomments">Comments</phrase>
+	<phrase section="tickets" code="thankyousurvey">Thank you for your feedback!</phrase>
+	<phrase section="tickets" code="surveydesc">Your feedback is very important to us and will help us improve our customer support experience.</phrase>
+	<phrase section="tickets" code="viewresolvedt">View Resolved Tickets</phrase>
+	<phrase section="tickets" code="hideresolvedt">Hide Resolved Tickets</phrase>
+	<phrase section="tickets" code="tllastupdate">Last Update</phrase>
+	<phrase section="tickets" code="tllastreplier">Last Replier</phrase>
+	<phrase section="tickets" code="trash">Trash</phrase>
+	<phrase section="tickets" code="tldepartment">Department</phrase>
+	<phrase section="tickets" code="tltype">Type</phrase>
+	<phrase section="tickets" code="tlstatus">Status</phrase>
+	<phrase section="tickets" code="tlpriority">Priority</phrase>
+	<phrase section="tickets" code="tlticketid">Ticket ID</phrase>
+	<phrase section="tickets" code="ticketpermdenied">Sorry, we couldn't find the ticket you requested or you do not have permission to view it.</phrase>
+	<phrase section="tickets" code="unassigned">Unassigned</phrase>
+	<phrase section="tickets" code="ticketviewticketidtitle">View Ticket: #</phrase>
+	<phrase section="tickets" code="vtcreated">Created:</phrase>
+	<phrase section="tickets" code="vtupdated">Updated:</phrase>
+	<phrase section="tickets" code="vtdepartment">DEPARTMENT</phrase>
+	<phrase section="tickets" code="vtowner">OWNER</phrase>
+	<phrase section="tickets" code="vttype">TYPE</phrase>
+	<phrase section="tickets" code="vtstatus">STATUS</phrase>
+	<phrase section="tickets" code="vtpriority">PRIORITY</phrase>
+	<phrase section="tickets" code="vtpostreply">Add Reply</phrase>
+	<phrase section="tickets" code="updatedticketproperties">Successfully updated your ticket</phrase>
+	<phrase section="tickets" code="vtsavechanges">Save Changes</phrase>
+	<phrase section="tickets" code="vtcustomfieldrequirednotice">Please complete all required fields before posting a reply.</phrase>
+	<phrase section="tickets" code="vtcustomfieldchangednotice">You have made changes to the ticket's fields. Click on the Save Changes button above to save them.</phrase>
+	<phrase section="tickets" code="tppostedon">Posted on: %s</phrase>
+	<phrase section="tickets" code="tpemailto">Email To: %s</phrase>
+	<phrase section="tickets" code="tpemailforwardedto">Forwarded To: %s</phrase>
+	<phrase section="tickets" code="badgethirdparty">Third Party</phrase>
+	<phrase section="tickets" code="badgeuser">User</phrase>
+	<phrase section="tickets" code="badgestaff">Staff</phrase>
+	<phrase section="tickets" code="badgecc">Recipient</phrase>
+	<phrase section="tickets" code="badgebcc">BCC</phrase>
+	<phrase section="tickets" code="verifyticketsubmission">CAPTCHA Verification</phrase>
+	<phrase section="tickets" code="irsloading">Loading knowledgebase suggestions...</phrase>
+	<phrase section="tickets" code="irssuggestions">Knowledgebase suggestions</phrase>
+	<phrase section="tickets" code="irsdesc">We've found the following suggested answers and articles from our knowledgebase</phrase>
+	<phrase section="tickets" code="irsnoresults">No relevant knowledgebase articles found.</phrase>
+	<phrase section="tickets" code="tsupdate">Updated On: %s</phrase>
+	<phrase section="tickets" code="st_cc"><![CDATA[CC]]></phrase>
+	<phrase section="tickets" code="st_recipients"><![CDATA[Recipients]]></phrase>
+	<phrase section="tickets" code="st_recipientsdesc"><![CDATA[You can specify multiple e-mail addressess seperated by a single space or comma, as custom recipients. The recipients will receive ticket updates.]]></phrase>
+	<phrase section="tickets" code="tworkflow">WORKFLOW</phrase>
+	<phrase section="tickets" code="confirmworkflow">Are you sure you want to execute workflow</phrase>
+	<phrase section="tickets" code="ticketnoperms">Access Denied. No permissions.</phrase>
+
+	<phrase section="ticketemails" code="arintro">Thank you for contacting us. This is an automated response confirming the receipt of your ticket. Our team will get back to you as soon as possible. When replying, please make sure that the ticket ID is kept in the subject so that we can track your replies.</phrase>
+	<phrase section="ticketemails" code="articketid">Ticket ID: </phrase>
+	<phrase section="ticketemails" code="arsubject">Subject: </phrase>
+	<phrase section="ticketemails" code="ardepartment">Department: </phrase>
+	<phrase section="ticketemails" code="arpassword">Password: </phrase>
+	<phrase section="ticketemails" code="artype">Type: </phrase>
+	<phrase section="ticketemails" code="arstatus">Status: </phrase>
+	<phrase section="ticketemails" code="arpriority">Priority: </phrase>
+	<phrase section="ticketemails" code="aremail">Email: </phrase>
+	<phrase section="ticketemails" code="arsubfooter">You can check the status of or update this ticket online at: </phrase>
+	<phrase section="ticketemails" code="acpendingintro">This message concerns your ticket #%s. We have not heard back from you in %s hours and would like to know if you consider this issue to be resolved. If you have any further questions, simply respond to this email.</phrase>
+	<phrase section="ticketemails" code="acpendingsubfooter">Please note that the ticket will automatically be closed within %s hours if we don't hear back. You can check the status of or reply to this ticket online at: </phrase>
+	<phrase section="ticketemails" code="acfinalintro">This message is regarding your ticket ID #%s. We are changing the status of this ticket to %s as we have not heard back from you in %s hours.</phrase>
+	<phrase section="ticketemails" code="acfinalsubfooter">If you have any further questions then do let us know. You can check the status of or reply to this ticket online at: </phrase>
+	<phrase section="ticketemails" code="arfooter">Kind regards,</phrase>
+	<phrase section="ticketemails" code="ticketdetails">Ticket Details</phrase>
+	<phrase section="ticketemails" code="tickethistory">Ticket History</phrase>
+	<phrase section="ticketemails" code="thstaff">Staff</phrase>
+	<phrase section="ticketemails" code="thclient">Client</phrase>
+	<phrase section="ticketemails" code="ththirdparty">Third Party</phrase>
+	<phrase section="ticketemails" code="thcc">Recipient (CC)</phrase>
+	<phrase section="ticketemails" code="thbcc">Recipient (BCC)</phrase>
+	<phrase section="ticketemails" code="thattachments">Attachments</phrase>
+	<phrase section="ticketemails" code="threcipient">Recipient</phrase>
+	<phrase section="ticketemails" code="thpostedon">Posted On:</phrase>
+	<phrase section="ticketemails" code="watcherprefix">%s (%s) replied with:</phrase>
+	<phrase section="ticketemails" code="regemailrejectintro">We were unable to process your email. You need to have a helpdesk account before you can create tickets using email. You can register yourself on our helpdesk:</phrase>
+	<phrase section="ticketemails" code="regemailrejectfooter">Once registered, you will be able to submit tickets simply by contacting us by email. We are sorry for the inconvenience.</phrase>
+	<phrase section="ticketemails" code="regemailrejectsub">Unable to process your email (registration required)</phrase>
+	<phrase section="ticketemails" code="validationemailrejectsub">Unable to process your email (account not validated)</phrase>
+	<phrase section="ticketemails" code="validationmailrejectintro_staff">We were unable to process your email. Although a helpdesk account exists for your email address, all accounts must be manually approved by an administrator. Until this has been done, you will not be able to send email to the helpdesk.</phrase>
+	<phrase section="ticketemails" code="validationmailrejectintro_generic">We were unable to process your email. Although a helpdesk account exists for your email address, the account has not yet been validated.</phrase>
+	<phrase section="ticketemails" code="validationemailrejectfooter">Once your account has been validated, you will be able to submit tickets simply by sending us an email. We are sorry for the inconvenience.</phrase>
+	<phrase section="ticketemails" code="surveyintro">This email concerns your recent ticket</phrase>
+	<phrase section="ticketemails" code="surveydescription1">As part of our commitment to improving your customer support experience, we would like to know how you think we are doing.</phrase>
+	<phrase section="ticketemails" code="surveydescription2">Please take a moment to complete a short survey consisting of just a few multiple-choice questions.</phrase>
+	<phrase section="ticketemails" code="surveydescription3">It should take you no more than a minute to complete (we promise!).</phrase>
+	<phrase section="ticketemails" code="surveycta">To take the survey, click on the following link: </phrase>
+	<phrase section="ticketemails" code="surveysubfooter">Your feedback is very important to us and we really appreciate your time.</phrase>
+	<phrase section="ticketemails" code="surveyfooter">Thank you in advance,</phrase>
+	<phrase section="ticketemails" code="arnewsheader">Latest News</phrase>
+	<phrase section="ticketemails" code="ticketsummary">Ticket Summary</phrase>
+	<phrase section="ticketemails" code="sizelimitrejectintro">Unfortunately, we were unable to process your message into our helpdesk because it was too big. The total message size (including attachments) should be lower than %s kilobytes.</phrase>
+	<phrase section="ticketemails" code="sizelimitrejectfooter">Please resend your message with fewer attachments (you can split up a number of attachments across multiple messages, if you like). We are sorry to inconvenience you!</phrase>
+	<phrase section="ticketemails" code="sizelimitrejectsub">Your message was not accepted (message size too big) - please resend</phrase>
+	<phrase section="ticketemails" code="disableduserrejectintro">Your ticket has not been accepted into the system. Your account is disabled, you are not authorized to create any tickets via email.</phrase>
+	<phrase section="ticketemails" code="disableduserrejectfooter">Once enabled, you will be able to submit tickets directly by sending us an email. We are sorry for any inconvenience this may have caused.</phrase>
+	<phrase section="ticketemails" code="disableduserrejectsub">Disabled User: Unable to create ticket</phrase>
+</swiftlanguage>

@@ -1,0 +1,32 @@
+body.redirect {
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.uiredirectwrapper{
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 200px 0 0;
+	color: #6c7176;
+	font-size: 13px;
+}
+
+.uiredirectcontainer {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 8px;
+	border: 1px solid #dcd0b7;
+	height: 110px;
+}
+
+.uiredirectinner {
+	height: 100%;
+	border: 1px solid #efe8da;
+	overflow: hidden;
+}
+
+.uiredirectwrapper img{
+	width: 30px;
+}

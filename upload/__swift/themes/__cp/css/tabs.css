@@ -1,0 +1,129 @@
+.tabborder {
+	background: #fff;
+	color: #3c3e43;
+}
+
+.tab {
+	margin-left: 0;
+	margin-top: 0;
+	color: #3c3e43;
+	font-size: 13px;
+	padding: 0px 10px 4px 2px;
+	z-index: 6;
+	display: block;
+}
+
+.tab li {
+	list-style: none;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.tab li a span {
+	display: block;
+	float: left;
+	padding: 6px;
+	padding-left: 5px;
+	padding-right: 13px;
+	padding-top: 5px !important;
+	height: 14px;
+}
+
+.tab li a {
+	text-decoration: none;
+	padding-left: 3px;
+	margin-right: 2px;
+	float: left;
+	position: relative;
+	bottom: -2px;
+	left: -2px;
+	color: #a0947b;
+	z-index: 1;
+	outline: none;
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #fff;
+	border-radius: 4px 4px 0 0;
+}
+
+.tab a:hover {
+	color: #3c3e43;
+	background: #fff;
+	cursor: hand;
+	cursor: pointer;
+	
+}
+
+.tab a:hover span {
+	display: block;
+	float: left;
+	padding: 6px;
+	padding-left: 5px;
+	padding-right: 13px;
+	padding-top: 5px !important;
+	height: 14px;
+}
+
+.tab a.currenttab {
+	color: #3c3e43;
+	z-index: 4;
+	bottom: -1px;
+	padding: 5px 7px;
+}
+
+.tab a.currenttab span {
+	display: block;
+	float: left;
+	padding: 6px;
+	padding-left: 5px;
+	padding-right: 13px;
+	padding-top: 5px !important;
+	height: 14px;
+}
+
+.basictabcontent {
+	display: block;
+	float: left;
+	position: relative;
+	z-index: 3;
+	padding: 20px;
+	margin: 0px;
+	background-color: #fff;
+	color: #3c3e43;
+	border: 1px solid #ddd;
+	font-size: 13px;
+	min-width: 350px;
+}
+
+.adminlicenseinfo{
+	/*width: 100%;*/
+}
+
+.adminlicenseinfo .gridrow1{
+	border: none !important;
+}
+
+.adminlicenseinfo .gridrow2{
+	border: none !important;
+}
+
+.basictabcontent table {
+	width: 100%;
+}
+
+.basictabcontent .gridrow1,
+.basictabcontent .gridrow2 {
+	background-color: #fff;
+	padding: 3px 0 !important;
+	border-top: 1px solid #ddd;
+}
+
+.ui-state-default img {
+	display: none;
+	margin-top: -2px;
+}
+
+#dashboardtabs{
+	margin-right: 15px;
+}

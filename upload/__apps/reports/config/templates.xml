@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swifttemplate>
+	<title>Default</title>
+	<author>Kayako</author>
+	<version>0</version>
+
+	<category name="template_reports" app="reports" icon="icon_report.png">
+		<template name="email_reportsend_html"><![CDATA[<font face="Verdana, Arial, Helvetica" size="2"><{$_reportSendIntro}><br />
+<br />
+<{if $_errorMessage != ''}>
+<{$_language[reporterrorintro]}>:<br />
+<div style="margin: 10px 0 0 0; padding: 4px 6px 6px 4px; border: 1px solid #a41616; background: white; color: #4e4e4e;"><{$_errorMessage}></div>
+<br />
+<{if $_hasCCEmails == true}>
+<i><{$_language[reporterrorccnote]}></i><br />
+<br />
+<{/if}>
+<{/if}>
+<HR style="margin-bottom: 6px; height: 1px; BORDER: none; color: #cfcfcf; background-color: #cfcfcf;" />
+<{$_language[supportcenterfield]}> <a href="<{$_basePath}><{$_templateGroupPrefix}>" target="_blank"><{$_basePath}><{$_templateGroupPrefix}></a><br />
+</font>]]></template>
+		<template name="email_reportsend_text"><![CDATA[<{$_reportSendIntro}>
+
+<{if $_errorMessage != ''}>
+<{$_language[reporterrorintro]}>:
+<{$_errorMessage}>
+
+<{if $_hasCCEmails == true}>
+<{$_language[reporterrorccnote]}>
+
+<{/if}>
+<{/if}>
+------------------------------------------------------
+<{$_language[supportcenterfield]}> <{$_basePath}><{$_templateGroupPrefix}>
+]]></template>
+	</category>
+</swifttemplate>

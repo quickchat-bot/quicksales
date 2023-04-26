@@ -1,0 +1,226 @@
+<?php
+/**
+ * ###############################################
+ *
+ * GFI HelpDesk Configuration
+ *
+ * for more help please see below
+ * https://go.gfi.com/?pageid=GFIHelpdeskConfigPHP
+ * 
+ *
+ * ###############################################
+ */
+
+/**
+ * BASE PATH NAME
+ *
+ * Remove index.php from the variable if you plan to use Rewrite Rules for Human/SEO Friendly URLs
+ * Example: define('BASENAME', '');
+ */
+define('SWIFT_BASENAME', 'index.php?');
+
+/**
+ * DATABASE HOSTNAME
+ */
+define('DB_HOSTNAME', '127.0.0.1');
+
+/**
+ * DATABASE USERNAME
+ */
+define('DB_USERNAME', 'gfihelpdesk_user');
+
+/**
+ * DATABASE PASSWORD
+ */
+define('DB_PASSWORD', 'my_password_here');
+
+/**
+ * DATABASE NAME
+ */
+define('DB_NAME', 'gfihelpdesk');
+
+/**
+ * DATABASE PORT
+ */
+define('DB_PORT', '3306');
+
+/**
+ * DATABASE ACCESS LAYER (PDO BY DEFAULT)
+ */
+define('DB_LAYER', 'PDO');
+//define('DB_LAYER', 'ADODB');
+
+/**
+ * ENABLE PERSISTENT CONNECTIONS WHEN USING PDO LAYER?
+ */
+define('DB_PDOPERSISTENT', false);
+
+/**
+ * ADODB CONNECTION TYPE
+ */
+define('DB_TYPE', (PHP_VERSION >= 5.5 && extension_loaded('mysqli') ? 'mysqli' : 'mysql'));
+
+/**
+ * DATABASE SOCKET BASED ACCESS
+ */
+//define('DB_MYSQL_SOCK', '/path/to/socket/mysql.sock');
+
+/**
+ * ADODB OVERRIDE DSN (CUSTOM DB PROVIDER)
+ */
+//define('DB_DSN', 'sqlite://' . urlencode('c:/temp/cluster.db') . '/?persist');
+
+/**
+ * SWIFT ENVIRONMENT
+ *
+ * PRODUCTION, DEVELOP, STAGING
+ */
+define('SWIFT_ENVIRONMENT', 'PRODUCTION');
+
+/**
+ * ENABLE/DISABLE DEBUG MODE
+ */
+define('SWIFT_DEBUG', false);
+
+/**
+ * DATABASE CONNECTION CHARSET
+ * For PHP >= 5.2.3, this will be passed to mysql_set_charset().
+ *   Note that mysql_set_charset() also requires MySQL >= 5.0.7
+ * For PHP < 5.2.3, this will be passed to SET NAMES.
+ */
+define('DB_CHARSET', 'utf8');
+
+/**
+ * SWIFT LOCALE
+ * Used for setlocale() statement. Decides the naming scheme of the date names
+ * http://www.php.net/setlocale
+ */
+define('SWIFT_LOCALE', 'en_EN');
+
+/**
+ * ENABLE FORWARDED IP ADDRESSES
+ * Uncomment the following line to enable support for auto detecting IP addresses sent with X-Forwarded-For directive.
+ * This option is required if you are running the product behind a proxy/cache
+ */
+//define('ENABLE_FORWARDED_IP', true);
+
+/**
+ * SWIFT TEMPLATE GROUP
+ * Can be used for multi-point installations. Use this to specify a custom template group to load for this installation.
+ */
+//define('SWIFT_TEMPLATE_GROUP', 'default');
+
+/**
+ * ENABLE PHP TAGS IN TEMPLATES
+ *
+ * If set to true, you will be able to execute PHP code in the templates.
+ * !! IMPORTANT !! This involves a security risk because someone can execute arbitary code through Templates. Use at your own risk.
+ */
+//define('SWIFT_ENPHP_TEMPLATES', true);
+
+/**
+ * ELEVATED PERMISSION USERS
+ * The specified users will be able to import LoginShare plugins, execute test queries or export the database through the admin control panel. Please specify the username to add a user with elevated permissions.
+ * Example: SWIFT::Set('elevatedusers', array('admin', 'johndoe', 'jaydoe'));
+ */
+SWIFT::Set('elevatedusers', array('admin'));
+
+/**
+ * DEFAULT ADMIN LANGUAGE
+ */
+define('LANGUAGE_ADMIN', 'en-us');
+
+/**
+ * CHANGE THIS ONLY BEFORE SETUP, DONT CHANGE AFTER SWIFT HAS BEEN INSTALLED
+ */
+define('TABLE_PREFIX', 'sw');
+
+/**
+ * ENABLE IP RESTRICTION: This option allows you to restrict the admin,staff,desktop,staffapi interfaces to a certain IP range
+ * 202.1.192.0-202.1.192.255: a range of IPs
+ * 200.36.161.0/24: a range of IP by using net masking
+ * 200.36.161/24: a shorten syntax similar to the above.
+ * Example: SWIFT::Set('iprestrict', array('202.1.192.0-202.1.192.255', '200.36.161.0/24'));
+ */
+SWIFT::Set('iprestrict', array());
+
+/**
+ * ENABLE ADMIN IP RESTRICTION: This option allows you to override the above setting for the admin interface
+ * 202.1.192.0-202.1.192.255: a range of IPs
+ * 200.36.161.0/24: a range of IP by using net masking
+ * 200.36.161/24: a shorten syntax similar to the above.
+ * Example: SWIFT::Set('iprestrict', array('202.1.192.0-202.1.192.255', '200.36.161.0/24'));
+ */
+SWIFT::Set('adminiprestrict', array());
+
+/**
+ * ENABLE ICONV FOR CHARACTER SET CONVERSION
+ * This applies to incoming and outgoing e-mail. If you expect to receive e-mail in a character set not supported by
+ * mbstring, enable this option after confirming that it is indeed supported by iconv.
+ */
+define('USE_ICONV', false);
+
+/**
+ * BYPASS IP RESTRICTION FOR KAYAKO CHAT GATEWAY
+ * If this setting is enabled, staff can connect from Kayako's chat gateway. The IP address of staff *will be* checked once it is received from the chat gateway.
+ */
+define('ENABLECHATGATEWAYBYPASS', true);
+
+/**
+ * Let Kayako Execute segment code
+ * If this setting is enabled, staff and admin panel will allow segment code to run.
+ */
+define('EXECUTESEGMENT', false);
+
+/**
+ * Let Kayako Execute GTM code
+ * If this setting is enabled, staff and admin panel will allow GOOGLE TAG MANAGER to run.
+ */
+define('EXECUTEGTM', false);
+
+/**
+ * ENFORCED FILES ATTACHMENTS
+ * If defined, the system will force all attachments to go in files directory irrespective of setting Admin CP -> CPU Optimization & Server -> Storage Location For Attachments.
+ */
+//define('ENFORCEATTACHMENTS_INFILES', true);
+
+/**
+ * OVERRIDE THE INSTALL PATH
+ * On certain systems you might need to specify the full path to the product installation, do not include a trailing slash if you ever decide to set this.
+ * Unix Example:
+ * define("SWIFTCUSTOMPATH", '/home/username/public_html/support');
+ * Windows Example:
+ * define("SWIFTCUSTOMPATH", 'c:\inetpub\htdocs\support');
+ */
+
+/**
+ * MASK STOP WORDS
+ * The list of words that SWIFT will not use to create ticket IDs.
+ * WARNING : Possibly offensive (but necessary)!
+ */
+SWIFT::Set('stopwords', array(
+    "GAY", "ASS", "SEX", "POO", "NIG", "SUK", "SUC", "WTF", "KKK", "FAG", "FUK", "FUC",
+    "FFS", "LOL", "VAG", "DIK", "DIC", "FCK", "JIG", "KIL", "JEW", "CUM", "PUS", "POS",
+    "JPG", "PNG", "GIF", "PHP", "PSP", "ASP", "DVD", "SQL", "ABC", "CPP", "NBC", "TXT",
+    "DOC", "CNN", "PDF", "GOD", "BBC", "GOO", "PPT", "MSN", "AOL", "ICQ", "SWF", "AIM",
+    "MEX", "JAP", "AZN", "PIG", "COW", "NIP", "CNT", "KFC", "DIE", "TOE", "HOE", "USA",
+    "JPN", "DOG", "SOL", "PIS", "TIT", "STD", "WOP", "DED", "COK", "FAP", "HIV", "XXX",
+    "SUX", "DIX", "DUM", "PMS", "NUT", "THC", "GHB", "LSD", "PCP", "POT"
+));
+
+/**
+ * ENABLE REMOTE GEOIP LOOKUPS
+ */
+//define('SWIFT_GEOIP_SERVER', '');
+
+/**
+ * OVERRIDE MAXIMUM FILE UPLOAD SIZE = 5M
+ */
+define('MAXIMUM_UPLOAD_SIZE', 5242880);
+
+/**
+ * DB STRICT MODE
+ */
+define('DB_SET_NON_STRICT', false);
+
+?>

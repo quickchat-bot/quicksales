@@ -1,0 +1,1738 @@
+[
+    {
+        "name": "adodb/adodb-php",
+        "version": "v5.22.2",
+        "version_normalized": "5.22.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ADOdb/ADOdb.git",
+            "reference": "876bc2287171ea96a571f84c23845e44a759d9a0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ADOdb/ADOdb/zipball/876bc2287171ea96a571f84c23845e44a759d9a0",
+            "reference": "876bc2287171ea96a571f84c23845e44a759d9a0",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0 || ^8.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^8.5"
+        },
+        "time": "2022-05-08T10:01:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "adodb.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "LGPL-2.1-or-later"
+        ],
+        "authors": [
+            {
+                "name": "John Lim",
+                "email": "jlim@natsoft.com",
+                "role": "Author"
+            },
+            {
+                "name": "Damien Regad",
+                "role": "Current maintainer"
+            },
+            {
+                "name": "Mark Newnham",
+                "role": "Developer"
+            }
+        ],
+        "description": "ADOdb is a PHP database abstraction layer library",
+        "homepage": "https://adodb.org/",
+        "keywords": [
+            "abstraction",
+            "database",
+            "layer",
+            "library",
+            "php"
+        ],
+        "support": {
+            "issues": "https://github.com/ADOdb/ADOdb/issues",
+            "source": "https://github.com/ADOdb/ADOdb"
+        }
+    },
+    {
+        "name": "container-interop/container-interop",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/container-interop/container-interop.git",
+            "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+            "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+            "shasum": ""
+        },
+        "require": {
+            "psr/container": "^1.0"
+        },
+        "time": "2017-02-14T19:40:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Interop\\Container\\": "src/Interop/Container/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+        "homepage": "https://github.com/container-interop/container-interop",
+        "support": {
+            "issues": "https://github.com/container-interop/container-interop/issues",
+            "source": "https://github.com/container-interop/container-interop/tree/master"
+        },
+        "abandoned": "psr/container"
+    },
+    {
+        "name": "dwoo/dwoo",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dougyau-xo/dwoo.git",
+            "reference": "f527bfcbacbc257d8ea7642d3596d45d2e2ac0c4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dougyau-xo/dwoo/zipball/f527bfcbacbc257d8ea7642d3596d45d2e2ac0c4",
+            "reference": "f527bfcbacbc257d8ea7642d3596d45d2e2ac0c4",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3|^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.27"
+        },
+        "time": "2019-03-04T16:36:09+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Dwoo\\": "lib/Dwoo/"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Dwoo\\Tests\\": "tests/"
+            }
+        },
+        "license": [
+            "LGPL-3.0-only"
+        ],
+        "authors": [
+            {
+                "name": "David Sanchez",
+                "email": "david38sanchez@gmail.com"
+            }
+        ],
+        "description": "Dwoo is a PHP5/PHP7 template engine which is (almost) fully compatible with Smarty templates and plugins, but is written from scratch for PHP5, and adds many features.",
+        "support": {
+            "source": "https://github.com/dougyau-xo/dwoo/tree/master"
+        }
+    },
+    {
+        "name": "ezyang/htmlpurifier",
+        "version": "v4.14.0",
+        "version_normalized": "4.14.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ezyang/htmlpurifier.git",
+            "reference": "12ab42bd6e742c70c0a52f7b82477fcd44e64b75"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
+            "reference": "12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2021-12-25T01:21:49+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "library/HTMLPurifier.composer.php"
+            ],
+            "psr-0": {
+                "HTMLPurifier": "library/"
+            },
+            "exclude-from-classmap": [
+                "/library/HTMLPurifier/Language/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Edward Z. Yang",
+                "email": "admin@htmlpurifier.org",
+                "homepage": "http://ezyang.com"
+            }
+        ],
+        "description": "Standards compliant HTML filter written in PHP",
+        "homepage": "http://htmlpurifier.org/",
+        "keywords": [
+            "html"
+        ],
+        "support": {
+            "issues": "https://github.com/ezyang/htmlpurifier/issues",
+            "source": "https://github.com/ezyang/htmlpurifier/tree/v4.14.0"
+        }
+    },
+    {
+        "name": "horde/exception",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/horde/Exception.git",
+            "reference": "754c7a3e8e37235311329a9676d9894e216a03e6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/horde/Exception/zipball/754c7a3e8e37235311329a9676d9894e216a03e6",
+            "reference": "754c7a3e8e37235311329a9676d9894e216a03e6",
+            "shasum": ""
+        },
+        "require": {
+            "pear-pear.horde.org/horde_translation": "^2.2",
+            "php": "^5.3 || ^7"
+        },
+        "replace": {
+            "pear-horde/horde_exception": "2.*",
+            "pear-pear.horde.org/horde_exception": "2.*"
+        },
+        "suggest": {
+            "pear-pear.horde.org/Horde_Test": "^2.1"
+        },
+        "time": "2017-11-11T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Horde_Exception": "lib/"
+            }
+        },
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Chuck Hagenbuch",
+                "email": "chuck@horde.org",
+                "role": "lead"
+            },
+            {
+                "name": "Jan Schneider",
+                "email": "jan@horde.org",
+                "role": "lead"
+            },
+            {
+                "name": "Michael Slusarz",
+                "email": "slusarz@horde.org",
+                "role": "developer"
+            }
+        ],
+        "description": "Exception handler library",
+        "homepage": "https://www.horde.org/libraries/Horde_Exception",
+        "support": {
+            "source": "https://github.com/horde/Exception/tree/master"
+        }
+    },
+    {
+        "name": "horde/text-diff",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/horde/Text_Diff.git",
+            "reference": "454ecff09e3ac7892a8833f23e33e8808097b107"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/horde/Text_Diff/zipball/454ecff09e3ac7892a8833f23e33e8808097b107",
+            "reference": "454ecff09e3ac7892a8833f23e33e8808097b107",
+            "shasum": ""
+        },
+        "require": {
+            "pear-pear.horde.org/horde_exception": "^2",
+            "pear-pear.horde.org/horde_util": "^2",
+            "php": "^5.3 || ^7"
+        },
+        "replace": {
+            "pear-horde/horde_text_diff": "2.*",
+            "pear-pear.horde.org/horde_text_diff": "2.*"
+        },
+        "suggest": {
+            "pear-pear.horde.org/Horde_Cli": "^2.1",
+            "pear-pear.horde.org/Horde_Test": "^2.1",
+            "pear-pecl.php.net/xdiff": "*"
+        },
+        "time": "2017-11-11T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Horde_Text_Diff": "lib/"
+            }
+        },
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Chuck Hagenbuch",
+                "email": "chuck@horde.org",
+                "role": "lead"
+            },
+            {
+                "name": "Jan Schneider",
+                "email": "jan@horde.org",
+                "role": "lead"
+            }
+        ],
+        "description": "Text diff generation and rendering library",
+        "homepage": "https://www.horde.org/libraries/Horde_Text_Diff",
+        "support": {
+            "source": "https://github.com/horde/Text_Diff/tree/master"
+        }
+    },
+    {
+        "name": "horde/translation",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/horde/Translation.git",
+            "reference": "624be2133f2610baaa9c153668f6beb75c743fa2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/horde/Translation/zipball/624be2133f2610baaa9c153668f6beb75c743fa2",
+            "reference": "624be2133f2610baaa9c153668f6beb75c743fa2",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3 || ^7"
+        },
+        "replace": {
+            "pear-horde/horde_translation": "2.*",
+            "pear-pear.horde.org/horde_translation": "2.*"
+        },
+        "suggest": {
+            "ext-gettext": "*",
+            "pear-pear.horde.org/Horde_Test": "^2.1"
+        },
+        "time": "2017-11-11T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Horde_Translation": "lib/"
+            }
+        },
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jan Schneider",
+                "email": "jan@horde.org",
+                "role": "lead"
+            }
+        ],
+        "description": "Translation library",
+        "homepage": "https://www.horde.org/libraries/Horde_Translation",
+        "support": {
+            "source": "https://github.com/horde/Translation/tree/master"
+        }
+    },
+    {
+        "name": "horde/util",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/horde/Util.git",
+            "reference": "c8ee322d9128952885938c29d1609f9ce2b6a692"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/horde/Util/zipball/c8ee322d9128952885938c29d1609f9ce2b6a692",
+            "reference": "c8ee322d9128952885938c29d1609f9ce2b6a692",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "php": "^5.3 || ^7"
+        },
+        "replace": {
+            "pear-horde/horde_util": "2.*",
+            "pear-pear.horde.org/horde_util": "2.*"
+        },
+        "suggest": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "ext-iconv": "*",
+            "ext-intl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "ext-xml": "*",
+            "pear-pear.horde.org/Horde_Imap_Client": "^2",
+            "pear-pear.horde.org/Horde_Test": "^2.1"
+        },
+        "time": "2017-11-11T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Horde_Util": "lib/"
+            }
+        },
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Chuck Hagenbuch",
+                "email": "chuck@horde.org",
+                "role": "lead"
+            },
+            {
+                "name": "Jan Schneider",
+                "email": "jan@horde.org",
+                "role": "lead"
+            },
+            {
+                "name": "Michael Slusarz",
+                "email": "slusarz@horde.org",
+                "role": "developer"
+            }
+        ],
+        "description": "Utility library",
+        "homepage": "https://www.horde.org/libraries/Horde_Util",
+        "support": {
+            "source": "https://github.com/horde/Util/tree/master"
+        }
+    },
+    {
+        "name": "html2text/html2text",
+        "version": "4.3.1",
+        "version_normalized": "4.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mtibben/html2text.git",
+            "reference": "61ad68e934066a6f8df29a3d23a6460536d0855c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mtibben/html2text/zipball/61ad68e934066a6f8df29a3d23a6460536d0855c",
+            "reference": "61ad68e934066a6f8df29a3d23a6460536d0855c",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance",
+            "symfony/polyfill-mbstring": "If you can't install ext-mbstring"
+        },
+        "time": "2020-04-16T23:44:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Html2Text\\": [
+                    "src/",
+                    "test/"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "description": "Converts HTML to formatted plain text",
+        "support": {
+            "issues": "https://github.com/mtibben/html2text/issues",
+            "source": "https://github.com/mtibben/html2text/tree/4.3.1"
+        }
+    },
+    {
+        "name": "jbroadway/urlify",
+        "version": "1.2.0-stable",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jbroadway/urlify.git",
+            "reference": "b917c8c9274a9784a2eb30c657fc386ad591fdcd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jbroadway/urlify/zipball/b917c8c9274a9784a2eb30c657fc386ad591fdcd",
+            "reference": "b917c8c9274a9784a2eb30c657fc386ad591fdcd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0",
+            "voku/portable-ascii": "^1.4",
+            "voku/stop-words": "^2.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~6.0 || ~7.0"
+        },
+        "time": "2019-12-13T19:53:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "URLify": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause-Clear"
+        ],
+        "authors": [
+            {
+                "name": "Johnny Broadway",
+                "email": "johnny@johnnybroadway.com",
+                "homepage": "http://www.johnnybroadway.com/"
+            }
+        ],
+        "description": "PHP port of URLify.js from the Django project. Transliterates non-ascii characters for use in URLs.",
+        "homepage": "https://github.com/jbroadway/urlify",
+        "keywords": [
+            "encode",
+            "iconv",
+            "link",
+            "slug",
+            "translit",
+            "transliterate",
+            "transliteration",
+            "url",
+            "urlify"
+        ],
+        "support": {
+            "issues": "https://github.com/jbroadway/urlify/issues",
+            "source": "https://github.com/jbroadway/urlify/tree/1.2.0-stable"
+        }
+    },
+    {
+        "name": "kayako-zend/zend-mail-kayako",
+        "version": "2.13.1",
+        "version_normalized": "2.13.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/trilogy-group/zend-mail-kayako",
+            "reference": "05c29199a7551a0e79d6dd9fbfa518b00ac30e42"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/trilogy-group/zend-mail-kayako/zipball/05c29199a7551a0e79d6dd9fbfa518b00ac30e42",
+            "reference": "05c29199a7551a0e79d6dd9fbfa518b00ac30e42",
+            "shasum": ""
+        },
+        "require": {
+            "ext-iconv": "*",
+            "kayako-zend/zend-validator-kayako": "^2.14.0",
+            "php": "^5.6 || ^7.0",
+            "true/punycode": "^2.1",
+            "zendframework/zend-loader": "^2.5",
+            "zendframework/zend-mime": "^2.5",
+            "zendframework/zend-stdlib": "^2.7 || ^3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7.25 || ^6.4.4 || ^7.1.4",
+            "zendframework/zend-coding-standard": "~1.0.0",
+            "zendframework/zend-config": "^2.6",
+            "zendframework/zend-crypt": "^2.6 || ^3.0",
+            "zendframework/zend-servicemanager": "^2.7.10 || ^3.3.1"
+        },
+        "suggest": {
+            "zendframework/zend-crypt": "Crammd5 support in SMTP Auth",
+            "zendframework/zend-servicemanager": "^2.7.10 || ^3.3.1 when using SMTP to deliver messages"
+        },
+        "time": "2018-06-07T13:37:07+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.10.x-dev",
+                "dev-develop": "2.11.x-dev"
+            },
+            "zf": {
+                "component": "Zend\\Mail",
+                "config-provider": "Zend\\Mail\\ConfigProvider"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zend\\Mail\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages",
+        "keywords": [
+            "ZendFramework",
+            "mail",
+            "zf"
+        ],
+        "support": {
+            "chat": "https://zendframework-slack.herokuapp.com",
+            "docs": "https://docs.zendframework.com/zend-mail/",
+            "forum": "https://discourse.zendframework.com/c/questions/components",
+            "issues": "https://github.com/zendframework/zend-mail/issues",
+            "rss": "https://github.com/zendframework/zend-mail/releases.atom",
+            "source": "https://github.com/zendframework/zend-mail"
+        },
+        "abandoned": "laminas/laminas-mail"
+    },
+    {
+        "name": "kayako-zend/zend-validator-kayako",
+        "version": "2.14.0",
+        "version_normalized": "2.14.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/trilogy-group/zend-validator-kayako.git",
+            "reference": "aacc3f8cd3e1076ccfbfab88057f28af4aa1a69a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/trilogy-group/zend-validator-kayako/zipball/aacc3f8cd3e1076ccfbfab88057f28af4aa1a69a",
+            "reference": "aacc3f8cd3e1076ccfbfab88057f28af4aa1a69a",
+            "shasum": ""
+        },
+        "require": {
+            "container-interop/container-interop": "^1.1",
+            "php": "^7.1",
+            "zendframework/zend-stdlib": "^3.2.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.0.8 || ^5.7.15",
+            "psr/http-client": "^1.0",
+            "psr/http-factory": "^1.0",
+            "psr/http-message": "^1.0",
+            "zendframework/zend-cache": "^2.6.1",
+            "zendframework/zend-coding-standard": "~1.0.0",
+            "zendframework/zend-config": "^2.6",
+            "zendframework/zend-db": "^2.7",
+            "zendframework/zend-filter": "^2.6",
+            "zendframework/zend-http": "^2.5.4",
+            "zendframework/zend-i18n": "^2.6",
+            "zendframework/zend-math": "^2.6",
+            "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
+            "zendframework/zend-session": "^2.8",
+            "zendframework/zend-uri": "^2.5"
+        },
+        "suggest": {
+            "psr/http-message": "psr/http-message, required when validating PSR-7 UploadedFileInterface instances via the Upload and UploadFile validators",
+            "zendframework/zend-db": "Zend\\Db component, required by the (No)RecordExists validator",
+            "zendframework/zend-filter": "Zend\\Filter component, required by the Digits validator",
+            "zendframework/zend-i18n": "Zend\\I18n component to allow translation of validation error messages",
+            "zendframework/zend-i18n-resources": "Translations of validator messages",
+            "zendframework/zend-math": "Zend\\Math component, required by the Csrf validator",
+            "zendframework/zend-servicemanager": "Zend\\ServiceManager component to allow using the ValidatorPluginManager and validator chains",
+            "zendframework/zend-session": "Zend\\Session component, ^2.8; required by the Csrf validator",
+            "zendframework/zend-uri": "Zend\\Uri component, required by the Uri and Sitemap\\Loc validators"
+        },
+        "time": "2022-10-21T15:16:50+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.13.x-dev",
+                "dev-develop": "2.14.x-dev"
+            },
+            "zf": {
+                "component": "Zend\\Validator",
+                "config-provider": "Zend\\Validator\\ConfigProvider"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zend\\Validator\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria",
+        "keywords": [
+            "kayako-zend",
+            "validator-kayako",
+            "zf"
+        ],
+        "support": {
+            "chat": "https://zendframework-slack.herokuapp.com",
+            "docs": "https://docs.zendframework.com/zend-validator/",
+            "forum": "https://discourse.zendframework.com/c/questions/components",
+            "issues": "https://github.com/zendframework/zend-validator/issues",
+            "rss": "https://github.com/zendframework/zend-validator/releases.atom",
+            "source": "https://github.com/zendframework/zend-validator"
+        }
+    },
+    {
+        "name": "leafo/lessphp",
+        "version": "v0.4.0",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafo/lessphp.git",
+            "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafo/lessphp/zipball/51f3f06f0fe78a722dabfd14578444bdd078d9de",
+            "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de",
+            "shasum": ""
+        },
+        "time": "2013-08-09T17:09:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lessc.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Leaf Corcoran",
+                "email": "leafot@gmail.com",
+                "homepage": "http://leafo.net"
+            }
+        ],
+        "description": "lessphp is a compiler for LESS written in PHP.",
+        "homepage": "http://leafo.net/lessphp/",
+        "support": {
+            "issues": "https://github.com/leafo/lessphp/issues",
+            "source": "https://github.com/leafo/lessphp/tree/master"
+        }
+    },
+    {
+        "name": "phpoffice/phpexcel",
+        "version": "1.8.x-dev",
+        "version_normalized": "1.8.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPOffice/PHPExcel.git",
+            "reference": "39534e3dd376041d0d50a4714e73375bf45b692b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/39534e3dd376041d0d50a4714e73375bf45b692b",
+            "reference": "39534e3dd376041d0d50a4714e73375bf45b692b",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "ext-xml": "*",
+            "ext-xmlwriter": "*",
+            "php": "^5.2|^7.0"
+        },
+        "require-dev": {
+            "squizlabs/php_codesniffer": "2.*"
+        },
+        "time": "2019-01-02T01:38:47+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "PHPExcel": "Classes/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Maarten Balliauw",
+                "homepage": "http://blog.maartenballiauw.be"
+            },
+            {
+                "name": "Mark Baker",
+                "homepage": "http://markbakeruk.net"
+            },
+            {
+                "name": "Franck Lefevre",
+                "homepage": "http://rootslabs.net"
+            },
+            {
+                "name": "Erik Tilt"
+            }
+        ],
+        "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+        "homepage": "https://github.com/PHPOffice/PHPExcel",
+        "keywords": [
+            "OpenXML",
+            "excel",
+            "php",
+            "spreadsheet",
+            "xls",
+            "xlsx"
+        ],
+        "support": {
+            "issues": "https://github.com/PHPOffice/PHPExcel/issues",
+            "source": "https://github.com/PHPOffice/PHPExcel/tree/1.8"
+        },
+        "abandoned": "phpoffice/phpspreadsheet"
+    },
+    {
+        "name": "phpseclib/mcrypt_compat",
+        "version": "1.0.14",
+        "version_normalized": "1.0.14.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpseclib/mcrypt_compat.git",
+            "reference": "e38b76f02e6cf97aca05f5738eee1b917d922101"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpseclib/mcrypt_compat/zipball/e38b76f02e6cf97aca05f5738eee1b917d922101",
+            "reference": "e38b76f02e6cf97aca05f5738eee1b917d922101",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "phpseclib/phpseclib": ">=2.0.36 <3.0.0"
+        },
+        "provide": {
+            "ext-mcrypt": "5.6.40"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4"
+        },
+        "suggest": {
+            "ext-openssl": "Will enable faster cryptographic operations"
+        },
+        "time": "2022-03-27T15:50:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/mcrypt.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jim Wigginton",
+                "email": "terrafrost@php.net",
+                "homepage": "http://phpseclib.sourceforge.net"
+            }
+        ],
+        "description": "PHP 7.1 polyfill for the mcrypt extension from PHP <= 7.0",
+        "keywords": [
+            "cryptograpy",
+            "encryption",
+            "mcrypt"
+        ],
+        "support": {
+            "email": "terrafrost@php.net",
+            "issues": "https://github.com/phpseclib/mcrypt_compat/issues",
+            "source": "https://github.com/phpseclib/mcrypt_compat"
+        },
+        "funding": [
+            {
+                "url": "https://www.patreon.com/phpseclib",
+                "type": "patreon"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/phpseclib/mcrypt_compat",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "phpseclib/phpseclib",
+        "version": "2.0.37",
+        "version_normalized": "2.0.37.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpseclib/phpseclib.git",
+            "reference": "c812fbb4d6b4d7f30235ab7298a12f09ba13b37c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c812fbb4d6b4d7f30235ab7298a12f09ba13b37c",
+            "reference": "c812fbb4d6b4d7f30235ab7298a12f09ba13b37c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phing/phing": "~2.7",
+            "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
+            "squizlabs/php_codesniffer": "~2.0"
+        },
+        "suggest": {
+            "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+            "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+            "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+            "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+        },
+        "time": "2022-04-04T04:57:45+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "phpseclib/bootstrap.php"
+            ],
+            "psr-4": {
+                "phpseclib\\": "phpseclib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jim Wigginton",
+                "email": "terrafrost@php.net",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Patrick Monnerat",
+                "email": "pm@datasphere.ch",
+                "role": "Developer"
+            },
+            {
+                "name": "Andreas Fischer",
+                "email": "bantu@phpbb.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Hans-Jürgen Petrich",
+                "email": "petrich@tronic-media.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Graham Campbell",
+                "email": "graham@alt-three.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+        "homepage": "http://phpseclib.sourceforge.net",
+        "keywords": [
+            "BigInteger",
+            "aes",
+            "asn.1",
+            "asn1",
+            "blowfish",
+            "crypto",
+            "cryptography",
+            "encryption",
+            "rsa",
+            "security",
+            "sftp",
+            "signature",
+            "signing",
+            "ssh",
+            "twofish",
+            "x.509",
+            "x509"
+        ],
+        "support": {
+            "issues": "https://github.com/phpseclib/phpseclib/issues",
+            "source": "https://github.com/phpseclib/phpseclib/tree/2.0.37"
+        },
+        "funding": [
+            {
+                "url": "https://github.com/terrafrost",
+                "type": "github"
+            },
+            {
+                "url": "https://www.patreon.com/phpseclib",
+                "type": "patreon"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ],
+        "support": {
+            "issues": "https://github.com/php-fig/container/issues",
+            "source": "https://github.com/php-fig/container/tree/master"
+        }
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+            "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2021-05-03T11:20:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "https://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ],
+        "support": {
+            "source": "https://github.com/php-fig/log/tree/1.1.4"
+        }
+    },
+    {
+        "name": "splitbrain/php-archive",
+        "version": "1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/splitbrain/php-archive.git",
+            "reference": "d274e5190ba309777926348900cf9578d9e533c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/splitbrain/php-archive/zipball/d274e5190ba309777926348900cf9578d9e533c9",
+            "reference": "d274e5190ba309777926348900cf9578d9e533c9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "ext-bz2": "*",
+            "ext-zip": "*",
+            "mikey179/vfsstream": "^1.6",
+            "phpunit/phpunit": "^8"
+        },
+        "suggest": {
+            "ext-bz2": "For bz2 compression",
+            "ext-iconv": "Used for proper filename encode handling",
+            "ext-mbstring": "Can be used alternatively for handling filename encoding",
+            "ext-zlib": "For zlib compression"
+        },
+        "time": "2022-03-23T09:21:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "splitbrain\\PHPArchive\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Andreas Gohr",
+                "email": "andi@splitbrain.org"
+            }
+        ],
+        "description": "Pure-PHP implementation to read and write TAR and ZIP archives",
+        "keywords": [
+            "archive",
+            "extract",
+            "tar",
+            "unpack",
+            "unzip",
+            "zip"
+        ],
+        "support": {
+            "issues": "https://github.com/splitbrain/php-archive/issues",
+            "source": "https://github.com/splitbrain/php-archive/tree/1.3.1"
+        }
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.26.0",
+        "version_normalized": "1.26.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+            "reference": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1"
+        },
+        "provide": {
+            "ext-mbstring": "*"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2022-05-24T11:49:31+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "1.26-dev"
+            },
+            "thanks": {
+                "name": "symfony/polyfill",
+                "url": "https://github.com/symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.26.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "tecnickcom/tcpdf",
+        "version": "6.4.4",
+        "version_normalized": "6.4.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tecnickcom/TCPDF.git",
+            "reference": "42cd0f9786af7e5db4fcedaa66f717b0d0032320"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/42cd0f9786af7e5db4fcedaa66f717b0d0032320",
+            "reference": "42cd0f9786af7e5db4fcedaa66f717b0d0032320",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2021-12-31T08:39:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "config",
+                "include",
+                "tcpdf.php",
+                "tcpdf_parser.php",
+                "tcpdf_import.php",
+                "tcpdf_barcodes_1d.php",
+                "tcpdf_barcodes_2d.php",
+                "include/tcpdf_colors.php",
+                "include/tcpdf_filters.php",
+                "include/tcpdf_font_data.php",
+                "include/tcpdf_fonts.php",
+                "include/tcpdf_images.php",
+                "include/tcpdf_static.php",
+                "include/barcodes/datamatrix.php",
+                "include/barcodes/pdf417.php",
+                "include/barcodes/qrcode.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0-only"
+        ],
+        "authors": [
+            {
+                "name": "Nicola Asuni",
+                "email": "info@tecnick.com",
+                "role": "lead"
+            }
+        ],
+        "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+        "homepage": "http://www.tcpdf.org/",
+        "keywords": [
+            "PDFD32000-2008",
+            "TCPDF",
+            "barcodes",
+            "datamatrix",
+            "pdf",
+            "pdf417",
+            "qrcode"
+        ],
+        "support": {
+            "issues": "https://github.com/tecnickcom/TCPDF/issues",
+            "source": "https://github.com/tecnickcom/TCPDF/tree/6.4.4"
+        },
+        "funding": [
+            {
+                "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&currency_code=GBP&business=paypal@tecnick.com&item_name=donation%20for%20tcpdf%20project",
+                "type": "custom"
+            }
+        ]
+    },
+    {
+        "name": "tholu/php-packer",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tholu/php-packer.git",
+            "reference": "b6f63a6e1112a27db048353fbab50539a4a75764"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tholu/php-packer/zipball/b6f63a6e1112a27db048353fbab50539a4a75764",
+            "reference": "b6f63a6e1112a27db048353fbab50539a4a75764",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-04-19T10:33:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Tholu\\Packer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Thomas Lutz",
+                "email": "thomaslutz.de@gmail.com"
+            },
+            {
+                "name": "Dean Edwards"
+            },
+            {
+                "name": "Nicolas Martin"
+            }
+        ],
+        "description": "A PHP version of Packer, JavaScript obfuscation library originally created by Dean Edwards",
+        "homepage": "https://github.com/tholu/php-packer",
+        "keywords": [
+            "JS",
+            "javascript",
+            "minification",
+            "minify",
+            "obfuscate",
+            "uglify"
+        ],
+        "support": {
+            "issues": "https://github.com/tholu/php-packer/issues",
+            "source": "https://github.com/tholu/php-packer/tree/master"
+        }
+    },
+    {
+        "name": "true/punycode",
+        "version": "v2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/true/php-punycode.git",
+            "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/true/php-punycode/zipball/a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
+            "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "symfony/polyfill-mbstring": "^1.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.7",
+            "squizlabs/php_codesniffer": "~2.0"
+        },
+        "time": "2016-11-16T10:37:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TrueBV\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Renan Gonçalves",
+                "email": "renan.saddam@gmail.com"
+            }
+        ],
+        "description": "A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
+        "homepage": "https://github.com/true/php-punycode",
+        "keywords": [
+            "idna",
+            "punycode"
+        ],
+        "support": {
+            "issues": "https://github.com/true/php-punycode/issues",
+            "source": "https://github.com/true/php-punycode/tree/master"
+        }
+    },
+    {
+        "name": "voku/portable-ascii",
+        "version": "1.6.1",
+        "version_normalized": "1.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voku/portable-ascii.git",
+            "reference": "87337c91b9dfacee02452244ee14ab3c43bc485a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voku/portable-ascii/zipball/87337c91b9dfacee02452244ee14ab3c43bc485a",
+            "reference": "87337c91b9dfacee02452244ee14ab3c43bc485a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+        },
+        "suggest": {
+            "ext-intl": "Use Intl for transliterator_transliterate() support"
+        },
+        "time": "2022-01-24T18:55:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "voku\\": "src/voku/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Lars Moelleken",
+                "homepage": "http://www.moelleken.org/"
+            }
+        ],
+        "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+        "homepage": "https://github.com/voku/portable-ascii",
+        "keywords": [
+            "ascii",
+            "clean",
+            "php"
+        ],
+        "support": {
+            "issues": "https://github.com/voku/portable-ascii/issues",
+            "source": "https://github.com/voku/portable-ascii/tree/1.6.1"
+        },
+        "funding": [
+            {
+                "url": "https://www.paypal.me/moelleken",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/voku",
+                "type": "github"
+            },
+            {
+                "url": "https://opencollective.com/portable-ascii",
+                "type": "open_collective"
+            },
+            {
+                "url": "https://www.patreon.com/voku",
+                "type": "patreon"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "voku/stop-words",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voku/stop-words.git",
+            "reference": "8e63c0af20f800b1600783764e0ce19e53969f71"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voku/stop-words/zipball/8e63c0af20f800b1600783764e0ce19e53969f71",
+            "reference": "8e63c0af20f800b1600783764e0ce19e53969f71",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~6.0"
+        },
+        "time": "2018-11-23T01:37:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "voku\\": "src/voku/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Lars Moelleken",
+                "homepage": "http://www.moelleken.org/"
+            }
+        ],
+        "description": "Stop-Words via PHP",
+        "keywords": [
+            "stop words",
+            "stop-words"
+        ],
+        "support": {
+            "issues": "https://github.com/voku/stop-words/issues",
+            "source": "https://github.com/voku/stop-words/tree/master"
+        }
+    },
+    {
+        "name": "zendframework/zend-loader",
+        "version": "2.6.1",
+        "version_normalized": "2.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/zend-loader.git",
+            "reference": "91da574d29b58547385b2298c020b257310898c6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/91da574d29b58547385b2298c020b257310898c6",
+            "reference": "91da574d29b58547385b2298c020b257310898c6",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.4",
+            "zendframework/zend-coding-standard": "~1.0.0"
+        },
+        "time": "2019-09-04T19:38:14+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.6.x-dev",
+                "dev-develop": "2.7.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zend\\Loader\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Autoloading and plugin loading strategies",
+        "keywords": [
+            "ZendFramework",
+            "loader",
+            "zf"
+        ],
+        "support": {
+            "chat": "https://zendframework-slack.herokuapp.com",
+            "docs": "https://docs.zendframework.com/zend-loader/",
+            "forum": "https://discourse.zendframework.com/c/questions/components",
+            "issues": "https://github.com/zendframework/zend-loader/issues",
+            "rss": "https://github.com/zendframework/zend-loader/releases.atom",
+            "source": "https://github.com/zendframework/zend-loader"
+        },
+        "abandoned": "laminas/laminas-loader"
+    },
+    {
+        "name": "zendframework/zend-mime",
+        "version": "2.7.2",
+        "version_normalized": "2.7.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/zend-mime.git",
+            "reference": "c91e0350be53cc9d29be15563445eec3b269d7c1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zendframework/zend-mime/zipball/c91e0350be53cc9d29be15563445eec3b269d7c1",
+            "reference": "c91e0350be53cc9d29be15563445eec3b269d7c1",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0",
+            "zendframework/zend-stdlib": "^2.7 || ^3.0"
+        },
+        "require-dev": {
+            "kayako-zend/zend-mail-kayako": "^2.13.1",
+            "phpunit/phpunit": "^5.7.21 || ^6.3",
+            "zendframework/zend-coding-standard": "~1.0.0"
+        },
+        "suggest": {
+            "kayako-zend/zend-mail-kayako": "Zend\\Mail component"
+        },
+        "time": "2019-10-16T19:30:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7.x-dev",
+                "dev-develop": "2.8.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zend\\Mime\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Create and parse MIME messages and parts",
+        "keywords": [
+            "ZendFramework",
+            "mime",
+            "zf"
+        ],
+        "support": {
+            "chat": "https://zendframework-slack.herokuapp.com",
+            "docs": "https://docs.zendframework.com/zend-mime/",
+            "forum": "https://discourse.zendframework.com/c/questions/components",
+            "issues": "https://github.com/zendframework/zend-mime/issues",
+            "rss": "https://github.com/zendframework/zend-mime/releases.atom",
+            "source": "https://github.com/zendframework/zend-mime"
+        },
+        "abandoned": "laminas/laminas-mime"
+    },
+    {
+        "name": "zendframework/zend-stdlib",
+        "version": "3.2.1",
+        "version_normalized": "3.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/zend-stdlib.git",
+            "reference": "66536006722aff9e62d1b331025089b7ec71c065"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/66536006722aff9e62d1b331025089b7ec71c065",
+            "reference": "66536006722aff9e62d1b331025089b7ec71c065",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "phpbench/phpbench": "^0.13",
+            "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
+            "zendframework/zend-coding-standard": "~1.0.0"
+        },
+        "time": "2018-08-28T21:34:05+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2.x-dev",
+                "dev-develop": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zend\\Stdlib\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "SPL extensions, array utilities, error handlers, and more",
+        "keywords": [
+            "ZendFramework",
+            "stdlib",
+            "zf"
+        ],
+        "support": {
+            "docs": "https://docs.zendframework.com/zend-stdlib/",
+            "forum": "https://discourse.zendframework.com/c/questions/components",
+            "issues": "https://github.com/zendframework/zend-stdlib/issues",
+            "rss": "https://github.com/zendframework/zend-stdlib/releases.atom",
+            "slack": "https://zendframework-slack.herokuapp.com",
+            "source": "https://github.com/zendframework/zend-stdlib"
+        },
+        "abandoned": "laminas/laminas-stdlib"
+    }
+]

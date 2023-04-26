@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swifttemplate>
+	<title>Default</title>
+	<author>Kayako</author>
+	<version>0</version>
+
+	<category name="template_troubleshooter" app="troubleshooter" icon="icon_troubleshooter.gif">
+		<template name="troubleshooterlist"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[troubleshooter]}></div>
+
+			<div class="boxcontainercontent">
+				<{if $_troubleshooterCategoryCount > 0}><{$_language[troubleshooterdesc]}><br /><br /><{/if}>
+				<{foreach key=troubleshootercategoryid item=_troubleshooterCategory from=$_troubleshooterCategoryContainer}>
+					<div class="troubleshootercategorycontainer" onclick="javascript: window.location.href='<{$_baseName}><{$_templateGroupPrefix}>/Troubleshooter/Step/View/<{$_troubleshooterCategory[troubleshootercategoryid]}>';">
+						<div class="troubleshootercategory">
+							<div class="troubleshootercategorytitle"><a class="bluelink" href="<{$_baseName}><{$_templateGroupPrefix}>/Troubleshooter/Step/View/<{$_troubleshooterCategory[troubleshootercategoryid]}>"><{$_troubleshooterCategory[title]}></a><{$_troubleshooterCategory[views]}></div>
+							<div class="troubleshootercategorydesc"><{$_troubleshooterCategory[description]}></div>
+						</div>
+					</div>
+					<div class="troubleshootercategoryfooter"></div>
+				<{/foreach}>
+
+				<{if $_troubleshooterCategoryCount == 0}>
+				<div class="infotextcontainer">
+				<{$_language[noinfoinview]}>
+				</div>
+				<{/if}>
+			</div>
+			</div>
+		  ]]></template>
+
+
+		<template name="troubleshooterstep"><![CDATA[
+			<div class="boxcontainer">
+			<div class="boxcontainerlabel"><{$_language[troubleshooter]}><{if $_extendedTitle != ''}> &raquo; <a href="<{$_extendedTitleLink}>"><{$_extendedTitle}></a><{/if}></div>
+
+			<div class="boxcontainercontent">
+				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td valign="top">
+							<div class="trsteptitle"><span class="trsteptitlemain"><{$_troubleshooterStepSubject}></span></div>
+						</td>
+					</tr>
+					<tr><td colspan="2" class="trstepcontents">
+						<{$_troubleshooterStepContents}>
+					</td></tr>
+					<tr>
+					<td colspan="2">
+
+					<{if $_troubleshooterStepHasAttachments == '1'}>
+					<br /><br />
+					<div><table class="hlineheader hlinegray"><tr><th rowspan="2" nowrap><{$_language[trattachments]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table></div>
+					<div class="trattachments">
+					<{foreach key=_attachmentID item=_trAttachment from=$_attachmentContainer}>
+					<div class="trattachmentitem" onclick="javascript: PopupSmallWindow('<{$_trAttachment[link]}>');" style="background-image: URL('<{$_themePath}>images/<{$_trAttachment[icon]}>');">&nbsp;<{$_trAttachment[name]}> (<{$_trAttachment[size]}>)</div>
+					<{/foreach}>
+					</div>
+					<{/if}>
+
+					<form method="post" action="<{$_baseName}><{$_templateGroupPrefix}>/Troubleshooter/Step/View/<{$_troubleshooterCategoryID}>" name="TroubleshooterForm">
+					<{if $_troubleshooterStepCount > 0}>
+					<br />
+					<div><table class="hlineheader hlinegray"><tr><th rowspan="2" nowrap><{$_language[trnextsteps]}></th><td>&nbsp;</td></tr><tr><td class="hlinelower">&nbsp;</td></tr></table></div>
+					<table width="100%" cellpadding="4" cellspacing="1" border="0">
+					<{foreach key=troubleshooterstepid item=_troubleshooterStep from=$_troubleshooterStepContainer}>
+					<tr>
+					<td align="left" width="16" valign="middle" class="troubleshooterstepradio"><input id="trstep<{$_troubleshooterStep[troubleshooterstepid]}>" type="radio" name="nexttroubleshooterstepid" value="<{$_troubleshooterStep[troubleshooterstepid]}>" /></td>
+					<td align="left" valign="middle" class="troubleshooterstepsubject"><label for="trstep<{$_troubleshooterStep[troubleshooterstepid]}>"><{$_troubleshooterStep[subject]}></label></td>
+					</tr>
+					<{/foreach}>
+					</table>
+					<{/if}>
+					<br />
+					<div class="subcontent"><{if $_showBackButton == true}><input class="rebuttonwide2" value="<{$_language[trback]}>" onclick="javascript: $('#trisback').val('1');" type="submit" name="actiontype" /><{/if}><{if $_troubleshooterStepCount > 0}>&nbsp;&nbsp;&nbsp;<input class="rebuttonwide2" value="<{$_language[trnext]}>" type="submit" name="actiontype" /><{/if}></div><br />
+					<input type="hidden" name="troubleshooterstephistory" value="<{$_troubleshooterStepHistory}>" /><input type="hidden" name="isback" id="trisback" value="0" />
+					</form>
+
+					</td>
+					</tr>
+				</table>
+
+				<{if $_troubleshooterStepAllowComments == '1'}>
+				<hr class="trstephr" style="clear:inherit;" />
+				<{RenderTemplate name="comments"}>
+				<{/if}>
+
+			</div>
+			</div>
+		  ]]></template>
+	</category>
+
+</swifttemplate>

@@ -1,0 +1,291 @@
+<?php
+/**
+ * ###############################################
+ *
+ * Kayako Classic
+ * _______________________________________________
+ *
+ * @author        Werner Garcia <werner.garcia@crossover.com>
+ *
+ * @package       swift
+ * @copyright     Copyright (c) 2001-2018, Trilogy
+ * @license       http://kayako.com/license
+ * @link          http://kayako.com
+ *
+ * ###############################################
+ */
+
+namespace Troubleshooter\Api;
+
+use SWIFT;
+use Troubleshooter\Staff\LoaderMock;
+
+/**
+ * Class ApiController_CategoryTest
+ * @group troubleshooter
+ */
+class ApiController_CategoryTest extends \SWIFT_TestCase
+{
+    public function setUp()
+    {
+        parent::setUp();
+
+        // reset test data
+        unset($_POST);
+    }
+
+    /**
+     * @param array $services
+     * @return Controller_CategoryMock
+     * @throws \SWIFT_Exception
+     */
+    protected function getController(array $services = [])
+    {
+        $mockDb = $this->getMockBuilder('SWIFT_Database')
+            ->disableOriginalConstructor()
+            ->getMock();
+
+        $mockDb->method('Insert_ID')->willReturn(1);
+        $mockDb->method('AutoExecute')->willReturn(1);
+
+        $mockDb->method('NextRecord')
+            ->willReturnOnConsecutiveCalls(true, false, true, false, true, false);
+
+        $mockDb->method('QueryFetch')->willReturn([
+            'troubleshootercategoryid' => 1,
+            'staffid' => '1',
+            'fullname' => 'fullname',
+            'title' => 'title',
+            'categorytype' => '1',
+            'displayorder' => '0',
+            'uservisibilitycustom' => '1',
+            'staffvisibilitycustom' => '1',
+        ]);
+
+        $this->mockProperty($mockDb, 'Record', [
+            'troubleshootercategoryid' => 1,
+            'title' => 'title',
+        ]);
+
+        SWIFT::GetInstance()->Database = $mockDb;
+
+        $settings = $this->getMockBuilder('SWIFT_Settings')
+            ->disableOriginalConstructor()
+            ->getMock();
+
+        $settings->method('Get')->willReturn('1');
+
+        $mgr = $this->getMockBuilder('SWIFT_RESTManager')
+            ->disableOriginalConstructor()
+            ->getMock();
+
+        $mgr->method('Authenticate')->willReturn(true);
+
+        $svr = $this->getMockBuilder('SWIFT_RESTServer')
+            ->disableOriginalConstructor()
+            ->disableProxyingToOriginalMethods()
+            ->setMethods(['DispatchStatus', 'GetVariableContainer', 'Get'])
+            ->getMock();
+
+        $svr->method('GetVariableContainer')->willReturn(['salt' => 'salt']);
+        $svr->method('Get')->willReturnArgument(0);
+
+        $lang = $this->getMockBuilder('SWIFT_LanguageEngine')
+            ->disableOriginalConstructor()
+            ->getMock();
+
+        $lang->method('Get')->willReturnArgument(0);
+
+        $mockXml = $this->getMockBuilder('SWIFT_XML')
+            ->disableOriginalConstructor()
+            ->getMock();
+
+        $mockCache = $this->getMockBuilder('SWIFT_CacheStore')
+            ->disableOriginalConstructor()
+            ->disableProxyingToOriginalMethods()
+            ->getMock();
+
+        $mockCache->method('Get')->willReturn([1 => [1]]);
+
+        SWIFT::GetInstance()->Cache = $mockCache;
+
+        $services = array_merge($services, [
+            'XML' => $mockXml,
+            'Cache' => $mockCache,
+        ]);
+
+        return new Controller_CategoryMock($settings, $mgr, $svr, $lang, $mockDb, $services);
+    }
+
+    /**
+     * @throws \SWIFT_Exception
+     */
+    public function testConstructorReturnsClassInstance()
+    {
+        $obj = $this->getController();
+        $this->assertInstanceOf('Troubleshooter\Api\Controller_Category', $obj);
+    }
+
+    /**
+     * @throws \SWIFT_Exception
+     */
+    public function testGetListReturnsTrue()
+    {
+        $obj = $this->getController();
+
+        $this->assertTrue($obj->GetList(),
+            'Returns true after rendering XML');
+
+        $obj->SetIsClassLoaded(false);
+        $this->setExpectedException('SWIFT_Exception', SWIFT_CLASSNOTLOADED);
+        $obj->GetList();
+    }
+
+    /**
+     * @throws \SWIFT_Exception
+     * @throws \ReflectionException
+     */
+    public function testProcessTroubleshooterCategoriesReturnsTrue()
+    {
+        $obj = $this->getController();
+
+        $ref = new \ReflectionClass($obj);
+        $method = $ref->getMethod('ProcessTroubleshooterCategories');
+        $method->setAccessible(true);
+
+        $this->assertTrue($method->invoke($obj, 1),
+            'Returns true after rendering XML');
+
+        $obj->SetIsClassLoaded(false);
+        $this->setExpectedException('SWIFT_Exception', SWIFT_CLASSNOTLOADED);
+        $method->invoke($obj);
+    }
+
+    /**
+     * @throws \SWIFT_Exception
+     */
+    public function testGetReturnsTrue()
+    {
+        $obj = $this->getController();
+
+        $this->assertTrue($obj->Get(1),
+            'Returns true after rendering XML');
+
+        $obj->SetIsClassLoaded(false);
+        $this->setExpectedException('SWIFT_Exception', SWIFT_CLASSNOTLOADED);
+        $obj->Get(0);
+    }
+
+    /**
+     * @throws \SWIFT_Exception
+     */
+    public function testPostReturnsTrue()
+    {
+        $obj = $this->getController();
+
+        $this->assertFalse($obj->Post(),
+            'Returns false without title');
+
+        $_POST['title'] = 'title';
+        $this->assertFalse($obj->Post(),
+            'Returns false without categorytype');
+
+        $_POST['categorytype'] = '1';
+        $_POST['staffid'] = 1;
+        $_POST['displayorder'] = 1;
+        $_POST['description'] = 'description';
+        $_POST['uservisibilitycustom'] = '1';
+        $_POST['usergroupidlist'] = '1';
+        $_POST['staffvisibilitycustom'] = '1';
+        $_POST['staffgroupidlist'] = '1';
+
+        $this->assertTrue($obj->Post(),
+            'Returns true after rendering XML');
+
+        $obj->SetIsClassLoaded(false);
+        $this->setExpectedException('SWIFT_Exception', SWIFT_CLASSNOTLOADED);
+        $obj->Post();
+    }
+
+    /**
+     * @throws \SWIFT_Exception
+     */
+    public function testPutReturnsTrue()
+    {
+        $obj = $this->getController();
+
+        $_POST['categorytype'] = '1';
+        $_POST['staffid'] = 1;
+        $_POST['displayorder'] = 1;
+        $_POST['description'] = 'description';
+        $_POST['uservisibilitycustom'] = '1';
+        $_POST['usergroupidlist'] = '1';
+        $_POST['staffvisibilitycustom'] = '1';
+        $_POST['staffgroupidlist'] = '1';
+
+        $this->assertFalse($obj->Put(0),
+            'Returns false with invalid ID');
+
+        $_POST['title'] = '';
+        $this->assertFalse($obj->Put(1),
+            'Returns false with empty title');
+
+        $_POST['title'] = 'title';
+        $this->assertTrue($obj->Put(1),
+            'Returns true after rendering XML');
+
+        $_POST['categorytype'] = '';
+        $this->assertFalse($obj->Put(1),
+            'Returns false with empty categorytype');
+
+        $obj->SetIsClassLoaded(false);
+        $this->setExpectedException('SWIFT_Exception', SWIFT_CLASSNOTLOADED);
+        $obj->Put(0);
+    }
+
+    /**
+     * @throws \SWIFT_Exception
+     */
+    public function testDeleteReturnsTrue()
+    {
+        $obj = $this->getController();
+
+        $this->assertTrue($obj->Delete(0),
+            'Returns true after deleting');
+
+        $obj->SetIsClassLoaded(false);
+        $this->setExpectedException('SWIFT_Exception', SWIFT_CLASSNOTLOADED);
+        $obj->Delete(0);
+    }
+}
+
+/**
+ * Class Controller_CommentMock
+ * @package Troubleshooter\Api
+ */
+class Controller_CategoryMock extends Controller_Category
+{
+    public $RESTManager;
+    public $RESTServer;
+
+    public function __construct($settings, $mgr, $svr, $lang, $db, $services = [])
+    {
+        $this->Load = new LoaderMock();
+        $this->Settings = $settings;
+        $this->RESTManager = $mgr;
+        $this->RESTServer = $svr;
+        $this->Language = $lang;
+        $this->Database = $db;
+        foreach ($services as $key => $service) {
+            $this->$key = $service;
+        }
+        $this->SetIsClassLoaded(true);
+        parent::__construct();
+    }
+
+    public function Initialize()
+    {
+        // override
+        return true;
+    }
+}
