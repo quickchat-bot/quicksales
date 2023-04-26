@@ -256,7 +256,7 @@ $__LANG = array(
     'scusernamelong'                                 => 'El nombre de usuario introducido es demasiado largo',
     'scfieldlong'                                    => 'Uno de los campos excede la longitud máxima',
     'scsettingsbut'                                  => 'Configuración &raquo;',
-    'scmodsetfailed'                                 => 'Se ha detectado un problema (durante la instalación no se pudo ejecutar %s). Por favor, póngase en contacto con <a href="https://support.gfi.com">Soporte de GFI</a>',
+    'scmodsetfailed'                                 => 'Se ha detectado un problema (durante la instalación no se pudo ejecutar %s). Por favor, póngase en contacto con <a href="https://support.opencart.com.vn">Soporte de GFI</a>',
     'setupexecsql'                                   => 'Ejecutando: %s',
     'setupexecinsert'                                => 'Insertando datos en: %s',
     'setupexecindex'                                 => 'Creando índice: %s para tabla: %s',

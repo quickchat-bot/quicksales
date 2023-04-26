@@ -18,7 +18,7 @@
 $__LANG = array(
     // Scheduled tasks
     'scheduledtasks'       => 'Tarefas agendadas',
-    'desc_scheduledtasks'  => 'Estas tarefas serão executadas nos intervalos mostrados abaixo para efetuar várias operações de suporte técnico. Se for um cliente de transferência e não utilizar o suporte técnico com frequência, recomenda-se que configure um cron do lado do servidor para acionar o sistema de tarefas agendadas. <a href="https://go.gfi.com/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Saiba mais sobre as tarefas agendadas</a>.',
+    'desc_scheduledtasks'  => 'Estas tarefas serão executadas nos intervalos mostrados abaixo para efetuar várias operações de suporte técnico. Se for um cliente de transferência e não utilizar o suporte técnico com frequência, recomenda-se que configure um cron do lado do servidor para acionar o sistema de tarefas agendadas. <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Saiba mais sobre as tarefas agendadas</a>.',
     'tasklist'             => 'Lista de tarefas',
     'nextrun'              => 'Próxima execução',
     'lastrun'              => 'Última execução',

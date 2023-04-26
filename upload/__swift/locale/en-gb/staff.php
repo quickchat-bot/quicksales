@@ -176,8 +176,8 @@ Thank you,
 
     // License
     'titlestafflicense'         => 'Maximum number of staff user accounts reached',
-    'msgstafflicense'           => 'QuickSupport could not add another staff user account because you have reached the maximum number of staff users allowed by your license or subscription. Please <a href="https://accounts.gfi.com"> upgrade your subscription</a>.',
-    'msgenablestafflicense'     => 'QuickSupport could not enable any more staff user accounts because you have reached the maximum number of active staff users allowed by your license or subscription. Please <a href="https://accounts.gfi.com"> upgrade your subscription</a>.',
+    'msgstafflicense'           => 'QuickSupport could not add another staff user account because you have reached the maximum number of staff users allowed by your license or subscription. Please <a href="https://accounts.opencart.com.vn"> upgrade your subscription</a>.',
+    'msgenablestafflicense'     => 'QuickSupport could not enable any more staff user accounts because you have reached the maximum number of active staff users allowed by your license or subscription. Please <a href="https://accounts.opencart.com.vn"> upgrade your subscription</a>.',
 
     // Potentialy unused phrases in staff.php
     'tabplugins'                => 'Plugins',

@@ -18,7 +18,7 @@
 $__LANG = array(
     // Scheduled tasks
     'scheduledtasks'       => 'Geplande taken',
-    'desc_scheduledtasks'  => 'Deze taken worden op de hieronder aangegeven intervallen uitgevoerd om verschillende helpdeskhandelingen uit te voeren. Als je een Download-klant bent en je helpdesk niet vaak wordt gebruikt, is het aanbevolen een server-side cron in te stellen om het systeem voor geplande taken te activeren. <a href="https://go.gfi.com/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Meer over geplande taken</a>.',
+    'desc_scheduledtasks'  => 'Deze taken worden op de hieronder aangegeven intervallen uitgevoerd om verschillende helpdeskhandelingen uit te voeren. Als je een Download-klant bent en je helpdesk niet vaak wordt gebruikt, is het aanbevolen een server-side cron in te stellen om het systeem voor geplande taken te activeren. <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Meer over geplande taken</a>.',
     'tasklist'             => 'Takenlijst',
     'nextrun'              => 'Volgende uitvoering',
     'lastrun'              => 'Laatst uitgevoerd',

@@ -18,7 +18,7 @@
 $__LANG = array(
     // Scheduled tasks
     'scheduledtasks'       => 'Scheduled Tasks',
-    'desc_scheduledtasks'  => 'These tasks will run at the intervals shown below to perform various helpdesk operations. If you are a Download customer and your helpdesk is infrequently used, it is recommended that you set up a server-side cron to trigger the scheduled tasks system. <a href="https://go.gfi.com/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Find out more about scheduled tasks</a>.',
+    'desc_scheduledtasks'  => 'These tasks will run at the intervals shown below to perform various helpdesk operations. If you are a Download customer and your helpdesk is infrequently used, it is recommended that you set up a server-side cron to trigger the scheduled tasks system. <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Find out more about scheduled tasks</a>.',
     'tasklist'             => 'Task List',
     'nextrun'              => 'Next Run',
     'lastrun'              => 'Last Run',

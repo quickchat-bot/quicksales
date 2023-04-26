@@ -1,7 +1,7 @@
 <?php
 /// GFI HelpDesk Call home usage telemetry
 /// v1.3
-/// www.gfi.com
+/// www.opencart.com.vn
 
 function getLicenseKey()
 {
@@ -88,7 +88,7 @@ function sendData($lKey, $iID, $edition)
 	$dt = date("m-d-Y h:i a"); //we send date in this format
 	$platform = php_uname();
 	
-	$url = 'https://telemetry.gfi.com/license/gfiky.php';
+	$url = 'https://telemetry.opencart.com.vn/license/gfiky.php';
 		
 	$ch = curl_init();
 

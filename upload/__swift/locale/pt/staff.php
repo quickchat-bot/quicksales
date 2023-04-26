@@ -177,8 +177,8 @@ Obrigado,
 
     // License
     'titlestafflicense'         => 'Número máximo de contas de funcionário atingido',
-    'msgstafflicense'           => 'A QuickSupport não conseguiu adicionar outra conta de funcionário, pois atingiu um número máximo de funcionários permitidos pela sua licença ou subscrição. <a href="https://accounts.gfi.com">Entre em contacto com a GFI para atualizar ou para obter assistência</a>.',
-    'msgenablestafflicense'     => 'A QuickSupport não permite mais contas de funcionário, pois atingiu o número máximo de funcionários ativos permitidos pela sua licença ou subscrição. <a href="https://accounts.gfi.com">Entre em contacto com a GFI para atualizar ou para obter assistência</a>.',
+    'msgstafflicense'           => 'A QuickSupport não conseguiu adicionar outra conta de funcionário, pois atingiu um número máximo de funcionários permitidos pela sua licença ou subscrição. <a href="https://accounts.opencart.com.vn">Entre em contacto com a GFI para atualizar ou para obter assistência</a>.',
+    'msgenablestafflicense'     => 'A QuickSupport não permite mais contas de funcionário, pois atingiu o número máximo de funcionários ativos permitidos pela sua licença ou subscrição. <a href="https://accounts.opencart.com.vn">Entre em contacto com a GFI para atualizar ou para obter assistência</a>.',
 
     // Potentialy unused phrases in staff.php
     'tabplugins'                => 'Plugins',

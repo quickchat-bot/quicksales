@@ -18,7 +18,7 @@
 $__LANG = array(
     // Scheduled tasks
     'scheduledtasks'       => 'Operazioni pianificate',
-    'desc_scheduledtasks'  => 'Queste attività verranno eseguite agli intervalli illustrati qui sotto per compiere le varie operazioni di helpdesk. Se sei un cliente Download e il vostro helpdesk viene utilizzato di rado, è consigliato impostare un cron sul lato server per attivare il sistema di pianificazione delle attività. <a href="https://go.gfi.com/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Informati sulle attività pianificate</a>.',
+    'desc_scheduledtasks'  => 'Queste attività verranno eseguite agli intervalli illustrati qui sotto per compiere le varie operazioni di helpdesk. Se sei un cliente Download e il vostro helpdesk viene utilizzato di rado, è consigliato impostare un cron sul lato server per attivare il sistema di pianificazione delle attività. <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskTasks" target="_blank" rel="noopener noreferrer">Informati sulle attività pianificate</a>.',
     'tasklist'             => 'Elenco Attività',
     'nextrun'              => 'Prossima Esecuzione',
     'lastrun'              => 'Ultima Esecuzione',

@@ -114,7 +114,7 @@ $__LANG = array (
     'inserttgroup' => 'Template Group',
     'desc_inserttgroup' => 'Please select the Template Group for this Template.',
     'templateeditingguideline' => 'Template editing best practices',
-    'desc_templateeditingguideline' => 'Using the template editor you can customize the look and feel of the support center. If a future QuickSupport update also includes changes to the same template, you will be asked to restore the template to the latest original version. This will undo your template changes and you will need to reapply them.<br><br>To minimize potential headaches, check out the <a href="https://go.gfi.com/?pageid=GFIHelpDeskTemplates" target="_blank" rel="noopener noreferrer">template editing best practices guide</a> before customizing your support center.',
+    'desc_templateeditingguideline' => 'Using the template editor you can customize the look and feel of the support center. If a future QuickSupport update also includes changes to the same template, you will be asked to restore the template to the latest original version. This will undo your template changes and you will need to reapply them.<br><br>To minimize potential headaches, check out the <a href="https://go.opencart.com.vn/?pageid=GFIHelpDeskTemplates" target="_blank" rel="noopener noreferrer">template editing best practices guide</a> before customizing your support center.',
     'restoreconfirmaskcat' => 'Are you sure you wish to restore the Templates in this Category?\nYou cannot reverse this action; restoring the Templates might result in the loss of all UI changes you have made to existing Templates!',
     'inserttemplatetgroup' => 'Template Group',
     'inserttemplatetcategory' => 'Template Category',

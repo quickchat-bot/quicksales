@@ -177,8 +177,8 @@ Muchas gracias,
 
     // License
     'titlestafflicense'         => 'Se ha alcanzado el número máximo de cuentas de usuarios del personal',
-    'msgstafflicense'           => 'QuickSupport no pudo añadir otra cuenta de usuarios del personal porque ha alcanzado el número máximo de usuarios del personal permitidos por su licencia o suscripción. Por favor, <a href="https://accounts.gfi.com"> póngase en contacto con GFI para mejorar o para más asistencia</a>.',
-    'msgenablestafflicense'     => 'QuickSupport no pudo activar otra cuenta de usuarios del personal porque ha alcanzado el número máximo de usuarios del personal permitidos por su licencia o suscripción. Por favor, <a href="https://accounts.gfi.com"> póngase en contacto con GFI para mejorar o para más asistencia</a>.',
+    'msgstafflicense'           => 'QuickSupport no pudo añadir otra cuenta de usuarios del personal porque ha alcanzado el número máximo de usuarios del personal permitidos por su licencia o suscripción. Por favor, <a href="https://accounts.opencart.com.vn"> póngase en contacto con GFI para mejorar o para más asistencia</a>.',
+    'msgenablestafflicense'     => 'QuickSupport no pudo activar otra cuenta de usuarios del personal porque ha alcanzado el número máximo de usuarios del personal permitidos por su licencia o suscripción. Por favor, <a href="https://accounts.opencart.com.vn"> póngase en contacto con GFI para mejorar o para más asistencia</a>.',
 
     // Potentialy unused phrases in staff.php
     'tabplugins'                => 'Plugins',

@@ -174,8 +174,8 @@ Bedankt,',
 
     // License
     'titlestafflicense'         => 'Maximaal aantal medewerkergebruikersaccounts bereikt',
-    'msgstafflicense'           => 'QuickSupport kon niet nog een medewerkergebruikersaccount toevoegen, omdat je het maximale aantal medewerkergebruikers van je licentie of abonnement hebt bereikt. <a href="https://accounts.gfi.com">Neem contact op met GFI om te upgraden of voor verdere ondersteuning</a>.',
-    'msgenablestafflicense'     => 'QuickSupport kon niet nog meer medewerkergebruikersaccounts toevoegen, omdat je het maximale actieve aantal medewerkergebruikers van je licentie of abonnement hebt bereikt. <a href="https://accounts.gfi.com">Neem contact op met GFI om te upgraden of voor verdere ondersteuning</a>.',
+    'msgstafflicense'           => 'QuickSupport kon niet nog een medewerkergebruikersaccount toevoegen, omdat je het maximale aantal medewerkergebruikers van je licentie of abonnement hebt bereikt. <a href="https://accounts.opencart.com.vn">Neem contact op met GFI om te upgraden of voor verdere ondersteuning</a>.',
+    'msgenablestafflicense'     => 'QuickSupport kon niet nog meer medewerkergebruikersaccounts toevoegen, omdat je het maximale actieve aantal medewerkergebruikers van je licentie of abonnement hebt bereikt. <a href="https://accounts.opencart.com.vn">Neem contact op met GFI om te upgraden of voor verdere ondersteuning</a>.',
 
     // Potentialy unused phrases in staff.php
     'tabplugins'                => 'Plugins',

@@ -190,7 +190,7 @@
 				</form>
 			</div>
 			<{/if}>
-			<div id="bottomfooter"><a href="https://www.gfi.com/helpdesk/?utm_source=<{$_requestURL}>&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" class="bottomfooterlink" target="_blank" rel="noopener noreferrer"><{$_poweredByNotice}></a></div>
+			<div id="bottomfooter"><a href="https://www.opencart.com.vn/helpdesk/?utm_source=<{$_requestURL}>&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" class="bottomfooterlink" target="_blank" rel="noopener noreferrer"><{$_poweredByNotice}></a></div>
 		</div>
 	</body>
 

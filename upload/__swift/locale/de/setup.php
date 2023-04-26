@@ -256,7 +256,7 @@ $__LANG = array(
     'scusernamelong'                                 => 'Der eingegebene Benutzername ist zu lang',
     'scfieldlong'                                    => 'Eines der Felder überschreitet eine maximale Länge',
     'scsettingsbut'                                  => 'Einstellungen &raquo;',
-    'scmodsetfailed'                                 => 'Ein Problem ist aufgetreten (Setup konnte %s nicht ausführen). Bitte kontaktieren Sie das <a href="https://support.gfi.com">GFI Support</a>',
+    'scmodsetfailed'                                 => 'Ein Problem ist aufgetreten (Setup konnte %s nicht ausführen). Bitte kontaktieren Sie das <a href="https://support.opencart.com.vn">GFI Support</a>',
     'setupexecsql'                                   => 'Wird ausgeführt: %s',
     'setupexecinsert'                                => 'Daten einfügen in: %s',
     'setupexecindex'                                 => 'Index wird erstellt: %s für Tabelle: %s',

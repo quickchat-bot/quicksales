@@ -76,7 +76,7 @@
 <phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s QuickSupport]]></phrase>
 <phrase section="default" code="creationfailed"><![CDATA[Abbiamo riscontrato un problema (creazione di un oggetto non riuscita)]]></phrase>
 <phrase section="default" code="defaulttimezone"><![CDATA[-- Fuso Orario Predefinito --]]></phrase>
-<phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.gfi.com/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">GFI HelpDesk</a>.]]></phrase>
+<phrase section="default" code="defaulttitle"><![CDATA[<a href="https://www.opencart.com.vn/helpdesk/?utm_source=%s&utm_medium=chat&utm_content=powered-by-kayako-help-desk-software&utm_campaign=product_links" target="_blank" rel="noopener noreferrer" class="bottomfooterlink">GFI HelpDesk</a>.]]></phrase>
 <phrase section="mime" code="doc"><![CDATA[Documento MS Word]]></phrase>
 <phrase section="mime" code="docx"><![CDATA[Documento MS Word]]></phrase>
 <phrase section="users" code="emailaccounts"><![CDATA[Account Email]]></phrase>
